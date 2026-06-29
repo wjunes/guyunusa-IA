@@ -1,0 +1,42 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Base de datos
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Variables de entorno — NUNCA subir al repo
+.env
+backend/.env
+desktop/.env
+
+# Builds y distribución
+dist/
+desktop/dist/
+android/android/
+
+# Keystore — guardar en lugar seguro, no en git
+*.keystore
+*.jks
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Cache
+.npm/
+.eslintcache
