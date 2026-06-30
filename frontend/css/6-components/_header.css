@@ -77,3 +77,7 @@
   }
   .c-header__new-btn span { display: none; }
 }
+
+/* ── Botón "Descargar app Windows" ──
+   Movido a su propio archivo: 6-components/_header-download-btn.css
+   para facilitar ajustes manuales aislados. */

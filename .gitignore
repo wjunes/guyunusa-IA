@@ -18,6 +18,10 @@ dist/
 desktop/dist/
 android/android/
 
+# Instaladores Windows — demasiado pesados para git, subir manualmente al server
+backend/downloads/*.exe
+!backend/downloads/.gitkeep
+
 # Keystore — guardar en lugar seguro, no en git
 *.keystore
 *.jks

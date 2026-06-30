@@ -216,6 +216,6 @@
       linear-gradient(var(--color-white), var(--color-white)) 4px 4px / 2px calc(50vh - 14px) no-repeat,
     /* horizontal*/ linear-gradient(var(--color-white), var(--color-white)) 4px 4px / calc(50vw - 14px) 2px no-repeat,
     /* ── Línea 3: sol 1px — 10px más corta que la segunda ── */ /* vertical  */
-      linear-gradient(var(--color-sol), var(--color-sol)) 8px 8px / 1px calc(50vh - 26px) no-repeat,
-    /* horizontal*/ linear-gradient(var(--color-sol), var(--color-sol)) 8px 8px / calc(50vw - 26px) 1px no-repeat;
+      linear-gradient(var(--color-sol-bright), var(--color-sol-bright)) 8px 8px / 1px calc(50vh - 26px) no-repeat,
+    /* horizontal*/ linear-gradient(var(--color-sol-bright), var(--color-sol-bright)) 8px 8px / calc(50vw - 26px) 1px no-repeat;
 }

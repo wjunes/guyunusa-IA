@@ -4,6 +4,7 @@ import { login }             from '../services/auth.js';
 import { store, router }     from '../app.js';
 import { toggleTheme,
          getCurrentTheme }   from '../modules/theme.js';
+import { Platform }          from '../modules/native.js';
 
 export function mount() {
   const app = clearApp();
@@ -11,10 +12,19 @@ export function mount() {
   app.innerHTML = `
     <div class="auth-screen">
 
-      <button class="auth-theme-btn" id="auth-theme-btn"
-              title="Cambiar tema" aria-label="Cambiar tema">
-        ${themeIcon()}
-      </button>
+      <div class="auth-topbar">
+        ${Platform.isDesktopBrowser ? `
+          <button class="auth-download-btn" id="auth-download-win"
+                  title="Descargar app de escritorio para Windows">
+            ${iconWindows()}
+            <span>Descargar app Windows</span>
+          </button>` : ''}
+
+        <button class="auth-theme-btn" id="auth-theme-btn"
+                title="Cambiar tema" aria-label="Cambiar tema">
+          ${themeIcon()}
+        </button>
+      </div>
 
       <div class="auth-brand">
         <div class="auth-brand__logo">
@@ -66,6 +76,18 @@ export function mount() {
           <p class="auth-switch">
             ¿No tenés cuenta? <a href="#/register">Registrate</a>
           </p>
+
+          <div class="auth-playstore-wrap">
+              <button class="auth-playstore-btn" id="auth-playstore-btn"
+                      title="Descargar Guyunusa para Android">
+                ${iconPlayStore()}
+                <span class="auth-playstore-btn__text">
+                  <small>Disponible en</small>
+                  <strong>Google Play</strong>
+                </span>
+              </button>
+            </div>
+
         </div>
       </div>
 
@@ -87,6 +109,18 @@ export function mount() {
   $('#auth-theme-btn')?.addEventListener('click', function() {
     toggleTheme();
     this.innerHTML = themeIcon();
+  });
+
+  $('#auth-download-win')?.addEventListener('click', async () => {
+    try {
+      const { openDownloadModal } = await import('../components/downloadModal.js');
+      openDownloadModal();
+    } catch { /* módulo no disponible — falla silenciosa */ }
+  });
+
+  // Play Store — placeholder hasta tener la app publicada
+  $('#auth-playstore-btn')?.addEventListener('click', () => {
+    window.open('https://play.google.com/store/apps/details?id=uy.guyunusa.app', '_blank', 'noopener');
   });
 
   const form      = $('#login-form');
@@ -181,5 +215,20 @@ function googleIcon() {
     <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
     <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
     <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+  </svg>`;
+}
+
+function iconWindows() {
+  return `<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.832V8.313H0v5.482zM7.278 8.313v6.4L16 16V8.313H7.278zM16 0 7.278 1.21v7.103H16V0z"/>
+  </svg>`;
+}
+
+function iconPlayStore() {
+  return `<svg width="22" height="22" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#00D2FF" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+    <path fill="#00F076" d="M47.5 0c-7 4.4-11.4 12.3-11.4 23v466c0 10.7 4.4 18.6 11.4 23l264.6-256L47.5 0z"/>
+    <path fill="#FF3A44" d="M325.3 277.7 104.6 499l280.7-161.2-60-60.1z"/>
+    <path fill="#FFBC00" d="M384.9 226.2 405 207l59.8 32.6c14.4 8 14.4 21 0 29l-59.8 32.6-60.7-60.7 60.6-60.6z"/>
   </svg>`;
 }

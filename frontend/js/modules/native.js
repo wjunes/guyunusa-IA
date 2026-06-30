@@ -15,6 +15,27 @@ export const Platform = {
   isElectron:  typeof window !== 'undefined' && !!window.electronAPI,
   get isNative() { return this.isCapacitor || this.isElectron; },
   get isWeb()    { return !this.isNative; },
+
+  /**
+   * Navegador móvil real (Chrome/Safari en un celular), NO la app
+   * empaquetada con Capacitor. Se usa para decidir qué botón de
+   * descarga mostrar: Windows en desktop web, Play Store en mobile web.
+   * Detección combinada: userAgent + ancho de viewport, para cubrir
+   * tablets en modo desktop y ventanas angostas en desktop.
+   */
+  get isMobileBrowser() {
+    if (typeof window === 'undefined' || this.isNative) return false;
+    const ua = navigator.userAgent || '';
+    const uaIsMobile = /Android|iPhone|iPad|iPod|Mobile|webOS|BlackBerry/i.test(ua);
+    const narrowViewport = window.innerWidth <= 820;
+    return uaIsMobile || narrowViewport;
+  },
+
+  /** Navegador de escritorio real — ni app nativa ni mobile web */
+  get isDesktopBrowser() {
+    return this.isWeb && !this.isMobileBrowser;
+  },
+
   get name() {
     if (this.isCapacitor) return 'android';
     if (this.isElectron)  return 'desktop';

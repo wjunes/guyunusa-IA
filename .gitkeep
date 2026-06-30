@@ -1,0 +1,13 @@
+# Esta carpeta contiene los instaladores de Guyunusa Desktop
+
+Colocá acá los archivos .exe generados por electron-builder:
+
+- Guyunusa-Setup-X.Y.Z.exe      → se detecta automáticamente como "Instalador"
+- Guyunusa-Portable-X.Y.Z.exe   → se detecta automáticamente como "Portable"
+  (el nombre debe contener la palabra "portable", sin importar mayúsculas)
+
+El backend los sirve en /downloads/<nombre-archivo>
+y el endpoint GET /api/v1/downloads los detecta solo.
+
+No hace falta tocar código al subir una nueva versión —
+solo reemplazá los archivos acá.

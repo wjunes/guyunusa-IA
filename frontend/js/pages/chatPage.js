@@ -34,8 +34,7 @@ export async function mount() {
     <div class="o-app" id="o-app">
       <div class="o-sidebar-overlay" id="sidebar-overlay"></div>
       <aside class="o-sidebar" id="o-sidebar"></aside>
-      <div class="o-resize-handle" id="o-resize-handle"
-           title="Arrastrá para cambiar el tamaño"></div>
+      <div class="o-resize-handle" id="o-resize-handle"></div>
       <button class="o-sidebar-toggle" id="o-sidebar-toggle"
               aria-label="Mostrar/ocultar historial"></button>
       <div class="o-main">
@@ -51,9 +50,8 @@ export async function mount() {
 
   renderAll();
   initSidebarResize();
-  renderFooter();
+  mountFooter();
   registerEvents(isMobile);
-
   setTimeout(() => maybeShowLangBanner(), 1200);
 }
 
@@ -64,30 +62,25 @@ function renderAll() {
   renderInputBar(store);
 }
 
-function renderFooter() {
+function mountFooter() {
   const el = document.querySelector('.o-footer');
   if (!el) return;
   el.innerHTML = `
     <footer class="c-footer">
       <img class="c-footer__icon" src="assets/icons/guyunusa.ico" alt="Guyunusa"/>
       <span class="c-footer__brand">guyunusa.uy — IA Uruguaya</span>
-      <span class="c-footer__sep">·</span>
-      <span>© 2026</span>
+      <span class="c-footer__sep">·</span><span>© 2026</span>
       <span class="c-footer__sep">·</span>
       <span>Desarrollado por: Willans Junes —
         <a class="c-footer__link" href="https://www.algoritmos.uy"
            target="_blank" rel="noopener noreferrer">www.algoritmos.uy</a>
       </span>
-    </footer>
-  `;
+    </footer>`;
 }
 
 function registerEvents(isMobile) {
-  [
-    'sidebar:toggle','sidebar:close',
-    'conv:new','conv:select','conv:deleted',
-    'conv:delete-request','conv:share',
-    'message:send','user:logout',
+  ['sidebar:toggle','sidebar:close','conv:new','conv:select','conv:deleted',
+   'conv:delete-request','conv:share','message:send','user:logout',
   ].forEach(ev => EventBus.off(ev));
 
   EventBus.on('sidebar:toggle',      () => onSidebarToggle(isMobile));
@@ -101,13 +94,9 @@ function registerEvents(isMobile) {
   EventBus.on('user:logout',         onLogout);
 
   $('#sidebar-overlay')?.addEventListener('click', closeSidebar);
-  store.subscribe('conversations', () => {
-    renderSidebar(store);
-    renderHeader(store);
-  });
+  store.subscribe('conversations', () => { renderSidebar(store); renderHeader(store); });
 }
 
-/* ── Sidebar ── */
 function openSidebar() {
   $('#o-sidebar')?.classList.add('o-sidebar--open');
   $('#sidebar-overlay')?.classList.add('o-sidebar-overlay--visible');
@@ -119,19 +108,13 @@ function closeSidebar() {
   store.set('sidebarOpen', false);
 }
 function onSidebarToggle(isMobile) {
-  if (isMobile) {
-    store.get('sidebarOpen') ? closeSidebar() : openSidebar();
-  } else {
-    document.getElementById('o-sidebar-toggle')?.click();
-  }
+  if (isMobile) store.get('sidebarOpen') ? closeSidebar() : openSidebar();
+  else document.getElementById('o-sidebar-toggle')?.click();
 }
 
-/* ── Conversaciones ── */
 function onNewConv() {
   store.update({ activeConvId: null, messages: [] });
-  renderHeader(store);
-  renderChatWindow(store);
-  renderInputBar(store);
+  renderHeader(store); renderChatWindow(store); renderInputBar(store);
   closeSidebar();
   setTimeout(() => document.getElementById('chat-input')?.focus(), 80);
 }
@@ -140,79 +123,62 @@ async function onConvSelect(id, isMobile) {
   if (store.get('activeConvId') === id) { closeSidebar(); return; }
   try {
     await loadMessages(id, store);
-    renderSidebar(store);
-    renderHeader(store);
-    renderChatWindow(store);
-    renderInputBar(store);
+    renderSidebar(store); renderHeader(store); renderChatWindow(store); renderInputBar(store);
     if (isMobile) closeSidebar();
     setTimeout(() => document.getElementById('chat-input')?.focus(), 80);
   } catch (err) { showError(err.message); }
 }
 
-function onConvDeleted() {
-  renderSidebar(store);
-  renderHeader(store);
-  renderChatWindow(store);
-}
+function onConvDeleted() { renderSidebar(store); renderHeader(store); renderChatWindow(store); }
 
 async function onDeleteRequest(id) {
   const tr = t();
   const ok = await showConfirm(
     tr?.chat?.deleteConvTitle || 'Eliminar conversación',
     tr?.chat?.deleteConvBody  || '¿Eliminás esta conversación?',
-    tr?.chat?.delete          || 'Eliminar',
-    tr?.chat?.cancel          || 'Cancelar',
+    tr?.chat?.delete || 'Eliminar',
+    tr?.chat?.cancel || 'Cancelar',
   );
   if (!ok) return;
   try {
     await deleteConversation(id, store);
-    renderSidebar(store);
-    renderHeader(store);
+    renderSidebar(store); renderHeader(store);
     if (store.get('activeConvId') === id) {
       store.update({ activeConvId: null, messages: [] });
-      renderChatWindow(store);
-      renderInputBar(store);
+      renderChatWindow(store); renderInputBar(store);
     }
   } catch (err) { showError(err.message); }
 }
 
-/* ════════════════════════════════════════════════════════
-   ENVÍO DE MENSAJE CON STREAMING SSE
-   ════════════════════════════════════════════════════════ */
+/* ══════════════════════════════════════════════════════════
+   MENSAJE CON STREAMING — estado LOCAL, no global
+   ══════════════════════════════════════════════════════════ */
 async function onMessageSend(text) {
   if (store.get('loading')) return;
   await vibrate('light');
 
-  // 1. Mostrar mensaje del usuario de inmediato
-  appendMessage({
-    role: 'user', content: text,
-    created_at: new Date().toISOString(),
-  }, store);
+  // Mostrar mensaje del usuario
+  appendMessage({ role: 'user', content: text, created_at: new Date().toISOString() }, store);
 
-  // 2. Crear burbuja de streaming vacía con cursor parpadeante
-  createStreamBubble(store);
+  // Crear burbuja de stream y guardar la REF LOCAL aquí
+  const streamRef = createStreamBubble();
+  let   streamBuf = '';
+
   setInputLoading(true);
-
-  let newConvId = null;
 
   await sendMessageStream(text, store.get('activeConvId'), store, {
 
-    // Conversación creada (si era nueva)
-    onStart: (convId) => {
-      newConvId = convId;
-    },
+    onStart: (_convId) => { /* se usa en onDone */ },
 
-    // Chunk de texto recibido → actualiza la burbuja en tiempo real
     onChunk: (chunk) => {
-      appendStreamChunk(chunk);
+      // appendStreamChunk retorna el buffer acumulado
+      streamBuf = appendStreamChunk(streamRef, chunk, streamBuf);
     },
 
-    // Stream completo
-    onDone: async (convId, provider) => {
-      finalizeStream();
+    onDone: async (convId) => {
+      finalizeStream(streamRef, streamBuf);
       await vibrate('light');
 
-      // Actualizar ID de conversación si era nueva
       if (convId && !store.get('activeConvId')) {
         store.set('activeConvId', convId);
         await loadConversations(store).catch(() => {});
@@ -221,9 +187,8 @@ async function onMessageSend(text) {
       }
     },
 
-    // Error en el stream
     onError: (msg) => {
-      cancelStream(msg || t()?.chat?.errorConn || 'Error de conexión');
+      cancelStream(streamRef, msg || t()?.chat?.errorConn || 'Error de conexión');
     },
   });
 
@@ -233,7 +198,6 @@ async function onMessageSend(text) {
 
 function onLogout() { logout(store); router.navigate('/login'); }
 
-/* ── Helpers ── */
 function showConfirm(title, body, confirmLabel, cancelLabel) {
   return new Promise(resolve => {
     const overlay = document.createElement('div');
@@ -260,13 +224,10 @@ function showError(msg) {
   const existing = document.getElementById('chat-error');
   if (existing) existing.remove();
   const el = document.createElement('div');
-  el.id = 'chat-error';
-  el.textContent = msg;
-  el.style.cssText = `
-    position:fixed;bottom:100px;left:50%;transform:translateX(-50%);
-    background:#c0392b;color:white;padding:10px 20px;
-    border-radius:8px;font-size:14px;z-index:300;
-    box-shadow:0 4px 16px rgba(0,0,0,.2);white-space:nowrap;`;
+  el.id = 'chat-error'; el.textContent = msg;
+  el.style.cssText = `position:fixed;bottom:100px;left:50%;transform:translateX(-50%);
+    background:#c0392b;color:white;padding:10px 20px;border-radius:8px;
+    font-size:14px;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);white-space:nowrap;`;
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 4000);
 }

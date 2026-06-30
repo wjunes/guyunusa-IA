@@ -3,6 +3,7 @@ import { EventBus }                   from '../modules/eventBus.js';
 import { toggleTheme, getCurrentTheme,
          onThemeChange }              from '../modules/theme.js';
 import { t }                          from '../modules/i18n.js';
+import { Platform }                   from '../modules/native.js';
 
 export function renderHeader(store) {
   const el = $('.o-header');
@@ -28,6 +29,14 @@ export function renderHeader(store) {
         ${isDark ? iconSun() : iconMoon()}
       </button>
 
+      <!-- Descargar app Windows — solo visible en navegador web -->
+      ${Platform.isDesktopBrowser ? `
+        <button class="c-header__download-btn" id="btn-download-win"
+                title="Descargar app de escritorio para Windows">
+          ${iconWindows()}
+          <span>Descargar app Windows</span>
+        </button>` : ''}
+
       <!-- Nueva conversación -->
       <button class="c-header__new-btn" id="btn-header-new"
               title="${tr.header.newConvTitle}">
@@ -41,6 +50,12 @@ export function renderHeader(store) {
   `;
 
   $('#btn-header-new')?.addEventListener('click', () => EventBus.emit('conv:new'));
+  $('#btn-download-win')?.addEventListener('click', async () => {
+    try {
+      const { openDownloadModal } = await import('./downloadModal.js');
+      openDownloadModal();
+    } catch { /* módulo no disponible — falla silenciosa, no rompe el resto */ }
+  });
 
   const themeBtn = $('#btn-theme');
   themeBtn?.addEventListener('click', () => {
@@ -66,6 +81,11 @@ function iconMoon() {
 function iconSun() {
   return `<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
     <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+  </svg>`;
+}
+function iconWindows() {
+  return `<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.832V8.313H0v5.482zM7.278 8.313v6.4L16 16V8.313H7.278zM16 0 7.278 1.21v7.103H16V0z"/>
   </svg>`;
 }
 function escHTML(s) {

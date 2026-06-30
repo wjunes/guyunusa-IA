@@ -26,6 +26,8 @@
 /* 6. Components — componentes de UI específicos */
 @import './6-components/_auth.css';
 @import './6-components/_header.css';
+@import './6-components/_header-download-btn.css';
+@import './6-components/_auth-playstore-btn.css';
 @import './6-components/_sidebar.css';
 @import './6-components/_chat.css';
 @import './6-components/_message.css';

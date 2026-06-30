@@ -1,0 +1,66 @@
+/* ═══════════════════════════════════════════════════════
+   BOTÓN "Disponible en Google Play" — Login / Register
+   Visible solo en navegador móvil (no apps nativas),
+   en el rango de viewport 360px–1024px.
+   Archivo aislado para fácil ajuste manual.
+   ═══════════════════════════════════════════════════════ */
+
+.auth-playstore-wrap {
+  display: none; /* oculto por defecto, se habilita en el rango de media query */
+  justify-content: center;
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-color);
+}
+
+.auth-playstore-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 18px;
+  border-radius: var(--radius-md);
+  background: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: background 150ms, transform 150ms;
+}
+.auth-playstore-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+}
+.auth-playstore-btn:active {
+  transform: translateY(0);
+}
+
+.auth-playstore-btn svg { flex-shrink: 0; display: block; }
+
+.auth-playstore-btn__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.15;
+}
+.auth-playstore-btn__text small {
+  font-size: 10px;
+  color: #cfcfcf;
+  font-weight: var(--weight-normal);
+}
+.auth-playstore-btn__text strong {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: var(--weight-medium);
+  letter-spacing: .2px;
+}
+
+/* Modo oscuro — el botón ya es negro/blanco, queda igual en ambos temas,
+   solo se ajusta el borde superior del wrapper */
+[data-theme="dark"] .auth-playstore-wrap {
+  border-top-color: var(--border-color);
+}
+
+/* ── Rango de visibilidad: 360px a 1024px ──
+   Por debajo de 360px (raro, pero por las dudas) y por encima
+   de 1024px (desktop) el botón permanece oculto. */
+@media (min-width: 360px) and (max-width: 1024px) {
+  .auth-playstore-wrap { display: flex; }
+}

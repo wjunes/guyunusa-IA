@@ -55,8 +55,8 @@ export function renderInputBar(store) {
 
   sendBtn.addEventListener('click', doSend);
 
-  // ── STT ──
-  initSTT(textarea, sendBtn, micBtn);
+  // ── STT ── retorna una función para limpiar el buffer interno del micrófono
+  const resetSTTBuffer = initSTT(textarea, sendBtn, micBtn);
 
   function doSend() {
     const text = textarea.value.trim();
@@ -64,6 +64,7 @@ export function renderInputBar(store) {
     textarea.value = '';
     textarea.style.height = 'auto';
     sendBtn.disabled = true;
+    resetSTTBuffer(); // limpiar savedText/finalText para que el mic no lo reinyecte
     EventBus.emit('message:send', text);
   }
 }
@@ -81,73 +82,103 @@ function initSTT(textarea, sendBtn, micBtn) {
   if (!SpeechRecognition) {
     // Browser no soporta STT — ocultar el botón
     micBtn.style.display = 'none';
-    return;
+    return () => {}; // no-op para que doSend() pueda llamarla igual
   }
 
   const recognition = new SpeechRecognition();
-  recognition.lang         = getLang();
-  recognition.continuous   = false;
-  recognition.interimResults = true;
+  recognition.lang            = getLang();
+  recognition.continuous      = true;   // no cortar por pausas cortas
+  recognition.interimResults  = true;   // texto provisional mientras habla
   recognition.maxAlternatives = 1;
 
-  let isListening  = false;
-  let savedText    = ''; // texto que había antes de empezar a grabar
+  let isListening = false;
+  let userStopped = false; // true solo si el usuario hizo clic para detener
+  let savedText   = '';    // texto que había ANTES de empezar a grabar
+  let finalText   = '';    // resultados ya confirmados (acumulado de la sesión)
+
+  /** Limpia el buffer interno — se llama al enviar el mensaje.
+   *  No alcanza con limpiar las variables JS: el objeto recognition
+   *  del navegador mantiene su propio buffer de resultados mientras
+   *  la sesión sigue activa. Hay que abortarlo para descartarlo de raíz.
+   *  El listener de 'end' ve userStopped=false y reinicia solo,
+   *  así el usuario no nota que el micrófono se "cerró". */
+  function resetBuffer() {
+    savedText = '';
+    finalText = '';
+    if (isListening) {
+      try { recognition.abort(); } catch { /* noop */ }
+    }
+  }
 
   micBtn.addEventListener('click', () => {
     if (isListening) {
+      userStopped = true;
       recognition.stop();
     } else {
-      savedText          = textarea.value;
-      recognition.lang   = getLang();
-      recognition.start();
+      savedText        = textarea.value;
+      finalText        = '';
+      userStopped      = false;
+      recognition.lang = getLang();
+      try { recognition.start(); } catch { /* ya estaba iniciado */ }
     }
   });
 
-  // Mientras habla — muestra texto provisional
+  // Mientras habla — combina lo ya confirmado + lo provisional de esta toma
   recognition.addEventListener('result', (e) => {
-    const transcript = Array.from(e.results)
-      .map(r => r[0].transcript)
-      .join('');
-    textarea.value = savedText + (savedText ? ' ' : '') + transcript;
-    textarea.dispatchEvent(new Event('input')); // actualizar altura y botón send
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const transcript = e.results[i][0].transcript;
+      if (e.results[i].isFinal) finalText += transcript + ' ';
+      else                       interim   += transcript;
+    }
+    const base = savedText + (savedText ? ' ' : '');
+    textarea.value = base + finalText + interim;
+    textarea.dispatchEvent(new Event('input')); // recalcular altura y botón enviar
   });
 
-  // Empezó a escuchar
   recognition.addEventListener('start', () => {
     isListening = true;
     micBtn.classList.add('c-input-bar__mic--active');
     micBtn.setAttribute('aria-label', 'Grabando... (clic para detener)');
     micBtn.innerHTML = iconMicActive();
-    micBtn.title = 'Grabando — clic para detener';
+    micBtn.title = 'Grabando... — clic para detener';
   });
 
-  // Terminó
+  // El navegador puede cortar el reconocimiento por inactividad interna
+  // aunque continuous esté en true. Si el usuario NO pidió detener,
+  // reiniciamos automáticamente para simular escucha continua real.
   recognition.addEventListener('end', () => {
+    if (!userStopped) {
+      try { recognition.start(); return; } catch { /* sigue abajo como fallback */ }
+    }
+
     isListening = false;
     micBtn.classList.remove('c-input-bar__mic--active');
     micBtn.setAttribute('aria-label', 'Micrófono');
     micBtn.innerHTML = iconMic();
     micBtn.title = 'Dictar mensaje (voz)';
 
-    // Si hay texto, habilitar el botón de envío
     if (textarea.value.trim()) {
       sendBtn.disabled = false;
       textarea.focus();
     }
   });
 
-  // Error
   recognition.addEventListener('error', (e) => {
-    isListening = false;
-    micBtn.classList.remove('c-input-bar__mic--active');
-    micBtn.innerHTML = iconMic();
-
+    // 'no-speech' y 'aborted' no son errores reales en modo continuo —
+    // el listener de 'end' decide si reiniciar o no.
     if (e.error === 'not-allowed') {
+      userStopped = true;
+      isListening = false;
+      micBtn.classList.remove('c-input-bar__mic--active');
+      micBtn.innerHTML = iconMic();
       showMicToast('Permiso de micrófono denegado. Habilitalo en la configuración del navegador.');
-    } else if (e.error === 'no-speech') {
-      showMicToast('No se detectó voz. Intentá de nuevo.');
+    } else if (e.error !== 'no-speech' && e.error !== 'aborted') {
+      userStopped = true;
     }
   });
+
+  return resetBuffer; // expuesta para que doSend() la invoque al enviar
 }
 
 function getLang() {

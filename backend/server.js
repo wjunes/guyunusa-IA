@@ -10,6 +10,7 @@ import storyRoutes   from './src/routes/story.routes.js';
 import paymentRoutes from './src/routes/payment.routes.js';
 import chatRoutes from './src/routes/chat.routes.js';
 import userRoutes from './src/routes/user.routes.js';
+import downloadsRoutes from './src/routes/downloads.routes.js';
 
 const app  = express();
 const PORT = process.env.PORT || 3000;
@@ -66,12 +67,29 @@ async function main() {
     app.use(express.static(frontendPath));
   }
 
+  // ── Descargas de la app desktop (instalable .exe y portable) ──
+  // Carpeta backend/downloads
+  {
+    const { default: path } = await import('path');
+    const { fileURLToPath } = await import('url');
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+    const downloadsPath = path.join(__dirname, 'downloads');
+    app.use('/downloads', express.static(downloadsPath, {
+      // Forzar descarga en lugar de abrir en el navegador
+      setHeaders: (res, filePath) => {
+        const filename = path.basename(filePath);
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+      },
+    }));
+  }
+
   // ── Rutas API ──
-  app.use('/api/v1/auth',  authRoutes);
-  app.use('/api/v1/story',   storyRoutes);
-  app.use('/api/v1/payment', paymentRoutes);
-  app.use('/api/v1/chat', chatRoutes);
-  app.use('/api/v1/user', userRoutes);
+  app.use('/api/v1/auth',      authRoutes);
+  app.use('/api/v1/story',     storyRoutes);
+  app.use('/api/v1/payment',   paymentRoutes);
+  app.use('/api/v1/chat',      chatRoutes);
+  app.use('/api/v1/user',      userRoutes);
+  app.use('/api/v1/downloads', downloadsRoutes);
 
   // ── Health check ──
   app.get('/api/v1/health', (_req, res) => {
