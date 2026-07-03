@@ -1,3 +1,4 @@
+import { getAssetURL } from '../services/api.js';
 import { $, $$ }              from '../utils/dom.js';
 import { truncate, initial }  from '../utils/helpers.js';
 import { EventBus }           from '../modules/eventBus.js';
@@ -62,7 +63,13 @@ export function renderSidebar(store) {
           </button>
         </div>
         <div class="c-sidebar__user">
-          <div class="c-sidebar__avatar">${initial(user.username)}</div>
+          <div class="c-sidebar__avatar">
+            ${user.avatar_url
+              ? `<img src="${getAssetURL(user.avatar_url)}" alt="${escHTML(user.username)}"
+                     style="width:100%;height:100%;object-fit:cover;border-radius:50%;"/>`
+              : initial(user.username)
+            }
+          </div>
           <div class="c-sidebar__user-info">
             <div class="c-sidebar__user-name">${escHTML(user.username || '')}</div>
             <div class="c-sidebar__user-plan">

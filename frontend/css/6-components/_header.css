@@ -81,3 +81,28 @@
 /* ── Botón "Descargar app Windows" ──
    Movido a su propio archivo: 6-components/_header-download-btn.css
    para facilitar ajustes manuales aislados. */
+
+/* ── Botón configuración — solo visible en mobile browser ── */
+.c-header__settings-btn {
+  display: none; /* oculto por defecto */
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background var(--transition), color var(--transition);
+}
+.c-header__settings-btn:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Visible solo en pantallas ≤ 768px */
+@media (max-width: 768px) {
+  .c-header__settings-btn { display: flex; }
+}

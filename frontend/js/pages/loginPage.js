@@ -5,6 +5,7 @@ import { store, router }     from '../app.js';
 import { toggleTheme,
          getCurrentTheme }   from '../modules/theme.js';
 import { Platform }          from '../modules/native.js';
+import { maybeShowLangBanner } from '../components/langBanner.js';
 
 export function mount() {
   const app = clearApp();
@@ -105,6 +106,9 @@ export function mount() {
       </span>
     </footer>
   `;
+
+  // Banner de detección de idioma — en todas las pantallas
+  setTimeout(() => maybeShowLangBanner(), 800);
 
   $('#auth-theme-btn')?.addEventListener('click', function() {
     toggleTheme();

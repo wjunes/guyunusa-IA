@@ -22,7 +22,7 @@ import { deleteConversation }     from '../services/chat.js';
 import { maybeShowLangBanner }    from '../components/langBanner.js';
 import { initSidebarResize }      from '../modules/sidebarResize.js';
 
-window.__guyunusa__ = { EventBus };
+window.__guyunusa__ = { EventBus, store };
 
 export async function mount() {
   if (!store.get('user')) { router.navigate('/login'); return; }

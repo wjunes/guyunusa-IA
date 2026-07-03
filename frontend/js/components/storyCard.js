@@ -4,7 +4,7 @@
  * Al hacer clic, el asistente narra la historia al usuario.
  */
 import { EventBus } from '../modules/eventBus.js';
-import { t }        from '../modules/i18n.js';
+import { t } from '../modules/i18n.js';
 
 const STORY_PROMPT = {
   es: '¿Podés contarme la historia de cómo fue creada Guyunusa y quién es su creador?',
@@ -27,15 +27,15 @@ export function createStoryCard(lang = 'es') {
           @keyframes sc-spin { to { transform: rotate(360deg); } }
         </style>
         <g class="sc-rays" opacity=".9">
-          ${Array.from({length:16},(_,i)=>{
-            const a=(i*360/16)*Math.PI/180;
-            const x1=(45+22*Math.cos(a)).toFixed(1), y1=(45+22*Math.sin(a)).toFixed(1);
-            const x2=(45+36*Math.cos(a)).toFixed(1), y2=(45+36*Math.sin(a)).toFixed(1);
-            const x3=(45+31*Math.cos(a)).toFixed(1), y3=(45+31*Math.sin(a)).toFixed(1);
-            return i%2===0
-              ? `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#e8b84b" stroke-width="2.5" stroke-linecap="round"/>`
-              : `<line x1="${x1}" y1="${y1}" x2="${x3}" y2="${y3}" stroke="#e8b84b" stroke-width="1.5" stroke-linecap="round"/>`;
-          }).join('')}
+          ${Array.from({ length: 16 }, (_, i) => {
+    const a = (i * 360 / 16) * Math.PI / 180;
+    const x1 = (45 + 22 * Math.cos(a)).toFixed(1), y1 = (45 + 22 * Math.sin(a)).toFixed(1);
+    const x2 = (45 + 36 * Math.cos(a)).toFixed(1), y2 = (45 + 36 * Math.sin(a)).toFixed(1);
+    const x3 = (45 + 31 * Math.cos(a)).toFixed(1), y3 = (45 + 31 * Math.sin(a)).toFixed(1);
+    return i % 2 === 0
+      ? `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#e8b84b" stroke-width="2.5" stroke-linecap="round"/>`
+      : `<line x1="${x1}" y1="${y1}" x2="${x3}" y2="${y3}" stroke="#e8b84b" stroke-width="1.5" stroke-linecap="round"/>`;
+  }).join('')}
         </g>
         <circle cx="45" cy="45" r="19" fill="#e8b84b"/>
         <circle cx="45" cy="45" r="16" fill="#f0c96a"/>
@@ -46,13 +46,10 @@ export function createStoryCard(lang = 'es') {
     </div>
 
     <div class="c-story-card__body">
-      <div class="c-story-card__eyebrow">Historia de origen</div>
       <div class="c-story-card__title">
         La historia de Guyunusa y su creador
       </div>
-      <p class="c-story-card__desc">
-        Conocé cómo nació esta IA uruguaya, quién la construyó y por qué lleva este nombre.
-      </p>
+
     </div>
 
     <button class="c-story-card__btn" aria-label="Leer la historia">

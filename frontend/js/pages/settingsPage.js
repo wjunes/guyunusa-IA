@@ -1,12 +1,13 @@
 import { clearApp, $, $$ }   from '../utils/dom.js';
 import { store, router }      from '../app.js';
 import { logout }             from '../services/auth.js';
-import { api }                from '../services/api.js';
+import { api, getAssetURL }   from '../services/api.js';
 import { setTheme, getCurrentTheme, onThemeChange } from '../modules/theme.js';
 import { t, getLang }         from '../modules/i18n.js';
 import { renderLangSelector } from '../components/langSelector.js';
 import { initial }            from '../utils/helpers.js';
 import { Platform }           from '../modules/native.js';
+import { openAvatarCropper }  from '../components/avatarCropper.js';
 import { openPaymentModal }    from '../components/paymentModal.js';
 import { FREE_DAILY_LIMIT }   from '../../../shared/constants.js';
 
@@ -138,7 +139,12 @@ export function mount() {
         <!-- ① Perfil -->
         <div class="c-settings__section">
           <div class="c-settings__avatar-row">
-            <div class="c-settings__avatar" id="s-avatar">${initial_(user.username)}</div>
+            <div class="c-settings__avatar" id="s-avatar" title="Cambiar foto de perfil">
+              ${user.avatar_url
+                ? `<img src="${getAssetURL(user.avatar_url)}?t=${Date.now()}" alt="${escHTML(user.username)}"/>`
+                : initial_(user.username)
+              }
+            </div>
             <div class="c-settings__avatar-info">
               <div class="c-settings__avatar-name">${escHTML(user.username)}</div>
               <div class="c-settings__avatar-email">${escHTML(user.email)}</div>
@@ -355,6 +361,18 @@ function markActiveTheme(active) {
 
 /* ─── EVENTOS ─── */
 function bindEvents(s) {
+
+  /* Avatar — abrir cropper al hacer clic */
+  document.getElementById('s-avatar')?.addEventListener('click', () => {
+    openAvatarCropper((avatarUrl) => {
+      // Actualizar store
+      const user = store.get('user') || {};
+      store.update({ user: { ...user, avatar_url: avatarUrl } });
+      // Actualizar UI en settings sin remount
+      const el = document.getElementById('s-avatar');
+      if (el) el.innerHTML = `<img src="${getAssetURL(avatarUrl)}?t=${Date.now()}" alt="${user.username || ''}"/>`;
+    });
+  });
 
   /* Guardar perfil */
   $('#save-profile-btn')?.addEventListener('click', async () => {

@@ -1,3 +1,4 @@
+import { getAssetURL } from '../services/api.js';
 import { parseMarkdown } from '../utils/markdown.js';
 import { formatTime }    from '../utils/helpers.js';
 
@@ -10,7 +11,15 @@ export function createMessageItem(msg, userInitial = '?') {
   const avatar = document.createElement('div');
   avatar.className = 'c-message__avatar';
   if (isUser) {
-    avatar.textContent = userInitial;
+    // Si el store tiene avatar_url del usuario, mostrarlo; sino inicial
+    const store = window.__guyunusa__?.store;
+    const avatarUrl = store?.get?.('user')?.avatar_url;
+    if (avatarUrl) {
+      avatar.innerHTML = `<img src="${getAssetURL(avatarUrl)}" alt="${userInitial}"
+        style="width:100%;height:100%;object-fit:cover;border-radius:50%;"/>`;
+    } else {
+      avatar.textContent = userInitial;
+    }
   } else {
     avatar.innerHTML = `<img src="assets/icons/guyunusa.ico" alt="Guyunusa"
       style="width:22px;height:22px;border-radius:50%;object-fit:contain;"/>`;

@@ -27,20 +27,37 @@ async function main() {
     .map(s => s.trim())
     .filter(Boolean);
 
+  // Dominio base extraído del APP_PUBLIC_URL para aceptar cualquier subdominio
+  const appHost = (() => {
+    try {
+      return new URL(process.env.APP_PUBLIC_URL || '').hostname;
+    } catch { return ''; }
+  })();
+
   app.use(cors({
     origin: (origin, callback) => {
-      // Permitir requests sin origin (Postman, curl, Electron)
+      // Permitir requests sin origin (Postman, curl, Electron, SSE)
       if (!origin) return callback(null, true);
 
-      // Permitir cualquier localhost/127.0.0.1 en desarrollo
+      // Desarrollo — cualquier localhost/127.0.0.1
       if (process.env.NODE_ENV !== 'production') {
         if (origin.includes('localhost') || origin.includes('127.0.0.1')) {
           return callback(null, true);
         }
       }
 
-      // En producción, solo orígenes explícitamente permitidos
+      // Producción — orígenes explícitos en ALLOWED_ORIGINS
       if (allowedOrigins.includes(origin)) return callback(null, true);
+
+      // Producción — cualquier subdominio del dominio base (www, app, api, etc.)
+      if (appHost) {
+        try {
+          const originHost = new URL(origin).hostname;
+          if (originHost === appHost || originHost.endsWith('.' + appHost)) {
+            return callback(null, true);
+          }
+        } catch { /* origin inválido */ }
+      }
 
       logger.warn(`CORS bloqueó origin: ${origin}`);
       callback(new Error(`Origin no permitido: ${origin}`));
@@ -65,6 +82,15 @@ async function main() {
     const __dirname            = path.dirname(fileURLToPath(import.meta.url));
     const frontendPath         = path.join(__dirname, '..', 'frontend');
     app.use(express.static(frontendPath));
+  }
+
+  // ── Avatares de usuarios
+  {
+    const { default: path } = await import('path');
+    const { fileURLToPath } = await import('url');
+    const __dirname   = path.dirname(fileURLToPath(import.meta.url));
+    const uploadsPath = path.join(__dirname, 'uploads');
+    app.use('/uploads', express.static(uploadsPath));
   }
 
   // ── Descargas de la app desktop (instalable .exe y portable) ──

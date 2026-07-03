@@ -2,6 +2,7 @@ import bcrypt    from 'bcryptjs';
 import { getDB }  from '../db/database.js';
 import { logger } from '../utils/logger.js';
 import { HTTP_STATUS } from '../../../shared/constants.js';
+import { processAvatar, deleteOldAvatar } from '../services/avatar.service.js';
 
 const NOW = `datetime('now')`;
 
@@ -9,7 +10,7 @@ export function getProfile(req, res) {
   try {
     const db   = getDB();
     const user = db.prepare(
-      'SELECT id, email, username, plan, created_at FROM users WHERE id = ?'
+      'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
     if (!user) return res.status(HTTP_STATUS.NOT_FOUND).json({ ok: false, message: 'Usuario no encontrado' });
     return res.json({ ok: true, user });
@@ -62,7 +63,7 @@ export function updateProfile(req, res) {
     }
 
     const updated = db.prepare(
-      'SELECT id, email, username, plan, created_at FROM users WHERE id = ?'
+      'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
     return res.json({ ok: true, message: 'Perfil actualizado', user: updated });
   } catch (err) {
@@ -86,4 +87,48 @@ export function deleteAccount(req, res) {
     logger.error('Error en deleteAccount:', err.message);
     return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });
   }
+}
+
+/* ── Subir / actualizar avatar ── */
+export async function uploadAvatar(req, res) {
+  if (!req.file) {
+    return res.status(HTTP_STATUS.BAD_REQUEST).json({
+      ok: false, message: 'No se recibió ninguna imagen'
+    });
+  }
+
+  const db   = getDB();
+  const user = db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
+
+  try {
+    // Eliminar avatar anterior del disco
+    if (user?.avatar_url) deleteOldAvatar(user.avatar_url);
+
+    // Procesar: redimensionar + recorte circular → PNG
+    const avatarUrl = await processAvatar(req.file.path, req.user.id);
+
+    db.prepare(`UPDATE users SET avatar_url = ?, updated_at = datetime('now') WHERE id = ?`)
+      .run(avatarUrl, req.user.id);
+
+    logger.info(`Avatar actualizado: user_id=${req.user.id}`);
+    return res.json({ ok: true, avatar_url: avatarUrl });
+  } catch (err) {
+    logger.error('Error procesando avatar:', err.message);
+    return res.status(HTTP_STATUS.SERVER_ERROR).json({
+      ok: false, message: 'Error al procesar la imagen: ' + err.message
+    });
+  }
+}
+
+/* ── Eliminar avatar ── */
+export function deleteAvatar(req, res) {
+  const db   = getDB();
+  const user = db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
+
+  if (user?.avatar_url) deleteOldAvatar(user.avatar_url);
+
+  db.prepare(`UPDATE users SET avatar_url = NULL, updated_at = datetime('now') WHERE id = ?`)
+    .run(req.user.id);
+
+  return res.json({ ok: true, avatar_url: null });
 }

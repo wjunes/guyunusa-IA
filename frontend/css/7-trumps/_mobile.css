@@ -33,7 +33,7 @@ input, textarea, select {
 }
 
 /* Input bar pegado sobre el teclado en mobile */
-@media (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 640px) {
   .o-inputbar {
     position: sticky;
     bottom: 0;
@@ -48,7 +48,17 @@ input, textarea, select {
   }
 
   /* Ocultar texto "Nuevo" en header pequeño */
-  .c-header__new-btn span { display: none; }
+  .c-header__new-btn span { 
+    display: none;
+  }
+
+  .c-story-card{
+    padding: .85rem ;
+  }
+
+  .c-story-card__title {
+    font-size: .75rem;
+  }
 }
 
 /* Scroll con momentum */

@@ -7,7 +7,7 @@ function getBaseURL() {
   const override = new URLSearchParams(window.location.search).get('api');
   if (override) return override + '/api/v1';
 
-  if (Platform.isCapacitor) return 'https://api.guyunusa.uy/api/v1';
+  if (Platform.isCapacitor) return 'https://guyunusa.uy/api/v1';
   if (Platform.isElectron)  return 'http://localhost:3000/api/v1';
 
   // Desarrollo web: cualquier puerto distinto al 3000 apunta al backend
@@ -18,6 +18,25 @@ function getBaseURL() {
   }
 
   return '/api/v1';
+}
+
+/**
+ * Resuelve la URL completa de un asset estático del backend
+ * (avatares, descargas, etc.) según el entorno actual.
+ * Uso: getAssetURL('/uploads/avatars/foo.png')
+ */
+export function getAssetURL(path) {
+  if (!path) return '';
+  // En producción (mismo dominio) o Capacitor: relativo o dominio propio
+  if (Platform.isCapacitor) return `https://guyunusa.uy${path}`;
+  if (Platform.isElectron)  return `http://localhost:3000${path}`;
+
+  const port = window.location.port;
+  if (port && port !== '3000') {
+    return `http://${window.location.hostname}:3000${path}`;
+  }
+
+  return path; // producción: mismo dominio, ruta relativa funciona
 }
 
 function getToken() {

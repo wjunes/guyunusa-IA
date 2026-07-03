@@ -154,11 +154,12 @@
   .auth-screen {
     grid-template-columns: 1fr;
   }
-  .auth-brand {
-    display: none;
-  }
   .auth-form-panel {
     padding: var(--space-lg) var(--space-md);
+  }
+
+  .auth-brand {
+    display: none;
   }
 }
 

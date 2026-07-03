@@ -40,6 +40,11 @@ async function migrate() {
         updated_at    TEXT    NOT NULL DEFAULT (datetime('now'))
       )`,
     },
+    {
+      name: 'add avatar_url to users',
+      check: `SELECT COUNT(*) as n FROM pragma_table_info('users') WHERE name='avatar_url'`,
+      run:   `ALTER TABLE users ADD COLUMN avatar_url TEXT`,
+    },
   ];
 
   let applied = 0;

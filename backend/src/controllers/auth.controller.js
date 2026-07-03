@@ -79,7 +79,7 @@ export function login(req, res) {
     logger.info(`Login: ${email}`);
     return res.json({
       ok: true, token,
-      user: { id: user.id, username: user.username, email: user.email, plan: user.plan }
+      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null }
     });
   } catch (err) {
     logger.error('Error en login:', err.message);
@@ -161,7 +161,7 @@ export async function googleAuth(req, res) {
 
     return res.json({
       ok: true, token,
-      user: { id: user.id, username: user.username, email: user.email, plan: user.plan },
+      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null },
     });
 
   } catch (err) {
