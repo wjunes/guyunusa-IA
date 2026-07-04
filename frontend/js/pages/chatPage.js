@@ -46,6 +46,9 @@ export async function mount() {
     </div>
   `;
 
+  // Limpiar estado previo antes de cargar — evita que quede data de otro usuario
+  store.update({ conversations: [], messages: [], activeConvId: null });
+
   try { await loadConversations(store); } catch { /* sin red */ }
 
   renderAll();

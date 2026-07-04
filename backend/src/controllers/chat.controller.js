@@ -33,6 +33,17 @@ function prepareChat(userId, content, conversation_id) {
     ).run(userId, content.slice(0, 60));
     convId = result.lastInsertRowid;
     logger.info(`Nueva conversación: id=${convId}`);
+  } else {
+    // Verificar que la conversación pertenece al usuario actual
+    const owns = db.prepare(
+      'SELECT id FROM conversations WHERE id = ? AND user_id = ?'
+    ).get(convId, userId);
+    if (!owns) {
+      throw Object.assign(
+        new Error('Conversación no encontrada o sin permiso'),
+        { status: 403 }
+      );
+    }
   }
 
   db.prepare(

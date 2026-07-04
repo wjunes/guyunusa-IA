@@ -90,7 +90,7 @@ export function deleteAccount(req, res) {
 }
 
 /* ── Subir / actualizar avatar ── */
-export async function uploadAvatar(req, res) {
+export function uploadAvatar(req, res) {
   if (!req.file) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({
       ok: false, message: 'No se recibió ninguna imagen'
@@ -105,7 +105,7 @@ export async function uploadAvatar(req, res) {
     if (user?.avatar_url) deleteOldAvatar(user.avatar_url);
 
     // Procesar: redimensionar + recorte circular → PNG
-    const avatarUrl = await processAvatar(req.file.path, req.user.id);
+    const avatarUrl = processAvatar(req.file.path, req.user.id);
 
     db.prepare(`UPDATE users SET avatar_url = ?, updated_at = datetime('now') WHERE id = ?`)
       .run(avatarUrl, req.user.id);

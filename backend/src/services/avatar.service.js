@@ -1,46 +1,38 @@
 /**
- * avatar.service.js — Procesamiento de imágenes de avatar
- * Usa sharp para redimensionar y recortar en círculo (máscara PNG)
+ * avatar.service.js — Guardado de avatar
+ *
+ * El recorte circular ya lo hace el browser con Canvas API
+ * antes de subir. El backend solo mueve el archivo a su lugar
+ * definitivo y elimina el temporal de multer.
+ * Sin dependencias nativas — funciona en cualquier hosting.
  */
-import { createWriteStream, existsSync, mkdirSync, unlinkSync } from 'fs';
-import { join, dirname } from 'path';
+import { existsSync, mkdirSync, renameSync,
+         copyFileSync, unlinkSync } from 'fs';
+import { join, dirname, extname } from 'path';
 import { fileURLToPath } from 'url';
 import { randomUUID } from 'crypto';
 
 const __dir      = dirname(fileURLToPath(import.meta.url));
 const UPLOAD_DIR = join(__dir, '../../uploads/avatars');
-const SIZE       = 200; // px — avatar cuadrado 200x200
 
 if (!existsSync(UPLOAD_DIR)) mkdirSync(UPLOAD_DIR, { recursive: true });
 
 /**
- * Procesa la imagen subida:
- * - Redimensiona a 200x200 con recorte centrado (cover)
- * - Aplica máscara circular (canal alpha)
- * - Guarda como PNG
- * - Elimina el archivo temporal de multer
- * Retorna la URL pública relativa del avatar.
+ * Mueve el archivo temporal de multer a uploads/avatars/
+ * y retorna la URL pública relativa.
  */
-export async function processAvatar(tempPath, userId) {
-  // Import dinámico de sharp (ESM + cPanel compatibles)
-  const sharp = (await import('sharp')).default;
+export function processAvatar(tempPath, userId) {
+  const ext      = extname(tempPath) || '.png'; // multer usa nombre sin ext en /tmp
+  const filename = `${userId}_${randomUUID().slice(0, 8)}${ext}`;
+  const destPath = join(UPLOAD_DIR, filename);
 
-  const filename  = `${userId}_${randomUUID().slice(0,8)}.png`;
-  const outPath   = join(UPLOAD_DIR, filename);
-
-  // Máscara circular: SVG que sharp usa para recortar
-  const circle = Buffer.from(
-    `<svg><circle cx="${SIZE/2}" cy="${SIZE/2}" r="${SIZE/2}"/></svg>`
-  );
-
-  await sharp(tempPath)
-    .resize(SIZE, SIZE, { fit: 'cover', position: 'centre' })
-    .composite([{ input: circle, blend: 'dest-in' }])
-    .png()
-    .toFile(outPath);
-
-  // Eliminar archivo temporal de multer
-  try { unlinkSync(tempPath); } catch { /* noop */ }
+  try {
+    renameSync(tempPath, destPath);
+  } catch {
+    // Si renameSync falla entre distintos dispositivos/particiones
+    try { copyFileSync(tempPath, destPath); } catch { /* noop */ }
+    try { unlinkSync(tempPath); } catch { /* noop */ }
+  }
 
   return `/uploads/avatars/${filename}`;
 }
