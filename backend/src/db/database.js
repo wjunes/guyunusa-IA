@@ -130,6 +130,34 @@ export function getDB() {
   return _db;
 }
 
+/* ─── Migraciones automáticas de columnas ───────────────────────────
+   Verifica que todas las columnas definidas existan en cada tabla.
+   Agrega las que faltan con ALTER TABLE.
+   Funciona tanto con better-sqlite3 como con sql.js.
+   ────────────────────────────────────────────────────────────────── */
+const COLUMN_MIGRATIONS = [
+  { table: 'users', column: 'avatar_url',      def: 'TEXT' },
+  { table: 'users', column: 'plan_expires_at', def: 'TEXT' },
+  { table: 'users', column: 'google_id',       def: 'TEXT' },
+];
+
+function runColumnMigrations(db, adapter) {
+  for (const { table, column, def } of COLUMN_MIGRATIONS) {
+    try {
+      const cols = db.prepare(
+        `SELECT name FROM pragma_table_info('${table}')`
+      ).all().map(r => r.name);
+
+      if (!cols.includes(column)) {
+        db.prepare(`ALTER TABLE ${table} ADD COLUMN ${column} ${def}`).run();
+        logger.info(`✓ Columna agregada: ${table}.${column} (${adapter})`);
+      }
+    } catch (e) {
+      logger.warn(`Migración ${table}.${column}: ${e.message}`);
+    }
+  }
+}
+
 export async function initDB(dbPath) {
   _dbPath = dbPath;
 
@@ -148,6 +176,7 @@ export async function initDB(dbPath) {
     raw.exec(schema);
     _db      = raw;
     _adapter = 'better-sqlite3';
+    runColumnMigrations(_db, 'better-sqlite3');
     logger.info(`✓ DB lista con better-sqlite3: ${dbPath}`);
     return _db;
   } catch (e) {
@@ -174,6 +203,10 @@ export async function initDB(dbPath) {
 
     _db      = wrapSqlJs(raw);
     _adapter = 'sql.js';
+
+    runColumnMigrations(_db, 'sql.js');
+    saveToDisc(); // persistir migraciones inmediatamente
+
     logger.info(`✓ DB lista con sql.js (modo compatibilidad): ${dbPath}`);
     return _db;
   } catch (e) {

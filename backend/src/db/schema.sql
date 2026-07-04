@@ -8,7 +8,9 @@ CREATE TABLE IF NOT EXISTS users (
   updated_at  TEXT    NOT NULL DEFAULT (datetime('now')),
   is_active   INTEGER NOT NULL DEFAULT 1,
   plan        TEXT    NOT NULL DEFAULT 'free',
-  google_id   TEXT    UNIQUE
+  google_id   TEXT    UNIQUE,
+  avatar_url  TEXT,
+  plan_expires_at TEXT
 );
 
 -- Tabla de conversaciones
