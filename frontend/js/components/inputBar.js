@@ -144,11 +144,19 @@ function initSTT(textarea, sendBtn, micBtn) {
     micBtn.title = 'Grabando... — clic para detener';
   });
 
-  // El navegador puede cortar el reconocimiento por inactividad interna
-  // aunque continuous esté en true. Si el usuario NO pidió detener,
-  // reiniciamos automáticamente para simular escucha continua real.
+  // El navegador puede cortar el reconocimiento por inactividad interna.
+  // FIX Android Chrome: antes de reiniciar, comprometer finalText a savedText
+  // para que la nueva sesión no repita los resultados de la anterior.
   recognition.addEventListener('end', () => {
     if (!userStopped) {
+      // Comprometer texto confirmado antes de reiniciar
+      if (finalText.trim()) {
+        savedText = (savedText + ' ' + finalText).trim();
+        finalText = '';
+        // Actualizar el textarea con el texto comprometido
+        textarea.value = savedText;
+        textarea.dispatchEvent(new Event('input'));
+      }
       try { recognition.start(); return; } catch { /* sigue abajo como fallback */ }
     }
 
@@ -200,21 +208,80 @@ function showMicToast(msg) {
   setTimeout(() => el.remove(), 3500);
 }
 
-export function setInputLoading(loading) {
+/**
+ * setInputLoading — Maneja el estado del input durante el streaming
+ *
+ * loading=true:
+ *   - Textarea deshabilitado pero visible con el texto original
+ *   - Botón Send se convierte en Stop (rojo)
+ *   - Al hacer clic en Stop → llama onStop()
+ *
+ * loading=false:
+ *   - Restaura el textarea con originalText (listo para editar)
+ *   - Botón Stop vuelve a ser Send
+ */
+// Texto original guardado entre llamadas
+let _savedOriginalText = '';
+
+export function setInputLoading(loading, onStop = null, originalText = '') {
   const textarea = $('#chat-input');
   const sendBtn  = $('#btn-send');
   const micBtn   = $('#btn-mic');
-  if (!textarea) return;
+  if (!textarea || !sendBtn) return;
+
   const tr = t();
-  textarea.disabled    = loading;
-  sendBtn.disabled     = loading;
-  if (micBtn) micBtn.disabled = loading;
-  textarea.placeholder = loading
-    ? (tr?.chat?.placeholderLoad || 'Guyunusa está escribiendo...')
-    : (tr?.chat?.placeholder     || 'Escribí tu mensaje...');
+
+  if (loading) {
+    _savedOriginalText = originalText;
+
+    // Textarea deshabilitado — muestra el mensaje enviado
+    textarea.disabled    = true;
+    textarea.placeholder = tr?.chat?.placeholderLoad || 'Guyunusa está escribiendo...';
+
+    // Convertir Send → Stop (sin clonar, sobrescribir onclick)
+    sendBtn.disabled  = false;
+    sendBtn.className = 'c-input-bar__stop';
+    sendBtn.title     = 'Detener respuesta';
+    sendBtn.setAttribute('aria-label', 'Detener');
+    sendBtn.innerHTML = iconStop();
+    sendBtn.onclick   = () => { if (onStop) onStop(); };
+
+    if (micBtn) micBtn.disabled = true;
+
+  } else {
+    const origText = (originalText !== null && originalText !== undefined)
+      ? originalText
+      : _savedOriginalText;
+    _savedOriginalText = '';
+
+    // Rehabilitar textarea con el texto original
+    textarea.disabled    = false;
+    textarea.value       = origText;
+    textarea.placeholder = tr?.chat?.placeholder || 'Escribí tu mensaje...';
+    textarea.style.height = 'auto';
+    if (origText) {
+      textarea.style.height = Math.min(textarea.scrollHeight, 160) + 'px';
+    }
+    setTimeout(() => textarea.focus(), 50);
+
+    // Restaurar Send
+    sendBtn.className = 'c-input-bar__send';
+    sendBtn.title     = tr?.chat?.hint || 'Enter para enviar';
+    sendBtn.setAttribute('aria-label', 'Enviar');
+    sendBtn.innerHTML = iconSend();
+    sendBtn.disabled  = !origText.trim();
+    sendBtn.onclick   = null; // quitar el handler de Stop
+
+    if (micBtn) micBtn.disabled = false;
+  }
 }
 
 /* ── Íconos ── */
+function iconStop() {
+  return `<svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11V5A1.5 1.5 0 0 1 5 3.5"/>
+  </svg>`;
+}
 function iconSend() {
   return `<svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
     <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11z"/>

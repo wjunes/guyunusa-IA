@@ -110,3 +110,35 @@
   0%,100% { opacity: 1; }
   50%      { opacity: .4; }
 }
+
+/* ── Botón Stop (reemplaza a Send durante el streaming) ── */
+.c-input-bar__stop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin: 4px;
+  padding: 0;
+  border-radius: var(--radius-md);
+  border: none;
+  background: #c0392b;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 150ms, transform 150ms;
+  animation: stop-pulse 1.5s ease infinite;
+}
+.c-input-bar__stop:hover {
+  background: #a93226;
+  transform: scale(1.08);
+}
+.c-input-bar__stop:active {
+  transform: scale(0.95);
+  animation: none;
+}
+
+@keyframes stop-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(192, 57, 43, .4); }
+  50%       { box-shadow: 0 0 0 6px rgba(192, 57, 43, 0); }
+}

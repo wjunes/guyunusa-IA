@@ -16,6 +16,18 @@ let _saveTimer = null;
 let _rawSqlJs  = null;
 let _dbPath    = null;
 
+/* ─── Mutex para serializar writes en sql.js ─────────────────────────
+   Evita que requests concurrentes de distintos usuarios interfieran
+   entre sí mientras la DB está en memoria.
+   ────────────────────────────────────────────────────────────────── */
+let _mutexQueue = Promise.resolve();
+function withMutex(fn) {
+  _mutexQueue = _mutexQueue.then(() => fn()).catch(e => {
+    logger.error('[DB mutex]', e.message);
+  });
+  return _mutexQueue;
+}
+
 /* ─── Persistencia sql.js ─── */
 function saveToDisc() {
   if (!_rawSqlJs || !_dbPath) return;
@@ -199,7 +211,7 @@ export async function initDB(dbPath) {
     writeFileSync(dbPath, Buffer.from(raw.export()));
 
     // Auto-save cada 3 segundos
-    _saveTimer = setInterval(saveToDisc, 3000);
+    _saveTimer = setInterval(saveToDisc, 1000);
 
     _db      = wrapSqlJs(raw);
     _adapter = 'sql.js';
@@ -225,3 +237,4 @@ export function closeDB() {
 }
 
 export const getAdapter = () => _adapter;
+export { withMutex };

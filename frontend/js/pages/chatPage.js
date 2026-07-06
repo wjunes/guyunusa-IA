@@ -1,33 +1,42 @@
-import { clearApp, $ }            from '../utils/dom.js';
-import { store, router }          from '../app.js';
-import { EventBus }               from '../modules/eventBus.js';
-import { Platform, vibrate }      from '../modules/native.js';
-import { t }                      from '../modules/i18n.js';
-import { logout }                 from '../services/auth.js';
-import { sendMessageStream,
-         loadConversations,
-         loadMessages }           from '../services/chat.js';
-import { renderSidebar }          from '../components/sidebar.js';
-import { renderHeader }           from '../components/header.js';
-import { renderInputBar,
-         setInputLoading }        from '../components/inputBar.js';
-import { renderChatWindow,
-         appendMessage,
-         createStreamBubble,
-         appendStreamChunk,
-         finalizeStream,
-         cancelStream }           from '../components/chatWindow.js';
-import { openShareModal }         from '../components/shareModal.js';
-import { deleteConversation }     from '../services/chat.js';
-import { maybeShowLangBanner }    from '../components/langBanner.js';
-import { initSidebarResize }      from '../modules/sidebarResize.js';
+import { clearApp, $ } from '../utils/dom.js';
+import { store, router } from '../app.js';
+import { EventBus } from '../modules/eventBus.js';
+import { Platform, vibrate } from '../modules/native.js';
+import { t } from '../modules/i18n.js';
+import { logout } from '../services/auth.js';
+import {
+  sendMessageStream,
+  loadConversations,
+  loadMessages
+} from '../services/chat.js';
+import { renderSidebar } from '../components/sidebar.js';
+import { renderHeader } from '../components/header.js';
+import {
+  renderInputBar,
+  setInputLoading
+} from '../components/inputBar.js';
+import {
+  renderChatWindow,
+  appendMessage,
+  createStreamBubble,
+  appendStreamChunk,
+  finalizeStream,
+  cancelStream
+} from '../components/chatWindow.js';
+import { openShareModal } from '../components/shareModal.js';
+import { deleteConversation } from '../services/chat.js';
+import { maybeShowLangBanner } from '../components/langBanner.js';
+import {
+  initSidebarResize,
+  toggleSidebar
+} from '../modules/sidebarResize.js';
 
 window.__guyunusa__ = { EventBus, store };
 
 export async function mount() {
   if (!store.get('user')) { router.navigate('/login'); return; }
 
-  const isMobile = Platform.isCapacitor || window.innerWidth <= 720;
+  const isMobile = Platform.isCapacitor || window.innerWidth <= 768;
 
   const app = clearApp();
   app.innerHTML = `
@@ -82,19 +91,19 @@ function mountFooter() {
 }
 
 function registerEvents(isMobile) {
-  ['sidebar:toggle','sidebar:close','conv:new','conv:select','conv:deleted',
-   'conv:delete-request','conv:share','message:send','user:logout',
+  ['sidebar:toggle', 'sidebar:close', 'conv:new', 'conv:select', 'conv:deleted',
+    'conv:delete-request', 'conv:share', 'message:send', 'user:logout',
   ].forEach(ev => EventBus.off(ev));
 
-  EventBus.on('sidebar:toggle',      () => onSidebarToggle(isMobile));
-  EventBus.on('sidebar:close',       closeSidebar);
-  EventBus.on('conv:new',            onNewConv);
-  EventBus.on('conv:select',         id => onConvSelect(id, isMobile));
-  EventBus.on('conv:deleted',        onConvDeleted);
+  EventBus.on('sidebar:toggle', () => onSidebarToggle(isMobile));
+  EventBus.on('sidebar:close', closeSidebar);
+  EventBus.on('conv:new', onNewConv);
+  EventBus.on('conv:select', id => onConvSelect(id, isMobile));
+  EventBus.on('conv:deleted', onConvDeleted);
   EventBus.on('conv:delete-request', id => onDeleteRequest(id));
-  EventBus.on('conv:share',          id => openShareModal(id));
-  EventBus.on('message:send',        onMessageSend);
-  EventBus.on('user:logout',         onLogout);
+  EventBus.on('conv:share', id => openShareModal(id));
+  EventBus.on('message:send', onMessageSend);
+  EventBus.on('user:logout', onLogout);
 
   $('#sidebar-overlay')?.addEventListener('click', closeSidebar);
   store.subscribe('conversations', () => { renderSidebar(store); renderHeader(store); });
@@ -106,8 +115,16 @@ function openSidebar() {
   store.set('sidebarOpen', true);
 }
 function closeSidebar() {
-  $('#o-sidebar')?.classList.remove('o-sidebar--open');
-  $('#sidebar-overlay')?.classList.remove('o-sidebar-overlay--visible');
+  if (window.innerWidth <= 768) {
+    // En mobile usar el módulo para que el estado quede consistente
+    const sidebar = document.getElementById('o-sidebar');
+    if (sidebar?.classList.contains('o-sidebar--open')) {
+      toggleSidebar(); // cierra el drawer
+    }
+  } else {
+    $('#o-sidebar')?.classList.remove('o-sidebar--open');
+    $('#sidebar-overlay')?.classList.remove('o-sidebar-overlay--visible');
+  }
   store.set('sidebarOpen', false);
 }
 function onSidebarToggle(isMobile) {
@@ -119,16 +136,18 @@ function onNewConv() {
   store.update({ activeConvId: null, messages: [] });
   renderHeader(store); renderChatWindow(store); renderInputBar(store);
   closeSidebar();
-  setTimeout(() => document.getElementById('chat-input')?.focus(), 80);
+  setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
 }
 
 async function onConvSelect(id, isMobile) {
-  if (store.get('activeConvId') === id) { closeSidebar(); return; }
+  // Cerrar el sidebar siempre al seleccionar una conversación en mobile
+  if (window.innerWidth <= 768 || isMobile) closeSidebar();
+  if (store.get('activeConvId') === id) { return; }
   try {
     await loadMessages(id, store);
     renderSidebar(store); renderHeader(store); renderChatWindow(store); renderInputBar(store);
-    if (isMobile) closeSidebar();
-    setTimeout(() => document.getElementById('chat-input')?.focus(), 80);
+    // closeSidebar ya se llamó arriba
+    setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
   } catch (err) { showError(err.message); }
 }
 
@@ -138,7 +157,7 @@ async function onDeleteRequest(id) {
   const tr = t();
   const ok = await showConfirm(
     tr?.chat?.deleteConvTitle || 'Eliminar conversación',
-    tr?.chat?.deleteConvBody  || '¿Eliminás esta conversación?',
+    tr?.chat?.deleteConvBody || '¿Eliminás esta conversación?',
     tr?.chat?.delete || 'Eliminar',
     tr?.chat?.cancel || 'Cancelar',
   );
@@ -154,7 +173,7 @@ async function onDeleteRequest(id) {
 }
 
 /* ══════════════════════════════════════════════════════════
-   MENSAJE CON STREAMING — estado LOCAL, no global
+   MENSAJE CON STREAMING — estado LOCAL + AbortController
    ══════════════════════════════════════════════════════════ */
 async function onMessageSend(text) {
   if (store.get('loading')) return;
@@ -165,38 +184,59 @@ async function onMessageSend(text) {
 
   // Crear burbuja de stream y guardar la REF LOCAL aquí
   const streamRef = createStreamBubble();
-  let   streamBuf = '';
+  let streamBuf = '';
+  let abortCtrl = new AbortController();
+  let streamStopped = false;
 
-  setInputLoading(true);
+  // Función de Stop — aborta el fetch y finaliza la burbuja con lo generado
+  const stopStream = () => {
+    if (streamStopped) return;
+    streamStopped = true;
+    abortCtrl.abort();
+    // Mostrar lo que se generó hasta ese punto
+    if (streamBuf.trim()) {
+      finalizeStream(streamRef, streamBuf + ' ▌');
+    } else {
+      cancelStream(streamRef, 'Respuesta detenida.');
+    }
+  };
+
+  // Send → Stop (pasar el texto original para restaurarlo)
+  setInputLoading(true, stopStream, text);
 
   await sendMessageStream(text, store.get('activeConvId'), store, {
+    signal: abortCtrl.signal,
 
     onStart: (_convId) => { /* se usa en onDone */ },
 
     onChunk: (chunk) => {
-      // appendStreamChunk retorna el buffer acumulado
+      if (streamStopped) return;
       streamBuf = appendStreamChunk(streamRef, chunk, streamBuf);
     },
 
     onDone: async (convId) => {
+      if (streamStopped) return;
       finalizeStream(streamRef, streamBuf);
       await vibrate('light');
 
       if (convId && !store.get('activeConvId')) {
         store.set('activeConvId', convId);
-        await loadConversations(store).catch(() => {});
+        await loadConversations(store).catch(() => { });
         renderSidebar(store);
         renderHeader(store);
       }
     },
 
     onError: (msg) => {
+      if (streamStopped) return; // abort intencional, no mostrar error
       cancelStream(streamRef, msg || t()?.chat?.errorConn || 'Error de conexión');
     },
   });
 
-  setInputLoading(false);
-  setTimeout(() => document.getElementById('chat-input')?.focus(), 80);
+  // Restaurar el input (con el texto original si se detuvo, vacío si completó)
+  setInputLoading(false, null, streamStopped ? text : '');
+  abortCtrl = null;
+  setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
 }
 
 function onLogout() { logout(store); router.navigate('/login'); }
@@ -217,8 +257,8 @@ function showConfirm(title, body, confirmLabel, cancelLabel) {
       </div>`;
     document.body.appendChild(overlay);
     const close = val => { overlay.remove(); resolve(val); };
-    overlay.querySelector('#mc').addEventListener('click',  () => close(false));
-    overlay.querySelector('#mk').addEventListener('click',  () => close(true));
+    overlay.querySelector('#mc').addEventListener('click', () => close(false));
+    overlay.querySelector('#mk').addEventListener('click', () => close(true));
     overlay.addEventListener('click', e => { if (e.target === overlay) close(false); });
   });
 }

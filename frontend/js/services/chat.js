@@ -1,4 +1,4 @@
-import { api }    from './api.js';
+import { api } from './api.js';
 
 /* ── Envío clásico (fallback sin streaming) ── */
 export async function sendMessage(content, conversationId, store) {
@@ -14,31 +14,22 @@ export async function sendMessage(content, conversationId, store) {
   }
 }
 
-/* ── Envío con streaming SSE ─────────────────────────────────────────
-   Llama a POST /api/v1/chat/stream y procesa los eventos SSE
-   en tiempo real.
-
-   Callbacks:
-     onChunk(text)              → texto parcial recibido
-     onStart(conversationId)    → nueva conversación creada (si era nueva)
-     onDone(conversationId, provider) → stream completo
-     onError(message)           → error del servidor o red
-   ────────────────────────────────────────────────────────────────── */
+/* ── Envío con streaming SSE ── */
 export async function sendMessageStream(content, conversationId, store, {
   onChunk  = () => {},
   onStart  = () => {},
   onDone   = () => {},
   onError  = () => {},
+  signal   = null,    // AbortController.signal para cancelar el stream
 } = {}) {
   store.set('loading', true);
 
-  // Obtener la URL base de api.js replicando su lógica
   const port = window.location.port;
   let base;
-  if (window.Capacitor)       base = 'https://api.guyunusa.uy/api/v1';
+  if (window.Capacitor)        base = 'https://guyunusa.uy/api/v1';
   else if (window.electronAPI) base = 'http://localhost:3000/api/v1';
   else if (port && port !== '3000') base = `http://${window.location.hostname}:3000/api/v1`;
-  else                         base = '/api/v1';
+  else                          base = '/api/v1';
 
   const token = localStorage.getItem('guyunusa_token');
   const headers = {
@@ -47,11 +38,12 @@ export async function sendMessageStream(content, conversationId, store, {
   };
 
   try {
+    // Usar la señal del usuario si existe, si no el timeout solo
     const res = await fetch(`${base}/chat/stream`, {
       method:  'POST',
       headers,
       body:    JSON.stringify({ content, conversation_id: conversationId }),
-      signal:  AbortSignal.timeout(60_000), // 60s para streams largos
+      signal:  signal || AbortSignal.timeout(60_000),
     });
 
     if (!res.ok) {
@@ -69,10 +61,10 @@ export async function sendMessageStream(content, conversationId, store, {
 
       buffer += decoder.decode(value, { stream: true });
       const lines = buffer.split('\n');
-      buffer = lines.pop(); // guardar línea incompleta
+      buffer = lines.pop();
 
       for (const line of lines) {
-        if (line.startsWith('event: ')) continue; // nombre del evento (ya lo sabemos)
+        if (line.startsWith('event: ')) continue;
         if (!line.startsWith('data: '))  continue;
 
         const raw = line.slice(6).trim();
@@ -80,8 +72,6 @@ export async function sendMessageStream(content, conversationId, store, {
 
         try {
           const evt = JSON.parse(raw);
-
-          // Detectar el tipo de evento por su contenido
           if ('text' in evt)              onChunk(evt.text);
           else if ('conversation_id' in evt && !('full_content' in evt))
                                           onStart(evt.conversation_id);
@@ -92,22 +82,53 @@ export async function sendMessageStream(content, conversationId, store, {
     }
 
   } catch (err) {
+    // AbortError es el usuario deteniendo — no es un error
+    if (err.name === 'AbortError') return;
     onError(err.message || 'Error de conexión');
   } finally {
     store.set('loading', false);
   }
 }
 
-/* ── Resto de funciones sin cambios ── */
-
+/**
+ * Carga conversaciones del usuario actual.
+ * Verifica que el usuario no cambió durante la llamada async
+ * para evitar que conversaciones de un usuario se muestren en otro.
+ */
 export async function loadConversations(store) {
+  const userId = store.get('user')?.id;
+  if (!userId) return [];
+
   const data = await api.get('/chat/conversations');
+
+  // Verificar que el usuario no cambió mientras esperábamos la respuesta
+  const currentUserId = store.get('user')?.id;
+  if (currentUserId !== userId) {
+    console.warn('[chat] Usuario cambió durante loadConversations — descartando respuesta');
+    return [];
+  }
+
   store.set('conversations', data.conversations);
   return data.conversations;
 }
 
+/**
+ * Carga mensajes de una conversación.
+ * Verifica ownership: el usuario actual debe ser el mismo que inició la carga.
+ */
 export async function loadMessages(conversationId, store) {
+  const userId = store.get('user')?.id;
+  if (!userId) throw new Error('No hay usuario autenticado');
+
   const data = await api.get(`/chat/conversations/${conversationId}`);
+
+  // Verificar que el usuario no cambió
+  const currentUserId = store.get('user')?.id;
+  if (currentUserId !== userId) {
+    console.warn('[chat] Usuario cambió durante loadMessages — descartando respuesta');
+    return null;
+  }
+
   store.update({ messages: data.messages, activeConvId: conversationId });
   return data;
 }

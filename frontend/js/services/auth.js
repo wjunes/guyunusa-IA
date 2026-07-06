@@ -52,8 +52,17 @@ export async function register(email, username, password, store) {
 }
 
 export function logout(store) {
+  // Primero eliminar el token para que cualquier request en vuelo falle con 401
   localStorage.removeItem('guyunusa_token');
-  store.update({ user: null, token: null, conversations: [], messages: [] });
+  // Luego limpiar el store completamente
+  store.update({
+    user:          null,
+    token:         null,
+    conversations: [],
+    messages:      [],
+    activeConvId:  null,
+    loading:       false,
+  });
 }
 
 export async function deleteAccount(password) {

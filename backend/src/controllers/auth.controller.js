@@ -33,7 +33,7 @@ export function register(req, res) {
       'INSERT INTO users (email, username, password) VALUES (?, ?, ?)'
     ).run(email.toLowerCase().trim(), username.trim(), hash);
 
-    const id    = result.lastInsertRowid;
+    const id    = Number(result.lastInsertRowid);
     const token = signToken({ id, username: username.trim(), email: email.toLowerCase().trim() });
 
     logger.info(`Usuario registrado: ${email}`);
@@ -129,7 +129,7 @@ export async function googleAuth(req, res) {
     // 3. Si no existe de ninguna manera — crear nuevo usuario
     if (!user) {
       // Generar username desde el nombre de Google (sanitizado)
-      const baseUsername = googleUser.name
+      const baseUsername = (googleUser.name || '')
         .toLowerCase()
         .replace(/[^a-z0-9]/g, '')
         .slice(0, 20) || 'usuario';
@@ -146,11 +146,28 @@ export async function googleAuth(req, res) {
          VALUES (?, ?, '', ?, 1, 'free')`
       ).run(googleUser.email, username, googleUser.sub);
 
-      user = db.prepare('SELECT * FROM users WHERE id = ?').get(result.lastInsertRowid);
+      // Buscar el usuario recién creado — lastInsertRowid puede ser BigInt en sql.js
+      const newId = Number(result.lastInsertRowid);
+      user = newId
+        ? db.prepare('SELECT * FROM users WHERE id = ?').get(newId)
+        : null;
+
+      // Fallback: buscar por email si lastInsertRowid no funcionó
+      if (!user) {
+        user = db.prepare('SELECT * FROM users WHERE email = ?').get(googleUser.email);
+      }
+
+      if (!user) {
+        logger.error(`No se pudo recuperar usuario creado via Google: ${googleUser.email}`);
+        return res.status(HTTP_STATUS.SERVER_ERROR).json({
+          ok: false, message: 'Error al crear la cuenta. Intentá de nuevo.'
+        });
+      }
+
       logger.info(`Nuevo usuario creado via Google: ${googleUser.email}`);
     }
 
-    if (!user.is_active) {
+    if (!user || !user.is_active) {
       return res.status(HTTP_STATUS.UNAUTHORIZED).json({
         ok: false, message: 'Cuenta desactivada'
       });

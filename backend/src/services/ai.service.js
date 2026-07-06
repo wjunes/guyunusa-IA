@@ -5,17 +5,17 @@ import { AI_PROVIDERS } from '../../../shared/constants.js';
 const PROVIDERS = {
   [AI_PROVIDERS.OPENROUTER]: {
     baseURL: process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
-    apiKey:  process.env.OPENROUTER_API_KEY,
-    model:   process.env.OPENROUTER_MODEL   || 'deepseek/deepseek-chat',
+    apiKey: process.env.OPENROUTER_API_KEY,
+    model: process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
     headers: {
       'HTTP-Referer': 'https://guyunusa.uy',
-      'X-Title':      'Guyunusa',
+      'X-Title': 'Guyunusa',
     },
   },
   [AI_PROVIDERS.DEEPSEEK]: {
     baseURL: process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
-    apiKey:  process.env.DEEPSEEK_API_KEY,
-    model:   process.env.DEEPSEEK_MODEL    || 'deepseek-chat',
+    apiKey: process.env.DEEPSEEK_API_KEY,
+    model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
     headers: {},
   },
 };
@@ -27,16 +27,16 @@ async function callProvider(providerKey, messages, stream = false) {
   const response = await fetch(`${provider.baseURL}/chat/completions`, {
     method: 'POST',
     headers: {
-      'Content-Type':  'application/json',
+      'Content-Type': 'application/json',
       'Authorization': `Bearer ${provider.apiKey}`,
       ...provider.headers,
     },
     body: JSON.stringify({
-      model:    provider.model,
+      model: provider.model,
       messages,
       stream,
       temperature: 0.8,
-      max_tokens:  2048,
+      max_tokens: 800,
     }),
     signal: AbortSignal.timeout(30_000), // 30s timeout
   });
@@ -51,16 +51,16 @@ async function callProvider(providerKey, messages, stream = false) {
 
 // Chat sin streaming — devuelve el texto completo
 export async function chat(messages) {
-  const order = [AI_PROVIDERS.OPENROUTER, AI_PROVIDERS.DEEPSEEK];
+  const order = [AI_PROVIDERS.DEEPSEEK, AI_PROVIDERS.OPENROUTER];
   let lastError;
 
   for (const providerKey of order) {
     try {
       logger.info(`Intentando proveedor: ${providerKey}`);
-      const response  = await callProvider(providerKey, messages, false);
-      const data      = await response.json();
-      const content   = data.choices?.[0]?.message?.content ?? '';
-      const tokens    = data.usage?.total_tokens ?? 0;
+      const response = await callProvider(providerKey, messages, false);
+      const data = await response.json();
+      const content = data.choices?.[0]?.message?.content ?? '';
+      const tokens = data.usage?.total_tokens ?? 0;
 
       logger.info(`Respuesta OK desde ${providerKey} (${tokens} tokens)`);
       return { content, provider: providerKey, tokens };
@@ -75,7 +75,7 @@ export async function chat(messages) {
 
 // Chat con streaming — devuelve la respuesta fetch para que el controller la pipe
 export async function chatStream(messages) {
-  const order = [AI_PROVIDERS.OPENROUTER, AI_PROVIDERS.DEEPSEEK];
+  const order = [AI_PROVIDERS.DEEPSEEK, AI_PROVIDERS.OPENROUTER];
   let lastError;
 
   for (const providerKey of order) {
