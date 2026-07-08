@@ -1,15 +1,15 @@
-import bcrypt    from 'bcryptjs';
-import { getDB }  from '../db/database.js';
+import bcrypt from 'bcryptjs';
+import { getDB } from '../db/database.js';
 import { logger } from '../utils/logger.js';
 import { HTTP_STATUS } from '../../../shared/constants.js';
 import { processAvatar, deleteOldAvatar } from '../services/avatar.service.js';
 
-const NOW = `datetime('now')`;
+const NOW = 'NOW()'; // MySQL — la versión SQLite usaba datetime('now')
 
-export function getProfile(req, res) {
+export async function getProfile(req, res) {
   try {
-    const db   = getDB();
-    const user = db.prepare(
+    const db = getDB();
+    const user = await db.prepare(
       'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
     if (!user) return res.status(HTTP_STATUS.NOT_FOUND).json({ ok: false, message: 'Usuario no encontrado' });
@@ -20,19 +20,20 @@ export function getProfile(req, res) {
   }
 }
 
-export function updateProfile(req, res) {
+export async function updateProfile(req, res) {
   const { username, currentPassword, newPassword } = req.body;
   try {
-    const db   = getDB();
-    const user = db.prepare('SELECT * FROM users WHERE id = ?').get(req.user.id);
+    const db = getDB();
+    const user = await db.prepare('SELECT * FROM users WHERE id = ?').get(req.user.id);
     if (!user) return res.status(HTTP_STATUS.NOT_FOUND).json({ ok: false, message: 'Usuario no encontrado' });
 
     if (username && username.trim().length >= 3) {
       try {
-        db.prepare(`UPDATE users SET username = ?, updated_at = ${NOW} WHERE id = ?`)
+        await db.prepare(`UPDATE users SET username = ?, updated_at = ${NOW} WHERE id = ?`)
           .run(username.trim(), req.user.id);
       } catch (err) {
-        if (err.message?.toLowerCase().includes('unique')) {
+        // MySQL reporta duplicados con err.code, no con texto libre como SQLite
+        if (err.code === 'ER_DUP_ENTRY') {
           return res.status(HTTP_STATUS.BAD_REQUEST).json({
             ok: false, message: 'Ese nombre de usuario ya está en uso'
           });
@@ -58,11 +59,11 @@ export function updateProfile(req, res) {
         });
       }
       const hash = bcrypt.hashSync(newPassword, 10);
-      db.prepare(`UPDATE users SET password = ?, updated_at = ${NOW} WHERE id = ?`)
+      await db.prepare(`UPDATE users SET password = ?, updated_at = ${NOW} WHERE id = ?`)
         .run(hash, req.user.id);
     }
 
-    const updated = db.prepare(
+    const updated = await db.prepare(
       'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
     return res.json({ ok: true, message: 'Perfil actualizado', user: updated });
@@ -72,16 +73,17 @@ export function updateProfile(req, res) {
   }
 }
 
-export function deleteAccount(req, res) {
+export async function deleteAccount(req, res) {
   const { password } = req.body;
   try {
-    const db   = getDB();
-    const user = db.prepare('SELECT * FROM users WHERE id = ?').get(req.user.id);
+    const db = getDB();
+    const user = await db.prepare('SELECT * FROM users WHERE id = ?').get(req.user.id);
     if (!user) return res.status(HTTP_STATUS.NOT_FOUND).json({ ok: false, message: 'Usuario no encontrado' });
     if (!password || !bcrypt.compareSync(password, user.password)) {
       return res.status(HTTP_STATUS.UNAUTHORIZED).json({ ok: false, message: 'Contraseña incorrecta' });
     }
-    db.prepare('DELETE FROM users WHERE id = ?').run(req.user.id);
+    // ON DELETE CASCADE en schema.sql se encarga de conversations/messages/payments/sessions
+    await db.prepare('DELETE FROM users WHERE id = ?').run(req.user.id);
     return res.json({ ok: true, message: 'Cuenta eliminada' });
   } catch (err) {
     logger.error('Error en deleteAccount:', err.message);
@@ -90,24 +92,29 @@ export function deleteAccount(req, res) {
 }
 
 /* ── Subir / actualizar avatar ── */
-export function uploadAvatar(req, res) {
+export async function uploadAvatar(req, res) {
   if (!req.file) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({
       ok: false, message: 'No se recibió ninguna imagen'
     });
   }
 
-  const db   = getDB();
-  const user = db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
-
   try {
-    // Eliminar avatar anterior del disco
-    if (user?.avatar_url) deleteOldAvatar(user.avatar_url);
+    const db = getDB();
+    const user = await db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
 
-    // Procesar: redimensionar + recorte circular → PNG
-    const avatarUrl = processAvatar(req.file.path, req.user.id);
+    // Promise.resolve(...) tolera que processAvatar/deleteOldAvatar sean
+    // síncronas o asíncronas sin depender de conocer su implementación exacta
+    // (no vi avatar.service.js todavía — ver nota al final).
+    if (user?.avatar_url) {
+      await Promise.resolve(deleteOldAvatar(user.avatar_url)).catch(e =>
+        logger.warn('No se pudo eliminar avatar anterior:', e.message)
+      );
+    }
 
-    db.prepare(`UPDATE users SET avatar_url = ?, updated_at = datetime('now') WHERE id = ?`)
+    const avatarUrl = await Promise.resolve(processAvatar(req.file.path, req.user.id));
+
+    await db.prepare(`UPDATE users SET avatar_url = ?, updated_at = ${NOW} WHERE id = ?`)
       .run(avatarUrl, req.user.id);
 
     logger.info(`Avatar actualizado: user_id=${req.user.id}`);
@@ -121,14 +128,23 @@ export function uploadAvatar(req, res) {
 }
 
 /* ── Eliminar avatar ── */
-export function deleteAvatar(req, res) {
-  const db   = getDB();
-  const user = db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
+export async function deleteAvatar(req, res) {
+  try {
+    const db = getDB();
+    const user = await db.prepare('SELECT avatar_url FROM users WHERE id = ?').get(req.user.id);
 
-  if (user?.avatar_url) deleteOldAvatar(user.avatar_url);
+    if (user?.avatar_url) {
+      await Promise.resolve(deleteOldAvatar(user.avatar_url)).catch(e =>
+        logger.warn('No se pudo eliminar avatar anterior:', e.message)
+      );
+    }
 
-  db.prepare(`UPDATE users SET avatar_url = NULL, updated_at = datetime('now') WHERE id = ?`)
-    .run(req.user.id);
+    await db.prepare(`UPDATE users SET avatar_url = NULL, updated_at = ${NOW} WHERE id = ?`)
+      .run(req.user.id);
 
-  return res.json({ ok: true, avatar_url: null });
+    return res.json({ ok: true, avatar_url: null });
+  } catch (err) {
+    logger.error('Error en deleteAvatar:', err.message);
+    return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });
+  }
 }

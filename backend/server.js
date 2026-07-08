@@ -1,23 +1,23 @@
 import 'dotenv/config';
 import express from 'express';
-import cors    from 'cors';
+import cors from 'cors';
 import { initDB, closeDB, getAdapter } from './src/db/database.js';
-import { logger }                      from './src/utils/logger.js';
-import { errorMiddleware }             from './src/middleware/error.middleware.js';
+import { logger } from './src/utils/logger.js';
+import { errorMiddleware } from './src/middleware/error.middleware.js';
 
 import authRoutes from './src/routes/auth.routes.js';
-import storyRoutes   from './src/routes/story.routes.js';
+import storyRoutes from './src/routes/story.routes.js';
 import paymentRoutes from './src/routes/payment.routes.js';
 import chatRoutes from './src/routes/chat.routes.js';
 import userRoutes from './src/routes/user.routes.js';
 import downloadsRoutes from './src/routes/downloads.routes.js';
 
-const app  = express();
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 async function main() {
   // ── Base de datos ──
-  await initDB(process.env.DB_PATH || './data/guyunusa.db');
+  await initDB();
   logger.info(`Adaptador DB: ${getAdapter()}`);
 
   // ── CORS ──
@@ -77,10 +77,10 @@ async function main() {
   if (process.env.NODE_ENV === 'production') {
     // En producción servimos el frontend desde Express
     // Debe ir ANTES de las rutas API para que las rutas API tengan prioridad
-    const { default: path }   = await import('path');
-    const { fileURLToPath }   = await import('url');
-    const __dirname            = path.dirname(fileURLToPath(import.meta.url));
-    const frontendPath         = path.join(__dirname, '..', 'frontend');
+    const { default: path } = await import('path');
+    const { fileURLToPath } = await import('url');
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+    const frontendPath = path.join(__dirname, '..', 'frontend');
     app.use(express.static(frontendPath));
   }
 
@@ -88,7 +88,7 @@ async function main() {
   {
     const { default: path } = await import('path');
     const { fileURLToPath } = await import('url');
-    const __dirname   = path.dirname(fileURLToPath(import.meta.url));
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
     const uploadsPath = path.join(__dirname, 'uploads');
     app.use('/uploads', express.static(uploadsPath));
   }
@@ -110,11 +110,11 @@ async function main() {
   }
 
   // ── Rutas API ──
-  app.use('/api/v1/auth',      authRoutes);
-  app.use('/api/v1/story',     storyRoutes);
-  app.use('/api/v1/payment',   paymentRoutes);
-  app.use('/api/v1/chat',      chatRoutes);
-  app.use('/api/v1/user',      userRoutes);
+  app.use('/api/v1/auth', authRoutes);
+  app.use('/api/v1/story', storyRoutes);
+  app.use('/api/v1/payment', paymentRoutes);
+  app.use('/api/v1/chat', chatRoutes);
+  app.use('/api/v1/user', userRoutes);
   app.use('/api/v1/downloads', downloadsRoutes);
 
   // ── Health check ──
@@ -136,9 +136,13 @@ async function main() {
     logger.info(`   Health: http://localhost:${PORT}/api/v1/health`);
   });
 
-  const shutdown = () => { closeDB(); server.close(); process.exit(0); };
+  const shutdown = async () => {
+    await closeDB();
+    server.close();
+    process.exit(0);
+  };
   process.on('SIGTERM', shutdown);
-  process.on('SIGINT',  shutdown);
+  process.on('SIGINT', shutdown);
 }
 
 main().catch(err => {

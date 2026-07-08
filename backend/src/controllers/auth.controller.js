@@ -1,5 +1,5 @@
-import bcrypt   from 'bcryptjs';
-import jwt      from 'jsonwebtoken';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
 import { getDB } from '../db/database.js';
 import { verifyGoogleToken } from '../services/google.service.js';
 import { logger } from '../utils/logger.js';
@@ -11,7 +11,7 @@ function signToken(payload) {
   });
 }
 
-export function register(req, res) {
+export async function register(req, res) {
   const { email, username, password } = req.body;
 
   if (!email || !username || !password) {
@@ -25,15 +25,15 @@ export function register(req, res) {
     });
   }
 
-  const db   = getDB();
+  const db = getDB();
   const hash = bcrypt.hashSync(password, 10);
 
   try {
-    const result = db.prepare(
+    const result = await db.prepare(
       'INSERT INTO users (email, username, password) VALUES (?, ?, ?)'
     ).run(email.toLowerCase().trim(), username.trim(), hash);
 
-    const id    = Number(result.lastInsertRowid);
+    const id = result.lastInsertRowid;
     const token = signToken({ id, username: username.trim(), email: email.toLowerCase().trim() });
 
     logger.info(`Usuario registrado: ${email}`);
@@ -42,7 +42,8 @@ export function register(req, res) {
       user: { id, username: username.trim(), email: email.toLowerCase().trim(), plan: 'free' }
     });
   } catch (err) {
-    if (err.message?.includes('UNIQUE') || err.message?.includes('unique')) {
+    // MySQL reporta duplicados con err.code, no con texto libre como SQLite
+    if (err.code === 'ER_DUP_ENTRY') {
       return res.status(HTTP_STATUS.BAD_REQUEST).json({
         ok: false, message: ERRORS.USER_EXISTS
       });
@@ -54,7 +55,7 @@ export function register(req, res) {
   }
 }
 
-export function login(req, res) {
+export async function login(req, res) {
   const { email, password } = req.body;
 
   if (!email || !password) {
@@ -64,8 +65,8 @@ export function login(req, res) {
   }
 
   try {
-    const db   = getDB();
-    const user = db.prepare(
+    const db = getDB();
+    const user = await db.prepare(
       'SELECT * FROM users WHERE email = ? AND is_active = 1'
     ).get(email.toLowerCase().trim());
 
@@ -99,7 +100,7 @@ export function logout(_req, res) {
  * verifica con Google y crea o recupera el usuario.
  */
 export async function googleAuth(req, res) {
-  const { credential } = req.body; // id_token enviado por GSI
+  const { credential } = req.body;
   if (!credential) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({
       ok: false, message: 'Token de Google requerido'
@@ -110,51 +111,43 @@ export async function googleAuth(req, res) {
     const googleUser = await verifyGoogleToken(credential);
     const db = getDB();
 
-    // 1. Buscar por google_id
-    let user = db.prepare('SELECT * FROM users WHERE google_id = ?').get(googleUser.sub);
+    let user = await db.prepare('SELECT * FROM users WHERE google_id = ?').get(googleUser.sub);
 
-    // 2. Si no existe por google_id, buscar por email
     if (!user) {
-      user = db.prepare('SELECT * FROM users WHERE email = ?').get(googleUser.email);
+      user = await db.prepare('SELECT * FROM users WHERE email = ?').get(googleUser.email);
 
       if (user) {
-        // Usuario existente con email — vincular google_id
-        db.prepare(`UPDATE users SET google_id = ?, updated_at = datetime('now') WHERE id = ?`)
+        await db.prepare(`UPDATE users SET google_id = ?, updated_at = NOW() WHERE id = ?`)
           .run(googleUser.sub, user.id);
         user.google_id = googleUser.sub;
         logger.info(`Google vinculado a usuario existente: ${googleUser.email}`);
       }
     }
 
-    // 3. Si no existe de ninguna manera — crear nuevo usuario
     if (!user) {
-      // Generar username desde el nombre de Google (sanitizado)
       const baseUsername = (googleUser.name || '')
         .toLowerCase()
         .replace(/[^a-z0-9]/g, '')
         .slice(0, 20) || 'usuario';
 
-      // Garantizar unicidad del username
       let username = baseUsername;
-      let suffix   = 1;
-      while (db.prepare('SELECT id FROM users WHERE username = ?').get(username)) {
+      let suffix = 1;
+      while (await db.prepare('SELECT id FROM users WHERE username = ?').get(username)) {
         username = baseUsername + suffix++;
       }
 
-      const result = db.prepare(
+      const result = await db.prepare(
         `INSERT INTO users (email, username, password, google_id, is_active, plan)
          VALUES (?, ?, '', ?, 1, 'free')`
       ).run(googleUser.email, username, googleUser.sub);
 
-      // Buscar el usuario recién creado — lastInsertRowid puede ser BigInt en sql.js
-      const newId = Number(result.lastInsertRowid);
+      const newId = result.lastInsertRowid;
       user = newId
-        ? db.prepare('SELECT * FROM users WHERE id = ?').get(newId)
+        ? await db.prepare('SELECT * FROM users WHERE id = ?').get(newId)
         : null;
 
-      // Fallback: buscar por email si lastInsertRowid no funcionó
       if (!user) {
-        user = db.prepare('SELECT * FROM users WHERE email = ?').get(googleUser.email);
+        user = await db.prepare('SELECT * FROM users WHERE email = ?').get(googleUser.email);
       }
 
       if (!user) {

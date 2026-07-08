@@ -1,168 +1,79 @@
 /**
- * database.js — Base de datos con fallback automático
- * better-sqlite3 (nativo) → sql.js (pure JS, sin compilación)
+ * database.js — Conexión a MySQL/MariaDB (pool centralizado)
+ *
+ * FASE 2 del fix de aislamiento multi-usuario: reemplaza el adapter
+ * SQLite/sql.js (almacenamiento LOCAL por proceso) por una única base
+ * de datos de red, compartida por TODAS las instancias del backend.
+ * Elimina de raíz el vector que causaba el bug: cada instancia de
+ * sql.js tenía su propia numeración autoincremental de `users.id`,
+ * así que un mismo JWT podía apuntar a usuarios distintos según en
+ * qué instancia cayera la request.
  */
-import { readFileSync, writeFileSync,
-         existsSync, mkdirSync }  from 'fs';
-import { fileURLToPath }          from 'url';
-import { dirname, join }          from 'path';
-import { logger }                 from '../utils/logger.js';
+import mysql from 'mysql2/promise';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { logger } from '../utils/logger.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 
-let _db        = null;
-let _adapter   = null;
-let _saveTimer = null;
-let _rawSqlJs  = null;
-let _dbPath    = null;
+let _pool = null; // pool mysql2 — compartido por toda la app, thread-safe
+let _db = null; // wrapper con la API .prepare(sql).get/all/run() (ahora async)
 
-/* ─── Mutex para serializar writes en sql.js ─────────────────────────
-   Evita que requests concurrentes de distintos usuarios interfieran
-   entre sí mientras la DB está en memoria.
-   ────────────────────────────────────────────────────────────────── */
-let _mutexQueue = Promise.resolve();
-function withMutex(fn) {
-  _mutexQueue = _mutexQueue.then(() => fn()).catch(e => {
-    logger.error('[DB mutex]', e.message);
-  });
-  return _mutexQueue;
-}
-
-/* ─── Persistencia sql.js ─── */
-function saveToDisc() {
-  if (!_rawSqlJs || !_dbPath) return;
-  try {
-    writeFileSync(_dbPath, Buffer.from(_rawSqlJs.export()));
-  } catch (err) {
-    logger.error('Error al guardar DB en disco:', err.message);
-  }
-}
-
-/* ─── Normalizar parámetros para sql.js ─────────────────────────────
-   better-sqlite3: stmt.run(a, b, c)  o  stmt.run([a, b, c])
-   sql.js:         stmt.bind([a, b, c])
-   ──────────────────────────────────────────────────────────────────── */
+/* ─── Normalizar parámetros: mismo criterio que el adapter anterior ─── */
 function flatParams(args) {
   if (args.length === 0) return [];
-  // Si el único argumento ya es un array, usarlo directamente
   if (args.length === 1 && Array.isArray(args[0])) return args[0];
   return args;
 }
 
-/* ─── Wrapper sql.js → API de better-sqlite3 ─── */
-function wrapSqlJs(raw) {
-
+/* ─── Wrapper: expone `.prepare(sql).get/all/run()` igual que antes,
+   pero ahora ASÍNCRONO. El único cambio que exige en los controllers
+   es anteponer `await` — la forma de escribir las queries no cambia.
+   Funciona tanto sobre el pool como sobre una conexión individual de
+   una transacción (ambos exponen `.execute()`). ─────────────────── */
+function wrapExecutor(executor) {
   function prepare(sql) {
     return {
-      /* Ejecuta sin retorno de filas (INSERT, UPDATE, DELETE) */
-      run(...args) {
+      async run(...args) {
         const params = flatParams(args);
-        try {
-          raw.run(sql, params);
-        } catch (e) {
-          logger.error(`DB run error: ${e.message}\nSQL: ${sql}\nParams: ${JSON.stringify(params)}`);
-          throw e;
-        }
-        saveToDisc();
-        // Obtener lastInsertRowid y changes
-        const r = raw.exec('SELECT last_insert_rowid() AS id, changes() AS ch');
-        const vals = r[0]?.values[0] ?? [0, 0];
-        return { lastInsertRowid: vals[0], changes: vals[1] };
+        const [result] = await executor.execute(sql, params);
+        return { lastInsertRowid: result.insertId, changes: result.affectedRows };
       },
-
-      /* Retorna la primera fila como objeto */
-      get(...args) {
+      async get(...args) {
         const params = flatParams(args);
-        let stmt;
-        try {
-          stmt = raw.prepare(sql);
-          if (params.length) stmt.bind(params);
-          if (!stmt.step()) { stmt.free(); return undefined; }
-          const cols = stmt.getColumnNames();
-          const vals = stmt.get();
-          stmt.free();
-          const obj = {};
-          cols.forEach((c, i) => { obj[c] = vals[i]; });
-          return obj;
-        } catch (e) {
-          logger.error(`DB get error: ${e.message}\nSQL: ${sql}\nParams: ${JSON.stringify(params)}`);
-          stmt?.free();
-          throw e;
-        }
+        const [rows] = await executor.execute(sql, params);
+        return rows[0];
       },
-
-      /* Retorna todas las filas como array de objetos */
-      all(...args) {
+      async all(...args) {
         const params = flatParams(args);
-        let stmt;
-        try {
-          stmt = raw.prepare(sql);
-          if (params.length) stmt.bind(params);
-          const rows = [];
-          while (stmt.step()) {
-            const cols = stmt.getColumnNames();
-            const vals = stmt.get();
-            const obj  = {};
-            cols.forEach((c, i) => { obj[c] = vals[i]; });
-            rows.push(obj);
-          }
-          stmt.free();
-          return rows;
-        } catch (e) {
-          logger.error(`DB all error: ${e.message}\nSQL: ${sql}\nParams: ${JSON.stringify(params)}`);
-          stmt?.free();
-          throw e;
-        }
+        const [rows] = await executor.execute(sql, params);
+        return rows;
       },
     };
   }
-
-  return {
-    prepare,
-    exec(sql) {
-      try {
-        raw.run(sql);
-        saveToDisc();
-      } catch (e) {
-        logger.error(`DB exec error: ${e.message}`);
-        throw e;
-      }
-    },
-    pragma() {},  // no-op — sql.js no usa pragmas de la misma forma
-    close()  { saveToDisc(); raw.close(); },
-  };
+  return { prepare };
 }
 
-/* ═══════════════════════════════════════
-   API PÚBLICA
-   ═══════════════════════════════════════ */
-
-export function getDB() {
-  if (!_db) throw new Error('DB no inicializada. Llamá a initDB() primero.');
-  return _db;
-}
-
-/* ─── Migraciones automáticas de columnas ───────────────────────────
-   Verifica que todas las columnas definidas existan en cada tabla.
-   Agrega las que faltan con ALTER TABLE.
-   Funciona tanto con better-sqlite3 como con sql.js.
-   ────────────────────────────────────────────────────────────────── */
+/* ─── Migraciones automáticas de columnas (equivalente MySQL de lo que
+   antes hacía pragma_table_info en SQLite) ───────────────────────── */
 const COLUMN_MIGRATIONS = [
-  { table: 'users', column: 'avatar_url',      def: 'TEXT' },
-  { table: 'users', column: 'plan_expires_at', def: 'TEXT' },
-  { table: 'users', column: 'google_id',       def: 'TEXT' },
+  { table: 'users', column: 'avatar_url', def: 'TEXT NULL' },
+  { table: 'users', column: 'plan_expires_at', def: 'DATETIME NULL' },
+  { table: 'users', column: 'google_id', def: 'VARCHAR(255) NULL' },
 ];
 
-function runColumnMigrations(db, adapter) {
+async function runColumnMigrations() {
   for (const { table, column, def } of COLUMN_MIGRATIONS) {
     try {
-      const cols = db.prepare(
-        `SELECT name FROM pragma_table_info('${table}')`
-      ).all().map(r => r.name);
-
-      if (!cols.includes(column)) {
-        db.prepare(`ALTER TABLE ${table} ADD COLUMN ${column} ${def}`).run();
-        logger.info(`✓ Columna agregada: ${table}.${column} (${adapter})`);
+      const [cols] = await _pool.query(
+        `SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS
+         WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ? AND COLUMN_NAME = ?`,
+        [table, column]
+      );
+      if (cols.length === 0) {
+        await _pool.query(`ALTER TABLE ${table} ADD COLUMN ${column} ${def}`);
+        logger.info(`✓ Columna agregada: ${table}.${column}`);
       }
     } catch (e) {
       logger.warn(`Migración ${table}.${column}: ${e.message}`);
@@ -170,71 +81,104 @@ function runColumnMigrations(db, adapter) {
   }
 }
 
-export async function initDB(dbPath) {
-  _dbPath = dbPath;
+/* ─── Ejecutar schema.sql con soporte multi-statement ────────────────
+   Conexión temporal dedicada con multipleStatements:true SOLO para
+   el bootstrapping. El pool principal lo mantiene en false (default)
+   por seguridad — evita SQL injection vía statement-stacking en el
+   resto de la app, donde nunca hace falta correr varios statements
+   en un solo query. ──────────────────────────────────────────────── */
+async function runSchema(baseConfig, schemaSql) {
+  const bootConn = await mysql.createConnection({
+    ...baseConfig,
+    multipleStatements: true,
+  });
+  try {
+    await bootConn.query(schemaSql);
+  } finally {
+    await bootConn.end();
+  }
+}
 
-  const dir = dirname(dbPath);
-  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+/* ═══════════════════════════════════════
+   API PÚBLICA
+   ═══════════════════════════════════════ */
+
+export async function initDB() {
+  const baseConfig = {
+    host: process.env.DB_HOST || 'localhost',
+    port: Number(process.env.DB_PORT || 3306),
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    charset: 'utf8mb4', // el default del driver es utf8 clásico (3 bytes) — sin esto, emojis/chars 4-byte se truncan o rechazan
+  };
 
   const schema = readFileSync(join(__dir, 'schema.sql'), 'utf-8');
+  await runSchema(baseConfig, schema);
 
-  /* ── Intento 1: better-sqlite3 (nativo, rápido) ── */
+  _pool = mysql.createPool({
+    ...baseConfig,
+    waitForConnections: true,
+    connectionLimit: Number(process.env.DB_POOL_SIZE || 10),
+    queueLimit: 0,
+    dateStrings: true,
+  });
+
+  // Sin este listener, un error de conexión en background (p.ej. el
+  // servidor MySQL cerrando una conexión ociosa por `wait_timeout`)
+  // es un evento 'error' sin manejar → Node lo trata como excepción no
+  // capturada y puede derribar TODO el proceso, no solo el request.
+  // Puede tardar horas/días en manifestarse tras el deploy — exactamente
+  // el tipo de bug "solo pasa en producción" de esta conversación.
+  _pool.on('error', (err) => {
+    logger.error(`[DB pool] Error en background: ${err.code || err.message}`);
+  });
+
+  // Verificar conexión real antes de dar por lista la DB
+  const conn = await _pool.getConnection();
+  await conn.ping();
+  conn.release();
+
+  _db = wrapExecutor(_pool);
+  await runColumnMigrations();
+
+  logger.info(`✓ DB lista con MySQL/MariaDB: ${baseConfig.database}@${baseConfig.host}:${baseConfig.port}`);
+  return _db;
+}
+
+export function getDB() {
+  if (!_db) throw new Error('DB no inicializada. Llamá a initDB() primero.');
+  return _db;
+}
+
+/* ─── Transacción real: reemplaza el mutex de aplicación ─────────────
+   Con MySQL/MariaDB centralizado, la concurrencia entre requests —
+   incluso entre DISTINTAS instancias del backend, que ahora comparten
+   la misma base — la resuelve el motor InnoDB con locks a nivel de
+   fila. El mutex de Node anterior solo protegía un único proceso y
+   quedaba ciego ante réplicas/instancias múltiples. ────────────────── */
+export async function withTransaction(fn) {
+  const conn = await _pool.getConnection();
   try {
-    const { default: Database } = await import('better-sqlite3');
-    const raw = new Database(dbPath);
-    raw.pragma('journal_mode = WAL');
-    raw.pragma('foreign_keys = ON');
-    raw.pragma('synchronous = NORMAL');
-    raw.exec(schema);
-    _db      = raw;
-    _adapter = 'better-sqlite3';
-    runColumnMigrations(_db, 'better-sqlite3');
-    logger.info(`✓ DB lista con better-sqlite3: ${dbPath}`);
-    return _db;
-  } catch (e) {
-    logger.warn(`better-sqlite3 no disponible → usando sql.js (${e.message.split('\n')[0]})`);
-  }
-
-  /* ── Intento 2: sql.js (pure JS, sin compilación) ── */
-  try {
-    const { default: initSqlJs } = await import('sql.js');
-    const SQL = await initSqlJs();
-
-    const raw = existsSync(dbPath)
-      ? new SQL.Database(readFileSync(dbPath))
-      : new SQL.Database();
-
-    // Ejecutar schema (DDL)
-    raw.run(schema);
-
-    _rawSqlJs = raw;
-    writeFileSync(dbPath, Buffer.from(raw.export()));
-
-    // Auto-save cada 3 segundos
-    _saveTimer = setInterval(saveToDisc, 1000);
-
-    _db      = wrapSqlJs(raw);
-    _adapter = 'sql.js';
-
-    runColumnMigrations(_db, 'sql.js');
-    saveToDisc(); // persistir migraciones inmediatamente
-
-    logger.info(`✓ DB lista con sql.js (modo compatibilidad): ${dbPath}`);
-    return _db;
-  } catch (e) {
-    logger.error('No se pudo inicializar ninguna DB:', e.message);
-    throw e;
+    await conn.beginTransaction();
+    const result = await fn(wrapExecutor(conn));
+    await conn.commit();
+    return result;
+  } catch (err) {
+    await conn.rollback();
+    throw err;
+  } finally {
+    conn.release();
   }
 }
 
-export function closeDB() {
-  if (_saveTimer) { clearInterval(_saveTimer); _saveTimer = null; }
-  if (_db) {
-    _db.close?.();
+export function getAdapter() { return 'mysql2'; }
+
+export async function closeDB() {
+  if (_pool) {
+    await _pool.end();
+    _pool = null;
     _db = null;
-    logger.info(`DB cerrada (${_adapter})`);
+    logger.info('DB cerrada (mysql2)');
   }
 }
-
-export const getAdapter = () => _adapter;
-export { withMutex };
