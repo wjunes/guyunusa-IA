@@ -30,6 +30,7 @@ import {
   initSidebarResize,
   toggleSidebar
 } from '../modules/sidebarResize.js';
+import { renderMessageHtml, highlightCodeBlocks } from '../utils/messageFormat.js';
 
 window.__guyunusa__ = { EventBus, store };
 
@@ -136,7 +137,7 @@ function onNewConv() {
   store.update({ activeConvId: null, messages: [] });
   renderHeader(store); renderChatWindow(store); renderInputBar(store);
   closeSidebar();
-  setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
+  setTimeout(() => document.getElementById('chat-input')?.focus(), 1000);
 }
 
 async function onConvSelect(id, isMobile) {
@@ -147,7 +148,7 @@ async function onConvSelect(id, isMobile) {
     await loadMessages(id, store);
     renderSidebar(store); renderHeader(store); renderChatWindow(store); renderInputBar(store);
     // closeSidebar ya se llamó arriba
-    setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
+    setTimeout(() => document.getElementById('chat-input')?.focus(), 1000);
   } catch (err) { showError(err.message); }
 }
 
@@ -236,7 +237,7 @@ async function onMessageSend(text) {
   // Restaurar el input (con el texto original si se detuvo, vacío si completó)
   setInputLoading(false, null, streamStopped ? text : '');
   abortCtrl = null;
-  setTimeout(() => document.getElementById('chat-input')?.focus(), 3000);
+  setTimeout(() => document.getElementById('chat-input')?.focus(), 1000);
 }
 
 function onLogout() { logout(store); router.navigate('/login'); }
@@ -273,4 +274,55 @@ function showError(msg) {
     font-size:14px;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);white-space:nowrap;`;
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 4000);
+}
+
+function renderMessageBubble(message) {
+  const container = document.createElement('div');
+  container.className = 'c-message';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'c-message__avatar';
+  avatar.style.backgroundImage = `url(${message.role === 'user' ? store.get('user')?.avatar : 'assets/icons/gpt.png'})`;
+  container.appendChild(avatar);
+
+  const contentEl = document.createElement('div');
+  contentEl.className = 'c-message__content';
+
+  // donde se setea el contenido del mensaje:
+  renderMessageContent(contentEl, message);
+
+  container.appendChild(contentEl);
+
+  return container;
+}
+
+function renderMessageContent(contentEl, message) {
+  const raw = message?.content || '';
+  const html = renderMessageHtml(raw);
+
+  console.debug('[render]', {
+    hasFence: raw.includes('```'),
+    rawPreview: raw.slice(0, 120),
+    htmlHasPre: html.includes('<pre'),
+    htmlPreview: html.slice(0, 120)
+  });
+
+  contentEl.innerHTML = renderMessageHtml(message?.content || '');
+  highlightCodeBlocks(contentEl);
+
+  // debug temporal
+  console.debug('[chat-render]', {
+    hasPreInHtml: /<pre\b/i.test(html),
+    hasCodeFenceInRaw: String(message?.content || '').includes('```'),
+    preCodeInBubble: contentEl.querySelectorAll('pre code').length
+  });
+
+  // resaltar luego de insertar en DOM
+  requestAnimationFrame(() => {
+    if (window.hljs) {
+      contentEl.querySelectorAll('pre.c-code-block code, pre code').forEach((el) => {
+        window.hljs.highlightElement(el);
+      });
+    }
+  });
 }

@@ -1,11 +1,18 @@
-import { $ }        from '../utils/dom.js';
+import { $ } from '../utils/dom.js';
 import { EventBus } from '../modules/eventBus.js';
-import { t }        from '../modules/i18n.js';
+import { t } from '../modules/i18n.js';
+
+// Evita instancias STT huérfanas cuando renderInputBar se llama varias veces
+let _sttReset = () => { };
+let _sttDestroy = () => { };
 
 export function renderInputBar(store) {
   const el = $('.o-inputbar');
   if (!el) return;
   const tr = t();
+
+  // cleanup del STT anterior (si existía)
+  _sttDestroy();
 
   el.innerHTML = `
     <div class="c-input-bar">
@@ -35,17 +42,15 @@ export function renderInputBar(store) {
   `;
 
   const textarea = $('#chat-input');
-  const sendBtn  = $('#btn-send');
-  const micBtn   = $('#btn-mic');
+  const sendBtn = $('#btn-send');
+  const micBtn = $('#btn-mic');
 
-  // Auto-resize
   textarea.addEventListener('input', () => {
     textarea.style.height = 'auto';
     textarea.style.height = Math.min(textarea.scrollHeight, 160) + 'px';
     sendBtn.disabled = !textarea.value.trim();
   });
 
-  // Enter para enviar
   textarea.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
@@ -55,8 +60,9 @@ export function renderInputBar(store) {
 
   sendBtn.addEventListener('click', doSend);
 
-  // ── STT ── retorna una función para limpiar el buffer interno del micrófono
-  const resetSTTBuffer = initSTT(textarea, sendBtn, micBtn);
+  const stt = initSTT(textarea, sendBtn, micBtn);
+  _sttReset = stt.resetBuffer;
+  _sttDestroy = stt.destroy;
 
   function doSend() {
     const text = textarea.value.trim();
@@ -64,100 +70,132 @@ export function renderInputBar(store) {
     textarea.value = '';
     textarea.style.height = 'auto';
     sendBtn.disabled = true;
-    resetSTTBuffer(); // limpiar savedText/finalText para que el mic no lo reinyecte
+
+    // al enviar, cortar mic de verdad para evitar reinicio automático
+    _sttReset({ hardStop: true });
+
     EventBus.emit('message:send', text);
   }
 }
 
-/* ══════════════════════════════════════════════
-   STT — Speech To Text
-   Usa la Web Speech API (nativa del navegador)
-   Chrome/Edge: funciona offline
-   Firefox: no soportado → muestra aviso
-   ══════════════════════════════════════════════ */
 function initSTT(textarea, sendBtn, micBtn) {
   const SpeechRecognition =
     window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if (!SpeechRecognition) {
-    // Browser no soporta STT — ocultar el botón
     micBtn.style.display = 'none';
-    return () => {}; // no-op para que doSend() pueda llamarla igual
+    return {
+      resetBuffer: () => { },
+      destroy: () => { },
+    };
   }
 
   const recognition = new SpeechRecognition();
-  recognition.lang            = getLang();
-  recognition.continuous      = true;   // no cortar por pausas cortas
-  recognition.interimResults  = true;   // texto provisional mientras habla
+  recognition.lang = getLang();
+
+  const ua = navigator.userAgent || '';
+  const isAndroidChrome = /Android/i.test(ua) && /Chrome/i.test(ua);
+
+  // En Android Chrome continuous suele duplicar segmentos
+  recognition.continuous = !isAndroidChrome;
+  recognition.interimResults = true;
   recognition.maxAlternatives = 1;
 
   let isListening = false;
-  let userStopped = false; // true solo si el usuario hizo clic para detener
-  let savedText   = '';    // texto que había ANTES de empezar a grabar
-  let finalText   = '';    // resultados ya confirmados (acumulado de la sesión)
+  let userStopped = false;
+  let savedText = '';
+  let finalText = '';
 
-  /** Limpia el buffer interno — se llama al enviar el mensaje.
-   *  No alcanza con limpiar las variables JS: el objeto recognition
-   *  del navegador mantiene su propio buffer de resultados mientras
-   *  la sesión sigue activa. Hay que abortarlo para descartarlo de raíz.
-   *  El listener de 'end' ve userStopped=false y reinicia solo,
-   *  así el usuario no nota que el micrófono se "cerró". */
-  function resetBuffer() {
+  let lastFinalNorm = '';
+  let lastFinalAt = 0;
+
+  const normalize = (s) =>
+    (s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+  function resetBuffer({ hardStop = false } = {}) {
     savedText = '';
     finalText = '';
+    lastFinalNorm = '';
+    lastFinalAt = 0;
+
     if (isListening) {
-      try { recognition.abort(); } catch { /* noop */ }
+      userStopped = !!hardStop;
+      try {
+        if (hardStop) recognition.stop();
+        else recognition.abort();
+      } catch { /* noop */ }
     }
   }
 
-  micBtn.addEventListener('click', () => {
+  micBtn.addEventListener('click', onMicClick);
+  recognition.addEventListener('result', onResult);
+  recognition.addEventListener('start', onStart);
+  recognition.addEventListener('end', onEnd);
+  recognition.addEventListener('error', onError);
+
+  function onMicClick() {
     if (isListening) {
       userStopped = true;
       recognition.stop();
     } else {
-      savedText        = textarea.value;
-      finalText        = '';
-      userStopped      = false;
+      savedText = textarea.value.trim();
+      finalText = '';
+      lastFinalNorm = '';
+      lastFinalAt = 0;
+      userStopped = false;
       recognition.lang = getLang();
-      try { recognition.start(); } catch { /* ya estaba iniciado */ }
+      try { recognition.start(); } catch { /* ya iniciado */ }
     }
-  });
+  }
 
-  // Mientras habla — combina lo ya confirmado + lo provisional de esta toma
-  recognition.addEventListener('result', (e) => {
+  function onResult(e) {
     let interim = '';
-    for (let i = e.resultIndex; i < e.results.length; i++) {
-      const transcript = e.results[i][0].transcript;
-      if (e.results[i].isFinal) finalText += transcript + ' ';
-      else                       interim   += transcript;
-    }
-    const base = savedText + (savedText ? ' ' : '');
-    textarea.value = base + finalText + interim;
-    textarea.dispatchEvent(new Event('input')); // recalcular altura y botón enviar
-  });
 
-  recognition.addEventListener('start', () => {
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const transcript = (e.results[i][0]?.transcript || '').trim();
+      if (!transcript) continue;
+
+      if (e.results[i].isFinal) {
+        const norm = normalize(transcript);
+        const now = Date.now();
+
+        const isConsecutiveDuplicate =
+          norm &&
+          norm === lastFinalNorm &&
+          (now - lastFinalAt) < 4000;
+
+        if (!isConsecutiveDuplicate) {
+          finalText += transcript + ' ';
+          lastFinalNorm = norm;
+          lastFinalAt = now;
+        }
+      } else {
+        interim += transcript + ' ';
+      }
+    }
+
+    const base = savedText ? (savedText + ' ') : '';
+    textarea.value = (base + finalText + interim).trim();
+    textarea.dispatchEvent(new Event('input'));
+  }
+
+  function onStart() {
     isListening = true;
     micBtn.classList.add('c-input-bar__mic--active');
     micBtn.setAttribute('aria-label', 'Grabando... (clic para detener)');
     micBtn.innerHTML = iconMicActive();
     micBtn.title = 'Grabando... — clic para detener';
-  });
+  }
 
-  // El navegador puede cortar el reconocimiento por inactividad interna.
-  // FIX Android Chrome: antes de reiniciar, comprometer finalText a savedText
-  // para que la nueva sesión no repita los resultados de la anterior.
-  recognition.addEventListener('end', () => {
+  function onEnd() {
     if (!userStopped) {
-      // Comprometer texto confirmado antes de reiniciar
       if (finalText.trim()) {
         savedText = (savedText + ' ' + finalText).trim();
         finalText = '';
-        // Actualizar el textarea con el texto comprometido
         textarea.value = savedText;
         textarea.dispatchEvent(new Event('input'));
       }
-      try { recognition.start(); return; } catch { /* sigue abajo como fallback */ }
+      try { recognition.start(); return; } catch { /* fallback abajo */ }
     }
 
     isListening = false;
@@ -170,11 +208,9 @@ function initSTT(textarea, sendBtn, micBtn) {
       sendBtn.disabled = false;
       textarea.focus();
     }
-  });
+  }
 
-  recognition.addEventListener('error', (e) => {
-    // 'no-speech' y 'aborted' no son errores reales en modo continuo —
-    // el listener de 'end' decide si reiniciar o no.
+  function onError(e) {
     if (e.error === 'not-allowed') {
       userStopped = true;
       isListening = false;
@@ -184,14 +220,25 @@ function initSTT(textarea, sendBtn, micBtn) {
     } else if (e.error !== 'no-speech' && e.error !== 'aborted') {
       userStopped = true;
     }
-  });
+  }
 
-  return resetBuffer; // expuesta para que doSend() la invoque al enviar
+  function destroy() {
+    userStopped = true;
+    try { recognition.stop(); } catch { /* noop */ }
+
+    micBtn.removeEventListener('click', onMicClick);
+    recognition.removeEventListener('result', onResult);
+    recognition.removeEventListener('start', onStart);
+    recognition.removeEventListener('end', onEnd);
+    recognition.removeEventListener('error', onError);
+  }
+
+  return { resetBuffer, destroy };
 }
 
 function getLang() {
   const lang = localStorage.getItem('guyunusa_lang') || 'es';
-  const map  = { es: 'es-UY', en: 'en-US', pt: 'pt-BR' };
+  const map = { es: 'es-UY', en: 'en-US', pt: 'pt-BR' };
   return map[lang] || 'es-UY';
 }
 
@@ -225,8 +272,8 @@ let _savedOriginalText = '';
 
 export function setInputLoading(loading, onStop = null, originalText = '') {
   const textarea = $('#chat-input');
-  const sendBtn  = $('#btn-send');
-  const micBtn   = $('#btn-mic');
+  const sendBtn = $('#btn-send');
+  const micBtn = $('#btn-mic');
   if (!textarea || !sendBtn) return;
 
   const tr = t();
@@ -235,16 +282,16 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
     _savedOriginalText = originalText;
 
     // Textarea deshabilitado — muestra el mensaje enviado
-    textarea.disabled    = true;
+    textarea.disabled = true;
     textarea.placeholder = tr?.chat?.placeholderLoad || 'Guyunusa está escribiendo...';
 
     // Convertir Send → Stop (sin clonar, sobrescribir onclick)
-    sendBtn.disabled  = false;
+    sendBtn.disabled = false;
     sendBtn.className = 'c-input-bar__stop';
-    sendBtn.title     = 'Detener respuesta';
+    sendBtn.title = 'Detener respuesta';
     sendBtn.setAttribute('aria-label', 'Detener');
     sendBtn.innerHTML = iconStop();
-    sendBtn.onclick   = () => { if (onStop) onStop(); };
+    sendBtn.onclick = () => { if (onStop) onStop(); };
 
     if (micBtn) micBtn.disabled = true;
 
@@ -255,8 +302,8 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
     _savedOriginalText = '';
 
     // Rehabilitar textarea con el texto original
-    textarea.disabled    = false;
-    textarea.value       = origText;
+    textarea.disabled = false;
+    textarea.value = origText;
     textarea.placeholder = tr?.chat?.placeholder || 'Escribí tu mensaje...';
     textarea.style.height = 'auto';
     if (origText) {
@@ -266,11 +313,11 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
 
     // Restaurar Send
     sendBtn.className = 'c-input-bar__send';
-    sendBtn.title     = tr?.chat?.hint || 'Enter para enviar';
+    sendBtn.title = tr?.chat?.hint || 'Enter para enviar';
     sendBtn.setAttribute('aria-label', 'Enviar');
     sendBtn.innerHTML = iconSend();
-    sendBtn.disabled  = !origText.trim();
-    sendBtn.onclick   = null; // quitar el handler de Stop
+    sendBtn.disabled = !origText.trim();
+    sendBtn.onclick = null; // quitar el handler de Stop
 
     if (micBtn) micBtn.disabled = false;
   }

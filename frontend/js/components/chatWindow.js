@@ -7,6 +7,7 @@ import { createMessageItem,
 import { EventBus }              from '../modules/eventBus.js';
 import { createStoryCard }       from './storyCard.js';
 import { parseMarkdown }         from '../utils/markdown.js';
+import { highlightCodeBlocks }   from '../utils/messageFormat.js';
 
 export function renderChatWindow(store) {
   const el = $('.o-chat');
@@ -108,6 +109,7 @@ export function appendStreamChunk(ref, text, buffer) {
 export function finalizeStream(ref, buffer) {
   if (!ref?.bubbleEl) return;
   ref.bubbleEl.innerHTML = parseMarkdown(buffer);
+  highlightCodeBlocks(ref.bubbleEl);
 
   if (ref.bodyEl) {
     const meta    = document.createElement('div');
