@@ -1,14 +1,13 @@
 .c-input-bar {
   display: flex;
-  align-items: flex-end;
-  gap: var(--space-sm);
+  flex-direction: column;
   padding: var(--space-sm) var(--space-md) var(--space-md);
   background: var(--bg-primary);
   border-top: 1px solid var(--border-color);
+  gap: 0;
 }
 
 .c-input-bar__wrap {
-  flex: 1;
   display: flex;
   align-items: flex-end;
   background: var(--bg-secondary);
@@ -50,22 +49,15 @@
   flex-shrink: 0;
   transition: background var(--transition), transform var(--transition);
 }
-.c-input-bar__send:hover:not(:disabled) {
-  background: var(--accent-hover);
-}
-.c-input-bar__send:disabled {
-  background: var(--border-strong);
-  cursor: not-allowed;
-}
-.c-input-bar__send:active:not(:disabled) {
-  transform: scale(0.93);
-}
+.c-input-bar__send:hover:not(:disabled) { background: var(--accent-hover); }
+.c-input-bar__send:disabled { background: var(--border-strong); cursor: not-allowed; }
+.c-input-bar__send:active:not(:disabled) { transform: scale(0.93); }
 
 .c-input-bar__hint {
   font-size: var(--text-xs);
   color: var(--text-muted);
   text-align: center;
-  padding: 0 var(--space-md) var(--space-xs);
+  padding: 4px var(--space-md) 0;
   background: var(--bg-primary);
 }
 
@@ -85,13 +77,9 @@
   flex-shrink: 0;
   transition: color var(--transition), background var(--transition);
 }
-.c-input-bar__mic:hover:not(:disabled) {
-  color: var(--accent);
-  background: var(--accent-bg);
-}
+.c-input-bar__mic:hover:not(:disabled) { color: var(--accent); background: var(--accent-bg); }
 .c-input-bar__mic:disabled { opacity: .4; cursor: not-allowed; }
 
-/* Estado grabando — rojo pulsante */
 .c-input-bar__mic--active {
   color: #e74c3c !important;
   background: #fdf0ef !important;
@@ -101,17 +89,13 @@
   0%,100% { background: #fdf0ef !important; }
   50%      { background: #fae0de !important; }
 }
-
-/* Pulso en el ícono del micrófono al grabar */
-.mic-pulse {
-  animation: mic-pulse-icon 1s ease infinite;
-}
+.mic-pulse { animation: mic-pulse-icon 1s ease infinite; }
 @keyframes mic-pulse-icon {
   0%,100% { opacity: 1; }
   50%      { opacity: .4; }
 }
 
-/* ── Botón Stop (reemplaza a Send durante el streaming) ── */
+/* ── Botón Stop ── */
 .c-input-bar__stop {
   display: flex;
   align-items: center;
@@ -129,16 +113,160 @@
   transition: background 150ms, transform 150ms;
   animation: stop-pulse 1.5s ease infinite;
 }
-.c-input-bar__stop:hover {
-  background: #a93226;
-  transform: scale(1.08);
-}
-.c-input-bar__stop:active {
-  transform: scale(0.95);
-  animation: none;
-}
-
+.c-input-bar__stop:hover { background: #a93226; transform: scale(1.08); }
+.c-input-bar__stop:active { transform: scale(0.95); animation: none; }
 @keyframes stop-pulse {
   0%, 100% { box-shadow: 0 0 0 0 rgba(192, 57, 43, .4); }
   50%       { box-shadow: 0 0 0 6px rgba(192, 57, 43, 0); }
+}
+
+/* ══════════════════════════════════════════════════════════
+   BOTÓN ADJUNTAR ARCHIVO
+   ══════════════════════════════════════════════════════════ */
+.c-input-bar__attach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 4px 0 4px 4px;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color var(--transition), background var(--transition);
+}
+.c-input-bar__attach:hover:not(:disabled) {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
+.c-input-bar__attach:disabled { opacity: .4; cursor: not-allowed; }
+.c-input-bar__attach:active:not(:disabled) { transform: scale(0.93); }
+
+/* ══════════════════════════════════════════════════════════
+   CHIP DE ARCHIVO ADJUNTO (debajo del wrap)
+   ══════════════════════════════════════════════════════════ */
+.c-input-bar__file-row {
+  padding: 6px 4px 2px;
+}
+
+.c-input-bar__file-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 4px 8px 4px 10px;
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  max-width: 100%;
+  transition: border-color 200ms, color 200ms;
+}
+
+/* Estado: cargando */
+.c-input-bar__file-chip--loading {
+  opacity: 0.75;
+  border-color: var(--border-color);
+}
+.file-chip-spinner {
+  animation: chip-spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+@keyframes chip-spin { to { transform: rotate(360deg); } }
+
+/* Estado: listo */
+.c-input-bar__file-chip--ready {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+.c-input-bar__file-chip--ready svg { color: var(--accent); }
+
+/* Estado: error */
+.c-input-bar__file-chip--error {
+  border-color: #e74c3c;
+  color: #e74c3c;
+}
+
+.c-input-bar__file-icon { display: flex; align-items: center; flex-shrink: 0; }
+
+.c-input-bar__file-name {
+  font-weight: 500;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 1;
+}
+
+.c-input-bar__file-meta {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.c-input-bar__file-remove {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transition: color var(--transition), background var(--transition);
+}
+.c-input-bar__file-remove:hover {
+  color: #e74c3c;
+  background: rgba(231,76,60,.1);
+}
+
+/* ══════════════════════════════════════════════════════════
+   CHIP DE ARCHIVO EN EL MENSAJE DEL USUARIO
+   ══════════════════════════════════════════════════════════ */
+.c-message__file-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  padding: 3px 8px 3px 6px;
+  background: rgba(0,0,0,.07);
+  border-radius: 12px;
+  font-size: 11px;
+  color: inherit;
+  opacity: 0.8;
+  max-width: 200px;
+  overflow: hidden;
+}
+[data-theme="dark"] .c-message__file-chip { background: rgba(255,255,255,.1); }
+.c-message__file-chip span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ══════════════════════════════════════════════════════════
+   BOTÓN DESCARGAR en el meta de la respuesta
+   ══════════════════════════════════════════════════════════ */
+.c-message__download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+}
+.c-message__download:hover {
+  color: var(--accent);
+  background: var(--accent-bg);
 }

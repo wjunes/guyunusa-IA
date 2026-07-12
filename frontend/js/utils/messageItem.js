@@ -1,6 +1,5 @@
 import { getAssetURL } from '../services/api.js';
 import { parseMarkdown } from '../utils/markdown.js';
-import { highlightCodeBlocks } from '../utils/messageFormat.js';
 import { formatTime }    from '../utils/helpers.js';
 
 export function createMessageItem(msg, userInitial = '?') {
@@ -35,8 +34,6 @@ export function createMessageItem(msg, userInitial = '?') {
   bubble.innerHTML = isUser
     ? escHTML(msg.content).replace(/\n/g, '<br>')
     : parseMarkdown(msg.content);
-
-  if (!isUser) highlightCodeBlocks(bubble);
 
   // Meta
   const meta = document.createElement('div');

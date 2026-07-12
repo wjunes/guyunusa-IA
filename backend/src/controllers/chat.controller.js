@@ -3,21 +3,59 @@ import {
   chat,
   chatStream
 } from '../services/ai.service.js';
+import { extractText }   from '../services/fileExtractor.service.js';
+import { unlink }        from 'fs/promises';
 import { SYSTEM_PROMPT } from '../../../shared/systemPrompt.js';
 import { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } from '../../../shared/constants.js';
 import { logger } from '../utils/logger.js';
 
-/* ── Helper compartido: validar límite, crear/obtener conversación, guardar mensaje user ──
-   Envuelto en withTransaction: con MySQL centralizado, esto protege
-   la operación compuesta (check + insert + select) como una unidad
-   atómica frente a cualquier request concurrente, sin importar en
-   qué instancia del backend caiga. ── */
-async function prepareChat(userId, content, conversation_id) {
+/* ══════════════════════════════════════════════════════════════════
+   UPLOAD DE ARCHIVO PARA CHAT
+   POST /api/v1/chat/file
+   Recibe multipart/form-data { file }.
+   Extrae el texto y lo devuelve al frontend; NO guarda en BD.
+   ══════════════════════════════════════════════════════════════════ */
+export async function processFileUpload(req, res) {
+  if (!req.file) {
+    return res.status(HTTP_STATUS.BAD_REQUEST).json({
+      ok: false,
+      message: 'No se recibió ningún archivo',
+    });
+  }
+
+  try {
+    const result = await extractText(req.file);
+    logger.info(`Archivo procesado: ${result.filename} (${result.size} bytes, método: ${result.method})`);
+    return res.json({ ok: true, ...result });
+  } catch (err) {
+    logger.warn(`Error procesando archivo: ${err.message}`);
+    return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: err.message });
+  } finally {
+    // Siempre limpiar el archivo temporal de multer
+    unlink(req.file.path).catch(() => {});
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   HELPERS INTERNOS
+   ══════════════════════════════════════════════════════════════════ */
+
+/**
+ * prepareChat — valida límite, crea/verifica conversación,
+ * guarda mensaje del usuario y arma el array de mensajes para la IA.
+ *
+ * @param {number} userId
+ * @param {string} content        — texto del usuario (se guarda en BD tal cual)
+ * @param {number|null} conversation_id
+ * @param {object|null} fileContext — { fileName, fileContent, truncated }
+ */
+async function prepareChat(userId, content, conversation_id, fileContext = null) {
   return withTransaction(async (db) => {
     const user = await db.prepare('SELECT plan, username FROM users WHERE id = ?').get(userId);
 
     if (!user) throw Object.assign(new Error('Usuario no encontrado'), { status: 401 });
 
+    // Verificar límite plan free
     if (user.plan === 'free') {
       const today = new Date().toISOString().slice(0, 10);
       const count = await db.prepare(
@@ -30,6 +68,7 @@ async function prepareChat(userId, content, conversation_id) {
       }
     }
 
+    // Obtener o crear conversación
     let convId = conversation_id ? Number(conversation_id) : null;
     if (!convId) {
       const result = await db.prepare(
@@ -49,11 +88,12 @@ async function prepareChat(userId, content, conversation_id) {
       }
     }
 
+    // Guardar mensaje del usuario en BD (solo su texto, sin el contenido del archivo)
     await db.prepare(
       'INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)'
     ).run(convId, 'user', content);
 
-    // Defensa en profundidad: exige también c.user_id = ? (no solo conversation_id)
+    // Historial reciente para contexto de la IA
     const historyRows = await db.prepare(
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
@@ -62,21 +102,41 @@ async function prepareChat(userId, content, conversation_id) {
     ).all(convId, userId);
     const history = historyRows.reverse();
 
+    // Sistema + contexto del usuario
     const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
     const messages = [
       { role: 'system', content: SYSTEM_PROMPT + userContext },
       ...history,
     ];
 
+    // Si hay archivo adjunto, reemplazar el último mensaje del usuario
+    // (ya guardado en BD como text puro) con una versión enriquecida que incluye el contenido
+    if (fileContext?.fileContent) {
+      const { fileName, fileContent, truncated } = fileContext;
+      const truncNote = truncated
+        ? '\n\n> ⚠ El archivo fue truncado a 30.000 caracteres por ser muy largo.'
+        : '';
+      const lastUserIdx = messages.map(m => m.role).lastIndexOf('user');
+      if (lastUserIdx >= 0) {
+        messages[lastUserIdx] = {
+          role: 'user',
+          content:
+            `El usuario adjuntó el archivo **${fileName}**:\n\n` +
+            `\`\`\`\n${fileContent}\n\`\`\`` +
+            truncNote +
+            `\n\n${content}`,
+        };
+      }
+    }
+
     return { convId, messages, username: user.username };
   });
 }
 
-/* ── Helper: guardar respuesta y actualizar conversación ──
-   Transacción propia e independiente: se abre DESPUÉS de esperar la
-   respuesta de la IA (que puede tardar hasta 30s), nunca durante —
-   mantener una conexión/lock abierto ese tiempo sería un desperdicio
-   de pool y un riesgo de deadlocks. ── */
+/**
+ * saveResponse — guarda la respuesta de la IA y actualiza el título/timestamp
+ * de la conversación. Opera en su propia transacción (separada de prepareChat).
+ */
 async function saveResponse(convId, content, provider, tokens, userContent) {
   return withTransaction(async (db) => {
     await db.prepare(
@@ -124,12 +184,13 @@ export async function sendMessage(req, res) {
   }
 }
 
-/* ══════════════════════════════════════════════
+/* ══════════════════════════════════════════════════════════════════
    ENDPOINT STREAMING SSE
    POST /api/v1/chat/stream
-   ══════════════════════════════════════════════ */
+   Body: { content, conversation_id?, file_name?, file_content? }
+   ══════════════════════════════════════════════════════════════════ */
 export async function sendMessageStream(req, res) {
-  const { conversation_id, content } = req.body;
+  const { conversation_id, content, file_name, file_content } = req.body;
 
   if (!content?.trim()) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: 'El mensaje no puede estar vacío' });
@@ -148,7 +209,12 @@ export async function sendMessageStream(req, res) {
   let convId, fullContent = '', provider = 'unknown';
 
   try {
-    const prepared = await prepareChat(req.user.id, content, conversation_id);
+    // Construir contexto de archivo si viene en el body
+    const fileContext = (file_name && file_content)
+      ? { fileName: file_name, fileContent: file_content, truncated: false }
+      : null;
+
+    const prepared = await prepareChat(req.user.id, content, conversation_id, fileContext);
     convId = prepared.convId;
 
     send('start', { conversation_id: convId });
@@ -156,7 +222,7 @@ export async function sendMessageStream(req, res) {
     const { response, provider: prov } = await chatStream(prepared.messages);
     provider = prov;
 
-    const reader = response.body.getReader();
+    const reader  = response.body.getReader();
     const decoder = new TextDecoder('utf-8');
 
     while (true) {
@@ -173,7 +239,7 @@ export async function sendMessageStream(req, res) {
 
         try {
           const parsed = JSON.parse(raw);
-          const delta = parsed.choices?.[0]?.delta?.content;
+          const delta  = parsed.choices?.[0]?.delta?.content;
           if (delta) {
             fullContent += delta;
             send('chunk', { text: delta });

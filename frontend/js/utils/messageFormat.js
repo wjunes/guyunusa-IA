@@ -69,8 +69,6 @@ export function renderMessageHtml(raw = '') {
   return out;
 }
 
-export function highlightCodeBlocks(rootEl) {
-  if (!rootEl || !window.hljs) return;
-  const blocks = rootEl.querySelectorAll('pre code');
-  blocks.forEach(el => window.hljs.highlightElement(el));
-}
+// Re-exportamos desde el módulo robusto para que los importadores
+// existentes (messageItem.js, chatWindow.js) no necesiten cambios.
+export { highlightCodeBlocks } from './highlighter.js';

@@ -27,7 +27,6 @@ function getBaseURL() {
  */
 export function getAssetURL(path) {
   if (!path) return '';
-  // En producción (mismo dominio) o Capacitor: relativo o dominio propio
   if (Platform.isCapacitor) return `https://guyunusa.uy${path}`;
   if (Platform.isElectron)  return `http://localhost:3000${path}`;
 
@@ -36,7 +35,7 @@ export function getAssetURL(path) {
     return `http://${window.location.hostname}:3000${path}`;
   }
 
-  return path; // producción: mismo dominio, ruta relativa funciona
+  return path;
 }
 
 function getToken() {
@@ -85,3 +84,42 @@ export const api = {
   put:    (path, body) => request('PUT',    path, body),
   delete: (path, body) => request('DELETE', path, body),
 };
+
+/**
+ * uploadChatFile — sube un archivo para que la IA lo analice.
+ * Envía multipart/form-data a POST /chat/file.
+ * @param {File} file — objeto File del browser
+ * @param {AbortSignal} [signal]
+ * @returns {{ filename, content, size, lines, truncated, method }}
+ */
+export async function uploadChatFile(file, signal = null) {
+  const form  = new FormData();
+  form.append('file', file);
+
+  const token = getToken();
+  const headers = {};
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  let res;
+  try {
+    res = await fetch(`${getBaseURL()}/chat/file`, {
+      method: 'POST',
+      headers,
+      body:   form,
+      signal: signal || AbortSignal.timeout(30_000),
+    });
+  } catch (err) {
+    if (err.name === 'AbortError') throw err;
+    throw new Error('No se pudo conectar con el servidor para subir el archivo.');
+  }
+
+  let data;
+  try {
+    data = await res.json();
+  } catch {
+    throw new Error(`Error al procesar la respuesta del servidor (HTTP ${res.status})`);
+  }
+
+  if (!data.ok) throw new Error(data.message || 'Error al procesar el archivo');
+  return data;
+}

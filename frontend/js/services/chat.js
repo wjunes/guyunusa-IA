@@ -16,11 +16,13 @@ export async function sendMessage(content, conversationId, store) {
 
 /* ── Envío con streaming SSE ── */
 export async function sendMessageStream(content, conversationId, store, {
-  onChunk  = () => {},
-  onStart  = () => {},
-  onDone   = () => {},
-  onError  = () => {},
-  signal   = null,    // AbortController.signal para cancelar el stream
+  onChunk     = () => {},
+  onStart     = () => {},
+  onDone      = () => {},
+  onError     = () => {},
+  signal      = null,   // AbortController.signal para cancelar el stream
+  fileName    = null,   // nombre del archivo adjunto (si existe)
+  fileContent = null,   // texto extraído del archivo (si existe)
 } = {}) {
   store.set('loading', true);
 
@@ -39,10 +41,17 @@ export async function sendMessageStream(content, conversationId, store, {
 
   try {
     // Usar la señal del usuario si existe, si no el timeout solo
+    // Construir body — incluir archivo solo si ambos campos están presentes
+    const body = { content, conversation_id: conversationId };
+    if (fileName && fileContent) {
+      body.file_name    = fileName;
+      body.file_content = fileContent;
+    }
+
     const res = await fetch(`${base}/chat/stream`, {
       method:  'POST',
       headers,
-      body:    JSON.stringify({ content, conversation_id: conversationId }),
+      body:    JSON.stringify(body),
       signal:  signal || AbortSignal.timeout(60_000),
     });
 

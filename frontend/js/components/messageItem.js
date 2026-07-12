@@ -1,6 +1,7 @@
-import { getAssetURL } from '../services/api.js';
-import { parseMarkdown } from '../utils/markdown.js';
-import { formatTime }    from '../utils/helpers.js';
+import { getAssetURL }         from '../services/api.js';
+import { parseMarkdown }        from '../utils/markdown.js';
+import { formatTime }           from '../utils/helpers.js';
+import { highlightCodeBlocks }  from '../utils/messageFormat.js';
 
 export function createMessageItem(msg, userInitial = '?') {
   const isUser = msg.role === 'user';
@@ -34,6 +35,7 @@ export function createMessageItem(msg, userInitial = '?') {
   bubble.innerHTML = isUser
     ? escHTML(msg.content).replace(/\n/g, '<br>')
     : parseMarkdown(msg.content);
+  if (!isUser) highlightCodeBlocks(bubble);
 
   // Meta
   const meta = document.createElement('div');
