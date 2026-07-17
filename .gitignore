@@ -17,6 +17,7 @@ desktop/.env
 dist/
 desktop/dist/
 android/android/
+desktop/node-runtime/
 
 # Instaladores Windows — demasiado pesados para git, subir manualmente al server
 backend/downloads/*.exe
