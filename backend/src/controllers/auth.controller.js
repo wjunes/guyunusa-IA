@@ -3,7 +3,8 @@ import jwt from 'jsonwebtoken';
 import { getDB } from '../db/database.js';
 import { verifyGoogleToken } from '../services/google.service.js';
 import { logger } from '../utils/logger.js';
-import { HTTP_STATUS, ERRORS } from '../../../shared/constants.js';
+import * as constants from '../../../shared/constants.js';
+const { HTTP_STATUS, ERRORS } = constants;
 
 function signToken(payload) {
   return jwt.sign(payload, process.env.JWT_SECRET, {

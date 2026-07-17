@@ -45,6 +45,7 @@
 /* Settings */
 @import "./6-components/_settings.css";
 @import "./1-settings/_fonts.css";
+@import "./6-components/_auth-password-toggle.css";
 
 .c-chat__messages .c-msg-p {
    margin: 0 0 10px;

@@ -1,7 +1,8 @@
 import bcrypt from 'bcryptjs';
 import { getDB } from '../db/database.js';
 import { logger } from '../utils/logger.js';
-import { HTTP_STATUS } from '../../../shared/constants.js';
+import * as constants from '../../../shared/constants.js';
+const { HTTP_STATUS } = constants;
 import { processAvatar, deleteOldAvatar } from '../services/avatar.service.js';
 
 const NOW = 'NOW()'; // MySQL — la versión SQLite usaba datetime('now')

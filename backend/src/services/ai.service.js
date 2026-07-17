@@ -1,12 +1,13 @@
 // Servicio de IA con failover automático: OpenRouter → DeepSeek
 import { logger } from '../utils/logger.js';
-import { AI_PROVIDERS } from '../../../shared/constants.js';
+import * as constants from '../../../shared/constants.js';
+const { AI_PROVIDERS } = constants;
 
 const PROVIDERS = {
   [AI_PROVIDERS.OPENROUTER]: {
     baseURL: process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
     apiKey: process.env.OPENROUTER_API_KEY,
-    model: process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
+    model: process.env.OPENROUTER_MODEL || 'openrouter/fusion',
     headers: {
       'HTTP-Referer': 'https://guyunusa.uy',
       'X-Title': 'Guyunusa',
@@ -38,7 +39,7 @@ async function callProvider(providerKey, messages, stream = false) {
       temperature: 0.8,
       max_tokens: 800,
     }),
-    signal: AbortSignal.timeout(30_000), // 30s timeout
+    signal: AbortSignal.timeout(30_000),
   });
 
   if (!response.ok) {

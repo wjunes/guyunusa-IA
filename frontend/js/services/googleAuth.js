@@ -3,6 +3,12 @@
  *
  * NO importa store ni router para evitar imports circulares.
  * El llamador (loginPage / registerPage) maneja la navegación.
+ *
+ * Nota sobre Electron:
+ *   Google GSI usa ux_mode: 'popup', que depende de window.opener.postMessage()
+ *   entre ventanas. El modelo de seguridad de Electron (contextIsolation + sandbox)
+ *   bloquea esa comunicación cross-window. Por eso, en Electron se informa al usuario
+ *   que use email y contraseña en lugar de Google Sign-In.
  */
 import { api } from './api.js';
 
@@ -41,6 +47,14 @@ function loadGSI() {
  * @param {Function} onLoading(bool)  — activa/desactiva spinner
  */
 export async function signInWithGoogle(onSuccess, onError, onLoading) {
+  // En Electron el popup de Google no puede comunicarse de vuelta al proceso
+  // renderer por restricciones de seguridad (contextIsolation). Usar email.
+  // Detección via userAgent — sincrónica, sin depender de preload ni contextBridge.
+  if (navigator.userAgent.includes('Electron')) {
+    onError('En la app de escritorio usá tu email y contraseña para iniciar sesión.');
+    return;
+  }
+
   const clientId = CLIENT_ID();
 
   if (!clientId || clientId.includes('REEMPLAZAR')) {

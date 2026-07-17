@@ -1,79 +1,121 @@
 /**
  * main.js — Proceso principal de Electron (Guyunusa Desktop)
+ * Carga la app web en producción: https://guyunusa.uy
  */
-import { app, BrowserWindow, Menu, shell,
-         nativeTheme, ipcMain }  from 'electron';
-import { fileURLToPath }         from 'url';
-import { dirname, join }         from 'path';
-import { fork }                  from 'child_process';
+import {
+  app,
+  BrowserWindow,
+  Menu,
+  shell,
+  nativeTheme,
+  ipcMain,
+  clipboard,
+  session,
+} from 'electron';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const __dirname  = dirname(fileURLToPath(import.meta.url));
+const APP_URL    = 'https://guyunusa.uy';
+const APP_ICON   = join(__dirname, 'assets', 'icons', 'guyunusa.ico');
 const isDev      = process.argv.includes('--dev');
-const BACKEND_PORT = 3000;
 
 let mainWindow;
-let backendProcess;
 
-/* ——— 1. Arrancar el backend Node.js como proceso hijo ——— */
-function startBackend() {
-  const serverPath = join(__dirname, '..', 'backend', 'server.js');
-  backendProcess = fork(serverPath, [], {
-    env:    { ...process.env, NODE_ENV: 'production', PORT: String(BACKEND_PORT) },
-    silent: !isDev,
-  });
+// ── Ventana principal ─────────────────────────────────────────────────────────
 
-  backendProcess.on('error', err => console.error('[Backend]', err));
-  backendProcess.on('exit',  code => {
-    if (code !== 0) console.warn('[Backend] Proceso terminó con código:', code);
-  });
-
-  // Esperar un momento para que el backend arranque
-  return new Promise(resolve => setTimeout(resolve, 1200));
-}
-
-/* ——— 2. Crear la ventana principal ——— */
-function createWindow() {
+async function createWindow() {
   mainWindow = new BrowserWindow({
-    width:           1100,
-    height:          720,
-    minWidth:        760,
-    minHeight:       520,
-    title:           'Guyunusa',
+    width:     1366,
+    height:    820,
+    minWidth:  1024,
+    minHeight: 640,
+    title:     'Guyunusa',
+    icon:      APP_ICON,
     backgroundColor: nativeTheme.shouldUseDarkColors ? '#1a1814' : '#faf9f6',
-    show:            false, // mostrar luego de cargar (evita flash)
+    show: false,
     webPreferences: {
-      preload:           join(__dirname, 'preload.js'),
-      contextIsolation:  true,
-      nodeIntegration:   false,
-      sandbox:           true,
+      preload:          join(__dirname, 'preload.js'),
+      contextIsolation: true,
+      nodeIntegration:  false,
+      sandbox:          true,
     },
-    // Sin barra de menú nativa en producción
-    autoHideMenuBar: !isDev,
+    autoHideMenuBar: false,
   });
 
-  // Cargar el frontend apuntando al backend local
-  const url = isDev
-    ? `http://localhost:${BACKEND_PORT}`            // dev: backend sirve frontend
-    : `http://localhost:${BACKEND_PORT}`;
+  // Permisos: micrófono y cámara (necesarios para funciones de voz)
+  session.defaultSession.setPermissionRequestHandler((_webContents, permission, callback) => {
+    const allowed = ['media', 'audioCapture', 'microphone'];
+    callback(allowed.includes(permission));
+  });
 
-  mainWindow.loadURL(url);
+  session.defaultSession.setPermissionCheckHandler((_webContents, permission) => {
+    const allowed = ['media', 'audioCapture', 'microphone'];
+    return allowed.includes(permission);
+  });
 
-  // Mostrar cuando esté lista (sin flash blanco)
+  await mainWindow.loadURL(`${APP_URL}?electron=1`);
+
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
     if (isDev) mainWindow.webContents.openDevTools({ mode: 'detach' });
   });
 
-  // Links externos → navegador del sistema
+  // Abrir links externos en el navegador del sistema, no en Electron
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
     shell.openExternal(url);
     return { action: 'deny' };
   });
 
-  mainWindow.on('closed', () => { mainWindow = null; });
+  mainWindow.webContents.on('context-menu', (_event, params) => {
+    createContextMenu(mainWindow, params);
+  });
+
+  mainWindow.on('closed', () => {
+    mainWindow = null;
+  });
 }
 
-/* ——— 3. Menú de la aplicación ——— */
+// ── Menú contextual ───────────────────────────────────────────────────────────
+
+function createContextMenu(win, params) {
+  const hasSelection = Boolean(params.selectionText?.trim());
+  const isEditable   = Boolean(params.isEditable);
+
+  const template = [
+    ...(isEditable
+      ? [
+        { label: 'Deshacer',         role: 'undo' },
+        { label: 'Rehacer',          role: 'redo' },
+        { type: 'separator' },
+        { label: 'Cortar',           role: 'cut' },
+        { label: 'Copiar',           role: 'copy', enabled: hasSelection },
+        { label: 'Pegar',            role: 'paste' },
+        { type: 'separator' },
+        { label: 'Seleccionar todo', role: 'selectAll' },
+      ]
+      : [
+        { label: 'Copiar',   role: 'copy', enabled: hasSelection },
+        { type: 'separator' },
+        { label: 'Recargar', role: 'reload' },
+      ]),
+    ...(params.linkURL
+      ? [
+        { type: 'separator' },
+        { label: 'Abrir enlace en navegador', click: () => shell.openExternal(params.linkURL) },
+        { label: 'Copiar enlace',             click: () => clipboard.writeText(params.linkURL) },
+      ]
+      : []),
+    ...(isDev
+      ? [{ type: 'separator' }, { label: 'Inspeccionar', role: 'inspectElement' }]
+      : []),
+  ];
+
+  Menu.buildFromTemplate(template).popup({ window: win });
+}
+
+// ── Menú de aplicación ────────────────────────────────────────────────────────
+
 function buildMenu() {
   const template = [
     {
@@ -87,36 +129,28 @@ function buildMenu() {
     {
       label: 'Editar',
       submenu: [
-        { label: 'Deshacer',   role: 'undo',       accelerator: 'CmdOrCtrl+Z' },
-        { label: 'Rehacer',    role: 'redo',        accelerator: 'CmdOrCtrl+Shift+Z' },
+        { label: 'Deshacer',         role: 'undo',      accelerator: 'CmdOrCtrl+Z' },
+        { label: 'Rehacer',          role: 'redo',      accelerator: 'CmdOrCtrl+Shift+Z' },
         { type: 'separator' },
-        { label: 'Cortar',     role: 'cut',         accelerator: 'CmdOrCtrl+X' },
-        { label: 'Copiar',     role: 'copy',        accelerator: 'CmdOrCtrl+C' },
-        { label: 'Pegar',      role: 'paste',       accelerator: 'CmdOrCtrl+V' },
+        { label: 'Cortar',           role: 'cut',       accelerator: 'CmdOrCtrl+X' },
+        { label: 'Copiar',           role: 'copy',      accelerator: 'CmdOrCtrl+C' },
+        { label: 'Pegar',            role: 'paste',     accelerator: 'CmdOrCtrl+V' },
         { label: 'Seleccionar todo', role: 'selectAll', accelerator: 'CmdOrCtrl+A' },
       ],
     },
     {
       label: 'Ver',
       submenu: [
-        { label: 'Recargar',   role: 'reload',      accelerator: 'CmdOrCtrl+R' },
+        { label: 'Recargar',          role: 'reload',           accelerator: 'CmdOrCtrl+R' },
         { type: 'separator' },
-        { label: 'Acercar',    role: 'zoomIn',      accelerator: 'CmdOrCtrl+=' },
-        { label: 'Alejar',     role: 'zoomOut',     accelerator: 'CmdOrCtrl+-' },
-        { label: 'Tamaño real',role: 'resetZoom',   accelerator: 'CmdOrCtrl+0' },
+        { label: 'Acercar',           role: 'zoomIn',           accelerator: 'CmdOrCtrl+=' },
+        { label: 'Alejar',            role: 'zoomOut',          accelerator: 'CmdOrCtrl+-' },
+        { label: 'Tamaño real',       role: 'resetZoom',        accelerator: 'CmdOrCtrl+0' },
         { type: 'separator' },
         { label: 'Pantalla completa', role: 'togglefullscreen', accelerator: 'F11' },
-        ...(isDev ? [
-          { type: 'separator' },
-          { label: 'Herramientas de desarrollador', role: 'toggleDevTools' },
-        ] : []),
-      ],
-    },
-    {
-      label: 'Ventana',
-      submenu: [
-        { label: 'Minimizar', role: 'minimize', accelerator: 'CmdOrCtrl+M' },
-        { label: 'Cerrar',    role: 'close',    accelerator: 'CmdOrCtrl+W' },
+        ...(isDev
+          ? [{ type: 'separator' }, { label: 'Herramientas de desarrollador', role: 'toggleDevTools' }]
+          : []),
       ],
     },
   ];
@@ -124,36 +158,36 @@ function buildMenu() {
   Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 }
 
-/* ——— 4. IPC: comunicación renderer ↔ main ——— */
+// ── IPC — Tema nativo ─────────────────────────────────────────────────────────
 
-// El renderer puede pedir el tema del sistema operativo
 ipcMain.handle('get-native-theme', () => ({
   shouldUseDarkColors: nativeTheme.shouldUseDarkColors,
 }));
 
-// Notificar al renderer cuando el SO cambia el tema
 nativeTheme.on('updated', () => {
   mainWindow?.webContents.send('native-theme-changed', {
     shouldUseDarkColors: nativeTheme.shouldUseDarkColors,
   });
 });
 
-/* ——— 5. Ciclo de vida de la app ——— */
-app.whenReady().then(async () => {
-  await startBackend();
-  buildMenu();
-  createWindow();
+// ── Ciclo de vida ─────────────────────────────────────────────────────────────
 
-  // macOS: recrear ventana si se cierra y se hace clic en el dock
-  app.on('activate', () => {
-    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+app.whenReady().then(async () => {
+  if (process.platform === 'win32') {
+    app.setAppUserModelId('uy.guyunusa.desktop');
+  }
+
+  buildMenu();
+  await createWindow();
+
+  app.on('activate', async () => {
+    if (BrowserWindow.getAllWindows().length === 0) await createWindow();
   });
+}).catch((err) => {
+  console.error('[App] Error en arranque:', err);
+  app.quit();
 });
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
-});
-
-app.on('will-quit', () => {
-  backendProcess?.kill();
 });

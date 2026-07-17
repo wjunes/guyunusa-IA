@@ -4,6 +4,7 @@ import { toggleTheme, getCurrentTheme,
          onThemeChange }              from '../modules/theme.js';
 import { t }                          from '../modules/i18n.js';
 import { Platform }                   from '../modules/native.js';
+import { isElectron }                 from '../utils/electron.js';
 
 export function renderHeader(store) {
   const el = $('.o-header');
@@ -15,6 +16,7 @@ export function renderHeader(store) {
   const title    = active ? active.title : 'Guyunusa';
   const isDark   = getCurrentTheme() === 'dark';
   const tr       = t();
+
 
   el.innerHTML = `
     <div class="c-header">
@@ -36,8 +38,8 @@ export function renderHeader(store) {
           ${iconSettings()}
         </button>` : ''}
 
-      <!-- Descargar app Windows — solo visible en navegador web desktop -->
-      ${Platform.isDesktopBrowser ? `
+      <!-- Descargar app Windows — solo en navegador web desktop, nunca en Electron -->
+      ${Platform.isDesktopBrowser && !isElectron ? `
         <button class="c-header__download-btn" id="btn-download-win"
                 title="Descargar app de escritorio para Windows">
           ${iconWindows()}
@@ -61,16 +63,15 @@ export function renderHeader(store) {
   $('#btn-header-settings')?.addEventListener('click', () => {
     EventBus.emit('sidebar:close');
     import('../modules/router.js').then(m => {
-      // Acceder al router desde app.js no es posible aquí directamente,
-      // usamos el hash directamente
       window.location.hash = '/settings';
     });
   });
+
   $('#btn-download-win')?.addEventListener('click', async () => {
     try {
       const { openDownloadModal } = await import('./downloadModal.js');
       openDownloadModal();
-    } catch { /* módulo no disponible — falla silenciosa, no rompe el resto */ }
+    } catch { /* módulo no disponible — falla silenciosa */ }
   });
 
   const themeBtn = $('#btn-theme');

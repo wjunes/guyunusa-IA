@@ -67,21 +67,20 @@ async function main() {
 
   app.use(express.json({ limit: '1mb' }));
 
-  // ── Garantizar que TODAS las respuestas sean JSON ──
-  app.use((_req, res, next) => {
+  // ── Garantizar que TODAS las respuestas API sean JSON ──
+  app.use('/api', (_req, res, next) => {
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     next();
   });
 
-  // ── Frontend estático en producción ──
-  if (process.env.NODE_ENV === 'production') {
-    // En producción servimos el frontend desde Express
-    // Debe ir ANTES de las rutas API para que las rutas API tengan prioridad
+  // ── Frontend estático en producción o cuando corre bajo Electron ──
+  if (process.env.NODE_ENV === 'production' || process.env.ELECTRON === 'true') {
     const { default: path } = await import('path');
     const { fileURLToPath } = await import('url');
     const __dirname = path.dirname(fileURLToPath(import.meta.url));
     const frontendPath = path.join(__dirname, '..', 'frontend');
     app.use(express.static(frontendPath));
+    logger.info(`Frontend estático: ${frontendPath}`);
   }
 
   // ── Avatares de usuarios

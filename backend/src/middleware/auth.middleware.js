@@ -1,7 +1,8 @@
 import jwt from 'jsonwebtoken';
 import { getDB } from '../db/database.js';
 import { logger } from '../utils/logger.js';
-import { HTTP_STATUS, ERRORS } from '../../../shared/constants.js';
+import * as constants from '../../../shared/constants.js';
+const { HTTP_STATUS, ERRORS } = constants;
 
 export async function requireAuth(req, res, next) {
   const header = req.headers.authorization;

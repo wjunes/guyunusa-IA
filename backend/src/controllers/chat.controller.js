@@ -3,10 +3,14 @@ import {
   chat,
   chatStream
 } from '../services/ai.service.js';
-import { extractText }   from '../services/fileExtractor.service.js';
-import { unlink }        from 'fs/promises';
-import { SYSTEM_PROMPT } from '../../../shared/systemPrompt.js';
-import { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } from '../../../shared/constants.js';
+import { extractText } from '../services/fileExtractor.service.js';
+import { unlink } from 'fs/promises';
+import * as constants from '../../../shared/constants.js';
+const { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } = constants;
+
+import systemPromptPkg from '../../../shared/systemPrompt.js';
+const { SYSTEM_PROMPT } = systemPromptPkg;
+
 import { logger } from '../utils/logger.js';
 
 /* ══════════════════════════════════════════════════════════════════
@@ -32,7 +36,7 @@ export async function processFileUpload(req, res) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: err.message });
   } finally {
     // Siempre limpiar el archivo temporal de multer
-    unlink(req.file.path).catch(() => {});
+    unlink(req.file.path).catch(() => { });
   }
 }
 
@@ -222,7 +226,7 @@ export async function sendMessageStream(req, res) {
     const { response, provider: prov } = await chatStream(prepared.messages);
     provider = prov;
 
-    const reader  = response.body.getReader();
+    const reader = response.body.getReader();
     const decoder = new TextDecoder('utf-8');
 
     while (true) {
@@ -239,7 +243,7 @@ export async function sendMessageStream(req, res) {
 
         try {
           const parsed = JSON.parse(raw);
-          const delta  = parsed.choices?.[0]?.delta?.content;
+          const delta = parsed.choices?.[0]?.delta?.content;
           if (delta) {
             fullContent += delta;
             send('chunk', { text: delta });

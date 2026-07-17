@@ -1,53 +1,67 @@
 {
-  "name": "guyunusa-desktop",
+  "name": "guyunusa-IA-desktop",
   "version": "1.0.0",
+  "type": "module",
   "description": "Guyunusa — App desktop con Electron",
   "main": "main.js",
   "scripts": {
-    "start":  "electron .",
-    "dev":    "electron . --dev",
-    "build":  "electron-builder",
-    "build:win":   "electron-builder --win",
-    "build:mac":   "electron-builder --mac",
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:win:exe": "electron-builder --win nsis",
+    "build:win:portable": "electron-builder --win portable",
+    "build:mac": "electron-builder --mac",
     "build:linux": "electron-builder --linux"
   },
-  "dependencies": {},
   "devDependencies": {
-    "electron":         "^30.0.0",
-    "electron-builder": "^24.0.0"
+    "electron": "^43.1.0",
+    "electron-builder": "^26.15.3"
   },
   "build": {
-    "appId":       "uy.guyunusa.app",
+    "appId": "uy.guyunusa.app",
     "productName": "Guyunusa",
-    "copyright":   "© 2026 Algoritmos.uy",
+    "copyright": "© 2026 Algoritmos.uy",
     "directories": {
       "buildResources": "assets",
-      "output":         "dist"
+      "output": "dist"
     },
     "files": [
       "main.js",
       "preload.js",
       "assets/**",
-      "../frontend/**"
+      "node_modules/**",
+      "package.json"
     ],
     "win": {
-      "target": ["nsis"],
-      "icon":   "assets/icon.ico"
+      "target": [
+        { "target": "nsis",     "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ],
+      "icon": "assets/icons/guyunusa.ico"
     },
     "mac": {
       "target": ["dmg"],
-      "icon":   "assets/icon.icns",
+      "icon": "assets/icons/guyunusa.icns",
       "category": "public.app-category.productivity"
     },
     "linux": {
       "target": ["AppImage", "deb"],
-      "icon":   "assets/icon.png",
+      "icon": "assets/icons/guyunusa.png",
       "category": "Utility"
     },
     "nsis": {
-      "oneClick":        false,
+      "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerLanguages": ["es_UY", "es_AR", "en_US"]
+      "installerIcon": "assets/icons/guyunusa.ico",
+      "uninstallerIcon": "assets/icons/guyunusa.ico",
+      "installerHeaderIcon": "assets/icons/guyunusa.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Guyunusa"
+    },
+    "portable": {
+      "artifactName": "${productName}-Portable-${version}-${arch}.${ext}"
     }
   }
 }

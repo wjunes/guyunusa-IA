@@ -4,6 +4,11 @@
  */
 import { contextBridge, ipcRenderer } from 'electron';
 
+// Marcar el documento como corriendo en Electron ANTES de que
+// arranquen los scripts de la página. Esto permite que CSS y JS
+// detecten el entorno sin depender del timing de contextBridge.
+document.documentElement.dataset.electron = 'true';
+
 contextBridge.exposeInMainWorld('electronAPI', {
 
   // Obtener si el sistema prefiere modo oscuro

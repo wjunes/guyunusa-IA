@@ -5,6 +5,7 @@ import { store, router }     from '../app.js';
 import { toggleTheme,
          getCurrentTheme }   from '../modules/theme.js';
 import { Platform }          from '../modules/native.js';
+import { isElectron }        from '../utils/electron.js';
 
 export function mount() {
   const app = clearApp();
@@ -13,7 +14,7 @@ export function mount() {
     <div class="auth-screen">
 
       <div class="auth-topbar">
-        ${Platform.isDesktopBrowser ? `
+        ${Platform.isDesktopBrowser && !isElectron ? `
           <button class="auth-download-btn" id="auth-download-win"
                   title="Descargar app de escritorio para Windows">
             ${iconWindows()}
@@ -48,12 +49,13 @@ export function mount() {
 
           <div id="auth-alert" class="auth-alert" role="alert"></div>
 
-          <button class="c-btn-google" id="btn-google" type="button">
-            <span class="c-btn-google__icon">${googleIcon()}</span>
-            Registrarse con Google
-          </button>
-
-          <div class="auth-or">o completá el formulario</div>
+          ${!isElectron ? `
+            <button class="c-btn-google" id="btn-google" type="button">
+              <span class="c-btn-google__icon">${googleIcon()}</span>
+              Registrarse con Google
+            </button>
+            <div class="auth-or">o completá el formulario</div>
+          ` : ''}
 
           <form class="auth-form" id="register-form" novalidate>
             <div class="field">
@@ -70,8 +72,14 @@ export function mount() {
             </div>
             <div class="field">
               <label for="password">Contraseña</label>
-              <input class="input" type="password" id="password"
-                     placeholder="Mínimo 6 caracteres" autocomplete="new-password"/>
+              <div class="field__password-wrap">
+                <input class="input" type="password" id="password"
+                       placeholder="Mínimo 6 caracteres" autocomplete="new-password"/>
+                <button type="button" class="field__eye-btn" id="toggle-password"
+                        aria-label="Mostrar contraseña">
+                  ${iconEye()}
+                </button>
+              </div>
               <span class="field-error" id="error-password"></span>
             </div>
             <button class="btn btn--primary" type="submit" id="submit-btn">
@@ -83,7 +91,8 @@ export function mount() {
             ¿Ya tenés cuenta? <a href="#/login">Ingresá acá</a>
           </p>
 
-          <div class="auth-playstore-wrap">
+          ${!isElectron ? `
+            <div class="auth-playstore-wrap">
               <button class="auth-playstore-btn" id="auth-playstore-btn"
                       title="Descargar Guyunusa para Android">
                 ${iconPlayStore()}
@@ -93,6 +102,7 @@ export function mount() {
                 </span>
               </button>
             </div>
+          ` : ''}
 
         </div>
       </div>
@@ -128,6 +138,16 @@ export function mount() {
     window.open('https://play.google.com/store/apps/details?id=uy.guyunusa.app', '_blank', 'noopener');
   });
 
+  // Toggle ver/ocultar contraseña
+  $('#toggle-password')?.addEventListener('click', () => {
+    const input   = $('#password');
+    const btn     = $('#toggle-password');
+    const visible = input.type === 'text';
+    input.type    = visible ? 'password' : 'text';
+    btn.innerHTML = visible ? iconEye() : iconEyeOff();
+    btn.setAttribute('aria-label', visible ? 'Mostrar contraseña' : 'Ocultar contraseña');
+  });
+
   const form      = $('#register-form');
   const submitBtn = $('#submit-btn');
   const alertEl   = $('#auth-alert');
@@ -147,7 +167,7 @@ export function mount() {
     alertEl.textContent = msg;
   }
 
-  // Google — import dinámico
+  // Google — solo en navegador web (no Electron)
   $('#btn-google')?.addEventListener('click', async () => {
     const btn = $('#btn-google');
     try {
@@ -223,6 +243,22 @@ function googleIcon() {
     <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
     <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
     <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+  </svg>`;
+}
+
+function iconEye() {
+  return `<svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+  </svg>`;
+}
+
+function iconEyeOff() {
+  return `<svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.79.588l.77.771A6 6 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755q-.247.248-.517.486z"/>
+    <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829"/>
+    <path d="M3.35 5.47q-.27.238-.518.487A13 13 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709z"/>
+    <path d="m13.646 14.354-12-12 .708-.708 12 12z"/>
   </svg>`;
 }
 
