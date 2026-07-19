@@ -55,7 +55,7 @@ relacionado_con:
     tipo_relacion: institución organizadora
 ---
 
-## Resumen
+# Resumen
 
 Los Parodistas son una de las cinco categorías del Concurso Oficial de Carnaval Uruguayo. Presentan espectáculos que toman una obra conocida —una película, una telenovela, un musical, una serie, una obra de teatro— y la recrean con un tratamiento humorístico que subvierte, exagera o reinterpreta el original. El humor nace del contraste entre la obra de referencia que el público reconoce y la versión deformada que el conjunto presenta en escena.
 
