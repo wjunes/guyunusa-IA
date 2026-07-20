@@ -1,7 +1,8 @@
+dd .
 # Inventario BCN-UY
 
-Versión: 4.0.0
-Fecha: 2026-07-19
+Versión: 10.0.0
+Fecha: 2026-07-20
 Estado: en desarrollo activo
 
 ---
@@ -10,12 +11,25 @@ Estado: en desarrollo activo
 
 | Métrica | Valor |
 |---------|-------|
-| Dominios activos | 12 |
-| Documentos de contenido | 133 |
+| Dominios activos | 18 |
+| Documentos de contenido | 291 |
+| Instituciones | 45 |
+| Empresas (EMP) | 12 |
+| Conceptos (CON) | 15 |
+| Personas TEC | 2 |
+| Personas SAL | 3 |
+| Personas GAS | 2 |
+| Personas DRH | 2 |
+| Personas MAM | 2 |
 | Plantillas | 8 |
 | Documentos de sistema | 3 |
-| Total documentos | 144 |
-| Dominios pendientes | 0 |
+| Total documentos | ~356 |
+| Dominios pendientes | 0 — v2.0 completa |
+
+### Tipos de documento disponibles
+- **Empresa (EMP):** documentos sobre empresas (TEC). Prefijo EMP.
+- **Concepto (CON):** documentos conceptuales (TEC, SAL). Prefijo CON.
+- **Tema (TEM), Persona (PER), Institución (INS), Lugar (LUG), Evento (EVT), Obra (OBR), Movimiento (MOV), Normativa (NOR):** tipos estándar de la BCN-UY.
 
 ---
 
@@ -27,6 +41,153 @@ knowledge/
 │   ├── README.md
 │   ├── ids.md
 │   └── inventario.md
+├── tecnologia/
+│   ├── panorama_sector_tecnologico.md
+│   ├── historia_informatica_uruguay.md
+│   ├── evolucion_industria_software.md
+│   ├── ecosistema_startups.md
+│   ├── exportacion_software.md
+│   ├── gobierno_digital.md
+│   ├── inteligencia_artificial_uruguay.md
+│   ├── formacion_tecnologica.md
+│   ├── marco_legal_incentivos_software.md
+│   ├── ciberseguridad_uruguay.md
+│   ├── investigacion_innovacion_tech.md
+│   ├── tecnologias_emergentes.md
+│   ├── software_saas_uruguay.md
+│   ├── transformacion_digital_concepto.md
+│   ├── ia_concepto.md
+│   ├── gobierno_electronico_concepto.md
+│   ├── empresas/
+│   │   ├── genexus_artech.md
+│   │   ├── dlocal.md
+│   │   ├── pedidosya.md
+│   │   ├── bantotal.md
+│   │   ├── quanam.md
+│   │   ├── tryolabs.md
+│   │   ├── infocorp.md
+│   │   ├── pyxis.md
+│   │   ├── abstracta.md
+│   │   ├── arkano_software.md
+│   │   ├── netlabs.md
+│   │   └── scanntech.md
+│   ├── instituciones/
+│   │   ├── agesic.md
+│   │   ├── anii.md
+│   │   ├── cuti.md
+│   │   ├── miem.md
+│   │   ├── latu.md
+│   │   └── plan_ceibal_tecnologia.md
+│   └── personas/
+│       ├── nicolas_jodal.md
+│       └── sebastian_kanovich.md
+├── medio-ambiente/
+│   ├── panorama_medio_ambiente.md
+│   ├── energia_renovable.md
+│   ├── recursos_hidricos.md
+│   ├── biodiversidad.md
+│   ├── areas_protegidas.md
+│   ├── cambio_climatico.md
+│   ├── contaminacion_residuos.md
+│   ├── industria_forestal_ambiente.md
+│   ├── agroquimicos_soja.md
+│   ├── costa_marina.md
+│   ├── humedales.md
+│   ├── politica_ambiental.md
+│   ├── ciudades_ambiente.md
+│   ├── educacion_ambiental.md
+│   ├── transicion_energetica_concepto.md
+│   ├── huella_carbono_uruguay.md
+│   ├── instituciones/
+│   │   ├── ministerio_ambiente.md
+│   │   ├── dinama.md
+│   │   └── snap.md
+│   └── personas/
+│       ├── daniel_vidart.md
+│       └── ramon_mendez.md
+├── derechos-humanos/
+│   ├── panorama_derechos_humanos.md
+│   ├── historia_derechos_humanos.md
+│   ├── dictadura_derechos_humanos.md
+│   ├── memoria_verdad_justicia.md
+│   ├── derechos_civiles_politicos.md
+│   ├── derechos_economicos_sociales_culturales.md
+│   ├── derechos_infancia_adolescencia.md
+│   ├── derechos_mujer_genero.md
+│   ├── diversidad_sexual_identidad_genero.md
+│   ├── derechos_pueblos_indigenas.md
+│   ├── afrodescendientes_uruguay.md
+│   ├── migracion_derechos.md
+│   ├── sistema_carcelario.md
+│   ├── marco_institucional_ddhh.md
+│   ├── ley_caducidad_impunidad.md
+│   ├── reparacion_victimas.md
+│   ├── instituciones/
+│   │   ├── inddhh.md
+│   │   ├── secretaria_ddhh_pasado_reciente.md
+│   │   └── inmujeres.md
+│   └── personas/
+│       ├── elena_quinteros.md
+│       └── luisa_cuesta.md
+├── gastronomia/
+│   ├── panorama_gastronomia_uruguaya.md
+│   ├── asado_uruguayo.md
+│   ├── chivito.md
+│   ├── mate_gastronomia.md
+│   ├── dulce_de_leche.md
+│   ├── vinos_tannat.md
+│   ├── pasta_gastronomia.md
+│   ├── gastronomia_campo.md
+│   ├── pescados_mariscos.md
+│   ├── panaderia_reposteria.md
+│   ├── ferias_mercados.md
+│   ├── gastronomia_contemporanea_montevideo.md
+│   ├── productos_lacteos.md
+│   ├── bebidas_tradicionales.md
+│   ├── terroir_uruguayo.md
+│   ├── patrimonio_gastronomico.md
+│   ├── instituciones/
+│   │   ├── mercado_puerto.md
+│   │   ├── conaprole.md
+│   │   └── inavi.md
+│   └── personas/
+│       ├── lucia_soria.md
+│       └── roberto_bueno.md
+├── salud/
+│   ├── panorama_sistema_salud.md
+│   ├── historia_salud_publica.md
+│   ├── reforma_salud_2007.md
+│   ├── organizacion_snis.md
+│   ├── atencion_primaria.md
+│   ├── atencion_secundaria_terciaria.md
+│   ├── vacunacion.md
+│   ├── salud_materno_infantil.md
+│   ├── salud_mental.md
+│   ├── salud_sexual_reproductiva.md
+│   ├── control_cancer.md
+│   ├── enfermedades_no_transmisibles.md
+│   ├── enfermedades_transmisibles.md
+│   ├── salud_publica_epidemiologia.md
+│   ├── derechos_usuarios_salud.md
+│   ├── salud_digital.md
+│   ├── emergencias_sanitarias.md
+│   ├── profesionales_salud.md
+│   ├── mutualismo_iamc.md
+│   ├── cuidados_paliativos_trasplantes.md
+│   ├── cobertura_universal_salud.md
+│   ├── medicina_preventiva_concepto.md
+│   ├── epidemiologia_concepto.md
+│   ├── instituciones/
+│   │   ├── msp.md
+│   │   ├── asse.md
+│   │   ├── junasa.md
+│   │   ├── fonasa.md
+│   │   ├── facultad_medicina.md
+│   │   └── escuela_enfermeria.md
+│   └── personas/
+│       ├── manuel_quintela.md
+│       ├── roberto_caldeyro_barcia.md
+│       └── julio_cesar_estol.md
 ├── templates/
 │   ├── template_persona.md
 │   ├── template_tema.md
@@ -52,7 +213,43 @@ knowledge/
 │   ├── mec.md
 │   ├── udelar.md
 │   ├── utec.md
-│   └── ineed.md
+│   ├── ineed.md
+│   ├── bcu.md
+│   ├── mef.md
+│   ├── ine.md
+│   ├── bps.md
+│   ├── dgi.md
+│   ├── uruguay_xxi.md
+│   ├── ande.md
+│   └── cnd.md
+├── economia/
+│   ├── historia_economica.md
+│   ├── modelo_agroexportador.md
+│   ├── industrializacion.md
+│   ├── crisis_1982.md
+│   ├── crisis_2002.md
+│   ├── recuperacion_crecimiento.md
+│   ├── produccion_agropecuaria.md
+│   ├── ganaderia.md
+│   ├── agricultura.md
+│   ├── industria_forestal.md
+│   ├── industria_alimentaria.md
+│   ├── pesca.md
+│   ├── energia.md
+│   ├── logistica.md
+│   ├── servicios_financieros.md
+│   ├── turismo_economia.md
+│   ├── industria_software.md
+│   ├── economia_conocimiento.md
+│   ├── desarrollo_sostenible.md
+│   ├── comercio_exterior.md
+│   ├── mercosur.md
+│   ├── zonas_francas.md
+│   ├── inversion_extranjera.md
+│   ├── politica_fiscal.md
+│   ├── politica_monetaria.md
+│   ├── sistema_bancario.md
+│   └── conceptos_macroeconomicos.md
 └── cultura/
     ├── carnaval/
     │   ├── historia.md
@@ -191,6 +388,62 @@ knowledge/
 
 ## Documentos por dominio
 
+### Salud
+
+#### Documentos temáticos SAL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_SAL_0001 | salud/panorama_sistema_salud.md | Panorama del sistema de salud uruguayo | Tema | verificado |
+| TEM_SAL_0002 | salud/historia_salud_publica.md | Historia de la salud pública en Uruguay | Tema | verificado |
+| TEM_SAL_0003 | salud/reforma_salud_2007.md | Reforma del sistema de salud (2007) y creación del SNIS | Tema | verificado |
+| TEM_SAL_0004 | salud/organizacion_snis.md | Organización y funcionamiento del SNIS | Tema | verificado |
+| TEM_SAL_0005 | salud/atencion_primaria.md | Atención primaria de salud en Uruguay | Tema | verificado |
+| TEM_SAL_0006 | salud/atencion_secundaria_terciaria.md | Atención secundaria y terciaria en Uruguay | Tema | verificado |
+| TEM_SAL_0007 | salud/vacunacion.md | Programa Nacional de Vacunación de Uruguay | Tema | verificado |
+| TEM_SAL_0008 | salud/salud_materno_infantil.md | Salud materno-infantil en Uruguay | Tema | verificado |
+| TEM_SAL_0009 | salud/salud_mental.md | Salud mental en Uruguay | Tema | verificado |
+| TEM_SAL_0010 | salud/salud_sexual_reproductiva.md | Salud sexual y reproductiva en Uruguay | Tema | verificado |
+| TEM_SAL_0011 | salud/control_cancer.md | Control del cáncer en Uruguay | Tema | verificado |
+| TEM_SAL_0012 | salud/enfermedades_no_transmisibles.md | Enfermedades no transmisibles en Uruguay | Tema | verificado |
+| TEM_SAL_0013 | salud/enfermedades_transmisibles.md | Enfermedades transmisibles — VIH/SIDA, tuberculosis e ITS | Tema | verificado |
+| TEM_SAL_0014 | salud/salud_publica_epidemiologia.md | Salud pública y vigilancia epidemiológica en Uruguay | Tema | verificado |
+| TEM_SAL_0015 | salud/derechos_usuarios_salud.md | Derechos y deberes de los usuarios de salud en Uruguay | Tema | verificado |
+| TEM_SAL_0016 | salud/salud_digital.md | Salud digital — historia clínica electrónica y telemedicina | Tema | verificado |
+| TEM_SAL_0017 | salud/emergencias_sanitarias.md | Emergencias sanitarias y gestión de crisis — COVID-19 | Tema | verificado |
+| TEM_SAL_0018 | salud/profesionales_salud.md | Formación y ejercicio profesional en salud en Uruguay | Tema | verificado |
+| TEM_SAL_0019 | salud/mutualismo_iamc.md | El mutualismo y las IAMC en Uruguay | Tema | verificado |
+| TEM_SAL_0020 | salud/cuidados_paliativos_trasplantes.md | Cuidados paliativos y trasplante de órganos en Uruguay | Tema | verificado |
+
+#### Instituciones SAL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_SAL_0001 | salud/instituciones/msp.md | Ministerio de Salud Pública (MSP) | Institución | verificado |
+| INS_SAL_0002 | salud/instituciones/asse.md | Administración de los Servicios de Salud del Estado (ASSE) | Institución | verificado |
+| INS_SAL_0003 | salud/instituciones/junasa.md | Junta Nacional de Salud (JUNASA) | Institución | verificado |
+| INS_SAL_0004 | salud/instituciones/fonasa.md | Fondo Nacional de Salud (FONASA) | Institución | verificado |
+| INS_SAL_0005 | salud/instituciones/facultad_medicina.md | Facultad de Medicina (Universidad de la República) | Institución | verificado |
+| INS_SAL_0006 | salud/instituciones/escuela_enfermeria.md | Escuela Universitaria de Enfermería (EUE) — Udelar | Institución | verificado |
+
+#### Personas SAL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_SAL_0001 | salud/personas/manuel_quintela.md | Manuel Quintela | Persona | verificado_con_reservas |
+| PER_SAL_0002 | salud/personas/roberto_caldeyro_barcia.md | Roberto Caldeyro Barcia | Persona | verificado |
+| PER_SAL_0003 | salud/personas/julio_cesar_estol.md | Julio César Estol | Persona | verificado_con_reservas |
+
+#### Conceptos SAL (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_SAL_0001 | salud/cobertura_universal_salud.md | Cobertura universal de salud en Uruguay | Concepto | verificado |
+| CON_SAL_0002 | salud/medicina_preventiva_concepto.md | Medicina preventiva y promoción de la salud en Uruguay | Concepto | verificado |
+| CON_SAL_0003 | salud/epidemiologia_concepto.md | Epidemiología — concepto y aplicación en Uruguay | Concepto | verificado |
+
+---
+
 ### Instituciones
 
 | ID | Archivo | Título | Tipo | Estado |
@@ -211,6 +464,149 @@ knowledge/
 | INS_EDU_0007 | instituciones/udelar.md | Universidad de la República (Udelar) | Institución | borrador |
 | INS_EDU_0008 | instituciones/utec.md | Universidad Tecnológica del Uruguay (UTEC) | Institución | borrador |
 | INS_EDU_0009 | instituciones/ineed.md | Instituto Nacional de Evaluación Educativa (INEEd) | Institución | borrador |
+| INS_ECO_0001 | instituciones/bcu.md | Banco Central del Uruguay (BCU) | Institución | verificado |
+| INS_ECO_0002 | instituciones/mef.md | Ministerio de Economía y Finanzas (MEF) | Institución | verificado |
+| INS_ECO_0003 | instituciones/ine.md | Instituto Nacional de Estadística (INE) | Institución | verificado |
+| INS_ECO_0004 | instituciones/bps.md | Banco de Previsión Social (BPS) | Institución | verificado |
+| INS_ECO_0005 | instituciones/dgi.md | Dirección General Impositiva (DGI) | Institución | verificado |
+| INS_ECO_0006 | instituciones/uruguay_xxi.md | Uruguay XXI — Agencia de Promoción de Inversiones y Exportaciones | Institución | verificado |
+| INS_ECO_0007 | instituciones/ande.md | Agencia Nacional de Desarrollo (ANDE) | Institución | verificado |
+| INS_ECO_0008 | instituciones/cnd.md | Corporación Nacional para el Desarrollo (CND) | Institución | verificado |
+
+---
+
+### Medio Ambiente
+
+#### Documentos temáticos MAM
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_MAM_0001 | medio-ambiente/panorama_medio_ambiente.md | Panorama del medio ambiente en Uruguay | Tema | verificado |
+| TEM_MAM_0002 | medio-ambiente/energia_renovable.md | Transición energética y energías renovables en Uruguay | Tema | verificado |
+| TEM_MAM_0003 | medio-ambiente/recursos_hidricos.md | Recursos hídricos en Uruguay — agua, cuencas y Acuífero Guaraní | Tema | verificado |
+| TEM_MAM_0004 | medio-ambiente/biodiversidad.md | Biodiversidad en Uruguay — ecosistemas, flora y fauna | Tema | verificado |
+| TEM_MAM_0005 | medio-ambiente/areas_protegidas.md | Sistema Nacional de Áreas Protegidas (SNAP) de Uruguay | Tema | verificado |
+| TEM_MAM_0006 | medio-ambiente/cambio_climatico.md | Cambio climático y Uruguay — impactos y compromisos | Tema | verificado |
+| TEM_MAM_0007 | medio-ambiente/contaminacion_residuos.md | Contaminación y gestión de residuos en Uruguay | Tema | verificado |
+| TEM_MAM_0008 | medio-ambiente/industria_forestal_ambiente.md | La industria forestal y celulosa desde la perspectiva ambiental | Tema | verificado_con_reservas |
+| TEM_MAM_0009 | medio-ambiente/agroquimicos_soja.md | Agroquímicos, soja y medio ambiente en Uruguay | Tema | verificado_con_reservas |
+| TEM_MAM_0010 | medio-ambiente/costa_marina.md | Recursos costeros y marinos en Uruguay | Tema | verificado |
+| TEM_MAM_0011 | medio-ambiente/humedales.md | Humedales en Uruguay — ecosistemas, conservación y amenazas | Tema | verificado |
+| TEM_MAM_0012 | medio-ambiente/politica_ambiental.md | Política ambiental en Uruguay — marco legal e institucional | Tema | verificado |
+| TEM_MAM_0013 | medio-ambiente/ciudades_ambiente.md | Ciudades y medio ambiente urbano en Uruguay | Tema | verificado |
+| TEM_MAM_0014 | medio-ambiente/educacion_ambiental.md | Educación ambiental en Uruguay | Tema | verificado |
+
+#### Instituciones MAM
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_MAM_0001 | medio-ambiente/instituciones/ministerio_ambiente.md | Ministerio de Ambiente de Uruguay | Institución | verificado |
+| INS_MAM_0002 | medio-ambiente/instituciones/dinama.md | DINAMA — Dirección Nacional de Medio Ambiente | Institución | verificado |
+| INS_MAM_0003 | medio-ambiente/instituciones/snap.md | SNAP — Sistema Nacional de Áreas Protegidas de Uruguay | Institución | verificado |
+
+#### Personas MAM
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_MAM_0001 | medio-ambiente/personas/daniel_vidart.md | Daniel Vidart | Persona | verificado_con_reservas |
+| PER_MAM_0002 | medio-ambiente/personas/ramon_mendez.md | Ramón Méndez Galain | Persona | verificado_con_reservas |
+
+#### Conceptos MAM (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_MAM_0001 | medio-ambiente/transicion_energetica_concepto.md | Transición energética — concepto y caso uruguayo | Concepto | verificado |
+| CON_MAM_0002 | medio-ambiente/huella_carbono_uruguay.md | Huella de carbono y compromisos climáticos de Uruguay | Concepto | verificado |
+
+---
+
+### Derechos Humanos
+
+#### Documentos temáticos DRH
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_DRH_0001 | derechos-humanos/panorama_derechos_humanos.md | Panorama de los derechos humanos en Uruguay | Tema | verificado |
+| TEM_DRH_0002 | derechos-humanos/historia_derechos_humanos.md | Historia de los derechos humanos en Uruguay | Tema | verificado |
+| TEM_DRH_0003 | derechos-humanos/dictadura_derechos_humanos.md | La dictadura cívico-militar y las violaciones a los DDHH (1973-1985) | Tema | verificado |
+| TEM_DRH_0004 | derechos-humanos/memoria_verdad_justicia.md | Memoria, verdad y justicia en Uruguay | Tema | verificado |
+| TEM_DRH_0005 | derechos-humanos/derechos_civiles_politicos.md | Derechos civiles y políticos en Uruguay | Tema | verificado |
+| TEM_DRH_0006 | derechos-humanos/derechos_economicos_sociales_culturales.md | Derechos económicos, sociales y culturales en Uruguay | Tema | verificado |
+| TEM_DRH_0007 | derechos-humanos/derechos_infancia_adolescencia.md | Derechos de la infancia y la adolescencia en Uruguay | Tema | verificado |
+| TEM_DRH_0008 | derechos-humanos/derechos_mujer_genero.md | Derechos de la mujer y perspectiva de género en Uruguay | Tema | verificado |
+| TEM_DRH_0009 | derechos-humanos/diversidad_sexual_identidad_genero.md | Diversidad sexual e identidad de género en Uruguay | Tema | verificado |
+| TEM_DRH_0010 | derechos-humanos/derechos_pueblos_indigenas.md | Derechos de los pueblos indígenas en Uruguay — el pueblo charrúa | Tema | verificado_con_reservas |
+| TEM_DRH_0011 | derechos-humanos/afrodescendientes_uruguay.md | Afrodescendientes y derechos humanos en Uruguay | Tema | verificado |
+| TEM_DRH_0012 | derechos-humanos/migracion_derechos.md | Migración y derechos humanos en Uruguay | Tema | verificado |
+| TEM_DRH_0013 | derechos-humanos/sistema_carcelario.md | Sistema carcelario y derechos en Uruguay | Tema | verificado |
+| TEM_DRH_0014 | derechos-humanos/marco_institucional_ddhh.md | Marco institucional de DDHH en Uruguay | Tema | verificado |
+
+#### Instituciones DRH
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_DRH_0001 | derechos-humanos/instituciones/inddhh.md | Institución Nacional de Derechos Humanos y Defensoría del Pueblo (INDDHH) | Institución | verificado |
+| INS_DRH_0002 | derechos-humanos/instituciones/secretaria_ddhh_pasado_reciente.md | Secretaría de DDHH para el Pasado Reciente | Institución | verificado |
+| INS_DRH_0003 | derechos-humanos/instituciones/inmujeres.md | Instituto Nacional de las Mujeres (Inmujeres) | Institución | verificado |
+
+#### Personas DRH
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_DRH_0001 | derechos-humanos/personas/elena_quinteros.md | Elena Quinteros Almeida | Persona | verificado |
+| PER_DRH_0002 | derechos-humanos/personas/luisa_cuesta.md | Luisa Cuesta | Persona | verificado_con_reservas |
+
+#### Conceptos DRH (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_DRH_0001 | derechos-humanos/ley_caducidad_impunidad.md | Ley de Caducidad e impunidad en Uruguay | Concepto | verificado |
+| CON_DRH_0002 | derechos-humanos/reparacion_victimas.md | Reparación a las víctimas de la dictadura en Uruguay | Concepto | verificado |
+
+---
+
+### Gastronomía
+
+#### Documentos temáticos GAS
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_GAS_0001 | gastronomia/panorama_gastronomia_uruguaya.md | Panorama de la gastronomía uruguaya | Tema | verificado |
+| TEM_GAS_0002 | gastronomia/asado_uruguayo.md | El asado uruguayo | Tema | verificado |
+| TEM_GAS_0003 | gastronomia/chivito.md | El chivito — el sándwich uruguayo | Tema | verificado |
+| TEM_GAS_0004 | gastronomia/mate_gastronomia.md | El mate — cultura y práctica gastronómica en Uruguay | Tema | verificado |
+| TEM_GAS_0005 | gastronomia/dulce_de_leche.md | El dulce de leche uruguayo | Tema | verificado |
+| TEM_GAS_0006 | gastronomia/vinos_tannat.md | Vinos uruguayos y el Tannat | Tema | verificado |
+| TEM_GAS_0007 | gastronomia/pasta_gastronomia.md | La pasta en Uruguay — herencia italiana y tradición propia | Tema | verificado |
+| TEM_GAS_0008 | gastronomia/gastronomia_campo.md | Cocina de campo y tradición gaucha en Uruguay | Tema | verificado |
+| TEM_GAS_0009 | gastronomia/pescados_mariscos.md | Pescados y mariscos en la gastronomía uruguaya | Tema | verificado |
+| TEM_GAS_0010 | gastronomia/panaderia_reposteria.md | Panadería, repostería y facturas en Uruguay | Tema | verificado |
+| TEM_GAS_0011 | gastronomia/ferias_mercados.md | Ferias y mercados gastronómicos de Uruguay | Tema | verificado |
+| TEM_GAS_0012 | gastronomia/gastronomia_contemporanea_montevideo.md | La escena gastronómica contemporánea en Uruguay | Tema | verificado |
+| TEM_GAS_0013 | gastronomia/productos_lacteos.md | Productos lácteos uruguayos — quesos, manteca y Conaprole | Tema | verificado |
+| TEM_GAS_0014 | gastronomia/bebidas_tradicionales.md | Bebidas tradicionales uruguayas — grappa, medio y medio, clericó y caña | Tema | verificado |
+
+#### Instituciones GAS
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_GAS_0001 | gastronomia/instituciones/mercado_puerto.md | Mercado del Puerto de Montevideo | Institución | verificado |
+| INS_GAS_0002 | gastronomia/instituciones/conaprole.md | Conaprole — Cooperativa Nacional de Productores de Leche | Institución | verificado |
+| INS_GAS_0003 | gastronomia/instituciones/inavi.md | INAVI — Instituto Nacional de Vitivinicultura | Institución | verificado |
+
+#### Personas GAS
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_GAS_0001 | gastronomia/personas/lucia_soria.md | Lucía Soria | Persona | verificado_con_reservas |
+| PER_GAS_0002 | gastronomia/personas/roberto_bueno.md | Roberto Bueno | Persona | verificado_con_reservas |
+
+#### Conceptos GAS (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_GAS_0001 | gastronomia/terroir_uruguayo.md | Terroir uruguayo — suelo, clima e identidad agroalimentaria | Concepto | verificado |
+| CON_GAS_0002 | gastronomia/patrimonio_gastronomico.md | Patrimonio gastronómico e identidad culinaria en Uruguay | Concepto | verificado |
 
 ---
 
@@ -423,6 +819,108 @@ knowledge/
 
 ---
 
+### Economía
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_ECO_0001 | economia/historia_economica.md | Historia económica de Uruguay — panorama | Tema | verificado |
+| TEM_ECO_0002 | economia/modelo_agroexportador.md | Modelo agroexportador (1870-1930) | Tema | verificado |
+| TEM_ECO_0003 | economia/industrializacion.md | Industrialización y reformas económicas del siglo XX | Tema | verificado |
+| TEM_ECO_0004 | economia/crisis_1982.md | Crisis económica de 1982 | Tema | verificado |
+| TEM_ECO_0005 | economia/crisis_2002.md | Crisis económica de 2002 | Tema | verificado |
+| TEM_ECO_0006 | economia/recuperacion_crecimiento.md | Recuperación y crecimiento (2003-presente) | Tema | verificado |
+| TEM_ECO_0007 | economia/produccion_agropecuaria.md | Producción agropecuaria uruguaya — panorama | Tema | verificado |
+| TEM_ECO_0008 | economia/ganaderia.md | Ganadería bovina y ovina en Uruguay | Tema | verificado |
+| TEM_ECO_0009 | economia/agricultura.md | Agricultura uruguaya — cultivos y producción vegetal | Tema | verificado |
+| TEM_ECO_0010 | economia/industria_forestal.md | Industria forestal y celulosa en Uruguay | Tema | verificado |
+| TEM_ECO_0011 | economia/industria_alimentaria.md | Industria alimentaria y láctea en Uruguay | Tema | verificado |
+| TEM_ECO_0012 | economia/pesca.md | Pesca y acuicultura en Uruguay | Tema | verificado_con_reservas |
+
+| TEM_ECO_0013 | economia/energia.md | Energía en Uruguay — transición a las renovables | Tema | verificado |
+| TEM_ECO_0014 | economia/logistica.md | Logística y transporte en Uruguay — hub regional | Tema | verificado |
+| TEM_ECO_0015 | economia/servicios_financieros.md | Servicios financieros en Uruguay — plaza financiera regional | Tema | verificado |
+| TEM_ECO_0016 | economia/turismo_economia.md | Turismo en Uruguay — economía y destinos | Tema | verificado |
+| TEM_ECO_0017 | economia/industria_software.md | Industria del software y servicios tecnológicos en Uruguay | Tema | verificado |
+| TEM_ECO_0018 | economia/economia_conocimiento.md | Economía del conocimiento en Uruguay | Tema | verificado |
+| TEM_ECO_0019 | economia/desarrollo_sostenible.md | Desarrollo sostenible en Uruguay — economía verde y agenda 2030 | Tema | verificado |
+| TEM_ECO_0020 | economia/comercio_exterior.md | Comercio exterior de Uruguay — exportaciones e importaciones | Tema | verificado |
+| TEM_ECO_0021 | economia/mercosur.md | MERCOSUR — Uruguay en el bloque regional | Tema | verificado |
+| TEM_ECO_0022 | economia/zonas_francas.md | Zonas francas en Uruguay | Tema | verificado |
+| TEM_ECO_0023 | economia/inversion_extranjera.md | Inversión extranjera directa en Uruguay | Tema | verificado |
+| TEM_ECO_0024 | economia/politica_fiscal.md | Política fiscal de Uruguay — ingresos, gasto y deuda pública | Tema | verificado |
+| TEM_ECO_0025 | economia/politica_monetaria.md | Política monetaria en Uruguay — inflación y tipo de cambio | Tema | verificado |
+| TEM_ECO_0026 | economia/sistema_bancario.md | Sistema bancario uruguayo — estructura y regulación | Tema | verificado |
+| TEM_ECO_0027 | economia/conceptos_macroeconomicos.md | Conceptos macroeconómicos clave para entender la economía uruguaya | Tema | verificado |
+
+*Instituciones de este dominio → ver tabla Instituciones: INS_ECO_0001 al INS_ECO_0008*
+
+---
+
+### Tecnología
+
+#### Documentos temáticos
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_TEC_0001 | tecnologia/panorama_sector_tecnologico.md | Panorama del sector tecnológico uruguayo | Tema | verificado |
+| TEM_TEC_0002 | tecnologia/historia_informatica_uruguay.md | Historia de la informática en Uruguay (1960-2010) | Tema | verificado |
+| TEM_TEC_0003 | tecnologia/evolucion_industria_software.md | Evolución de la industria del software uruguaya (1988-presente) | Tema | verificado |
+| TEM_TEC_0004 | tecnologia/ecosistema_startups.md | Ecosistema de startups y capital emprendedor en Uruguay | Tema | verificado |
+| TEM_TEC_0005 | tecnologia/exportacion_software.md | Exportación de software y servicios tecnológicos de Uruguay | Tema | verificado |
+| TEM_TEC_0006 | tecnologia/gobierno_digital.md | Gobierno digital en Uruguay — transformación del Estado | Tema | verificado |
+| TEM_TEC_0007 | tecnologia/inteligencia_artificial_uruguay.md | Inteligencia Artificial en Uruguay — estrategia, aplicaciones y ética | Tema | verificado_con_reservas |
+| TEM_TEC_0008 | tecnologia/formacion_tecnologica.md | Formación tecnológica en Uruguay — universidades, carreras y bootcamps | Tema | verificado |
+| TEM_TEC_0009 | tecnologia/marco_legal_incentivos_software.md | Marco legal e incentivos fiscales para el software en Uruguay | Tema | verificado |
+| TEM_TEC_0010 | tecnologia/ciberseguridad_uruguay.md | Ciberseguridad en Uruguay — CERTuy y política de seguridad digital | Tema | verificado_con_reservas |
+| TEM_TEC_0011 | tecnologia/investigacion_innovacion_tech.md | Investigación e innovación tecnológica en Uruguay | Tema | verificado_con_reservas |
+| TEM_TEC_0012 | tecnologia/tecnologias_emergentes.md | Tecnologías emergentes en Uruguay — blockchain, IoT, cloud y más | Tema | verificado_con_reservas |
+
+#### Empresas (tipo: Empresa / prefijo EMP)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| EMP_TEC_0001 | tecnologia/empresas/genexus_artech.md | Artech / GeneXus | Empresa | verificado |
+| EMP_TEC_0002 | tecnologia/empresas/dlocal.md | dLocal | Empresa | verificado |
+| EMP_TEC_0003 | tecnologia/empresas/pedidosya.md | PedidosYa | Empresa | verificado_con_reservas |
+| EMP_TEC_0004 | tecnologia/empresas/bantotal.md | Bantotal | Empresa | verificado_con_reservas |
+| EMP_TEC_0005 | tecnologia/empresas/quanam.md | Quanam | Empresa | verificado_con_reservas |
+| EMP_TEC_0006 | tecnologia/empresas/tryolabs.md | Tryolabs | Empresa | verificado |
+| EMP_TEC_0007 | tecnologia/empresas/infocorp.md | Infocorp | Empresa | verificado_con_reservas |
+| EMP_TEC_0008 | tecnologia/empresas/pyxis.md | Pyxis | Empresa | verificado_con_reservas |
+| EMP_TEC_0009 | tecnologia/empresas/abstracta.md | Abstracta | Empresa | verificado |
+| EMP_TEC_0010 | tecnologia/empresas/arkano_software.md | Arkano Software | Empresa | verificado_con_reservas |
+| EMP_TEC_0011 | tecnologia/empresas/netlabs.md | Netlabs | Empresa | verificado_con_reservas |
+| EMP_TEC_0012 | tecnologia/empresas/scanntech.md | Scanntech | Empresa | verificado_con_reservas |
+
+#### Instituciones TEC
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_TEC_0001 | tecnologia/instituciones/agesic.md | AGESIC — Agencia de Gobierno Electrónico | Institución | verificado |
+| INS_TEC_0002 | tecnologia/instituciones/anii.md | ANII — Agencia Nacional de Investigación e Innovación | Institución | verificado |
+| INS_TEC_0003 | tecnologia/instituciones/cuti.md | CUTI — Cámara Uruguaya de Tecnologías de la Información | Institución | verificado |
+| INS_TEC_0004 | tecnologia/instituciones/miem.md | MIEM — Ministerio de Industria, Energía y Minería (perspectiva TEC) | Institución | verificado |
+| INS_TEC_0005 | tecnologia/instituciones/latu.md | LATU — Laboratorio Tecnológico del Uruguay | Institución | verificado |
+| INS_TEC_0006 | tecnologia/instituciones/plan_ceibal_tecnologia.md | Plan Ceibal — perspectiva tecnológica e innovación | Institución | verificado |
+
+#### Personas TEC
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_TEC_0001 | tecnologia/personas/nicolas_jodal.md | Nicolás Jodal | Persona | verificado |
+| PER_TEC_0002 | tecnologia/personas/sebastian_kanovich.md | Sebastián Kanovich | Persona | verificado_con_reservas |
+
+#### Conceptos TEC (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_TEC_0001 | tecnologia/software_saas_uruguay.md | Software y SaaS en el contexto uruguayo | Concepto | verificado |
+| CON_TEC_0002 | tecnologia/transformacion_digital_concepto.md | Transformación digital en el contexto uruguayo | Concepto | verificado |
+| CON_TEC_0003 | tecnologia/ia_concepto.md | Inteligencia Artificial — definición y contexto uruguayo | Concepto | verificado_con_reservas |
+| CON_TEC_0004 | tecnologia/gobierno_electronico_concepto.md | Gobierno electrónico — concepto y dimensiones en Uruguay | Concepto | verificado |
+
+---
+
 ## Plantillas disponibles
 
 | Archivo | Tipo de documento |
@@ -448,6 +946,7 @@ knowledge/
 | PER_EDU_0003 | cultura/educacion/reina_reyes.md | fechas exactas de nacimiento y fallecimiento |
 | PER_EDU_0004 | cultura/educacion/jesualdo_sosa.md | fecha y lugar exactos de fallecimiento |
 | PER_EDU_0006 | cultura/educacion/miguel_soler_roca.md | fecha y lugar de fallecimiento (2016, Ginebra) |
+| TEM_ECO_0012 | economia/pesca.md | cifras exactas de producción y exportaciones pesqueras (verificar con DINARA) |
 
 ---
 
@@ -496,3 +995,9 @@ knowledge/
 | 1.0.0 | 2026-07-18 | Creación del inventario. Dominios activos: carnaval, candombe, música, literatura. 35 documentos de contenido, 8 plantillas. |
 | 2.0.0 | 2026-07-19 | Incorporación de 3 nuevos dominios: teatro, artes plásticas, historia. 72 documentos de contenido. Instituciones actualizadas. |
 | 4.0.0 | 2026-07-19 | Incorporación de 5 nuevos dominios: política (9 docs), identidad (6 docs), turismo (10 docs), deportes (13 docs), educación (23 docs). Total: 12 dominios activos, 133 documentos de contenido, 16 instituciones. |
+| 5.0.0 | 2026-07-19 | Incorporación del dominio Economía: 27 documentos de contenido (historia económica, sectores productivos, comercio exterior, política económica), 8 instituciones (BCU, MEF, INE, BPS, DGI, Uruguay XXI, ANDE, CND). Total: 13 dominios activos, 160 documentos de contenido, 24 instituciones. |
+| 6.0.0 | 2026-07-19 | Incorporación del dominio Tecnología (TEC): 12 documentos temáticos (TEM_TEC_0001-0012), 12 empresas (EMP_TEC_0001-0012), 6 instituciones (INS_TEC_0001-0006), 2 personas (PER_TEC_0001-0002), 4 conceptos (CON_TEC_0001-0004). Nuevos tipos de documento: Empresa (EMP) y Concepto (CON). Nueva carpeta: knowledge/tecnologia/ con subdirectorios empresas/, instituciones/, personas/. Total: 14 dominios activos, 196 documentos de contenido, 30 instituciones, 12 empresas, 4 conceptos. Total BCN-UY: ~255 documentos. |
+| 7.0.0 | 2026-07-20 | Incorporación del dominio Salud (SAL): 20 documentos temáticos (TEM_SAL_0001-0020), 6 instituciones (INS_SAL_0001-0006), 3 personas (PER_SAL_0001-0003), 3 conceptos (CON_SAL_0001-0003). Nueva carpeta: knowledge/salud/ con subdirectorios instituciones/, personas/. Constraint editorial aplicado: los documentos SAL se centran en organización del sistema sanitario, políticas públicas, instituciones, derechos de usuarios y programas nacionales; la información clínica se incluye con fines educativos y nunca sustituye la evaluación, diagnóstico o tratamiento por profesionales de la salud. Total: 15 dominios activos, 228 documentos de contenido, 36 instituciones, 12 empresas, 7 conceptos, 5 personas (TEC + SAL). Total BCN-UY: ~291 documentos. |
+| 8.0.0 | 2026-07-20 | Incorporación del dominio Gastronomía (GAS): 14 documentos temáticos (TEM_GAS_0001-0014), 3 instituciones (INS_GAS_0001-0003), 2 personas (PER_GAS_0001-0002), 2 conceptos (CON_GAS_0001-0002). Nueva carpeta: knowledge/gastronomia/ con subdirectorios instituciones/, personas/. Documentos creados: panorama, asado, chivito, mate, dulce de leche, Tannat, pasta, cocina de campo, pescados, panadería, ferias y mercados, gastronomía contemporánea, lácteos, bebidas, Mercado del Puerto, Conaprole, INAVI, Lucía Soria, Roberto Bueno, terroir uruguayo, patrimonio gastronómico. Total: 16 dominios activos, 249 documentos de contenido, 39 instituciones, 12 empresas, 11 conceptos, 7 personas (TEC + SAL + GAS). Total BCN-UY: ~314 documentos. Dominios pendientes en v2.0: derechos-humanos, medio-ambiente. |
+| 9.0.0 | 2026-07-20 | Incorporación del dominio Derechos Humanos (DRH): 14 documentos temáticos (TEM_DRH_0001-0014), 3 instituciones (INS_DRH_0001-0003), 2 personas (PER_DRH_0001-0002), 2 conceptos (CON_DRH_0001-0002). Nueva carpeta: knowledge/derechos-humanos/ con subdirectorios instituciones/, personas/. Documentos creados: panorama, historia, dictadura y DDHH, memoria-verdad-justicia, derechos civiles y políticos, DESC, infancia y adolescencia, mujer y género, diversidad sexual e identidad de género, pueblos indígenas (pueblo charrúa — nota: Guyunusa es el nombre de la IA que alimenta este repositorio), afrodescendientes, migración, sistema carcelario, marco institucional, INDDHH, Secretaría DDHH Pasado Reciente, Inmujeres, Elena Quinteros, Luisa Cuesta, Ley de Caducidad, reparación víctimas. Total: 17 dominios activos, 270 documentos de contenido, 42 instituciones, 12 empresas, 13 conceptos, 9 personas (TEC + SAL + GAS + DRH). Total BCN-UY: ~335 documentos. Dominio pendiente en v2.0: medio-ambiente. |
+| 10.0.0 | 2026-07-20 | **BCN-UY v2.0 COMPLETA.** Incorporación del dominio Medio Ambiente (MAM): 14 documentos temáticos (TEM_MAM_0001-0014), 3 instituciones (INS_MAM_0001-0003), 2 personas (PER_MAM_0001-0002), 2 conceptos (CON_MAM_0001-0002). Nueva carpeta: knowledge/medio-ambiente/ con subdirectorios instituciones/, personas/. Documentos creados: panorama ambiental, transición energética, recursos hídricos (Acuífero Guaraní, art. 47 Constitución), biodiversidad (praderas, humedales, fauna), áreas protegidas (SNAP), cambio climático (NDC, Acuerdo París), contaminación y residuos, industria forestal y celulosa (conflicto con Argentina por UPM/Botnia), agroquímicos y soja, recursos costeros y marinos, humedales (Ramsar, ciervo pantanos), política ambiental (Ley 17.283, Ministerio Ambiente 2020, Acuerdo Escazú), ciudades y ambiente urbano, educación ambiental (PLANEA), Ministerio de Ambiente, DINAMA, SNAP, Daniel Vidart, Ramón Méndez, transición energética concepto, huella de carbono. Total: 18 dominios activos, 291 documentos de contenido, 45 instituciones, 12 empresas, 15 conceptos, 11 personas (TEC + SAL + GAS + DRH + MAM). Total BCN-UY: ~356 documentos. **v2.0 finalizada. Sin dominios pendientes.** |
