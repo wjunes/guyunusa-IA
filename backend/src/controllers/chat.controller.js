@@ -4,6 +4,7 @@ import {
   chatStream
 } from '../services/ai.service.js';
 import { extractText } from '../services/fileExtractor.service.js';
+import { buildKnowledgeContext } from '../services/knowledge.service.js';
 import { unlink } from 'fs/promises';
 import * as constants from '../../../shared/constants.js';
 const { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } = constants;
@@ -108,8 +109,27 @@ async function prepareChat(userId, content, conversation_id, fileContext = null)
 
     // Sistema + contexto del usuario
     const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
+
+    // ── RAG: buscar conocimiento uruguayo relevante para la consulta ──
+    let knowledgeContext = '';
+    try {
+      const kb = buildKnowledgeContext(content, { maxDocs: 3, maxChars: 6000 });
+      if (kb) {
+        knowledgeContext =
+          `\n\n## Base de conocimiento uruguayo\n` +
+          `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
+          `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
+          `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
+          `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
+          kb.context;
+        logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
+      }
+    } catch (err) {
+      logger.warn(`Knowledge retriever: ${err.message}`);
+    }
+
     const messages = [
-      { role: 'system', content: SYSTEM_PROMPT + userContext },
+      { role: 'system', content: SYSTEM_PROMPT + userContext + knowledgeContext },
       ...history,
     ];
 

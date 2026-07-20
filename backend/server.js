@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { initDB, closeDB, getAdapter } from './src/db/database.js';
+import { buildKnowledgeIndex } from './src/services/knowledge.service.js';
 import { logger } from './src/utils/logger.js';
 import { errorMiddleware } from './src/middleware/error.middleware.js';
 
@@ -19,6 +20,13 @@ async function main() {
   // ── Base de datos ──
   await initDB();
   logger.info(`Adaptador DB: ${getAdapter()}`);
+
+  // ── Base de conocimiento uruguayo (RAG) ──
+  try {
+    buildKnowledgeIndex();
+  } catch (err) {
+    logger.warn(`No se pudo construir el índice de knowledge: ${err.message}`);
+  }
 
   // ── CORS ──
   // En desarrollo permite cualquier localhost independientemente del puerto
