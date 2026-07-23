@@ -53,7 +53,9 @@
 .c-message__time { font-size:10px; color:var(--text-muted); }
 
 /* Botón copiar — siempre visible en desktop, opacity 0 oculto */
-.c-message__copy {
+/* Botones de acción en mensajes (copiar, compartir) */
+.c-message__copy,
+.c-message__share {
   display:flex; align-items:center; justify-content:center;
   width:22px; height:22px; border-radius:var(--radius-sm);
   border:none; background:transparent;
@@ -62,11 +64,16 @@
   transition:opacity 150ms, color 150ms, background 150ms;
 }
 /* Mostrar al hover del mensaje completo */
-.c-message:hover .c-message__copy { opacity:1; }
-.c-message__copy:hover { color:var(--accent); background:var(--accent-bg); }
+.c-message:hover .c-message__copy,
+.c-message:hover .c-message__share { opacity:1; }
+.c-message__copy:hover,
+.c-message__share:hover { color:var(--accent); background:var(--accent-bg); }
 
 /* En touch (mobile) — siempre visible */
-@media (hover:none) { .c-message__copy { opacity:1 !important; } }
+@media (hover:none) {
+  .c-message__copy,
+  .c-message__share { opacity:1 !important; }
+}
 
 /* Typing */
 .c-message--typing .c-message__bubble { padding:14px; }

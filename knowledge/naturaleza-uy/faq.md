@@ -47,7 +47,7 @@ El **lobo marino de un pelo** (*Otaria byronia*) tiene grandes colonias en **Isl
 Sí. La **ballena franca austral** (*Eubalaena australis*) visita las aguas de la costa de Rocha y Maldonado entre **junio y octubre**, durante su migración. También se registran otras especies de cetáceos (delfín nariz de botella, orca ocasional). Los avistajes son más frecuentes en la costa de Rocha.
 
 **¿Hay pingüinos en Uruguay?**
-Sí. El **pingüino de Magallanes** (*Spheniscus magellanicus*, NT) es visitante invernal regular en la costa atlántica de Uruguay, principalmente entre **junio y octubre**. Muchos individuos, especialmente juveniles, varar debilitados en las playas y son atendidos por organizaciones de rescate como Karumbé.
+Sí. El **pingüino de Magallanes** (*Spheniscus magellanicus*, NT) es visitante invernal regular en la costa atlántica de Uruguay, principalmente entre **junio y octubre**. Muchos individuos, especialmente juveniles, varan debilitados en las playas y son atendidos por organizaciones de rescate como Karumbé.
 
 **¿Cuál es la serpiente más común de Uruguay?**
 Entre las serpientes no venenosas, la culebra verde (*Philodryas patagoniensis*) y la culebra ratonera son comunes. Entre las venenosas, la **víbora de la cruz** (*Bothrops alternatus*) y el **yarará chica** (*Bothrops pubescens*) son las más frecuentes. La serpiente de coral falsa (*Oxyrhopus rhombifer*), con coloración similar a las corales verdaderas pero no venenosa, es también común en el norte.

@@ -47,13 +47,21 @@ export function createMessageItem(msg, userInitial = '?') {
   meta.appendChild(time);
 
   if (!isUser) {
-    const btn = document.createElement('button');
-    btn.className = 'c-message__copy';
-    btn.title     = 'Copiar respuesta';
-    btn.setAttribute('aria-label', 'Copiar');
-    btn.innerHTML = iconCopy();
-    btn.addEventListener('click', () => doCopy(btn, msg.content));
-    meta.appendChild(btn);
+    const btnCopy = document.createElement('button');
+    btnCopy.className = 'c-message__copy';
+    btnCopy.title     = 'Copiar respuesta';
+    btnCopy.setAttribute('aria-label', 'Copiar');
+    btnCopy.innerHTML = iconCopy();
+    btnCopy.addEventListener('click', () => doCopy(btnCopy, msg.content));
+    meta.appendChild(btnCopy);
+
+    const btnShare = document.createElement('button');
+    btnShare.className = 'c-message__share';
+    btnShare.title     = 'Compartir respuesta';
+    btnShare.setAttribute('aria-label', 'Compartir');
+    btnShare.innerHTML = iconShare();
+    btnShare.addEventListener('click', () => doShare(btnShare, msg.content));
+    meta.appendChild(btnShare);
   }
 
   body.appendChild(bubble);
@@ -93,6 +101,31 @@ async function doCopy(btn, text) {
   setTimeout(() => { btn.innerHTML = iconCopy(); btn.style.color = ''; }, 2000);
 }
 
+async function doShare(btn, text) {
+  const shareText = `Guyunusa:\n\n${text}\n\n— guyunusa.uy`;
+
+  // 1. Intentar share nativo (mobile)
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: 'Guyunusa', text: shareText });
+      return;
+    } catch { /* usuario canceló o no soportado, caer al clipboard */ }
+  }
+
+  // 2. Fallback: copiar al portapapeles
+  try { await navigator.clipboard.writeText(shareText); }
+  catch {
+    const ta = document.createElement('textarea');
+    ta.value = shareText; ta.style.cssText = 'position:fixed;opacity:0';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); ta.remove();
+  }
+
+  btn.innerHTML  = iconShareDone();
+  btn.style.color = 'var(--color-mate)';
+  setTimeout(() => { btn.innerHTML = iconShare(); btn.style.color = ''; }, 2000);
+}
+
 function escHTML(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -103,6 +136,16 @@ function iconCopy() {
   </svg>`;
 }
 function iconCopied() {
+  return `<svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
+  </svg>`;
+}
+function iconShare() {
+  return `<svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+  </svg>`;
+}
+function iconShareDone() {
   return `<svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
     <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
   </svg>`;
