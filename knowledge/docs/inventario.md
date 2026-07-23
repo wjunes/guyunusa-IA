@@ -1,7 +1,7 @@
 # Inventario BCN-UY
 
-Versión: 11.0.0
-Fecha: 2026-07-20
+Versión: 14.0.0
+Fecha: 2026-07-23
 Estado: en desarrollo activo
 
 ---
@@ -25,6 +25,11 @@ Estado: en desarrollo activo
 | Documentos de sistema | 3 |
 | Total documentos | ~377 |
 | Dominios pendientes | 0 |
+| **Dominios standalone** | **4** |
+| **Docs standalone (basquet-uy)** | **22** |
+| **Docs standalone (arquitectura-uy)** | **22** |
+| **Docs standalone (ciencias-uy)** | **27** |
+| **Docs standalone (naturaleza-uy)** | **30** |
 
 ### Tipos de documento disponibles
 - **Empresa (EMP):** documentos sobre empresas (TEC). Prefijo EMP.
@@ -1057,6 +1062,155 @@ knowledge/
 
 ---
 
+## Dominios Standalone
+
+Los dominios standalone son bases de conocimiento temáticas integradas bajo `knowledge/` junto al árbol principal BCN-UY. No usan YAML frontmatter ni el sistema de IDs `TIPO_AREA_NNNN`. Cada archivo es autocontenido, optimizado para RAG con BM25 + embeddings, y termina con una sección `## Palabras clave`. Los datos inciertos se marcan con `[VERIFICAR]`.
+
+### basquet-uy (Básquetbol Uruguayo)
+
+**Directorio:** `knowledge/basquet-uy/`
+**Total archivos:** 22 (README + 21 documentos)
+**Última actualización:** 2026-07-22
+
+| Archivo | Contenido |
+|---------|-----------|
+| `README.md` | Descripción del dominio e índice |
+| `01-historia-del-basquet-uruguayo.md` | Historia desde YMCA c.1912 hasta el presente |
+| `02-federacion-uruguaya-de-basketball.md` | FUBB: estructura, competencias, afiliaciones |
+| `03-seleccion-uruguaya.md` | Selección mayor masculina, participaciones internacionales |
+| `04-conquistas-internacionales.md` | Medalla bronce Helsinki 1952, Sudamericanos, Panamericanos |
+| `05-jugadores-historicos.md` | Fichas de jugadores históricos; Esteban Batista (NBA) |
+| `06-entrenadores-destacados.md` | Entrenadores, certificaciones FIBA |
+| `07-dirigentes-historicos.md` | Presidentes FUBB, árbitros, categorías FIBA |
+| `08-clubes-historicos.md` | Goes, Trouville, Hebraica y Macabi, Malvín, Aguada, Cordón, Nacional |
+| `09-liga-uruguaya.md` | Liga Uruguaya de Básquetbol: formato, historia, campeones |
+| `10-campeonato-federal.md` | Campeonato Federal para el interior del país |
+| `11-gimnasios-historicos.md` | Antel Arena, gimnasios de clubes, estándares FIBA |
+| `12-clasicos.md` | Rivalidades históricas entre clubes |
+| `13-basquet-femenino.md` | Liga Femenina, selección femenina, CONBASUR |
+| `14-formativas.md` | Básquetbol juvenil, categorías, desarrollo |
+| `15-uruguayos-en-el-exterior.md` | Esteban Batista NBA, ligas europeas, NBB Argentina, NCAA |
+| `16-estadisticas-historicas.md` | Tablas estadísticas (con [VERIFICAR]) |
+| `17-linea-de-tiempo.md` | Cronología desde 1891 hasta los 2020s |
+| `18-glosario.md` | Posiciones, acciones, conceptos tácticos, reglas FIBA |
+| `19-anecdotas-historicas.md` | Helsinki 1952, era dorada, impacto NBA en Uruguay |
+| `20-bibliografia.md` | FUBB, FIBA, CONBASUR, COI, COU, prensa uruguaya |
+| `21-faq.md` | 20+ preguntas frecuentes sobre básquetbol uruguayo |
+
+---
+
+### arquitectura-uy (Arquitectura Uruguaya)
+
+**Directorio:** `knowledge/arquitectura-uy/`
+**Total archivos:** 22 (README + 21 documentos)
+**Última actualización:** 2026-07-23
+
+| Archivo | Contenido |
+|---------|-----------|
+| `README.md` | Descripción del dominio e índice completo |
+| `01-historia-de-la-arquitectura-uruguaya.md` | Panorama histórico: 7 períodos desde lo colonial hasta el presente |
+| `02-herencia-colonial.md` | Colonia del Sacramento (Portugal 1680), Montevideo (España 1724), materiales coloniales |
+| `03-arquitectura-republicana.md` | Siglo XIX, neoclasicismo, Carlo Zucchi, Teatro Solís |
+| `04-facultad-de-arquitectura.md` | FADU UdelaR: historia, carreras, influencia en la arquitectura nacional |
+| `05-arquitectos-destacados.md` | Fichas: Vilamajó, Dieste, Fresnedo Siri, Scasso, Cravotto, Surraco, Sichero, Payssé Reyes, Aroztegui, Serralta, García Pardo, Viñoly |
+| `06-obras-emblematicas.md` | Palacio Salvo, Legislativo, Centenario, FADU, Clínicas, Cristo Obrero, Mercado Puerto, Teatro Solís, Palacio Taranco, Castillo Pittamiglio, Aeropuerto Carrasco |
+| `07-patrimonio-arquitectonico.md` | MHN, UNESCO, Ley 14.040, Comisión del Patrimonio, sitios declarados |
+| `08-monumentos-historicos.md` | Lista de MHN; proceso de declaración; patrimonio en riesgo |
+| `09-urbanismo.md` | Urbanismo uruguayo: cuadrícula colonial, Rambla, Cravotto, Ley 18.308 |
+| `10-estilos-arquitectonicos.md` | Colonial, Neoclásico, Eclecticismo, Art Déco, Racionalismo, Cerámica Armada, Brutalismo, Contemporáneo |
+| `11-materiales-y-tecnicas.md` | Adobe, ladrillo cocido, piedra, cal, hormigón armado, cerámica armada |
+| `12-arquitectura-religiosa.md` | Catedral Metropolitana, Iglesia Cristo Obrero, capillas rurales, templos no católicos |
+| `13-arquitectura-industrial.md` | Frigorífico Anglo Fray Bentos (UNESCO 2015), ferrocarril, puerto, Dieste industrial |
+| `14-arquitectura-rural.md` | Estancias, ranchos, galpones, capillas rurales, colonias de inmigrantes |
+| `15-arquitectura-moderna.md` | Movimiento Moderno en Uruguay 1930–1970: Vilamajó, Fresnedo Siri, Hospital Clínicas |
+| `16-arquitectura-contemporanea.md` | Arquitectura uruguaya 1970–presente: dictadura, retorno democrático, Viñoly, sustentabilidad |
+| `17-restauracion-y-conservacion.md` | Teatro Solís (restauración 2004), Colonia Sacramento, Ley 14.040, criterios Carta de Venecia |
+| `18-linea-de-tiempo.md` | Cronología 1680–2023: Colonia, Montevideo, Teatro Solís, Dieste, Viñoly |
+| `19-glosario.md` | Términos arquitectónicos y urbanísticos (A–Z) |
+| `20-bibliografia.md` | CPCN, FADU, SAU, AGN, Biblioteca Nacional, UNESCO, Archdaily |
+| `21-faq.md` | 20+ preguntas frecuentes sobre arquitectura uruguaya |
+
+---
+
+### ciencias-uy (Ciencia en Uruguay)
+
+**Directorio:** `knowledge/ciencias-uy/`
+**Total archivos:** 27 (README + 26 documentos)
+**Última actualización:** 2026-07-23
+
+| Archivo | Contenido |
+|---------|-----------|
+| `README.md` | Descripción del dominio e índice de los 26 archivos |
+| `01-historia-de-la-ciencia-en-uruguay.md` | Naturalistas (Azara, Bonpland, Darwin), UdelaR 1849, Clemente Estable 1927, dictadura, PEDECIBA 1986, Facultad de Ciencias 1990, ANII 2005 |
+| `02-facultad-de-ciencias.md` | Historia: Humanidades y Ciencias 1945, intervención 1973, Facultad de Ciencias 1990, campus Iguá 4225, carreras, posgrados, PEDECIBA |
+| `03-desarrollo-cientifico.md` | SNI (niveles, estadísticas), instrumentos ANII, evolución de la producción, fortalezas y desafíos del sistema |
+| `04-principales-instituciones.md` | PEDECIBA, IIBCE (Clemente Estable 1927), Institut Pasteur Montevideo (2006), INIA (1989), LATU (1965), ANII (2005), MNHN (1837) |
+| `05-centros-de-investigacion.md` | CURE, Centro Ceibal, CIN, IMERL, INCO, IIE, DINARA, SOHMA, Observatorio Los Molinos, INUMET |
+| `06-cientificos-destacados.md` | Fichas: Clemente Estable, José Luis Massera, Rafael Radi, Gonzalo Moratorio, Henry Engler, Rodolfo Tálice, Ricardo Ehrlich, Ida Holz, Roberto Markarian |
+| `07-mujeres-en-la-ciencia.md` | Paulina Luisi (primera médica 1909), María Viñas, Ida Holz, brecha de género en SNI por nivel y disciplina, políticas de género UdelaR y ANII |
+| `08-inventos-uruguayos.md` | Test COVID-19 (Moratorio 2020), PIB Alzheimer (Engler), SNIG trazabilidad bovina (2004), Plan Ceibal (2007, primer país), gestión red eléctrica, patentes (DNPI) |
+| `09-innovacion-y-tecnologia.md` | AGESIC, sector software (CUTI, exportaciones), biotecnología, energías renovables (>90%), Zonamerica, PCTP Pando, UTEC (2012), spin-offs |
+| `10-participacion-internacional.md` | CERN (ATLAS/CMS, Higgs 2012), UNESCO, Antártica, CLACSO, REDALYC/SciELO, bilaterales (Argentina, Brasil, Francia, España) |
+| `11-programa-antartico-uruguayo.md` | Base Artigas (22/12/1984, isla Rey Jorge), PAU, IAU (MRE), Parte Consultiva 1985, áreas de investigación, RCTA/SCAR/COMNAP |
+| `12-ciencias-naturales.md` | Azara, Darwin (Beagle 1832–1833), MNHN 1837, fauna, botánica (2.500 sp.), geología (Escudo Uruguayo, ágatas Artigas), oceanografía |
+| `13-biologia.md` | Historia (Estable 1927, PEDECIBA 1986, Facultad Ciencias 1990), subdisciplinas, biología molecular, genómica, neurobiología (IIBCE), estrés oxidativo (Radi), enfermedades negleccionadas (Chagas), biotecnología |
+| `14-medicina.md` | Facultad Medicina (1876), Paulina Luisi 1909, Hospital Clínicas (Surraco), oncología, cardiología, neurología (Engler), COVID (Moratorio), salud mental (Ley 19.529/2017), SNIS (Ley 18.211/2007), tabaco (primer país 2006) |
+| `15-quimica.md` | Facultad Química (1929), PEDECIBA-Química, carreras (Química, Ing. Química, Farmacia, Bioquímica, Tecnología Alimentos), investigación (orgánica, analítica, bioquímica/Radi), PCTP Pando, ANCAP, industria |
+| `16-fisica.md` | PEDECIBA-Física (1986), Instituto de Física, áreas (teórica, materia condensada, partículas, astrofísica), CERN (ATLAS/CMS/Higgs 2012), CIN, física aplicada |
+| `17-matematica.md` | Rafael Laguardia (1906–1980), José Luis Massera (Teorema Massera 1949, preso 1975–1984), PEDECIBA-Matemática, IMERL, Centro Matemática (Fcien), sistemas dinámicos, probabilidad, Olimpíada Matemática, Roberto Markarian |
+| `18-astronomia.md` | Observatorio Los Molinos (Canelones), Departamento Astronomía (Facultad Ciencias), Licenciatura en Astronomía, astrofísica, mecánica celeste, cosmología, IAU, cielo austral |
+| `19-ciencias-ambientales.md` | MVOTMA/DINAMA, DINARA, INIA, SOHMA, INUMET, CURE, ecología praderas, calidad agua (cianobacterias), cambio climático, biodiversidad marina, SNAP, desafíos ambientales |
+| `20-paleontologia.md` | Megafauna pleistocena (gliptodontes, toxodontes, mastodontes, Megatherium, Smilodon), Darwin y Toxodon platensis, MNHN (1837), formaciones geológicas (Dolores, Libertad, Fray Bentos, Asencio), hallazgos de dinosaurios |
+| `21-inteligencia-artificial.md` | Historia computación: Ida Holz, internet 1991, PEDECIBA-Informática 1986, INCO (FING), Plan Ceibal (2007, primer país OLPC), Centro Ceibal, industria software (CUTI, exportaciones ~1.000M USD), AGESIC, estrategia nacional IA |
+| `22-premios-y-reconocimientos.md` | Rafael Radi (NAS, TWAS), Moratorio (TWAS), Massera (solidaridad internacional), Premio Nacional de Ciencias (MEC), SNI (ANII), L'Oréal-UNESCO, Ida Holz (ISOC), Academia Nacional de Ciencias Uruguay, Plan Ceibal (UNESCO), tabaco (OMS) |
+| `23-linea-de-tiempo.md` | Cronología 1832–2026: Darwin, MNHN 1837, UdelaR 1849, Estable 1927, Massera 1949, dictadura 1973, PEDECIBA 1986, Facultad Ciencias 1990, internet 1991, SNIG 2004, ANII 2005, Institut Pasteur 2006, tabaco 2006, Ceibal 2007, bosón Higgs 2012, renovables 2015, COVID test 2020 |
+| `24-glosario.md` | A–U: AGESIC, ANII, Antártica/BCAA, astrofísica, bioquímica, bosón de Higgs, CERN, CIN, CURE, DINAMA, DINARA, estrés oxidativo, Facultad de Ciencias, IIBCE, IMERL, INCO, INIA, Institut Pasteur, LATU, LHC, Massera Teorema, MNHN, OLPC, PAU, PEDECIBA, peroxinitrito, PIB (Alzheimer), Plan Ceibal, RAG, SECIU, SNI, SNIS, SNAP, SNIG, SOHMA, Toxodon, TWAS, UdelaR, UTEC |
+| `25-bibliografia.md` | UdelaR/PEDECIBA/ANII/IIBCE/Institut Pasteur/INIA/LATU/Ceibal/AGESIC/MVOTMA/INUMET/MNHN/PAU; COLIBRÍ, SciELO, REDALYC; publicaciones clave (Massera 1949, Radi PubMed, Fariña et al. Megafauna 2013, Darwin Beagle); fuentes para ítems [VERIFICAR] |
+| `26-faq.md` | 20+ preguntas: cuándo comenzó la investigación, impacto dictadura, qué es PEDECIBA, UdelaR, Institut Pasteur, ANII, IIBCE, quiénes son Estable/Massera/Radi/Moratorio/Luisi/Holz, inventos uruguayos, Plan Ceibal, fósiles, programa antártico, CERN, financiamiento, SNI |
+
+---
+
+### naturaleza-uy (Naturaleza del Uruguay)
+
+**Directorio:** `knowledge/naturaleza-uy/`
+**Total archivos:** 30 (README + 29 documentos)
+**Última actualización:** 2026-07-23
+
+| Archivo | Contenido |
+|---------|-----------|
+| `README.md` | Descripción del dominio, índice de los 29 archivos, normas editoriales |
+| `01-historia-natural-del-uruguay.md` | Félix de Azara, Aimé Bonpland, Darwin (Beagle 1832–33), MNHN 1837, Arechavaleta *Flora Uruguaya*, Carlos Berg, Clemente Estable/IIBCE (1927), Facultad de Ciencias (1990), cronología 1516–2010 |
+| `02-biodiversidad.md` | Cifras (~2800–3000 plantas vasculares, ~460–480 aves, ~110–120 mamíferos, ~65–70 reptiles, ~45–50 anfibios), posición biogeográfica, endemismo, palma butiá (*Butia odorata*), amenazas, Estrategia Nacional Biodiversidad |
+| `03-biomas.md` | Pastizales del Río de la Plata (NT0710 WWF, ~70–80% Uruguay), Mata Atlántica norte y noreste (~5%), Monte Espinoso/Espinal (~10%), tabla comparativa de biomas, Alianza del Pastizal |
+| `04-ecorregiones.md` | WWF NT0710 Pastizales Húmedos Uruguay (Critically Endangered), Bosques Inundables Río Uruguay, Bosques Atlánticos Alto Paraná NT0102, Pastizales del Este; TNC: cuchillas como ecotonos internos |
+| `05-flora-nativa.md` | Fichas: Ceibo (*Erythrina crista-galli*, flor nacional), Tala, Coronilla, Espinillo, Sauce criollo, Algarrobo (NT), Ombú, Palma Butiá (VU, palmares Rocha más extensos del mundo); gramíneas nativas; flora de humedales; medicinales |
+| `06-fauna-nativa.md` | Panorama tabular por grupo, fauna amenazada (venado NT, franciscana VU, águila coronada EN, lobo de crin NT, tortuga boba VU), Isla de Lobos como hábitat global importante, zoogeografía neotropical |
+| `07-aves.md` | 460–480 spp.; tablas: aves de pradera (ñandú Rhea americana NT, hornero), acuáticas (cisne cuello negro, chajá, espátula rosada), rapaces (águila coronada EN), costeras/marinas (pingüino Magallanes NT); migratorias boreales y australes; sitios de avistamiento |
+| `08-mamiferos.md` | Fichas: Carpincho, Coipú, Venado de campo (NT), Ciervo de los pantanos (VU), Lobito de río (NT), Gato montés, Zorro gris, Aguará guazú (NT); mamíferos marinos: Lobo marino un pelo, Franciscana (VU), Ballena franca austral; quirópteros |
+| `09-reptiles.md` | Lagarto overo, lagartijas, gecko; serpientes: Bothrops alternatus (víbora de la cruz, más peligrosa Uruguay), Crotalus durissus terrificus; tortugas marinas: Caretta caretta VU, Chelonia mydas EN, Dermochelys coriacea VU; dulceacuícolas; yacaré norte |
+| `10-anfibios.md` | Anuros: Boana pulchella, Rhinella arenarum, Leptodactylus latrans, Physalaemus, Elachistocleis; Gymnophiona: Chthonerpeton indistinctum (única cecilia Uruguay); amenazas: chytridiomicosis, rana toro invasora |
+| `11-peces.md` | Fichas: Dorado (NT), Surubí (VU), Pejerrey, Boga, Tararira, Bagre amarillo; Sistema Plata vs. Vertiente Atlántica; marinos: Corvina blanca, Merluza, Cazón VU, Gatuzo VU; DINARA |
+| `12-invertebrados.md` | Mariposas (monarca, Vanessa, Caligo); escarabajos, luciérnagas; hormigas cortadoras; libélulas (bioindicadores); arañas: Loxosceles laeta (peligrosa, loxoscelismo), Latrodectus; mejillón dorado invasor; moluscos; crustáceos |
+| `13-polinizadores.md` | Abejas nativas Meliponini (Plebeia, Tetragonisca, Schwarziana); Apis mellifera (apicultura, exportación a UE); picaflores; mariposas; moscas (SYRPHIDAE); amenazas (neonicotinoides, Varroa, Vespula germanica invasora) |
+| `14-ecosistemas.md` | Pradera natural (60–70%), monte nativo, bosque ribereño, quebrada, palmar butiá, humedales (5–7%, Ramsar), ríos, costas; tabla servicios ecosistémicos |
+| `15-bosques-y-montes.md` | Monte ribereño (sauce, sarandí, ceibo); monte serrano (Quebrada de los Cuervos, Valle del Lunarejo); monte costero (tala/coronilla); palmar butiá (VU, mayor concentración mundial); tabla 13 sp. arbóreas nativas; Ley 15.939/1987 |
+| `16-humedales.md` | Sitios Ramsar (Bañados del Este 1984 ~250.000 ha; Esteros de Farrapos 2004 ~15.000 ha); flora y fauna de humedales; amenazas; otros humedales (Merín, Castillos, Santa Lucía, Garzón); funciones ecológicas |
+| `17-rios-lagunas-y-arroyos.md` | Sistema Plata vs. Vertiente Atlántica; Río Uruguay, Río Negro (3 embalses), Río Santa Lucía (Montevideo/cianobacterias), Río Cuareim; lagunas: Merín, del Sauce, Castillos, Negra; Acuífero Guaraní; gestión DINAGUA/OSE |
+| `18-costa-atlantica-y-rio-de-la-plata.md` | 660 km costa; estuario Plata (~320 km); Isla de Flores (SNAP); costa atlántica ~200 km (playas, dunas Cabo Polonio, costas rocosas, Isla de Lobos); pingüino Magallanes NT; ballena franca austral; amenazas costeras |
+| `19-areas-protegidas.md` | SNAP (Ley 17.234/2000, DINABISE); fichas: Cabo Polonio, Laguna de Rocha, Esteros de Farrapos, Valle del Lunarejo, Quebrada de los Cuervos, Santa Teresa, Laguna Garzón, Isla de Flores, Isla de Lobos, Laguna Negra; resumen SNAP (~2–3% territorio) |
+| `20-geologia.md` | Escudo Cristalino Uruguayo (2.000+ Ma; Complejo Granito-Gnéisico, Cinturón Dom Feliciano); Cuenca Norte (Fm. Tacuarembó, dinosaurios; basaltos Arapey/Serra Geral 135–132 Ma); Cuaternario litoral; geomorfología (Cerro Catedral 514 m); ágatas y amatistas Artigas; granito; paleontología |
+| `21-recursos-naturales.md` | Agua (Art. 47 Constitución 2004, OSE, cianobacterias); suelos (brunizems, vertisoles, planosoles; erosión); pesca artesanal e industrial (DINARA); recursos forestales (Ley 15.939; eucalipto/pino; UPM); renovables (>90% electricidad; Salto Grande 3840 MW); minerales |
+| `22-especies-amenazadas.md` | Tabla UICN (LC→EX); mamíferos (franciscana VU, venado NT, ciervo pantanos VU, aguará guazú NT); aves (águila coronada EN, loica pampeana EN, ñandú NT); reptiles (tortugas marinas VU/EN); peces (surubí VU, cazón VU); flora (butiá VU); extintas localmente (puma, tapir); causas de amenaza |
+| `23-especies-invasoras.md` | Plantas: acacia negra, ligustro (alto impacto), gleditsia, camalote; animales acuáticos: mejillón dorado (*Limnoperna fortunei*, tapona cañerías), rana toro, carpa; terrestres: liebre europea, avispa chaqueta amarilla (*Vespula germanica*); vías de introducción; marco legal |
+| `24-conservacion-ambiental.md` | Marco legal (Ley 15.939, Ley 17.234, Art. 47 Const., Ley 18.308); instituciones (MA, DINABISE, DINARA, MGAP-RENARE); SNAP; Ramsar; compromisos internacionales (CDB, CITES, Kunming-Montreal 30×30); restauración ecológica; Alianza del Pastizal; ONGs (Karumbé, Aves Uruguay, Vida Silvestre) |
+| `25-instituciones.md` | Ministerio de Ambiente (DINABISE, DINAGUA, DINA, DNCCC); DINARA; MGAP-RENARE; INIA; INUMET; OSE; IIBCE (1927); Facultad de Ciencias UdelaR (1990); MNHN (1837); PEDECIBA; CURE; ONGs (Karumbé, Aves Uruguay/SUCN, Vida Silvestre, REDES-AT); organismos internacionales (UICN, Ramsar, CDB, GEF) |
+| `26-linea-de-tiempo.md` | Cronología 1516–2026: Solís, Azara (1760–1801), Darwin 1832–33, MNHN 1837, Arechavaleta, IIBCE 1927, Ramsar 1984, PEDECIBA 1986, Ley 15.939, Facultad Ciencias 1990, CDB 1993, SNAP Ley 17.234 (2000), Art. 47 (2004), renovables 2015, Ministerio Ambiente 2020, Kunming-Montreal 2022 |
+| `27-glosario.md` | A–VU: acuífero, Alianza del Pastizal, anfibio, CDB, cecilia, chytridiomicosis, CITES, ecorregión, endémico, Escudo Cristalino, DINABISE, DINARA, DINAGUA, franciscana, herbario, IIBCE, INIA, INUMET, Karumbé, LC/NT/VU/EN/CR/EX, Ley 15.939, Ley 17.234, MNHN, palmar butiá, pastizal, PEDECIBA, Ramsar, SNAP, servicio ecosistémico, UICN |
+| `28-bibliografia.md` | Ministerio de Ambiente (DINABISE, SNAP, DINAGUA); DINARA; INIA; INUMET; OSE; MNHN; Facultad de Ciencias (COLIBRÍ); IIBCE; bases internacionales (IUCN Red List, GBIF, Ramsar, CITES, CDB); publicaciones (Arechavaleta *Flora Uruguaya*, Azara, Darwin *Beagle*, Achaval y Olmos, Arballo y Cravino, Brazeiro *Eco-regiones*, Fariña *Megafauna*); SciELO, REDALYC, iNaturalist |
+| `29-faq.md` | 20+ preguntas: cuántas especies de aves/plantas/mamíferos tiene Uruguay, endemismo, animal más peligroso, ecosistema más extenso, bañados, longitud costera, puma extinto, por qué hay lobos marinos, ballenas en Uruguay, pingüinos, serpiente más común, qué es el SNAP, áreas protegidas más famosas, sitios Ramsar, mayor amenaza biodiversidad, acciones de conservación, extintas en Uruguay, cambio climático, agua derecho constitucional, electricidad renovable |
+
+---
+
 ## Historial de versiones
 
 | Versión | Fecha | Descripción |
@@ -1071,3 +1225,6 @@ knowledge/
 | 9.0.0 | 2026-07-20 | Incorporación del dominio Derechos Humanos (DRH): 14 documentos temáticos (TEM_DRH_0001-0014), 3 instituciones (INS_DRH_0001-0003), 2 personas (PER_DRH_0001-0002), 2 conceptos (CON_DRH_0001-0002). Nueva carpeta: knowledge/derechos-humanos/ con subdirectorios instituciones/, personas/. Documentos creados: panorama, historia, dictadura y DDHH, memoria-verdad-justicia, derechos civiles y políticos, DESC, infancia y adolescencia, mujer y género, diversidad sexual e identidad de género, pueblos indígenas (pueblo charrúa — nota: Guyunusa es el nombre de la IA que alimenta este repositorio), afrodescendientes, migración, sistema carcelario, marco institucional, INDDHH, Secretaría DDHH Pasado Reciente, Inmujeres, Elena Quinteros, Luisa Cuesta, Ley de Caducidad, reparación víctimas. Total: 17 dominios activos, 270 documentos de contenido, 42 instituciones, 12 empresas, 13 conceptos, 9 personas (TEC + SAL + GAS + DRH). Total BCN-UY: ~335 documentos. Dominio pendiente en v2.0: medio-ambiente. |
 | 10.0.0 | 2026-07-20 | **BCN-UY v2.0 COMPLETA.** Incorporación del dominio Medio Ambiente (MAM): 14 documentos temáticos (TEM_MAM_0001-0014), 3 instituciones (INS_MAM_0001-0003), 2 personas (PER_MAM_0001-0002), 2 conceptos (CON_MAM_0001-0002). Nueva carpeta: knowledge/medio-ambiente/ con subdirectorios instituciones/, personas/. Documentos creados: panorama ambiental, transición energética, recursos hídricos (Acuífero Guaraní, art. 47 Constitución), biodiversidad (praderas, humedales, fauna), áreas protegidas (SNAP), cambio climático (NDC, Acuerdo París), contaminación y residuos, industria forestal y celulosa (conflicto con Argentina por UPM/Botnia), agroquímicos y soja, recursos costeros y marinos, humedales (Ramsar, ciervo pantanos), política ambiental (Ley 17.283, Ministerio Ambiente 2020, Acuerdo Escazú), ciudades y ambiente urbano, educación ambiental (PLANEA), Ministerio de Ambiente, DINAMA, SNAP, Daniel Vidart, Ramón Méndez, transición energética concepto, huella de carbono. Total: 18 dominios activos, 291 documentos de contenido, 45 instituciones, 12 empresas, 15 conceptos, 11 personas (TEC + SAL + GAS + DRH + MAM). Total BCN-UY: ~356 documentos. **v2.0 finalizada. Sin dominios pendientes.** |
 | 11.0.0 | 2026-07-20 | Incorporación del dominio Telecomunicaciones y Medios (TEL): 14 documentos temáticos (TEM_TEL_0001-0014), 3 instituciones (INS_TEL_0001-0003), 2 personas (PER_TEL_0001-0002), 2 conceptos (CON_TEL_0001-0002). Nueva carpeta: knowledge/telecomunicaciones/ con subdirectorios instituciones/, personas/. Documentos creados: panorama telecomunicaciones y medios, ANTEL e historia telecomunicaciones (plebiscito 1992, FTTH 80%), internet y banda ancha (Plan Ceibal, penetración 88-92%), telefonía móvil (tres operadores, portabilidad), radio uruguaya (primera transmisión 1922, SODRE 1929, CX 44 Araújo, radios comunitarias), televisión (Canal 4/10/12 privados, Canal 5 público), TDT (ISDB-T, apagón analógico), medios públicos (SODRE, TV Nacional, TV Ciudad), prensa escrita (El País 1918, La Diaria cooperativa, Marcha 1939-74, El Telégrafo 1882 Paysandú), medios digitales (portales, fake news, crisis modelo), medios del interior (radio local, diarios departamentales, frontera bilingüe), marco regulatorio (Ley 19.307 tres tercios espectro, Ley 18.232 comunitarias, URSEC), brecha digital (generacional, socioeconómica, territorial, COVID), libertad de prensa (art. 29 Constitución, RSF ranking, Ley 18.381 acceso información), ANTEL, URSEC, TV Nacional Canal 5, Carlos Quijano (fundador Marcha), Germán Araújo (CX 44, Ley 18.232), pluralismo y concentración de medios, convergencia digital. Total: 19 dominios activos, 307 documentos de contenido, 48 instituciones, 12 empresas, 17 conceptos, 13 personas. Total BCN-UY: ~377 documentos. |
+| 14.0.0 | 2026-07-23 | **Dominio standalone naturaleza-uy.** Creación del dominio standalone *naturaleza-uy* — 30 archivos (README + 29 docs) sobre el patrimonio natural del Uruguay. Cubre: historia natural (Azara, Bonpland, Darwin 1832–33, MNHN 1837, Arechavaleta *Flora Uruguaya* 1898–1911, IIBCE 1927, Facultad Ciencias 1990); biodiversidad (~2.800–3.000 plantas, ~460–480 aves, ~110–120 mamíferos); biomas (Pastizales del Río de la Plata NT0710 WWF, Mata Atlántica, Espinal); ecorregiones; flora nativa (ceibo, tala, coronilla, espinillo, palma butiá VU); fauna (fichas mamíferos, aves, reptiles, anfibios, peces, invertebrados, polinizadores); ecosistemas (pradera, monte, bosque ribereño, quebrada, palmar, humedales, costas); áreas protegidas SNAP (Ley 17.234/2000; fichas de 10 áreas: Cabo Polonio, Esteros de Farrapos, Valle Lunarejo, Quebrada Cuervos, Santa Teresa, Laguna de Rocha, Isla de Lobos, Isla de Flores, Laguna Garzón, Laguna Negra); geología (Escudo Cristalino Uruguayo 2.000+ Ma; basaltos Arapey/Serra Geral; ágatas y amatistas Artigas; paleontología); recursos naturales (Art. 47 Constitución 2004; OSE; Acuífero Guaraní; DINARA; Ley 15.939; UPM; renovables >90%); especies amenazadas (águila coronada EN, franciscana VU, loica pampeana EN, surubí VU, tortugas marinas); invasoras (ligustro, mejillón dorado, rana toro, avispa chaqueta amarilla); conservación ambiental (marco legal, SNAP, Ramsar, CDB, Kunming-Montreal 30×30, Alianza del Pastizal, Karumbé); instituciones (MA/DINABISE, DINARA, IIBCE, Facultad Ciencias, MNHN, PEDECIBA, CURE, ONGs); línea de tiempo (1516–2026); glosario (~35 términos A–VU); bibliografía (Ministerio Ambiente, DINABISE, DINARA, Facultad Ciencias, IIBCE, MNHN, IUCN Red List, GBIF, Ramsar, publicaciones científicas); FAQ (20+ preguntas). Inventario BCN-UY principal sin cambios: 19 dominios, 307 docs de contenido, ~377 docs totales. Standalone: 4 dominios (basquet-uy 22, arquitectura-uy 22, ciencias-uy 27, naturaleza-uy 30). |
+| 13.0.0 | 2026-07-23 | **Dominio standalone ciencias-uy.** Creación del dominio standalone *ciencias-uy* — 27 archivos (README + 26 docs) sobre la ciencia en Uruguay. Cubre: historia de la ciencia (naturalistas, UdelaR 1849, Clemente Estable 1927, dictadura, PEDECIBA 1986, Facultad de Ciencias 1990, ANII 2005); Facultad de Ciencias; desarrollo científico y SNI; instituciones principales (PEDECIBA, IIBCE, Institut Pasteur Montevideo 2006, INIA, LATU, MNHN); centros de investigación (CURE, IMERL, INCO, CIN, Observatorio Los Molinos); científicos destacados (Estable, Massera, Radi, Moratorio, Engler, Tálice, Ehrlich, Holz, Markarian); mujeres en la ciencia (Paulina Luisi 1909, brecha de género); inventos uruguayos (test COVID-19 2020, SNIG 2004, Plan Ceibal 2007); innovación y tecnología (AGESIC, CUTI, Zonamerica, UTEC 2012); participación internacional (CERN/ATLAS/CMS/Higgs, UNESCO, Antártica, CLACSO); Programa Antártico Uruguayo (Base Artigas 1984, Parte Consultiva 1985); disciplinas (ciencias naturales, biología, medicina, química, física, matemática, astronomía, ciencias ambientales, paleontología, IA); premios y reconocimientos (NAS, TWAS, Premio Nacional de Ciencias, L'Oréal-UNESCO); línea de tiempo (1832–2026); glosario completo (A–U); bibliografía (institucional + académica); FAQ (20+ preguntas). Inventario BCN-UY principal sin cambios: 19 dominios, 307 docs de contenido, ~377 docs totales. Standalone: 3 dominios (basquet-uy 22 docs, arquitectura-uy 22 docs, ciencias-uy 27 docs). |
+| 12.0.0 | 2026-07-23 | **Dominios standalone.** Creación de dos dominios independientes del árbol BCN-UY principal, con formato RAG sin YAML frontmatter ni IDs estructurados, optimizados para búsqueda híbrida BM25 + embeddings: **(1) basquet-uy** — 22 archivos (README + 21 docs) sobre básquetbol uruguayo: historia desde YMCA c.1912, FUBB, selección nacional (medalla bronce Helsinki 1952), conquistas internacionales, jugadores (Esteban Batista NBA), entrenadores, dirigentes, clubes (Goes, Trouville, Aguada, Malvín, Hebraica y Macabi, Cordón, Nacional), Liga Uruguaya, Campeonato Federal, gimnasios, clásicos, básquetbol femenino, formativas, uruguayos en el exterior, estadísticas, línea de tiempo (1891–2020s), glosario FIBA, anécdotas, bibliografía, FAQ. **(2) arquitectura-uy** — 22 archivos (README + 21 docs) sobre arquitectura uruguaya: historia por períodos (colonial 1680, republicano 1830, eclecticismo 1890, racionalismo 1930, cerámica armada Dieste 1950, contemporáneo 1985), herencia colonial (Colonia Sacramento UNESCO 1995, Cabildo, Catedral Metropolitana), arquitectura republicana (Teatro Solís, Carlo Zucchi), FADU UdelaR, fichas de arquitectos (Vilamajó, Dieste, Fresnedo Siri, Scasso, Cravotto, Surraco, Sichero, Payssé Reyes, Aroztegui, Serralta, García Pardo, Viñoly), obras emblemáticas (Palacio Salvo, Palacio Legislativo, Estadio Centenario, Hospital Clínicas, Iglesia Cristo Obrero, Mercado del Puerto, Teatro Solís, Palacio Taranco, Castillo Pittamiglio, Aeropuerto Carrasco), patrimonio (Ley 14.040, CPCN, MHN, 2 sitios UNESCO), urbanismo (cuadrícula, Rambla, Cravotto, Ley 18.308), estilos, materiales (adobe, ladrillo, cerámica armada, hormigón), arquitectura religiosa, industrial (Fray Bentos UNESCO 2015), rural (estancias, ranchos), moderna (1930–1970), contemporánea (1970–presente), restauración (Teatro Solís 2004), cronología (1680–2023), glosario, bibliografía, FAQ. Inventario BCN-UY principal sin cambios: 19 dominios activos, 307 docs, ~377 docs totales. |
