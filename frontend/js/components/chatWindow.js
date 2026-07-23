@@ -1,20 +1,21 @@
-import { $ }                    from '../utils/dom.js';
-import { scrollToBottom }       from '../utils/helpers.js';
-import { initial, formatTime }  from '../utils/helpers.js';
-import { t, getLang }           from '../modules/i18n.js';
-import { createMessageItem,
-         createTypingIndicator } from './messageItem.js';
-import { EventBus }              from '../modules/eventBus.js';
-import { createStoryCard }       from './storyCard.js';
-import { parseMarkdown }         from '../utils/markdown.js';
-import { highlightCodeBlocks }   from '../utils/messageFormat.js';
+import { $ } from '../utils/dom.js';
+import { scrollToBottom } from '../utils/helpers.js';
+import { initial, formatTime } from '../utils/helpers.js';
+import { t, getLang } from '../modules/i18n.js';
+import {
+  createMessageItem,
+  createTypingIndicator
+} from './messageItem.js';
+import { createStoryCard } from './storyCard.js';
+import { parseMarkdown } from '../utils/markdown.js';
+import { highlightCodeBlocks } from '../utils/messageFormat.js';
 
 export function renderChatWindow(store) {
   const el = $('.o-chat');
   if (!el) return;
 
   const messages = store.get('messages') || [];
-  const tr       = t();
+  const tr = t();
 
   el.innerHTML = `
     <div class="c-chat">
@@ -34,9 +35,6 @@ export function renderChatWindow(store) {
     list.insertBefore(createStoryCard(getLang()), list.firstChild);
   }
 
-  list.querySelectorAll('.c-chat__suggestion').forEach(btn => {
-    btn.addEventListener('click', () => EventBus.emit('message:send', btn.dataset.text));
-  });
 }
 
 export function appendMessage(msg, store) {
@@ -112,16 +110,16 @@ export function finalizeStream(ref, buffer) {
   highlightCodeBlocks(ref.bubbleEl);
 
   if (ref.bodyEl) {
-    const meta    = document.createElement('div');
+    const meta = document.createElement('div');
     meta.className = 'c-message__meta';
 
     const timeEl = document.createElement('span');
-    timeEl.className   = 'c-message__time';
+    timeEl.className = 'c-message__time';
     timeEl.textContent = formatTime(new Date().toISOString());
 
     const copyBtn = document.createElement('button');
     copyBtn.className = 'c-message__copy';
-    copyBtn.title     = 'Copiar respuesta';
+    copyBtn.title = 'Copiar respuesta';
     copyBtn.setAttribute('aria-label', 'Copiar');
     copyBtn.innerHTML = iconCopy();
 
@@ -175,7 +173,6 @@ function iconCopied() {
   </svg>`;
 }
 function renderEmpty(tr) {
-  const s = tr?.chat?.suggestions || [];
   return `<div class="c-chat__empty">
     <div class="c-chat__empty-icon">
       <img src="assets/images/guyunusa.png" alt="Guyunusa"
@@ -183,11 +180,8 @@ function renderEmpty(tr) {
     </div>
     <div class="c-chat__empty-title">${tr?.chat?.emptyTitle || '¡Hola! Soy Guyunusa'}</div>
     <p class="c-chat__empty-sub">${tr?.chat?.emptySub || ''}</p>
-    <div class="c-chat__suggestions">
-      ${s.map(x => `<button class="c-chat__suggestion" data-text="${escHTML(x)}">${escHTML(x)}</button>`).join('')}
-    </div>
   </div>`;
 }
 function escHTML(s) {
-  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }

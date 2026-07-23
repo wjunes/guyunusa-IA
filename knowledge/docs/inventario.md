@@ -1,7 +1,6 @@
-dd .
 # Inventario BCN-UY
 
-Versión: 10.0.0
+Versión: 11.0.0
 Fecha: 2026-07-20
 Estado: en desarrollo activo
 
@@ -11,20 +10,21 @@ Estado: en desarrollo activo
 
 | Métrica | Valor |
 |---------|-------|
-| Dominios activos | 18 |
-| Documentos de contenido | 291 |
-| Instituciones | 45 |
+| Dominios activos | 19 |
+| Documentos de contenido | 307 |
+| Instituciones | 48 |
 | Empresas (EMP) | 12 |
-| Conceptos (CON) | 15 |
+| Conceptos (CON) | 17 |
 | Personas TEC | 2 |
 | Personas SAL | 3 |
 | Personas GAS | 2 |
 | Personas DRH | 2 |
 | Personas MAM | 2 |
+| Personas TEL | 2 |
 | Plantillas | 8 |
 | Documentos de sistema | 3 |
-| Total documentos | ~356 |
-| Dominios pendientes | 0 — v2.0 completa |
+| Total documentos | ~377 |
+| Dominios pendientes | 0 |
 
 ### Tipos de documento disponibles
 - **Empresa (EMP):** documentos sobre empresas (TEC). Prefijo EMP.
@@ -105,6 +105,30 @@ knowledge/
 │   └── personas/
 │       ├── daniel_vidart.md
 │       └── ramon_mendez.md
+├── telecomunicaciones/
+│   ├── panorama_telecomunicaciones.md
+│   ├── antel_historia.md
+│   ├── internet_conectividad.md
+│   ├── telefonia_movil.md
+│   ├── radio_uruguay.md
+│   ├── television_uruguay.md
+│   ├── television_digital.md
+│   ├── medios_publicos.md
+│   ├── prensa_escrita.md
+│   ├── medios_digitales.md
+│   ├── medios_interior.md
+│   ├── marco_regulatorio.md
+│   ├── brecha_digital.md
+│   ├── libertad_prensa.md
+│   ├── pluralismo_concentracion.md
+│   ├── convergencia_digital.md
+│   ├── instituciones/
+│   │   ├── antel.md
+│   │   ├── ursec.md
+│   │   └── tv_nacional.md
+│   └── personas/
+│       ├── carlos_quijano.md
+│       └── german_araujo.md
 ├── derechos-humanos/
 │   ├── panorama_derechos_humanos.md
 │   ├── historia_derechos_humanos.md
@@ -565,6 +589,51 @@ knowledge/
 
 ---
 
+### Telecomunicaciones y Medios
+
+#### Documentos temáticos TEL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| TEM_TEL_0001 | telecomunicaciones/panorama_telecomunicaciones.md | Panorama de las telecomunicaciones y medios en Uruguay | Tema | verificado |
+| TEM_TEL_0002 | telecomunicaciones/antel_historia.md | ANTEL y la historia de las telecomunicaciones en Uruguay | Tema | verificado |
+| TEM_TEL_0003 | telecomunicaciones/internet_conectividad.md | Internet, banda ancha y conectividad en Uruguay | Tema | verificado |
+| TEM_TEL_0004 | telecomunicaciones/telefonia_movil.md | Telefonía móvil en Uruguay | Tema | verificado |
+| TEM_TEL_0005 | telecomunicaciones/radio_uruguay.md | La radio en Uruguay — historia e impacto cultural | Tema | verificado |
+| TEM_TEL_0006 | telecomunicaciones/television_uruguay.md | La televisión en Uruguay — historia y estructura del sistema | Tema | verificado |
+| TEM_TEL_0007 | telecomunicaciones/television_digital.md | Televisión digital terrestre (TDT) en Uruguay | Tema | verificado |
+| TEM_TEL_0008 | telecomunicaciones/medios_publicos.md | Medios públicos en Uruguay — SODRE y TV Nacional | Tema | verificado |
+| TEM_TEL_0009 | telecomunicaciones/prensa_escrita.md | La prensa escrita en Uruguay — historia y presente | Tema | verificado |
+| TEM_TEL_0010 | telecomunicaciones/medios_digitales.md | Medios digitales y periodismo online en Uruguay | Tema | verificado |
+| TEM_TEL_0011 | telecomunicaciones/medios_interior.md | Medios de comunicación del interior de Uruguay | Tema | verificado |
+| TEM_TEL_0012 | telecomunicaciones/marco_regulatorio.md | Marco regulatorio de telecomunicaciones y medios en Uruguay | Tema | verificado |
+| TEM_TEL_0013 | telecomunicaciones/brecha_digital.md | Brecha digital en Uruguay | Tema | verificado |
+| TEM_TEL_0014 | telecomunicaciones/libertad_prensa.md | Libertad de prensa y expresión en Uruguay | Tema | verificado |
+
+#### Instituciones TEL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| INS_TEL_0001 | telecomunicaciones/instituciones/antel.md | ANTEL — Administración Nacional de Telecomunicaciones | Institución | verificado |
+| INS_TEL_0002 | telecomunicaciones/instituciones/ursec.md | URSEC — Unidad Reguladora de Servicios de Comunicaciones | Institución | verificado |
+| INS_TEL_0003 | telecomunicaciones/instituciones/tv_nacional.md | TV Nacional Uruguay — Canal 5 | Institución | verificado |
+
+#### Personas TEL
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| PER_TEL_0001 | telecomunicaciones/personas/carlos_quijano.md | Carlos Quijano | Persona | verificado_con_reservas |
+| PER_TEL_0002 | telecomunicaciones/personas/german_araujo.md | Germán Araújo | Persona | verificado_con_reservas |
+
+#### Conceptos TEL (tipo: Concepto / prefijo CON)
+
+| ID | Archivo | Título | Tipo | Estado |
+|----|---------|--------|------|--------|
+| CON_TEL_0001 | telecomunicaciones/pluralismo_concentracion.md | Pluralismo y concentración de medios en Uruguay | Concepto | verificado |
+| CON_TEL_0002 | telecomunicaciones/convergencia_digital.md | Convergencia digital y transformación de los medios en Uruguay | Concepto | verificado |
+
+---
+
 ### Gastronomía
 
 #### Documentos temáticos GAS
@@ -1001,3 +1070,4 @@ knowledge/
 | 8.0.0 | 2026-07-20 | Incorporación del dominio Gastronomía (GAS): 14 documentos temáticos (TEM_GAS_0001-0014), 3 instituciones (INS_GAS_0001-0003), 2 personas (PER_GAS_0001-0002), 2 conceptos (CON_GAS_0001-0002). Nueva carpeta: knowledge/gastronomia/ con subdirectorios instituciones/, personas/. Documentos creados: panorama, asado, chivito, mate, dulce de leche, Tannat, pasta, cocina de campo, pescados, panadería, ferias y mercados, gastronomía contemporánea, lácteos, bebidas, Mercado del Puerto, Conaprole, INAVI, Lucía Soria, Roberto Bueno, terroir uruguayo, patrimonio gastronómico. Total: 16 dominios activos, 249 documentos de contenido, 39 instituciones, 12 empresas, 11 conceptos, 7 personas (TEC + SAL + GAS). Total BCN-UY: ~314 documentos. Dominios pendientes en v2.0: derechos-humanos, medio-ambiente. |
 | 9.0.0 | 2026-07-20 | Incorporación del dominio Derechos Humanos (DRH): 14 documentos temáticos (TEM_DRH_0001-0014), 3 instituciones (INS_DRH_0001-0003), 2 personas (PER_DRH_0001-0002), 2 conceptos (CON_DRH_0001-0002). Nueva carpeta: knowledge/derechos-humanos/ con subdirectorios instituciones/, personas/. Documentos creados: panorama, historia, dictadura y DDHH, memoria-verdad-justicia, derechos civiles y políticos, DESC, infancia y adolescencia, mujer y género, diversidad sexual e identidad de género, pueblos indígenas (pueblo charrúa — nota: Guyunusa es el nombre de la IA que alimenta este repositorio), afrodescendientes, migración, sistema carcelario, marco institucional, INDDHH, Secretaría DDHH Pasado Reciente, Inmujeres, Elena Quinteros, Luisa Cuesta, Ley de Caducidad, reparación víctimas. Total: 17 dominios activos, 270 documentos de contenido, 42 instituciones, 12 empresas, 13 conceptos, 9 personas (TEC + SAL + GAS + DRH). Total BCN-UY: ~335 documentos. Dominio pendiente en v2.0: medio-ambiente. |
 | 10.0.0 | 2026-07-20 | **BCN-UY v2.0 COMPLETA.** Incorporación del dominio Medio Ambiente (MAM): 14 documentos temáticos (TEM_MAM_0001-0014), 3 instituciones (INS_MAM_0001-0003), 2 personas (PER_MAM_0001-0002), 2 conceptos (CON_MAM_0001-0002). Nueva carpeta: knowledge/medio-ambiente/ con subdirectorios instituciones/, personas/. Documentos creados: panorama ambiental, transición energética, recursos hídricos (Acuífero Guaraní, art. 47 Constitución), biodiversidad (praderas, humedales, fauna), áreas protegidas (SNAP), cambio climático (NDC, Acuerdo París), contaminación y residuos, industria forestal y celulosa (conflicto con Argentina por UPM/Botnia), agroquímicos y soja, recursos costeros y marinos, humedales (Ramsar, ciervo pantanos), política ambiental (Ley 17.283, Ministerio Ambiente 2020, Acuerdo Escazú), ciudades y ambiente urbano, educación ambiental (PLANEA), Ministerio de Ambiente, DINAMA, SNAP, Daniel Vidart, Ramón Méndez, transición energética concepto, huella de carbono. Total: 18 dominios activos, 291 documentos de contenido, 45 instituciones, 12 empresas, 15 conceptos, 11 personas (TEC + SAL + GAS + DRH + MAM). Total BCN-UY: ~356 documentos. **v2.0 finalizada. Sin dominios pendientes.** |
+| 11.0.0 | 2026-07-20 | Incorporación del dominio Telecomunicaciones y Medios (TEL): 14 documentos temáticos (TEM_TEL_0001-0014), 3 instituciones (INS_TEL_0001-0003), 2 personas (PER_TEL_0001-0002), 2 conceptos (CON_TEL_0001-0002). Nueva carpeta: knowledge/telecomunicaciones/ con subdirectorios instituciones/, personas/. Documentos creados: panorama telecomunicaciones y medios, ANTEL e historia telecomunicaciones (plebiscito 1992, FTTH 80%), internet y banda ancha (Plan Ceibal, penetración 88-92%), telefonía móvil (tres operadores, portabilidad), radio uruguaya (primera transmisión 1922, SODRE 1929, CX 44 Araújo, radios comunitarias), televisión (Canal 4/10/12 privados, Canal 5 público), TDT (ISDB-T, apagón analógico), medios públicos (SODRE, TV Nacional, TV Ciudad), prensa escrita (El País 1918, La Diaria cooperativa, Marcha 1939-74, El Telégrafo 1882 Paysandú), medios digitales (portales, fake news, crisis modelo), medios del interior (radio local, diarios departamentales, frontera bilingüe), marco regulatorio (Ley 19.307 tres tercios espectro, Ley 18.232 comunitarias, URSEC), brecha digital (generacional, socioeconómica, territorial, COVID), libertad de prensa (art. 29 Constitución, RSF ranking, Ley 18.381 acceso información), ANTEL, URSEC, TV Nacional Canal 5, Carlos Quijano (fundador Marcha), Germán Araújo (CX 44, Ley 18.232), pluralismo y concentración de medios, convergencia digital. Total: 19 dominios activos, 307 documentos de contenido, 48 instituciones, 12 empresas, 17 conceptos, 13 personas. Total BCN-UY: ~377 documentos. |

@@ -4,6 +4,7 @@
   "webDir":     "../frontend",
   "bundledWebRuntime": false,
   "server": {
+    "url":           "https://guyunusa.uy",
     "androidScheme": "https",
     "cleartext":     false
   },
@@ -33,12 +34,13 @@
     }
   },
   "android": {
+    "appendUserAgent": "GuyunusaApp",
     "buildOptions": {
       "keystorePath":  "guyunusa-release.keystore",
       "keystoreAlias": "guyunusa"
     },
     "allowMixedContent":  false,
     "captureInput":       true,
-    "webContentsDebuggingEnabled": false
+    "webContentsDebuggingEnabled": true
   }
 }

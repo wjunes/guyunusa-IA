@@ -24,6 +24,18 @@ export async function openDownloadModal() {
         <div class="c-download-modal__loading">Buscando versiones disponibles...</div>
       </div>
 
+      <div class="c-download-modal__notice">
+        <span class="c-download-modal__notice-icon">ℹ️</span>
+        <div>
+          <strong>Al instalar, Windows puede mostrar un aviso.</strong>
+          Es normal en apps nuevas sin firma digital. Hacé clic en
+          <em>"Más información"</em> → <em>"Ejecutar de todas formas"</em>.
+          Guyunusa es totalmente segura.
+          <a href="docs/GUIA-INSTALACION-WINDOWS.md" target="_blank"
+             rel="noopener" class="c-download-modal__notice-link">Ver guía completa</a>
+        </div>
+      </div>
+
       <button class="c-download-modal__close" id="download-close">Cerrar</button>
     </div>
   `;

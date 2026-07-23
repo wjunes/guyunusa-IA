@@ -55,6 +55,14 @@ export async function signInWithGoogle(onSuccess, onError, onLoading) {
     return;
   }
 
+  // En la app Android (Capacitor WebView), Google bloquea el login desde
+  // WebViews por política de seguridad anti-phishing. El botón se oculta en
+  // la UI, pero por si acaso, redirigir a email/contraseña.
+  if (window.Capacitor?.isNativePlatform?.()) {
+    onError('En la app usá tu email y contraseña para iniciar sesión.');
+    return;
+  }
+
   const clientId = CLIENT_ID();
 
   if (!clientId || clientId.includes('REEMPLAZAR')) {

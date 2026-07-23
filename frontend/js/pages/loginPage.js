@@ -50,7 +50,7 @@ export function mount() {
 
           <div id="auth-alert" class="auth-alert" role="alert"></div>
 
-          ${!isElectron ? `
+          ${(!isElectron && !Platform.isCapacitor) ? `
             <button class="c-btn-google" id="btn-google" type="button">
               <span class="c-btn-google__icon">${googleIcon()}</span>
               Continuar con Google

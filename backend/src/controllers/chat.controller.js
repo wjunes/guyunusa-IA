@@ -9,8 +9,7 @@ import { unlink } from 'fs/promises';
 import * as constants from '../../../shared/constants.js';
 const { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } = constants;
 
-import systemPromptPkg from '../../../shared/systemPrompt.js';
-const { SYSTEM_PROMPT } = systemPromptPkg;
+import { SYSTEM_PROMPT } from '../../../shared/systemPrompt.js';
 
 import { logger } from '../utils/logger.js';
 

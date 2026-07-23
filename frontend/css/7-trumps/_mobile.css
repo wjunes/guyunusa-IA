@@ -4,14 +4,16 @@
 
 /* Safe areas (notch, barra de navegación) */
 :root {
-  --safe-top:    env(safe-area-inset-top,    0px);
+  --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
-  --safe-left:   env(safe-area-inset-left,   0px);
-  --safe-right:  env(safe-area-inset-right,  0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
 }
 
 /* Evitar zoom al hacer foco en inputs */
-input, textarea, select {
+input,
+textarea,
+select {
   font-size: max(16px, 1rem);
 }
 
@@ -19,8 +21,7 @@ input, textarea, select {
 .c-sidebar__item,
 .c-header,
 .c-input-bar__send,
-.btn,
-.c-chat__suggestion {
+.btn {
   -webkit-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -48,16 +49,16 @@ input, textarea, select {
   }
 
   /* Ocultar texto "Nuevo" en header pequeño */
-  .c-header__new-btn span { 
+  .c-header__new-btn span {
     display: none;
   }
 
-  .c-story-card{
-    padding: .85rem ;
+  .c-story-card {
+    padding: 0.85rem;
   }
 
   .c-story-card__title {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 

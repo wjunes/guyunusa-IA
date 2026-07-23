@@ -134,6 +134,11 @@ export function buildKnowledgeIndex() {
           (meta.keywords || []).join(' ') + ' ' +
           (meta.tags || []).join(' ')
         ).toLowerCase(),
+        // Cuerpo normalizado — se usa como red de seguridad cuando una
+        // palabra de la consulta no está en las keywords pero sí en el texto
+        // (ej: "pintores" no es keyword de artes_plasticas.md pero sí aparece
+        // en el cuerpo). Se pre-calcula acá porque el índice se arma una sola vez.
+        bodyNorm: ' ' + normalize(body) + ' ',
       });
     } catch (err) {
       logger.warn(`knowledge: no se pudo leer ${path}: ${err.message}`);
@@ -162,6 +167,19 @@ const STOPWORDS = new Set([
   'esto','ese','esa','me','te','se','le','lo','mi','tu','su','qué','cómo','cuál','quién',
   'donde','cuando','porque','pero','más','muy','ya','hay','tiene','decime','contame',
   'sabes','sabés','podés','puedes','quiero','necesito','dame','hablame','háblame',
+  // Verbos de consulta frecuentes
+  'conoces','conocés','explicame','explicáme','decirme','contarme','saber','hablar',
+  'existe','existen','cuales','cuáles','cuanto','cuánto','cuantos','cuántos',
+  'mejores','mejor','principales','importantes','famosos','famosas','conocidos',
+
+  // ── Stopwords de DOMINIO ──
+  // Toda la BNC-UY habla de Uruguay: estas palabras aparecen en casi todos los
+  // documentos y por lo tanto no discriminan. Si se dejan, una consulta como
+  // "¿qué pintores uruguayos conocés?" puntúa alto cualquier doc que diga
+  // "uruguayo" (lácteos, vinos…) y entierra al documento realmente relevante.
+  // OJO: no incluir "montevideo", "nacional" ni "oriental" — esas SÍ discriminan
+  // (Museo Nacional, Partido Nacional, Banda Oriental, turismo en Montevideo).
+  'uruguay','uruguayo','uruguaya','uruguayos','uruguayas',
 ]);
 
 /* ─── Buscar documentos relevantes para una consulta ─────────────────
@@ -182,7 +200,8 @@ export function searchKnowledge(query, limit = 3) {
   for (const doc of _index) {
     const docText     = ' ' + normalize(doc.searchText) + ' ';
     const tituloText  = ' ' + normalize(doc.titulo) + ' ';
-    let score = 0;
+    let score    = 0;
+    let bodyHits = 0;
 
     for (const word of qWords) {
       // Coincidencia de palabra COMPLETA (con espacios alrededor)
@@ -190,8 +209,17 @@ export function searchKnowledge(query, limit = 3) {
       if (docText.includes(' ' + word + ' ')) {
         score += 3;
         if (tituloText.includes(' ' + word + ' ')) score += 2;
+      } else if (doc.bodyNorm && doc.bodyNorm.includes(' ' + word + ' ')) {
+        // La palabra no está en keywords/tags/título pero sí en el cuerpo.
+        // Cuenta como señal débil — red de seguridad para consultas que usan
+        // variantes morfológicas ("pintores" vs keyword "pintura").
+        bodyHits++;
       }
     }
+
+    // El cuerpo aporta como máximo 3 puntos (equivalente a UNA keyword).
+    // Así nunca gana un documento largo solo por mencionar palabras sueltas.
+    score += Math.min(bodyHits, 3);
 
     // Bonus por frase completa de keyword que aparece en la query
     for (const kw of doc.keywords) {
@@ -215,11 +243,38 @@ export function searchKnowledge(query, limit = 3) {
   }));
 }
 
+/* ─── Preguntas sobre la identidad de la propia Guyunusa ─────────────
+   Cuando el usuario pregunta por su origen, su creador o su historia,
+   la respuesta correcta YA está en el system prompt. Inyectar documentos
+   de la BNC-UY en ese caso solo agrega ruido (Carnaval, Candombe, pueblos
+   originarios…) y diluye el dato identitario, favoreciendo confabulaciones.
+   ────────────────────────────────────────────────────────────────────── */
+const PATRONES_IDENTIDAD = [
+  /\bqui[eé]n\s+(te|la|lo)\s+(cre[oó]|hizo|program[oó]|desarroll[oó]|dise[nñ][oó]|constru[yi])/i,
+  /\bqui[eé]n\s+es\s+(tu|su)\s+(creador|creadora|autor|autora|desarrollador|desarrolladora)/i,
+  /\b(tu|su)\s+(creador|creadora|origen|autor|autora|desarrollador)/i,
+  /\bc[oó]mo\s+(fuiste|fue|te)\s+(cre|desarroll|hic|hech|nac)/i,
+  /\bhistoria\s+de\s+(c[oó]mo\s+)?(fue\s+)?(creada\s+)?guyunusa/i,
+  /\bguyunusa\s+fue\s+creada/i,
+  /\bqui[eé]n\s+(sos|eres|te\s+program)/i,
+  /\bde\s+d[oó]nde\s+(ven[ií]s|vienes|sal[ií]s)/i,
+  /\bqu[eé]\s+(empresa|agencia|estudio|compa[nñ][ií]a)\s+te\s+(cre|hizo|desarroll)/i,
+  /\bqui[eé]n\s+est[aá]\s+(detr[aá]s|atr[aá]s)\s+(tuyo|de\s+(vos|ti|guyunusa))/i,
+];
+
+function esPreguntaDeIdentidad(query) {
+  return PATRONES_IDENTIDAD.some(re => re.test(query));
+}
+
 /* ─── Construir el bloque de contexto para inyectar en el prompt ─────
    Toma los documentos relevantes y arma un texto formateado,
    respetando un límite de caracteres para no inflar el prompt.
    ────────────────────────────────────────────────────────────────── */
 export function buildKnowledgeContext(query, { maxDocs = 3, maxChars = 6000 } = {}) {
+  // Identidad propia: sin RAG. El system prompt ya tiene la respuesta correcta
+  // y cualquier documento extra solo la contamina.
+  if (esPreguntaDeIdentidad(query)) return null;
+
   const docs = searchKnowledge(query, maxDocs);
   if (docs.length === 0) return null;
 

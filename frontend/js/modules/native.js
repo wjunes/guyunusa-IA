@@ -11,7 +11,31 @@
  */
 
 export const Platform = {
-  isCapacitor: typeof window !== 'undefined' && !!window.Capacitor,
+  get isCapacitor() {
+    if (typeof window === 'undefined') return false;
+    // 1. Runtime de Capacitor inyectado (app empaquetada o WebView con bridge)
+    if (window.Capacitor) {
+      // isNativePlatform es el método oficial, pero puede no existir en
+      // Modo A (WebView remoto). Si existe, lo usamos.
+      if (typeof window.Capacitor.isNativePlatform === 'function') {
+        try {
+          if (window.Capacitor.isNativePlatform()) return true;
+        } catch { /* seguir con otros chequeos */ }
+      }
+      // platform === 'android' | 'ios' también indica app nativa
+      if (window.Capacitor.platform && window.Capacitor.platform !== 'web') {
+        return true;
+      }
+      // Si existe el objeto Capacitor con algo dentro, asumimos app
+      if (window.Capacitor.isNative === true) return true;
+    }
+    // 2. Fallback por user agent — la app inyecta un token identificable
+    //    (útil cuando el bridge no está pero sí estamos en el WebView de la app)
+    const ua = navigator.userAgent || '';
+    if (/Guyunusa(App)?/i.test(ua)) return true;
+
+    return false;
+  },
   isElectron:  typeof window !== 'undefined' && !!window.electronAPI,
   get isNative() { return this.isCapacitor || this.isElectron; },
   get isWeb()    { return !this.isNative; },
@@ -152,16 +176,42 @@ export async function nativeSet(key, value) {
 /* ——————————————————————————————————————
    APP — ciclo de vida (pausa/reanuda)
    —————————————————————————————————————— */
-export async function initAppLifecycle({ onPause, onResume } = {}) {
+export async function initAppLifecycle({ onPause, onResume, onBack } = {}) {
   if (!Platform.isCapacitor) return;
   try {
     const { App } = await import('@capacitor/app');
     if (onPause)  App.addListener('pause',  onPause);
     if (onResume) App.addListener('resume', onResume);
 
-    // Botón "atrás" de Android
-    App.addListener('backButton', ({ canGoBack }) => {
-      if (!canGoBack) App.exitApp();
+    // Botón "atrás" de Android — jerarquía de cierre:
+    // 1. Si hay un modal/overlay abierto → cerrarlo
+    // 2. Si el drawer del sidebar está abierto → cerrarlo
+    // 3. Si hay un callback custom que maneja el back → delegarle
+    // 4. Si no hay nada que cerrar → salir de la app
+    App.addListener('backButton', () => {
+      // 1. Modales / overlays abiertos
+      const overlay = document.querySelector(
+        '.c-modal-overlay, .c-share-modal, #download-modal-overlay, ' +
+        '#avatar-crop-overlay, #share-modal-overlay'
+      );
+      if (overlay) {
+        overlay.remove();
+        return;
+      }
+
+      // 2. Drawer del sidebar abierto (mobile)
+      const sidebar = document.getElementById('o-sidebar');
+      if (sidebar?.classList.contains('o-sidebar--open')) {
+        const toggle = document.getElementById('o-sidebar-toggle');
+        toggle?.click();
+        return;
+      }
+
+      // 3. Callback custom (ej: si estás en settings, volver al chat)
+      if (onBack && onBack()) return;
+
+      // 4. Nada que cerrar → salir de la app
+      App.exitApp();
     });
   } catch { /* silencioso */ }
 }
