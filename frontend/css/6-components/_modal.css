@@ -365,6 +365,25 @@
   color: var(--accent);
 }
 
+/* Mercado Pago — branding actual (fondo amarillo) */
+.c-payment-modal__method[data-provider="mp"] {
+  border-color: #FFE600;
+  background: #FFE600;
+}
+.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-info strong {
+  color: #2D3277;
+}
+.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-info span {
+  color: #333;
+}
+.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-arrow {
+  color: #2D3277;
+}
+.c-payment-modal__method[data-provider="mp"]:hover:not(:disabled) {
+  border-color: #E6CF00;
+  background: #F5DD00;
+}
+
 /* Status */
 .c-payment-modal__status {
   padding: 10px var(--space-md);

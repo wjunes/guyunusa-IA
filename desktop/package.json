@@ -1,6 +1,6 @@
 {
   "name": "guyunusa-IA-desktop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Guyunusa — App desktop con Electron",
   "author": "Willans Junes <wjp@algoritmos.uy>",

@@ -221,12 +221,8 @@ function showPaymentResult(type, provider) {
 
 /* ── Íconos ── */
 function iconMP() {
-  // Logotipo simplificado de Mercado Pago en SVG
-  return `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="32" height="32" rx="8" fill="#009EE3"/>
-    <text x="16" y="22" text-anchor="middle" font-size="13" font-weight="bold"
-          font-family="system-ui" fill="white">MP</text>
-  </svg>`;
+  return `<img src="/assets/images/M_P.png" alt="Mercado Pago" width="32" height="32"
+    style="border-radius:6px; object-fit:contain;">`;
 }
 
 function iconPayPal() {

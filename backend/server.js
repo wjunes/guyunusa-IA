@@ -1,10 +1,18 @@
-import 'dotenv/config';
+import { config as dotenvConfig } from 'dotenv';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = dirname(__filename);
+dotenvConfig({ path: join(__dirname, '.env'), override: true });
+
 import express from 'express';
 import cors from 'cors';
 import { initDB, closeDB, getAdapter } from './src/db/database.js';
 import { buildKnowledgeIndex } from './src/services/knowledge.service.js';
 import { logger } from './src/utils/logger.js';
 import { errorMiddleware } from './src/middleware/error.middleware.js';
+import { requireAuth } from './src/middleware/auth.middleware.js';
 
 import authRoutes from './src/routes/auth.routes.js';
 import storyRoutes from './src/routes/story.routes.js';
@@ -126,7 +134,96 @@ async function main() {
 
   // ── Health check ──
   app.get('/api/v1/health', (_req, res) => {
-    res.json({ ok: true, app: 'Guyunusa', version: '1.0.0', db: getAdapter() });
+    res.json({ ok: true, app: 'Guyunusa', version: '2.0.0', db: getAdapter() });
+  });
+
+  // ── Diagnóstico técnico — Fase 6 ──
+  // Verifica cada componente del pipeline.
+  // Sin auth para acceso rápido; datos de usuario solo si hay sesión.
+  app.get('/api/v1/health/diag', async (req, res) => {
+    try {
+      const { SYSTEM_PROMPT }       = await import('../shared/systemPrompt.js');
+      const { getPlanConfig,
+              TOKEN_ESTIMATION }    = await import('../shared/constants.js');
+      const { getDailyUsage }       = await import('./src/services/usage.service.js');
+      const { isKnowledgeReady,
+              getKnowledgeStats }   = await import('./src/services/knowledge.service.js');
+
+      // Intentar extraer usuario del token (opcional)
+      let userInfo = null;
+      try {
+        const authHeader = req.headers.authorization;
+        if (authHeader?.startsWith('Bearer ')) {
+          const jwt = await import('jsonwebtoken');
+          const token = authHeader.slice(7);
+          const decoded = jwt.default.verify(token, process.env.JWT_SECRET);
+          const plan = decoded.plan || 'free';
+          const usage = await getDailyUsage(decoded.id || decoded.userId, plan);
+          userInfo = {
+            plan,
+            usage: {
+              totalTokens:  usage.totalTokens,
+              requestCount: usage.requestCount,
+              remaining:    usage.remaining,
+              percentUsed:  usage.limit > 0 ? Math.round((usage.totalTokens / usage.limit) * 100) : 0,
+              canQuery:     usage.canQuery,
+            },
+          };
+        }
+      } catch { /* sin sesión — no pasa nada */ }
+
+      const plan   = userInfo?.plan || 'free';
+      const config = getPlanConfig(plan);
+      const knowledge = getKnowledgeStats();
+
+      res.json({
+        ok: true,
+        phases: {
+          fase1_config: {
+            status: 'ok',
+            plan,
+            dailyTokenLimit:      config.dailyTokenLimit,
+            maxOutputTokens:      config.maxOutputTokens,
+            maxContextTokens:     config.maxContextTokens,
+            maxHistoryMessages:   config.maxHistoryMessages,
+            maxAutoContinuations: config.maxAutoContinuations,
+          },
+          fase2_timeout: {
+            status: 'ok',
+            connectionTimeoutMs: config.connectionTimeoutMs,
+            heartbeatMs: 15000,
+          },
+          fase3_tokens: {
+            status: userInfo ? 'ok' : 'sin_sesion',
+            todayUsage: userInfo?.usage || 'Logueate para ver tu consumo',
+          },
+          fase4_continuation: {
+            status: 'ok',
+            maxAutoContinuations: config.maxAutoContinuations,
+          },
+          fase5_plans: {
+            status: 'ok',
+            currentPlan: plan,
+          },
+        },
+        systemPrompt: {
+          loaded:      typeof SYSTEM_PROMPT === 'string',
+          length:      SYSTEM_PROMPT?.length ?? 0,
+          hasWillans:  SYSTEM_PROMPT?.includes('Willans Junes') ?? false,
+          hasFemenino: SYSTEM_PROMPT?.includes('femenino') ?? false,
+        },
+        knowledge: {
+          ready:     knowledge.ready,
+          documents: knowledge.documents,
+        },
+        tokenEstimation: {
+          test: TOKEN_ESTIMATION.estimate('Hola, esto es una prueba de estimación de tokens'),
+          charsPerToken: TOKEN_ESTIMATION.charsPerToken,
+        },
+      });
+    } catch (err) {
+      res.status(500).json({ ok: false, error: err.message });
+    }
   });
 
   // ── 404 para rutas API no encontradas ──

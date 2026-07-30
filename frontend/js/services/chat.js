@@ -16,13 +16,14 @@ export async function sendMessage(content, conversationId, store) {
 
 /* ── Envío con streaming SSE ── */
 export async function sendMessageStream(content, conversationId, store, {
-  onChunk     = () => {},
-  onStart     = () => {},
-  onDone      = () => {},
-  onError     = () => {},
-  signal      = null,   // AbortController.signal para cancelar el stream
-  fileName    = null,   // nombre del archivo adjunto (si existe)
-  fileContent = null,   // texto extraído del archivo (si existe)
+  onChunk       = () => {},
+  onStart       = () => {},
+  onDone        = () => {},
+  onError       = () => {},
+  onContinuing  = () => {},   // Fase 4: indicador de continuación automática
+  signal        = null,
+  fileName      = null,
+  fileContent   = null,
 } = {}) {
   store.set('loading', true);
 
@@ -52,7 +53,7 @@ export async function sendMessageStream(content, conversationId, store, {
       method:  'POST',
       headers,
       body:    JSON.stringify(body),
-      signal:  signal || AbortSignal.timeout(60_000),
+      signal:  signal || AbortSignal.timeout(180_000),  // 3 min para cubrir continuaciones
     });
 
     if (!res.ok) {
@@ -82,9 +83,10 @@ export async function sendMessageStream(content, conversationId, store, {
         try {
           const evt = JSON.parse(raw);
           if ('text' in evt)              onChunk(evt.text);
+          else if ('continuation' in evt) onContinuing(evt.continuation, evt.max);
           else if ('conversation_id' in evt && !('full_content' in evt))
                                           onStart(evt.conversation_id);
-          else if ('full_content' in evt) onDone(evt.conversation_id, evt.provider);
+          else if ('full_content' in evt) onDone(evt.conversation_id, evt.provider, evt);
           else if ('message' in evt)      onError(evt.message);
         } catch { /* ignorar JSON malformado */ }
       }
@@ -147,4 +149,12 @@ export async function deleteConversation(id, store) {
   const convs = store.get('conversations').filter(c => c.id !== id);
   store.update({ conversations: convs });
   if (store.get('activeConvId') === id) store.update({ activeConvId: null, messages: [] });
+}
+
+/**
+ * getQuota — Consulta la cuota diaria de tokens del usuario actual.
+ * @returns {{ plan, usage: { totalTokens, remaining, limit, canQuery, percentUsed } }}
+ */
+export async function getQuota() {
+  return await api.get('/chat/quota');
 }

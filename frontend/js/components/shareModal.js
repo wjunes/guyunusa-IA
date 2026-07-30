@@ -74,10 +74,14 @@ export async function openShareModal(conversationId) {
     await copyToClipboard(markdown); showCopied();
   });
   document.getElementById('share-native')?.addEventListener('click', async () => {
-    if (navigator.share) {
-      try { await navigator.share({ title: conv.title, text: plainText }); return; } catch {}
-    }
     await shareText(conv.title || 'Conversación', plainText);
+    // Mostrar feedback de "copiado" si no se abrió el diálogo nativo
+    const copiedEl = document.getElementById('share-copied');
+    if (copiedEl) {
+      copiedEl.textContent = '✓ Copiado al portapapeles';
+      copiedEl.classList.add('visible');
+      setTimeout(() => copiedEl.classList.remove('visible'), 2000);
+    }
   });
   document.getElementById('share-download')?.addEventListener('click', () => {
     downloadFile(`guyunusa-${slugify(conv.title)}.txt`, plainText);

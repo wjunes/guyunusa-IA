@@ -104,26 +104,33 @@ async function doCopy(btn, text) {
 async function doShare(btn, text) {
   const shareText = `Guyunusa:\n\n${text}\n\n— guyunusa.uy`;
 
-  // 1. Intentar share nativo (mobile)
-  if (navigator.share) {
+  // 1. Share nativo (mobile/Windows) — no disponible en Electron
+  if (navigator.share && !window.electronAPI) {
     try {
       await navigator.share({ title: 'Guyunusa', text: shareText });
       return;
-    } catch { /* usuario canceló o no soportado, caer al clipboard */ }
+    } catch { /* usuario canceló o no soportado → clipboard */ }
   }
 
-  // 2. Fallback: copiar al portapapeles
-  try { await navigator.clipboard.writeText(shareText); }
-  catch {
-    const ta = document.createElement('textarea');
-    ta.value = shareText; ta.style.cssText = 'position:fixed;opacity:0';
-    document.body.appendChild(ta); ta.select();
-    document.execCommand('copy'); ta.remove();
-  }
+  // 2. Copiar al portapapeles (Electron + fallback web)
+  await copyToClipboard(shareText);
 
   btn.innerHTML  = iconShareDone();
   btn.style.color = 'var(--color-mate)';
   setTimeout(() => { btn.innerHTML = iconShare(); btn.style.color = ''; }, 2000);
+}
+
+/* Clipboard robusto que funciona en Electron, web y Capacitor */
+async function copyToClipboard(text) {
+  // Intento 1: clipboard API moderna
+  try { await navigator.clipboard.writeText(text); return; } catch {}
+  // Intento 2: Electron clipboard via preload (si existe)
+  try { if (window.electronAPI?.clipboard) { window.electronAPI.clipboard(text); return; } } catch {}
+  // Intento 3: execCommand fallback (siempre funciona)
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;left:-9999px';
+  document.body.appendChild(ta); ta.select();
+  document.execCommand('copy'); ta.remove();
 }
 
 function escHTML(s) {

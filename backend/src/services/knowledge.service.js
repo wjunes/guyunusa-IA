@@ -20,64 +20,123 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 // backend/src/services/ → raíz del proyecto → knowledge/
 const KNOWLEDGE_DIR = join(__dir, '../../../knowledge');
 
-// Carpetas de contenido (se excluyen docs, templates, assets, config, etc.)
+// Carpetas que NO contienen documentos de conocimiento
 const EXCLUDED_DIRS = new Set([
-  'docs', 'templates', 'assets', 'config', 'indexes', 'sources', 'legislacion',
+  'docs', 'templates', 'assets', 'config', 'indexes', 'sources',
 ]);
 
 // Índice en memoria — se llena en buildIndex()
 let _index = [];      // [{ id, titulo, categoria, keywords[], tags[], path, contentLower }]
 let _ready = false;
 
-/* ─── Parser mínimo de frontmatter YAML ─────────────────────────────
-   El frontmatter es consistente y simple, no necesitamos js-yaml.
-   Extrae: titulo, categoria, keywords[], tags[].
+/* ─── Parser de frontmatter YAML + fallback para markdown puro ───────
+   Documentos BNC-UY: tienen frontmatter YAML con ---.
+   Documentos standalone: markdown puro con # Título en la primera línea.
+   El parser detecta automáticamente el formato y extrae los campos.
    ────────────────────────────────────────────────────────────────── */
-function parseFrontmatter(raw) {
+function parseFrontmatter(raw, filePath = '') {
   const match = raw.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return { meta: {}, body: raw };
 
-  const fmText = match[1];
-  const body   = raw.slice(match[0].length).trim();
+  // ── Modo 1: YAML frontmatter (documentos BNC-UY) ──
+  if (match) {
+    const fmText = match[1];
+    const body   = raw.slice(match[0].length).trim();
 
-  const meta = {
-    titulo: '', categoria: '', keywords: [], tags: [],
-    // Campos alternativos de nombre según el tipo de documento
-    nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
-  };
-  let currentList = null;
+    const meta = {
+      titulo: '', categoria: '', keywords: [], tags: [],
+      nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
+    };
+    let currentList = null;
 
-  for (const line of fmText.split('\n')) {
-    // Item de lista: "  - valor"
-    const listItem = line.match(/^\s+-\s+(.+)$/);
-    if (listItem && currentList) {
-      meta[currentList].push(listItem[1].trim().toLowerCase());
-      continue;
+    for (const line of fmText.split('\n')) {
+      const listItem = line.match(/^\s+-\s+(.+)$/);
+      if (listItem && currentList) {
+        meta[currentList].push(listItem[1].trim().toLowerCase());
+        continue;
+      }
+
+      const field = line.match(/^(\w+):\s*(.*)$/);
+      if (field) {
+        const key = field[1];
+        const val = field[2].trim();
+
+        if (key === 'keywords' || key === 'tags') {
+          currentList = key;
+          meta[key] = [];
+          if (val) meta[key].push(val.toLowerCase());
+        } else if (['titulo','categoria','nombre_conocido','nombre_completo','nombre','rol'].includes(key)) {
+          currentList = null;
+          meta[key] = val;
+        } else {
+          currentList = null;
+        }
+      }
     }
 
-    // Campo: "clave: valor"
-    const field = line.match(/^(\w+):\s*(.*)$/);
-    if (field) {
-      const key = field[1];
-      const val = field[2].trim();
+    meta.titulo = meta.titulo || meta.nombre_conocido || meta.nombre_completo || meta.nombre || '';
+    return { meta, body };
+  }
 
-      if (key === 'keywords' || key === 'tags') {
-        currentList = key;
-        meta[key] = [];
-        if (val) meta[key].push(val.toLowerCase());
-      } else if (['titulo','categoria','nombre_conocido','nombre_completo','nombre','rol'].includes(key)) {
-        currentList = null;
-        meta[key] = val;
-      } else {
-        currentList = null;
-      }
+  // ── Modo 2: Markdown puro (standalone) ──
+  // Título: primera línea con # Título
+  // Categoría: se extrae del nombre del directorio padre (ej: "agro-uy" → "agro")
+  const lines = raw.split('\n');
+  let titulo = '';
+  let bodyStart = 0;
+
+  // Buscar el primer # heading
+  for (let i = 0; i < Math.min(lines.length, 5); i++) {
+    const h1 = lines[i].match(/^#\s+(.+)$/);
+    if (h1) {
+      titulo = h1[1].trim();
+      bodyStart = i + 1;
+      break;
     }
   }
 
-  // Resolver el título efectivo: titulo > nombre_conocido > nombre_completo > nombre
-  meta.titulo = meta.titulo || meta.nombre_conocido || meta.nombre_completo || meta.nombre || '';
+  const body = lines.slice(bodyStart).join('\n').trim();
 
-  return { meta, body };
+  // Categoría desde la ruta: .../standalone/agro-uy/01-file.md → "agro"
+  // o .../standalone/energia-uy/03-ute.md → "energia"
+  let categoria = '';
+  if (filePath) {
+    const parts = filePath.replace(/\\/g, '/').split('/');
+    const standaloneIdx = parts.lastIndexOf('standalone');
+    if (standaloneIdx >= 0 && standaloneIdx + 1 < parts.length) {
+      categoria = parts[standaloneIdx + 1]
+        .replace(/-uy$/, '')  // quitar sufijo -uy
+        .replace(/-/g, ' ');  // guiones → espacios
+    }
+  }
+
+  // Generar keywords automáticas desde el título y subtítulos ##
+  const autoKeywords = [];
+  if (titulo) {
+    // Palabras significativas del título (>3 chars)
+    titulo.toLowerCase().split(/\s+/)
+      .filter(w => w.length > 3)
+      .forEach(w => autoKeywords.push(w));
+  }
+  // Subtítulos ## como keywords adicionales
+  for (const line of lines) {
+    const h2 = line.match(/^##\s+(.+)$/);
+    if (h2) {
+      h2[1].toLowerCase().split(/\s+/)
+        .filter(w => w.length > 4)
+        .forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
+    }
+  }
+
+  return {
+    meta: {
+      titulo,
+      categoria,
+      keywords: autoKeywords,
+      tags: [categoria].filter(Boolean),
+      nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
+    },
+    body,
+  };
 }
 
 /* ─── Escaneo recursivo de la carpeta knowledge ─── */
@@ -111,7 +170,7 @@ export function buildKnowledgeIndex() {
   for (const path of files) {
     try {
       const raw = readFileSync(path, 'utf-8');
-      const { meta, body } = parseFrontmatter(raw);
+      const { meta, body } = parseFrontmatter(raw, path);
 
       // Ignorar archivos sin título ni keywords (docs internos)
       if (!meta.titulo && (!meta.keywords || meta.keywords.length === 0)) continue;
@@ -270,7 +329,7 @@ function esPreguntaDeIdentidad(query) {
    Toma los documentos relevantes y arma un texto formateado,
    respetando un límite de caracteres para no inflar el prompt.
    ────────────────────────────────────────────────────────────────── */
-export function buildKnowledgeContext(query, { maxDocs = 3, maxChars = 6000 } = {}) {
+export function buildKnowledgeContext(query, { maxDocs = 4, maxChars = 12000 } = {}) {
   // Identidad propia: sin RAG. El system prompt ya tiene la respuesta correcta
   // y cualquier documento extra solo la contamina.
   if (esPreguntaDeIdentidad(query)) return null;
@@ -283,8 +342,8 @@ export function buildKnowledgeContext(query, { maxDocs = 3, maxChars = 6000 } = 
 
   for (const doc of docs) {
     // Limitar cada doc para que no domine el contexto
-    const docText = doc.body.length > 2500
-      ? doc.body.slice(0, 2500) + '…'
+    const docText = doc.body.length > 5000
+      ? doc.body.slice(0, 5000) + '…'
       : doc.body;
 
     const bloque = `\n\n### ${doc.titulo} (${doc.categoria})\n${docText}`;

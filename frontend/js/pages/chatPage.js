@@ -26,6 +26,7 @@ import {
   cancelStream
 } from '../components/chatWindow.js';
 import { openShareModal } from '../components/shareModal.js';
+import { openPaymentModal } from '../components/paymentModal.js';
 import { deleteConversation } from '../services/chat.js';
 import { maybeShowLangBanner } from '../components/langBanner.js';
 import {
@@ -219,7 +220,14 @@ async function onMessageSend(text) {
       streamBuf = appendStreamChunk(streamRef, chunk, streamBuf);
     },
 
-    onDone: async (convId) => {
+    onContinuing: (continuation, max) => {
+      if (streamStopped) return;
+      // Indicador discreto: agregar un separador visual en la burbuja
+      const indicator = '\n\n*Continuando...*\n\n';
+      streamBuf = appendStreamChunk(streamRef, indicator, streamBuf);
+    },
+
+    onDone: async (convId, _provider, evt) => {
       if (streamStopped) return;
       finalizeStream(streamRef, streamBuf);
       await vibrate('light');
@@ -239,6 +247,17 @@ async function onMessageSend(text) {
 
     onError: (msg) => {
       if (streamStopped) return;
+
+      // Si es cuota agotada → modal de upgrade en vez de error en la burbuja
+      const m = (msg || '').toLowerCase();
+      const isQuota = m.includes('alcanzaste') || m.includes('diario de uso') || m.includes('quota');
+      if (isQuota) {
+        // Limpiar la burbuja del stream sin mostrar error
+        if (streamRef?.bubbleEl) streamRef.bubbleEl.remove();
+        showQuotaModal();
+        return;
+      }
+
       cancelStream(streamRef, msg || t()?.chat?.errorConn || 'Error de conexión');
     },
   });
@@ -384,5 +403,80 @@ function renderMessageContent(contentEl, message) {
         window.hljs.highlightElement(el);
       });
     }
+  });
+}
+
+/* ── Modal de cuota agotada — CTA para upgrade a Pro ── */
+function showQuotaModal() {
+  // Quitar modal previo si existe
+  document.getElementById('quota-modal-overlay')?.remove();
+
+  const overlay = document.createElement('div');
+  overlay.id = 'quota-modal-overlay';
+  overlay.style.cssText = `
+    position:fixed;inset:0;z-index:9999;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(0,0,0,.45);
+    animation:fadeIn .2s ease;
+  `;
+
+  overlay.innerHTML = `
+    <div style="
+      background:var(--bg-primary,#fff);
+      border-radius:16px;
+      padding:28px 24px;
+      max-width:340px;width:90%;
+      text-align:center;
+      box-shadow:0 12px 40px rgba(0,0,0,.25);
+    ">
+      <div style="font-size:40px;line-height:1;margin-bottom:12px;">🚀</div>
+      <h3 style="
+        margin:0 0 8px;
+        font-size:18px;
+        font-weight:700;
+        color:var(--text-primary,#1a1a1a);
+      ">¡Alcanzaste tu límite diario!</h3>
+      <p style="
+        margin:0 0 20px;
+        font-size:14px;
+        color:var(--text-secondary,#666);
+        line-height:1.4;
+      ">
+        Pasate al <strong>Plan Pro</strong> y disfrutá de uso ilimitado, respuestas más largas y acceso prioritario.
+      </p>
+      <button id="quota-upgrade-btn" style="
+        width:100%;padding:12px;
+        border:none;border-radius:10px;
+        background:var(--accent,#2e7d32);
+        color:#fff;font-size:15px;font-weight:600;
+        cursor:pointer;
+        transition:background .15s;
+      ">✦ Pasate a Pro</button>
+      <button id="quota-close-btn" style="
+        width:100%;padding:10px;margin-top:8px;
+        border:none;border-radius:10px;
+        background:transparent;
+        color:var(--text-muted,#999);font-size:13px;
+        cursor:pointer;
+      ">Vuelvo mañana</button>
+    </div>
+  `;
+
+  document.body.appendChild(overlay);
+
+  // Upgrade → abre el modal de pago (igual que en Settings)
+  document.getElementById('quota-upgrade-btn').addEventListener('click', () => {
+    overlay.remove();
+    openPaymentModal();
+  });
+
+  // Cerrar
+  document.getElementById('quota-close-btn').addEventListener('click', () => {
+    overlay.remove();
+  });
+
+  // Cerrar al tocar fuera
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.remove();
   });
 }

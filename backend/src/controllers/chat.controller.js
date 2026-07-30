@@ -5,9 +5,12 @@ import {
 } from '../services/ai.service.js';
 import { extractText } from '../services/fileExtractor.service.js';
 import { buildKnowledgeContext } from '../services/knowledge.service.js';
+import { recordUsage, checkQuota, getDailyUsage,
+         estimateTokens, estimateMessagesTokens } from '../services/usage.service.js';
 import { unlink } from 'fs/promises';
 import * as constants from '../../../shared/constants.js';
-const { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT } = constants;
+const { HTTP_STATUS, ERRORS, FREE_DAILY_LIMIT, getPlanConfig,
+        SYSTEM_DEFAULTS, TOKEN_ESTIMATION } = constants;
 
 import { SYSTEM_PROMPT } from '../../../shared/systemPrompt.js';
 
@@ -53,24 +56,16 @@ export async function processFileUpload(req, res) {
  * @param {number|null} conversation_id
  * @param {object|null} fileContext — { fileName, fileContent, truncated }
  */
-async function prepareChat(userId, content, conversation_id, fileContext = null) {
+async function prepareChat(userId, content, conversation_id, fileContext = null, planConfig = null) {
   return withTransaction(async (db) => {
     const user = await db.prepare('SELECT plan, username FROM users WHERE id = ?').get(userId);
 
     if (!user) throw Object.assign(new Error('Usuario no encontrado'), { status: 401 });
 
-    // Verificar límite plan free
-    if (user.plan === 'free') {
-      const today = new Date().toISOString().slice(0, 10);
-      const count = await db.prepare(
-        `SELECT COUNT(*) AS n FROM messages m
-         JOIN conversations c ON m.conversation_id = c.id
-         WHERE c.user_id = ? AND m.role = 'user' AND DATE(m.created_at) = ?`
-      ).get(userId, today);
-      if ((count?.n ?? 0) >= FREE_DAILY_LIMIT) {
-        throw Object.assign(new Error(ERRORS.RATE_LIMITED), { status: 400 });
-      }
-    }
+    // ── Fase 3: Verificar cuota diaria por TOKENS ──
+    const planName = user.plan || 'free';
+    const config   = planConfig || getPlanConfig(planName);
+    await checkQuota(userId, planName);
 
     // Obtener o crear conversación
     let convId = conversation_id ? Number(conversation_id) : null;
@@ -92,27 +87,28 @@ async function prepareChat(userId, content, conversation_id, fileContext = null)
       }
     }
 
-    // Guardar mensaje del usuario en BD (solo su texto, sin el contenido del archivo)
+    // Guardar mensaje del usuario en BD
     await db.prepare(
       'INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)'
     ).run(convId, 'user', content);
 
-    // Historial reciente para contexto de la IA
+    // ── Fase 5: Historial limitado por plan ──
+    const maxHistory = config.maxHistoryMessages || 10;
     const historyRows = await db.prepare(
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
        WHERE m.conversation_id = ? AND c.user_id = ?
-       ORDER BY m.id DESC LIMIT 20`
-    ).all(convId, userId);
-    const history = historyRows.reverse();
+       ORDER BY m.id DESC LIMIT ?`
+    ).all(convId, userId, maxHistory);
+    let history = historyRows.reverse();
 
     // Sistema + contexto del usuario
     const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
 
-    // ── RAG: buscar conocimiento uruguayo relevante para la consulta ──
+    // ── RAG: buscar conocimiento uruguayo relevante ──
     let knowledgeContext = '';
     try {
-      const kb = buildKnowledgeContext(content, { maxDocs: 3, maxChars: 6000 });
+      const kb = buildKnowledgeContext(content, { maxDocs: 4, maxChars: 12000 });
       if (kb) {
         knowledgeContext =
           `\n\n## Base de conocimiento uruguayo\n` +
@@ -127,8 +123,31 @@ async function prepareChat(userId, content, conversation_id, fileContext = null)
       logger.warn(`Knowledge retriever: ${err.message}`);
     }
 
+    // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
+    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext;
+    const systemTokens  = estimateTokens(systemContent);
+    const maxCtxTokens  = config.maxContextTokens || 12_000;
+    const budgetForHistory = maxCtxTokens - systemTokens;
+
+    if (budgetForHistory > 0) {
+      // Recortar mensajes más viejos si el historial excede el presupuesto
+      let historyTokens = 0;
+      const trimmed = [];
+      // Recorrer desde el más reciente al más viejo
+      for (let i = history.length - 1; i >= 0; i--) {
+        const msgTokens = estimateTokens(history[i].content) + 4;
+        if (historyTokens + msgTokens > budgetForHistory) break;
+        historyTokens += msgTokens;
+        trimmed.unshift(history[i]);
+      }
+      if (trimmed.length < history.length) {
+        logger.info(`[context] Historial recortado: ${history.length} → ${trimmed.length} msgs (plan ${planName}, max ${maxCtxTokens} tokens)`);
+      }
+      history = trimmed;
+    }
+
     const messages = [
-      { role: 'system', content: SYSTEM_PROMPT + userContext + knowledgeContext },
+      { role: 'system', content: systemContent },
       ...history,
     ];
 
@@ -189,10 +208,15 @@ export async function sendMessage(req, res) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: 'El mensaje no puede estar vacío' });
   }
 
+  const planConfig = getPlanConfig(req.user.plan || 'free');
+
   try {
-    const { convId, messages } = await prepareChat(req.user.id, content, conversation_id);
-    const { content: reply, provider, tokens } = await chat(messages);
-    await saveResponse(convId, reply, provider, tokens, content);
+    const { convId, messages } = await prepareChat(req.user.id, content, conversation_id, null, planConfig);
+    const { content: reply, provider, promptTokens, completionTokens } = await chat(messages, planConfig);
+    const totalTokens = (promptTokens || 0) + (completionTokens || 0);
+
+    await saveResponse(convId, reply, provider, totalTokens, content);
+    await recordUsage(req.user.id, promptTokens || 0, completionTokens || 0);
 
     return res.json({
       ok: true,
@@ -208,9 +232,57 @@ export async function sendMessage(req, res) {
 }
 
 /* ══════════════════════════════════════════════════════════════════
-   ENDPOINT STREAMING SSE
+   HELPER: leer un stream de IA y enviar chunks por SSE
+   Retorna { finishReason, contentDelta, promptTokens, completionTokens }
+   ══════════════════════════════════════════════════════════════════ */
+async function readStream(response, send) {
+  const reader  = response.body.getReader();
+  const decoder = new TextDecoder('utf-8');
+  let contentDelta    = '';
+  let finishReason    = 'stop';
+  let promptTokens    = 0;
+  let completionTokens = 0;
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    const chunk = decoder.decode(value, { stream: true });
+    for (const line of chunk.split('\n')) {
+      if (!line.startsWith('data: ')) continue;
+      const raw = line.slice(6).trim();
+      if (raw === '[DONE]') continue;
+
+      try {
+        const parsed = JSON.parse(raw);
+        const delta  = parsed.choices?.[0]?.delta?.content;
+        if (delta) {
+          contentDelta += delta;
+          send('chunk', { text: delta });
+        }
+        const fr = parsed.choices?.[0]?.finish_reason;
+        if (fr) finishReason = fr;
+        if (parsed.usage) {
+          promptTokens     = parsed.usage.prompt_tokens     || 0;
+          completionTokens = parsed.usage.completion_tokens || 0;
+        }
+      } catch { /* ignorar */ }
+    }
+  }
+
+  return { finishReason, contentDelta, promptTokens, completionTokens };
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   ENDPOINT STREAMING SSE — Fase 4: continuación automática
    POST /api/v1/chat/stream
-   Body: { content, conversation_id?, file_name?, file_content? }
+
+   Cuando finish_reason === 'length' (el modelo se cortó por max_tokens):
+   1. Verifica que quede cuota disponible
+   2. Envía evento SSE 'continuing' al frontend
+   3. Llama al modelo pidiendo que continúe desde donde quedó
+   4. Repite hasta finish_reason === 'stop' o se acaben continuaciones
+   5. La continuación es transparente para el usuario
    ══════════════════════════════════════════════════════════════════ */
 export async function sendMessageStream(req, res) {
   const { conversation_id, content, file_name, file_content } = req.body;
@@ -219,69 +291,152 @@ export async function sendMessageStream(req, res) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: 'El mensaje no puede estar vacío' });
   }
 
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
+  const userPlan   = req.user.plan || 'free';
+  const planConfig = getPlanConfig(userPlan);
+
+  res.setHeader('Content-Type',      'text/event-stream; charset=utf-8');
+  res.setHeader('Cache-Control',     'no-cache, no-transform');
+  res.setHeader('Connection',        'keep-alive');
   res.setHeader('X-Accel-Buffering', 'no');
   res.flushHeaders();
 
   const send = (event, data) => {
-    res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+    try { res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`); }
+    catch { /* cliente desconectado */ }
   };
 
+  const heartbeat = setInterval(() => {
+    try { res.write(`: heartbeat\n\n`); }
+    catch { clearInterval(heartbeat); }
+  }, SYSTEM_DEFAULTS.heartbeatIntervalMs || 15_000);
+
   let convId, fullContent = '', provider = 'unknown';
+  let totalPromptTokens = 0, totalCompletionTokens = 0;
 
   try {
-    // Construir contexto de archivo si viene en el body
     const fileContext = (file_name && file_content)
       ? { fileName: file_name, fileContent: file_content, truncated: false }
       : null;
 
-    const prepared = await prepareChat(req.user.id, content, conversation_id, fileContext);
+    const prepared = await prepareChat(req.user.id, content, conversation_id, fileContext, planConfig);
     convId = prepared.convId;
+
+    const promptEstimate = estimateMessagesTokens(prepared.messages);
 
     send('start', { conversation_id: convId });
 
-    const { response, provider: prov } = await chatStream(prepared.messages);
+    // ── Primera generación ──
+    const { response, provider: prov } = await chatStream(prepared.messages, planConfig);
     provider = prov;
 
-    const reader = response.body.getReader();
-    const decoder = new TextDecoder('utf-8');
+    let result = await readStream(response, send);
+    fullContent += result.contentDelta;
+    totalPromptTokens     += result.promptTokens || promptEstimate;
+    totalCompletionTokens += result.completionTokens || estimateTokens(result.contentDelta);
 
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
+    // ── Loop de continuación automática ──
+    let continuations = 0;
+    const maxContinuations = planConfig.maxAutoContinuations || 2;
 
-      const chunk = decoder.decode(value, { stream: true });
-      const lines = chunk.split('\n');
+    while (result.finishReason === 'length' && continuations < maxContinuations) {
+      continuations++;
+      logger.info(`[continuation] #${continuations}/${maxContinuations} para conv=${convId}`);
 
-      for (const line of lines) {
-        if (!line.startsWith('data: ')) continue;
-        const raw = line.slice(6).trim();
-        if (raw === '[DONE]') continue;
+      // Verificar que todavía hay cuota
+      try {
+        await checkQuota(req.user.id, userPlan);
+      } catch {
+        logger.info(`[continuation] Cuota agotada, deteniendo en continuación #${continuations}`);
+        break;
+      }
 
-        try {
-          const parsed = JSON.parse(raw);
-          const delta = parsed.choices?.[0]?.delta?.content;
-          if (delta) {
-            fullContent += delta;
-            send('chunk', { text: delta });
-          }
-        } catch { /* ignorar líneas malformadas */ }
+      // Notificar al frontend que estamos continuando
+      send('continuing', { continuation: continuations, max: maxContinuations });
+
+      // Armar mensajes de continuación:
+      // system prompt original + historial + respuesta parcial + instrucción de continuar
+      const contMessages = [
+        ...prepared.messages,
+        { role: 'assistant', content: fullContent },
+        {
+          role: 'user',
+          content:
+            'Continuá exactamente desde donde terminaste. ' +
+            'No repitas nada de lo que ya dijiste. ' +
+            'No agregues introducciones ni resúmenes de lo anterior. ' +
+            'Continuá directamente con el texto que faltaba.',
+        },
+      ];
+
+      try {
+        const { response: contResp } = await chatStream(contMessages, planConfig);
+        result = await readStream(contResp, send);
+        fullContent += result.contentDelta;
+        totalCompletionTokens += result.completionTokens || estimateTokens(result.contentDelta);
+      } catch (contErr) {
+        logger.warn(`[continuation] Error en continuación #${continuations}: ${contErr.message}`);
+        break; // no perder lo que ya tenemos
       }
     }
 
-    await saveResponse(convId, fullContent, provider, 0, content);
+    // ── Guardar respuesta completa y registrar consumo ──
+    const finalPromptTokens     = totalPromptTokens;
+    const finalCompletionTokens = totalCompletionTokens;
+
+    await saveResponse(convId, fullContent, provider, finalPromptTokens + finalCompletionTokens, content);
+    await recordUsage(req.user.id, finalPromptTokens, finalCompletionTokens);
+
     send('done', {
       conversation_id: convId,
       provider,
-      full_content: fullContent,
+      full_content:    fullContent,
+      finish_reason:   result.finishReason,
+      continuations,
+      usage: {
+        prompt_tokens:     finalPromptTokens,
+        completion_tokens: finalCompletionTokens,
+        total_tokens:      finalPromptTokens + finalCompletionTokens,
+      },
     });
 
   } catch (err) {
-    logger.error('Error en stream:', err.message);
-    send('error', { message: err.message || ERRORS.AI_UNAVAILABLE });
+    logger.error(`Stream error (user=${req.user.id}):`, err.message);
+
+    if (fullContent.trim() && convId && SYSTEM_DEFAULTS.savePartialOnError) {
+      try {
+        const partialTokens = estimateTokens(fullContent);
+        await saveResponse(convId, fullContent, provider, partialTokens, content);
+        await recordUsage(req.user.id, 0, partialTokens);
+        logger.info(`[partial] Guardado parcial: ${fullContent.length} chars, ~${partialTokens} tokens`);
+      } catch (saveErr) {
+        logger.error(`[partial] Error guardando parcial: ${saveErr.message}`);
+      }
+    }
+
+    const isTimeout = err.name === 'AbortError' ||
+                      err.message?.includes('aborted') ||
+                      err.message?.includes('timeout');
+
+    if (isTimeout && fullContent.trim()) {
+      send('done', {
+        conversation_id: convId,
+        provider,
+        full_content:    fullContent,
+        finish_reason:   'timeout_partial',
+        partial:         true,
+      });
+    } else if (isTimeout) {
+      send('error', { message: ERRORS.TIMEOUT_FRIENDLY });
+    } else {
+      const friendlyMessage = err.status === 429
+        ? ERRORS.QUOTA_EXCEEDED
+        : err.status === 400
+          ? err.message
+          : ERRORS.AI_UNAVAILABLE;
+      send('error', { message: friendlyMessage });
+    }
   } finally {
+    clearInterval(heartbeat);
     res.end();
   }
 }
@@ -336,6 +491,36 @@ export async function deleteConversation(req, res) {
     return res.json({ ok: true, message: 'Conversación eliminada' });
   } catch (err) {
     logger.error('Error en deleteConversation:', err.message);
+    return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   ENDPOINT DE CUOTA — Fase 3
+   GET /api/v1/chat/quota
+   Devuelve el consumo y cuota restante del usuario para el día.
+   ══════════════════════════════════════════════════════════════════ */
+export async function getQuota(req, res) {
+  try {
+    const planName = req.user.plan || 'free';
+    const usage    = await getDailyUsage(req.user.id, planName);
+
+    return res.json({
+      ok:   true,
+      plan: planName,
+      usage: {
+        totalTokens:  usage.totalTokens,
+        requestCount: usage.requestCount,
+        remaining:    usage.remaining,
+        limit:        usage.limit,
+        canQuery:     usage.canQuery,
+        percentUsed:  usage.limit > 0
+          ? Math.round((usage.totalTokens / usage.limit) * 100)
+          : 0,
+      },
+    });
+  } catch (err) {
+    logger.error('Error en getQuota:', err.message);
     return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });
   }
 }

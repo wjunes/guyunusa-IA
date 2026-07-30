@@ -58,9 +58,46 @@ El fútbol uruguayo no es solo deporte: es parte del relato nacional. Las victor
 
 **Tenis:** Uruguay ha producido tenistas de nivel sudamericano. El circuito menor tiene torneos en Montevideo. Pablo Cuevas fue el jugador uruguayo de mayor ranking ATP en las últimas décadas.
 
-**Atletismo:** Uruguay ha tenido presencia olímpica en atletismo, especialmente en maratón y marcha.
+**Atletismo:** Uruguay tiene presencia olímpica permanente en atletismo, con participaciones en pruebas de fondo, marcha y otras especialidades en todos los Juegos modernos.
 
-**Deportes náuticos:** la tradición náutica en el Río de la Plata ha dado a Uruguay presencias olímpicas en vela y remo.
+**Deportes náuticos:** la tradición náutica en el Río de la Plata ha dado a Uruguay presencias olímpicas destacadas en vela y remo. El remo es la disciplina con más medallas olímpicas de Uruguay (4 en total: 1 Plata + 3 Bronce).
+
+**Ciclismo en pista:** Milton Wynants obtuvo la medalla de plata en la prueba por puntos en Sydney 2000, el último metal olímpico uruguayo hasta la fecha.
+
+**Boxeo:** Washington «Cuerito» Rodríguez Medina ganó el bronce en peso gallo en Tokio 1964.
+
+## Medallero olímpico histórico de Uruguay (10 medallas — 1924–2000)
+
+Uruguay acumula **10 medallas olímpicas** en toda su historia de Juegos de la Olimpíada. La mayor concentración de logros se dio entre 1924 y 1956. Desde 1964 hasta 2000 hubo solo una medalla (Wynants). Desde Sydney 2000, Uruguay no ha vuelto al podio olímpico.
+
+| Año | Sede | Medalla | Deporte | Disciplina | Deportista(s) |
+|-----|------|---------|---------|------------|---------------|
+| 1924 | París | 🥇 Oro | Fútbol | Selección masculina | J.L. Andrade, J. Nasazzi, H. Scarone y otros (22) |
+| 1928 | Ámsterdam | 🥇 Oro | Fútbol | Selección masculina | J.L. Andrade, J. Nasazzi, H. Scarone, H. Castro y otros (22) |
+| 1932 | Los Ángeles | 🥉 Bronce | Remo | Single Scull | Guillermo R. Douglas |
+| 1948 | Londres | 🥈 Plata | Remo | Single Scull | Eduardo G. Risso |
+| 1948 | Londres | 🥉 Bronce | Remo | Double Sculls | Juan A. Rodríguez / William Jones |
+| 1952 | Helsinki | 🥉 Bronce | Básquetbol | Selección masculina | N. Demarco, H. García Otero, S. Matto Suárez y otros (12) |
+| 1952 | Helsinki | 🥉 Bronce | Remo | Double Sculls | Juan A. Rodríguez Iglesias / Miguel A. Seijas Cuestas |
+| 1956 | Melbourne | 🥉 Bronce | Básquetbol | Selección masculina | N. Demarco, H. García Otero, S. Matto Suárez y otros (12) |
+| 1964 | Tokio | 🥉 Bronce | Boxeo | Peso gallo | Washington «Cuerito» Rodríguez Medina |
+| 2000 | Sídney | 🥈 Plata | Ciclismo | Prueba por puntos (pista) | Milton Wynants |
+
+Fuente: COU (cou.org.uy) / registros COI
+
+**Resumen por deporte:** Fútbol 2🥇 · Remo 1🥈+3🥉 · Básquetbol 2🥉 · Ciclismo 1🥈 · Boxeo 1🥉
+
+## Uruguay en los Juegos Olímpicos recientes
+
+Fuente: Comité Olímpico Uruguayo (cou.org.uy)
+
+| Juegos | Año | Atletas | Deportes |
+|--------|-----|---------|---------|
+| París XXXIII | 2024 | 27 | Atletismo, Canotaje, Ciclismo, Judo, Natación, Remo, Rugby, Taekwondo, Vela |
+| Tokio XXXII | 2020 (2021) | 11 | Atletismo, Judo, Natación, Remo, Vela |
+| Río XXXI | 2016 | 17 | 8 deportes |
+
+Uruguay participa ininterrumpidamente en los Juegos de la Olimpíada desde **París 1924** (con la excepción del boicot de 1980). La delegación más grande en décadas recientes fue París 2024, con 27 atletas en 9 disciplinas.
 
 ## El sistema deportivo
 
@@ -76,4 +113,4 @@ El deporte en Uruguay es organizado por federaciones independientes, con apoyo d
 
 ## Palabras clave
 
-deporte Uruguay, fútbol Uruguay identidad, selección uruguaya Celeste, AUF, Copa del Mundo Uruguay 1930 1950, Maracanazo, rugby Los Teros Uruguay, básquetbol Uruguay, tenis Pablo Cuevas Uruguay, atletismo Uruguay, deportes náuticos Uruguay, Nacional Peñarol clubes históricos, Ministerio Deporte Uruguay
+deporte Uruguay, fútbol Uruguay identidad, selección uruguaya Celeste, AUF, Copa del Mundo Uruguay 1930 1950, Maracanazo, rugby Los Teros Uruguay, básquetbol Uruguay, tenis Pablo Cuevas Uruguay, atletismo Uruguay, deportes náuticos Uruguay, Nacional Peñarol clubes históricos, Ministerio Deporte Uruguay, medallero olímpico Uruguay 10 medallas, medallas olímpicas Uruguay fútbol remo básquetbol ciclismo boxeo, Milton Wynants ciclismo plata Sydney 2000, Washington Cuerito Rodríguez boxeo bronce Tokio 1964, delegación olímpica Uruguay París 2024 27 atletas, Comité Olímpico Uruguayo COU

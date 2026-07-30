@@ -220,13 +220,30 @@ export async function initAppLifecycle({ onPause, onResume, onBack } = {}) {
    SHARE — compartir conversación
    —————————————————————————————————————— */
 export async function shareText(title, text) {
-  if (!Platform.isCapacitor) {
-    // Fallback web: copiar al portapapeles
-    await navigator.clipboard.writeText(text).catch(() => {});
-    return;
+  // 1. Share nativo en Capacitor (Android/iOS)
+  if (Platform.isCapacitor) {
+    try {
+      const { Share } = await import('@capacitor/share');
+      await Share.share({ title, text, dialogTitle: 'Compartir conversación' });
+      return true;
+    } catch { /* silencioso */ }
   }
-  try {
-    const { Share } = await import('@capacitor/share');
-    await Share.share({ title, text, dialogTitle: 'Compartir conversación' });
-  } catch { /* silencioso */ }
+
+  // 2. Web Share API (mobile browsers, Windows — no Electron)
+  if (navigator.share && !window.electronAPI) {
+    try {
+      await navigator.share({ title, text });
+      return true;
+    } catch { /* usuario canceló */ }
+  }
+
+  // 3. Fallback: copiar al portapapeles (Electron + web)
+  try { await navigator.clipboard.writeText(text); return true; } catch {}
+  try { if (window.electronAPI?.clipboard) { window.electronAPI.clipboard(text); return true; } } catch {}
+  // execCommand como última opción
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;left:-9999px';
+  document.body.appendChild(ta); ta.select();
+  document.execCommand('copy'); ta.remove();
+  return true;
 }

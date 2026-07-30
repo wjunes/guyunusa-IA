@@ -54,7 +54,7 @@ relacionado_con:
 
 ## Resumen
 
-La Universidad de la República (Udelar) es la institución universitaria pública más antigua, más grande y más relevante de Uruguay. Fundada en 1849, es un ente autónomo del Estado con autonomía constitucional, gobernada bajo el principio de cogobierno (participación de docentes, egresados y estudiantes en sus órganos de gobierno). El ingreso es irrestricto y la enseñanza es gratuita. Con más de 100.000 estudiantes activos, más de 12 facultades en Montevideo y centros universitarios regionales en el interior, la Udelar produce la gran mayoría de la investigación científica uruguaya y ejerce una función de extensión universitaria con vocación transformadora. Es referencia histórica del modelo universitario latinoamericano autónomo y cogobernado, junto con la Universidad Nacional de Córdoba (Argentina).
+La Universidad de la República (Udelar) es la institución universitaria pública más antigua, más grande y más relevante de Uruguay. Fundada en 1849, es un ente autónomo del Estado con autonomía constitucional, gobernada bajo el principio de cogobierno (participación de docentes, egresados y estudiantes en sus órganos de gobierno). El ingreso es irrestricto y la enseñanza es gratuita. Con una matrícula de aproximadamente **160.000 estudiantes activos** y más de 140 carreras de grado, la Udelar produce la gran mayoría de la investigación científica uruguaya y ejerce una función de extensión universitaria con vocación transformadora. Es referencia histórica del modelo universitario latinoamericano autónomo y cogobernado, junto con la Universidad Nacional de Córdoba (Argentina). En 2026 registró un récord histórico de **21.650 nuevos inscriptos**.
 
 ## Historia
 
@@ -103,8 +103,9 @@ Desde los años 2000, la Udelar inició un proceso deliberado de descentralizaci
 - **CENUR Litoral Norte:** sedes en Salto y Paysandú.
 - **CENUR Noreste:** sedes en Rivera y Tacuarembó.
 - **CURE (Centro Universitario Región Este):** sedes en Maldonado, Rocha y Treinta y Tres.
+- **Región Suroeste (en desarrollo):** La Udelar avanza junto a la Intendencia de Colonia en la creación de una nueva sede universitaria regional en los departamentos de Colonia y Soriano. El predio asignado es el de la ex planta textil Sudamtex en Colonia, donado por la Intendencia. En julio de 2026 se firmó el acuerdo de cesión del terreno. Ya existen actividades académicas del Área Social y Artística (ASA) y del ciclo inicial optativo (CIO) en la región.
 
-Esta descentralización busca revertir la concentración histórica de la actividad universitaria en Montevideo.
+Esta descentralización busca revertir la concentración histórica de la actividad universitaria en Montevideo y democratizar el acceso a la educación universitaria pública en todo el territorio.
 
 ## Principios y modelo
 
@@ -146,27 +147,31 @@ El modelo de cogobierno implica que los órganos de gobierno universitario inclu
 
 La Udelar tiene en Montevideo las siguientes facultades principales:
 
-| Facultad | Carreras principales |
-|---|---|
-| Derecho | Abogacía, Notariado |
-| Medicina | Medicina, Obstetricia, Nutrición, Tecnología Médica |
-| Ingeniería | Ingeniería Civil, Eléctrica, Mecánica, Computación, Quím., Industrial |
-| Arquitectura, Diseño y Urbanismo | Arquitectura, Diseño Industrial, Diseño de Comunicación Visual |
-| Ciencias Económicas y de Administración | Contador, Administración, Economía |
-| Ciencias | Física, Matemática, Biología, Geología, Química, Astronomía |
-| Química | Química, Bioquímica, Farmacia, Ingeniería Química |
-| Veterinaria | Veterinaria |
-| Agronomía | Ingeniería Agronómica |
-| Psicología | Psicología |
-| Humanidades y Ciencias de la Educación | Historia, Letras, Filosofía, Lingüística, Ciencias de la Educación |
-| Ciencias Sociales | Sociología, Trabajo Social, Ciencia Política |
-| Escuela Universitaria de Música | Música |
-| Instituto Superior de Educación Física (ISEF) | Educación Física |
-| Escuela de Bibliotecología y Ciencias Afines | Bibliotecología |
-| Enfermería | Licenciatura en Enfermería |
-| Odontología | Odontología |
+| Facultad / Servicio | Sigla | Carreras principales |
+|---------------------|-------|---------------------|
+| Derecho | FDER | Abogacía, Notariado |
+| Medicina | FMED | Medicina, Obstetricia, Nutrición, Tecnología Médica |
+| Ingeniería | FING | Ing. Civil, Eléctrica, Mecánica, Computación, Química, Industrial; Licenc. en Computación |
+| Arquitectura, Diseño y Urbanismo | FADU | Arquitectura, Diseño Industrial, Diseño de Comunicación Visual, Tecnología en Construcción |
+| Ciencias Económicas y de Administración | FCEA | Contador Público, Administración, Economía |
+| Ciencias | FC | Física, Matemática, Biología, Geología, Astronomía, Ciencias de la Atmósfera, Oceanografía |
+| Química | FQ | Química, Bioquímica, Farmacia, Ingeniería Química |
+| Veterinaria | FVet | Veterinaria |
+| Agronomía | FA | Ingeniería Agronómica |
+| Psicología | FPsico | Psicología |
+| Humanidades y Ciencias de la Educación | FHCE | Historia, Letras, Filosofía, Lingüística, Ciencias de la Educación |
+| Ciencias Sociales | FCS | Sociología, Trabajo Social, Ciencia Política |
+| Escuela Universitaria de Música | EUMUS | Música |
+| Instituto Superior de Educación Física | ISEF | Educación Física |
+| Escuela de Bibliotecología | EUBCA | Bibliotecología |
+| Enfermería | FEnf | Licenciatura en Enfermería |
+| Odontología | FO | Odontología |
 
-Además de las facultades, la Udelar tiene centros universitarios regionales (CENUR Litoral Norte, CENUR Noreste, CURE) con oferta de carreras adaptada a las necesidades regionales.
+La Udelar ofrece más de **140 carreras de grado** en total. Además de las facultades en Montevideo, tiene centros universitarios regionales (CENUR Litoral Norte con sedes en Salto y Paysandú; CENUR Noreste con sedes en Rivera y Tacuarembó; CURE con sedes en Maldonado, Rocha y Treinta y Tres; y Región Suroeste en desarrollo en Colonia y Soriano).
+
+### Facultad de Ingeniería (FING) — datos actuales 2026
+
+La Facultad de Ingeniería es una de las cinco facultades con mayor demanda de ingreso en Udelar. En 2026 registró **3.000 nuevos inscriptos** (frente a 2.715 en 2025). Ese mismo año aprobó un **nuevo Plan de Estudios** para las carreras de Ingeniería en Computación y Licenciatura en Computación, modernizando la estructura curricular vigente.
 
 ## Investigación científica
 
@@ -179,6 +184,32 @@ La Udelar produce la gran mayoría de la investigación científica uruguaya. Su
 - **Vinculación con empresas y sector productivo:** programas de transferencia tecnológica y consultoría a través de unidades específicas.
 
 La Udelar ha jugado un papel central en la formación de los investigadores uruguayos y en el desarrollo científico nacional, a pesar de las limitaciones presupuestarias.
+
+## Iniciativas y programas actuales (2025–2026)
+
+### Plan Estratégico 2025–2029 (Propuesta 2027)
+
+La Udelar cuenta con un **Plan Estratégico de Desarrollo 2025–2029**, conocido como **Propuesta 2027**, que orienta sus prioridades institucionales en enseñanza, investigación, extensión, gestión y descentralización. Incluye metas de rendición de cuentas públicas periódicas.
+
+### UNI Radio 107.7 FM
+
+**UNI Radio** es la primera radio universitaria del Uruguay, emite por el **107.7 FM** del dial y en línea. Transmite toda la semana con contenidos de divulgación científica, cultural y universitaria.
+
+### Udelar 360
+
+**Udelar 360** es el programa de movilidad estudiantil e institucional que permite a estudiantes, docentes y funcionarios de la Udelar acceder a oportunidades de intercambio internacional.
+
+### Inteligencia Artificial en la Udelar
+
+En 2026 la Udelar organizó las **Jornadas IA: Hacia un uso responsable y humano de la IA**, con la presentación de una guía de principios y orientaciones para el uso de inteligencia artificial en el ámbito universitario.
+
+### 4.° Congreso Nacional de Educación
+
+La Udelar participa activamente en el **4.° Congreso Nacional de Educación: Hacia una Estrategia Nacional de Educación**, con encuentros regionales en todo el país (en 2026 se realizó el encuentro en Maldonado).
+
+### Fondo Sectorial de Investigación Antártica
+
+La Udelar gestiona, junto al Estado, convocatorias del **Fondo Sectorial de Investigación Antártica**, fortaleciendo la investigación uruguaya en el continente antártico (en el marco del Instituto Antártico Uruguayo, IAU).
 
 ## Extensión universitaria
 
@@ -214,7 +245,12 @@ La Udelar ha formado y albergado a numerosas figuras relevantes de la cultura, l
 | 1985 | Recuperación de la autonomía con el retorno democrático |
 | 2000s | Inicio de la descentralización regional (CENUR, CURE) |
 | 2015-2020 | Expansión de programas de posgrado y vinculación tecnológica |
+| 2025 | Aprobación del Plan Estratégico 2025–2029 (Propuesta 2027) |
+| 2026 | Récord histórico de inscriptos: 21.650 nuevos estudiantes |
+| 2026 | FING aprueba nuevo Plan de Estudios para Ingeniería en Computación y Lic. en Computación |
+| 2026 | Acuerdo Udelar–Intendencia de Colonia para sede universitaria en ex-Sudamtex (CENUR Suroeste) |
+| 2026 | Jornadas IA: Hacia un uso responsable y humano de la IA |
 
 ## Palabras clave
 
-Universidad de la República Uruguay, Udelar fundación 1849, autonomía universitaria Uruguay, cogobierno Udelar docentes egresados estudiantes, ingreso irrestricto gratuito Udelar, rector Udelar, CDC Consejo Directivo Central, facultades Udelar Montevideo, CENUR litoral norte noreste, CURE región este, Ley Orgánica 1958 universidad, investigación científica Uruguay Udelar, extensión universitaria Uruguay, Carlos Vaz Ferreira rector, dictadura intervención Udelar 1973, descentralización universitaria Uruguay
+Universidad de la República Uruguay, Udelar fundación 1849, autonomía universitaria Uruguay, cogobierno Udelar docentes egresados estudiantes, ingreso irrestricto gratuito Udelar, rector Udelar, CDC Consejo Directivo Central, facultades Udelar Montevideo, CENUR litoral norte noreste, CURE región este, Ley Orgánica 1958 universidad, investigación científica Uruguay Udelar, extensión universitaria Uruguay, Carlos Vaz Ferreira rector, dictadura intervención Udelar 1973, descentralización universitaria Uruguay, FING Facultad Ingeniería Uruguay computación, FADU arquitectura diseño Udelar, Facultad Ciencias Uruguay, PEDECIBA ciencias básicas Uruguay, UNI Radio 107.7 FM Uruguay, Plan Estratégico Udelar 2025 2029 Propuesta 2027, Udelar 360 movilidad estudiantil, inteligencia artificial Udelar IA responsable, CENUR Suroeste Colonia Sudamtex, 160000 estudiantes Udelar 2026, 21650 inscriptos récord Udelar 2026, 140 carreras Udelar grado

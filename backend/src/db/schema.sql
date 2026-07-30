@@ -68,3 +68,21 @@ CREATE TABLE IF NOT EXISTS payments (
   KEY idx_payments_preference (preference_id),
   CONSTRAINT fk_payments_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Tabla de consumo diario de tokens (v2.0)
+-- Registra el consumo real de cada usuario por día para control de cuota.
+-- Un registro por usuario por día, se actualiza con cada respuesta.
+CREATE TABLE IF NOT EXISTS token_usage (
+  id              INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id         INT UNSIGNED NOT NULL,
+  usage_date      DATE NOT NULL,
+  prompt_tokens   INT UNSIGNED NOT NULL DEFAULT 0,
+  completion_tokens INT UNSIGNED NOT NULL DEFAULT 0,
+  total_tokens    INT UNSIGNED NOT NULL DEFAULT 0,
+  request_count   INT UNSIGNED NOT NULL DEFAULT 0,
+  created_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY idx_usage_user_date (user_id, usage_date),
+  KEY idx_usage_date (usage_date),
+  CONSTRAINT fk_usage_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
