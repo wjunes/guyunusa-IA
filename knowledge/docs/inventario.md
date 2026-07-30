@@ -1,7 +1,7 @@
 # BNC-UY — Inventario de dominios y documentos
 
-**Versión:** 33.0.0
-**Fecha:** 2026-07-29
+**Versión:** 47.0.0
+**Fecha:** 2026-07-30
 **Estado:** activo
 
 ---
@@ -28,26 +28,40 @@ Los dominios standalone siguen el formato normalizado BNC-UY: directorio con nom
 | 8 | `clima-meteorologia-uy` | 27 | Clima y meteorología: clasificación, regiones, estaciones, fenómenos, INUMET, cambio climático |
 | 9 | `cultura-uy` | 36 | Cultura uruguaya: historia cultural, identidad, candombe (UNESCO), carnaval, literatura, música, teatro, danza, artes visuales, cine, museos, gastronomía, turismo cultural, MEC/SODRE/ICAU |
 | 10 | `turismo-uy` | 22 | Turismo uruguayo: historia, MINTUR, economía turística, Montevideo, Punta del Este, Colonia, costa atlántica, Cabo Polonio, naturaleza/SNAP, termas, estancias rurales, turismo cultural, gastronomía/enoturismo, deportes, interior, infraestructura, sostenibilidad, estadísticas |
-| 11 | `departamentos-uy` | 21 | Los 19 departamentos: fichas con datos geográficos, demográficos (Censo 2023), intendencias |
-| 12 | `desarrollo-social-inclusion-uy` | 23 | Desarrollo social e inclusión: MIDES, INAU, INJU, INMAYORES, INMUJERES, PRONADIS, SNIC, AFAM-PE, TUS, primera infancia, juventudes, discapacidad, género, pobreza, cooperación internacional |
-| 13 | `administracion-publica-estadisticas-uy` | 22 | Administración Pública, Estado uruguayo, servicio civil, gestión pública, gobierno digital, transparencia, INE, estadísticas nacionales, censos, encuestas, indicadores |
-| 14 | `economia-finanzas-impuestos-uy` | 23 | Economía, finanzas públicas y tributación: MEF, DGI, BCU, impuestos (IVA/IRPF/IRAE/IASS/IMESI), sistema financiero, comercio exterior, inversiones, estadísticas |
-| 15 | `sistema-financiero-uy` | 21 | Sistema financiero: BCU, SSF, BROU, BHU, BSE, AFAPs, mercado de valores, seguros, regulación prudencial, inclusión financiera, crisis 2002, prevención lavado activos |
-| 16 | `aduanas-uy` | 21 | Aduanas y comercio exterior: DNA, nomenclatura arancelaria, AEC MERCOSUR, importaciones, exportaciones, regímenes especiales, zonas francas, despachantes, OEA, contrabando |
-| 17 | `comercio-exterior-uy` | 21 | Comercio exterior: exportaciones (celulosa, carne, soja, lácteos), importaciones, destinos, MERCOSUR, ALADI, OMC, acuerdo MERCOSUR-UE, China, IED, zonas francas, logística, defensa comercial |
-| 18 | `educacion-superior-uy` | 16 | Educación superior: UdelaR, UTEC, universidades privadas, CES/CEIP/ANEPE, titulaciones, internacionalización |
-| 19 | `educacion-tecnica-uy` | 13 | Educación técnico-profesional: UTU, CETP, formación dual, cualificaciones, sector productivo |
-| 20 | `educacion-uy` | 22 | Sistema educativo nacional: MEC, ANEP, CODICEN, niveles, historia, Plan Ceibal, becas, educación permanente |
-| 21 | `energia-uy` | 30 | Energía: UTE, ANCAP, URSEA, matriz energética, renovables, hidroeléctrica, eólica, solar, eficiencia |
-| 22 | `geografia-uy` | 23 | Geografía física y humana: relieve, hidrografía, costas, suelos, población, asentamientos, IGM |
-| 23 | `justicia-uy` | 20 | Sistema de justicia: Poder Judicial, SCJ, Fiscalía, Defensoría, procesos, mediación, profesiones jurídicas |
-| 24 | `movilidad-transporte-uy` | 22 | Movilidad y transporte: MTOP, STM, AFE, ANP, DINACIA, UNASEV, rutas, ferrocarril, aviación, puertos, seguridad vial |
-| 25 | `naturaleza-uy` | 31 | Naturaleza y biodiversidad: ecosistemas, flora, fauna, SNAP, parques nacionales, humedales, costas |
-| 26 | `oceanografia-uy` | 23 | Oceanografía: Río de la Plata, Océano Atlántico, corrientes, mareas, biodiversidad marina, SOHMA |
-| 27 | `patrimonio-uy` | 15 | Patrimonio cultural y natural: UNESCO, MEC, ICOMOS, sitios declarados, política patrimonial |
-| 28 | `pueblos-originarios-uy` | 25 | Pueblos originarios: charrúas, guaraníes, chanás, historia, resistencia, identidad contemporánea, legislación |
+| 11 | `documentacion-oficial-uy` | 16 | Documentación oficial del Estado: IMPO, Diario Oficial, RNLD, bases normativas, textos ordenados, metodología de referencias para BNC-UY, digitalización documental |
+| 12 | `servicio-civil-uy` | 15 | Servicio civil y función pública: ONSC, Estatuto Funcionario Público (Ley 19.121/2013), INAP, ingreso por concurso, carrera administrativa, remuneraciones, régimen disciplinario, incompatibilidades, negociación colectiva (Ley 18.508/COFE), estadísticas empleo público, reforma Estado (AGEV/GpR) |
+| 13 | `transparencia-uy` | 15 | Transparencia pública: Ley 18.381, UAIP, JUTEP (Ley 17.060), declaraciones juradas, ética pública, conflicto de intereses, control externo (TCR/AIN/Parlamento), gobierno abierto (OGP), transparencia presupuestal, financiamiento político, contrataciones, lobby (Ley 19.823) |
+| 14 | `gobierno-digital-uy` | 15 | Gobierno digital: AGESIC, gub.uy, trámites en línea, identidad digital (eDOC/TuID), firma electrónica, interoperabilidad, datos abiertos, ciberseguridad (CERTuy), inclusión digital (Plan Ibirapitá), Plan Ceibal, contrataciones electrónicas (SICE/Comprauruguay), marco jurídico |
+| 15 | `vivienda-uy` | 16 | Vivienda: MVOTMA, ANV, BHU, MEVIR, Ley 13.728/1968, Plan Nacional de Vivienda, cooperativas (FUCVAM/FECOVI), vivienda promovida (Ley 18.795), asentamientos irregulares, crédito hipotecario (UI), ordenamiento territorial (Ley 18.308) |
+| 16 | `seguridad-social-uy` | 16 | Seguridad social: BPS, jubilaciones, pensiones, sistema mixto, AFAPs, reformas 1996 y 2023, seguro desempleo, subsidios, asignaciones familiares (AFAM/AFAM-PE), FONASA, cajas paraestatales |
+| 17 | `empresas-publicas-uy` | 19 | Empresas públicas: UTE, ANCAP, ANTEL, OSE, BROU, BHU, BSE, AFE, ANP, ASSE; historia estado empresario, marco jurídico, referéndums 1992/2004, regulación, peso económico |
+| 18 | `defensa-del-consumidor-uy` | 18 | Defensa del consumidor: Ley 17.250/2000, UDECO/MIEM, derechos del consumidor, garantías, contratos de adhesión, crédito, e-commerce, metrología, competencia (Ley 18.159/COPRODEC), arbitraje, reclamos, publicidad |
+| 19 | `departamentos-uy` | 21 | Los 19 departamentos: fichas con datos geográficos, demográficos (Censo 2023), intendencias |
+| 20 | `desarrollo-social-inclusion-uy` | 23 | Desarrollo social e inclusión: MIDES, INAU, INJU, INMAYORES, INMUJERES, PRONADIS, SNIC, AFAM-PE, TUS, primera infancia, juventudes, discapacidad, género, pobreza, cooperación internacional |
+| 21 | `administracion-publica-estadisticas-uy` | 22 | Administración Pública, Estado uruguayo, servicio civil, gestión pública, gobierno digital, transparencia, INE, estadísticas nacionales, censos, encuestas, indicadores |
+| 22 | `economia-finanzas-impuestos-uy` | 23 | Economía, finanzas públicas y tributación: MEF, DGI, BCU, impuestos (IVA/IRPF/IRAE/IASS/IMESI), sistema financiero, comercio exterior, inversiones, estadísticas |
+| 23 | `sistema-financiero-uy` | 21 | Sistema financiero: BCU, SSF, BROU, BHU, BSE, AFAPs, mercado de valores, seguros, regulación prudencial, inclusión financiera, crisis 2002, prevención lavado activos |
+| 24 | `aduanas-uy` | 21 | Aduanas y comercio exterior: DNA, nomenclatura arancelaria, AEC MERCOSUR, importaciones, exportaciones, regímenes especiales, zonas francas, despachantes, OEA, contrabando |
+| 25 | `comercio-exterior-uy` | 21 | Comercio exterior: exportaciones (celulosa, carne, soja, lácteos), importaciones, destinos, MERCOSUR, ALADI, OMC, acuerdo MERCOSUR-UE, China, IED, zonas francas, logística, defensa comercial |
+| 26 | `educacion-superior-uy` | 16 | Educación superior: UdelaR, UTEC, universidades privadas, CES/CEIP/ANEPE, titulaciones, internacionalización |
+| 27 | `educacion-tecnica-uy` | 13 | Educación técnico-profesional: UTU, CETP, formación dual, cualificaciones, sector productivo |
+| 28 | `educacion-uy` | 22 | Sistema educativo nacional: MEC, ANEP, CODICEN, niveles, historia, Plan Ceibal, becas, educación permanente |
+| 29 | `energia-uy` | 30 | Energía: UTE, ANCAP, URSEA, matriz energética, renovables, hidroeléctrica, eólica, solar, eficiencia |
+| 30 | `geografia-uy` | 23 | Geografía física y humana: relieve, hidrografía, costas, suelos, población, asentamientos, IGM |
+| 31 | `justicia-uy` | 20 | Sistema de justicia: Poder Judicial, SCJ, Fiscalía, Defensoría, procesos, mediación, profesiones jurídicas |
+| 32 | `movilidad-transporte-uy` | 22 | Movilidad y transporte: MTOP, STM, AFE, ANP, DINACIA, UNASEV, rutas, ferrocarril, aviación, puertos, seguridad vial |
+| 33 | `naturaleza-uy` | 31 | Naturaleza y biodiversidad: ecosistemas, flora, fauna, SNAP, parques nacionales, humedales, costas |
+| 34 | `oceanografia-uy` | 23 | Oceanografía: Río de la Plata, Océano Atlántico, corrientes, mareas, biodiversidad marina, SOHMA |
+| 35 | `patrimonio-uy` | 15 | Patrimonio cultural y natural: UNESCO, MEC, ICOMOS, sitios declarados, política patrimonial |
+| 36 | `pueblos-originarios-uy` | 25 | Pueblos originarios: charrúas, guaraníes, chanás, historia, resistencia, identidad contemporánea, legislación |
+| 37 | `gastronomia-uy` | 21 | Gastronomía uruguaya: asado, chivito, mate, pasta, vinos Tannat, dulce de leche, ferias, Mercado del Puerto, patrimonio gastronómico, Conaprole, INAVI |
+| 38 | `telecomunicaciones-uy` | 21 | Telecomunicaciones y medios: ANTEL, fibra óptica, telefonía móvil, televisión, radio, prensa, Ley 19.307, URSEC, libertad de prensa, brecha digital, convergencia |
+| 39 | `medio-ambiente-uy` | 21 | Medio ambiente: Ministerio de Ambiente, DINAMA, SNAP, áreas protegidas, biodiversidad, humedales, costa marina, recursos hídricos, cambio climático, transición energética, energía renovable, residuos, educación ambiental |
+| 40 | `derechos-humanos-uy` | 21 | Derechos humanos: INDDHH, dictadura 1973-1985, Ley Caducidad, justicia transicional, reparación víctimas, DESC, derechos de la mujer, LGBTIQ+, afrodescendientes, pueblos indígenas, migración, sistema carcelario |
+| 41 | `salud-uy` | 32 | Salud pública y SNIS: MSP, ASSE, FONASA, JUNASA, mutualismo, reforma 2007, atención primaria, epidemiología, vacunación, ENT, cáncer, salud mental, salud materna, IVE, trasplantes, COVID-19, derechos usuarios, salud digital |
+| 42 | `tecnologia-uy` | 36 | Tecnología e innovación: industria software, exportación, ecosistema startups, AGESIC, ANII, CUTI, LATU, MIEM, Plan Ceibal, gobierno digital, ciberseguridad, IA, GeneXus, Bantotal, dLocal, PedidosYa, Tryolabs y otras empresas TIC |
 
-**Total: 28 dominios standalone — 608 archivos**
+**Total: 42 dominios standalone — 890 archivos**
 
 ---
 
@@ -57,14 +71,9 @@ Dominios con estructura propia pero sin el formato normalizado BNC-UY. Candidato
 
 | Dominio | Archivos | Descripción |
 |---|---|---|
-| `derechos-humanos/` | 21 | Derechos humanos: historia, dictadura, INDDHH, normativa, pasado reciente |
-| `gastronomia/` | 21 | Gastronomía uruguaya: platos, ingredientes, tradiciones culinarias, chivito, asado, mate |
-| `medio-ambiente/` | 21 | Medio ambiente: MVOTMA, DINAMA, Agenda 2030, biodiversidad, residuos, cambio climático |
-| `salud/` | 32 | Salud: SNIS, MSP, ASSE, mutualistas, FONASA, salud pública, estadísticas |
-| `tecnologia/` | 36 | Tecnología e innovación: industria software, startups, AGESIC, gobierno digital, IA, CUTI |
-| `telecomunicaciones/` | 21 | Telecomunicaciones: URSEC, ANTEL, espectro, internet, conectividad, regulación |
+**Total: 0 dominios no-standalone — 0 archivos**
 
-**Total: 6 dominios no-standalone — 152 archivos**
+Todos los dominios no-standalone han sido convertidos al formato BNC-UY standalone.
 
 ---
 
@@ -91,10 +100,6 @@ Categorías temáticas principales presentes:
 | `defensa-del-consumidor-uy` | UDECO, Ley 17.250/2000, derechos del consumidor, metrología, defensa de la competencia (Ley 18.159) |
 | `empresas-publicas-uy` | ANCAP, UTE, ANTEL, OSE, AFE, ANP, BSE, BROU, BHU: misión, historia, marco legal, regulación |
 | `seguridad-social-uy` | BPS, AFAPs, pensiones, jubilaciones, reforma previsional (Ley 20.130/2023), subsidios, asignaciones familiares |
-| `vivienda-uy` | MVOTMA, ANV, BHU, Plan Nacional de Vivienda, cooperativas, MEVIR, políticas habitacionales |
-| `gobierno-digital-uy` | AGESIC, identidad digital, trámites en línea, interoperabilidad |
-| `transparencia-uy` | acceso a la información pública, Ley 18.381, UAIP, ética pública |
-| `servicio-civil-uy` | ONSC, función pública, carrera administrativa, concursos |
 
 ---
 
@@ -102,6 +107,20 @@ Categorías temáticas principales presentes:
 
 | Versión | Fecha | Cambio principal |
 |---|---|---|
+| 47.0.0 | 2026-07-30 | Conversión de `tecnologia` a standalone `tecnologia-uy` (36 archivos: README + 35 contenido). Todos los dominios no-standalone convertidos. |
+| 46.0.0 | 2026-07-30 | Conversión de `salud` a standalone `salud-uy` (32 archivos: README + 31 contenido) |
+| 45.0.0 | 2026-07-30 | Conversión de `derechos-humanos` a standalone `derechos-humanos-uy` (21 archivos: README + 20 contenido) |
+| 44.0.0 | 2026-07-30 | Conversión de `medio-ambiente` a standalone `medio-ambiente-uy` (21 archivos: README + 20 contenido) |
+| 43.0.0 | 2026-07-30 | Conversión de `telecomunicaciones` a standalone `telecomunicaciones-uy` (21 archivos: README + 20 contenido) |
+| 42.0.0 | 2026-07-30 | Conversión de `gastronomia` a standalone `gastronomia-uy` (21 archivos: README + 20 contenido) |
+| 41.0.0 | 2026-07-30 | Alta de `documentacion-oficial-uy` (16 archivos: README + 15 contenido) — dominio transversal de trazabilidad normativa |
+| 40.0.0 | 2026-07-30 | Alta de `servicio-civil-uy` (15 archivos: README + 14 contenido) |
+| 39.0.0 | 2026-07-30 | Alta de `transparencia-uy` (15 archivos: README + 14 contenido) |
+| 38.0.0 | 2026-07-30 | Alta de `gobierno-digital-uy` (15 archivos: README + 14 contenido) |
+| 37.0.0 | 2026-07-30 | Alta de `vivienda-uy` (16 archivos: README + 15 contenido) |
+| 36.0.0 | 2026-07-29 | Alta de `seguridad-social-uy` (16 archivos: README + 15 contenido) |
+| 35.0.0 | 2026-07-29 | Alta de `empresas-publicas-uy` (19 archivos: README + 18 contenido) |
+| 34.0.0 | 2026-07-29 | Alta de `defensa-del-consumidor-uy` (18 archivos: README + 17 contenido) |
 | 33.0.0 | 2026-07-29 | Alta de `turismo-uy` (22 archivos: README + 21 contenido) |
 | 32.0.0 | 2026-07-29 | Consolidación y expansión de `cultura-uy`: de 17 a 36 archivos (README + 35 contenido) |
 | 31.0.0 | 2026-07-27 | Alta de `desarrollo-social-inclusion-uy` (23 archivos) |

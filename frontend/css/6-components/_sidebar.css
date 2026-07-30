@@ -53,6 +53,27 @@
   background: var(--accent-hover);
 }
 
+/* Botón limpiar historial */
+.c-sidebar__clear {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-xs) var(--space-sm) 0;
+  padding: 7px var(--space-md);
+  border-radius: var(--radius-md);
+  border: none;
+  font-size: var(--text-xs, 12px);
+  color: var(--text-muted);
+  background: transparent;
+  cursor: pointer;
+  transition: color var(--transition), background var(--transition);
+  flex-shrink: 0;
+}
+.c-sidebar__clear:hover {
+  color: var(--color-error, #c0392b);
+  background: rgba(192, 57, 43, 0.08);
+}
+
 /* Lista de conversaciones */
 .c-sidebar__label {
   padding: var(--space-md) var(--space-md) var(--space-xs);

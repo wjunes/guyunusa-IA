@@ -58,8 +58,8 @@ export const PLAN_CONFIG = {
     maxHistoryMessages:    10,        // mensajes recientes enviados como contexto
 
     // Streaming
-    streamTimeoutMs:       120_000,    // timeout máximo para streaming completo (60s)
-    connectionTimeoutMs:   45_000,    // timeout para establecer conexión con proveedor (30s)
+    streamTimeoutMs:       60_000,    // timeout máximo para streaming completo (60s)
+    connectionTimeoutMs:   30_000,    // timeout para establecer conexión con proveedor (30s)
 
     // Temperatura
     temperature:           0.8,
@@ -71,8 +71,20 @@ export const PLAN_CONFIG = {
     maxContextTokens:      32_000,
     maxAutoContinuations:  5,
     maxHistoryMessages:    20,
+    streamTimeoutMs:       120_000,
+    connectionTimeoutMs:   30_000,
+    temperature:           0.8,
+  },
+
+  // ── Plan admin (uso ilimitado, sin cuota) ──
+  admin: {
+    dailyTokenLimit:       Infinity,
+    maxOutputTokens:       8_192,
+    maxContextTokens:      32_000,
+    maxAutoContinuations:  10,
+    maxHistoryMessages:    30,
     streamTimeoutMs:       180_000,
-    connectionTimeoutMs:   45_000,
+    connectionTimeoutMs:   30_000,
     temperature:           0.8,
   },
 

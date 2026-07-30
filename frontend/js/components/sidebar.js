@@ -55,6 +55,13 @@ export function renderSidebar(store) {
         }
       </div>
 
+      ${convs.length > 0 ? `
+        <button class="c-sidebar__clear" id="btn-clear-history">
+          ${iconTrash()}
+          <span>Limpiar historial</span>
+        </button>
+      ` : ''}
+
       <div class="c-sidebar__footer">
         <div class="c-sidebar__footer-actions">
           <button class="c-sidebar__footer-btn" id="btn-settings">
@@ -112,6 +119,18 @@ export function renderSidebar(store) {
   $('#btn-settings')?.addEventListener('click', () => {
     EventBus.emit('sidebar:close');
     router.navigate('/settings');
+  });
+
+  $('#btn-clear-history')?.addEventListener('click', async () => {
+    if (!confirm('¿Eliminar todas las conversaciones? Esta acción no se puede deshacer.')) return;
+    const convIds = (store.get('conversations') || []).map(c => c.id);
+    for (const id of convIds) {
+      try { await deleteConversation(id); } catch { /* silencioso */ }
+    }
+    store.set('conversations', []);
+    store.set('activeConvId', null);
+    EventBus.emit('conv:new');
+    renderSidebar(store);
   });
 
   $('#btn-logout')?.addEventListener('click', () => EventBus.emit('user:logout'));
