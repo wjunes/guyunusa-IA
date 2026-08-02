@@ -40,7 +40,7 @@ export async function register(req, res) {
     logger.info(`Usuario registrado: ${email}`);
     return res.status(HTTP_STATUS.CREATED).json({
       ok: true, token,
-      user: { id, username: username.trim(), email: email.toLowerCase().trim(), plan: 'free' }
+      user: { id, username: username.trim(), email: email.toLowerCase().trim(), plan: 'free', has_password: true }
     });
   } catch (err) {
     // MySQL reporta duplicados con err.code, no con texto libre como SQLite
@@ -81,7 +81,7 @@ export async function login(req, res) {
     logger.info(`Login: ${email}`);
     return res.json({
       ok: true, token,
-      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null }
+      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null, has_password: !!(user.password && user.password.length > 0) }
     });
   } catch (err) {
     logger.error('Error en login:', err.message);
@@ -172,7 +172,7 @@ export async function googleAuth(req, res) {
 
     return res.json({
       ok: true, token,
-      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null },
+      user: { id: user.id, username: user.username, email: user.email, plan: user.plan, avatar_url: user.avatar_url || null, has_password: !!(user.password && user.password.length > 0) },
     });
 
   } catch (err) {

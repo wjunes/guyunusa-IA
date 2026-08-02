@@ -6,6 +6,7 @@ import { toggleTheme,
          getCurrentTheme }   from '../modules/theme.js';
 import { Platform }          from '../modules/native.js';
 import { isElectron }        from '../utils/electron.js';
+import { openTermsModal }    from '../components/termsModal.js';
 
 export function mount() {
   const app = clearApp();
@@ -87,6 +88,11 @@ export function mount() {
             </button>
           </form>
 
+          <p class="auth-terms-link">
+            Al crear tu cuenta aceptás nuestros
+            <a href="#" id="terms-link">Términos y Política de Privacidad</a>
+          </p>
+
           <p class="auth-switch">
             ¿Ya tenés cuenta? <a href="#/login">Ingresá acá</a>
           </p>
@@ -125,6 +131,11 @@ export function mount() {
   $('#auth-theme-btn')?.addEventListener('click', function() {
     toggleTheme();
     this.innerHTML = themeIcon();
+  });
+
+  $('#terms-link')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    openTermsModal();
   });
 
   $('#auth-download-win')?.addEventListener('click', async () => {

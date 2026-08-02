@@ -7,6 +7,7 @@ import { toggleTheme,
 import { Platform }          from '../modules/native.js';
 import { maybeShowLangBanner } from '../components/langBanner.js';
 import { isElectron }          from '../utils/electron.js';
+import { openTermsModal }      from '../components/termsModal.js';
 
 export function mount() {
   const app = clearApp();
@@ -86,6 +87,10 @@ export function mount() {
             ¿No tenés cuenta? <a href="#/register">Registrate</a>
           </p>
 
+          <p class="auth-terms-link">
+            <a href="#" id="terms-link">Términos y Política de Privacidad</a>
+          </p>
+
           ${!isElectron ? `
             <div class="auth-playstore-wrap">
               <button class="auth-playstore-btn" id="auth-playstore-btn"
@@ -123,6 +128,11 @@ export function mount() {
   $('#auth-theme-btn')?.addEventListener('click', function() {
     toggleTheme();
     this.innerHTML = themeIcon();
+  });
+
+  $('#terms-link')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    openTermsModal();
   });
 
   $('#auth-download-win')?.addEventListener('click', async () => {
@@ -271,3 +281,5 @@ function iconPlayStore() {
     <path fill="#FFBC00" d="M384.9 226.2 405 207l59.8 32.6c14.4 8 14.4 21 0 29l-59.8 32.6-60.7-60.7 60.6-60.6z"/>
   </svg>`;
 }
+
+// (toast de contraseña se muestra desde chatPage.js)

@@ -227,6 +227,44 @@ async function main() {
   });
 
   // ── 404 para rutas API no encontradas ──
+  // Diagnóstico RAG: /api/v1/health/rag?q=tu+consulta
+  app.get('/api/v1/health/rag', async (_req, res) => {
+    try {
+      const { searchKnowledge, getKnowledgeStats, buildKnowledgeContext }
+        = await import('./src/services/knowledge.service.js');
+      const stats = getKnowledgeStats();
+      const query = _req.query.q || '';
+
+      if (!query) {
+        return res.json({
+          ok: true,
+          usage: 'Agregá ?q=tu+consulta para probar una búsqueda',
+          stats,
+        });
+      }
+
+      const results = searchKnowledge(query, 5);
+      const context = buildKnowledgeContext(query);
+
+      res.json({
+        ok: true,
+        query,
+        stats,
+        results: results.map(r => ({
+          titulo: r.titulo,
+          categoria: r.categoria,
+          score: r.score,
+          bodyPreview: r.body?.slice(0, 150) + '...',
+        })),
+        contextInjected: context ? {
+          titulos: context.titulos,
+          totalChars: context.context.length,
+        } : null,
+      });
+    } catch (err) {
+      res.status(500).json({ ok: false, error: err.message });
+    }
+  });
   app.use('/api', (_req, res) => {
     res.status(404).json({ ok: false, message: 'Ruta no encontrada' });
   });

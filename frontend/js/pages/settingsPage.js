@@ -110,8 +110,14 @@ function previewSystem() {
 }
 
 /* ─── MOUNT ─── */
-export function mount() {
+export async function mount() {
   if (!store.get('user')) { router.navigate('/login'); return; }
+
+  // Cargar perfil fresco del servidor (incluye has_password)
+  try {
+    const data = await api.get('/user');
+    if (data?.user) store.set('user', { ...store.get('user'), ...data.user });
+  } catch { /* seguir con lo que hay en el store */ }
 
   const app  = clearApp();
   const user = store.get('user') || {};
@@ -175,33 +181,62 @@ export function mount() {
 
         <!-- ② Contraseña -->
         <div class="c-settings__section">
-          <div class="c-settings__section-title">${s.passwordSection || 'Contraseña'}</div>
-          <div class="c-settings__section-body">
-            <div class="field">
-              <label for="s-cur-pw">${s.currentPw || 'Contraseña actual'}</label>
-              <input class="input" type="password" id="s-cur-pw"
-                     placeholder="••••••••" autocomplete="current-password"/>
-              <span class="field-error" id="err-cur-pw"></span>
-            </div>
-            <div class="field">
-              <label for="s-new-pw">${s.newPw || 'Nueva contraseña'}</label>
-              <input class="input" type="password" id="s-new-pw"
-                     placeholder="${s.newPwMin || 'Mínimo 6 caracteres'}"
-                     autocomplete="new-password"/>
-              <span class="field-error" id="err-new-pw"></span>
-            </div>
-            <div class="field">
-              <label for="s-confirm-pw">${s.confirmPw || 'Confirmar contraseña'}</label>
-              <input class="input" type="password" id="s-confirm-pw"
-                     placeholder="${s.repeatPw || 'Repetí la nueva contraseña'}"
-                     autocomplete="new-password"/>
-              <span class="field-error" id="err-confirm-pw"></span>
-            </div>
-            <div id="pw-feedback" class="c-settings__feedback"></div>
-            <button class="btn btn--primary" id="save-pw-btn">
-              ${s.savePw || 'Cambiar contraseña'}
-            </button>
+          <div class="c-settings__section-title">
+            ${user.has_password === false ? 'Crear contraseña' : (s.passwordSection || 'Contraseña')}
           </div>
+          ${user.has_password === false ? `
+            <div class="c-settings__section-body">
+              <p class="c-settings__hint">
+                Tu cuenta fue creada con Google. Creá una contraseña para poder
+                iniciar sesión también desde la app de escritorio o la app móvil.
+              </p>
+              <div class="field">
+                <label for="s-new-pw">Nueva contraseña</label>
+                <input class="input" type="password" id="s-new-pw"
+                       placeholder="${s.newPwMin || 'Mínimo 6 caracteres'}"
+                       autocomplete="new-password"/>
+                <span class="field-error" id="err-new-pw"></span>
+              </div>
+              <div class="field">
+                <label for="s-confirm-pw">${s.confirmPw || 'Confirmar contraseña'}</label>
+                <input class="input" type="password" id="s-confirm-pw"
+                       placeholder="${s.repeatPw || 'Repetí la nueva contraseña'}"
+                       autocomplete="new-password"/>
+                <span class="field-error" id="err-confirm-pw"></span>
+              </div>
+              <div id="pw-feedback" class="c-settings__feedback"></div>
+              <button class="btn btn--primary" id="save-pw-btn">
+                Crear contraseña
+              </button>
+            </div>
+          ` : `
+            <div class="c-settings__section-body">
+              <div class="field">
+                <label for="s-cur-pw">${s.currentPw || 'Contraseña actual'}</label>
+                <input class="input" type="password" id="s-cur-pw"
+                       placeholder="••••••••" autocomplete="current-password"/>
+                <span class="field-error" id="err-cur-pw"></span>
+              </div>
+              <div class="field">
+                <label for="s-new-pw">${s.newPw || 'Nueva contraseña'}</label>
+                <input class="input" type="password" id="s-new-pw"
+                       placeholder="${s.newPwMin || 'Mínimo 6 caracteres'}"
+                       autocomplete="new-password"/>
+                <span class="field-error" id="err-new-pw"></span>
+              </div>
+              <div class="field">
+                <label for="s-confirm-pw">${s.confirmPw || 'Confirmar contraseña'}</label>
+                <input class="input" type="password" id="s-confirm-pw"
+                       placeholder="${s.repeatPw || 'Repetí la nueva contraseña'}"
+                       autocomplete="new-password"/>
+                <span class="field-error" id="err-confirm-pw"></span>
+              </div>
+              <div id="pw-feedback" class="c-settings__feedback"></div>
+              <button class="btn btn--primary" id="save-pw-btn">
+                ${s.savePw || 'Cambiar contraseña'}
+              </button>
+            </div>
+          `}
         </div>
 
         <!-- ③ Apariencia -->
@@ -403,34 +438,58 @@ function bindEvents(s) {
 
   /* Cambiar contraseña */
   $('#save-pw-btn')?.addEventListener('click', async () => {
-    const cur  = $('#s-cur-pw').value;
-    const nw   = $('#s-new-pw').value;
-    const conf = $('#s-confirm-pw').value;
-    clearField('s-cur-pw','err-cur-pw');
+    const curEl = $('#s-cur-pw');
+    const cur   = curEl?.value || '';
+    const nw    = $('#s-new-pw')?.value || '';
+    const conf  = $('#s-confirm-pw')?.value || '';
+    if (curEl) clearField('s-cur-pw','err-cur-pw');
     clearField('s-new-pw','err-new-pw');
     clearField('s-confirm-pw','err-confirm-pw');
     hideFeedback('pw-feedback');
 
+    const hasPassword = user.has_password !== false;
+
     let ok = true;
-    if (!cur)      { showFieldError('s-cur-pw','err-cur-pw','Ingresá tu contraseña actual'); ok=false; }
+    if (hasPassword && !cur) { showFieldError('s-cur-pw','err-cur-pw','Ingresá tu contraseña actual'); ok=false; }
     if (nw.length < 6) { showFieldError('s-new-pw','err-new-pw', s.newPwMin||'Mínimo 6 caracteres'); ok=false; }
     if (nw !== conf)   { showFieldError('s-confirm-pw','err-confirm-pw', s.pwNoMatch||'Las contraseñas no coinciden'); ok=false; }
     if (!ok) return;
 
     const btn = $('#save-pw-btn');
     btn.disabled = true;
-    btn.textContent = s.changingPw || 'Cambiando...';
+    btn.textContent = hasPassword ? (s.changingPw || 'Cambiando...') : 'Creando...';
     try {
-      await api.put('/user', { currentPassword: cur, newPassword: nw });
-      $('#s-cur-pw').value = '';
+      const body = { newPassword: nw };
+      if (hasPassword) body.currentPassword = cur;
+      const result = await api.put('/user', body);
+
+      if (curEl) curEl.value = '';
       $('#s-new-pw').value = '';
       $('#s-confirm-pw').value = '';
-      showFeedback('pw-feedback', s.pwOk || '✓ Contraseña actualizada', 'success');
+
+      user.has_password = true;
+      store.set('user', { ...store.get('user'), has_password: true });
+
+      showFeedback('pw-feedback',
+        hasPassword
+          ? (s.pwOk || '✓ Contraseña actualizada')
+          : '✓ Contraseña creada. Ahora podés iniciar sesión con tu email en cualquier plataforma.',
+        'success'
+      );
+    } catch (err) {
+      showFeedback('pw-feedback', err.message || 'Error al guardar la contraseña', 'error');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = hasPassword ? (s.savePw || 'Cambiar contraseña') : 'Crear contraseña';
+    }
+  });
+        'success'
+      );
     } catch (err) {
       showFeedback('pw-feedback', err.message, 'error');
     } finally {
       btn.disabled = false;
-      btn.textContent = s.savePw || 'Cambiar contraseña';
+      btn.textContent = hasPassword ? (s.savePw || 'Cambiar contraseña') : 'Crear contraseña';
     }
   });
 

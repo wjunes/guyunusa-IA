@@ -68,6 +68,13 @@ export async function mount() {
   mountFooter();
   registerEvents(isMobile);
   setTimeout(() => maybeShowLangBanner(), 1200);
+
+  // Toast: sugerir crear contraseña si el usuario no tiene (Google login)
+  const currentUser = store.get('user');
+  if (currentUser && !currentUser.has_password && !localStorage.getItem('guy_pw_toast_shown')) {
+    localStorage.setItem('guy_pw_toast_shown', '1');
+    setTimeout(() => showPasswordToast(), 2000);
+  }
 }
 
 function renderAll() {
@@ -479,4 +486,37 @@ function showQuotaModal() {
   overlay.addEventListener('click', (e) => {
     if (e.target === overlay) overlay.remove();
   });
+}
+
+/* ── Toast: crear contraseña para multiplataforma ── */
+function showPasswordToast() {
+  const toast = document.createElement('div');
+  toast.style.cssText = `
+    position:fixed; bottom:24px; left:50%; transform:translateX(-50%);
+    max-width:420px; width:92%; padding:14px 18px;
+    background:var(--bg-primary,#fff);
+    border:1px solid var(--border,#e0e0e0);
+    border-left:4px solid var(--accent,#2e7d32);
+    border-radius:12px;
+    box-shadow:0 8px 24px rgba(0,0,0,.15);
+    font-size:13.5px; line-height:1.5;
+    color:var(--text-secondary,#444);
+    z-index:9999;
+    display:flex; align-items:flex-start; gap:10px;
+    animation:slideUp .3s ease;
+  `;
+  toast.innerHTML = `
+    <span style="font-size:20px;line-height:1;flex-shrink:0">💡</span>
+    <span>Accedé a <strong>Configuración</strong> para crear una contraseña y poder iniciar sesión en la app móvil y de escritorio.</span>
+    <button style="border:none;background:none;font-size:18px;line-height:1;color:var(--text-muted,#999);cursor:pointer;flex-shrink:0;padding:0 2px">&times;</button>
+  `;
+
+  const style = document.createElement('style');
+  style.textContent = '@keyframes slideUp{from{opacity:0;transform:translateX(-50%) translateY(20px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}';
+  document.head.appendChild(style);
+  document.body.appendChild(toast);
+
+  const dismiss = () => { toast.remove(); style.remove(); };
+  toast.querySelector('button').addEventListener('click', dismiss);
+  setTimeout(dismiss, 20000);
 }

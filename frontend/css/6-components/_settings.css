@@ -241,6 +241,17 @@
 .c-plan-card__feature-icon { color: var(--color-mate); flex-shrink: 0; }
 
 /* Feedback inline */
+.c-settings__hint {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #666);
+  background: var(--accent-bg, rgba(46,125,50,.06));
+  border-left: 3px solid var(--accent, #2e7d32);
+  padding: 10px 14px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--space-md);
+}
+
 .c-settings__feedback {
   font-size: var(--text-sm);
   padding: 8px var(--space-md);

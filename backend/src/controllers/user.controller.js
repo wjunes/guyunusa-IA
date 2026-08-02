@@ -11,10 +11,17 @@ export async function getProfile(req, res) {
   try {
     const db = getDB();
     const user = await db.prepare(
-      'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
+      'SELECT id, email, username, plan, avatar_url, password, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
     if (!user) return res.status(HTTP_STATUS.NOT_FOUND).json({ ok: false, message: 'Usuario no encontrado' });
-    return res.json({ ok: true, user });
+    return res.json({
+      ok: true,
+      user: {
+        id: user.id, email: user.email, username: user.username,
+        plan: user.plan, avatar_url: user.avatar_url, created_at: user.created_at,
+        has_password: !!(user.password && user.password.length > 0),
+      },
+    });
   } catch (err) {
     logger.error('Error en getProfile:', err.message);
     return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });
@@ -44,16 +51,24 @@ export async function updateProfile(req, res) {
     }
 
     if (newPassword) {
-      if (!currentPassword) {
-        return res.status(HTTP_STATUS.BAD_REQUEST).json({
-          ok: false, message: 'Ingresá tu contraseña actual'
-        });
+      // ── Caso 1: Usuario de Google SIN contraseña → crear contraseña nueva ──
+      const hasPassword = user.password && user.password.length > 0;
+
+      if (hasPassword) {
+        // Cambio de contraseña normal: exige la actual
+        if (!currentPassword) {
+          return res.status(HTTP_STATUS.BAD_REQUEST).json({
+            ok: false, message: 'Ingresá tu contraseña actual'
+          });
+        }
+        if (!bcrypt.compareSync(currentPassword, user.password)) {
+          return res.status(HTTP_STATUS.UNAUTHORIZED).json({
+            ok: false, message: 'La contraseña actual es incorrecta'
+          });
+        }
       }
-      if (!bcrypt.compareSync(currentPassword, user.password)) {
-        return res.status(HTTP_STATUS.UNAUTHORIZED).json({
-          ok: false, message: 'La contraseña actual es incorrecta'
-        });
-      }
+      // Si no tiene password (Google), se permite crear sin pedir la actual
+
       if (newPassword.length < 6) {
         return res.status(HTTP_STATUS.BAD_REQUEST).json({
           ok: false, message: 'La nueva contraseña debe tener al menos 6 caracteres'
@@ -65,9 +80,16 @@ export async function updateProfile(req, res) {
     }
 
     const updated = await db.prepare(
-      'SELECT id, email, username, plan, avatar_url, created_at FROM users WHERE id = ?'
+      'SELECT id, email, username, plan, avatar_url, password, created_at FROM users WHERE id = ?'
     ).get(req.user.id);
-    return res.json({ ok: true, message: 'Perfil actualizado', user: updated });
+    return res.json({
+      ok: true, message: 'Perfil actualizado',
+      user: {
+        id: updated.id, email: updated.email, username: updated.username,
+        plan: updated.plan, avatar_url: updated.avatar_url, created_at: updated.created_at,
+        has_password: !!(updated.password && updated.password.length > 0),
+      },
+    });
   } catch (err) {
     logger.error('Error en updateProfile:', err.message);
     return res.status(HTTP_STATUS.SERVER_ERROR).json({ ok: false, message: err.message });

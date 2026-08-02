@@ -1,7 +1,7 @@
 # BNC-UY — Inventario de dominios y documentos
 
-**Versión:** 47.0.0
-**Fecha:** 2026-07-30
+**Versión:** 62.0.0
+**Fecha:** 2026-08-01
 **Estado:** activo
 
 ---
@@ -24,7 +24,7 @@ Los dominios standalone siguen el formato normalizado BNC-UY: directorio con nom
 | 4 | `arquitectura-uy` | 21 | Arquitectura uruguaya: historia, movimientos, obras, arquitectos, patrimonio construido |
 | 5 | `basquet-uy` | 18 | Básquetbol uruguayo: historia, LUB, selección nacional, clubes, FUBB, competencias internacionales |
 | 6 | `bibliotecas-uy` | 11 | Sistema bibliotecario: BNU, ANEP, UdelaR, municipales, especializadas, normas, Plan Nacional |
-| 7 | `ciencias-uy` | 25 | Ciencia y tecnología: investigación, PEDECIBA, ANII, UdelaR, institutos, áreas disciplinarias |
+| 7 | `ciencias-uy` | 26 | Ciencia y tecnología: investigación, PEDECIBA, ANII, UdelaR, institutos, áreas disciplinarias, Clemente Estable |
 | 8 | `clima-meteorologia-uy` | 27 | Clima y meteorología: clasificación, regiones, estaciones, fenómenos, INUMET, cambio climático |
 | 9 | `cultura-uy` | 36 | Cultura uruguaya: historia cultural, identidad, candombe (UNESCO), carnaval, literatura, música, teatro, danza, artes visuales, cine, museos, gastronomía, turismo cultural, MEC/SODRE/ICAU |
 | 10 | `turismo-uy` | 22 | Turismo uruguayo: historia, MINTUR, economía turística, Montevideo, Punta del Este, Colonia, costa atlántica, Cabo Polonio, naturaleza/SNAP, termas, estancias rurales, turismo cultural, gastronomía/enoturismo, deportes, interior, infraestructura, sostenibilidad, estadísticas |
@@ -39,13 +39,13 @@ Los dominios standalone siguen el formato normalizado BNC-UY: directorio con nom
 | 19 | `departamentos-uy` | 21 | Los 19 departamentos: fichas con datos geográficos, demográficos (Censo 2023), intendencias |
 | 20 | `desarrollo-social-inclusion-uy` | 23 | Desarrollo social e inclusión: MIDES, INAU, INJU, INMAYORES, INMUJERES, PRONADIS, SNIC, AFAM-PE, TUS, primera infancia, juventudes, discapacidad, género, pobreza, cooperación internacional |
 | 21 | `administracion-publica-estadisticas-uy` | 22 | Administración Pública, Estado uruguayo, servicio civil, gestión pública, gobierno digital, transparencia, INE, estadísticas nacionales, censos, encuestas, indicadores |
-| 22 | `economia-finanzas-impuestos-uy` | 23 | Economía, finanzas públicas y tributación: MEF, DGI, BCU, impuestos (IVA/IRPF/IRAE/IASS/IMESI), sistema financiero, comercio exterior, inversiones, estadísticas |
-| 23 | `sistema-financiero-uy` | 21 | Sistema financiero: BCU, SSF, BROU, BHU, BSE, AFAPs, mercado de valores, seguros, regulación prudencial, inclusión financiera, crisis 2002, prevención lavado activos |
+| 22 | `economia-finanzas-impuestos-uy` | 25 | Economía, finanzas públicas y tributación: MEF, DGI, BCU, impuestos (IVA/IRPF/IRAE/IASS/IMESI), sistema financiero, comercio exterior, inversiones, estadísticas, CND, ANDE |
+| 23 | `sistema-financiero-uy` | 23 | Sistema financiero: BCU, SSF, BROU, BHU, BSE, AFAPs, mercado de valores, seguros, regulación prudencial, inclusión financiera, crisis 1982, crisis 2002, prevención lavado activos |
 | 24 | `aduanas-uy` | 21 | Aduanas y comercio exterior: DNA, nomenclatura arancelaria, AEC MERCOSUR, importaciones, exportaciones, regímenes especiales, zonas francas, despachantes, OEA, contrabando |
 | 25 | `comercio-exterior-uy` | 21 | Comercio exterior: exportaciones (celulosa, carne, soja, lácteos), importaciones, destinos, MERCOSUR, ALADI, OMC, acuerdo MERCOSUR-UE, China, IED, zonas francas, logística, defensa comercial |
 | 26 | `educacion-superior-uy` | 16 | Educación superior: UdelaR, UTEC, universidades privadas, CES/CEIP/ANEPE, titulaciones, internacionalización |
 | 27 | `educacion-tecnica-uy` | 13 | Educación técnico-profesional: UTU, CETP, formación dual, cualificaciones, sector productivo |
-| 28 | `educacion-uy` | 22 | Sistema educativo nacional: MEC, ANEP, CODICEN, niveles, historia, Plan Ceibal, becas, educación permanente |
+| 28 | `educacion-uy` | 23 | Sistema educativo nacional: MEC, ANEP, CODICEN, niveles, historia, Plan Ceibal, becas, educación permanente, Varela educador |
 | 29 | `energia-uy` | 30 | Energía: UTE, ANCAP, URSEA, matriz energética, renovables, hidroeléctrica, eólica, solar, eficiencia |
 | 30 | `geografia-uy` | 23 | Geografía física y humana: relieve, hidrografía, costas, suelos, población, asentamientos, IGM |
 | 31 | `justicia-uy` | 20 | Sistema de justicia: Poder Judicial, SCJ, Fiscalía, Defensoría, procesos, mediación, profesiones jurídicas |
@@ -60,8 +60,20 @@ Los dominios standalone siguen el formato normalizado BNC-UY: directorio con nom
 | 40 | `derechos-humanos-uy` | 21 | Derechos humanos: INDDHH, dictadura 1973-1985, Ley Caducidad, justicia transicional, reparación víctimas, DESC, derechos de la mujer, LGBTIQ+, afrodescendientes, pueblos indígenas, migración, sistema carcelario |
 | 41 | `salud-uy` | 32 | Salud pública y SNIS: MSP, ASSE, FONASA, JUNASA, mutualismo, reforma 2007, atención primaria, epidemiología, vacunación, ENT, cáncer, salud mental, salud materna, IVE, trasplantes, COVID-19, derechos usuarios, salud digital |
 | 42 | `tecnologia-uy` | 36 | Tecnología e innovación: industria software, exportación, ecosistema startups, AGESIC, ANII, CUTI, LATU, MIEM, Plan Ceibal, gobierno digital, ciberseguridad, IA, GeneXus, Bantotal, dLocal, PedidosYa, Tryolabs y otras empresas TIC |
+| 43 | `deportes-uy` | 26 | Deporte uruguayo: fútbol (AUF, La Celeste, Copa América, Mundial 1930, Maracanazo, Estadio Centenario, Nacional, Peñarol, figuras históricas y contemporáneas), rugby Los Teros, atletismo, remo, ciclismo, vela, deportes de combate, natación, canotaje, tenis, deporte femenino, sistema deportivo COU/ISEF |
+| 44 | `cooperativismo-uy` | 20 | Cooperativismo uruguayo: historia, Ley 18.407/2008, INACOOP, CUDECOOP, tipos de cooperativas, FUCVAM, CONAPROLE, cooperativas de trabajo/agrarias/vivienda/consumo/crédito/sociales, economía social y solidaria, género, educación, interior del país |
+| 45 | `sindicalismo-uy` | 20 | Sindicalismo uruguayo: CNT/PIT-CNT, historia, Ley 17.940/2006, Ley 18.566/2009, Consejos de Salarios, derecho de huelga, ocupación, sindicatos por sector (público, educación, salud, industria, servicios, agro), dictadura y democracia, género |
+| 46 | `afrodescendientes-uy` | 20 | Comunidad afrodescendiente: historia esclavitud, abolición 1842, Barrio Sur/Palermo, candombe (UNESCO 2009), Llamadas, comparsas, umbanda, identidad, discriminación racial, Ley 19.122/2013, INAFRO, estadísticas, música/literatura, figuras históricas, organizaciones civiles |
+| 47 | `relaciones-internacionales-uy` | 26 | Relaciones internacionales: historia diplomática 1828–2026, MRREE, política exterior, servicio exterior, relaciones bilaterales (Argentina, Brasil, Paraguay), integración regional, MERCOSUR, ALADI, OEA, ONU, UNESCO, cooperación internacional, tratados, misiones de paz, comercio internacional, asuntos globales, Antártida, fronteras, línea de tiempo, glosario |
+| 48 | `seguridad-publica-uy` | 33 | Seguridad pública: Ministerio del Interior, Policía Nacional, jefaturas departamentales, policía científica, cibercrimen, seguridad rural (abigeato), policía caminera, bomberos (DNB), emergencias 911, personas ausentes/Alerta Amber, violencia basada en género (Ley 19.580), trata de personas (Ley 19.643), migración, sistema penitenciario (INR), estadísticas criminalidad y penitenciarias, SGSP, políticas nacionales de seguridad, seguridad privada, asuntos internos, derechos humanos y actuación policial, servicios ciudadanos, tecnología aplicada, línea de tiempo, glosario |
+| 49 | `defensa-nacional-uy` | 37 | Defensa nacional: concepto y marco legal (Ley 18.650/2010, Ley 19.775/2019), MDN, conducción política, CODENA, ESMADE, Ejército, Armada, FAU, espacios de soberanía, fronteras, misiones de paz (6 activas), Antártida (IAU/BCAA), CALEN, formación militar, personal, sanidad, servicios sociales, SRPFFAA, aviación civil (DINACIA), accidentes aéreos (JIAIAC), DIH, derechos humanos, cultura de defensa, ciberdefensa, industria, ciencia, apoyo a emergencias, historia militar, dictadura 1973-1985, transición democrática, relaciones internacionales de defensa, ejercicios conjuntos, línea de tiempo, glosario, fuentes, FAQ |
+| 50 | `sinae-uy` | 43 | Sistema Nacional de Emergencias y Gestión Integral del Riesgo (GIRD): Ley 18.621, creación y evolución histórica, estructura (Junta Nacional, DNE, CDE, Cecoed), gestión integral del riesgo, prevención, mitigación, preparación, respuesta, rehabilitación, recuperación, principales riesgos (hidrometeorológicos, incendios, hídrico, biológicos, sustancias peligrosas), MAIF, MASHI, MASPEL, MIRA, sistemas de alerta y monitoreo, datos abiertos, visualizadores, centros de evacuación, acción humanitaria, poblaciones vulnerables, comunicación del riesgo, cultura de prevención, guías y recomendaciones, capacitación, planificación, Marco de Sendai, cambio climático, tecnología, eventos históricos, línea de tiempo, glosario, fuentes, FAQ |
+| 51 | `historia-uy` | 26 | Historia del Uruguay (1724–2026): período colonial y Banda Oriental, artiguismo, Artigas, independencia 1825–1830, Lavalleja y Treinta y Tres, Fructuoso Rivera, siglo XIX y guerras civiles, reforma vareliana, modelo agroexportador, Batlle y Ordóñez, batllismo y Estado de bienestar, industrialización e ISI, historia económica, crisis del modelo 1955–1973, dictadura cívico-militar (perspectiva histórica), transición democrática, democracia 1985–2005, Frente Amplio en el gobierno, Uruguay contemporáneo 2020–2026, símbolos nacionales, cronología, glosario, fuentes, FAQ |
+| 52 | `sistema-politico-uy` | 23 | Sistema político uruguayo: Constitución (historia y texto vigente), Poder Ejecutivo, Poder Legislativo (Parlamento bicameral), Poder Judicial (SCJ, Fiscalía), sistema electoral y balotaje, partidos políticos (Colorado, Nacional, Frente Amplio, Cabildo Abierto), democracia directa (referéndums, iniciativa popular), Corte Electoral, gobierno departamental e intendencias, municipios (Ley 18.567), sociedad civil y medios, historia constitucional, reformas electorales, políticas públicas, relación civiles-militares (Ley 18.650), cronología, glosario, fuentes |
+| 53 | `personalidades-uy` | 23 | Personalidades notables de Uruguay: héroes fundacionales (Artigas, Lavalleja, Rivera), escritores y poetas (Rodó, Agustini, Ibarbourou, Quiroga, Benedetti, Onetti, Galeano), pedagogos (Jesualdo Sosa, Reina Reyes, Miguel Soler Roca), figuras políticas contemporáneas (Mujica, Vázquez), música y cultura (Zitarrosa, Viglietti, Rada, Gardel, candombe, murga), deportistas (Tabárez, Ghiggia, Forlán), científicos (Clemente Estable), cronología y fuentes |
+| 54 | `agua-uy` | 25 | Recursos hídricos de Uruguay: marco jurídico (Art. 47 Const., Ley 18.610), DINAGUA, Comisiones de Cuenca, OSE (agua potable), DINASA (saneamiento), calidad del agua (eutrofización, Santa Lucía), crisis hídrica 2022-2023, Acuífero Guaraní, aguas termales, CARU (Río Uruguay), Comisión Mixta Merín, conflicto papeleras/UPM, agua y cambio climático, riego agropecuario, agua y energía (represas), pesca continental, navegación fluvial, hidrodinámica del Río Uruguay (modelo TELEMAC 2D), historia hídrica, datos e indicadores, cronología, glosario y fuentes |
 
-**Total: 42 dominios standalone — 890 archivos**
+**Total: 54 dominios standalone — 1218 archivos**
 
 ---
 
@@ -79,27 +91,17 @@ Todos los dominios no-standalone han sido convertidos al formato BNC-UY standalo
 
 ## Documentos planos (raíz)
 
-Archivos .md individuales en la raíz del repositorio, organizados temáticamente por nombre de archivo. Representan el corpus documental heredado, anterior a la estructura standalone.
+A julio de 2026, **no hay archivos de contenido en la raíz**. Todos los documentos heredados han sido migrados a dominios standalone, incorporados a dominios existentes, o eliminados por ser redundantes.
 
-**Total aproximado: 160 archivos de contenido** (excluye templates y README)
+La raíz contiene únicamente archivos de infraestructura del repositorio: README.md, inventario.md, knowledge_README.md, auditoria-raiz.md, y templates (template_evento.md, template_institucion.md, template_lugar.md, template_movimiento.md, template_normativa.md, template_obra.md, template_persona.md, template_tema.md).
 
-Categorías temáticas principales presentes:
-
-- **Historia**: historia.md, historia_economica.md, batllismo.md, dictadura.md, independencia.md, grito_asencio.md, industrializacion.md, modelo_agroexportador.md, recuperacion_crecimiento.md, crisis_1982.md, crisis_2002.md
-- **Política**: sistema_politico.md, parlamento.md, democracia.md, frente_amplio.md, partido_colorado.md, partido_nacional.md, corte_electoral.md, tabare_vazquez.md, jose_mujica.md
-- **Economía**: historia_economica.md, conceptos_macroeconomicos.md, politica_fiscal.md, politica_monetaria.md, comercio_exterior.md, economia_conocimiento.md, inversion_extranjera.md, logistica.md, zonas_francas.md, mercosur.md, servicios_financieros.md, sistema_bancario.md, bcu.md, mef.md, dgi.md, ine.md
-- **Cultura y arte**: literatura.md, poesia.md, narrativa.md, ensayo.md, teatro.md, teatro_solis.md, teatro_galpon.md, teatro_independiente.md, artes_plasticas.md, musica_tango.md, musica_candombe_beat.md, musica_canto_popular.md, musica_milonga.md, musica_folclore.md, musica_jazz.md, musica_pop.md, musica_rock.md, musica_tropical.md, musica_academica.md, sodre.md
-- **Carnaval y candombe**: candombe_historia.md, candombe_comparsas.md, candombe_tambores.md, candombe_llamadas.md, candombe_personajes.md, carnaval_historia.md, carnaval_murgas.md, carnaval_comparsas.md, carnaval_daecpu.md, carnaval_humoristas.md, carnaval_parodistas.md, carnaval_revistas.md, carnaval_teatro_verano.md
+**Total: 0 archivos de contenido en raíz**
 
 ---
 
 ## Dominios propuestos (próximas incorporaciones)
 
-| Dominio propuesto | Justificación |
-|---|---|
-| `defensa-del-consumidor-uy` | UDECO, Ley 17.250/2000, derechos del consumidor, metrología, defensa de la competencia (Ley 18.159) |
-| `empresas-publicas-uy` | ANCAP, UTE, ANTEL, OSE, AFE, ANP, BSE, BROU, BHU: misión, historia, marco legal, regulación |
-| `seguridad-social-uy` | BPS, AFAPs, pensiones, jubilaciones, reforma previsional (Ley 20.130/2023), subsidios, asignaciones familiares |
+A julio de 2026, no hay dominios pendientes de incorporación. Todos los dominios propuestos han sido creados como standalone.
 
 ---
 
@@ -107,6 +109,21 @@ Categorías temáticas principales presentes:
 
 | Versión | Fecha | Cambio principal |
 |---|---|---|
+| 62.0.0 | 2026-08-01 | Enriquecimiento de `oceanografia-uy` con contenido del IAR Viridien 2025 (prospección sísmica 3D ZEE). Actualizados: `07-geologia-marina.md` (3 cuencas offshore con nombres, 7 sistemas de cañones, 17 montículos carbonáticos, 41 pockmarks, bloques OFF-1–OFF-7, Res. MIEM 198/23); `04-zona-economica-exclusiva.md` (exploración sísmica ANCAP/Viridien, 5 cables submarinos activos: SAM-1/SAC/Tannat/Malbec/Firmina); `16-conservacion-marina.md` (8 sitios conservación ZEE: RM 1151/2022 — Banco Inglés, Lobos, Restinga Pez Limón, Pozo de Fango, moluscos, ACPM merluza, talud, cañones); `08-recursos-marinos.md` (categorías flota A/B/C/D, ZCPAU, mínimo merluza 10.576 t/2021, flota: 6/55 barcos operativos a enero 2025). Sin cambio en cantidad de archivos (22 + README = 23). Total: 54 dominios, 1218 archivos. |
+| 61.0.0 | 2026-08-01 | Nuevo archivo `agua-uy/24-hidrodinamica-rio-uruguay.md`: modelo hidrodinámico bidimensional TELEMAC 2D del tramo Salto Grande – Nueva Palmira (Junes, Fossati, Solari; IMFIA/UdelaR; AIDIS 2019; financiado por CARU). Inversiones de flujo hasta La Calera en caudales bajos y medios; dominio del Río de la Plata en el tramo Fray Bentos – Nueva Palmira; velocidades máximas ~2,5 m/s en caudal alto. agua-uy: 25 archivos. Total: 54 dominios, 1218 archivos. |
+| 60.0.0 | 2026-07-31 | Alta de `agua-uy` (24 archivos: README + 23 contenido). Dominio de recursos hídricos: marco jurídico (Art. 47, Ley 18.610), DINAGUA, Comisiones de Cuenca, OSE, DINASA, calidad del agua, crisis 2022-2023, Acuífero Guaraní, aguas termales, CARU, Comisión Mixta Merín, conflicto papeleras, agua y cambio climático, riego agropecuario, agua y energía hidroeléctrica, pesca continental, navegación fluvial, historia hídrica, datos e indicadores, cronología, glosario y fuentes. Total: 54 dominios, 1217 archivos. |
+| 59.0.0 | 2026-07-31 | Alta de `personalidades-uy` (23 archivos: README + 22 contenido). Perfiles de héroes fundacionales, escritores (Rodó, Agustini, Ibarbourou, Quiroga, Benedetti, Onetti, Galeano), pedagogos (Jesualdo Sosa, Reina Reyes, Soler Roca), figuras políticas (Mujica, Vázquez), músicos (Zitarrosa, Viglietti, Rada), deportistas (Tabárez, Ghiggia, Forlán), científicos (Estable). Incorporaciones Grupo A: crisis_1982→sistema-financiero-uy (archivo 21), crisis_2002→sistema-financiero-uy (22), cnd→economia-finanzas-impuestos-uy (23), ande→economia-finanzas-impuestos-uy (24), varela_educador→educacion-uy (22), clemente_estable→ciencias-uy (26). Raíz de contenido: 0 archivos — migración completa del corpus heredado. |
+| 58.0.0 | 2026-07-31 | Alta de `sistema-politico-uy` (23 archivos: README + 22 contenido). Dominio del sistema político: Constitución, tres poderes, partidos políticos (Colorado, Nacional, FA, Cabildo Abierto), sistema electoral, balotaje, democracia directa, Corte Electoral, gobierno departamental, municipios, sociedad civil, historia constitucional, reformas electorales, relación civiles-militares. Archivos raíz eliminados: sistema_politico, parlamento, frente_amplio, partido_colorado, partido_nacional, corte_electoral. |
+| 57.0.0 | 2026-07-31 | Alta de `historia-uy` (26 archivos: README + 25 contenido). Dominio de historia nacional: período colonial, artiguismo, Artigas, independencia, Lavalleja, Rivera, siglo XIX, reforma vareliana, modelo agroexportador, Batlle y Ordóñez, batllismo, ISI, historia económica, crisis 1955–1973, dictadura (perspectiva histórica), transición democrática, democracia 1985–2005, FA en gobierno, Uruguay contemporáneo, símbolos nacionales, cronología, glosario, fuentes, FAQ. Archivos raíz migrados al dominio: historia.md, batllismo.md, independencia.md, grito_asencio.md, industrializacion.md, modelo_agroexportador.md, historia_economica.md, democracia.md, simbolos_nacionales.md, artigas.md, lavalleja.md, rivera.md, batlle_ordonez.md, dictadura.md. |
+| 56.0.0 | 2026-07-31 | Corrección de inventario: `defensa-del-consumidor-uy`, `empresas-publicas-uy` y `seguridad-social-uy` ya incorporados como standalone (filas 16–18). Eliminados de "Dominios propuestos". Sección propuestos actualizada: sin pendientes. |
+| 55.0.0 | 2026-07-31 | Alta de `sinae-uy` (43 archivos: README + 42 contenido). Dominio del Sistema Nacional de Emergencias y GIRD: Ley 18.621, estructura institucional (Junta Nacional, DNE, CDE, Cecoed), gestión integral del riesgo, riesgos hidrometeorológicos, incendios, hídrico, MAIF/MASHI/MASPEL, MIRA, alertas, datos abiertos, acción humanitaria, cultura preventiva, Marco de Sendai, cambio climático, tecnología, eventos históricos, glosario y FAQ. |
+| 54.0.0 | 2026-07-31 | Alta de `defensa-nacional-uy` (37 archivos: README + 36 contenido). Dominio de defensa nacional: MDN, CODENA, ESMADE, tres fuerzas, misiones de paz, Antártida, CALEN, DIH, historia, dictadura, transición democrática, relaciones internacionales de defensa, ejercicios conjuntos, industria, ciberdefensa y glosario. |
+| 53.0.0 | 2026-07-31 | Alta de `seguridad-publica-uy` (33 archivos: README + 32 contenido). Dominio de seguridad pública: Ministerio del Interior, Policía Nacional, unidades especializadas, bomberos, emergencias, sistema penitenciario, estadísticas, políticas de seguridad y glosario. |
+| 52.0.0 | 2026-07-31 | Alta de `relaciones-internacionales-uy` (26 archivos: README + 25 contenido). Dominio de relaciones internacionales, política exterior, MERCOSUR, ALADI, ONU, OEA, UNESCO, misiones de paz, Antártida y fronteras. Inventario supera los 1000 archivos. |
+| 51.0.0 | 2026-07-30 | Alta de `afrodescendientes-uy` (20 archivos: README + 19 contenido). Nuevo dominio standalone. |
+| 50.0.0 | 2026-07-30 | Alta de `sindicalismo-uy` (20 archivos: README + 19 contenido). Nuevo dominio standalone. |
+| 49.0.0 | 2026-07-30 | Alta de `cooperativismo-uy` (20 archivos: README + 19 contenido). Nuevo dominio standalone. |
+| 48.0.0 | 2026-07-30 | Alta de `deportes-uy` (26 archivos: README + 25 contenido). Nuevo dominio standalone de deporte uruguayo. |
 | 47.0.0 | 2026-07-30 | Conversión de `tecnologia` a standalone `tecnologia-uy` (36 archivos: README + 35 contenido). Todos los dominios no-standalone convertidos. |
 | 46.0.0 | 2026-07-30 | Conversión de `salud` a standalone `salud-uy` (32 archivos: README + 31 contenido) |
 | 45.0.0 | 2026-07-30 | Conversión de `derechos-humanos` a standalone `derechos-humanos-uy` (21 archivos: README + 20 contenido) |

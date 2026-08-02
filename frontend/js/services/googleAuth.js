@@ -80,20 +80,41 @@ export async function signInWithGoogle(onSuccess, onError, onLoading) {
         callback:  (response) => handleCredential(response, onSuccess, onError, onLoading),
         ux_mode:   'popup',
         context:   'signin',
+        use_fedcm_for_prompt: true,
       });
       _initialized = true;
     } else {
-      // Re-registrar el callback con los nuevos handlers
       window.google.accounts.id.initialize({
         client_id: clientId,
         callback:  (response) => handleCredential(response, onSuccess, onError, onLoading),
         ux_mode:   'popup',
+        use_fedcm_for_prompt: true,
       });
     }
 
     window.google.accounts.id.prompt((notification) => {
       if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+        // Prompt bloqueado (Edge/FedCM) → renderizar botón de Google como fallback
         onLoading(false);
+        const btnGoogle = document.getElementById('btn-google');
+        if (btnGoogle) {
+          // Limpiar el botón custom y dejar que Google renderice el suyo
+          const container = document.createElement('div');
+          container.id = 'google-btn-fallback';
+          container.style.cssText = 'display:flex;justify-content:center;margin-top:8px;';
+          btnGoogle.parentNode.insertBefore(container, btnGoogle.nextSibling);
+          btnGoogle.style.display = 'none';
+
+          window.google.accounts.id.renderButton(container, {
+            type: 'standard',
+            theme: 'outline',
+            size: 'large',
+            text: 'continue_with',
+            shape: 'rectangular',
+            width: Math.min(btnGoogle.offsetWidth || 320, 400),
+            locale: 'es',
+          });
+        }
       }
     });
 
