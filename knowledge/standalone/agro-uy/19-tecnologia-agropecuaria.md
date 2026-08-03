@@ -4,8 +4,6 @@
 
 Uruguay ha adoptado las tecnologías agropecuarias de vanguardia con una velocidad notable para un país de su tamaño. La agricultura de precisión, los sistemas de información geográfica, el monitoreo satelital, los drones, la conectividad rural, el Internet de las Cosas (IoT), la inteligencia artificial y el blockchain están transformando la producción agropecuaria uruguaya, haciéndola más eficiente, sustentable y competitiva.
 
----
-
 ## Agricultura de precisión
 
 La **agricultura de precisión (AP)** aplica tecnología para gestionar la variabilidad espacial y temporal dentro de un campo:
@@ -33,8 +31,6 @@ La **agricultura de precisión (AP)** aplica tecnología para gestionar la varia
 - **Sensores en campo:** estaciones meteorológicas automatizadas; sensores de humedad de suelo; sensores de temperatura y precipitación en tiempo real.
 - El **INASE** y el **INIA** utilizan imágenes satelitales para el monitoreo de cultivos a escala nacional.
 
----
-
 ## Drones en el agro
 
 Los **drones (vehículos aéreos no tripulados, VANT)** tienen múltiples aplicaciones agropecuarias en Uruguay:
@@ -49,8 +45,6 @@ Los **drones (vehículos aéreos no tripulados, VANT)** tienen múltiples aplica
 
 El **MGAP** y la **Dirección Nacional de Aviación Civil (DINACIA)** regulan el uso de drones en actividades agropecuarias.
 
----
-
 ## Internet de las Cosas (IoT) en el agro
 
 La **conectividad rural** y el IoT permiten el monitoreo en tiempo real:
@@ -61,8 +55,6 @@ La **conectividad rural** y el IoT permiten el monitoreo en tiempo real:
 - **Cámaras de vigilancia** en establecimientos para monitoreo de animales e instalaciones.
 - **Collares GPS para bovinos y ovinos:** seguimiento individual de animales en tiempo real.
 - La expansión de la cobertura de **red celular 4G** en el interior del país (UTE y operadoras privadas) es fundamental para la conectividad rural.
-
----
 
 ## Big Data e Inteligencia Artificial (IA) en el agro
 
@@ -78,8 +70,6 @@ La **conectividad rural** y el IoT permiten el monitoreo en tiempo real:
 - **Startups agtech uruguayas:** empresas emergentes que desarrollan soluciones de IA para el agro uruguayo y regional.
 - Plataformas de **recomendación agronómica automatizada** basadas en modelos que combinan datos de suelo, clima y genética.
 
----
-
 ## Blockchain para trazabilidad
 
 El **blockchain** (cadena de bloques) tiene aplicaciones en la trazabilidad agropecuaria:
@@ -89,15 +79,11 @@ El **blockchain** (cadena de bloques) tiene aplicaciones en la trazabilidad agro
 - Experiencias piloto en Uruguay con empresas que exportan carne y otros productos a mercados premium.
 - Potencial para reforzar las garantías del **SNIG** con tecnología blockchain.
 
----
-
 ## Robótica y automatización
 
 - **Robots de ordeñe:** instalados en algunos establecimientos lecheros de alta escala; permiten ordeñe automático voluntario (las vacas se ordeñan cuando lo desean).
 - **Maquinaria autónoma:** pruebas piloto de tractores y cosechadoras de operación autónoma; todavía incipiente en Uruguay.
 - **Automatización en plantas de procesamiento:** robots para corte, desposte y empaque de carne; sistemas automatizados de clasificación en arroceras.
-
----
 
 ## Sistemas de Información Geográfica (SIG)
 
@@ -105,8 +91,6 @@ El **blockchain** (cadena de bloques) tiene aplicaciones en la trazabilidad agro
 - El **INIA** y la **Facultad de Agronomía** usan SIG para modelación de suelos, clima y sistemas productivos.
 - Plataformas de acceso público: **IDE (Infraestructura de Datos Espaciales)** del Uruguay.
 - **Zonificación de uso del suelo** y aptitud de suelos para diferentes cultivos mediante análisis geoespacial.
-
----
 
 ## Startups agtech en Uruguay
 
@@ -117,8 +101,6 @@ Uruguay tiene un ecosistema creciente de startups orientadas al sector agropecua
 - Herramientas de bienestar animal con sensores.
 - Software de gestión para cooperativas y empresas agropecuarias.
 - El **LATU**, la **ANII** y la **Facultad de Agronomía** apoyan el desarrollo del ecosistema agtech.
-
----
 
 ## Palabras clave
 

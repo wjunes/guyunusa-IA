@@ -6,8 +6,6 @@ Las **plantas solares fotovoltaicas (FV)** son instalaciones que convierten la r
 
 La energía solar aporta aproximadamente el **5–10%** de la generación eléctrica anual de Uruguay [VERIFICAR] y constituye el tercer pilar renovable del sistema eléctrico, junto con la energía hídrica y eólica.
 
----
-
 ## Recurso solar en Uruguay
 
 | Parámetro | Valor |
@@ -20,8 +18,6 @@ La energía solar aporta aproximadamente el **5–10%** de la generación eléct
 
 Si bien el recurso solar de Uruguay es inferior al del norte de Chile, el Altiplano o el norte de Brasil, es comparable al de España y superior al de Alemania, haciendo viable la generación fotovoltaica competitiva.
 
----
-
 ## Historia del desarrollo solar en Uruguay
 
 | Año | Hito |
@@ -32,8 +28,6 @@ Si bien el recurso solar de Uruguay es inferior al del norte de Chile, el Altipl
 | 2013 | Decreto 354/009 reglamentando el **net metering** (generación distribuida conectada a red) [VERIFICAR decreto y año exactos] |
 | 2017–2020 | Expansión continua de plantas solares medianas y grandes; caída de costos de paneles >50% |
 | 2021–2024 | Consolidación: solar representa 5–10% de la generación; expansión de generación distribuida residencial y empresarial |
-
----
 
 ## Plantas solares de gran escala
 
@@ -47,8 +41,6 @@ Uruguay cuenta con numerosas plantas solares de potencia mediana y grande (entre
 | Múltiples plantas medianas | Varios departamentos | 5–70 MW c/u | Varios operadores privados | Operativas |
 
 > Nota: Los datos detallados y actualizados de cada planta solar se publican en el **Balance Energético Nacional (BEN)** de la DNE y en los informes estadísticos de ADME y UTE.
-
----
 
 ## Tecnología fotovoltaica
 
@@ -64,8 +56,6 @@ Uruguay cuenta con numerosas plantas solares de potencia mediana y grande (entre
 ### Inversores y sistemas de seguimiento
 
 Los paneles se conectan a **inversores** que convierten la corriente continua (DC) de los paneles a corriente alterna (AC) compatible con la red. Algunas plantas utilizan sistemas de **seguimiento solar** (trackers), que orientan los paneles hacia el sol durante el día, aumentando la generación en ~15–25%.
-
----
 
 ## Generación distribuida y net metering
 
@@ -87,8 +77,6 @@ Paralela a la fotovoltaica, Uruguay promovió el uso de **colectores solares té
 - Créditos del BPS (Banco de Previsión Social) para trabajadores [VERIFICAR]
 - Incorporación en reglamentos de construcción de viviendas de interés social [VERIFICAR]
 
----
-
 ## Evolución de costos de la energía solar
 
 La caída en el costo de los paneles fotovoltaicos ha sido uno de los fenómenos tecnológicos más notables de las últimas décadas:
@@ -102,8 +90,6 @@ La caída en el costo de los paneles fotovoltaicos ha sido uno de los fenómenos
 
 Esta caída ha hecho que la energía solar fotovoltaica sea hoy una de las fuentes de energía más baratas en Uruguay y en el mundo.
 
----
-
 ## Ventajas de la energía solar en Uruguay
 
 | Ventaja | Descripción |
@@ -114,8 +100,6 @@ Esta caída ha hecho que la energía solar fotovoltaica sea hoy una de las fuent
 | **Modularidad** | Se puede instalar en pequeña escala (1 kW) o gran escala (100 MW+) |
 | **Rapidez de instalación** | Una planta de 10 MW puede construirse en meses |
 
----
-
 ## Desafíos
 
 | Desafío | Descripción |
@@ -124,8 +108,6 @@ Esta caída ha hecho que la energía solar fotovoltaica sea hoy una de las fuent
 | **Estacionalidad** | Mucho menos generación en invierno; Uruguay debe compensar con hidro, eólica y/o térmica |
 | **Reciclaje de paneles** | Los paneles solares tienen vida útil de ~25–30 años; el reciclaje de paneles al final de su vida es un desafío ambiental en desarrollo |
 | **Integración a la red** | Alta penetración solar requiere inversión en flexibilidad de red (baterías, gestión de demanda, interconexiones) |
-
----
 
 ## Marco institucional y regulatorio
 
@@ -136,8 +118,6 @@ Esta caída ha hecho que la energía solar fotovoltaica sea hoy una de las fuent
 | **ADME** | Despacho de la generación solar en el mercado mayorista |
 | **URSEA** | Habilitación de instalaciones; estándares de seguridad eléctrica |
 | **LATU** | Certificación de equipos (paneles, inversores); I+D |
-
----
 
 ## Palabras clave
 

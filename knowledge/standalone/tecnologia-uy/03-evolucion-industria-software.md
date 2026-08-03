@@ -1,3 +1,5 @@
+# Evolución de la industria del software en Uruguay
+
 ## Resumen
 
 La industria del software uruguaya evolucionó desde emprendimientos aislados en los años 1980 hasta convertirse en un sector exportador de escala internacional en los 2000 y 2010. El proceso tuvo varias fases: surgimiento de empresas pioneras (Artech/GeneXus, 1988), articulación gremial (CUTI, 1997), impulso del marco regulatorio favorable (exoneraciones fiscales, zonas francas), aceleración exportadora post-crisis 2002, atracción de multinacionales tecnológicas, y consolidación con el primer unicornio (dLocal, valoración 2021). El sector pasó de atender principalmente el mercado interno a ser uno de los principales exportadores de servicios del país, con más de 800 millones de dólares en exportaciones anuales y más de 25.000 empleos directos.

@@ -1,3 +1,5 @@
+# Arkano Software — empresa tecnológica uruguaya
+
 ## Resumen
 
 **Arkano Software** es una empresa uruguaya de desarrollo de software empresarial (enterprise software) con presencia en el mercado latinoamericano y en la exportación de servicios. Se especializa en el desarrollo de soluciones tecnológicas para empresas en áreas de transformación digital, con foco en tecnologías Microsoft (.NET, Azure) y en proyectos de mediana y gran escala. Forma parte del ecosistema de empresas de software B2B de Uruguay que atienden tanto el mercado local como el de exportación.

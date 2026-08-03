@@ -6,15 +6,11 @@ La **Dirección General Impositiva (DGI)** es el organismo del Estado uruguayo r
 
 **Sitio oficial**: [https://www.dgi.gub.uy](https://www.dgi.gub.uy)
 
----
-
 ## Historia institucional
 
 La DGI tiene antecedentes en la estructura tributaria del Estado uruguayo desde el siglo XIX. En su forma moderna, la DGI fue reorganizada mediante distintas normas legales a lo largo del siglo XX, culminando en una profunda transformación a partir de la reforma tributaria de 2007 (Ley 18.083), que amplió significativamente su base de contribuyentes y complejidad de las obligaciones a administrar.
 
 La **Ley 17.706** (2003) estableció disposiciones para la modernización y fortalecimiento institucional de la DGI, incluyendo la creación de mecanismos para el control del fraude fiscal y la reducción de la evasión.
-
----
 
 ## Competencias
 
@@ -28,8 +24,6 @@ Las competencias de la DGI incluyen:
 - Administración del **Registro Único Tributario (RUT)**.
 - **Control de la facturación electrónica** (e-factura).
 - **Intercambio de información tributaria** con organismos internacionales (OCDE, GAFILAT, etc.).
-
----
 
 ## Tributos administrados por la DGI
 
@@ -46,8 +40,6 @@ Las competencias de la DGI incluyen:
 | ITP | Impuesto a las Transmisiones Patrimoniales |
 | IRSF | Impuesto a la Renta del Sector Financiero (en ciertos casos) |
 | Monotributo | Régimen simplificado para pequeños contribuyentes |
-
----
 
 ## Organización interna
 
@@ -69,15 +61,11 @@ DGI
 
 La DGI tiene **oficinas en todo el país** (Montevideo y las capitales departamentales), además de servicios en línea a través de su sitio web oficial.
 
----
-
 ## Registro Único Tributario (RUT)
 
 El **RUT** es el identificador único de personas físicas, jurídicas y otras entidades ante el sistema tributario uruguayo. Todo sujeto que realice actividades gravadas o que tribute en Uruguay debe inscribirse en el RUT.
 
 El número de RUT tiene 12 dígitos en el caso de personas jurídicas y otras entidades, o se corresponde con el número de cédula de identidad en el caso de personas físicas uruguayas.
-
----
 
 ## Factura electrónica (e-factura)
 
@@ -89,13 +77,9 @@ Los beneficios del sistema incluyen:
 - Trazabilidad de las transacciones comerciales
 - Integración con los sistemas contables de las empresas
 
----
-
 ## Consultas vinculantes
 
 Los contribuyentes pueden presentar **consultas tributarias** a la DGI sobre la aplicación de las normas impositivas a situaciones concretas. Las **consultas vinculantes** (cuando la DGI responde formalmente) tienen efecto sobre la situación del consultante, generando certeza jurídica.
-
----
 
 ## Intercambio de información fiscal internacional
 
@@ -103,19 +87,13 @@ Uruguay ha suscrito acuerdos de intercambio de información tributaria con numer
 
 La participación en estos mecanismos implica que la DGI puede recibir y transmitir información financiera de contribuyentes uruguayos en el exterior y de extranjeros con activos en Uruguay.
 
----
-
 ## Monotributo
 
 El **Monotributo** es un régimen simplificado de tributación para pequeños contribuyentes que permite unificar en un único pago las obligaciones de IVA, IRAE e IRPF, con aportes al BPS incluidos. Está orientado a microemprendedores, feriantes, trabajadores independientes de baja facturación y otras categorías específicas.
 
----
-
 ## IRPNF — Impuesto a la Renta de los No Residentes
 
 El **IRPNF** grava las rentas de fuente uruguaya obtenidas por personas físicas no residentes. Fue creado por la reforma tributaria de 2007, siguiendo el principio territorial del sistema tributario uruguayo (se gravan las rentas de fuente uruguaya independientemente de la residencia del perceptor en ciertos casos).
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 El **comercio exterior** de Uruguay comprende las exportaciones de bienes y servicios producidos en el país hacia el mercado mundial y las importaciones de bienes y servicios del exterior. Uruguay es una economía pequeña y abierta, altamente dependiente del comercio internacional para su crecimiento. La estructura exportadora está dominada por productos agropecuarios y agroindustriales, aunque el sector de servicios (especialmente tecnológicos y financieros) ha ganado peso en las últimas décadas.
 
----
-
 ## Marco institucional
 
 Los organismos clave en la gestión del comercio exterior son:
@@ -17,8 +15,6 @@ Los organismos clave en la gestión del comercio exterior son:
 | MIEM (Ministerio de Industria, Energía y Minería) | Política industrial y de exportaciones |
 | Uruguay XXI | Agencia de promoción de exportaciones e inversiones |
 | ALADI | Marco normativo multilateral para el comercio regional |
-
----
 
 ## Estructura de las exportaciones
 
@@ -47,8 +43,6 @@ Hasta mediados del siglo XX, las exportaciones uruguayas estaban casi exclusivam
 - Consolidación de la celulosa como principal exportación en valor (primera planta Botnia/UPM en 2007, segunda planta UPM2 en 2022).
 - Crecimiento de las exportaciones de servicios (software, zona franca financiera).
 
----
-
 ## Principales destinos de exportación
 
 Los destinos más relevantes de las exportaciones uruguayas son:
@@ -61,8 +55,6 @@ Los destinos más relevantes de las exportaciones uruguayas son:
 | Unión Europea | Productos agropecuarios de calidad, servicios |
 | Estados Unidos | Carne bovina, software |
 | Países del Golfo | Arroz, carnes |
-
----
 
 ## Importaciones
 
@@ -78,8 +70,6 @@ Las importaciones uruguayas están dominadas por:
 
 El principal proveedor de importaciones es **China**, seguido de **Brasil** y **Argentina**.
 
----
-
 ## MERCOSUR
 
 El **Mercado Común del Sur (MERCOSUR)** fue creado por el **Tratado de Asunción** firmado el 26 de marzo de **1991** por Argentina, Brasil, Paraguay y Uruguay. Venezuela fue admitida en 2012 y suspendida en 2017.
@@ -94,8 +84,6 @@ El **Mercado Común del Sur (MERCOSUR)** fue creado por el **Tratado de Asunció
 
 El MERCOSUR amplió el mercado natural de Uruguay pero también expuso a la industria local a la competencia de las economías más grandes del bloque. Las asimetrías entre la economía uruguaya y las de Brasil y Argentina han sido fuente de tensiones en las negociaciones del bloque.
 
----
-
 ## Acuerdos comerciales
 
 Uruguay negocia sus acuerdos comerciales principalmente en el marco del MERCOSUR (que actúa como bloque en la negociación con terceros países). Los principales acuerdos vigentes incluyen:
@@ -109,13 +97,9 @@ Uruguay negocia sus acuerdos comerciales principalmente en el marco del MERCOSUR
 
 Uruguay ha manifestado en distintas instancias el interés en explorar acuerdos bilaterales de libre comercio más allá del marco MERCOSUR (ej. con China, EE.UU.). Este debate implica tensiones con las reglas del bloque regional.
 
----
-
 ## Administración aduanera
 
 La **Dirección Nacional de Aduanas (DNA)** administra los tributos al comercio exterior y controla las operaciones de importación y exportación. Los tributos administrados por la DNA incluyen el Arancel Externo Común del MERCOSUR, el IMESI en importaciones y otros cargos aduaneros.
-
----
 
 ## Palabras clave
 

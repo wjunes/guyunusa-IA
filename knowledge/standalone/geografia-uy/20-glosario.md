@@ -2,8 +2,6 @@
 
 Este glosario reúne los términos técnicos y conceptuales más relevantes del dominio geografia-uy, organizados alfabéticamente. Incluye términos geográficos, cartográficos, geológicos, hidrológicos, meteorológicos, demográficos e institucionales.
 
----
-
 ## A
 
 **Acuífero:** Formación geológica permeable capaz de almacenar y transmitir agua subterránea en cantidad significativa. En Uruguay, el más importante es el **Acuífero Guaraní**.
@@ -16,8 +14,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **Área Metropolitana de Montevideo (AMM):** Aglomeración urbana funcional compuesta por Montevideo y sectores periurbanos de Canelones y San José. Concentra ~55% de la población del Uruguay.
 
----
-
 ## B
 
 **Basalto:** Roca volcánica de composición máfica, formada por enfriamiento de lava. Los basaltos de la Formación Arapey / Serra Geral (Cretácico, ~135–132 Ma) cubren el norte de Uruguay (Artigas, Salto, Rivera). Dan origen a suelos profundos y fértiles.
@@ -25,8 +21,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 **Bioma Pastizales del Río de la Plata:** Ecosistema de pastizales templados que domina el Uruguay, el sur de Brasil y el norte de Argentina. Clasificado por la WWF como ecorregión NT0710. Sustenta la ganadería extensiva uruguaya y alberga alta biodiversidad.
 
 **Brunizem:** Denominación local de los suelos de la categoría Molisol (taxonomía USDA), caracterizados por horizonte A oscuro y rico en materia orgánica. Predominan en el sur y litoral de Uruguay; alta fertilidad natural.
-
----
 
 ## C
 
@@ -40,8 +34,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **Cuchilla Grande:** Principal divisoria de aguas del Uruguay; recorre el sureste del país (Cerro Largo, Lavalleja, Maldonado, Rocha). En ella se ubica el Cerro Catedral (~514 m). Separa la cuenca del Río Negro/Plata de la Laguna Merín/Vertiente Atlántica.
 
----
-
 ## D
 
 **Datum (Datum Geodésico):** Sistema de referencia que define la forma y posición del elipsoide de referencia terrestre para la medición de coordenadas geográficas. Uruguay usa **SIRGAS 2000**; el datum antiguo era **YACARÉ** (en desuso).
@@ -54,8 +46,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **DNV:** Dirección Nacional de Vialidad (MTOP); administra la red vial nacional.
 
----
-
 ## E
 
 **Embalse:** Lago artificial creado por una represa para retener agua con fines de generación eléctrica, riego o abastecimiento. Los principales embalses de Uruguay son: Rincón del Bonete, Baygorria, El Palmar (todos en el Río Negro) y Salto Grande (Río Uruguay) y Paso Severino (Río Santa Lucía).
@@ -64,15 +54,11 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **Escudo Cristalino Uruguayo:** También llamado Macizo Cristalino del Río de la Plata; base geológica precámbrica del Uruguay (>2.000 Ma). Compuesto por granitos, gneis, migmatitas y esquistos. Aflora en el sur, centro y sureste del país.
 
----
-
 ## F
 
 **Fm. Arapey (Formación Arapey):** Unidad litológica del Cretácico inferior (~135–132 Ma) en Uruguay; coladas de basalto toleítico relacionadas con el volcanismo de la Trapa del Paraná y la apertura del Atlántico Sur. Cubre el norte de Uruguay (Artigas, Salto, Rivera). Fuente de ágatas y amatistas.
 
 **Fm. Tacuarembó (Formación Tacuarembó):** Unidad litológica del Jurásico-Cretácico inferior en Uruguay; areniscas rojas eólicas y fluviales. Contiene registros de dinosaurios.
-
----
 
 ## G
 
@@ -82,13 +68,9 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **GIS / SIG:** Sistema de Información Geográfica (Geographic Information System, en inglés); herramienta informática para captura, almacenamiento, análisis y visualización de información georreferenciada.
 
----
-
 ## H
 
 **Humedal:** Ecosistema que incluye pantanos, bañados, esteros y otras zonas donde el agua es el factor dominante del ambiente. Los principales humedales de Uruguay son los Bañados del Este (Sitio Ramsar 1984) y los Esteros de Farrapos (Sitio Ramsar 2004). Protegidos por la Convención Ramsar.
-
----
 
 ## I
 
@@ -100,15 +82,11 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **INUMET:** Instituto Uruguayo de Meteorología; ente autónomo a cargo de la meteorología y el clima en Uruguay.
 
----
-
 ## L
 
 **Laguna Merín:** Laguna costera en el sureste de Uruguay, compartida con Brasil. Superficie total ~3.750 km² (aproximadamente la mitad en cada país). Principal cuenca arrocera de Uruguay; Sitio Ramsar desde 1984 (dentro del sistema de Bañados del Este).
 
 **LOTDS:** Ley de Ordenamiento Territorial y Desarrollo Sostenible (Ley 18.308/2008); marco legal del ordenamiento territorial de Uruguay.
-
----
 
 ## M
 
@@ -120,15 +98,11 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **MTOP:** Ministerio de Transporte y Obras Públicas; rector de la vialidad y la infraestructura de transporte.
 
----
-
 ## O
 
 **OSE:** Obras Sanitarias del Estado; empresa pública que abastece de agua potable y saneamiento a la mayor parte de la población uruguaya. Capta agua principalmente del Río Santa Lucía (Planta Aguas Corrientes).
 
 **Ortofotografía:** Fotografía aérea corregida geométricamente para que las distancias sean métricamente correctas y pueda usarse como mapa. El IGM produce ortofotografías del territorio uruguayo.
-
----
 
 ## P
 
@@ -138,8 +112,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **Planosol:** Tipo de suelo con horizonte B endurecido (fragipán); drenaje impedido; predomina en la planicie costera oriental de Uruguay. Aptos para el cultivo de arroz.
 
----
-
 ## R
 
 **Ramsar:** Convención sobre los Humedales (Convención de Ramsar, 1971); tratado internacional para la protección de humedales. Uruguay tiene varios Sitios Ramsar: Bañados del Este (1984), Esteros de Farrapos (2004), Laguna de Rocha (2010) [VERIFICAR], entre otros.
@@ -147,8 +119,6 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 **Red Geodésica Nacional (RGN):** Red de puntos con coordenadas geodésicas conocidas con alta precisión, distribuidos en el territorio uruguayo; mantenida por el IGM.
 
 **Relieve:** Conjunto de formas que presenta la superficie terrestre. En Uruguay, el relieve es suave y ondulado, con altitud máxima ~514 m (Cerro Catedral).
-
----
 
 ## S
 
@@ -162,39 +132,27 @@ Este glosario reúne los términos técnicos y conceptuales más relevantes del 
 
 **Sudestada:** Viento persistente del sureste que afecta la costa del Río de la Plata, provocando lluvias prolongadas e inundaciones costeras en Montevideo.
 
----
-
 ## T
 
 **TEU:** Twenty-foot Equivalent Unit; unidad estándar de medida de contenedores en el transporte marítimo. El Puerto de Montevideo mueve ~900.000–1.000.000 TEU/año.
 
 **Trocha:** Anchura entre rieles de una vía ferroviaria. Uruguay tiene trocha estándar de 1,435 m.
 
----
-
 ## U
 
 **UTM:** Universal Transversa de Mercator; sistema de proyección cartográfica. Uruguay cae en las zonas UTM 21S y 22S.
-
----
 
 ## V
 
 **Vertisol:** Orden de suelos con alta proporción de arcillas expansivas; presentan grietas en período seco. En Uruguay predominan en el litoral oeste.
 
----
-
 ## W
 
 **WGS84:** World Geodetic System 1984; sistema de referencia global del GPS; prácticamente equivalente a SIRGAS 2000 a efectos prácticos.
 
----
-
 ## Z
 
 **ZEE (Zona Económica Exclusiva):** Franja de mar de 200 millas náuticas a partir de las líneas de base, donde el Estado ejerce derechos soberanos sobre los recursos naturales. La ZEE de Uruguay abarca ~142.166 km² del Atlántico Sur.
-
----
 
 ## Palabras clave
 

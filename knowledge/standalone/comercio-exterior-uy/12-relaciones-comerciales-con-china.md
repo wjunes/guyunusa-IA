@@ -6,8 +6,6 @@ China y Uruguay establecieron relaciones diplomáticas el 3 de febrero de 1988. 
 
 La profundización de la relación se inscribe en la política china de expansión global a través de inversiones en infraestructura, adquisición de materias primas y acuerdos de cooperación con países de América Latina.
 
----
-
 ## Evolución del comercio bilateral
 
 ### Etapa de crecimiento (2000–2010)
@@ -21,8 +19,6 @@ En esta etapa, China se consolidó como el primer destino de las exportaciones u
 ### Profundización y cooperación estratégica (2020–2025)
 
 En 2016, Uruguay y China establecieron una **Asociación Estratégica**. Durante el gobierno de Lacalle Pou (2020–2025), Uruguay avanzó en la negociación de un Tratado de Libre Comercio bilateral, iniciando conversaciones formales en 2021. Esta iniciativa generó tensiones internas en el MERCOSUR por la Decisión CMC 32/00.
-
----
 
 ## Exportaciones uruguayas a China
 
@@ -38,8 +34,6 @@ China es el principal destino de los siguientes rubros de exportación uruguaya:
 
 **Lana**: La industria textil china consume lana uruguaya.
 
----
-
 ## Importaciones desde China
 
 China es uno de los principales proveedores de importaciones uruguayas, con:
@@ -49,8 +43,6 @@ China es uno de los principales proveedores de importaciones uruguayas, con:
 - Vehículos (en crecimiento: marcas chinas BYD, Chery, MG, entre otras).
 - Juguetes y artículos del hogar.
 
----
-
 ## Inversiones chinas en Uruguay
 
 Uruguay ha atraído inversión china en distintos sectores:
@@ -59,21 +51,15 @@ Uruguay ha atraído inversión china en distintos sectores:
 - **Vehículos eléctricos**: la llegada de marcas chinas de automóviles (BYD, Chery, MG, DFSK, entre otras) al mercado uruguayo es parte de la tendencia global de internacionalización de la industria automotriz china.
 - **Telecomunicaciones**: ZTE y Huawei han tenido o tienen presencia en Uruguay en proyectos de infraestructura de telecomunicaciones.
 
----
-
 ## La negociación del TLC bilateral
 
 Durante el gobierno de Lacalle Pou, Uruguay expresó formalmente su interés en negociar un TLC bilateral con China fuera del marco del MERCOSUR. En 2021, ambos países anunciaron el inicio de estudios de viabilidad. Esta posición generó debate con Argentina y Brasil, que consideran que Uruguay vulneraría la CMC 32/00 del MERCOSUR.
 
 El MERCOSUR también negocia en paralelo con China a nivel de bloque, aunque sin resultados concretos al cierre del período estudiado.
 
----
-
 ## Protocolo sanitario para carne bovina
 
 La habilitación de establecimientos frigoríficos uruguayos para exportar a China es gestionada por el MGAP y el INAC en negociación con la GACC china. Los protocolos establecen los requisitos sanitarios, de rastreabilidad y empaque que deben cumplir las plantas habilitadas. La lista de establecimientos habilitados se actualiza periódicamente.
-
----
 
 ## Institución de referencia
 
@@ -81,8 +67,6 @@ La habilitación de establecimientos frigoríficos uruguayos para exportar a Chi
 - **Embajada de Uruguay en China** (Beijing).
 - **Cámara de Comercio Uruguay-China**.
 - **Uruguay XXI**: publica informes sobre el mercado chino para exportadores uruguayos.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Migración y derechos humanos en Uruguay
+
 ## Resumen
 
 Uruguay es históricamente un país de **emigración** (sus ciudadanos emigraron masivamente en los siglos XX y XXI, especialmente durante la dictadura y la crisis de 2002), pero en los últimos años se ha convertido también en un país de **inmigración**. El flujo migratorio más significativo reciente ha sido el de **venezolanos** (desde 2015 en adelante), seguido de cubanos, dominicanos y ciudadanos de otros países de la región y de África. Uruguay tiene una de las legislaciones migratorias más progresistas de América Latina: la **Ley de Migración 18.250** (2008), que reconoce el derecho humano a migrar y establece un sistema de regularización accesible. Los desafíos persisten en la inserción laboral, el acceso a servicios y la xenofobia social.

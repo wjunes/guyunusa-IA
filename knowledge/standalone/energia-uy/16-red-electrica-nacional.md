@@ -6,8 +6,6 @@ La **red eléctrica nacional de Uruguay** es el conjunto de infraestructuras fí
 
 **UTE (Administración Nacional de Usinas y Trasmisiones Eléctricas)** es la empresa estatal responsable de la operación de la red de transmisión y distribución, así como de la mayor parte de la generación. La operación del **despacho eléctrico** (coordinación de la generación en tiempo real) está a cargo de **ADME (Administración del Mercado Eléctrico)**.
 
----
-
 ## Estructura del sistema eléctrico nacional
 
 El sistema eléctrico uruguayo se organiza en cuatro segmentos funcionales:
@@ -18,8 +16,6 @@ El sistema eléctrico uruguayo se organiza en cuatro segmentos funcionales:
 | **Transmisión** | Transporte en alta tensión (500 kV, 150 kV) desde plantas a subestaciones | UTE |
 | **Distribución** | Entrega en media y baja tensión a usuarios finales | UTE |
 | **Comercialización** | Facturación y servicio al cliente | UTE |
-
----
 
 ## Red de transmisión
 
@@ -42,8 +38,6 @@ Las subestaciones de transformación reducen la tensión desde los niveles de tr
 - Salto (cercana a la represa de Salto Grande)
 - Paysandú, Rivera, Tacuarembó, Melo, Rocha, entre otras
 
----
-
 ## Red de distribución
 
 ### Cobertura
@@ -65,8 +59,6 @@ A partir de la década de 2010, UTE inició el despliegue masivo de **medidores 
 - Integración con redes eléctricas inteligentes (smart grids)
 
 Al año 2024, Uruguay había instalado cientos de miles de medidores AMI [VERIFICAR cifra exacta].
-
----
 
 ## Interconexiones internacionales
 
@@ -92,8 +84,6 @@ La interconexión con Brasil es de menor capacidad y ha sido usada principalment
 
 Las interconexiones internacionales son **fundamentales para la seguridad del suministro eléctrico** de Uruguay, dado que la generación hídrica puede verse drásticamente reducida en años de sequía. La capacidad de importar desde Argentina o Brasil actúa como respaldo del sistema.
 
----
-
 ## Despacho eléctrico y mercado mayorista
 
 La **ADME (Administración del Mercado Eléctrico)**, creada por la Ley 16.832/1997, coordina el **despacho eléctrico** bajo criterios de:
@@ -101,8 +91,6 @@ La **ADME (Administración del Mercado Eléctrico)**, creada por la Ley 16.832/1
 2. **Restricciones técnicas:** seguridad de la red, voltajes, estabilidad de la frecuencia (50 Hz).
 
 El precio del mercado spot se denomina **PCP (Precio de Contrato de Potencia)** o precio spot de energía [VERIFICAR terminología oficial ADME].
-
----
 
 ## Calidad del servicio
 
@@ -115,8 +103,6 @@ El precio del mercado spot se denomina **PCP (Precio de Contrato de Potencia)** 
 
 Uruguay ha mejorado sostenidamente sus indicadores SAIDI/SAIFI en las últimas décadas, convergiendo hacia niveles comparables a los de países europeos en áreas urbanas.
 
----
-
 ## Redes inteligentes (Smart Grids)
 
 Uruguay avanza en la modernización de su red hacia el concepto de **smart grid**, con:
@@ -126,8 +112,6 @@ Uruguay avanza en la modernización de su red hacia el concepto de **smart grid*
 - Estudios de almacenamiento de energía en baterías (BESS) para estabilización de la red
 - Piloto de vehículos eléctricos conectados a la red (V2G, vehicle-to-grid) [VERIFICAR estado]
 
----
-
 ## Marco legal
 
 | Ley / Decreto | Contenido |
@@ -136,8 +120,6 @@ Uruguay avanza en la modernización de su red hacia el concepto de **smart grid*
 | **Ley 16.832 (1997)** | Reforma del sector eléctrico: separación de segmentos, creación de ADME, acceso de terceros a la red |
 | **Decreto 367/010 (2010)** | Reglamentación del net metering para generación distribuida |
 | **Ley 17.598 (13-12-2002)** | Creación de URSEA como regulador independiente |
-
----
 
 ## Palabras clave
 

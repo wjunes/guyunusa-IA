@@ -1,3 +1,5 @@
+# Laboratorio Tecnológico del Uruguay (LATU)
+
 ## Resumen
 
 El **LATU (Laboratorio Tecnológico del Uruguay)** es una institución de derecho público no estatal fundada en 1965, especializada en servicios tecnológicos al sector productivo: metrología, calibración, ensayos de laboratorio, certificación de calidad, transferencia de tecnología e incubación de empresas. El LATU es el referente nacional en metrología (medición) y certificación de calidad, servicios esenciales para que las exportaciones uruguayas (especialmente agro-alimentarias) accedan a los mercados internacionales con las certificaciones requeridas. Tiene también un rol en transferencia tecnológica y alberga el **Tecnopolo**, un parque tecnológico e incubadora de empresas.

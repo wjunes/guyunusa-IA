@@ -4,8 +4,6 @@
 
 Las **estadísticas sociales** documentan las condiciones de vida de la población uruguaya en dimensiones como el empleo, la pobreza, la educación, la salud, la vivienda y la distribución del ingreso. Son producidas por el **INE** (a partir de la ECH y los censos), el **Ministerio de Salud Pública (MSP)**, el **Ministerio de Educación y Cultura (MEC)**, el **MIDES** y otros organismos del **Sistema Estadístico Nacional (SEN)**.
 
----
-
 ## Empleo e ingresos
 
 ### Organismo responsable
@@ -28,8 +26,6 @@ El INE produce el **IMS** mensualmente:
 ### Cotizantes al BPS
 
 El **BPS** publica mensualmente el número de cotizantes activos, que es un indicador proxy del empleo formal.
-
----
 
 ## Pobreza e indigencia
 
@@ -60,15 +56,11 @@ Uruguay fue el primer país de América Latina en llevar la pobreza por debajo d
 
 La pobreza infantil es consistentemente más alta que el promedio nacional, alcanzando el doble de la tasa de adultos. El MIDES y el BPS han desarrollado políticas específicas (Asignaciones Familiares, Tarjeta Uruguay Social).
 
----
-
 ## Distribución del ingreso
 
 ### Coeficiente de Gini
 
 El Coeficiente de Gini de Uruguay descendió de ~0,46 (2006) a ~0,38–0,40 (2015–2022), reflejando la mejora en la distribución del ingreso producto de la reforma tributaria (IRPF), el aumento del salario mínimo, las asignaciones familiares y el acceso a servicios públicos.
-
----
 
 ## Estadísticas de educación
 
@@ -88,8 +80,6 @@ El Coeficiente de Gini de Uruguay descendió de ~0,46 (2006) a ~0,38–0,40 (201
 **Desafíos identificados**: el abandono en la educación media (secundaria y técnica) es uno de los principales problemas del sistema educativo uruguayo. Más del 20% de los jóvenes no completa el ciclo básico de secundaria.
 
 Ver dominio `educacion-uy` para mayor detalle.
-
----
 
 ## Estadísticas de salud
 
@@ -115,8 +105,6 @@ Las **estadísticas vitales** registran los eventos demográficos básicos:
 
 Ver dominio `salud/` para documentación completa.
 
----
-
 ## Estadísticas de vivienda
 
 ### Organismo responsable
@@ -133,8 +121,6 @@ Ver dominio `salud/` para documentación completa.
 | Tenencia en propiedad | ~55% de los hogares | Estable |
 | Tenencia en alquiler | ~20% de los hogares | En aumento |
 
----
-
 ## Estadísticas de género
 
 El INE y el **MIDES** (a través del **Instituto Nacional de las Mujeres — INMUJERES**) producen estadísticas con perspectiva de género:
@@ -142,8 +128,6 @@ El INE y el **MIDES** (a través del **Instituto Nacional de las Mujeres — INM
 - Violencia doméstica e intrafamiliar (datos del Ministerio del Interior).
 - Participación política femenina (Corte Electoral).
 - Uso del tiempo (módulos especiales de la ECH).
-
----
 
 ## Palabras clave
 

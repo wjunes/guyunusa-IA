@@ -15,8 +15,6 @@
 | **Límites** | Canelones (norte, este y oeste); Río de la Plata (sur) |
 | **Rutas principales** | Ruta 1, Ruta 5, Ruta 7, Ruta 8, Ruta 101, Ruta 102 |
 
----
-
 ## Historia
 
 ### Fundación (1724–1730)
@@ -41,8 +39,6 @@ Montevideo fue el centro del proceso independentista uruguayo. Durante las guerr
 
 El siglo XX vio la transformación de Montevideo en una ciudad moderna: la construcción de la **Rambla** (1918–1936), el auge del movimiento batllista con políticas sociales avanzadas, la inmigración europea (especialmente española, italiana y judía) y el desarrollo industrial. La dictadura militar (1973–1985) afectó gravemente la vida cultural y social montevideana. El retorno a la democracia (1985) inició un nuevo período de crecimiento cultural y urbano.
 
----
-
 ## Geografía
 
 ### Relieve
@@ -62,8 +58,6 @@ Montevideo se asienta sobre una costa baja con una bahía natural (la **Bahía d
 
 Clima **templado oceánico** (Cfa), suavizado por la proximidad al Río de la Plata. Temperatura media anual: ~17 °C. Precipitaciones: ~1.000–1.100 mm/año. Sin estación seca marcada.
 
----
-
 ## Naturaleza
 
 ### Ecosistemas urbanos
@@ -73,8 +67,6 @@ Montevideo tiene parques, plazas y espacios verdes: Parque Rodó, Parque Batlle,
 ### Bahía de Montevideo
 
 La bahía recibe influencia de las aguas del Río de la Plata y alberga diversas aves acuáticas y peces. La **Isla de Flores** (Área Protegida SNAP), frente a la costa, tiene una colonia de lobos marinos y es hábitat de aves marinas.
-
----
 
 ## Economía
 
@@ -96,8 +88,6 @@ Montevideo concentra aproximadamente el **65–70% del PIB nacional** y la mayor
 
 El **Puerto de Montevideo** es el principal puerto marítimo de Uruguay: mueve millones de toneladas de carga anualmente y es hub logístico regional. Operable las 24 horas; terminal de contenedores (Montecon, TCP) [VERIFICAR nombres actualizados].
 
----
-
 ## Educación
 
 Montevideo concentra las principales instituciones educativas del país:
@@ -111,8 +101,6 @@ Montevideo concentra las principales instituciones educativas del país:
 | **PEDECIBA** | Programa de Ciencias Básicas; sede en Montevideo |
 | **IIBCE** | Instituto de Investigaciones Biológicas Clemente Estable |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -124,8 +112,6 @@ Montevideo concentra las principales instituciones educativas del país:
 | **ASSE** | Red de centros de salud pública en toda la ciudad |
 | **Mutualistas (IAMC)** | Médica Uruguaya, CASMU, Médica Unión, SMI, Asociación Española, y otras |
 | **Institut Pasteur de Montevideo** | Investigación biomédica; fundado 2006 |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -141,8 +127,6 @@ Montevideo concentra las principales instituciones educativas del país:
 | **Mercado del Puerto** | Mercado histórico de hierro fundido (1868); gastronomía y turismo |
 | **Cabildo de Montevideo** | Edificio colonial (1804); hoy Museo Histórico Nacional |
 | **Castillo Pittamiglio** | Edificio singular art nouveau/ecléctico del siglo XX |
-
----
 
 ## Cultura
 
@@ -169,8 +153,6 @@ El **candombe** es la expresión musical y cultural más característica de Mont
 
 Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescados del Plata, dulce de leche, yerba mate, heladerías. La Ciudad Vieja y el Mercado del Puerto son los polos gastronómicos históricos.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -181,8 +163,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | **Estadio Gran Parque Central** (Nacional) | Sede de Nacional |
 | **Estadio Campeón del Siglo** (Peñarol) | Nuevo estadio de Peñarol; inaugurado en 2016 |
 | **Básquetbol** | Múltiples clubes; Montevideo es sede de torneos nacionales e internacionales |
-
----
 
 ## Turismo
 
@@ -198,8 +178,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | **Parque Rodó** | Parque urbano con lago, jardines y SODRE |
 | **Playas urbanas** | Pocitos, Ramírez, Buceo, Carrasco |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -212,8 +190,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | **Ferrocarril** | Estación Central; líneas de AFE [VERIFICAR operatividad] |
 | **Telecomunicaciones** | ANTEL; cobertura 4G/5G [VERIFICAR]; fibra óptica |
 
----
-
 ## Instituciones
 
 | Institución | Descripción |
@@ -225,8 +201,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | **Parlamento del Uruguay** | Palacio Legislativo; cámara de senadores y diputados |
 | **Poder Judicial** | Suprema Corte de Justicia; sede central |
 | **Banco Central del Uruguay (BCU)** | Sede en Montevideo |
-
----
 
 ## Personalidades destacadas
 
@@ -243,8 +217,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | **Rafael Radi** (Montevideo, 1959) | Ciencia | Bioquímico; investigación sobre peroxinitrito; miembro NAS |
 | **Luis Suárez** (Salto; radicado en Montevideo) | Deporte | Futbolista; máximo goleador histórico de la selección uruguaya |
 
----
-
 ## Estadísticas
 
 | Indicador | Valor | Fuente |
@@ -255,8 +227,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | % de la población nacional | 37,2% | INE, Censo 2023 |
 | % del PIB nacional | ~65–70% [VERIFICAR] | MEF/OPP |
 
----
-
 ## Curiosidades
 
 - Montevideo tiene la **Rambla más larga del mundo** en una ciudad a orillas de un río o lago: ~22 km continuos [VERIFICAR si este récord sigue vigente].
@@ -264,8 +234,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 - El **candombe** montevideano fue inscrito en la **Lista del Patrimonio Cultural Inmaterial de la Humanidad** de la UNESCO en 2009.
 - Montevideo es el **municipio de América del Sur con mayor índice de alfabetización** y uno de los con mayor acceso a servicios básicos [VERIFICAR].
 - El **Carnaval de Montevideo** es reconocido como el **más largo del mundo** con ~40 días de festividades.
-
----
 
 ## Cronología
 
@@ -287,8 +255,6 @@ Montevideo es el centro gastronómico del Uruguay: chivito, asado, pasta, pescad
 | 2004 | Restauración del Teatro Solís |
 | 2009 | UNESCO declara el candombe Patrimonio Cultural Inmaterial de la Humanidad |
 | 2016 | Inauguración del Estadio Campeón del Siglo (Peñarol) |
-
----
 
 ## Palabras clave
 

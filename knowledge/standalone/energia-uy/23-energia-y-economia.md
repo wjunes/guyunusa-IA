@@ -4,8 +4,6 @@
 
 El sector energético tiene un peso **estratégico** en la economía de Uruguay: representa una fracción significativa del PIB, demanda inversiones de gran escala, influye sobre la competitividad industrial, impacta en la balanza de pagos (importación de combustibles) y genera empleo directo e indirecto. La transición energética renovable de Uruguay (2010–2016) transformó la estructura de costos, la composición de las inversiones y la balanza comercial energética del país.
 
----
-
 ## Peso del sector energético en la economía
 
 | Indicador | Valor aproximado |
@@ -15,8 +13,6 @@ El sector energético tiene un peso **estratégico** en la economía de Uruguay:
 | **Inversión total en energías renovables 2009–2016** | ~3.000–4.000 millones USD (estimado) [VERIFICAR] |
 | **Peso de UTE en el presupuesto nacional** | UTE es uno de los mayores organismos del Estado por activos y facturación; aporta dividendos al Tesoro Nacional [VERIFICAR cifras] |
 | **Empleo directo en el sector energético** | ~5.000–8.000 empleos directos en UTE, ANCAP, ADME, empresas privadas de renovables, distribución de combustibles [VERIFICAR] |
-
----
 
 ## Balanza comercial energética
 
@@ -37,8 +33,6 @@ Uruguay exporta principalmente:
 - **Derivados del petróleo** (desde ANCAP, en pequeña escala) [VERIFICAR]
 
 El **saldo exportador de electricidad** es variable y puede representar un ingreso de divisas en años favorables. En la gestión de ADME y UTE, la exportación de electricidad es una herramienta para gestionar los excedentes del sistema renovable.
-
----
 
 ## Impacto de la transición renovable en la economía
 
@@ -67,8 +61,6 @@ Las tarifas de electricidad en Uruguay son fijadas administrativamente por el **
 
 Las tarifas de electricidad de Uruguay son relativamente **moderadas en el contexto latinoamericano**, aunque la relación precio/ingreso per cápita varía según el segmento de consumidores.
 
----
-
 ## Empleo en el sector energético
 
 ### Empleo directo
@@ -85,8 +77,6 @@ Las tarifas de electricidad de Uruguay son relativamente **moderadas en el conte
 
 Los sectores de construcción, instalación y mantenimiento de infraestructura energética (parques eólicos, plantas solares, redes eléctricas, gasoductos, refinería) generan un empleo indirecto difícil de cuantificar pero sustancial, especialmente en la fase de construcción.
 
----
-
 ## Exportaciones de servicios y conocimiento energético
 
 Uruguay tiene un potencial creciente de **exportación de conocimiento y servicios** en energías renovables, dado su experiencia única en la integración de renovables variables a escala:
@@ -94,8 +84,6 @@ Uruguay tiene un potencial creciente de **exportación de conocimiento y servici
 - Formación académica y profesional (UdelaR, UTU)
 - Software de modelado de sistemas eléctricos (IIE-UdelaR)
 - Participación en organismos internacionales (IRENA, IEA, OLADE) como referente técnico
-
----
 
 ## Hidrógeno verde como oportunidad económica
 
@@ -106,8 +94,6 @@ La estrategia H2U (Hidrógeno Verde Uruguay) apunta a convertir el excedente de 
 
 El BID, la UE y el gobierno alemán han financiado estudios de viabilidad económica del H₂ verde en Uruguay [VERIFICAR reportes específicos].
 
----
-
 ## Desafíos económicos del sector energético
 
 | Desafío | Descripción |
@@ -117,8 +103,6 @@ El BID, la UE y el gobierno alemán han financiado estudios de viabilidad econó
 | **Volatilidad del precio del petróleo** | El costo de los combustibles importados (gasoil, nafta, GNL) es sensible a los precios internacionales |
 | **Financiamiento de la segunda transición** | La incorporación de baterías, smart grids e hidrógeno verde requiere inversiones adicionales cuantiosas |
 | **Descarbonización del transporte** | La electrificación del transporte de carga (camiones) y la aviación son desafíos tecnológicos y económicos de largo plazo |
-
----
 
 ## Palabras clave
 

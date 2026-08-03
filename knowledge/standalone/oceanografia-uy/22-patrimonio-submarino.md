@@ -1,12 +1,8 @@
 # Patrimonio Submarino de Uruguay
 
----
-
 ## Introducción
 
 El **patrimonio submarino de Uruguay** comprende el conjunto de bienes culturales, históricos, arqueológicos y naturales que se encuentran en las aguas del Río de la Plata, el litoral atlántico, la plataforma continental y las zonas oceánicas profundas bajo jurisdicción uruguaya. Este patrimonio conecta las dimensiones histórica, arqueológica, oceanográfica y ecológica del país, y es el punto de articulación entre los dominios **arqueologia-uy**, **historia-uy**, **naturaleza-uy**, **oceanografia-uy** y **geografia-uy** de la Base Nacional de Conocimiento Uruguay (BNC-UY).
-
----
 
 ## Patrimonio cultural subacuático
 
@@ -41,8 +37,6 @@ El **acorazado de bolsillo alemán Admiral Graf Spee** fue hundido por su propia
 - El resto del casco permanece in situ y es objeto de debate sobre su eventual musealización y protección.
 - Representa un desafío ambiental potencial: el combustible residual en los tanques del buque.
 
----
-
 ## Geomorfología submarina de valor natural
 
 ### Cañón del Plata
@@ -65,8 +59,6 @@ Los **montes submarinos** son elevaciones del fondo oceánico de origen volcáni
 
 Estas estructuras de la plataforma continental son zonas de menor profundidad y mayor biodiversidad bentónica. (Ver archivo 03-plataforma-continental.md.)
 
----
-
 ## Ecosistemas submarinos de valor natural y cultural
 
 ### Corales de aguas frías
@@ -86,8 +78,6 @@ En la plataforma externa, se han documentado **praderas de rodolitos** (algas ca
 
 Las **gravas relictas** de la plataforma media y externa son un patrimonio geológico de interés científico: representan las superficies fluviales y costeras del período glacial cuando el nivel del mar era hasta 120 m más bajo que el actual.
 
----
-
 ## Zonas biológicamente importantes
 
 | Zona | Importancia | Protección actual |
@@ -97,8 +87,6 @@ Las **gravas relictas** de la plataforma media y externa son un patrimonio geol�
 | Banco Inglés | Zona de alta concentración pesquera; hábitat bentónico | Sin protección formal específica [VERIFICAR] |
 | Talud continental (200–2000 m) | Corales de aguas frías; esponjas; fauna de profundidad | Sin protección formal [VERIFICAR] |
 | Cañón del Plata | Ecosistema de alta biodiversidad; hábitat de profundidad | Sin protección formal [VERIFICAR] |
-
----
 
 ## Conexión con otros dominios de la BNC-UY
 
@@ -110,8 +98,6 @@ Las **gravas relictas** de la plataforma media y externa son un patrimonio geol�
 | **geografia-uy** | Geomorfología submarina; plataforma continental; ZEE; Cañón del Plata; batimetría; plataforma extendida |
 | **oceanografia-uy** | Misión SUB 200; exploración de aguas profundas; SOHMA; DINARA; biodiversidad marina; conservación marina |
 
----
-
 ## Desafíos y perspectivas de conservación
 
 - **Pesca de arrastre de profundidad:** principal amenaza a los corales de aguas frías y la fauna bentónica del talud.
@@ -121,8 +107,6 @@ Las **gravas relictas** de la plataforma media y externa son un patrimonio geol�
 - **Saqueo e inmersiones no autorizadas** en el naufragio del Graf Spee y otros sitios.
 - **Marco legal insuficiente:** la protección del patrimonio subacuático en Uruguay es fragmentaria; se necesita una normativa específica integral.
 - **Potencial de áreas marinas protegidas profundas:** los hallazgos de la Misión SUB 200 abren la posibilidad de designar áreas protegidas en el talud y el Cañón del Plata.
-
----
 
 ## Palabras clave
 

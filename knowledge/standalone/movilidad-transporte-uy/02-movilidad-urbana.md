@@ -6,8 +6,6 @@ La movilidad urbana en Uruguay se concentra principalmente en Montevideo, donde 
 
 Otras ciudades del interior —Salto, Paysandú, Rivera, Maldonado, Las Piedras, Ciudad de la Costa— cuentan con sistemas de transporte urbano regulados por las respectivas intendencias departamentales.
 
----
-
 ## Sistema de Transporte Metropolitano (STM)
 
 ### Creación y marco legal
@@ -37,8 +35,6 @@ La tarjeta STM es el instrumento de pago electrónico del sistema. Permite:
 
 El sistema de billetaje electrónico sustituyó progresivamente el pago en efectivo, aunque este se mantiene como opción con una tarifa mayor.
 
----
-
 ## Corredores preferenciales
 
 Los **corredores preferenciales para ómnibus** son vías o carriles de circulación reservados exclusivamente al transporte colectivo en determinados tramos de las principales avenidas de Montevideo. Su objetivo es mejorar la velocidad comercial y la puntualidad del servicio.
@@ -51,8 +47,6 @@ Los principales corredores preferenciales de Montevideo incluyen:
 - **Corredor Millan–Lamas**
 
 Los corredores son gestionados por la Intendencia de Montevideo y la Dirección Nacional de Transporte del MTOP.
-
----
 
 ## Líneas de ómnibus urbanas
 
@@ -68,8 +62,6 @@ La red de líneas de ómnibus de Montevideo cubre la totalidad del departamento 
 
 La información de líneas, recorridos y horarios es accesible a través de la aplicación **Montevideo Bus** y el sitio oficial del STM.
 
----
-
 ## Intercambiadores y terminales urbanas
 
 Los intercambiadores son nodos donde se concentran múltiples líneas de ómnibus, facilitando los transbordos entre servicios. Los principales intercambiadores de Montevideo son:
@@ -81,15 +73,11 @@ Los intercambiadores son nodos donde se concentran múltiples líneas de ómnibu
 
 La **Terminal Tres Cruces** (Bulevar Artigas esq. Av. del Libertador) funciona como principal terminal de ómnibus interdepartamentales e internacionales, y también como intercambiador de líneas urbanas.
 
----
-
 ## Transporte escolar
 
 El transporte escolar en Uruguay está regulado por el MTOP y por las intendencias departamentales. Los vehículos destinados al transporte de niños y adolescentes deben cumplir requisitos específicos de habilitación, mantenimiento y equipamiento de seguridad.
 
 El Consejo de Educación Inicial y Primaria (CEIP-ANEP) y el Consejo de Educación Secundaria (CES-ANEP) coordinan con el MTOP la prestación de servicios de transporte para estudiantes en zonas rurales y periurbanas.
-
----
 
 ## Transporte para personas con discapacidad
 
@@ -102,15 +90,11 @@ El sistema de transporte público de Montevideo incorpora progresivamente vehíc
 
 La normativa de accesibilidad al transporte se encuadra en la **Ley 18.651/2010** (Protección Integral de Personas con Discapacidad) y el **Decreto 402/015**.
 
----
-
 ## Movilidad peatonal
 
 La movilidad peatonal es reconocida por la planificación urbana de Montevideo como modo prioritario de desplazamiento de corta distancia. La Intendencia de Montevideo desarrolla políticas de mejora de veredas, cruces peatonales, semáforos con señal sonora para personas con discapacidad visual, y espacios públicos caminables.
 
 La peatonalización de la **Calle Sarandí** (Ciudad Vieja) y de tramos de la **Avenida 18 de Julio** constituyen intervenciones de referencia en el espacio público montevideano.
-
----
 
 ## Bicicletas y ciclovías
 
@@ -132,15 +116,11 @@ La Intendencia de Montevideo opera el sistema de **bicicletas públicas**, denom
 
 El acceso al sistema requiere registro previo. Se ofrecen tarifas diferenciadas por tiempo de uso.
 
----
-
 ## Micromovilidad
 
 La **micromovilidad** comprende vehículos de pequeño porte orientados a desplazamientos urbanos cortos: monopatines eléctricos, bicicletas eléctricas y similares. En Montevideo, operadores privados de monopatines eléctricos han funcionado bajo esquemas de permiso temporal de la Intendencia de Montevideo.
 
 La regulación de la micromovilidad en Uruguay se encuentra en proceso de consolidación normativa, buscando definir condiciones de uso del espacio público, velocidades máximas y responsabilidades de los operadores y usuarios.
-
----
 
 ## Ciudades del interior
 
@@ -157,8 +137,6 @@ Las ciudades del interior con sistemas de transporte urbano propio incluyen:
 | Melo | Cerro Largo | Intendencia de Cerro Largo |
 
 En estas ciudades, el transporte urbano opera con menor densidad de oferta que en Montevideo. La normativa de la Dirección Nacional de Transporte del MTOP aplica en todos los casos en lo que refiere a habilitación de vehículos y conductores.
-
----
 
 ## Palabras clave
 

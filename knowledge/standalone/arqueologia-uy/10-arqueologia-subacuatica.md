@@ -1,14 +1,10 @@
 # Arqueología Subacuática del Uruguay
 
----
-
 ## Definición y alcance
 
 La **arqueología subacuática** o **arqueología náutica** estudia el patrimonio cultural sumergido: naufragios, puertos hundidos, estructuras costeras cubiertas por el agua y otros vestigios de actividad humana en ambientes acuáticos. En el caso del Uruguay, este patrimonio incluye los naufragios del Río de la Plata, el Río Uruguay, las lagunas costeras, el mar territorial y la plataforma continental.
 
 El Uruguay posee un litoral marítimo y fluvial de considerable extensión (~660 km de costas) y ha sido históricamente un área de intensa navegación desde el siglo XVI, lo que implica un patrimonio subacuático potencialmente significativo.
-
----
 
 ## Marco geográfico
 
@@ -19,8 +15,6 @@ El Uruguay posee un litoral marítimo y fluvial de considerable extensión (~660
 | Río Uruguay | Curso fluvial navegable históricamente | Naufragios fluviales; embarcaciones de madera |
 | Lagunas costeras | Fondos lodosos; agua dulce o salobre | Embarcaciones menores; materiales sumergidos |
 | Plataforma continental | Aguas profundas; fondos sedimentarios | Naufragios coloniales y de guerras |
-
----
 
 ## Principales naufragios documentados o referenciados
 
@@ -55,8 +49,6 @@ El **Graf Spee** es el naufragio más conocido de las aguas uruguayas. Sus resto
 | Estado | Hundido; restos dispersos; algunas piezas han sido rescatadas |
 | Rescates | El telémetro del Graf Spee fue rescatado en 2006 y está en exhibición en el Museo Naval |
 
----
-
 ## Marco legal del patrimonio subacuático en Uruguay
 
 La protección del patrimonio subacuático en Uruguay se encuadra en:
@@ -65,8 +57,6 @@ La protección del patrimonio subacuático en Uruguay se encuadra en:
 - **Decreto-Ley 14.859/1978** y sus modificaciones (Código Civil y normas marítimas) [VERIFICAR].
 - **Convención UNESCO sobre la Protección del Patrimonio Cultural Subacuático (2001):** Uruguay debe verificar si la ha ratificado [VERIFICAR estado de ratificación al 2023].
 - **Prefectura Nacional Naval:** tiene competencia sobre la navegación y el tránsito marítimo; sus atribuciones sobre el patrimonio subacuático se superponen con las del CPCN en algunos aspectos.
-
----
 
 ## Instituciones con competencia en arqueología subacuática
 
@@ -78,8 +68,6 @@ La protección del patrimonio subacuático en Uruguay se encuadra en:
 | Ministerio de Defensa Nacional / Armada Nacional | Operaciones navales y eventualmente arqueología naval |
 | FHCE-Udelar | Investigación arqueológica; capacidad para arqueología subacuática [VERIFICAR proyectos] |
 
----
-
 ## Estado del campo en Uruguay
 
 La arqueología subacuática en Uruguay es un campo escasamente desarrollado en comparación con países como Argentina, España, Portugal o Brasil. Las principales limitaciones son:
@@ -90,8 +78,6 @@ La arqueología subacuática en Uruguay es un campo escasamente desarrollado en 
 - Falta de financiamiento específico para investigaciones submarinas.
 - Marco legal que no establece con claridad las competencias y los procedimientos de intervención en patrimonio subacuático.
 
----
-
 ## Riesgos y amenazas
 
 El patrimonio subacuático del Uruguay enfrenta las siguientes amenazas:
@@ -100,8 +86,6 @@ El patrimonio subacuático del Uruguay enfrenta las siguientes amenazas:
 - **Pesca de arrastre** que puede dañar o desplazar restos arqueológicos.
 - **Sedimentación y corrosión:** los metales y la madera se deterioran progresivamente.
 - **Obras de dragado** en los puertos y vías de navegación.
-
----
 
 ## Perspectivas de investigación
 
@@ -112,8 +96,6 @@ Las perspectivas para el desarrollo de la arqueología subacuática en Uruguay i
 - Formación de arqueólogos especializados en técnicas de buceo y registro subacuático.
 - Proyectos de investigación sobre la Batalla del Río de la Plata (1939).
 - Prospecciones geofísicas (sonar de barrido lateral, ecosondas multihaz) en zonas de interés.
-
----
 
 ## Palabras clave
 

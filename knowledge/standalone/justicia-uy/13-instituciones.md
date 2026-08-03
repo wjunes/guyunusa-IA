@@ -4,8 +4,6 @@
 
 Este archivo reúne fichas de los principales organismos vinculados al sistema de justicia en Uruguay, tanto los que integran el Poder Judicial como los que actúan en su órbita o en el campo del derecho.
 
----
-
 ### Suprema Corte de Justicia (SCJ)
 
 | Campo | Dato |
@@ -18,8 +16,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Composición | 5 Ministros (más la Presidencia rotatoria) |
 | Función | Jurisdicción superior; superintendencia del PJ |
 | Sitio web | www.poderjudicial.gub.uy |
-
----
 
 ### Fiscalía General de la Nación (FGN)
 
@@ -35,8 +31,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Vinculación | Ministerio de Educación y Cultura (MEC) |
 | Sitio web | www.gub.uy/fiscalia-general-nacion |
 
----
-
 ### Colegio de Abogados del Uruguay (CAU)
 
 | Campo | Dato |
@@ -48,8 +42,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Sede | Montevideo |
 | Función | Representa a los abogados; vela por la ética profesional; promueve el perfeccionamiento del derecho |
 
----
-
 ### Asociación de Magistrados del Uruguay (AMU)
 
 | Campo | Dato |
@@ -58,8 +50,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Sigla | AMU |
 | Tipo | Institución gremial de magistrados |
 | Función | Defiende la independencia judicial y las condiciones de trabajo de jueces y magistrados; promueve la carrera judicial |
-
----
 
 ### Asociación de Escribanos del Uruguay (AEU)
 
@@ -71,8 +61,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Fundación | 1889 |
 | Sede | Montevideo |
 | Función | Representa a los escribanos; mantiene el registro gremial; promueve la formación continua; vela por la ética notarial |
-
----
 
 ### Facultad de Derecho — Universidad de la República (Udelar)
 
@@ -86,8 +74,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Función | Principal institución formadora de abogados y escribanos en Uruguay |
 | Sitio web | www.fder.edu.uy |
 
----
-
 ### Centro de Estudios Judiciales del Uruguay (CEJU)
 
 | Campo | Dato |
@@ -99,8 +85,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Sede | Montevideo |
 | Función | Formación de magistrados y funcionarios judiciales; organización de concursos de ingreso y ascenso en la magistratura |
 
----
-
 ### Inspección General de Registros Notariales (IGRN)
 
 | Campo | Dato |
@@ -109,8 +93,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Sigla | IGRN |
 | Tipo | Organismo del Poder Judicial |
 | Función | Controla el ejercicio de la función notarial; registra y habilita a los escribanos en actividad; fiscaliza el correcto desempeño de la función notarial |
-
----
 
 ### Instituto Técnico Forense (ITF)
 
@@ -121,8 +103,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Tipo | Organismo del Poder Judicial (dependiente de la SCJ) |
 | Sede | Montevideo (cobertura nacional) |
 | Función | Servicios periciales técnico-científicos para el sistema judicial: medicina legal, química, dactiloscopía, documentología, psicología forense, etc. |
-
----
 
 ### Tribunal de lo Contencioso Administrativo (TCA)
 
@@ -137,8 +117,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Función | Anular los actos administrativos ilegítimos del Estado |
 | Sitio web | www.tca.gub.uy |
 
----
-
 ### Corte Electoral
 
 | Campo | Dato |
@@ -150,8 +128,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Función | Organizar, dirigir y fiscalizar los actos electorales; juzgar reclamaciones electorales |
 | Sitio web | www.corteelectoral.gub.uy |
 
----
-
 ### Tribunal de Cuentas
 
 | Campo | Dato |
@@ -160,8 +136,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Tipo | Órgano constitucional de control (no forma parte del PJ) |
 | Fundamento | Constitución de la República, Arts. 208–213 |
 | Función | Controlar la legalidad de los gastos públicos del Estado; fiscalizar la rendición de cuentas de los organismos públicos |
-
----
 
 ### Instituto Nacional de Derechos Humanos y Defensoría del Pueblo (INDDHH)
 
@@ -173,8 +147,6 @@ Este archivo reúne fichas de los principales organismos vinculados al sistema d
 | Fundación | 2008 (Ley N° 18.446) |
 | Sede | Montevideo |
 | Función | Promoción y protección de los derechos humanos; investigación de denuncias de violaciones de DDHH; recomendaciones al Estado |
-
----
 
 ## Tabla resumen
 

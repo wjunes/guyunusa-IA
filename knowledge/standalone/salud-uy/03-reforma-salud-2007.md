@@ -1,3 +1,5 @@
+# La reforma de salud de 2007 y la creación del SNIS
+
 ## Resumen
 
 La reforma del sistema de salud de 2007, materializada en la **Ley 18.211**, fue la transformación más profunda del sistema sanitario uruguayo en décadas. Creó el **Sistema Nacional Integrado de Salud (SNIS)**, el **Fondo Nacional de Salud (FONASA)** y la **Junta Nacional de Salud (JUNASA)**. La reforma pasó de un sistema fragmentado y dependiente del empleo formal a un modelo de cobertura universal, financiamiento solidario y regulación estatal unificada. Es considerada por la OPS/OMS como una de las reformas de salud más exitosas de América Latina en las últimas décadas.

@@ -4,8 +4,6 @@
 
 El **gas natural** es un hidrocarburo gaseoso compuesto principalmente de metano (CH₄) y otros gases, utilizado como combustible para calefacción, cocción, generación eléctrica y uso industrial. Uruguay no produce gas natural propio en cantidades significativas y depende de la importación, históricamente de Argentina y, desde 2016, también por vía marítima como **gas natural licuado (GNL)**.
 
----
-
 ## Historia del gas natural en Uruguay
 
 ### Gas de alumbrado y gas ciudad (siglo XIX–XX)
@@ -41,8 +39,6 @@ Para reducir la dependencia del gas argentino y diversificar el abastecimiento, 
 
 El GNLM permite recibir **barcos metaneros** con GNL en estado líquido (−162 °C), regasificar el producto y enviarlo a la red de distribución y a usuarios industriales.
 
----
-
 ## Red de distribución de gas natural
 
 ### Montevideo y área metropolitana
@@ -55,8 +51,6 @@ La red de **distribución de gas natural por cañería** está operada principal
 
 La distribución de gas natural por red es limitada fuera del área metropolitana; en el interior del país predomina el uso de **GLP en garrafas** (distribuido por ANCAP y operadores privados).
 
----
-
 ## Usos del gas natural en Uruguay
 
 | Sector | Uso principal |
@@ -67,13 +61,9 @@ La distribución de gas natural por red es limitada fuera del área metropolitan
 | **Generación eléctrica** | Plantas termoeléctricas de UTE en picos de demanda o sequía |
 | **Cogeneración** | Industrias que generan calor y electricidad simultáneamente |
 
----
-
 ## Gas Natural Comprimido (GNC) para transporte
 
 El **gas natural comprimido (GNC)** es utilizado en vehículos de transporte (ómnibus, taxis, vehículos particulares) en Uruguay, principalmente en Montevideo, como alternativa al gasoil y la nafta. Las estaciones de GNC se abastecen desde la red de distribución de gas natural.
-
----
 
 ## Marco regulatorio
 
@@ -83,8 +73,6 @@ El **gas natural comprimido (GNC)** es utilizado en vehículos de transporte (ó
 | **URSEA** | Regulación técnica: calidad, seguridad, habilitaciones |
 | **ANCAP** | Participación en el GNLM y distribución mayorista [VERIFICAR] |
 | **Distribuidoras** | Distribución minorista de gas natural por red |
-
----
 
 ## Desafíos y perspectivas
 
@@ -97,8 +85,6 @@ La dependencia histórica de Argentina y la limitada capacidad de almacenamiento
 El gas natural es el **combustible fósil con menor contenido de carbono** por unidad de energía, lo que lo hace un "combustible de transición" hacia un sistema completamente descarbonizado. Sin embargo, su uso implica emisiones de CO₂ y potencialmente de metano (gas de efecto invernadero de alto potencial de calentamiento global).
 
 En el largo plazo, la política energética uruguaya apunta a sustituir el gas natural por **biogás**, **gas de síntesis** producido con energía renovable o **hidrógeno verde** inyectado en la red de gas.
-
----
 
 ## Palabras clave
 

@@ -15,8 +15,6 @@
 | **Límites** | Río Negro (norte, límite con dep. Río Negro), Flores (noreste), San José (este), Colonia (sur), Río Uruguay (oeste, frontera con Argentina: Entre Ríos) |
 | **Rutas principales** | Ruta 2, Ruta 3, Ruta 23 |
 
----
-
 ## Historia
 
 ### Desembarco de los 33 Orientales (1825)
@@ -30,8 +28,6 @@ La ciudad de **Mercedes** fue fundada en **1788** [VERIFICAR] a orillas del Río
 ### El San Martín del Río Negro: cruce en la independencia
 
 El territorio de Soriano, en la margen del Río Uruguay, fue punto de cruce y tránsito de los ejércitos independentistas y de los 33 Orientales.
-
----
 
 ## Geografía
 
@@ -51,8 +47,6 @@ Relieve llano a suavemente ondulado. Las llanuras del Río Uruguay (oeste) y del
 
 Clima **templado húmedo** (Cfa). Temperatura media anual: ~18 °C. Precipitaciones: ~1.100–1.200 mm/año. Veranos cálidos; influencia del Río Uruguay.
 
----
-
 ## Naturaleza
 
 ### Ecosistemas
@@ -62,8 +56,6 @@ Pastizal natural con monte ribereño en los márgenes del Río Uruguay y del Rí
 ### Costa del Río Uruguay en Soriano
 
 El litoral del Río Uruguay en Soriano (Mercedes, Dolores, Agraciada) ofrece playas fluviales, islas y biodiversidad acuática: dorado, surubí, sábalo (pesca deportiva). Aves acuáticas abundantes.
-
----
 
 ## Economía
 
@@ -79,8 +71,6 @@ Soriano es un departamento de base agropecuaria: ganadería de carne, lechería,
 | **Pesca artesanal** | Río Uruguay y Río Negro |
 | **Turismo** | Turismo histórico (Agraciada); turismo fluvial (Mercedes) |
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -89,8 +79,6 @@ Soriano es un departamento de base agropecuaria: ganadería de carne, lechería,
 | **UdelaR – Extensión** | Cursos universitarios [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -98,8 +86,6 @@ Soriano es un departamento de base agropecuaria: ganadería de carne, lechería,
 | **Hospital Departamental de Mercedes** | Principal hospital público (ASSE) |
 | **Policlínicas ASSE** | Red departamental |
 | **Mutualistas** | Presencia en Mercedes [VERIFICAR] |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -110,8 +96,6 @@ Soriano es un departamento de base agropecuaria: ganadería de carne, lechería,
 | **Catedral de Mercedes** | Iglesia principal de la capital |
 | **Palacio Municipal de Mercedes** | Sede de la Intendencia |
 | **Puerto de Mercedes** | Puerto fluvial histórico sobre el Río Negro |
-
----
 
 ## Cultura
 
@@ -131,8 +115,6 @@ Carnaval con tablados y comparsas en la capital, con influencia del litoral riop
 
 Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos de la cuenca lechera sur.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -140,8 +122,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | **Clubs locales de fútbol** | Liga departamental de Soriano |
 | **Pesca deportiva** | Río Uruguay y Río Negro; torneo de dorado |
 | **Deportes náuticos** | Río Uruguay y Río Negro |
-
----
 
 ## Turismo
 
@@ -152,8 +132,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | **Turismo fluvial** | Paseos en lancha por el Río Uruguay e islas |
 | **Pesca deportiva** | Dorado, surubí; torneos |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -162,8 +140,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | **Ruta 3** | Eje litoral norte |
 | **Puerto de Mercedes** | Puerto fluvial sobre el Río Negro |
 | **OSE, UTE, ANTEL** | Servicios básicos departamentales |
-
----
 
 ## Instituciones
 
@@ -176,8 +152,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | **Municipio de Cardona** | Localidad interior |
 | **Municipio de Nuevo Berlín** | Localidad costera del Uruguay |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -188,8 +162,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 
 *Nota: Los líderes de los 33 Orientales no son nativos de Soriano, pero su acto más trascendente tuvo lugar en el departamento [VERIFICAR personalidades nacidas en Soriano].*
 
----
-
 ## Estadísticas
 
 | Indicador | Valor | Fuente |
@@ -199,16 +171,12 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | Densidad | 9,3 hab./km² | INE |
 | Localidades principales | Mercedes, Dolores, Cardona, Nuevo Berlín | INE |
 
----
-
 ## Curiosidades
 
 - La **Playa de la Agraciada** es uno de los sitios más emblemáticos de la historia uruguaya: allí desembarcaron los 33 Orientales el **19 de abril de 1825**, iniciando la cruzada de la independencia.
 - **Mercedes** tiene una de las ramblas más agradables del interior del Uruguay: un largo paseo peatonal sobre el Río Negro, con parques y miradores.
 - **Nuevo Berlín** fue fundada por colonos alemanes y mantiene algunos vestigios de esa herencia [VERIFICAR].
 - El departamento de Soriano produce **arroz** en las zonas bajas del Río Negro y es parte de la cuenca arrocera del litoral sur-occidental de Uruguay.
-
----
 
 ## Cronología
 
@@ -220,8 +188,6 @@ Pesca fluvial: dorado, surubí, patí, boga. Asado ganadero. Quesos y lácteos d
 | 1825 | Declaración de independencia de Uruguay (proceso iniciado con el desembarco) |
 | Siglo XIX | Guerras civiles; consolidación institucional |
 | Siglo XX | Expansión de la ganadería y la lechería; agricultura |
-
----
 
 ## Palabras clave
 

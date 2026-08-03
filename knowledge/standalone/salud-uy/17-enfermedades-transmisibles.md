@@ -1,3 +1,5 @@
+# Enfermedades transmisibles en Uruguay
+
 ## Resumen
 
 Si bien Uruguay es un país de bajas tasas de enfermedades infecciosas en el contexto regional, algunas enfermedades transmisibles representan desafíos persistentes. El **VIH/SIDA** es la de mayor relevancia en salud pública: Uruguay tiene una de las tasas de prevalencia de VIH más altas de América del Sur, aunque el acceso universal a tratamiento antirretroviral garantizado por el SNIS ha mejorado significativamente los indicadores. La **tuberculosis (TB)** persiste con tasas moderadas, concentrada en poblaciones vulnerables. Las **infecciones de transmisión sexual (ITS)** como la sífilis y la gonorrea siguen siendo un problema. El dengue emergió como una amenaza creciente en la última década, con brotes locales. La **hepatitis viral** (B y C) también requiere vigilancia y tratamiento específico.

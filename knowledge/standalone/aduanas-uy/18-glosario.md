@@ -72,8 +72,6 @@
 
 **Zona franca**: área delimitada dentro del territorio uruguayo que se considera fuera del territorio aduanero a efectos fiscales; las mercancías que ingresan no pagan tributos de importación; regulada por la Ley 15.921/1987.
 
----
-
 ## Palabras clave
 
 glosario aduanas Uruguay, términos aduaneros Uruguay, AEC definición MERCOSUR, DUA definición Uruguay, canal verde naranja rojo definición, despachante aduana Uruguay definición, OEA definición Uruguay, zona franca definición Uruguay, drawback definición Uruguay, admisión temporaria definición, NCM nomenclatura MERCOSUR definición, valor en aduana CIF Uruguay, contrabando definición Uruguay

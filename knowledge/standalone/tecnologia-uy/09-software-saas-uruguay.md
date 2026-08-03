@@ -1,3 +1,5 @@
+# Software y SaaS uruguayo
+
 ## Resumen
 
 El **software** y el modelo **SaaS (Software as a Service)** son los pilares del sector tecnológico exportador uruguayo. En el contexto uruguayo, el software es un bien de exportación de alto valor, mientras que el SaaS representa la evolución del modelo de negocio tradicional de licencias de software hacia suscripciones basadas en cloud. Uruguay tiene tanto empresas de nearshoring (que venden servicios de desarrollo) como empresas ISV (que venden productos de software propios). La transición hacia el SaaS es una tendencia estructural que impacta a todas las empresas de software uruguayas.

@@ -6,8 +6,6 @@ Los **indicadores sociales** son medidas cuantitativas o cualitativas que permit
 
 En Uruguay, los indicadores sociales son producidos principalmente por el **INE (Instituto Nacional de Estadística)**, el **MIDES (DINEM)**, el **BPS**, la **OPP (Oficina de Planeamiento y Presupuesto)** y organismos internacionales como el PNUD, la CEPAL y el Banco Mundial.
 
----
-
 ## Pobreza e indigencia
 
 ### Definición y metodología
@@ -35,8 +33,6 @@ El **INE** mide la pobreza y la indigencia en Uruguay mediante el **método de l
 
 **Pobreza infantil**: en Uruguay, la pobreza está más concentrada en la infancia que en la vejez. La tasa de pobreza entre menores de 6 años es significativamente mayor que el promedio general. Esta "paradoja de la pobreza infantil" es un desafío estructural.
 
----
-
 ## Desigualdad
 
 ### Coeficiente GINI
@@ -51,8 +47,6 @@ A pesar de la mejora, Uruguay mantiene niveles de desigualdad moderados en el co
 
 El INE publica la distribución del ingreso por deciles (décimas partes de la población ordenadas por ingreso) y por quintiles, permitiendo analizar cómo se distribuye la riqueza entre los distintos estratos sociales.
 
----
-
 ## Índice de Desarrollo Humano (IDH)
 
 El **Índice de Desarrollo Humano (IDH)** es publicado anualmente por el PNUD en su **Informe sobre Desarrollo Humano**. Combina tres dimensiones:
@@ -63,8 +57,6 @@ El **Índice de Desarrollo Humano (IDH)** es publicado anualmente por el PNUD en
 
 Uruguay ha tenido históricamente uno de los IDH más altos de América Latina, ubicándose en la categoría de **desarrollo humano muy alto**. En los últimos informes del PNUD, Uruguay se ubica entre los primeros lugares de la región.
 
----
-
 ## Exclusión social y vulnerabilidad
 
 Además de los indicadores de pobreza e indigencia, el MIDES y el INE utilizan indicadores complementarios para medir la exclusión social y la vulnerabilidad:
@@ -74,8 +66,6 @@ Además de los indicadores de pobreza e indigencia, el MIDES y el INE utilizan i
 - **Tasa de desempleo y subempleo**: medida por la ECH del INE.
 - **Cobertura previsional**: porcentaje de personas mayores con jubilación o pensión.
 - **Acceso a servicios**: cobertura de agua potable, saneamiento, electricidad.
-
----
 
 ## Encuesta Continua de Hogares (ECH)
 
@@ -88,13 +78,9 @@ La **ECH** es el principal instrumento estadístico para el seguimiento de los i
 
 Los microdatos de la ECH son de acceso público en el sitio web del INE.
 
----
-
 ## Referencias cruzadas
 
 Para el detalle estadístico y la metodología de las encuestas y censos, ver dominio `administracion-publica-estadisticas-uy`.
-
----
 
 ## Palabras clave
 

@@ -6,8 +6,6 @@ El ferrocarril uruguayo tiene una historia de más de 150 años, marcada por su 
 
 La **Administración de Ferrocarriles del Estado (AFE)** es el ente público autónomo responsable del sistema ferroviario uruguayo.
 
----
-
 ## Administración de Ferrocarriles del Estado (AFE)
 
 ### Creación e historia institucional
@@ -31,8 +29,6 @@ AFE es un **ente autónomo del Estado** creado por la **Ley 11.907** de 1952. Ti
 
 AFE tiene su sede central en la **Estación Central General Artigas**, ubicada en la calle **La Paz 1095**, Montevideo (barrio Aguada).
 
----
-
 ## Red ferroviaria
 
 ### Extensión y características
@@ -55,8 +51,6 @@ La red ferroviaria uruguaya conectó, en su momento de máxima extensión, todas
 | Línea Noreste | Montevideo – Melo | Fuera de servicio |
 | Línea Este | Montevideo – Treinta y Tres | Fuera de servicio |
 | Línea Suroeste | Montevideo – Colonia | Fuera de servicio |
-
----
 
 ## El Ferrocarril Central
 
@@ -83,8 +77,6 @@ La inversión total en el Ferrocarril Central superó los **1.000 millones de d�
 
 El Ferrocarril Central es operado por **AFE** para el transporte de cargas. El principal cliente inicial es UPM para el transporte de chips de madera (celulosa). La línea también tiene potencial para el transporte de otros productos agropecuarios.
 
----
-
 ## Transporte de pasajeros
 
 ### Estado actual
@@ -98,8 +90,6 @@ AFE ha mantenido o promovido de manera esporádica servicios ferroviarios de car
 ### Debate sobre restablecimiento
 
 La posibilidad de restablecer el transporte ferroviario de pasajeros entre Montevideo y el interior del país ha sido objeto de debate político y técnico. Los estudios de factibilidad señalan los desafíos de rentabilidad y la necesidad de inversión en material rodante y estaciones para un eventual servicio.
-
----
 
 ## Estaciones ferroviarias
 
@@ -119,8 +109,6 @@ Las estaciones ferroviarias uruguayas tienen valor patrimonial e histórico sign
 
 La **Estación Central General Artigas** de Montevideo es un edificio de valor patrimonial, inaugurado en 1897. Ha sido objeto de diversas propuestas de reutilización y rehabilitación.
 
----
-
 ## Transporte de cargas ferroviario
 
 AFE opera servicios de transporte de cargas por ferrocarril. Los principales productos transportados incluyen:
@@ -131,8 +119,6 @@ AFE opera servicios de transporte de cargas por ferrocarril. Los principales pro
 - **Concentrados minerales** — en menor volumen
 
 El transporte ferroviario de cargas en Uruguay es más competitivo en los corredores de larga distancia donde la infraestructura está en condiciones operativas.
-
----
 
 ## Palabras clave
 

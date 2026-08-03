@@ -70,8 +70,6 @@
 
 **VBG (Violencia Basada en Género)**: toda acción u omisión que cause daño en razón del género o la orientación sexual. Marco legal: Ley 19.580/2017.
 
----
-
 ## Palabras clave
 
 glosario desarrollo social Uruguay, AFAM-PE BPS Uruguay, CAIF primera infancia Uruguay, CERCANÍAS familias vulnerables Uruguay, CUD discapacidad Uruguay, DINEM evaluación MIDES, ECH INE pobreza Uruguay, ENIA infancia adolescencia Uruguay, INAU INJU INMAYORES INMUJERES PRONADIS INDA Uruguay, MIDES Uruguay, PANES Plan Equidad Uruguay, SNIC cuidados Uruguay, TUS Tarjeta Uruguay Social, VBG violencia género Uruguay

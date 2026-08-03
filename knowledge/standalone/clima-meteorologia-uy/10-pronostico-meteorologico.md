@@ -1,14 +1,10 @@
 # Pronóstico Meteorológico en Uruguay
 
----
-
 ## Definición y alcance
 
 El **pronóstico meteorológico** es la predicción del estado futuro de la atmósfera en un lugar o región determinados. Comprende tanto la predicción de variables cuantitativas (temperatura, viento, precipitación) como la descripción cualitativa del tiempo esperado (soleado, lluvioso, tormentoso).
 
 INUMET es el organismo oficial responsable de los pronósticos meteorológicos para Uruguay. Sus servicios de predicción están organizados según las escalas temporales y los usuarios destinatarios.
-
----
 
 ## Clasificación de los pronósticos por escala temporal
 
@@ -20,8 +16,6 @@ INUMET es el organismo oficial responsable de los pronósticos meteorológicos p
 | **Mediano plazo** | 3–7 días | PNT de largo alcance; ensambles | Moderado |
 | **Extendido** | 8–15 días | Modelos de ensamble global | Bajo a moderado |
 | **Estacional** | 1–6 meses | Modelos climáticos; ENSO; estadísticas | Orientativo |
-
----
 
 ## Productos de pronóstico de INUMET
 
@@ -43,8 +37,6 @@ INUMET elabora y difunde los siguientes productos de predicción operativa:
 | Pronóstico hidrológico (en coordinación con DINAGUA) | Gestión de embalses; alerta de inundaciones |
 | Pronóstico estacional (trimestral) | Planificación energética; agricultura |
 | Boletín de seguimiento ENSO | Técnicos; tomadores de decisión |
-
----
 
 ## La Predicción Numérica del Tiempo (PNT)
 
@@ -68,8 +60,6 @@ INUMET utiliza salidas de modelos globales de grandes centros internacionales:
 
 *INUMET también puede contar con acceso a modelos regionales LAPS, ETA o similares según los acuerdos de cooperación con SMN Argentina y CPTEC/INPE Brasil [VERIFICAR estado actual].*
 
----
-
 ## Sistemas de ensamble (ensemble)
 
 Los modelos de **ensamble** (*ensemble*) son conjuntos de múltiples corridas del mismo modelo o de varios modelos, cada una con ligeras perturbaciones en las condiciones iniciales o en los parámetros físicos. Permiten:
@@ -84,8 +74,6 @@ Los modelos de **ensamble** (*ensemble*) son conjuntos de múltiples corridas de
 | ENS (ECMWF Ensemble) | ECMWF | 51 | 15 días |
 | TIGGE | Múltiples centros | >300 | 15 días |
 
----
-
 ## Asimilación de datos
 
 La **asimilación de datos** es el proceso mediante el cual las observaciones meteorológicas de distintas fuentes se integran con las salidas del modelo para generar las mejores condiciones iniciales posibles. Los métodos más comunes son:
@@ -93,8 +81,6 @@ La **asimilación de datos** es el proceso mediante el cual las observaciones me
 - **3D-Var** (variacional tridimensional)
 - **4D-Var** (variacional cuatridimensional; ECMWF)
 - **EnKF** (*Ensemble Kalman Filter*)
-
----
 
 ## Fuentes de datos para el pronóstico
 
@@ -114,8 +100,6 @@ La **asimilación de datos** es el proceso mediante el cual las observaciones me
 | **Datos de aviación (PIREP, AMDAR)** | Temperatura; viento; turbulencia en vuelo |
 | **Navegación satelital (GPS-RO)** | Perfiles de temperatura y humedad |
 
----
-
 ## Radar meteorológico en Uruguay
 
 INUMET opera una **red de radares meteorológicos** (Doppler, banda C) cuyos datos son fundamentales para el nowcasting y la vigilancia de tormentas severas. La red incluye radares estratégicamente ubicados para cubrir el territorio nacional [VERIFICAR número exacto y ubicaciones actuales]. Los radares producen:
@@ -125,8 +109,6 @@ INUMET opera una **red de radares meteorológicos** (Doppler, banda C) cuyos dat
 - **RHI** (*Range-Height Indicator*): perfil vertical de la tormenta.
 - Producto de detección de granizo.
 - Estimación de precipitación acumulada.
-
----
 
 ## Vigilancia meteorológica y alertas en Uruguay
 
@@ -145,8 +127,6 @@ INUMET mantiene un sistema de **vigilancia permanente** (24/7) para la emisión 
 
 *[VERIFICAR nomenclatura exacta y criterios umbrales para cada nivel según protocolo vigente de INUMET]*
 
----
-
 ## Meteorología aeronáutica
 
 La meteorología aeronáutica es uno de los servicios más críticos e internacionalmente regulados de INUMET. Se rige por los estándares de la OACI (*Organización de Aviación Civil Internacional*) y la OMM.
@@ -162,8 +142,6 @@ La meteorología aeronáutica es uno de los servicios más críticos e internaci
 
 El aeropuerto internacional de Carrasco (Montevideo) es la principal estación de meteorología aeronáutica; existe también cobertura en Punta del Este, Salto, Colonia y otros aeródromos.
 
----
-
 ## Verificación del pronóstico
 
 La verificación es el proceso de comparar los pronósticos con las observaciones reales para medir la calidad predictiva. Las métricas más utilizadas son:
@@ -178,8 +156,6 @@ La verificación es el proceso de comparar los pronósticos con las observacione
 
 INUMET realiza verificaciones periódicas de sus pronósticos en el marco de los estándares de la OMM.
 
----
-
 ## Comunicación del pronóstico
 
 La comunicación efectiva del pronóstico meteorológico a la población general es parte fundamental del servicio de INUMET:
@@ -189,8 +165,6 @@ La comunicación efectiva del pronóstico meteorológico a la población general
 - Boletines por correo para sectores productivos.
 - Coordinación con medios de comunicación.
 - Avisos del SINAE a gobiernos departamentales e intendencias.
-
----
 
 ## Palabras clave
 

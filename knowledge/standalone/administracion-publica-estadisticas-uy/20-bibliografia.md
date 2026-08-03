@@ -45,8 +45,6 @@
 ### Portal de Datos Abiertos
 - Catálogo Nacional de Datos Abiertos: https://catalogodatos.gub.uy/
 
----
-
 ## Normativa principal
 
 | Norma | Contenido |
@@ -75,8 +73,6 @@
 
 Texto de la normativa: https://www.impo.com.uy/
 
----
-
 ## Organismos internacionales
 
 | Organismo | URL |
@@ -91,16 +87,12 @@ Texto de la normativa: https://www.impo.com.uy/
 | ONU Estadísticas | https://unstats.un.org/ |
 | PNUD — IDH Uruguay | https://hdr.undp.org/data-center/country-insights |
 
----
-
 ## Referencias académicas
 
 - **Narbondo, Pedro** (Universidad de la República): investigaciones sobre función pública y reforma del Estado en Uruguay.
 - **CLAD**: Carta Iberoamericana de la Función Pública (2003); Carta Iberoamericana de la Calidad en la Gestión Pública (2008); Carta Iberoamericana de Gobierno Abierto (2016).
 - **Filgueira, Fernando** y otros: estudios sobre el Estado de bienestar uruguayo y las reformas de los años 1990–2000.
 - **Kaztman, Ruben** y colaboradores: investigaciones sobre pobreza y desigualdad en Uruguay.
-
----
 
 ## Palabras clave
 

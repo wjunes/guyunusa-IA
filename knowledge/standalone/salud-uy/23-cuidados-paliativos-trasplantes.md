@@ -1,3 +1,5 @@
+# Cuidados paliativos y trasplantes en Uruguay
+
 ## Resumen
 
 Uruguay tiene programas consolidados tanto en **cuidados paliativos** como en **trasplante de órganos**, dos ámbitos de la medicina que representan extremos complementarios: los cuidados paliativos acompañan el proceso de morir con dignidad, mientras que el trasplante da nueva vida a través de órganos donados. El **Instituto Nacional de Donación y Trasplante (INDT)** coordina el sistema de donación y trasplante. La **Ley 18.968 (2012)** estableció la **donación presunta** (opt-out): todo uruguayo es donante de órganos salvo que haya expresado lo contrario en vida. El **Fondo Nacional de Recursos (FNR)** financia los trasplantes de órganos para toda la población del SNIS. El **Programa Nacional de Cuidados Paliativos** del MSP garantiza el acceso a cuidados paliativos como parte del SNIS.

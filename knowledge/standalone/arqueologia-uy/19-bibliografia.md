@@ -1,7 +1,5 @@
 # Bibliografía y Fuentes del Dominio arqueologia-uy
 
----
-
 ## 1. Publicaciones científicas y libros de referencia
 
 ### Monografías y obras de síntesis
@@ -32,8 +30,6 @@
 - IRIARTE, José. "Mid-Holocene emergent complexity and landscape transformation: the social production of space in southeastern Uruguay." *Latin American Antiquity*, 17(2): 203–237, 2006.
 - LÓPEZ MAZZ, José María. "Early Human Occupation of Uruguay: Radiocarbon Database and Peopling of the Southern Cone of South America." *Quaternary International*, 363: 122–134, 2015.
 
----
-
 ## 2. Fuentes institucionales
 
 ### Comisión del Patrimonio Cultural de la Nación (CPCN)
@@ -53,8 +49,6 @@
 
 - Repositorio COLIBRÍ (Udelar): colibri.udelar.edu.uy [Tesis, artículos y publicaciones de investigadores de la FHCE]
 
----
-
 ## 3. Legislación y normativa
 
 - *Ley 14.040/1971*. Ley de Patrimonio Cultural de la Nación. Uruguay. Disponible en: www.impo.com.uy
@@ -66,15 +60,11 @@
 - *Convención UNIDROIT sobre los Bienes Culturales Robados o Exportados Ilícitamente* (Roma, 1995). UNIDROIT.
 - *Convención sobre la Protección del Patrimonio Cultural Subacuático* (París, 2001). UNESCO.
 
----
-
 ## 4. Congresos y actas
 
 - *Actas del Congreso Nacional de Arqueología Uruguaya*. Ediciones sucesivas desde el año 2000 [VERIFICAR fecha exacta de la primera edición].
 - *Actas del Congreso de la Asociación Brasileña de Antropología (ABA)*. Publicaciones periódicas con ponencias sobre arqueología rioplatense.
 - *Proceedings of the Society for American Archaeology (SAA)*. Publicaciones anuales de la SAA.
-
----
 
 ## 5. Portales y recursos digitales
 
@@ -87,15 +77,11 @@
 - **Portal Udelar:** www.udelar.edu.uy
 - **Portal FHCE:** www.fhuce.edu.uy
 
----
-
 ## 6. Fuentes de referencia regional y continental
 
 - MARTÍN, Paul S.; KLEIN, Richard G. (eds.). *Quaternary Extinctions: A Prehistoric Revolution*. Tucson: University of Arizona Press, 1984. [Debate sobre la extinción de la megafauna]
 - DILLEHAY, Tom D. *The Settlement of the Americas: A New Prehistory*. New York: Basic Books, 2000. [Síntesis sobre el poblamiento de América; incluye Monte Verde y Sudamérica]
 - NAMI, Hugo G. "Fishtail projectile points and megafauna: new evidence from Fell's Cave, Chile." *Current Research in the Pleistocene*, 8: 72–74, 1991. [Puntas fishtail en el Cono Sur]
-
----
 
 ## Palabras clave
 

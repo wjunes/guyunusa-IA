@@ -1,12 +1,8 @@
 # Investigadores Destacados de la Arqueología Uruguaya
 
----
-
 ## Introducción
 
 Este archivo compila fichas biográficas y científicas de los principales arqueólogos e investigadores que han contribuido al conocimiento del pasado arqueológico del Uruguay. Se incluyen tanto investigadores uruguayos como extranjeros que han desarrollado trabajo sistemático en el país. La selección no es exhaustiva y se basa en la relevancia de sus contribuciones documentadas en la literatura científica.
-
----
 
 ## Antonio Taddei (1921–2004)
 
@@ -30,8 +26,6 @@ Sus principales contribuciones incluyen:
 
 **Limitaciones del enfoque:** sus trabajos se realizaron en un período de metodología poco sistemática por los estándares actuales; la documentación estratigráfica y contextual de muchos de sus hallazgos es limitada.
 
----
-
 ## José López Mazz
 
 | Campo | Dato |
@@ -54,8 +48,6 @@ José López Mazz es el arqueólogo más prominente de Uruguay en términos de p
 - Docencia universitaria y formación de varias generaciones de arqueólogos uruguayos.
 - Participación en proyectos de arqueología forense (identificación de víctimas del terrorismo de Estado durante la dictadura, 1973–1985) [VERIFICAR alcance de esta participación].
 
----
-
 ## Roberto Bracco
 
 | Campo | Dato |
@@ -72,8 +64,6 @@ Roberto Bracco contribuyó decisivamente al conocimiento de los cerritos uruguay
 - Construcción de secuencias cronológicas mediante dataciones radiocarbónicas.
 - Estudios de subsistencia e isótopos estables en restos humanos y faunísticos de cerritos.
 - Publicaciones científicas sobre la economía de los constructores de montículos.
-
----
 
 ## Rafael Suárez
 
@@ -92,8 +82,6 @@ Rafael Suárez ha sido la figura principal en el estudio del poblamiento tempran
 - Identificación y excavación de sitios con puntas fishtail (Pay Paso 1, Artigas).
 - Análisis tecno-tipológicos comparativos de conjuntos líticos del Cono Sur.
 - Publicaciones sobre la dispersión humana en el extremo sur de América.
-
----
 
 ## Richard Fariña
 
@@ -114,8 +102,6 @@ Richard Fariña es el investigador responsable del estudio sistemático del siti
 - Estudios de biomecánica y paleoecología de la megafauna sudamericana.
 - Libros de divulgación científica sobre prehistoria y megafauna.
 
----
-
 ## José Iriarte
 
 | Campo | Dato |
@@ -131,8 +117,6 @@ José Iriarte ha desarrollado investigaciones arqueobotánicas sobre los cerrito
 - Análisis de fitolitos y palinología en cerritos del este de Uruguay.
 - Evidencias sobre el manejo de plantas (posible cultivo de maíz) en contextos de cerritos.
 - Estudios comparativos sobre complejidad social de constructores de montículos en América del Sur.
-
----
 
 ## Camila Gianotti
 
@@ -150,8 +134,6 @@ Camila Gianotti ha impulsado el uso de tecnologías de teledetección y SIG en l
 - Proyectos de gestión participativa del patrimonio arqueológico con comunidades rurales del este.
 - Publicaciones sobre paisajes arqueológicos y arqueología del paisaje en el Río de la Plata.
 
----
-
 ## Andrés Gascue
 
 | Campo | Dato |
@@ -167,8 +149,6 @@ Andrés Gascue ha desarrollado investigaciones sobre la tecnología lítica y la
 - Análisis de conjuntos líticos en el noreste y litoral norte del Uruguay.
 - Estudios de la transición Pleistoceno-Holoceno en Uruguay.
 - Investigaciones en el área de influencia de las misiones jesuíticas.
-
----
 
 ## Mónica Sans
 
@@ -187,8 +167,6 @@ Mónica Sans ha sido pionera en los estudios de genética de poblaciones en Urug
 - Estudios de mestizaje y composición genética multiancestral en Uruguay.
 - Publicaciones en revistas de antropología biológica y genética.
 
----
-
 ## Ilaria Capdepont
 
 | Campo | Dato |
@@ -205,8 +183,6 @@ Ilaria Capdepont ha desarrollado investigaciones de arqueobotánica en la regió
 - Estudios de uso de plantas y cerámica.
 - Publicaciones sobre subsistencia vegetal en contextos prehispánicos del Uruguay.
 
----
-
 ## Carmen Curbelo
 
 | Campo | Dato |
@@ -222,8 +198,6 @@ Carmen Curbelo fue pionera de la arqueología histórica en Uruguay:
 - Investigaciones sobre sitios coloniales y postcoloniales en el departamento de Rocha y otras regiones.
 - Integración de fuentes históricas escritas y registro arqueológico material.
 - Formación de estudiantes en arqueología histórica.
-
----
 
 ## Palabras clave
 

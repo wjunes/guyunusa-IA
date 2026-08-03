@@ -1,3 +1,5 @@
+# Facultad de Medicina (UdelaR)
+
 ## Resumen
 
 La **Facultad de Medicina** de la **Universidad de la República (Udelar)** es la institución formadora de la inmensa mayoría de los médicos uruguayos. Fundada en **1876**, es una de las escuelas de medicina más antiguas y prestigiosas de América del Sur. La Facultad gestiona el **Hospital de Clínicas Manuel Quintela**, el mayor hospital universitario del país, referencia nacional para la formación médica, la práctica clínica de alta complejidad y la investigación. La carrera de medicina en la Facultad es pública y gratuita, con ingresos masivos y una tradición de medicina generalista de alta calidad. La Facultad de Medicina de Udelar también es referente regional para la OPS en materia de formación de recursos humanos en salud.

@@ -1,3 +1,5 @@
+# Transición energética y ambiente en Uruguay
+
 ## Resumen
 
 La **transición energética** es el proceso de sustitución gradual de las fuentes de energía basadas en **combustibles fósiles** (petróleo, carbón, gas natural) por fuentes de energía **renovables y de bajas emisiones** (solar, eólica, hidráulica, geotérmica, biomasa). Es un concepto central de la política climática global, ya que el sector energético es la mayor fuente de **gases de efecto invernadero (GEI)** a nivel mundial. Uruguay representa uno de los **casos más exitosos y rápidos de transición energética en el sector eléctrico** documentados en el mundo: en menos de una década (2008-2016) logró pasar de una matriz eléctrica parcialmente fósil a una de las más renovables del planeta (>97%). El caso uruguayo es estudiado globalmente como modelo para países que buscan descarbonizar su sector eléctrico de manera eficiente.

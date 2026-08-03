@@ -1,3 +1,5 @@
+# Marco legal e incentivos para el software en Uruguay
+
 ## Resumen
 
 Uruguay construyó a lo largo de los años 1990 y 2000 uno de los marcos regulatorios más favorables para la industria del software de América Latina. Los instrumentos centrales son la exoneración del IRAE (impuesto a la renta empresarial) para ingresos de exportación de software, el régimen de zonas francas con exoneración total de impuestos, la Ley de Promoción de Inversiones (COMAP) y la protección de la propiedad intelectual. Este marco, junto a la estabilidad macroeconómica e institucional, fue determinante en la elección de Uruguay como sede de operaciones por parte de multinacionales tecnológicas y en el crecimiento exportador del sector.

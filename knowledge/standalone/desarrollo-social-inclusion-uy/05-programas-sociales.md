@@ -4,8 +4,6 @@
 
 Uruguay cuenta con un conjunto articulado de programas sociales diseñados para atender diferentes dimensiones de la vulnerabilidad social: ingresos insuficientes, alimentación, empleo, vivienda, cuidados y desarrollo comunitario. Los programas se inscriben en el marco de las políticas de protección social y del Plan de Equidad.
 
----
-
 ## Transferencias monetarias
 
 ### Asignaciones Familiares — Plan de Equidad (AFAM-PE)
@@ -26,8 +24,6 @@ Uruguay cuenta con un conjunto articulado de programas sociales diseñados para 
 
 **Diferencia con las AFAM tradicionales del BPS**: las AFAM tradicionales son para trabajadores formales y están vinculadas al empleo. Las AFAM-PE están dirigidas a hogares fuera del mercado formal de trabajo o en situación de vulnerabilidad.
 
----
-
 ### Tarjeta Uruguay Social (TUS)
 
 **Descripción**: La Tarjeta Uruguay Social es una tarjeta electrónica (prepago) que se recarga mensualmente con una suma de dinero destinada exclusivamente a la adquisición de alimentos y artículos de higiene personal. Es el instrumento de apoyo alimentario más focalizado del MIDES.
@@ -38,8 +34,6 @@ Uruguay cuenta con un conjunto articulado de programas sociales diseñados para 
 
 **Restricciones de uso**: la tarjeta no puede utilizarse para la compra de alcohol, tabaco u otros productos no alimentarios.
 
----
-
 ### Pensión a la Vejez e Invalidez (BPS)
 
 Si bien es administrada por el BPS, la Pensión a la Vejez e Invalidez es un componente articulado con el MIDES:
@@ -48,8 +42,6 @@ Si bien es administrada por el BPS, la Pensión a la Vejez e Invalidez es un com
 - **Pensión por Invalidez**: para personas con discapacidad sin ingresos propios.
 
 Ver dominio `sistema-financiero-uy` (AFAPs y sistema previsional) para más detalle.
-
----
 
 ## Programas de empleo e inclusión laboral
 
@@ -69,8 +61,6 @@ Articulado entre el MIDES, el INEFOP y el MTSS, este programa ofrece cursos de c
 
 El MIDES promueve la creación de **empresas sociales** como forma de inclusión laboral de personas en situación de vulnerabilidad extrema. Estas empresas son microemprendimientos asociativos con apoyo técnico y financiero del Estado.
 
----
-
 ## Programas de atención integral a familias
 
 ### Cercanías
@@ -89,19 +79,13 @@ El MIDES promueve la creación de **empresas sociales** como forma de inclusión
 
 **Gestión**: MIDES e INJU, en coordinación con ANEP y el MTSS.
 
----
-
 ## Programa de Atención a Personas en Situación de Calle (PASC)
 
 El PASC gestiona la red de refugios y centros de atención para personas en situación de calle. Ver archivo `12-personas-en-situacion-de-calle.md` para detalle.
 
----
-
 ## Sistema de Información Integrada del Área Social (SIIAS)
 
 El **SIIAS** es la plataforma de información que integra los datos de los distintos programas sociales del Estado uruguayo. Permite identificar a las personas y hogares beneficiarios de los distintos programas, cruzar información entre organismos y focalizar las intervenciones. Es una herramienta clave para la gestión de los programas y la evaluación de la política social.
-
----
 
 ## Palabras clave
 

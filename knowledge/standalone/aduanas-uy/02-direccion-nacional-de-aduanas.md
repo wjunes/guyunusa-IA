@@ -8,15 +8,11 @@ La DNA es un servicio descentralizado del Ministerio de Economía y Finanzas (ME
 
 Sitio institucional: https://www.aduanas.gub.uy/
 
----
-
 ## Misión y visión
 
 **Misión**: facilitar el comercio exterior legítimo, controlar el cumplimiento de la normativa aduanera y tributaria, proteger la economía nacional y la sociedad de las prácticas de comercio ilícito, y contribuir a la seguridad de la cadena de suministro internacional.
 
 La DNA equilibra dos mandatos que pueden ser contrapuestos: la facilitación del comercio (reducir tiempos y costos del despacho aduanero para operadores legítimos) y el control (verificar la correcta clasificación, valoración y origen de las mercancías para evitar evasión y contrabando).
-
----
 
 ## Funciones principales
 
@@ -41,8 +37,6 @@ La DNA equilibra dos mandatos que pueden ser contrapuestos: la facilitación del
 **Estadísticas de comercio exterior**
 - Compilar estadísticas de importación y exportación (en coordinación con el BCU, el INE y Uruguay XXI).
 
----
-
 ## Estructura organizativa
 
 La DNA está dirigida por un Director Nacional, designado por el Poder Ejecutivo con venia del Senado. La estructura interna incluye:
@@ -53,8 +47,6 @@ La DNA está dirigida por un Director Nacional, designado por el Poder Ejecutivo
 - **Dirección de Tecnología de la Información**: administración del sistema LUCIA y demás sistemas informáticos.
 - **Asesoría Jurídica**: interpretación normativa, recursos administrativos, litigios.
 - **Administraciones aduaneras regionales**: aduanas en el interior del país (Rivera, Salto, Paysandú, Colonia, Young, Bella Unión, Río Branco, Fray Bentos, Artigas, etc.).
-
----
 
 ## Sede y red de administraciones
 
@@ -73,8 +65,6 @@ La sede central de la DNA está ubicada en Montevideo (Rambla 25 de Agosto de 18
 | Aduana de Artigas | Terrestre | Frontera con Brasil (Quaraí) |
 | Aduana de Young | Carretera | Control de camiones en ruta 3 |
 
----
-
 ## Personal: vistas y funcionarios aduaneros
 
 El personal de la DNA está compuesto por distintas categorías:
@@ -84,8 +74,6 @@ El personal de la DNA está compuesto por distintas categorías:
 - **Técnicos en distintas especialidades**: análisis de riesgo, sistemas informáticos, asesoría jurídica, estadísticas.
 
 El ingreso al organismo se realiza por concurso público convocado a través del ONSC.
-
----
 
 ## Relación con otros organismos
 
@@ -99,8 +87,6 @@ La DNA coordina con:
 - **MIEM (LATU)**: controles de conformidad técnica y calidad.
 - **MRE**: certificados de origen en acuerdos comerciales.
 - **Policía Nacional y Prefectura Naval**: control del contrabando y el narcotráfico.
-
----
 
 ## Palabras clave
 

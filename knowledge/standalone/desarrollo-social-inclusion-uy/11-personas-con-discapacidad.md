@@ -4,8 +4,6 @@
 
 Uruguay adopta el **modelo social de la discapacidad**, establecido por la **Convención sobre los Derechos de las Personas con Discapacidad (CDPD)** de la ONU (ratificada por Uruguay mediante la Ley 18.418/2008). Este modelo entiende que la discapacidad resulta de la interacción entre las deficiencias de una persona y las barreras del entorno (físicas, actitudinales, comunicacionales) que impiden su participación plena. La discapacidad no es un atributo de la persona, sino el resultado de un entorno no inclusivo.
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -15,8 +13,6 @@ Uruguay adopta el **modelo social de la discapacidad**, establecido por la **Con
 | Ley 18.651 | 2010 | Protección integral de personas con discapacidad: derechos, accesibilidad, empleo, servicios |
 | Decreto 155/013 | 2013 | Accesibilidad web para sitios del Estado |
 | Ley 19.353 | 2015 | SNIC: servicios de cuidado para personas con discapacidad |
-
----
 
 ## PRONADIS — Programa Nacional de Discapacidad
 
@@ -28,8 +24,6 @@ El **PRONADIS (Programa Nacional de Discapacidad)** es la unidad del MIDES que f
 - Articulación del **Certificado Único de Discapacidad (CUD)**.
 - Programas de accesibilidad e inclusión.
 - Seguimiento de la Convención de la ONU sobre los Derechos de las Personas con Discapacidad.
-
----
 
 ## Certificado Único de Discapacidad (CUD)
 
@@ -47,8 +41,6 @@ El **Certificado Único de Discapacidad (CUD)** es el instrumento que acredita l
 - Servicios del SNIC.
 - Exoneraciones fiscales (vehículos adaptados).
 - Acceso prioritario a programas de vivienda.
-
----
 
 ## Ley 18.651/2010: Protección integral
 
@@ -74,13 +66,9 @@ Las personas con discapacidad tienen derecho a atención de salud en igualdad de
 
 La ley regula la accesibilidad del transporte público y de los espacios urbanos.
 
----
-
 ## Comisión Nacional Honoraria de la Discapacidad (CNHD)
 
 La **CNHD** es un organismo integrado por representantes del Estado y de las organizaciones de personas con discapacidad, que coordina las políticas públicas de discapacidad a nivel interinstitucional.
-
----
 
 ## Servicios del SNIC para personas con discapacidad
 
@@ -89,16 +77,12 @@ El **SNIC** incluye servicios específicos para personas con discapacidad que re
 - **Centros de rehabilitación y centros de día**.
 - **Subsidio para cuidados**.
 
----
-
 ## Organizaciones de la sociedad civil
 
 Uruguay tiene un ecosistema activo de organizaciones de personas con discapacidad y familiares:
 - FENACAP (Federación Nacional de la Capacidad Diferente).
 - Asociaciones específicas por tipo de discapacidad (visual, auditiva, motriz, intelectual).
 - Organizaciones de personas con discapacidad motriz, sordos, ciegos, etc.
-
----
 
 ## Palabras clave
 

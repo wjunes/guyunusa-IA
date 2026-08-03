@@ -1,3 +1,5 @@
+# Junta Nacional de Salud (JUNASA)
+
 ## Resumen
 
 La **Junta Nacional de Salud (JUNASA)** es el organismo creado por la **Ley 18.211 (2007)** para administrar el **Fondo Nacional de Salud (FONASA)** y regular las relaciones entre el Estado y los prestadores del **SNIS**. La JUNASA es el eje financiero y contractual del sistema: suscribe los **contratos de gestión** con cada prestador del SNIS, establece las **metas sanitarias** que los prestadores deben cumplir, y paga a los prestadores la **cápita** mensual ajustada por riesgo. Es un organismo desconcentrado en la órbita del MSP, pero con integración interinstitucional (MSP, MIDES, BPS y representantes de trabajadores y empleadores).

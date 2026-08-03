@@ -4,8 +4,6 @@
 
 Compilación de fuentes primarias, obras académicas y recursos institucionales de referencia para el estudio de los pueblos originarios del actual Uruguay. Organizada por áreas temáticas. Las fechas entre corchetes indican ediciones consultadas o reimpresiones cuando difieren de la publicación original.
 
----
-
 ## Fuentes primarias y crónicas coloniales
 
 **Schmidl, Ulrich** (c. 1567). *Vera Historia admirandæ cuiusdam navigationis*. Descripción de los grupos indígenas del Río de la Plata por el cronista alemán que acompañó la expedición de Pedro de Mendoza (1535–1536); primera descripción detallada de los chanás y otros grupos del litoral.
@@ -15,8 +13,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 **Ramírez, Luis** (1528). *Carta*. Relato de la expedición de Sebastián Caboto; descripción del Río de la Plata y sus pobladores.
 
 **D'Orbigny, Alcide** (1839–1843). *Voyage dans l'Amérique Méridionale*. París: Pitois-Levrault. Incluye observaciones sobre los cuatro charrúas llevados a París en 1833 y uno de los escasos vocabularios de la lengua charrúa.
-
----
 
 ## Historia indígena y etnohistoria
 
@@ -32,8 +28,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 
 **Susnik, Branislava** (1975). *Dispersión tupí-guaraní prehistórica: ensayo analítico*. Asunción: Museo del Hombre Paraguayo. Referencia fundamental sobre la expansión guaraní.
 
----
-
 ## Arqueología
 
 **López Mazz, José M.** (1992). Aproximación a la cronología y territorialidad de los cerritos de indios del departamento de Rocha. *Revista de Arqueología Americana*, 6, pp. 7–31.
@@ -48,8 +42,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 
 **Bracco, Roberto** (2006). Montículos de la cuenca de la Laguna Merín: tiempo, espacio y sociedad. *Latin American Antiquity*, 17(4), pp. 511–540.
 
----
-
 ## Lingüística indígena
 
 **Mourelle de Lema, Ana** (1991). *La lengua de los charrúas*. Montevideo: Academia Nacional de Letras. Estudio fundamental sobre el vocabulario charrúa documentado en el siglo XIX.
@@ -58,8 +50,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 
 **Cadogan, León** (1959). *Ayvu Rapyta: textos míticos de los Mbyá-Guaraní del Guairá*. São Paulo: Universidad de São Paulo. Referencia fundamental sobre la mitología guaraní.
 
----
-
 ## Genética de poblaciones y antropología biológica
 
 **Sans, Mónica; Salzano, Francisco M. y Chakraborty, Ranajit** (1997). Historical genetics in Uruguay: estimates of biological origins and their problems. *Human Biology*, 69(2), pp. 161–170.
@@ -67,8 +57,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 **Sans, Mónica** (2000). Admixture studies in Latin America: from the 20th to the 21st century. *Human Biology*, 72(1), pp. 155–177.
 
 **Sans, Mónica et al.** (2006). Unequal contributions of male and female gene pools from parental populations in the African descendants of the city of Melo, Uruguay. *American Journal of Physical Anthropology*, 131(1), pp. 84–92.
-
----
 
 ## Identidad indígena contemporánea y patrimonio
 
@@ -82,8 +70,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 
 **ONU** (2007). *Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas*. Nueva York: ONU. (Uruguay votó a favor.)
 
----
-
 ## Obras generales de historia uruguaya con referencia a pueblos originarios
 
 **Barran, José Pedro y Nahum, Benjamín** (1971–1978). *Historia Rural del Uruguay Moderno*. Montevideo: Ediciones de la Banda Oriental. Referencia sobre la transición al Uruguay agrario moderno, con contexto sobre las poblaciones indígenas.
@@ -91,8 +77,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 **Frega, Ana (coord.)** (2009). *Historia regional e independencia del Uruguay*. Montevideo: Ediciones de la Banda Oriental.
 
 **Real de Azúa, Carlos** (1984). *Uruguay: ¿una sociedad amortiguadora?* Montevideo: CIESU/EBO.
-
----
 
 ## Revistas académicas de referencia
 
@@ -104,8 +88,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 
 **Revista Uruguaya de Antropología y Etnografía** (FHumE, UdelaR). Publicación especializada nacional; artículos sobre arqueología, etnohistoria y antropología del Uruguay.
 
----
-
 ## Recursos institucionales y en línea
 
 **Facultad de Humanidades y Ciencias de la Educación, Universidad de la República (FHCE-UdelaR):** https://fhce.edu.uy — Departamento de Arqueología y de Antropología; publicaciones y proyectos de investigación sobre pueblos originarios.
@@ -115,8 +97,6 @@ Compilación de fuentes primarias, obras académicas y recursos institucionales 
 **Comisión del Patrimonio Cultural de la Nación (CPCN), MEC:** https://www.gub.uy/ministerio-educacion-cultura/patrimonio — información sobre sitios y bienes protegidos.
 
 **IMPO (Registro Nacional de Leyes):** https://www.impo.com.uy — texto de la Ley 14.040 y otras normas sobre patrimonio.
-
----
 
 ## Palabras clave
 

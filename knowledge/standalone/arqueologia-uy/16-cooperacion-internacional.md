@@ -1,12 +1,8 @@
 # Cooperación Internacional en Arqueología Uruguaya
 
----
-
 ## Introducción
 
 La arqueología uruguaya ha desarrollado vínculos de cooperación internacional que han contribuido a la formación de investigadores, la incorporación de métodos y tecnologías, la obtención de financiamiento y la publicación de resultados en revistas internacionales. Este archivo documenta los principales ejes de cooperación.
-
----
 
 ## Cooperación con universidades e instituciones extranjeras
 
@@ -36,8 +32,6 @@ La cooperación con universidades argentinas ha sido constante en la arqueologí
 
 **José Iriarte** realizó su doctorado en la Universidad de Kentucky; sus investigaciones en Uruguay generaron vínculos académicos con grupos norteamericanos interesados en la arqueología de Sudamérica tropical.
 
----
-
 ## Participación en redes y congresos internacionales
 
 ### Congreso Internacional de Americanistas (ICA)
@@ -60,8 +54,6 @@ La participación en el WAC ha facilitado la inserción de la arqueología urugu
 
 El **Congreso Nacional de Arqueología Uruguaya** es el principal evento periódico de la disciplina en el país. Reúne a investigadores nacionales e internacionales y constituye el principal espacio de intercambio científico local.
 
----
-
 ## Convenios y proyectos internacionales
 
 ### Proyecto CSIC-UDELAR (Gianotti)
@@ -76,15 +68,11 @@ La **ANII** ha financiado proyectos de arqueología con componentes de cooperaci
 
 Algunos proyectos de arqueología preventiva asociados a obras de infraestructura han incluido cooperación técnica internacional, especialmente en el ámbito de la evaluación de impacto sobre el patrimonio.
 
----
-
 ## Relaciones con UNESCO e ICOMOS
 
 Uruguay es Estado Miembro de la **UNESCO** y participa en las convenciones internacionales sobre patrimonio cultural. La **Comisión del Patrimonio Cultural de la Nación (CPCN)** coordina con la UNESCO en materia de Patrimonio de la Humanidad (Colonia del Sacramento, 1995; Paisaje Industrial Fray Bentos, 2015).
 
 **ICOMOS Uruguay** es el comité nacional del Consejo Internacional de Monumentos y Sitios, que proporciona asesoría técnica en materia de patrimonio construido y arqueológico.
-
----
 
 ## Formación de investigadores en el exterior
 
@@ -97,8 +85,6 @@ Varios de los arqueólogos uruguayos más activos han realizado parte de su form
 | Andrés Gascue | [VERIFICAR] | [VERIFICAR] |
 | Rafael Suárez | [VERIFICAR] | [VERIFICAR] |
 
----
-
 ## Publicaciones internacionales de arqueólogos uruguayos (selección)
 
 | Publicación | Revista / Editorial | Autores |
@@ -107,8 +93,6 @@ Varios de los arqueólogos uruguayos más activos han realizado parte de su form
 | Artículos sobre cerritos | *Latin American Antiquity* | López Mazz, Iriarte, et al. |
 | Artículos sobre paleoambiente y fitolitos | *Quaternary Science Reviews*, *Journal of Archaeological Science* | Iriarte, Capdepont, et al. |
 | Artículos sobre tecnología lítica y poblamiento temprano | *Quaternary International* | Suárez, Gascue, et al. |
-
----
 
 ## Palabras clave
 

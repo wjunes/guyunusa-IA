@@ -1,3 +1,5 @@
+# Vacunación en Uruguay — Programa Nacional de Vacunación (PNV)
+
 ## Resumen
 
 El **Programa Nacional de Vacunación (PNV)** de Uruguay es uno de los más completos y con mayores coberturas de América Latina. El esquema vacunal es obligatorio y gratuito para toda la población, gestionado por el MSP a través de la red de ASSE y las IAMC. Uruguay fue uno de los primeros países de la región en erradicar la poliomielitis (1979), el sarampión endémico y la rubéola. El esquema vacunal uruguayo incluye más de 20 antígenos y cubre desde el nacimiento hasta la vejez, incluyendo vacunas para grupos de riesgo específicos. Las coberturas de vacunación en Uruguay son históricamente altas, cercanas o superiores al 90% en la mayoría de las vacunas del esquema.

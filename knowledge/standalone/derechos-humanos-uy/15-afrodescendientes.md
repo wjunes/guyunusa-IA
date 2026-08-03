@@ -1,3 +1,5 @@
+# Derechos de la población afrodescendiente en Uruguay
+
 ## Resumen
 
 Los **afrodescendientes** representan aproximadamente el **8-9% de la población** de Uruguay, según el Censo de 2011 —una proporción más alta de lo que el relato histórico del "Uruguay europeo" reconocía. La comunidad afrodescendiente es portadora de una herencia cultural fundamental —el **candombe**, el carnaval, las comparsas— y al mismo tiempo enfrenta **discriminación estructural** en el acceso al mercado laboral, la educación y la vivienda. La **Ley 19.122** (2013) estableció acciones afirmativas, incluyendo cuotas del 8% en el empleo público y en las becas universitarias para personas afrodescendientes. La **desigualdad racial** es un desafío pendiente: los afrodescendientes tienen menores ingresos, mayor pobreza y menores logros educativos que la población blanca en promedio.

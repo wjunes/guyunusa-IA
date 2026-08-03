@@ -9,8 +9,6 @@
 | 1778 | Reglamento de Libre Comercio borbónico: Montevideo habilitado como puerto de comercio libre; crecimiento del tráfico comercial y de las rentas aduaneras |
 | 1791 | Virreinato del Río de la Plata consolida a Montevideo como apostadero naval y punto de control aduanero del cono sur |
 
----
-
 ## Independencia y primeras décadas republicanas (1811–1860)
 
 | Año | Evento |
@@ -21,8 +19,6 @@
 | 1839–1851 | Guerra Grande: bloqueos al puerto; dificultades para el funcionamiento normal de la aduana |
 | 1867 | Fundación de la Bolsa de Valores de Montevideo, vinculada al comercio exterior |
 
----
-
 ## Modernización institucional (1860–1930)
 
 | Año | Evento |
@@ -32,8 +28,6 @@
 | 1911–1915 | Segundo gobierno de Batlle y Ordóñez: política de protección arancelaria a la industria nacional |
 | 1920s | Consolidación del Puerto de Montevideo como principal puerto del Río de la Plata |
 
----
-
 ## Proteccionismo e industrialización (1930–1970)
 
 | Año | Evento |
@@ -41,8 +35,6 @@
 | 1929–1933 | Gran Depresión: Uruguay eleva aranceles; restricciones a importaciones; controles de cambio |
 | 1940s–1950s | ISI (Industrialización por Sustitución de Importaciones): aranceles diferenciales; exenciones para bienes de capital; restricciones a importaciones competitivas |
 | 1955–1965 | Crisis del modelo ISI; inflación crónica; escasez de divisas; control de cambios como instrumento de protección |
-
----
 
 ## Apertura y crisis (1970–1990)
 
@@ -54,8 +46,6 @@
 | 1984 | **Decreto-Ley 15.691**: aprobación del Código Aduanero del Uruguay; organización sistemática de la normativa |
 | 1985 | Restauración democrática; continuidad de la apertura comercial |
 | 1987 | **Ley 15.921**: Régimen de Zonas Francas de Uruguay |
-
----
 
 ## MERCOSUR y modernización (1991–2010)
 
@@ -71,8 +61,6 @@
 | 2005 | OMA adopta el Marco Normativo SAFE (base para el programa OEA); Uruguay avanza en su adhesión |
 | 2010 | MERCOSUR aprueba el Código Aduanero del MERCOSUR (CAM) mediante Decisión CMC 27/10 |
 
----
-
 ## Modernización reciente (2011–2024)
 
 | Año | Evento |
@@ -86,8 +74,6 @@
 | 2022 | Avances en la digitalización del despacho aduanero; integración con ventanilla única electrónica de comercio exterior |
 | 2023 | Uruguay continúa el proceso de adhesión a la OCDE, que incluye revisión de estándares de facilitación comercial |
 | 2024 | Sistema aduanero uruguayo reconocido por sus indicadores de facilitación del comercio en el contexto regional |
-
----
 
 ## Palabras clave
 

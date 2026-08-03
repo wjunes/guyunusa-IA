@@ -15,8 +15,6 @@
 | **Límites** | Brasil (norte y este: Río Grande do Sul); Tacuarembó (sur y oeste); Cerro Largo (sureste) |
 | **Rutas principales** | Ruta 5, Ruta 27, Ruta 30 |
 
----
-
 ## Historia
 
 ### Frontera seca y fundación
@@ -32,8 +30,6 @@ El departamento de Rivera fue creado en **1884**, separándose de Tacuarembó. S
 ### Zona franca y comercio
 
 Rivera se convirtió a fines del siglo XX en un centro comercial de frontera de gran importancia. La **Zona Franca de Rivera** (inaugurada en los años 1990) ha impulsado el comercio, los servicios y el empleo en la región.
-
----
 
 ## Geografía
 
@@ -58,8 +54,6 @@ Clima **subtropical húmedo** (Cfa) con influencia tropical en el norte. Tempera
 
 Suelos rojo-amarillentos del norte; lateríticos; aptos para forestación y ganadería extensiva.
 
----
-
 ## Naturaleza
 
 ### Ecorregión
@@ -81,8 +75,6 @@ La biodiversidad del norte de Rivera es de las más ricas del Uruguay, por la in
 | **Valle del Lunarejo** (Tacuarembó/Rivera) | Quebrada con vegetación subtropical; propuesta de área protegida [VERIFICAR estado SNAP] |
 | **Bosques de quebrada del norte** | Remanentes de Mata Atlántica; alta biodiversidad local |
 
----
-
 ## Economía
 
 ### Perfil económico
@@ -101,8 +93,6 @@ Rivera combina ganadería extensiva, forestación industrial, comercio de fronte
 
 La **Zona Franca de Rivera** es un polo de actividad económica y logística en la frontera. Atrae inversión extranjera y genera empleo en servicios especializados, con ventajas impositivas [VERIFICAR detalles de operatividad actual].
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -112,8 +102,6 @@ La **Zona Franca de Rivera** es un polo de actividad económica y logística en 
 | **UTEC** | Cursos tecnológicos regionales [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -121,8 +109,6 @@ La **Zona Franca de Rivera** es un polo de actividad económica y logística en 
 | **Hospital Departamental de Rivera** | Principal hospital público (ASSE) |
 | **Policlínicas ASSE** | Red en localidades del interior |
 | **Mutualistas** | Presencia de IMEBA y otras [VERIFICAR] |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -132,8 +118,6 @@ La **Zona Franca de Rivera** es un polo de actividad económica y logística en 
 | **Catedral de Rivera** | Iglesia principal |
 | **Palacio de la Intendencia** | Sede del gobierno departamental |
 | **Monumento a Fructuoso Rivera** | Homenaje al fundador homónimo |
-
----
 
 ## Cultura
 
@@ -153,8 +137,6 @@ Ganaderas: jineteadas, desfiles de gauchos. Música: influencia del folclore gau
 
 Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijoada, chipa (pan paraguayo), dulces. Los free shops son un fenómeno cultural propio de la frontera.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -162,8 +144,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | **Club Atlético Rivera** | Principal club de fútbol del departamento |
 | **Peñarol de Rivera / Nacional de Rivera** | Ramas locales |
 | **Fútbol de frontera** | Integración con clubes brasileños de Livramento |
-
----
 
 ## Turismo
 
@@ -173,8 +153,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | **Comercio de frontera / Free shops** | Turismo de compras; ropa, electrónica, bebidas alcohólicas |
 | **Zona norte (quebradas)** | Naturaleza; aves; flora subtropical |
 | **Termas de Almeida** [VERIFICAR existencia en Rivera] | Turismo termal |
-
----
 
 ## Infraestructura
 
@@ -186,8 +164,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | **Zona Franca de Rivera** | Infraestructura logística e industrial |
 | **OSE, UTE, ANTEL** | Servicios básicos departamentales |
 
----
-
 ## Instituciones
 
 | Institución | Descripción |
@@ -198,8 +174,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | **Municipio de Tranqueras** | Localidad interior |
 | **DNA / Aduana** | Control fronterizo |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -208,8 +182,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | **Tabaré Vázquez** (Montevideo, 1940–2020; el departamento está asociado a apoyo político) | Política | Primer presidente de izquierda de Uruguay (2005–2010 y 2015–2020) [relación con Rivera solo geopolítica] |
 
 *Nota: La mayoría de las personalidades más célebres de Rivera están más ligadas a la ganadería, la milicia y la política del siglo XIX. Se ampliará con fuentes locales [VERIFICAR].*
-
----
 
 ## Estadísticas
 
@@ -220,16 +192,12 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | Densidad | 11,7 hab./km² | INE |
 | Localidades principales | Rivera, Tranqueras, Vichadero, Minas de Corrales | INE |
 
----
-
 ## Curiosidades
 
 - La **Plaza Internacional** de Rivera–Santana do Livramento es uno de los pocos lugares del mundo donde dos países comparten un espacio público urbano sin ninguna barrera ni control formal.
 - Rivera es la única ciudad capital departamental de Uruguay que está **literalmente** unida a una ciudad extranjera.
 - El **Portuñol** o DPU (Dialecto Portugués del Uruguay) del norte uruguayo es objeto de estudio lingüístico; en Rivera se habla cotidianamente como lengua de uso.
 - Las **Minas de Corrales** (departamento de Rivera) fueron históricamente un centro de extracción de oro en el siglo XIX, generando un episodio de "fiebre del oro" a pequeña escala.
-
----
 
 ## Cronología
 
@@ -243,8 +211,6 @@ Mezcla de gastronomía uruguaya y brasileña: asado, churrasco brasileño, feijo
 | Siglo XX | Ganadería y forestación como bases económicas |
 | 1990s | Instalación de la Zona Franca de Rivera; boom comercial fronterizo |
 | 2000s | Expansión de plantaciones forestales para celulosa |
-
----
 
 ## Palabras clave
 

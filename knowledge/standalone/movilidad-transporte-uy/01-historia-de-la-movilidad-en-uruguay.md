@@ -4,8 +4,6 @@
 
 La historia del transporte en Uruguay refleja las transformaciones económicas, sociales y tecnológicas del país desde el período colonial hasta la actualidad. El desarrollo de las redes de comunicación terrestre, ferroviaria, fluvial y aérea acompañó la consolidación del Estado, la integración del territorio nacional y la inserción del país en los circuitos de comercio internacional.
 
----
-
 ## Período colonial (siglos XVII–XVIII)
 
 Durante el período colonial, la movilidad en el territorio que hoy constituye Uruguay se realizaba fundamentalmente mediante caminos de tierra y rutas fluviales. La fundación de Montevideo en 1724 estableció el principal núcleo urbano y portuario de la región.
@@ -20,8 +18,6 @@ El Río de la Plata y el Río Uruguay constituyeron vías de comunicación funda
 | Siglo XVII | Embarcaciones fluviales | Comercio Río de la Plata/Uruguay |
 | Siglo XVIII | Caminos coloniales | Comunicación Montevideo-interior |
 
----
-
 ## Primera mitad del siglo XIX
 
 Tras la Declaratoria de Independencia (1825) y la creación del Estado Oriental del Uruguay (1830), la red de comunicaciones comenzó a organizarse de manera sistemática. Los caminos nacionales siguieron siendo de tierra, transitables con dificultad durante el invierno.
@@ -29,8 +25,6 @@ Tras la Declaratoria de Independencia (1825) y la creación del Estado Oriental 
 Las diligencias —vehículos de tracción animal tirados por caballos o mulas— comenzaron a operar como servicio regular de transporte de pasajeros y correspondencia entre Montevideo y las ciudades del interior. Estas empresas de transporte privadas establecieron tiempos de viaje que podían superar varios días para distancias que hoy se recorren en pocas horas.
 
 El Puerto de Montevideo consolidó su posición como principal nodo de intercambio con el exterior. La navegación a vapor, introducida en el Río de la Plata en la década de 1820, fue transformando gradualmente el transporte fluvial.
-
----
 
 ## El ferrocarril (1869–1948)
 
@@ -56,8 +50,6 @@ Las estaciones ferroviarias se convirtieron en puntos de articulación de la vid
 
 En 1948, el Estado uruguayo adquirió las líneas ferroviarias de las empresas británicas. En 1952 se creó la **Administración de Ferrocarriles del Estado (AFE)** como ente autónomo responsable de la gestión de la red ferroviaria. La AFE heredó una infraestructura que ya mostraba signos de deterioro y enfrentó durante décadas la competencia creciente del transporte carretero.
 
----
-
 ## Los tranvías de Montevideo (1868–1957)
 
 El tranvía de tracción animal fue introducido en Montevideo en 1868, convirtiéndose en el primer sistema de transporte colectivo urbano de la ciudad. Las líneas tranviarias conectaron el Centro con los barrios periféricos, impulsando el crecimiento urbano en dirección a las zonas costeras y al norte de la ciudad.
@@ -73,8 +65,6 @@ El tranvía operó como principal medio de transporte colectivo urbano de Montev
 | Extensión máxima de la red tranviaria | ~130 km de vías |
 | Clausura definitiva del sistema tranviario | 1957 |
 
----
-
 ## El automóvil y los ómnibus (décadas de 1900–1950)
 
 Los primeros automóviles llegaron a Uruguay a fines del siglo XIX. En las primeras décadas del siglo XX, el automóvil comenzó a popularizarse entre los sectores de mayores ingresos, mientras que el transporte colectivo se fue articulando en torno a los ómnibus de tracción a nafta o gasoil.
@@ -82,8 +72,6 @@ Los primeros automóviles llegaron a Uruguay a fines del siglo XIX. En las prime
 Las primeras líneas de ómnibus urbanos en Montevideo comenzaron a operar en la década de 1920, inicialmente como complemento del tranvía y posteriormente como alternativa que progresivamente ganó terreno. La flexibilidad de los ómnibus —que no requerían infraestructura fija de rieles— permitió la expansión del sistema hacia nuevas zonas urbanas.
 
 El transporte interdepartamental en ómnibus también se desarrolló durante estas décadas, estableciendo líneas regulares entre Montevideo y las principales ciudades del interior.
-
----
 
 ## Expansión del transporte carretero (décadas de 1950–1980)
 
@@ -93,15 +81,11 @@ La red de rutas nacionales fue pavimentada progresivamente, conectando Montevide
 
 El transporte de cargas por carretera desplazó al ferrocarril como principal modo de transporte interno, provocando una reducción sostenida de los servicios de AFE.
 
----
-
 ## La aviación civil (desde 1916)
 
 La aviación civil en Uruguay se inició en las primeras décadas del siglo XX. El Aeropuerto Internacional de Carrasco —cuyo nombre oficial es Aeropuerto Internacional de Carrasco "General Cesáreo L. Berisso"— se desarrolló como principal hub aéreo del país. PLUNA (Primeras Líneas Uruguayas de Navegación Aérea), fundada en 1936, fue la aerolínea de bandera del Uruguay durante más de siete décadas, hasta su liquidación en 2012.
 
 La Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica (DINACIA) asumió la regulación del espacio aéreo y la administración de la infraestructura aeroportuaria.
-
----
 
 ## Modernización del transporte urbano (décadas de 1990–2010)
 
@@ -109,15 +93,11 @@ A partir de la década de 1990, el sistema de transporte urbano de Montevideo co
 
 Se construyeron **corredores preferenciales** para ómnibus en las principales avenidas de Montevideo, mejorando la velocidad comercial del transporte colectivo. El sistema de bicicletas públicas y la red de ciclovías se expandieron como alternativas de movilidad sostenible.
 
----
-
 ## El Ferrocarril Central y la electromovilidad (siglo XXI)
 
 El proyecto del **Ferrocarril Central**, concebido como infraestructura logística para el transporte de celulosa desde la planta de UPM2 en Paso de los Toros (Durazno) hasta el Puerto de Montevideo, representó la mayor inversión ferroviaria de la historia del Uruguay. La obra, con una extensión de aproximadamente 270 kilómetros, fue inaugurada en 2023 y es operada por AFE para el transporte de cargas.
 
 En paralelo, el Uruguay implementó políticas de fomento a la **electromovilidad**: incentivos fiscales para vehículos eléctricos, expansión de la red de cargadores públicos de UTE, y renovación parcial de la flota de transporte colectivo con unidades eléctricas e híbridas.
-
----
 
 ## Resumen cronológico
 
@@ -136,8 +116,6 @@ En paralelo, el Uruguay implementó políticas de fomento a la **electromovilida
 | 2010 | Creación del Sistema de Transporte Metropolitano (STM) |
 | 2012 | Liquidación de PLUNA |
 | 2023 | Inauguración del Ferrocarril Central (Montevideo–Paso de los Toros) |
-
----
 
 ## Palabras clave
 

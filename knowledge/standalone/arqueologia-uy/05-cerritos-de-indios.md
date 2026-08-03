@@ -1,14 +1,10 @@
 # Cerritos de Indios
 
----
-
 ## Definición
 
 Los **cerritos de indios** —también denominados **montículos artificiales**, **aterros** (en portugués-brasileño) o **tesos**— son estructuras de tierra construidas intencionalmente por grupos humanos prehispánicos en el territorio de la actual República Oriental del Uruguay y regiones adyacentes del sur del Brasil. Constituyen el tipo de sitio arqueológico más numeroso y característico del Uruguay, y representan una de las tradiciones constructivas más significativas de la arqueología del Río de la Plata.
 
 Su nombre popular ("cerritos de indios") refleja el reconocimiento temprano por parte de la población local de que se trataba de construcciones humanas y no de formaciones naturales.
-
----
 
 ## Distribución geográfica
 
@@ -26,8 +22,6 @@ La distribución total de cerritos en Uruguay supera los **varios miles de mont�
 
 En el sur de Brasil (especialmente en el estado de Rio Grande do Sul) existe una continuación de la misma tradición constructiva, conocida como **aterros**. La investigación sobre cerritos ha sido transfronteriza desde sus inicios.
 
----
-
 ## Morfología
 
 Los cerritos presentan una diversidad morfológica considerable:
@@ -36,8 +30,6 @@ Los cerritos presentan una diversidad morfológica considerable:
 - **Altura:** generalmente entre 0,5 m y 3 m sobre el terreno circundante, aunque algunos superan los 4–5 m.
 - **Diámetro:** entre 10 m y más de 100 m de diámetro en la base.
 - **Organización espacial:** frecuentemente se encuentran en grupos o complejos de varios montículos (conjuntos de 2 a más de 20 cerritos), a veces con zanjas o depresiones artificiales asociadas.
-
----
 
 ## Cronología
 
@@ -50,8 +42,6 @@ Las dataciones radiocarbónicas disponibles para los cerritos uruguayos establec
 | Continuación tardía | ~1.500–500 AP | Cerritos con materiales tardíos; posibles cambios en los grupos constructores |
 
 Las dataciones han sido obtenidas principalmente mediante radiocarbono AMS sobre carbones, restos óseos y valvas de moluscos. Se han aplicado también dataciones por luminiscencia (TL/OSL) en algunos casos.
-
----
 
 ## Construcción y técnicas
 
@@ -66,8 +56,6 @@ La investigación arqueológica ha permitido determinar que los cerritos no son 
 - Zanjado perimetral en algunos cerritos.
 
 La construcción fue acumulativa a lo largo de generaciones, con añadidos sucesivos de material que elevaron progresivamente el montículo.
-
----
 
 ## Funciones propuestas
 
@@ -85,8 +73,6 @@ El debate sobre las funciones de los cerritos ha sido central en la arqueología
 
 El modelo más aceptado en la literatura científica actual considera a los cerritos como **lugares multipropósito**: espacios de habitación, enterramiento, procesamiento de alimentos y probablemente de reunión social, construidos y reutilizados a lo largo del tiempo.
 
----
-
 ## Entierros humanos
 
 Las excavaciones en cerritos han recuperado numerosos restos humanos en distintas posiciones y modalidades de inhumación:
@@ -99,8 +85,6 @@ Las excavaciones en cerritos han recuperado numerosos restos humanos en distinta
 
 Los análisis bioarqueológicos (paleopatología, isótopos estables, ADN antiguo) han permitido obtener información sobre dieta, salud, movilidad y parentesco de los individuos inhumados.
 
----
-
 ## Subsistencia de los constructores
 
 Los análisis zooarqueológicos y paleobotánicos han revelado una economía diversificada:
@@ -111,8 +95,6 @@ Los análisis zooarqueológicos y paleobotánicos han revelado una economía div
 - **Vegetales:** fitolitos de palmáceas (palma butiá), gramíneas. Evidencias controvertidas de maíz en algunos contextos.
 
 La dieta reconstruida mediante isótopos de carbono y nitrógeno (δ¹³C, δ¹⁵N) en restos humanos indica una base predominantemente de recursos acuáticos de agua dulce en algunos períodos.
-
----
 
 ## Investigaciones arqueológicas
 
@@ -145,8 +127,6 @@ Los primeros estudios sistemáticos sobre cerritos en Uruguay fueron realizados 
 
 **Camila Gianotti** (CSIC-FHCE) desarrolló aplicaciones de teledetección, SIG y análisis del paisaje para el estudio de los cerritos, así como proyectos de gestión participativa del patrimonio en comunidades rurales.
 
----
-
 ## Principales sitios de cerritos
 
 | Nombre / Complejo | Departamento | Cerritos registrados | Investigaciones |
@@ -159,8 +139,6 @@ Los primeros estudios sistemáticos sobre cerritos en Uruguay fueron realizados 
 | Laguna Merín (costa uruguaya) | Rocha | Múltiples complejos | López Mazz, Bracco |
 | Río Negro (embalse Rincón del Bonete) | Durazno/Tacuarembó/Rivera | Varios (algunos inundados) | [VERIFICAR] |
 
----
-
 ## Amenazas y estado de conservación
 
 Los cerritos enfrentan múltiples amenazas:
@@ -172,8 +150,6 @@ Los cerritos enfrentan múltiples amenazas:
 - **Falta de señalización y protección en sitios privados.**
 
 El estado de conservación es variable: algunos cerritos están en excelente estado en áreas protegidas o en terrenos poco intervenidos, mientras que otros han sido parcial o totalmente destruidos.
-
----
 
 ## Palabras clave
 

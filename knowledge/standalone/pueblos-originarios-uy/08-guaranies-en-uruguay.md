@@ -4,8 +4,6 @@
 
 Los **guaraníes** son uno de los grandes grupos lingüístico-culturales de América del Sur, con una extensión territorial que abarcaba en el período prehispánico y colonial vastas áreas del actual Paraguay, Brasil, Argentina, Bolivia y Uruguay. En el actual territorio uruguayo, la presencia guaraní se concentraba principalmente en el **nordeste**, especialmente en las márgenes del Río Uruguay y sus afluentes, y se intensificó con la fundación de las **misiones jesuíticas** en el siglo XVII.
 
----
-
 ## Presencia prehispánica de los guaraníes en Uruguay
 
 ### Distribución territorial
@@ -46,8 +44,6 @@ A diferencia de los grupos cazadores-recolectores del centro y sur del Uruguay, 
 - Los chamanes eran mediadores entre el mundo humano y el espiritual.
 - **Danzas rituales** de gran importancia colectiva.
 
----
-
 ## Lengua guaraní
 
 El guaraní es una de las lenguas indígenas mejor conservadas de América del Sur:
@@ -56,8 +52,6 @@ El guaraní es una de las lenguas indígenas mejor conservadas de América del S
 - En el período colonial, el guaraní fue adoptado como **lengua franca** por los jesuitas en las misiones, lo que contribuyó a su difusión y conservación.
 - El guaraní dejó numerosos **topónimos** en el Uruguay. → Ver `20-toponimia-indigena.md`
 - Palabras de origen guaraní integradas al español rioplatense: *ombú*, *jaguar*, *tapioca*, *maíz*, *mandioca*, *ñandú*, *carpincho*, *tucán*, entre muchas otras.
-
----
 
 ## Las Misiones Jesuíticas y los Guaraníes del Uruguay
 
@@ -92,8 +86,6 @@ Las misiones fueron objeto de ataques permanentes por parte de:
 - **Grupos charrúas, minuanes y yaros** que atacaban los pueblos misioneros.
 - **Disputas coloniales** entre España y Portugal.
 
----
-
 ## Expulsión de los jesuitas (1767) y consecuencias
 
 La **expulsión de los jesuitas** de los territorios españoles, decretada por el rey Carlos III en **1767**, tuvo consecuencias devastadoras para los pueblos misionales:
@@ -102,8 +94,6 @@ La **expulsión de los jesuitas** de los territorios españoles, decretada por e
 - Muchos se integraron a la población rural de la región.
 - Las estructuras físicas de las misiones comenzaron a deteriorarse.
 
----
-
 ## Legado guaraní en Uruguay
 
 El legado guaraní en el actual Uruguay es significativo:
@@ -111,8 +101,6 @@ El legado guaraní en el actual Uruguay es significativo:
 - **Vocabulario:** numerosas palabras del español hablado en Uruguay tienen origen guaraní.
 - **Patrimonio arquitectónico:** ruinas de pueblos misionales en la zona fronteriza.
 - **Genética:** estudios genéticos muestran marcadores de origen guaraní en la población del norte del Uruguay.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Ministerio de Salud Pública (MSP)
+
 ## Resumen
 
 El **Ministerio de Salud Pública (MSP)** es el organismo rector del sistema de salud en Uruguay. Fundado en su forma actual en **1934**, el MSP es responsable de definir y ejecutar las políticas sanitarias nacionales, regular y habilitar a los prestadores de salud, fiscalizar el cumplimiento de los derechos de los usuarios, gestionar los programas de salud pública y ejercer la vigilancia epidemiológica. La **Constitución uruguaya** (artículo 44) establece que "el Estado legislará en todas las cuestiones relacionadas con la salud e higiene públicas" y que los habitantes tienen el deber de someterse a las medidas sanitarias que establezca la ley. El MSP es la máxima autoridad sanitaria del país y la institución rectora del **Sistema Nacional Integrado de Salud (SNIS)** creado en 2007.

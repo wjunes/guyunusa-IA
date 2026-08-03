@@ -1,3 +1,5 @@
+# Biodiversidad en Uruguay
+
 ## Resumen
 
 Uruguay posee una **biodiversidad significativa y característica** de la región pampeana y del Cono Sur, con elementos propios del litoral atlántico, las costas del Río de la Plata, los humedales del este y las sierras del norte. Aunque no alcanza la megadiversidad de los trópicos, cuenta con más de **3.000 especies de plantas vasculares**, más de **600 especies de aves** (incluyendo aves migratorias de todo el hemisferio), decenas de especies de mamíferos, reptiles y anfibios, y una rica fauna marina. El **pastizal natural** (praderas) es el ecosistema más extenso e identitario del país, pero uno de los más amenazados por la expansión agrícola. La pérdida de hábitat, el uso de agroquímicos y las especies exóticas invasoras son las principales amenazas.

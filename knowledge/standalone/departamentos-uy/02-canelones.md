@@ -15,8 +15,6 @@
 | **Límites** | Montevideo (sur), San José (oeste), Florida (norte), Lavalleja (noreste), Maldonado (este), Océano Atlántico (sureste) |
 | **Rutas principales** | Ruta 1, Ruta 5, Ruta 7, Ruta 8, Ruta 9, Ruta 11, Ruta 36, Ruta 101 |
 
----
-
 ## Historia
 
 ### Período colonial
@@ -30,8 +28,6 @@ Incluido en la división artiguista de 1816, el departamento de Canelones fue fo
 ### Siglo XIX–XX: industrialización y urbanización
 
 La expansión del ferrocarril en la segunda mitad del siglo XIX conectó varias localidades de Canelones con Montevideo, impulsando la industrialización y el crecimiento demográfico. Durante el siglo XX, la suburbanización de Montevideo se expandió hacia Canelones, generando un continuum urbano que incluye ciudades como Las Piedras, Ciudad de la Costa, Pando y La Paz.
-
----
 
 ## Geografía
 
@@ -53,8 +49,6 @@ Terreno predominantemente **llano a suavemente ondulado**, sobre el Escudo Crist
 
 Clima **templado oceánico** (Cfa según Köppen), suavizado por la proximidad al Río de la Plata y el Atlántico. Temperatura media anual: ~17–18 °C. Precipitaciones: ~1.100–1.200 mm/año. Veranos cálidos; inviernos suaves.
 
----
-
 ## Naturaleza
 
 ### Ecosistemas
@@ -64,8 +58,6 @@ Canelones abarca ecosistemas de pradera modificada, monte ribereño, zonas coste
 ### Costa atlántica
 
 La franja costera de Canelones (Atlántida, Parque del Plata, Salinas, Marindia) presenta playas arenosas, pequeñas lagunas costeras y cordones dunares.
-
----
 
 ## Economía
 
@@ -85,8 +77,6 @@ La proximidad a Montevideo convirtió a Canelones en una zona de radicación ind
 
 La costa atlántica de Canelones (Atlántida, Parque del Plata, La Floresta, Salinas) es un importante destino turístico de verano para residentes de Montevideo.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -97,8 +87,6 @@ La costa atlántica de Canelones (Atlántida, Parque del Plata, La Floresta, Sal
 | **INIA La Estanzuela** | Sede de investigación agropecuaria (en límite Canelones-Colonia) [VERIFICAR ubicación exacta] |
 | Centros de UdelaR | Sedes regionales de la Universidad de la República |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -108,8 +96,6 @@ La costa atlántica de Canelones (Atlántida, Parque del Plata, La Floresta, Sal
 | **Hospital de Pando** | Servicios de salud pública |
 | Mutualistas y clínicas privadas | Amplia red por la densidad poblacional |
 
----
-
 ## Arquitectura y patrimonio
 
 | Edificio / Sitio | Descripción |
@@ -118,8 +104,6 @@ La costa atlántica de Canelones (Atlántida, Parque del Plata, La Floresta, Sal
 | **Museo Departamental de Canelones** | Historia local |
 | **Bodegas históricas** | Arquitectura vitivinícola del siglo XIX-XX |
 | **Observatorio Astronómico Los Molinos** | Observatorio de la Facultad de Ciencias (UdelaR); en Canelones |
-
----
 
 ## Cultura
 
@@ -135,8 +119,6 @@ La costa atlántica de Canelones (Atlántida, Parque del Plata, La Floresta, Sal
 
 Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **frutas** y **hortalizas frescas**. El queso artesanal y los embutidos caseros son parte de la tradición rural del interior del departamento.
 
----
-
 ## Deportes
 
 | Club | Descripción |
@@ -145,8 +127,6 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | **Deportivo Maldonado** [VERIFICAR] | Clubes de fútbol departamental |
 | **Club Atlético Pando** | Fútbol y otros deportes |
 | **Hipódromo de Las Piedras** | Actividad hípica de relevancia nacional |
-
----
 
 ## Turismo
 
@@ -157,8 +137,6 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | **Observatorio Astronómico Los Molinos** | Ciencia y divulgación astronómica |
 | **Parque del Plata** | Balneario residencial; turismo de naturaleza |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -167,8 +145,6 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | **Aeropuerto Internacional de Carrasco** | En territorio de Canelones, en el límite con Montevideo (código IATA: MVD) — principal aeropuerto del país |
 | **Ferrocarril** | Líneas de AFE históricamente conectan Las Piedras y Pando con Montevideo [VERIFICAR operatividad] |
 | **Agua potable** | Planta de Aguas Corrientes (OSE) sobre el río Santa Lucía; abastece a Montevideo y alrededores |
-
----
 
 ## Instituciones
 
@@ -179,16 +155,12 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | **Municipios** | Múltiples: Las Piedras, Pando, Canelones, La Paz, Progreso, Atlántida, entre otros (~15–20 municipios) [VERIFICAR lista] |
 | **LATU** (sede regional) | Laboratorio Tecnológico del Uruguay |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Julio María Sanguinetti** (Las Piedras, 1936) | Política | Presidente de Uruguay (1985–1990 y 1995–2000); periodista y escritor |
 | **Eduardo Galeano** (¿nacido en Montevideo? vinculado a Canelones) [VERIFICAR] | Literatura | — |
-
----
 
 ## Estadísticas
 
@@ -199,16 +171,12 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | Densidad | 134,2 hab./km² | INE |
 | Ciudad más poblada | Ciudad de la Costa (~100.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - El **Aeropuerto Internacional de Carrasco (MVD)**, principal puerta de entrada aérea al Uruguay, está técnicamente ubicado en el departamento de Canelones, no en Montevideo.
 - Canelones tiene el mayor número de **municipios** del país, reflejo de su alta densidad de localidades.
 - La bodega **Establecimiento Juanicó** es una de las más antiguas del Uruguay, con más de 150 años de historia.
 - El **Observatorio Astronómico Los Molinos**, de la Facultad de Ciencias (UdelaR), es el principal observatorio astronómico del país y se ubica en Canelones.
-
----
 
 ## Cronología
 
@@ -222,8 +190,6 @@ Canelones es reconocido por su producción de **vinos**, **aceite de oliva**, **
 | 1950s–1980s | Suburbanización de Montevideo hacia Canelones |
 | 1990s | Desarrollo de Ciudad de la Costa como zona residencial |
 | 2009 | Ley 18.567; creación de numerosos municipios en el departamento |
-
----
 
 ## Palabras clave
 

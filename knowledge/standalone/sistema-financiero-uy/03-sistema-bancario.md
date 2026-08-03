@@ -12,8 +12,6 @@ Al año 2024 el sistema bancario uruguayo presenta las siguientes característic
 - **Alta liquidez**: los bancos mantienen niveles elevados de liquidez en respuesta a la historia de corridas bancarias.
 - **Baja intermediación crediticia relativa**: el crédito bancario al sector privado representa en torno al 25%–30% del PIB, menos que el promedio regional.
 
----
-
 ## Tipología de entidades habilitadas
 
 La SSF del BCU habilita y supervisa distintas categorías de intermediarios financieros:
@@ -46,8 +44,6 @@ Entidades no bancarias que prestan servicios como administración de tarjetas de
 
 Entidades no depositarias que financian compras de bienes y servicios a través de tarjetas de crédito o préstamos al consumo. Tienen menor regulación prudencial que los bancos.
 
----
-
 ## Indicadores del sistema bancario
 
 La SSF publica mensualmente indicadores de solidez del sistema bancario (CAMELS adaptado) que incluyen:
@@ -63,21 +59,15 @@ La SSF publica mensualmente indicadores de solidez del sistema bancario (CAMELS 
 
 El sistema ha mantenido indicadores de solvencia y liquidez holgados desde la reestructura de 2002–2005. El ratio de capital del sistema ha superado sistemáticamente el mínimo regulatorio del 8% requerido por Basilea II/III.
 
----
-
 ## Régimen de encaje
 
 El encaje bancario es la proporción de los depósitos que los bancos deben mantener inmovilizada en el BCU o en activos líquidos de alta calidad. El BCU fija los encajes mínimos por tipo de depósito y moneda.
 
 Los encajes en moneda extranjera han sido históricamente más elevados que en pesos, como forma de gestionar los riesgos de dolarización. Tras la crisis de 2002, los encajes fueron reforzados como medida prudencial.
 
----
-
 ## Fondo de Garantía de Depósitos
 
 El Fondo de Garantía de Depósitos de las Instituciones de Intermediación Financiera (FGDIF) fue creado por la Ley 17.613 (2002) y regulado en detalle por normativas posteriores. Garantiza a los depositantes el cobro de sus depósitos hasta un monto máximo por persona por institución en caso de quiebra o liquidación de un banco. El FGDIF es administrado por el BCU.
-
----
 
 ## Historia de intervenciones bancarias
 
@@ -89,8 +79,6 @@ El sistema bancario uruguayo ha experimentado varias crisis con intervención es
 - **Crisis de 2002**: feriado bancario de julio-agosto de 2002; liquidación de Banco Montevideo, Caja Obrera y Crédito; reestructura del BROU y el BHU.
 
 Estas experiencias moldearon una cultura bancaria de alta liquidez y alta dolarización, y un marco regulatorio orientado a la resiliencia del sistema.
-
----
 
 ## Concentración y competencia
 
@@ -105,8 +93,6 @@ El mercado bancario uruguayo es moderadamente concentrado. Los principales actor
 - **HSBC** (hasta 2014): salida del mercado uruguayo en 2014, activos adquiridos por Scotiabank.
 
 La competencia bancaria está regulada por la Ley de Defensa de la Competencia (Ley 18.159/2007), que faculta a la Comisión de Promoción y Defensa de la Competencia (CPDC) a analizar concentraciones del mercado bancario en coordinación con el BCU.
-
----
 
 ## Palabras clave
 

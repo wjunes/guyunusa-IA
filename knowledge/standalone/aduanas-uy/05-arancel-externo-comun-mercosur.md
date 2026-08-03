@@ -6,8 +6,6 @@ El MERCOSUR (Mercado Común del Sur) fue creado por el Tratado de Asunción del 
 
 El MERCOSUR es una **unión aduanera imperfecta**: los cuatro países originales aplican un Arancel Externo Común (AEC) para las importaciones provenientes de fuera del bloque, y el comercio entre los Estados parte está libre de aranceles. Se denomina "imperfecta" porque existen excepciones, perforaciones y sectores excluidos del AEC que impiden hablar de una política comercial completamente unificada.
 
----
-
 ## El Arancel Externo Común (AEC)
 
 El AEC fue adoptado por la Decisión CMC 22/94 del Consejo del Mercado Común, en vigor desde el 1 de enero de 1995. Establece una tasa arancelaria única para cada posición de la Nomenclatura Común del MERCOSUR (NCM) aplicable a las importaciones de fuera de la zona.
@@ -17,8 +15,6 @@ El AEC fue adoptado por la Decisión CMC 22/94 del Consejo del Mercado Común, e
 - **Rango de tasas**: el AEC tiene una escala de tasas que va del 0% al 35%, con tasas diferenciadas según el grado de elaboración del producto: 0%–2% para materias primas y bienes de capital no producidos en el bloque; tasas intermedias para bienes intermedios; 20%–35% para bienes finales de consumo, especialmente en sectores sensibles como automóviles (35%) y electrodomésticos.
 - **Tasa promedio**: el promedio ponderado del AEC es de aproximadamente 11%–12%.
 - **Actualización**: el AEC puede ser modificado por Decisión del CMC, requiriendo consenso de todos los Estados parte.
-
----
 
 ## Perforaciones al AEC
 
@@ -40,15 +36,11 @@ El sector automotriz tiene un régimen especial propio con elevado AEC (35%) y c
 
 El azúcar quedó excluida del régimen de libre comercio intrazona (los países tienen aranceles entre sí para el azúcar) y del AEC homogéneo, con acuerdos específicos para los países productores (principalmente Brasil).
 
----
-
 ## El libre comercio intrazona
 
 Dentro del MERCOSUR, los cuatro países originales aplican arancel **cero** en el comercio de prácticamente todos los bienes. Las excepciones principales son el azúcar (acuerdo específico) y algunos productos agropecuarios con cuotas y medidas de salvaguardia.
 
 Para Uruguay, los principales socios intrazona son Brasil y Argentina, que son también sus principales socios comerciales globales. El libre comercio intrazona beneficia especialmente a los sectores que tienen cadenas de valor regionales (agroindustria, química, automotriz).
-
----
 
 ## La Comisión de Comercio del MERCOSUR (CCM)
 
@@ -59,8 +51,6 @@ La Comisión de Comercio del MERCOSUR (CCM) es el órgano técnico del bloque en
 - Resolver consultas sobre clasificación arancelaria a través del Comité Técnico N.° 1 (CT1).
 - Administrar los mecanismos de defensa comercial: medidas antidumping, derechos compensatorios.
 - Emitir directivas sobre procedimientos aduaneros armonizados.
-
----
 
 ## Acuerdos preferenciales extrazona
 
@@ -79,13 +69,9 @@ Además del comercio libre intrazona, el MERCOSUR ha suscripto acuerdos preferen
 
 Los acuerdos preferenciales del MERCOSUR son negociados en bloque, pero Uruguay también puede negociar acuerdos comerciales bilaterales bajo las normas del ALADI (Acuerdo de Complementación Económica — ACE).
 
----
-
 ## Cláusula de nación más favorecida (NMF)
 
 Uruguay, como miembro de la OMC, está obligado a otorgar trato de Nación Más Favorecida (NMF) a todos los miembros de la OMC: si concede una ventaja arancelaria a un socio, debe extenderla a todos los demás, salvo en el marco de acuerdos de libre comercio (que son una excepción permitida bajo el Artículo XXIV del GATT) o del Sistema Generalizado de Preferencias (SGP) para países en desarrollo.
-
----
 
 ## Palabras clave
 

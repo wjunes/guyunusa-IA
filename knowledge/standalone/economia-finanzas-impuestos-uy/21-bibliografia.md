@@ -43,8 +43,6 @@
 ### COMAP (Comisión de Aplicación de la Ley de Inversiones)
 - Información sobre inversiones: https://www.gub.uy/ministerio-economia-finanzas/politicas-y-gestion/inversiones
 
----
-
 ## Normativa principal
 
 | Norma | Descripción |
@@ -66,8 +64,6 @@
 
 Texto normativo: https://www.impo.com.uy/
 
----
-
 ## Organismos internacionales
 
 ### Fondo Monetario Internacional (FMI)
@@ -87,15 +83,11 @@ Texto normativo: https://www.impo.com.uy/
 ### ALADI (Asociación Latinoamericana de Integración)
 - Estadísticas comerciales: https://www.aladi.org/nsfaladi/arquitec.nsf/vsitioweb/estadisticas
 
----
-
 ## Datos abiertos y plataformas estadísticas
 
 - **Catálogo de Datos Abiertos de Uruguay** (AGESIC): https://catalogodatos.gub.uy/
 - **Portal de Transparencia Presupuestal** (OPP/MEF): https://transparenciapresupuestaria.opp.gub.uy/
 - **SIIF - Ejecución Presupuestal** (CGN): https://www.siif.gub.uy/
-
----
 
 ## Palabras clave
 

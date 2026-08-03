@@ -6,8 +6,6 @@ El crédito bancario al sector privado en Uruguay representa en torno al 25%–3
 
 El BROU concentra la mayor cuota del crédito bancario, especialmente en el sector agropecuario. Los bancos privados (Santander, BBVA, Itaú) tienen cuotas significativas en crédito al consumo, corporativo e hipotecario.
 
----
-
 ## Tasas de interés
 
 ### Tasas de referencia
@@ -28,8 +26,6 @@ El BCU publica mensualmente las tasas activas y pasivas promedio del sistema ban
 
 Las tasas pasivas (pagadas por los bancos a los depositantes) dependen del plazo y la moneda. Los depósitos a plazo en pesos ofrecen rendimientos positivos en términos nominales, pero no siempre positivos en términos reales cuando la inflación supera las tasas.
 
----
-
 ## Tasas máximas de interés (usura)
 
 El BCU fija mensualmente las tasas máximas de interés (denominadas tasas de usura) que las instituciones financieras pueden cobrar por distintos tipos de crédito. Estas tasas máximas están definidas por el Decreto-Ley del Código Civil y la normativa del BCU.
@@ -42,8 +38,6 @@ Los tipos de crédito con tasa máxima incluyen:
 
 Superar la tasa máxima de usura configura el delito de usura tipificado en el Código Penal.
 
----
-
 ## Crédito al consumo
 
 El crédito al consumo es el segmento más amplio del crédito bancario minorista. Incluye:
@@ -54,8 +48,6 @@ El crédito al consumo es el segmento más amplio del crédito bancario minorist
 
 Además de los bancos, el crédito al consumo es ofrecido por cooperativas de ahorro y crédito (COFAC y otras), empresas administradoras de crédito y las financieras propias de grandes cadenas de retail.
 
----
-
 ## Crédito hipotecario
 
 El crédito hipotecario para la compra o construcción de vivienda puede estar denominado en:
@@ -65,8 +57,6 @@ El crédito hipotecario para la compra o construcción de vivienda puede estar d
 - **Pesos uruguayos**: a tasa fija o variable, con plazos generalmente más cortos.
 
 El BROU, el BHU, los bancos privados y algunas cooperativas otorgan crédito hipotecario. El Ministerio de Vivienda (MVOT) tiene programas de subsidio y crédito subsidiado para vivienda de interés social en coordinación con el BHU y el BROU.
-
----
 
 ## Crédito agropecuario
 
@@ -79,8 +69,6 @@ El sector agropecuario es el principal receptor de crédito del BROU. El crédit
 
 El crédito agropecuario se otorga en pesos, UI y dólares. El BROU tiene líneas especiales para el agro con tasas preferenciales y garantías del Fondo Agropecuario de Garantías (FAG) del MGAP.
 
----
-
 ## Crédito empresarial y financiamiento corporativo
 
 Las empresas uruguayas se financian a través de:
@@ -92,15 +80,11 @@ Las empresas uruguayas se financian a través de:
 - **Financiamiento multilateral**: empresas exportadoras acceden a líneas de financiamiento del BID, CAF y otros organismos a través de bancos locales.
 - **CND**: la Corporación Nacional para el Desarrollo ofrece líneas de financiamiento a PYMES.
 
----
-
 ## Central de Riesgos y historial crediticio
 
 La Central de Riesgos del BCU concentra el historial de endeudamiento de personas físicas y jurídicas en el sistema financiero formal. Los bancos consultan la Central de Riesgos para evaluar el riesgo crediticio de solicitantes de crédito.
 
 Las personas en situación de atraso o morosidad quedan registradas en la Central de Riesgos, lo que dificulta el acceso a nuevos créditos. El plazo de permanencia de los registros negativos está regulado.
-
----
 
 ## Microcrédito y finanzas para el desarrollo
 
@@ -109,8 +93,6 @@ Para sectores de la población con menor acceso al crédito bancario formal exis
 - **Microcrédito productivo**: programas del MIDES, la CND y la ANDE (Agencia Nacional de Desarrollo) para emprendedores y microempresas informales o de baja capacidad de endeudamiento.
 - **Fondo Rotatorio de Crédito para Cooperativas** (MGAP): para cooperativas agropecuarias.
 - **FONDO EMPRENDER** y otros fondos sectoriales.
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Este documento ofrece una visión comparada de la **organización social, política y territorial** de los principales pueblos que habitaron el actual territorio uruguayo en el período prehispánico y colonial. La información proviene de la combinación de fuentes históricas (crónicas coloniales, documentos jesuíticos, registros administrativos) y de la investigación arqueológica y antropológica contemporánea.
 
----
-
 ## Tipos de organización social en el Uruguay prehispánico
 
 Los pueblos originarios del actual Uruguay presentaban **dos grandes modelos** de organización social:
@@ -15,8 +13,6 @@ Los pueblos originarios del actual Uruguay presentaban **dos grandes modelos** d
 | **Bandas de cazadores-recolectores nómadas** | Charrúas, guenoas/minuanes, yaros, bohanes | Grupos pequeños, movilidad alta, sin aldeas permanentes, sin agricultura |
 | **Semisedentarios con agricultura** | Guaraníes | Aldeas más permanentes, agricultura de roza y quema, organización más compleja |
 | **Semisedentarios ribereños** | Chanás | Más sedentarios que los nómadas, pesca como base, aldeas fluviales |
-
----
 
 ## Las bandas: unidad social fundamental
 
@@ -31,8 +27,6 @@ Para los grupos cazadores-recolectores del Uruguay (charrúas, guenoas, yaros, b
 - El sistema de bandas era **flexible**: los grupos podían dividirse o fusionarse según las circunstancias.
 - La escasez de recursos podía llevar a la fisión de una banda en grupos más pequeños.
 - Las alianzas y los conflictos influían en la composición de las bandas.
-
----
 
 ## Liderazgo y autoridad
 
@@ -52,8 +46,6 @@ Para los grupos cazadores-recolectores del Uruguay (charrúas, guenoas, yaros, b
 - Los **payés o chamanes** tenían autoridad espiritual que podía superar a la del cacique en ciertas circunstancias.
 - La palabra (*ñe'ë*) tenía un valor sagrado: la elocuencia era un atributo fundamental del líder.
 
----
-
 ## Parentesco y matrimonio
 
 ### Sistemas de parentesco
@@ -64,8 +56,6 @@ Para los grupos cazadores-recolectores del Uruguay (charrúas, guenoas, yaros, b
 - La **poliginia** (un hombre con varias esposas) era practicada especialmente por los caciques de los grupos nómadas: tenía una función política (alianzas con distintas familias) además de la doméstica.
 - El **matrimonio entre bandas** era un mecanismo crucial para mantener alianzas y redes de apoyo mutuo.
 - Existía la práctica del **sororato** en algunos grupos (casarse con la hermana de la esposa) y del **levirato** (casarse con la viuda del hermano), aunque la documentación al respecto es insuficiente.
-
----
 
 ## Roles sociales por género y edad
 
@@ -88,8 +78,6 @@ Para los grupos cazadores-recolectores del Uruguay (charrúas, guenoas, yaros, b
 - La infancia era un período de aprendizaje práctico: los niños aprendían observando y participando en las actividades de los adultos.
 - No existen documentaciones detalladas sobre prácticas de crianza específicas de los grupos del Uruguay.
 
----
-
 ## Rituales y vida espiritual en la organización social
 
 Los rituales colectivos cumplían funciones sociales importantes:
@@ -97,8 +85,6 @@ Los rituales colectivos cumplían funciones sociales importantes:
 - **Rituales de duelo:** estructuraban el proceso de pérdida y reforzaban la cohesión del grupo.
 - **Rituales de iniciación:** poco documentados para los grupos del Uruguay, pero inferidos por analogía con grupos vecinos.
 - **El chamán** actuaba como mediador espiritual y social, resolviendo conflictos internos y manteniendo la cohesión del grupo.
-
----
 
 ## Organización territorial
 
@@ -110,8 +96,6 @@ Los rituales colectivos cumplían funciones sociales importantes:
 ### Conflictos territoriales
 - Los conflictos entre bandas o grupos étnicos distintos podían originarse en la **competencia por recursos** (aguadas, zonas de caza, zonas de pesca).
 - También podían ser el resultado de **venganzas** por muertes anteriores, que podían escalar en ciclos de represalia.
-
----
 
 ## Cuadro comparativo de organización social
 
@@ -125,8 +109,6 @@ Los rituales colectivos cumplían funciones sociales importantes:
 | Poliginia | Sí (caciques) | No documentado | Sí |
 | Cerámica | Mínima / escasa | Sí | Sí |
 | Canoas | Limitado | Sí (central) | Sí |
-
----
 
 ## Palabras clave
 

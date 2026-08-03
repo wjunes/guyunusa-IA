@@ -4,8 +4,6 @@
 
 Esta línea de tiempo sintetiza los principales hitos de la historia de los pueblos originarios del actual Uruguay, desde el poblamiento inicial del territorio hasta los desarrollos contemporáneos en materia de reconocimiento e identidad indígena.
 
----
-
 ## Período prehispánico: poblamiento y desarrollo cultural
 
 | Período / Fecha aproximada | Evento |
@@ -18,8 +16,6 @@ Esta línea de tiempo sintetiza los principales hitos de la historia de los pueb
 | **~3.000 a.C. – siglo XV d.C.** | Período formativo y tardío: continuación de la construcción de cerritos; diversificación cultural; aparición de grupos diferenciados (ancestros de charrúas, chanás, guenoas, yaros, bohanes) |
 | **~siglos XII–XV d.C.** | Expansión guaraní desde la Amazonia hacia el Río de la Plata; ocupación del NE del actual Uruguay; establecimiento de aldeas guaraníes |
 | **~siglo XV d.C.** | Fin de la construcción activa de la mayoría de los cerritos (aproximación; la fecha exacta es materia de investigación) |
-
----
 
 ## Período de contacto y conquista (siglos XVI–XVII)
 
@@ -37,8 +33,6 @@ Esta línea de tiempo sintetiza los principales hitos de la historia de los pueb
 | **1641** | **Batalla de Mbororé** (río Uruguay): las milicias guaraníes de las misiones jesuíticas derrotan a los bandeirantes; las misiones supervivientes se estabilizan en la margen oriental del Uruguay |
 | **1680** | Fundación portuguesa de **Nova Colônia do Sacramento** (actual Colonia del Sacramento); comienzo de la disputa hispano-portuguesa por la Banda Oriental |
 
----
-
 ## Período colonial tardío (siglos XVII–XVIII)
 
 | Fecha | Evento |
@@ -50,8 +44,6 @@ Esta línea de tiempo sintetiza los principales hitos de la historia de los pueb
 | **2 de abril de 1767** | **Expulsión de los jesuitas** por decreto del rey **Carlos III** de España; las misiones quedan bajo administración de franciscanos y clérigos seculares; inicio de la desintegración del sistema misional |
 | **~1767–1800** | Dispersión progresiva de los guaraníes misioneros; integración como trabajadores en estancias; inicio de la desintegración de las comunidades misioneras |
 | **1777** | **Tratado de San Ildefonso**: los Siete Pueblos pasan definitivamente a Portugal; Colonia del Sacramento a España |
-
----
 
 ## Período de independencia y exterminio (siglo XIX)
 
@@ -65,8 +57,6 @@ Esta línea de tiempo sintetiza los principales hitos de la historia de los pueb
 | **1833–1834** | **Cuatro charrúas en París**: Vaimaca Pirú, Guyunusa, Tacuabé y Senaqué son llevados a Francia por **François de Curel**; exhibidos en el Jardin des Plantes; Vaimaca Pirú, Guyunusa y Senaqué mueren en París en 1833; Tacuabé desaparece de los registros en Europa |
 | **14 de julio de 1833** | Muerte de **Vaimaca Pirú** en París; sus restos son conservados en el **Musée de l'Homme** |
 | **~1831–1850** | Desaparición de los charrúas como grupo diferenciado; dispersión de los sobrevivientes en la población rural |
-
----
 
 ## Período contemporáneo (siglos XX–XXI)
 
@@ -82,8 +72,6 @@ Esta línea de tiempo sintetiza los principales hitos de la historia de los pueb
 | **2009** | El Parlamento uruguayo aprueba declarar el **11 de abril como Día de la Nación Charrúa y de la Identidad Indígena** |
 | **2011** | El **Censo nacional 2011** incluye por primera vez una pregunta sobre ascendencia (incluyendo indígena); un pequeño porcentaje de la población se auto-identifica con ascendencia indígena |
 | **Años 2010s–2020s** | Continuación de la investigación arqueológica con nuevas tecnologías (ADN antiguo, isótopos, LiDAR); debates parlamentarios recurrentes sobre ratificación del Convenio 169 OIT |
-
----
 
 ## Palabras clave
 

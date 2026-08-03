@@ -11,13 +11,9 @@ La **ALADI** (Asociación Latinoamericana de Integración) es el mayor bloque de
 - Acuerdos de Alcance Regional (AAR): entre todos los miembros.
 - Acuerdos de Alcance Parcial (AAP): entre dos o más miembros.
 
----
-
 ## El MERCOSUR como ACE en el marco de la ALADI
 
 El MERCOSUR está registrado en la ALADI como el **ACE-18** (Acuerdo de Complementación Económica n.º 18), firmado en 1991 entre Argentina, Brasil, Paraguay y Uruguay. Esta inscripción permite que el MERCOSUR opere dentro del marco jurídico de la ALADI.
-
----
 
 ## Principales acuerdos de Uruguay en el marco de la ALADI
 
@@ -46,19 +42,13 @@ Estos acuerdos abren mercados para las exportaciones uruguayas de lácteos (Colo
 
 Uruguay tiene un **Acuerdo de Complementación Económica** con México en el marco de la ALADI (ACE-5 Uruguay-México), que otorga preferencias arancelarias para una lista de productos uruguayos en el mercado mexicano. México es un mercado de interés para los servicios y las exportaciones agropecuarias uruguayas.
 
----
-
 ## Sistema Generalizado de Preferencias (SGP)
 
 Uruguay se beneficia del **SGP** otorgado por países desarrollados (Unión Europea, Estados Unidos, Japón, Canadá, Suiza y otros) que conceden preferencias arancelarias a los países en desarrollo. El SGP reduce los aranceles pagaderos en esos mercados para una lista de productos uruguayos, aunque el alcance varía por país otorgante y por la graduación del beneficio (Uruguay, como país de renta media-alta, ha sido "graduado" del SGP de algunos otorgantes).
 
----
-
 ## Tratados bilaterales de inversión (BIT) y acuerdos complementarios
 
 Uruguay ha firmado numerosos **Tratados Bilaterales de Inversión (TBI)** con países de interés inversor, que complementan los acuerdos comerciales al proteger la inversión extranjera. Estos acuerdos incluyen cláusulas de trato nacional, trato de nación más favorecida, protección contra la expropiación y mecanismos de solución de diferencias inversor-Estado (CIADI, CNUDMI).
-
----
 
 ## Posición de Uruguay en la OMC
 
@@ -68,16 +58,12 @@ Uruguay es miembro fundador de la **OMC** (Organización Mundial del Comercio, 1
 - Ha utilizado el **Órgano de Solución de Diferencias (OSD)** de la OMC en disputas comerciales relevantes: en particular, Uruguay fue demandante (junto con Australia) en la disputa sobre el empaquetado neutro del tabaco, en el marco del caso WT/DS435 y WT/DS467 contra Australia (2012–2019), que la OMC resolvió a favor de Australia pero en sentido favorable a las políticas de salud pública, confirmando la soberanía regulatoria de los Estados.
 - **Disputa con Philip Morris**: Uruguay fue también demandado por Philip Morris International ante el CIADI (caso PM v. Uruguay, 2010) por sus regulaciones de empaquetado del tabaco. El CIADI falló a favor de Uruguay en 2016, en un hito para la regulación del tabaco y el derecho de los Estados a legislar en salud pública.
 
----
-
 ## Negociaciones pendientes y futuro de los acuerdos bilaterales
 
 - **TLC Uruguay-China**: Uruguay inició conversaciones bilaterales durante el gobierno de Lacalle Pou, bajo tensión con el CMC 32/00. El MERCOSUR también negocia en paralelo con China a nivel de bloque.
 - **MERCOSUR-Singapur**: negociaciones en curso desde 2021.
 - **MERCOSUR-Canadá**: negociaciones en exploración.
 - **MERCOSUR-Indonesia**: diálogos exploratorios.
-
----
 
 ## Palabras clave
 

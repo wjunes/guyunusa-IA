@@ -1,3 +1,5 @@
+# Agencia de Gobierno Electrónico y Sociedad de la Información y el Conocimiento (AGESIC)
+
 ## Resumen
 
 La **AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento)** es el organismo rector de la política de gobierno digital en Uruguay. Creada por la Ley N° 18.362 de 2008 y dependiente directamente de la Presidencia de la República, AGESIC diseña y ejecuta la estrategia de transformación digital del Estado, gestiona la infraestructura compartida de gobierno electrónico (portal único de trámites, plataforma de interoperabilidad, identidad digital), coordina la ciberseguridad del Estado (a través del CERTuy), impulsa los datos abiertos (datos.gub.uy) y lidera iniciativas de inteligencia artificial en el sector público. Uruguay es referente latinoamericano en gobierno digital, y AGESIC es la institución central de ese liderazgo.

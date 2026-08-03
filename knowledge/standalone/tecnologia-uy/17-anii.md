@@ -1,3 +1,5 @@
+# Agencia Nacional de Investigación e Innovación (ANII)
+
 ## Resumen
 
 La **ANII (Agencia Nacional de Investigación e Innovación)** es el organismo público uruguayo encargado de financiar y promover la investigación científica, el desarrollo tecnológico y la innovación empresarial. Creada por la Ley N° 18.084 de 2006, la ANII administra fondos competitivos de investigación, becas de posgrado (en Uruguay y en el exterior), programas de innovación en empresas y capital semilla para startups. Es el eje central del sistema nacional de ciencia, tecnología e innovación (SNCTI) uruguayo.

@@ -1,3 +1,5 @@
+# Panorama del medio ambiente en Uruguay
+
 ## Resumen
 
 Uruguay tiene una **huella ambiental relativamente baja** comparada con el promedio global, con una economía aún fuertemente ligada al uso de la tierra. El país se destaca internacionalmente por haber logrado una **transición energética eléctrica casi total hacia fuentes renovables** (viento, agua y sol representan más del 97% de la generación eléctrica), posicionándolo como referencia mundial en energía limpia. Sin embargo, enfrenta desafíos ambientales importantes: la **expansión de la agricultura intensiva** (especialmente la soja), el uso masivo de **agroquímicos**, la **presión sobre los recursos hídricos**, la **calidad del agua** en ríos y la bahía de Montevideo, y los efectos del **cambio climático** (sequías más frecuentes, lluvias torrenciales). El marco institucional ambiental está organizado en torno al **Ministerio de Ambiente** (creado en 2020), la **DINAMA** y el **Sistema Nacional de Áreas Protegidas (SNAP)**.

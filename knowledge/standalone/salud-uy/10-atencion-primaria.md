@@ -1,3 +1,5 @@
+# Atención primaria de salud en Uruguay
+
 ## Resumen
 
 La **atención primaria de salud (APS)** es el primer nivel del sistema de salud: el punto de entrada del usuario al SNIS, donde se resuelve la mayor parte de las necesidades de salud de la población y se desarrollan las acciones de prevención y promoción. En Uruguay, la APS la brindan las policlínicas, centros de salud y consultorios de medicina general de ASSE y de las IAMC. La reforma de 2007 reforzó la APS como eje del sistema, alineando los incentivos del FONASA (metas sanitarias) con la prevención y el control temprano de enfermedades. A pesar de los avances, Uruguay aún trabaja en consolidar el modelo de **médico de referencia** o **equipo de referencia** como punto de continuidad para cada usuario.

@@ -1,3 +1,5 @@
+# El mutualismo y las Instituciones de Asistencia Médica Colectiva (IAMC)
+
 ## Resumen
 
 El **mutualismo** es una de las instituciones más originales y características del sistema de salud uruguayo. Las **Instituciones de Asistencia Médica Colectiva (IAMC)** —las mutualistas— son organizaciones que brindan cobertura médica integral a sus socios mediante el pago de una cuota mensual. El mutualismo uruguayo tiene más de un siglo de historia: surgió de las comunidades de inmigrantes europeos en Montevideo como mecanismo de solidaridad mutual, creció hasta convertirse en el pilar de la atención médica privada del país, vivió una crisis severa en los años 1990-2000, y fue integrado y transformado por la reforma del SNIS de 2007. Hoy las IAMC atienden a más de la mitad de la población uruguaya, conviviendo con ASSE en el marco del SNIS.

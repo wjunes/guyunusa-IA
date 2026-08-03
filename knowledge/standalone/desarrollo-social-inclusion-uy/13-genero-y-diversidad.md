@@ -9,8 +9,6 @@ Uruguay ha desarrollado desde 2005 un conjunto de políticas públicas de **gén
 
 Uruguay es reconocido internacionalmente por sus avances en legislación de género y diversidad sexual.
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -24,8 +22,6 @@ Uruguay es reconocido internacionalmente por sus avances en legislación de gén
 | Ley 19.580 | 2017 | Violencia basada en género: definición ampliada, mecanismos de protección |
 | Ley 19.684 | 2018 | Ley Integral para Personas Trans |
 | Ley 19.889 | 2020 | Ley de Urgente Consideración: modificaciones a aspectos de políticas de género |
-
----
 
 ## INMUJERES — Instituto Nacional de las Mujeres
 
@@ -41,8 +37,6 @@ El **INMUJERES** es el organismo del MIDES responsable de formular, coordinar, e
 - Administrar los dispositivos de atención a mujeres víctimas de violencia doméstica (refugios, servicios de atención).
 - Transversalizar la perspectiva de género en las políticas públicas.
 - Promover la participación política de las mujeres.
-
----
 
 ## Violencia basada en género
 
@@ -67,20 +61,14 @@ La **Ley 19.580** de violencia basada en género (VBG) es el principal instrumen
 
 El femicidio es el asesinato de una mujer en razón de su género. Uruguay registra y publica anualmente las estadísticas de femicidios. El **Observatorio de Violencia y Criminalidad del MInteior** compila los datos. El INMUJERES y el Ministerio del Interior coordinan la respuesta institucional.
 
----
-
 ## Derechos sexuales y reproductivos
 
 - **Ley 18.426/2008**: garantiza el acceso a información, educación sexual, métodos anticonceptivos y atención a la salud sexual y reproductiva en el SNIS.
 - **Ley 18.987/2012 (IVE)**: legalización del aborto voluntario hasta las 12 semanas de gestación. En casos de violación: hasta 14 semanas. En casos de malformaciones incompatibles con la vida extrauterina: sin límite de tiempo. El MSP regula el acceso al servicio en el SNIS.
 
----
-
 ## Matrimonio igualitario y adopción
 
 La **Ley 18.980/2012** aprobó el matrimonio entre personas del mismo sexo en Uruguay, siendo uno de los primeros países de América Latina en hacerlo. El matrimonio igualitario incluye los mismos derechos que el matrimonio heterosexual, incluyendo la adopción conjunta.
-
----
 
 ## Ley Integral para Personas Trans (Ley 19.684/2018)
 
@@ -91,13 +79,9 @@ La **Ley 19.684** es uno de los marcos legales más avanzados de América Latina
 - **Atención de salud integral**: el SNIS debe garantizar atención de salud integral a personas trans, incluyendo hormonización y cirugías de reasignación de sexo (cuando la persona lo solicita).
 - **Reparación económica**: para personas trans que sufrieron persecución estatal durante la dictadura (1973–1985).
 
----
-
 ## Plan Nacional de Igualdad de Género
 
 El Plan Nacional de Igualdad de Género es el instrumento estratégico del INMUJERES que establece los objetivos y medidas para avanzar hacia la igualdad de género en Uruguay. Ha tenido distintas versiones. Sus ejes habituales son: empleo, violencia, salud, educación, participación y cuidados.
-
----
 
 ## Palabras clave
 

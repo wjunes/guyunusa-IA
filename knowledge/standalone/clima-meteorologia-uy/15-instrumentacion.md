@@ -1,12 +1,8 @@
 # Instrumentación Meteorológica
 
----
-
 ## Introducción
 
 La **instrumentación meteorológica** comprende todos los dispositivos utilizados para medir las variables del estado de la atmósfera. Su precisión, calibración y correcta instalación son fundamentales para la calidad de los datos climatológicos y de los pronósticos. La OMM establece los estándares internacionales de observación en su publicación **"Guide to Meteorological Instruments and Methods of Observation"** (CIMO Guide; WMO-No. 8).
-
----
 
 ## Temperatura del aire
 
@@ -26,8 +22,6 @@ La **instrumentación meteorológica** comprende todos los dispositivos utilizad
 
 Mide la temperatura del suelo a distintas profundidades (superficie, 5 cm, 10 cm, 20 cm, 30 cm, 50 cm, 100 cm). Importante para la agrometeorología y la predicción de heladas.
 
----
-
 ## Presión atmosférica
 
 ### Barómetro
@@ -40,8 +34,6 @@ Mide la temperatura del suelo a distintas profundidades (superficie, 5 cm, 10 cm
 | **Unidades** | hPa (hectopascales); equivalente a mbar (milibar) |
 | **Corrección** | Se reduce al nivel del mar (QNH) para comparabilidad; p₀ = p_estación × e^(z/8.434) (fórmula barométrica simplificada) |
 | **Presión media al nivel del mar Uruguay** | ~1.013,25 hPa (promedio global) |
-
----
 
 ## Humedad del aire
 
@@ -63,8 +55,6 @@ El **punto de rocío** (Td) es la temperatura a la que el vapor de agua se conde
 - Td ≈ T cuando HR ≈ 100 % (saturación).
 - En Uruguay: Td media anual en Montevideo ~10–12 °C [VERIFICAR].
 
----
-
 ## Viento
 
 ### Anemómetro y veleta
@@ -83,8 +73,6 @@ El **punto de rocío** (Td) es la temperatura a la que el vapor de agua se conde
 
 Para referencia, ver archivo 01-clima-del-uruguay.md (tabla de vientos) y 04-variables-meteorologicas.md.
 
----
-
 ## Precipitación
 
 ### Pluviómetro
@@ -100,8 +88,6 @@ Para referencia, ver archivo 01-clima-del-uruguay.md (tabla de vientos) y 04-var
 | **Altura del colector** | 30–100 cm sobre el suelo (varía según estándar nacional) |
 | **Medida de nieve** | En Uruguay la nieve es excepcional (ver archivo 06-fenomenos-meteorologicos.md) |
 
----
-
 ## Radiación solar
 
 ### Piranómetro
@@ -116,8 +102,6 @@ Para referencia, ver archivo 01-clima-del-uruguay.md (tabla de vientos) y 04-var
 | **Pirómetro infrarrojo** | Mide la radiación de onda larga emitida por la atmósfera y la superficie |
 | **Insolación** | Horas de sol real (brillo solar); sensor de umbral (≥ 120 W/m²); en Uruguay ~2.500–2.700 h/año |
 
----
-
 ## Radar meteorológico (como instrumento de observación)
 
 Ver descripción técnica en archivo 14-redes-de-observacion.md. Como instrumento:
@@ -130,8 +114,6 @@ Ver descripción técnica en archivo 14-redes-de-observacion.md. Como instrument
 | **Productos** | Reflectividad (dBZ); velocidad Doppler (m/s); espectro de ancho; polarimetría (ZDR, KDP, ρhv) |
 | **Resolución** | ~250 m a 1 km en radio; ~0,5–1° en azimut |
 | **Volumen de escaneo** | Múltiples elevaciones (~5–18); ciclo completo en ~5–10 min |
-
----
 
 ## Radiosonde (globo meteorológico)
 
@@ -146,8 +128,6 @@ Ver descripción técnica en archivo 14-redes-de-observacion.md. Como instrument
 | **Datos transmitidos** | T, HR, p, velocidad y dirección del viento (GPS) |
 | **Frecuencia en Uruguay** | 2 lanzamientos/día en Montevideo y Artigas [VERIFICAR] |
 
----
-
 ## Otros instrumentos
 
 | Instrumento | Variable medida | Principio |
@@ -160,8 +140,6 @@ Ver descripción técnica en archivo 14-redes-de-observacion.md. Como instrument
 | **Heliógrafo Campbell-Stokes** | Horas de sol (insolación) | Quema de papel por foco solar |
 | **Nefoscopio** | Dirección y velocidad de movimiento de nubes | Observación visual |
 
----
-
 ## Calibración y control de calidad
 
 La calibración de los instrumentos meteorológicos es esencial para la homogeneidad y comparabilidad de los datos:
@@ -172,8 +150,6 @@ La calibración de los instrumentos meteorológicos es esencial para la homogene
 - **Homogeneización de series históricas:** Técnicas estadísticas para detectar y corregir cambios artificiales en las series largas (cambio de instrumento, reubicación de estación, cambio de observador).
 
 INUMET realiza la gestión metrológica de sus instrumentos y participa en comparaciones internacionales bajo el marco CIMO de la OMM.
-
----
 
 ## Palabras clave
 

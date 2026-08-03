@@ -1,3 +1,5 @@
+# Obdulio Varela — El Negro Jefe
+
 ## Resumen
 
 Obdulio Jacinto Muiños Varela (Montevideo, 1917-1996), apodado "el Negro Jefe", fue el capitán de la selección uruguaya que ganó el Maracanazo en 1950. Mediocampista central de Peñarol, fue el líder moral y técnico del equipo que venció a Brasil 2 a 1 en el Maracaná ante más de 200.000 espectadores, conquistando la Copa del Mundo de 1950. Su figura en el Maracanazo —caminando lentamente con la pelota hacia el centro del campo después del gol brasileño, hablándole a sus compañeros, negándose a rendirse— es una de las imágenes más icónicas del fútbol mundial. Es el símbolo más puro de la "garra charrúa".

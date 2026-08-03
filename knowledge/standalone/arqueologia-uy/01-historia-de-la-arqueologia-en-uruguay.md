@@ -1,7 +1,5 @@
 # Historia de la Arqueología en Uruguay
 
----
-
 ## Antecedentes y precursores (siglo XIX)
 
 La arqueología en Uruguay como práctica sistemática tiene sus raíces en la segunda mitad del siglo XIX, aunque los primeros registros de vestigios prehispánicos son anteriores. Los naturalistas y viajeros europeos que recorrieron el Río de la Plata durante los siglos XVIII y XIX dejaron descripciones de montículos artificiales, instrumentos líticos y restos óseos humanos.
@@ -11,8 +9,6 @@ La arqueología en Uruguay como práctica sistemática tiene sus raíces en la s
 **Francisco Bauzá** (1849–1899), historiador uruguayo, incorporó referencias a los pueblos indígenas y a sus vestigios materiales en su obra *Historia de la dominación española en el Uruguay*, publicada entre 1880 y 1882.
 
 El **Museo Nacional de Historia Natural (MNHN)**, fundado en 1837, comenzó a recibir materiales arqueológicos y paleontológicos en sus primeras décadas de funcionamiento, constituyéndose en el principal repositorio de colecciones del siglo XIX.
-
----
 
 ## Primera etapa: coleccionismo y descripción (1880–1930)
 
@@ -24,8 +20,6 @@ Durante este período predominaron el coleccionismo de objetos arqueológicos, l
 
 El médico y científico **Clemente Estable** (1894–1976), aunque fundamentalmente biólogo, realizó contribuciones tempranas al conocimiento de la cultura material indígena uruguaya.
 
----
-
 ## Segunda etapa: primeras excavaciones sistemáticas (1930–1960)
 
 Este período se caracterizó por el inicio de excavaciones con mayor rigor metodológico, la creación de instituciones especializadas y los primeros intentos de síntesis interpretativa.
@@ -36,8 +30,6 @@ Este período se caracterizó por el inicio de excavaciones con mayor rigor meto
 
 **Mario Bormida** (argentino; 1925–1978) desarrolló estudios sobre la industria lítica del Río de la Plata, proponiendo clasificaciones de conjuntos líticos del Uruguay que influyeron en la arqueología regional.
 
----
-
 ## Tercera etapa: institucionalización universitaria (1960–1985)
 
 La arqueología uruguaya se institucionalizó en el ámbito universitario durante este período, con la incorporación de la disciplina en la Universidad de la República.
@@ -47,8 +39,6 @@ En 1967 se creó el **Departamento de Arqueología** en la Facultad de Humanidad
 **Eugenio Hilario** y otros docentes fundacionales establecieron las primeras cátedras de arqueología y contribuyeron a definir los lineamientos de la arqueología científica uruguaya.
 
 Durante la dictadura cívico-militar (1973–1985) la investigación arqueológica sufrió restricciones debido a la intervención universitaria. Sin embargo, algunos investigadores continuaron sus trabajos, en ocasiones con dificultades institucionales y bajo vigilancia.
-
----
 
 ## Cuarta etapa: renovación metodológica y temática (1985–2000)
 
@@ -64,8 +54,6 @@ Tras la recuperación democrática en 1985 y la normalización universitaria, la
 
 Este período también vio el inicio de la incorporación de métodos de prospección superficial sistemática y de análisis de laboratorio (zooarqueología, arqueobotánica) en las investigaciones.
 
----
-
 ## Quinta etapa: consolidación y diversificación temática (2000–2010)
 
 A partir del año 2000, la arqueología uruguaya se consolidó como disciplina académica con una producción científica creciente y una mayor participación en redes internacionales de investigación.
@@ -77,8 +65,6 @@ A partir del año 2000, la arqueología uruguaya se consolidó como disciplina a
 **Andrés Gascue** comenzó a desarrollar investigaciones sobre tecnología lítica, arqueología de la región noreste y sitios del Pleistoceno/Holoceno.
 
 El **Congreso Nacional de Arqueología Uruguaya** se estableció como evento periódico de referencia para la disciplina, facilitando el intercambio científico.
-
----
 
 ## Sexta etapa: perspectivas actuales (2010–2023)
 
@@ -105,8 +91,6 @@ La arqueología uruguaya de las últimas décadas se caracteriza por la consolid
 
 La **arqueología preventiva** (arqueología de contrato vinculada a obras de infraestructura) creció significativamente a partir de la primera década del siglo XXI, impulsada por las inversiones en infraestructura (represas, carreteras, plantas de celulosa) y la aplicación de la normativa de impacto ambiental.
 
----
-
 ## Hitos institucionales
 
 | Año | Hito |
@@ -120,8 +104,6 @@ La **arqueología preventiva** (arqueología de contrato vinculada a obras de in
 | 2007 | Creación de la Comisión del Patrimonio Cultural de la Nación en su forma actual |
 | 2012 | Publicaciones sobre Arroyo del Vizcaíno con resonancia internacional |
 | 2014 | Artículo Fariña et al. en *Proceedings of the Royal Society B* sobre Arroyo del Vizcaíno |
-
----
 
 ## Palabras clave
 

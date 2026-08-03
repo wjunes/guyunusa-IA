@@ -4,8 +4,6 @@
 
 La **agroindustria** uruguaya comprende el conjunto de procesos industriales que transforman las materias primas agropecuarias en productos elaborados o semielaborados de mayor valor. Es el eslabón fundamental que une la producción primaria con los mercados nacionales e internacionales. Los principales complejos agroindustriales del Uruguay son el **cárnico**, el **lácteo**, el **arrocero**, el **forestal-celulósico**, el **vitivinícola**, el **citrícola** y el **molinero**.
 
----
-
 ## Industria frigorífica
 
 La **industria frigorífica** es históricamente la columna vertebral de la agroindustria uruguaya y uno de los principales generadores de divisas:
@@ -34,8 +32,6 @@ La **industria frigorífica** es históricamente la columna vertebral de la agro
 
 - **INAC** (Instituto Nacional de Carnes): regula, controla la faena, certifica exportaciones.
 
----
-
 ## Industria láctea
 
 *(Ver también archivo 04-produccion-lechera.md)*
@@ -45,16 +41,12 @@ La **industria frigorífica** es históricamente la columna vertebral de la agro
 - Productos: leche en polvo (entera y descremada), quesos (pasta blanda, semidura, dura), manteca, yogures, dulce de leche, suero en polvo.
 - Exportaciones: USD 400–600 millones/año [VERIFICAR].
 
----
-
 ## Industria arrocera
 
 - **Molienda:** descascarado, blanqueado, pulido del arroz; subproductos (afrechillo para alimentación animal, cáscara para biomasa energética).
 - Principales molinos en Treinta y Tres, Cerro Largo y Rocha.
 - **SAMAN** y **COOPAR** entre los mayores actores.
 - Valor exportaciones de arroz elaborado: USD 300–500 millones/año.
-
----
 
 ## Industria forestal y celulósica
 
@@ -69,8 +61,6 @@ La **industria frigorífica** es históricamente la columna vertebral de la agro
 - Exportaciones de celulosa: el principal producto de exportación de Uruguay en valor en años recientes (USD 2.500–3.500 millones/año aproximadamente) [VERIFICAR].
 - También: aserraderos, plantas de MDF/OSB, fabricantes de carbón vegetal.
 
----
-
 ## Industria vitivinícola
 
 - Más de **200 bodegas** registradas en Uruguay.
@@ -79,23 +69,17 @@ La **industria frigorífica** es históricamente la columna vertebral de la agro
 - Enoturismo como fuente de ingresos adicionales.
 - **INAVI** regula y certifica.
 
----
-
 ## Industria citrícola
 
 - Empresas empacadoras y procesadoras de frutas cítricas en Salto y Paysandú.
 - Exportación de cítricos frescos (naranja, mandarina, limón, pomelo) en contraestación.
 - Procesamiento: jugos, aceites esenciales, subproductos.
 
----
-
 ## Molinería
 
 - **Molinos harineros:** procesamiento de trigo en harina panificable para consumo interno; marcas como MIRCA, GLENCORE/MOLINO SANTA ROSA, y otros [VERIFICAR nombres actuales].
 - **Aceite vegetal:** procesamiento de girasol y soja para aceites; empresas como ALUR (aceites vegetales).
 - **Procesamiento de soja:** extracción de aceite + expeller/pellets (proteína); algunas plantas en Uruguay aunque la mayor parte se exporta en grano.
-
----
 
 ## Industria avícola y porcina
 
@@ -112,16 +96,12 @@ La **industria frigorífica** es históricamente la columna vertebral de la agro
 - Empresas integradas y productores individuales.
 - Importación de cortes de cerdo para industria chacinera cuando la producción no cubre la demanda.
 
----
-
 ## Valor agregado y tendencias
 
 - Creciente énfasis en **diferenciación y valor agregado**: carne con trazabilidad completa, cortes específicos para mercados, carne natural, cortes premium.
 - **Carne natural y sin hormonas:** Uruguay no usa promotores de crecimiento ni hormonas en bovinos; diferencial de mercado.
 - **Certificaciones internacionales:** ISO 22000, HACCP, Kosher, Halal para mercados específicos.
 - **Economía circular:** aprovechamiento de subproductos (harina de sangre, harina de carne y hueso, sebos, cueros, lana, lanolina).
-
----
 
 ## Palabras clave
 

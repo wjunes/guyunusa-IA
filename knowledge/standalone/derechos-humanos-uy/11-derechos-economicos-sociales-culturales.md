@@ -1,3 +1,5 @@
+# Derechos económicos, sociales y culturales (DESC) en Uruguay
+
 ## Resumen
 
 Los **derechos económicos, sociales y culturales (DESC)** —el derecho al trabajo, a la educación, a la salud, a la vivienda, a la alimentación y a la cultura— están reconocidos en la **Constitución uruguaya** y en el **PIDESC** (ratificado por Uruguay). El país ha tenido avances relevantes en reducción de la pobreza —especialmente desde la crisis de 2002 y las políticas del primer gobierno de Tabaré Vázquez (2005-2010)— y tiene indicadores relativamente favorables en educación y salud en comparación regional. Sin embargo, persisten brechas: la **pobreza infantil** sigue siendo desproporcionadamente alta, el acceso a la **vivienda digna** es un desafío urbano permanente, y la **desigualdad** —aunque reducida— no ha desaparecido. El **MIDES** (Ministerio de Desarrollo Social) es el organismo rector de la política social.

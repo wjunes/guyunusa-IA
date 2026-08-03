@@ -4,8 +4,6 @@
 
 Los **yaros** fueron un pueblo indígena que habitó principalmente la región nordeste del actual Uruguay, en las cuencas de los ríos Tacuarembó y Cuareim, extendiéndose posiblemente hacia zonas de lo que hoy es el sur de Brasil (Rio Grande do Sul). Son uno de los grupos menos documentados entre los pueblos originarios del actual Uruguay: las fuentes históricas sobre ellos son escasas y en muchos casos indirectas.
 
----
-
 ## Fuentes históricas
 
 La documentación sobre los yaros es fragmentaria:
@@ -13,8 +11,6 @@ La documentación sobre los yaros es fragmentaria:
 - Aparecen en documentos administrativos coloniales de los siglos XVII y XVIII.
 - Los **cronistas jesuíticos** de las misiones del Uruguay los mencionan como grupo diferenciado de los charrúas y minuanes.
 - **Eduardo Acosta y Lara** los estudió en el contexto de los conflictos indígenas de la Banda Oriental.
-
----
 
 ## Territorio y distribución geográfica
 
@@ -24,23 +20,17 @@ La documentación sobre los yaros es fragmentaria:
 | **Extensión posible** | Sur de Rio Grande do Sul (Brasil) |
 | **Vecindad** | Al sur y suroeste: guenoas/minuanes y charrúas; al norte y noreste: guaraníes de las misiones |
 
----
-
 ## Organización social
 
 - La información es insuficiente para una reconstrucción detallada de su organización social.
 - Por analogía con los grupos vecinos, se infiere un modo de organización en **bandas** con cacicazgo situacional.
 - Los yaros son descritos por algunos cronistas como un grupo **guerrero y combativo**.
 
----
-
 ## Economía y subsistencia
 
 - Cazadores-recolectores-pescadores, sin agricultura conocida.
 - Recursos de los ríos Tacuarembó y Cuareim.
 - Caza del venado, carpincho y ñandú.
-
----
 
 ## Relaciones con otros pueblos
 
@@ -51,8 +41,6 @@ La documentación sobre los yaros es fragmentaria:
 | **Guaraníes** | Conflictos por la presión de las misiones |
 | **Portugueses y españoles** | Contactos variables; algunos grupos yaros participaron en conflictos coloniales |
 
----
-
 ## Declive y desaparición como grupo diferenciado
 
 Los yaros son uno de los grupos que más tempranamente desaparecen de las fuentes históricas como entidad identificable:
@@ -61,13 +49,9 @@ Los yaros son uno de los grupos que más tempranamente desaparecen de las fuente
 - El proceso de **fusión** con otros grupos (charrúas, minuanes) y de **mestizaje** con la población colonial borró su identidad como grupo diferenciado.
 - A fines del siglo XVIII y principios del XIX prácticamente desaparecen de los documentos.
 
----
-
 ## Debate sobre la identidad yara
 
 Algunos investigadores han planteado que el término "yaros" podría corresponder a un nombre dado por otros grupos (o por los europeos) a un subgrupo de los charrúas o de los minuanes, antes que a una etnia completamente diferenciada. Este debate no ha sido resuelto de manera definitiva y refleja la dificultad general de la etnografía prehispánica de la región.
-
----
 
 ## Palabras clave
 

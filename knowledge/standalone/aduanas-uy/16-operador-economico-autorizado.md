@@ -6,13 +6,9 @@ El Operador Económico Autorizado (OEA) es un estatus de confianza otorgado por 
 
 El concepto de OEA surgió del Marco Normativo SAFE de la Organización Mundial de Aduanas (OMA), aprobado en 2005 como respuesta a las nuevas exigencias de seguridad global tras los atentados del 11 de septiembre de 2001. El SAFE propone el concepto de Asociación Aduana-Empresa como alternativa a un enfoque exclusivamente de control: las aduanas que pueden confiar en ciertos operadores pueden concentrar sus recursos de control en los de mayor riesgo.
 
----
-
 ## El OEA en Uruguay: Decreto 367/014
 
 Uruguay implementó el Programa OEA mediante el **Decreto 367 del 9 de diciembre de 2014**, reglamentado por la DNA. El programa está alineado con las guías del Marco Normativo SAFE de la OMA.
-
----
 
 ## Categorías del OEA uruguayo
 
@@ -23,8 +19,6 @@ El programa OEA uruguayo prevé distintas categorías según el perfil del opera
 **OEA-Tributario/Aduanero**: para operadores con alto nivel de cumplimiento normativo y tributario. Beneficios orientados a la agilización del despacho.
 
 **OEA combinado**: combinación de ambos estatus.
-
----
 
 ## Requisitos para obtener el OEA
 
@@ -54,8 +48,6 @@ Los requisitos para acceder al estatus OEA en Uruguay incluyen:
 - Actividad económica real y demostrable.
 - Estructura organizativa clara.
 
----
-
 ## Proceso de certificación OEA
 
 El proceso de certificación OEA en Uruguay implica:
@@ -65,8 +57,6 @@ El proceso de certificación OEA en Uruguay implica:
 3. **Auditoría in situ**: inspectores de la DNA visitan las instalaciones del solicitante para verificar los controles declarados.
 4. **Resolución**: la DNA otorga o deniega el estatus OEA, con posibilidad de condicionarlo a mejoras previas.
 5. **Mantenimiento**: el OEA debe mantener sus condiciones; la DNA realiza revisiones periódicas. El incumplimiento puede resultar en la suspensión o revocación del estatus.
-
----
 
 ## Beneficios del estatus OEA
 
@@ -84,15 +74,11 @@ Los operadores certificados como OEA gozan de:
 **Reconocimiento y reputación**:
 - El estatus OEA es reconocido por las aduanas de los socios comerciales que tienen acuerdos de reconocimiento mutuo (ARM) con Uruguay.
 
----
-
 ## Acuerdos de Reconocimiento Mutuo (ARM)
 
 Uruguay ha avanzado en la negociación de Acuerdos de Reconocimiento Mutuo (ARM) con otros países, por los cuales los operadores OEA de un país son reconocidos como operadores de confianza por la aduana del país socio, obteniendo facilidades similares en ambos sentidos del tráfico comercial.
 
 Los ARM son especialmente relevantes con los principales socios comerciales de Uruguay: los países del MERCOSUR y los mercados de destino de las exportaciones uruguayas.
-
----
 
 ## Palabras clave
 

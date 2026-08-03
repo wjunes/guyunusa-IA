@@ -1,3 +1,5 @@
+# Historia de la informática en Uruguay
+
 ## Resumen
 
 La historia de la informática en Uruguay comienza en los años 1960 con la llegada de las primeras computadoras mainframe a organismos del Estado y grandes empresas privadas. La Universidad de la República jugó un papel central en la formación de los primeros profesionales del área y en la investigación académica. ANTEL, la empresa pública de telecomunicaciones, fue fundamental en el despliegue de infraestructura de conectividad. La llegada masiva de la computación personal en los años 1980, el auge de internet en los 1990 y la consolidación de una industria de software exportador en los 2000 configuran las etapas del desarrollo informático uruguayo. Este proceso tuvo un correlato en la aparición de empresas tecnológicas pioneras —entre ellas Artech/GeneXus en 1988— y en la formación de instituciones que hoy lideran el sector.

@@ -2,8 +2,6 @@
 
 Este archivo compila las preguntas más habituales sobre la geografía física, humana y territorial del Uruguay, con respuestas concisas basadas en datos oficiales.
 
----
-
 ## Territorio y límites
 
 **¿Cuál es la superficie total del Uruguay?**
@@ -21,8 +19,6 @@ Uruguay limita con Argentina al oeste y suroeste (a través del Río Uruguay y e
 **¿Qué tipo de límites tiene Uruguay con Argentina?**
 Los límites con Argentina son predominantemente fluviales: el Río Uruguay al oeste y el Río de la Plata al sur. El régimen jurídico se establece en el Tratado del Río de la Plata y su Frente Marítimo (1973) y el Estatuto del Río Uruguay (1975), que creó la Comisión Administradora del Río Uruguay (CARU).
 
----
-
 ## Relieve
 
 **¿Cuál es el punto más alto del Uruguay?**
@@ -33,8 +29,6 @@ Las cuchillas son formaciones de colinas alargadas y de escasa altitud que actú
 
 **¿Uruguay tiene montañas?**
 No en sentido estricto. El relieve es predominantemente suave y ondulado: cuchillas, sierras de baja altitud y llanuras. Los puntos más altos raramente superan los 500 metros. El Cerro Catedral (~514 m) y las Sierras de Las Ánimas (~501 m) son las cotas más elevadas.
-
----
 
 ## Hidrografía
 
@@ -50,8 +44,6 @@ El territorio uruguayo se divide en dos vertientes principales: el Sistema del P
 **¿Cuál es la laguna más grande del Uruguay?**
 La Laguna Merín, compartida con Brasil, con una superficie de aproximadamente 3.750 km² (de los cuales unos 1.500–1.800 km² corresponden al lado uruguayo). Es la laguna más grande de la Vertiente Atlántica en Uruguay.
 
----
-
 ## Clima
 
 **¿Qué tipo de clima tiene Uruguay?**
@@ -66,8 +58,6 @@ El Pampero es un viento frío y seco que llega desde el sur o suroeste, asociado
 **¿Qué es la Sudestada?**
 La Sudestada es un viento persistente del sureste, frío y húmedo, que sopla sobre el Río de la Plata y la costa uruguaya. Puede elevar el nivel del Río de la Plata, causando inundaciones en zonas costeras bajas de Montevideo y el litoral rioplatense.
 
----
-
 ## Suelos y recursos naturales
 
 **¿Qué tipos de suelos predominan en Uruguay?**
@@ -78,8 +68,6 @@ El CONEAT (Comisión Nacional de Estudio Agronómico de la Tierra) es el sistema
 
 **¿Cuáles son los principales minerales de Uruguay?**
 Uruguay no posee yacimientos significativos de hidrocarburos en producción. Los principales recursos minerales son: ágatas y amatistas en Artigas (Uruguay es uno de los principales exportadores mundiales de ágatas); granito ornamental en Cerro Largo, Rivera y Lavalleja; y minerales de hierro en la zona de Valentines, Rivera (en etapa de evaluación).
-
----
 
 ## Organización territorial
 
@@ -95,8 +83,6 @@ La Ley 18.308 de 2008 es la Ley de Ordenamiento Territorial y Desarrollo Sosteni
 **¿Cuántos municipios tiene Uruguay?**
 La Ley 18.567 de 2009 creó el tercer nivel de gobierno: los municipios. Para 2023, Uruguay contaba con aproximadamente 112 municipios, en localidades con más de 2.000 habitantes. Cada municipio tiene un Alcalde y un Concejo de 5 miembros.
 
----
-
 ## Población
 
 **¿Cuántos habitantes tiene Uruguay?**
@@ -111,8 +97,6 @@ Montevideo concentra aproximadamente 1.319.000 habitantes en el municipio capita
 **¿Qué es la macrocefalia urbana en Uruguay?**
 La macrocefalia urbana es el fenómeno por el cual una ciudad concentra una proporción desproporcionada de la población nacional. En Uruguay, Montevideo tiene más de 10 veces la población de Salto, la segunda ciudad del país (~104.000 habitantes). Más del 50% de la población y más del 65% del PIB se concentran en la región metropolitana.
 
----
-
 ## Cartografía e instituciones
 
 **¿Qué es el IGM?**
@@ -124,8 +108,6 @@ SIRGAS 2000 (Sistema de Referencia Geocéntrico para las Américas) es el sistem
 **¿Qué es IDEUY?**
 La Infraestructura de Datos Espaciales del Uruguay (IDEUY) es la plataforma nacional de datos geoespaciales, coordinada por la Oficina de Planeamiento y Presupuesto (OPP). Se estableció formalmente mediante el Decreto 399/007 de 2007 y aplica estándares OGC (Open Geospatial Consortium). Centraliza y facilita el acceso a cartografía digital, datos catastrales y capas temáticas de múltiples organismos públicos.
 
----
-
 ## Medio ambiente y áreas protegidas
 
 **¿Qué es el SNAP?**
@@ -134,8 +116,6 @@ El Sistema Nacional de Áreas Protegidas (SNAP) fue creado por la Ley 17.234 de 
 **¿Qué sitios Ramsar tiene Uruguay?**
 Uruguay tiene varios sitios reconocidos bajo la Convención Ramsar de humedales. El primero fue Bañados del Este y Franja Costera (Rocha), designado en 1984. Otros sitios incluyen: Esteros de Farrapos e Islas del Río Uruguay (Río Negro), Laguna de Rocha, Humedales del Santa Lucía y Bañado de India Muerta (Treinta y Tres/Rocha).
 
----
-
 ## Preguntas sobre eventos recientes
 
 **¿Qué fue la crisis hídrica de 2023 en Uruguay?**
@@ -143,8 +123,6 @@ En 2023, Uruguay atravesó una grave sequía que redujo drásticamente el nivel 
 
 **¿Qué fue el tornado de Dolores en 2016?**
 El 15 de abril de 2016, un tornado de gran intensidad impactó la ciudad de Dolores (departamento de Soriano), causando daños materiales severos, víctimas fatales y desplazamiento de población. Fue uno de los eventos meteorológicos más destructivos registrados en Uruguay en las últimas décadas y visibilizó la necesidad de sistemas de alerta temprana ante fenómenos convectivos severos.
-
----
 
 ## Palabras clave
 

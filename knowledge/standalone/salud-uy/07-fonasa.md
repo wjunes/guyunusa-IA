@@ -1,3 +1,5 @@
+# Fondo Nacional de Salud (FONASA)
+
 ## Resumen
 
 El **Fondo Nacional de Salud (FONASA)** es el mecanismo de financiamiento solidario del **Sistema Nacional Integrado de Salud (SNIS)**, creado por la **Ley 18.211 en 2007**. Recauda aportes de trabajadores, empleadores, jubilados y el Estado, y los distribuye entre los prestadores del SNIS (ASSE e IAMC) mediante una **cápita ajustada por riesgo**. El FONASA fue la innovación financiera central de la reforma de 2007: rompió con el modelo previo, en el que la cobertura de salud dependía del empleo formal, y creó un sistema solidario donde los sanos financian la atención de los enfermos y los de mayores ingresos contribuyen más que los de menores ingresos. El FONASA es administrado por la **JUNASA**.

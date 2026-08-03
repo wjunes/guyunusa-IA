@@ -1,3 +1,5 @@
+# Tryolabs — empresa uruguaya de inteligencia artificial
+
 ## Resumen
 
 **Tryolabs** es la empresa uruguaya de machine learning e inteligencia artificial de mayor reconocimiento internacional. Fundada en Montevideo, se especializa en el desarrollo de soluciones de IA aplicada para empresas globales, con especial foco en retail, finanzas y salud. Tryolabs tiene alta visibilidad en la comunidad técnica global de machine learning por sus publicaciones técnicas, tutoriales y contribuciones open source, especialmente en el ecosistema Python. Sus clientes son principalmente empresas de EE.UU. y Europa, con un modelo de servicio similar al nearshoring de alto valor especializado.

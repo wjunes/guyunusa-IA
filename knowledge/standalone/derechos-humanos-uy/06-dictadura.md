@@ -1,3 +1,5 @@
+# Dictadura cívico-militar y derechos humanos en Uruguay (1973–1985)
+
 ## Resumen
 
 La **dictadura cívico-militar uruguaya (1973-1985)** fue el período de mayor y más sistemática violación de los derechos humanos en la historia del país. El golpe de Estado del **27 de junio de 1973** —encabezado por el presidente constitucional Juan María Bordaberry con apoyo de las Fuerzas Armadas— clausuró el Parlamento, disolvió los partidos políticos, ilegalizó los sindicatos y desató una represión masiva. Las principales violaciones incluyeron **detención arbitraria y tortura sistemática**, **desaparición forzada**, **ejecuciones extrajudiciales** y **exilio masivo**. El **Informe Uruguay: Nunca Más** de SERPAJ (1989) y el **Informe Final de la Comisión para la Paz** (2003) documentaron estas violaciones. La dictadura terminó el **1° de marzo de 1985** con la asunción del gobierno constitucional.

@@ -1,3 +1,5 @@
+# Derechos de los usuarios de salud en Uruguay
+
 ## Resumen
 
 La **Ley 18.335 (2008)** —Ley de Derechos y Obligaciones de Pacientes y Usuarios de los Servicios de Salud— establece el marco legal que garantiza los derechos de los usuarios del sistema de salud uruguayo. Esta ley reconoce derechos fundamentales como el **consentimiento informado**, el acceso a la **historia clínica**, el derecho a la **segunda opinión**, el **trato digno** y la **confidencialidad**. El **MSP** es el organismo que fiscaliza el cumplimiento de estos derechos. La **reforma de 2007** (SNIS) también incorporó derechos de los usuarios, como la **libre elección del prestador** y el acceso universal a prestaciones del Formulario Terapéutico Nacional.

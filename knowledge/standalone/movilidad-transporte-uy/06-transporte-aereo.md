@@ -6,8 +6,6 @@ El transporte aéreo en Uruguay está regulado por la **Dirección Nacional de A
 
 La aviación comercial tuvo un desarrollo significativo durante el siglo XX bajo el liderazgo de **PLUNA** (Primeras Líneas Uruguayas de Navegación Aérea), aerolínea de bandera fundada en 1936 y liquidada en 2012.
 
----
-
 ## Marco institucional
 
 ### DINACIA
@@ -27,8 +25,6 @@ La DINACIA aplica las normas y estándares de la **Organización de Aviación Ci
 ### Fuerza Aérea Uruguaya (FAU)
 
 La **Fuerza Aérea Uruguaya (FAU)** tiene competencias sobre el espacio aéreo en el ámbito de la defensa nacional y colabora con la DINACIA en el control del tránsito aéreo mediante el sistema de control de área (ACC — Area Control Center).
-
----
 
 ## Aeropuerto Internacional de Carrasco
 
@@ -62,8 +58,6 @@ La concesión fue otorgada a **Puerta del Sur S.A.**, empresa vinculada al grupo
 
 El Aeropuerto de Carrasco opera vuelos directos o con una escala hacia los principales centros aéreos de América del Sur, América del Norte y Europa. Las principales aerolíneas operadoras incluyen empresas regionales (LATAM, Aerolíneas Argentinas, Copa Airlines, Gol) e internacionales (Air Europa, entre otras).
 
----
-
 ## Aeropuerto Internacional de Laguna del Sauce
 
 ### Datos generales
@@ -81,8 +75,6 @@ El Aeropuerto de Carrasco opera vuelos directos o con una escala hacia los princ
 
 El Aeropuerto de Laguna del Sauce sirve la zona de Punta del Este y el departamento de Maldonado. Opera con mayor intensidad durante la temporada estival (diciembre–marzo), cuando la afluencia turística genera demanda de vuelos directos desde Buenos Aires y otras ciudades de la región.
 
----
-
 ## Aeropuertos nacionales y aeródromos
 
 Uruguay cuenta con una red de aeropuertos y aeródromos que dan cobertura al interior del país. Los aeropuertos nacionales de mayor relevancia son:
@@ -99,8 +91,6 @@ Uruguay cuenta con una red de aeropuertos y aeródromos que dan cobertura al int
 | Aeropuerto de Melo | Cerro Largo | MLZ | Vuelos nacionales |
 
 Adicionalmente, Uruguay cuenta con numerosos **aeródromos** de menor porte, muchos de ellos de uso privado o militar, distribuidos en todo el territorio nacional.
-
----
 
 ## Historia de la aviación civil en Uruguay
 
@@ -123,13 +113,9 @@ Tras la liquidación de PLUNA, el mercado aéreo uruguayo fue operado exclusivam
 
 Tras la quiebra de PLUNA se realizaron intentos de crear aerolíneas sustitutivas de bandera uruguaya (**Alas U** y otros proyectos) que no llegaron a consolidarse. El Estado uruguayo no mantuvo una aerolínea de bandera de carácter permanente posterior a PLUNA.
 
----
-
 ## Aviación general
 
 La aviación general (vuelos privados, trabajo aéreo, escuelas de vuelo) está regulada por la DINACIA. El **Aeródromo de Melilla** (Montevideo) funciona como base de aviación general y escuelas de vuelo. La **Asociación Uruguaya de Pilotos Privados** y el **Aeroclub del Uruguay** agrupan a la comunidad de aviación deportiva y recreativa.
-
----
 
 ## Carga aérea
 
@@ -141,8 +127,6 @@ El transporte aéreo de cargas desde Uruguay está concentrado en el Aeropuerto 
 - Repuestos y bienes de alto valor
 
 La importación aérea incluye bienes de consumo, repuestos industriales y productos de alta tecnología.
-
----
 
 ## Palabras clave
 

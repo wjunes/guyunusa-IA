@@ -6,8 +6,6 @@ Las **personas en situación de calle** son aquellas que no disponen de un lugar
 
 Uruguay reconoce la situación de calle como una vulneración grave de derechos humanos y ha desarrollado desde 2005 un sistema de atención que combina la provisión de refugio y alimentación con estrategias de revinculación social y egreso hacia soluciones habitacionales estables.
 
----
-
 ## Evolución histórica
 
 ### Antes de 2005
@@ -19,8 +17,6 @@ La crisis económica de 2002 provocó un aumento significativo del número de pe
 ### 2005–presente: PASC y sistema de refugios
 
 A partir de 2005, el MIDES tomó la responsabilidad de coordinar y financiar el sistema de refugios y centros de atención para personas en situación de calle en Uruguay.
-
----
 
 ## Programa de Atención a Personas en Situación de Calle (PASC)
 
@@ -46,13 +42,9 @@ Son dispositivos residenciales para personas que ya han iniciado un proceso de r
 
 Espacios diurnos donde las personas en situación de calle pueden acceder a higiene personal, alimentación, orientación y actividades. Son especialmente importantes para personas que no pernoctan en refugios.
 
----
-
 ## Equipo de calle y trabajo territorial
 
 El PASC tiene **equipos de calle** (educadores y trabajadores sociales) que recorren el espacio público nocturno para detectar a personas en situación de calle, ofrecerles acceso a los refugios y establecer vínculos de confianza. Este trabajo de calle es fundamental para alcanzar a personas que evitan o desconocen los dispositivos institucionales.
-
----
 
 ## Perfil de las personas en situación de calle
 
@@ -65,8 +57,6 @@ Las **encuestas y relevamientos** periódicos realizados por el MIDES (DINEM) pe
 - Bajo nivel educativo formal.
 - Escasa o nula historia de empleo formal.
 
----
-
 ## Articulación con otros organismos
 
 La atención a personas en situación de calle requiere la articulación del MIDES con:
@@ -76,13 +66,9 @@ La atención a personas en situación de calle requiere la articulación del MID
 - **MTSS/INEFOP**: empleo y formación.
 - **Intendencias**: coordinación territorial, habilitación de espacios.
 
----
-
 ## Situación en Montevideo
 
 Montevideo concentra la mayor parte de las personas en situación de calle de Uruguay. La Intendencia de Montevideo coordina acciones con el MIDES y las OSC en el espacio metropolitano.
-
----
 
 ## Palabras clave
 

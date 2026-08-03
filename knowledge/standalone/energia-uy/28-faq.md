@@ -6,8 +6,6 @@ Este documento responde a las **preguntas más frecuentes** sobre el sector ener
 
 Para información ampliada sobre cada tema, se indica el documento correspondiente del dominio `energia-uy`.
 
----
-
 ## Matriz energética y renovables
 
 **¿Qué porcentaje de la electricidad de Uruguay proviene de fuentes renovables?**
@@ -22,8 +20,6 @@ La energía **primaria** (antes de transformación) de Uruguay proviene de: petr
 **¿Tiene Uruguay reservas propias de petróleo o gas natural?**
 No. Uruguay **no posee reservas propias de petróleo ni gas natural** en cantidades económicamente explotables. Depende completamente de la importación de estos recursos. → Ver `13-gas-natural.md`, `14-combustibles-fosiles.md`
 
----
-
 ## Instituciones del sector
 
 **¿Qué es UTE?**
@@ -37,8 +33,6 @@ ADME es la **Administración del Mercado Eléctrico**, creada por la Ley 16.832/
 
 **¿Qué es URSEA?**
 URSEA es la **Unidad Reguladora de Servicios de Energía y Agua**, creada por Ley 17.598 del 13 de diciembre de 2002. Es el regulador independiente del sector: controla la calidad de combustibles y del servicio eléctrico, habilita estaciones de servicio y establecimientos de GLP y gas natural, y asesora en tarifas. → Ver `07-ursea.md`
-
----
 
 ## Infraestructura
 
@@ -59,8 +53,6 @@ Sí. Uruguay tiene más de 40 parques eólicos [VERIFICAR número exacto] distri
 **¿Puede instalar paneles solares en mi casa en Uruguay?**
 Sí. Uruguay tiene un régimen de **net metering** que permite a los usuarios residenciales y comerciales instalar paneles solares fotovoltaicos y compensar los excedentes inyectados a la red contra su consumo. UTE es el punto de conexión. Se requieren instalaciones habilitadas por URSEA y la aprobación de la conexión por UTE. → Ver `19-plantas-solares.md`, `20-eficiencia-energetica.md`
 
----
-
 ## Hidrógeno verde
 
 **¿Qué es el hidrógeno verde?**
@@ -69,8 +61,6 @@ El hidrógeno verde es hidrógeno molecular (H₂) producido mediante **electró
 **¿Cuál es la estrategia de Uruguay en hidrógeno verde?**
 La **Estrategia H2U**, lanzada por el MIEM en 2021, busca posicionar a Uruguay como productor y exportador de H₂ verde hacia mercados europeos y globales. Los principales actores son MIEM, DNE, UTE, ANCAP, LATU y ANII, con apoyo de Alemania, BID y la Unión Europea. → Ver `15-hidrogeno-verde.md`, `29-proyectos-estrategicos.md`
 
----
-
 ## Combustibles fósiles y gas natural
 
 **¿Por qué Uruguay depende del petróleo si tiene tanta energía renovable?**
@@ -78,8 +68,6 @@ Las energías renovables de Uruguay (eólica, solar, hídrica) solo se usan para
 
 **¿Uruguay importa gas natural de Argentina?**
 Históricamente sí, desde 1998, a través del **Gasoducto Cruz del Sur**. Sin embargo, la dependencia del gas argentino creó vulnerabilidad (crisis de 2004). Desde 2016, Uruguay diversificó su abastecimiento con el **Terminal GNL Montevideo (GNLM)**, que recibe GNL por barco desde distintos países del mundo. → Ver `13-gas-natural.md`
-
----
 
 ## Eficiencia energética y medio ambiente
 
@@ -92,8 +80,6 @@ Las renovables tienen impacto ambiental significativamente menor que los combust
 **¿Uruguay cumple con el Acuerdo de París?**
 Uruguay es signatario del **Acuerdo de París (2015)** y ha presentado sucesivas **Contribuciones Determinadas a Nivel Nacional (NDC)** con compromisos de reducción de emisiones, especialmente en los sectores de transporte, industria y energía. El sector eléctrico ya es casi 100% renovable; el desafío mayor está en el transporte. → Ver `22-energia-y-medio-ambiente.md`
 
----
-
 ## Historia y modelos de referencia
 
 **¿Cómo logró Uruguay más del 97% de electricidad renovable?**
@@ -104,8 +90,6 @@ A través de:
 4. **Red de transmisión** capaz de integrar la generación variable.
 5. **Interconexiones internacionales** con Argentina (y en menor medida Brasil) para gestionar excedentes y déficits.
 → Ver `01-historia-de-la-energia-en-uruguay.md`, `25-linea-de-tiempo.md`, `24-cooperacion-internacional.md`
-
----
 
 ## Palabras clave
 

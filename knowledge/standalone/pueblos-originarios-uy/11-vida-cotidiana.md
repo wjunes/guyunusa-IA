@@ -4,8 +4,6 @@
 
 La **vida cotidiana** de los pueblos originarios del actual Uruguay es reconstruida a partir de tres tipos de fuentes: el registro arqueológico (restos óseos, semillas, instrumentos, fogones), las crónicas de los primeros observadores europeos (siglos XVI al XVIII), y la analogía con grupos similares de la región mejor documentados. Cada fuente tiene sus propias limitaciones y sesgos, que deben considerarse al interpretar el resultado.
 
----
-
 ## Alimentación
 
 ### Grupos cazadores-recolectores (charrúas, guenoas, yaros, bohanes)
@@ -40,8 +38,6 @@ La dieta guaraní integraba:
 - **Caza y pesca:** complementarias.
 - **Bebidas fermentadas:** la **chicha** de maíz y la **cauín** de mandioca eran bebidas fermentadas de uso ritual y cotidiano.
 
----
-
 ## Caza
 
 ### Técnicas de caza
@@ -63,8 +59,6 @@ La introducción del **caballo** por los europeos transformó radicalmente las t
 - Las boleadoras y la lanza se adaptaron al uso ecuestre.
 - Los charrúas "ecuestes" del siglo XVIII tenían un modo de vida significativamente diferente al de los charrúas del siglo XVI.
 
----
-
 ## Pesca
 
 ### Técnicas documentadas
@@ -77,8 +71,6 @@ La introducción del **caballo** por los europeos transformó radicalmente las t
 | **Nasas y trampas** | Estructuras fijas en cursos de agua |
 | **Boleadoras de pesca** | Bolas pequeñas para aturdir peces en aguas poco profundas |
 | **Pesca con manos** | En pozas temporarias o aguas bajísimas |
-
----
 
 ## Vivienda y campamentos
 
@@ -97,8 +89,6 @@ Los **toldos** eran las viviendas características de los grupos nómadas del Ur
 - Los restos de campamentos (fogones, restos óseos, material lítico) constituyen los sitios arqueológicos más comunes del Uruguay.
 - Los campamentos eran temporales: dependiendo de los recursos, podían ocuparse por días, semanas o volver a usarse estacionalmente.
 
----
-
 ## Movilidad estacional
 
 Los grupos nómadas del Uruguay seguían **ciclos estacionales de movilidad**:
@@ -110,8 +100,6 @@ Los grupos nómadas del Uruguay seguían **ciclos estacionales de movilidad**:
 | **Otoño** | Recolección de frutos de butiá y otros; preparación de reservas; caza intensiva |
 | **Invierno** | Mayor dependencia de la caza; uso de cueros como abrigo; posible concentración en zonas más protegidas |
 
----
-
 ## Medicina tradicional
 
 La información sobre medicina tradicional de los grupos del Uruguay es muy limitada:
@@ -119,8 +107,6 @@ La información sobre medicina tradicional de los grupos del Uruguay es muy limi
 - El conocimiento de **plantas medicinales** era parte del saber colectivo de los grupos, aunque no está documentado sistemáticamente para los pueblos del Uruguay.
 - Las enfermedades se interpretaban como resultado de la acción de entidades espirituales o de transgresiones a normas culturales.
 - Las epidemias introducidas por los europeos (especialmente la viruela) fueron devastadoras: los grupos locales no tenían inmunidad previa.
-
----
 
 ## Rituales y celebraciones
 
@@ -138,8 +124,6 @@ La información sobre medicina tradicional de los grupos del Uruguay es muy limi
 ### Rituales de guerra
 - Antes de salir a la guerra, los guerreros realizaban preparativos rituales (pinturas corporales específicas, ayunos, cantos).
 - Los cronistas europeos describieron danzas guerreras previas a los combates.
-
----
 
 ## Palabras clave
 

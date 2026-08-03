@@ -1,3 +1,5 @@
+# Recursos hídricos y ambiente en Uruguay
+
 ## Resumen
 
 Uruguay es un país privilegiado en **recursos hídricos**: tiene abundantes aguas superficiales distribuidas en cuatro grandes cuencas hidrográficas, comparte el **Acuífero Guaraní** (uno de los mayores reservorios de agua dulce subterránea del mundo) y cuenta con una cobertura de **agua potable cercana al 100%** de la población urbana, gestionada por **OSE** (Obras Sanitarias del Estado). La Constitución uruguaya reconoce desde **2004** el acceso al agua potable y al saneamiento como **derechos humanos fundamentales**, siendo uno de los primeros países del mundo en consagrar este principio a nivel constitucional. Sin embargo, la **calidad del agua** en algunos ríos, arroyos y la bahía de Montevideo es motivo de preocupación creciente por la presión de la agricultura intensiva, los efluentes industriales y los residuos urbanos.

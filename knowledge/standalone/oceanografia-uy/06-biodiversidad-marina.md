@@ -1,12 +1,8 @@
 # Biodiversidad Marina del Uruguay
 
----
-
 ## Contexto ecológico
 
 La confluencia de las Corrientes del Brasil y de Malvinas frente a Uruguay genera uno de los frentes oceánicos de mayor productividad biológica del Atlántico Sudoccidental. Esta alta producción primaria —impulsada por el afloramiento y mezcla de aguas ricas en nutrientes— sustenta una biodiversidad marina excepcional que abarca desde el plancton microscópico hasta las grandes ballenas.
-
----
 
 ## Ecosistemas marinos
 
@@ -20,8 +16,6 @@ La confluencia de las Corrientes del Brasil y de Malvinas frente a Uruguay gener
 | Playas arenosas | Costa oceánica | Comunidades intersticiales y supralitorales |
 | Costas rocosas | Punta del Este y tramos aislados | Alta diversidad de invertebrados sésiles y peces de arrecife |
 | Islas oceánicas | Isla de Lobos, Isla de Flores | Colonias de pinnípedos y aves; vegetación litoral |
-
----
 
 ## Peces
 
@@ -44,8 +38,6 @@ La confluencia de las Corrientes del Brasil y de Malvinas frente a Uruguay gener
 
 Uruguay alberga diversas especies de elasmobranquios, incluyendo la **tojosa** (*Mustelus schmitti*), el **cazón** (*Galeorhinus galeus*), la **raya negra** (*Myliobatis freminvillii*) y otras especies de rayas sobre la plataforma.
 
----
-
 ## Mamíferos marinos
 
 | Especie | Nombre científico | Presencia en Uruguay | Estado de conservación |
@@ -63,8 +55,6 @@ Uruguay alberga diversas especies de elasmobranquios, incluyendo la **tojosa** (
 
 La **Isla de Lobos** (Departamento de Maldonado) alberga una de las mayores colonias de lobos marinos de un pelo (*Otaria flavescens*) del mundo, con estimaciones que han superado los **200.000 individuos** [VERIFICAR cifra actual].
 
----
-
 ## Tortugas marinas
 
 | Especie | Nombre científico | Presencia en Uruguay |
@@ -75,8 +65,6 @@ La **Isla de Lobos** (Departamento de Maldonado) alberga una de las mayores colo
 | Tortuga olivácea | *Lepidochelys olivacea* | Ocasional [VERIFICAR] |
 
 Todas las especies son objeto de monitoreo y rescate por parte del **CPCN marino** [VERIFICAR organismo responsable] y organizaciones de voluntarios como **ONG Karumbé** (especializada en tortugas marinas del Río de la Plata y costa de Uruguay).
-
----
 
 ## Aves marinas
 
@@ -94,8 +82,6 @@ Todas las especies son objeto de monitoreo y rescate por parte del **CPCN marino
 | Biguá | *Phalacrocorax olivaceus* | Residente; agua dulce y costera |
 | Gaviota capucho café | *Chroicocephalus maculipennis* | Residente; costa y estuario |
 
----
-
 ## Invertebrados bentónicos y pelágicos
 
 - **Crustáceos:** cangrejo rojo de profundidad (*Chaceon notialis*) en el talud; langostino patagónico (*Pleoticus muelleri*) en la plataforma; jaiba (*Ovalipes trimaculatus*) en la plataforma interna.
@@ -103,8 +89,6 @@ Todas las especies son objeto de monitoreo y rescate por parte del **CPCN marino
 - **Equinodermos:** erizos, estrellas de mar, holoturias en plataforma.
 - **Plancton:** zooplancton dominado por copépodos y krill (*Euphausia sp.*) en las corrientes frías; fitoplancton de diatomeas y dinoflagelados.
 - **Corales de aguas frías:** *Lophelia pertusa* y otras especies en el talud y zonas profundas del Cañón del Plata [VERIFICAR presencia documentada].
-
----
 
 ## Especies amenazadas y medidas de conservación
 
@@ -114,8 +98,6 @@ Uruguay ha avanzado en la protección de especies marinas amenazadas mediante:
 - Monitoreo de varamientos de cetáceos y tortugas (ONG Karumbé, DINARA, Facultad de Ciencias).
 - Prohibición de la pesca de tiburones en aguas interiores [VERIFICAR legislación actual].
 - Sistema Nacional de Áreas Protegidas (SNAP) con componentes marinos (Franja Costera Sur, Cerro Verde e Islas de la Coronilla, Laguna de Rocha, Islas de Cabo Polonio).
-
----
 
 ## Palabras clave
 

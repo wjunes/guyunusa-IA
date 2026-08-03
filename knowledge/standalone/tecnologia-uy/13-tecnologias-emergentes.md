@@ -1,3 +1,5 @@
+# Tecnologías emergentes en Uruguay
+
 ## Resumen
 
 Uruguay ha adoptado tecnologías emergentes en varios sectores, aunque la escala de adopción refleja el tamaño pequeño de su economía. El país tiene casos relevantes de uso de blockchain (trazabilidad ganadera, proyectos fintech, Koibanx), IoT aplicado al agro y la energía, adopción creciente de cloud computing (con ANTEL como proveedor público y presencia de AWS, Azure, Google Cloud), y está posicionándose en la producción de hidrógeno verde. La regulación de cripto activos y la exploración de CBDC (moneda digital de banco central) están en agenda en el BCU.

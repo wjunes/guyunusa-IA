@@ -4,8 +4,6 @@
 
 Este documento recorre la evolución del sector energético uruguayo desde el período colonial hasta 2026, abarcando la introducción de las distintas fuentes energéticas, la creación de las instituciones reguladoras y empresas del Estado, los grandes hitos de la electrificación nacional y la transición hacia energías renovables.
 
----
-
 ## Período colonial y siglo XIX (hasta 1897)
 
 ### Energía preindustrial
@@ -29,8 +27,6 @@ En **1853**, Montevideo inauguró el servicio de **gas de alumbrado** para ilumi
 | **1888** | Concesión para alumbrado eléctrico público en Montevideo |
 | **1897** | Creación de la **Comisión de Luz y Fuerza** por el Estado uruguayo |
 
----
-
 ## Fundación de UTE y electrificación temprana (1897–1945)
 
 ### Creación de UTE (1912)
@@ -50,8 +46,6 @@ Durante las décadas de 1920 y 1930, UTE extendió gradualmente la red eléctric
 La **Administración Nacional de Combustibles, Alcohol y Pórtland (ANCAP)** fue creada por la **Ley N.º 8.764 del 15 de octubre de 1931**, durante la presidencia de **Gabriel Terra**. ANCAP obtuvo el monopolio de la importación, refinación y distribución de combustibles derivados del petróleo en Uruguay, así como la producción de alcohol y cemento pórtland.
 
 La **Refinería La Teja** (Montevideo), la principal planta de ANCAP, inició operaciones en **1937**.
-
----
 
 ## Era hidráulica: las grandes represas (1945–1980)
 
@@ -75,8 +69,6 @@ La **Represa de Salto Grande**, sobre el **Río Uruguay**, es una obra **binacio
 
 Las dos **crisis internacionales del petróleo** (1973 y 1979) impactaron severamente en Uruguay, altamente dependiente de combustibles fósiles importados. Estas crisis impulsaron las primeras políticas de diversificación energética y eficiencia.
 
----
-
 ## Dependencia energética y crisis (1980–2004)
 
 ### Composición de la matriz en los años 1990
@@ -90,8 +82,6 @@ Uruguay sufrió severas crisis de abastecimiento eléctrico durante períodos de
 ### Gas natural de Argentina (1998–2004)
 
 En **1998**, Uruguay comenzó a importar **gas natural** de Argentina a través de gasoductos. Sin embargo, la crisis económica argentina de **2001–2002** y las restricciones de exportación de gas impuestas por Argentina en **2004** interrumpieron ese suministro, poniendo en evidencia la vulnerabilidad energética del país.
-
----
 
 ## La primera transición energética (2005–2016)
 
@@ -121,8 +111,6 @@ En **2016**, entró en operación el **Terminal de Regasificación GNL Montevide
 
 En **2017**, Uruguay alcanzó el hito de generar más del **97–98% de su electricidad** a partir de fuentes renovables en el promedio anual: hidroelectricidad, viento, biomasa y solar. Fue reconocido internacionalmente por la **IEA**, **IRENA** y otros organismos como uno de los líderes mundiales en renovables.
 
----
-
 ## Segunda transición y nuevos desafíos (2017–2026)
 
 ### Excedentes y exportaciones de electricidad
@@ -141,8 +129,6 @@ La sequía de **2022–2023** fue una de las más severas registradas, afectando
 
 Uruguay avanzó en la incorporación de **sistemas de almacenamiento por baterías** (BESS), **movilidad eléctrica** y **redes inteligentes (smart grids)** como parte de la agenda de la segunda transición energética.
 
----
-
 ## Síntesis cronológica
 
 | Período | Característica dominante |
@@ -153,8 +139,6 @@ Uruguay avanzó en la incorporación de **sistemas de almacenamiento por baterí
 | 1982–2005 | Dependencia hidráulica; vulnerabilidad ante sequías |
 | 2005–2016 | Primera transición: boom eólico y solar |
 | 2017–presente | Liderazgo global en renovables; segunda transición (hidrógeno verde, baterías) |
-
----
 
 ## Palabras clave
 

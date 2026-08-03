@@ -6,8 +6,6 @@ La movilidad sostenible busca satisfacer las necesidades de desplazamiento de la
 
 El sector transporte es uno de los principales emisores de CO₂ en Uruguay, representando una parte significativa de las emisiones nacionales de gases de efecto invernadero.
 
----
-
 ## Electromovilidad
 
 ### Marco de política
@@ -41,8 +39,6 @@ UTE ofrece una tarifa diferencial para la carga nocturna de vehículos eléctric
 
 El STM de Montevideo incorporó progresivamente unidades eléctricas e híbridas en la flota de ómnibus urbanos. CUTCSA y otras empresas del sistema han adquirido ómnibus eléctricos en el marco de procesos de renovación de flota. Los ómnibus eléctricos reducen las emisiones locales, la contaminación sonora y el costo operativo por kilómetro respecto a los vehículos diésel convencionales.
 
----
-
 ## Bicicletas y ciclomovilidad
 
 ### Ciclovías de Montevideo
@@ -66,8 +62,6 @@ Las bicicletas son de uso urbano (estándar) y en algunos casos eléctricas (e-b
 
 Ciudades como Salto, Paysandú y Maldonado también han desarrollado infraestructura ciclista y, en algunos casos, sistemas de préstamo de bicicletas con apoyo de las intendencias departamentales.
 
----
-
 ## Reducción de emisiones en el transporte
 
 ### Situación del sector
@@ -88,8 +82,6 @@ El transporte es responsable de una parte importante de las emisiones de CO₂ d
 
 Uruguay es signatario del **Acuerdo de París** (2015) y ha presentado **Contribuciones Nacionales Determinadas (NDC)** que incluyen metas de reducción de emisiones en el sector transporte. El **Ministerio de Ambiente** coordina la política climática nacional, en articulación con el MTOP y el MIEM para el sector movilidad.
 
----
-
 ## Combustibles alternativos
 
 ### Biocombustibles
@@ -99,8 +91,6 @@ Uruguay produjo y utilizó **biodiésel** y **bioetanol** en mezcla con combusti
 ### Gas Natural Comprimido (GNC)
 
 El uso de gas natural comprimido como combustible vehicular tuvo un desarrollo limitado en Uruguay, con algunas estaciones de carga en Montevideo. Su expansión ha sido menor que en países vecinos como Argentina.
-
----
 
 ## Caminabilidad
 
@@ -114,8 +104,6 @@ La **caminabilidad** (walkability) refiere a la calidad del entorno urbano para 
 
 La promoción de la caminabilidad reduce la demanda de viajes motorizados en distancias cortas.
 
----
-
 ## Planes nacionales de movilidad sostenible
 
 El MTOP y el MIEM han elaborado documentos de planificación que integran la dimensión de la sostenibilidad en la movilidad:
@@ -123,8 +111,6 @@ El MTOP y el MIEM han elaborado documentos de planificación que integran la dim
 - **Plan de Movilidad Sostenible**: define lineamientos para la descarbonización del transporte.
 - **Política Energética Nacional**: incluye metas de eficiencia energética y penetración de vehículos eléctricos.
 - **Plan Nacional de Respuesta al Cambio Climático (MVOTMA)**: incluye acciones en el sector transporte.
-
----
 
 ## Palabras clave
 

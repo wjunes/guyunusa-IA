@@ -1,12 +1,8 @@
 # Bibliografía y Fuentes — Clima y Meteorología de Uruguay
 
----
-
 ## Criterios de selección
 
 Esta bibliografía reúne las fuentes primarias, documentos institucionales, publicaciones científicas y recursos en línea más relevantes para el estudio de la meteorología, la climatología y el cambio climático en Uruguay. Se prioriza la accesibilidad, la actualidad y la relevancia para el contexto del país.
-
----
 
 ## Documentos institucionales de INUMET
 
@@ -19,8 +15,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | **Informe Anual del Estado del Clima** | Resumen meteorológico y climático del año; publicación anual [VERIFICAR si INUMET lo publica]. |
 | **Comunicaciones a la OMM** | Datos y metadatos de estaciones; normas climatológicas; enviados anualmente a la OMM. |
 
----
-
 ## Documentos del Ministerio de Ambiente y cambio climático
 
 | Documento | Descripción |
@@ -32,8 +26,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | **Plan Nacional de Adaptación al Cambio Climático** | Sectores: agropecuario, agua, costas, ciudades, salud. [VERIFICAR edición más reciente] |
 | **Política Nacional de Cambio Climático** | Marco estratégico de acción climática de Uruguay. Ministerio de Ambiente, 2017. |
 
----
-
 ## Publicaciones científicas de referencia (autores y grupos uruguayos)
 
 | Referencia | Descripción |
@@ -42,8 +34,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | Caffera, R. M.; Berbery, E. H. | Estudios sobre la climatología de la precipitación en el este de América del Sur y la variabilidad ENSO. [VERIFICAR] |
 | Díaz, A.; Studzinski, C.; Mechoso, C. R. | Relaciones entre ENSO y la precipitación en el Río de la Plata. [VERIFICAR] |
 | Bidegain, M. et al. (2011) | *Tendencias climáticas y proyecciones para Uruguay.* Publicación del MVOTMA/PNUD/INUMET. [VERIFICAR título y datos editoriales exactos] |
-
----
 
 ## Publicaciones científicas internacionales relevantes para Uruguay
 
@@ -55,8 +45,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | Allen, R. G. et al. (1998) | *Crop evapotranspiration* (FAO-56). FAO, Roma. Método Penman-Monteith estándar. |
 | Vera, C. et al. (2006) | Hacia una teoría unificada del clima de América del Sur. *J. Climate*. |
 
----
-
 ## Informes del IPCC utilizados para Uruguay
 
 | Informe | Contenido relevante |
@@ -65,8 +53,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | IPCC SROCC (2019) | *Special Report on the Ocean and Cryosphere in a Changing Climate*. Nivel del mar; acidificación oceánica; glaciares. |
 | IPCC SR1.5 (2018) | *Special Report: Global Warming of 1.5 °C*. Impactos y diferencias entre 1,5 y 2 °C. |
 | **IPCC AR6** (2021–2023) | Sexto Informe de Evaluación: base física (GT I); impactos y adaptación (GT II); mitigación (GT III); síntesis. Referencia científica principal para proyecciones actuales. |
-
----
 
 ## Fuentes de la OMM
 
@@ -79,8 +65,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | WMO-No. 306 | *Manual on Codes.* Códigos de observación (SYNOP, TEMP, METAR). |
 | **Estado del Clima Global** | Informe anual de la OMM sobre el estado del clima en el mundo. Disponible en: wmo.int. |
 
----
-
 ## Bases de datos internacionales con datos de Uruguay
 
 | Base de datos | Organización | Acceso | Contenido |
@@ -92,8 +76,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | **CHIRPS** | UCSB/USGS | Libre | Precipitación diaria de alta resolución para los trópicos y subtrópicos (incluye Uruguay) |
 | **POWER** | NASA | Libre | Variables meteorológicas y de radiación; orientado a energía y agricultura |
 | **OSCAR/Surface** | OMM | Libre | Metadatos de estaciones de observación meteorológica mundiales |
-
----
 
 ## Recursos en línea institucionales
 
@@ -109,8 +91,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | IPCC | www.ipcc.ch | Informes de evaluación; datos y figuras del AR6 |
 | Copernicus CDS | cds.climate.copernicus.eu | ERA5; proyecciones CMIP6; otros productos climáticos |
 
----
-
 ## Legislación nacional relevante
 
 | Norma | Descripción |
@@ -119,8 +99,6 @@ Esta bibliografía reúne las fuentes primarias, documentos institucionales, pub
 | **Ley 18.610 (2009)** | Política Nacional de Aguas; principios de gestión del recurso hídrico. |
 | **Ley 17.234 (2000)** | Sistema Nacional de Áreas Protegidas (SNAP); áreas costeras y marinas. |
 | **Decreto Ley 15.576 / SINAE** | Sistema Nacional de Emergencias; coordinación de alertas. [VERIFICAR marco legal actual del SINAE] |
-
----
 
 ## Palabras clave
 

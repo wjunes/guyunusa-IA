@@ -1,3 +1,5 @@
+# Dirección Nacional de Medio Ambiente (DINAMA / DINACEA)
+
 ## Resumen
 
 La **Dirección Nacional de Medio Ambiente (DINAMA)** es la principal unidad operativa del **Ministerio de Ambiente** de Uruguay en materia de gestión ambiental. Es el organismo técnico responsable de aplicar los instrumentos centrales de la política ambiental: la **Evaluación de Impacto Ambiental (EIA)** con la **Autorización Ambiental Previa (AAP)**, la **fiscalización y control ambiental**, el **monitoreo de la calidad del ambiente** (aire, agua, suelo) y la producción de **información ambiental**. La DINAMA también coordina la implementación de los acuerdos internacionales en materia de biodiversidad, cambio climático, residuos peligrosos y sustancias químicas.

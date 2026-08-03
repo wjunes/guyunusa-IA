@@ -2,8 +2,6 @@
 
 Términos técnicos y conceptos clave del ámbito de la tecnología, el software y la innovación en Uruguay.
 
----
-
 **AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento)**: Organismo rector de la política de gobierno digital en Uruguay, dependiente de la Presidencia de la República. Creada por Ley 18.362/2008. Gestiona gub.uy, el CERTuy, la identidad digital y los datos abiertos.
 
 **ANII (Agencia Nacional de Investigación e Innovación)**: Organismo público creado en 2006 (Ley 18.084) para financiar investigación científica, desarrollo tecnológico e innovación empresarial. Administra fondos competitivos (FNI, FSE, PIA) y es el principal instrumento de política de innovación del país.

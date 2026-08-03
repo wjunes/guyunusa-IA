@@ -1,3 +1,5 @@
+# Agroquímicos, soja y ambiente en Uruguay
+
 ## Resumen
 
 La expansión de la **producción de soja** en Uruguay desde los años 2000 transformó el paisaje agropecuario del país y generó un debate ambiental significativo. Uruguay pasó de prácticamente no producir soja a cultivar más de **1 millón de hectáreas** en los años de mayor expansión (mediados de la década de 2010), convirtiéndola en uno de los principales cultivos de exportación. La **sojización** implicó la conversión de praderas naturales y de otros usos del suelo al monocultivo, con un alto uso de **agroquímicos** (principalmente el herbicida **glifosato** pero también otros herbicidas, insecticidas y fungicidas). Los impactos ambientales incluyen la contaminación de suelos y aguas, la pérdida de biodiversidad en la pradera y los problemas de salud reportados por comunidades rurales cercanas a las fumigaciones.

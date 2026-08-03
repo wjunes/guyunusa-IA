@@ -1,3 +1,5 @@
+# Administración de los Servicios de Salud del Estado (ASSE)
+
 ## Resumen
 
 La **Administración de los Servicios de Salud del Estado (ASSE)** es el mayor prestador de salud del Uruguay y el único de carácter público en el **SNIS**. Fue creada como servicio descentralizado del Estado por la **Ley 18.161 (2007)**, en el contexto de la reforma sanitaria. Antes de esa ley, los servicios hospitalarios públicos eran administrados directamente por el MSP. ASSE gestiona la mayor red hospitalaria y de policlínicas del país, con presencia en los 19 departamentos. Atiende a más de un tercio de la población uruguaya —principalmente los sectores de menores ingresos y quienes eligen el sector público por convicción. ASSE recibe del FONASA una cápita por cada persona afiliada y también fondos directos del presupuesto nacional.

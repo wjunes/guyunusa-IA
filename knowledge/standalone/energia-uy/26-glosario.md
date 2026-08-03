@@ -6,8 +6,6 @@ Este glosario reúne los **términos técnicos, siglas e instituciones** más ut
 
 Las definiciones están ordenadas **alfabéticamente**.
 
----
-
 ## A
 
 **ADME** — Administración del Mercado Eléctrico. Organismo público uruguayo creado por la Ley 16.832/1997 para gestionar el despacho eléctrico y la liquidación del mercado mayorista de electricidad. → Ver `06-adme.md`
@@ -26,8 +24,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **AWE** (Alkaline Water Electrolysis) — Electrólisis alcalina del agua; tecnología madura para la producción de hidrógeno verde. → Ver `15-hidrogeno-verde.md`
 
----
-
 ## B
 
 **Balance Energético Nacional (BEN)** — Documento estadístico oficial de Uruguay elaborado por la DNE que registra la producción, transformación, importación, exportación y consumo de todas las formas de energía. Se publica anualmente.
@@ -42,8 +38,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **Biomasa** — Material orgánico de origen biológico (maderas, residuos forestales, bagasse de caña, cáscara de arroz, biogás, etc.) usado como fuente de energía térmica o eléctrica. → Ver `11-biomasa.md`
 
----
-
 ## C
 
 **CAF** — Banco de Desarrollo de América Latina; financiador multilateral de proyectos de infraestructura energética en Uruguay.
@@ -56,8 +50,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **Cogeneración** — Producción simultánea de calor útil y electricidad a partir de una misma fuente de energía; usada en industrias (celulosa, azúcar) y en el sector residencial/comercial. → Ver `11-biomasa.md`
 
----
-
 ## D
 
 **Densidad de potencia** — Potencia eléctrica instalada por unidad de superficie (MW/km²); indicador de ocupación del suelo por la generación eléctrica.
@@ -65,8 +57,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 **Despacho eléctrico** — Coordinación en tiempo real de la generación eléctrica para satisfacer la demanda al mínimo costo, respetando restricciones técnicas de la red. En Uruguay, a cargo de ADME. → Ver `06-adme.md`
 
 **DNE** — Dirección Nacional de Energía; unidad técnica del MIEM que elabora el Balance Energético Nacional, coordina la planificación energética, administra las licitaciones de renovables y lidera la estrategia H2U. → Ver `05-miem-y-dne.md`
-
----
 
 ## E
 
@@ -76,8 +66,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **EIA** — Estudio de Impacto Ambiental; documento técnico requerido para la **Autorización Ambiental Previa (AAP)** de proyectos energéticos de escala relevante en Uruguay (Ministerio de Ambiente). → Ver `22-energia-y-medio-ambiente.md`
 
----
-
 ## F
 
 **Factor de planta** — Relación entre la energía eléctrica efectivamente generada en un período y la que se generaría si la planta operara a plena capacidad todo el tiempo; indicador de eficiencia de uso. Eólica Uruguay: ~40–45%; solar: ~20–25%; hidro: variable. [VERIFICAR]
@@ -85,8 +73,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 **FEE** — Fondo de Eficiencia Energética; fondo público uruguayo creado por Ley 18.597/2009 para financiar proyectos, auditorías y programas de eficiencia energética. → Ver `20-eficiencia-energetica.md`
 
 **FV** — Fotovoltaico/a; tecnología que convierte la luz solar en electricidad mediante el efecto fotovoltaico en células de silicio u otros semiconductores. → Ver `10-energia-solar.md`, `19-plantas-solares.md`
-
----
 
 ## G
 
@@ -102,8 +88,6 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **GNLM** — Terminal de Regasificación GNL Montevideo; instalación flotante (FSRU) en la Bahía de Montevideo inaugurada en 2016 para recibir, almacenar y regasificar GNL importado. → Ver `13-gas-natural.md`
 
----
-
 ## H
 
 **H2U** — Estrategia Nacional de Hidrógeno Verde de Uruguay; plan de desarrollo del hidrógeno verde como vector de energía y producto de exportación, lanzado en 2021 por el MIEM. → Ver `15-hidrogeno-verde.md`
@@ -116,21 +100,15 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **Hidro** — Abreviatura de energía hidroeléctrica; generación de electricidad a partir de la energía potencial del agua en represas.
 
----
-
 ## I
 
 **IEA** — International Energy Agency (Agencia Internacional de Energía); organismo con sede en París que coordina políticas energéticas de países desarrollados y emergentes; Uruguay tiene relación de cooperación. → Ver `24-cooperacion-internacional.md`
 
 **IRENA** — International Renewable Energy Agency; agencia con sede en Abu Dhabi que promueve las energías renovables globalmente; Uruguay es miembro. → Ver `24-cooperacion-internacional.md`
 
----
-
 ## L
 
 **LATU** — Laboratorio Tecnológico del Uruguay; fundado en 1965; realiza ensayos, certificación e I+D en múltiples áreas tecnológicas, incluyendo energía. → Ver `21-investigacion-e-innovacion.md`
-
----
 
 ## M
 
@@ -144,21 +122,15 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **MWh** — Megavatio-hora; unidad de energía eléctrica; equivale a la energía producida por 1 MW durante 1 hora. La generación eléctrica se expresa en MWh o GWh (gigavatio-hora = 1.000 MWh).
 
----
-
 ## N
 
 **NDC** — Contribución Determinada a Nivel Nacional (Nationally Determined Contribution); compromiso climático de cada país en el marco del Acuerdo de París de 2015; Uruguay presentó sucesivas NDC con metas de descarbonización. → Ver `22-energia-y-medio-ambiente.md`
 
 **Net metering** — Medición neta; mecanismo que permite a un usuario con generación distribuida (solar fotovoltaica) compensar los excedentes inyectados a la red contra el consumo propio; regulado en Uruguay por decreto desde ~2013. → Ver `19-plantas-solares.md`
 
----
-
 ## O
 
 **OLADE** — Organización Latinoamericana de Energía; con sede en Quito; Uruguay participa activamente; DNE reporta estadísticas al SIER de OLADE. → Ver `24-cooperacion-internacional.md`
-
----
 
 ## P
 
@@ -170,15 +142,11 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **PPA** (Power Purchase Agreement) — Contrato de compra de energía a largo plazo (en Uruguay, típicamente 20 años) entre un productor privado de renovables y UTE; garantiza precio y demanda, facilitando el financiamiento de proyectos. → Ver `09-energia-eolica.md`, `18-parques-eolicos.md`
 
----
-
 ## R
 
 **Refinería La Teja** — Única refinería de petróleo de Uruguay, operada por ANCAP en el barrio La Teja, Montevideo; inaugurada en 1937; capacidad ~50.000 bbl/día [VERIFICAR]. → Ver `04-ancap.md`, `14-combustibles-fosiles.md`
 
 **Repotenciación** — Sustitución de aerogeneradores al final de su vida útil (20–25 años) por turbinas nuevas y más eficientes en el mismo sitio; desafío que enfrentarán los primeros parques eólicos de Uruguay a partir de ~2030. → Ver `18-parques-eolicos.md`
-
----
 
 ## S
 
@@ -192,13 +160,9 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **SOEC** (Solid Oxide Electrolyzer Cell) — Electrolizador de óxido sólido a alta temperatura; alta eficiencia teórica; en fase de desarrollo/demostración.
 
----
-
 ## T
 
 **Trackers** (seguidores solares) — Sistemas mecánicos que orientan los paneles solares fotovoltaicos hacia el sol durante el día, aumentando la generación en ~15–25% respecto a instalaciones fijas. → Ver `19-plantas-solares.md`
-
----
 
 ## U
 
@@ -208,15 +172,11 @@ Las definiciones están ordenadas **alfabéticamente**.
 
 **URSEA** — Unidad Reguladora de Servicios de Energía y Agua; creada por Ley 17.598/13-12-2002; regula los servicios de electricidad, gas natural, GLP, combustibles líquidos y agua potable. → Ver `07-ursea.md`
 
----
-
 ## V
 
 **V2G** (Vehicle-to-Grid) — Tecnología que permite a los vehículos eléctricos conectados a la red eléctrica inyectar energía almacenada en sus baterías a la red cuando es necesario; en fase de piloto en Uruguay. → Ver `29-proyectos-estrategicos.md`
 
 **Vatio (W)** — Unidad básica de potencia eléctrica del Sistema Internacional (SI). 1 kW = 1.000 W; 1 MW = 1.000 kW = 1.000.000 W; 1 GW = 1.000 MW.
-
----
 
 ## Palabras clave
 

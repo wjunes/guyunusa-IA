@@ -6,8 +6,6 @@ La exportación definitiva es el régimen aduanero por el cual las mercancías u
 
 La exportación se realiza a través del despacho ante la DNA, con presentación del Documento Único Aduanero (DUA) de exportación, la factura comercial, el certificado de origen (cuando se requiera para acogerse a preferencias arancelarias en destino) y otros documentos según el tipo de mercancía.
 
----
-
 ## Tributos en exportación
 
 ### Principio de imposición en destino
@@ -20,8 +18,6 @@ Uruguay no aplica derechos de exportación (retenciones) sobre las exportaciones
 
 **Excepción**: en períodos excepcionales Uruguay ha aplicado derechos de exportación sobre algunos productos (por ejemplo, cueros semiprocesados, en ciertos períodos del siglo XX) como forma de promover el procesamiento local, pero esta es una práctica que ha tendido a eliminarse.
 
----
-
 ## Devolución del IVA a exportadores
 
 Los exportadores tienen derecho a la devolución del IVA incluido en los costos de producción o adquisición de los bienes exportados. Esto se denomina "IVA exportador" o "devolución del IVA exportador".
@@ -33,8 +29,6 @@ Los exportadores tienen derecho a la devolución del IVA incluido en los costos 
 **Certificado de Crédito Fiscal (CCF)**: la DGI emite certificados de crédito fiscal que el exportador puede utilizar para pagar otros tributos o transferir a terceros.
 
 **Régimen de devolución anticipada**: para proyectos de exportación de bienes agroindustriales, la Ley 17.296 y normativa posterior establecieron regímenes de devolución más ágil del IVA exportador.
-
----
 
 ## Drawback
 
@@ -49,8 +43,6 @@ En Uruguay el drawback está regulado por el Código Aduanero y decretos reglame
 
 El drawback es especialmente relevante para sectores como la industria frigorífica (importa condimentos, envases), la industria textil (importa fibras), y otros que usan insumos importados en su producción exportadora.
 
----
-
 ## Exportación temporaria
 
 La exportación temporaria es el régimen que permite enviar mercancías al exterior con obligación de reimportarlas dentro de un plazo determinado, sin pagar derechos de exportación y con garantía de que la reimportación será libre de derechos. Se utiliza para:
@@ -60,15 +52,11 @@ La exportación temporaria es el régimen que permite enviar mercancías al exte
 - Bienes enviados para participar en exposiciones o ferias.
 - Animales enviados para reproducción y retorno.
 
----
-
 ## Régimen de maquila
 
 El régimen de maquila (establecido por la Ley 17.292/2001 y su decreto reglamentario 197/002) permite que empresas uruguayas reciban insumos de una empresa extranjera, los procesen o transformen, y retornen el producto resultante al exterior. La empresa maquiladora uruguaya trabaja esencialmente por cuenta de la empresa comitente extranjera, sobre insumos que ingresan bajo el régimen de admisión temporaria.
 
 Las empresas maquiladoras gozan de beneficios tributarios y simplificaciones aduaneras específicas. El sector de servicios (procesamiento de información, software) ha utilizado variantes de este esquema.
-
----
 
 ## Certificados de origen
 
@@ -82,8 +70,6 @@ En Uruguay los certificados de origen son emitidos por:
 - **DNA**: en el marco del sistema de origen del MERCOSUR.
 
 Los sistemas de certificación de origen más utilizados son el **Sistema de Origen del MERCOSUR** (para el comercio intrazona y con los socios del bloque) y los **Certificados de Origen ALADI** (Form A para el SGP; Form-ACE para los acuerdos de complementación económica del ALADI).
-
----
 
 ## Estadísticas y seguimiento de exportaciones
 
@@ -101,8 +87,6 @@ Las principales categorías de exportaciones uruguayas son:
 | Madera y productos de madera | ~3%–5% |
 | Lácteos | ~4%–5% |
 | Plásticos y sus manufacturas | ~2%–3% |
-
----
 
 ## Palabras clave
 

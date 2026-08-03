@@ -1,3 +1,5 @@
+# Humedales de Uruguay
+
 ## Resumen
 
 Los **humedales** —bañados, esteros, lagunas costeras, bañados litorales, planicies de inundación— son los ecosistemas de mayor **biodiversidad** del Uruguay y cumplen funciones ecológicas esenciales: regulan las inundaciones, filtran el agua, almacenan carbono y ofrecen hábitat a una extraordinaria diversidad de aves acuáticas, anfibios, reptiles y mamíferos. Uruguay tiene varios **sitios Ramsar** (humedales de importancia internacional reconocidos por la Convención de Ramsar de 1971), incluyendo los **Bañados del Este y Franja Costera** —uno de los sitios más extensos de la región— y los **Esteros de Farrapos**. Sin embargo, los humedales uruguayos están amenazados por el **drenaje para agricultura**, la **contaminación**, la **invasión de especies exóticas** (especialmente el ligustro) y la **alteración hidrológica** por obras de infraestructura.

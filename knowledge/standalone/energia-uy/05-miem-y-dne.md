@@ -48,8 +48,6 @@ El MIEM ha avanzado hacia una **Política Energética 2050**, con énfasis en:
 - Redes inteligentes y almacenamiento
 - Uruguay como exportador de energía limpia
 
----
-
 ## 2. Dirección Nacional de Energía (DNE)
 
 ### Ficha institucional
@@ -96,8 +94,6 @@ La DNE coordina el **Programa Nacional de Eficiencia Energética**, con medidas 
 - Iluminación eficiente (LEDs en alumbrado público)
 - Edificios de bajo consumo energético
 
----
-
 ## 3. Instrumentos de política energética
 
 ### Licitaciones de energía renovable
@@ -119,8 +115,6 @@ La **Estrategia Nacional de Hidrógeno Verde (H2U)**, lanzada a partir de **2021
 - Descarbonizar sectores industriales y de transporte
 - Exportar hidrógeno o amoniaco verde a mercados europeos
 
----
-
 ## 4. Organismos internacionales vinculados al MIEM
 
 | Organismo | Relación |
@@ -132,8 +126,6 @@ La **Estrategia Nacional de Hidrógeno Verde (H2U)**, lanzada a partir de **2021
 | **Banco Mundial** | Préstamos y asistencia técnica |
 | **CEPAL** | Análisis de integración energética regional |
 | **MERCOSUR** | Coordinación energética regional |
-
----
 
 ## Palabras clave
 

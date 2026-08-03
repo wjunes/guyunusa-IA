@@ -6,8 +6,6 @@ La competitividad exportadora de Uruguay no depende solamente del precio y la ca
 
 Uruguay ha invertido históricamente en infraestructura logística como condición necesaria para sostener su modelo exportador. La posición geográfica del país, entre Argentina y Brasil y con acceso al Atlántico, le otorga un rol potencial de nodo logístico del MERCOSUR.
 
----
-
 ## El Puerto de Montevideo
 
 El **Puerto de Montevideo** es el principal nodo logístico del comercio exterior uruguayo y uno de los puertos más importantes del Cono Sur.
@@ -31,15 +29,11 @@ El Puerto de Montevideo funciona como **hub logístico regional**: recibe cargas
 
 El **Puerto Libre de Montevideo** (Ley 16.246/1992) es un régimen especial que permite a las mercancías extranjeras ingresar al recinto portuario sin pago de aranceles ni IVA, ser almacenadas, manipuladas y reexportadas hacia terceros destinos. Este régimen potencia la función de hub del puerto.
 
----
-
 ## El Puerto de Nueva Palmira
 
 Nueva Palmira (departamento de Colonia) es el principal puerto fluvial de Uruguay sobre el Río Uruguay. Es el principal punto de salida de la soja y el maíz provenientes de la Cuenca del Plata (Paraguay, Bolivia, norte de Argentina), exportados principalmente a China y Europa.
 
 La **Hidrovía Paraguay-Paraná** conecta el interior del continente (Bolivia, Paraguay, norte de Argentina y sur de Brasil) con el Atlántico a través del Río Paraguay, el Río Paraná y el Río Uruguay. Nueva Palmira es el punto más austral de esta hidrovía con capacidad de recibir convoyes fluviales de gran escala.
-
----
 
 ## El Ferrocarril Central (UPM2)
 
@@ -48,8 +42,6 @@ La reactivación del **Ferrocarril Central** (tramo Montevideo–Paso de los Tor
 La rehabilitación del ferrocarril (financiada parcialmente por UPM y parcialmente por el Estado uruguayo) permite transportar la producción de celulosa de UPM2 desde Paso de los Toros al Puerto de Montevideo. La operación del ferrocarril fue concesionada a la empresa Hyundai Rotem, bajo supervisión de AFE (Administración de Ferrocarriles del Estado).
 
 Esta inversión en infraestructura ferroviaria es la más importante en Uruguay en varias décadas y tiene el potencial de descongestionar el transporte carretero de cargas pesadas.
-
----
 
 ## El transporte terrestre de cargas
 
@@ -65,19 +57,13 @@ Los principales corredores viales del comercio exterior son:
 
 Los transbordadores **BUQUEBUS** y otros operadores cubren la ruta fluvial/marítima Montevideo-Buenos Aires/Colonia-Buenos Aires, clave para el comercio con Argentina y el movimiento de turistas.
 
----
-
 ## Logística aérea
 
 El **Aeropuerto Internacional de Carrasco** (Montevideo), operado por el consorcio privado CGH (concesión desde 2003), es el principal aeropuerto de carga aérea del Uruguay. La carga aérea es de menor volumen que la marítima pero clave para exportaciones de alto valor y perecederas (flores, frutas, electrónica, farmacéuticos).
 
----
-
 ## Índices de desempeño logístico
 
 El **Banco Mundial** publica el **Índice de Desempeño Logístico (LPI)**, que evalúa la calidad logística de los países en seis dimensiones: aduanas, infraestructura, envíos internacionales, competencia en servicios logísticos, rastreo y seguimiento, y puntualidad. Uruguay se ubica entre los países de mejor desempeño logístico de América Latina, aunque por debajo de Chile y Brasil en algunas ediciones del índice.
-
----
 
 ## Palabras clave
 

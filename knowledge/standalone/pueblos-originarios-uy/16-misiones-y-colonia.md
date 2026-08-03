@@ -4,8 +4,6 @@
 
 Durante el período colonial (siglos XVII–XVIII), el territorio de la **Banda Oriental** —denominación colonial del actual Uruguay— fue escenario de procesos profundos que transformaron las poblaciones indígenas: la evangelización jesuítica con la creación de misiones, la implantación del sistema colonial español (encomiendas, estancias, milicias), y la rivalidad entre España y Portugal por el dominio del territorio. Todos estos procesos tuvieron consecuencias devastadoras para los pueblos originarios.
 
----
-
 ## Las misiones jesuíticas en el territorio de la Banda Oriental
 
 La **Compañía de Jesús (Jesuitas)** estableció desde principios del siglo XVII un sistema de **reducciones o misiones** destinadas a evangelizar y sedentarizar a los grupos indígenas de la cuenca del Plata. Las más importantes para el actual Uruguay formaban parte de los llamados **Siete Pueblos de las Misiones** (o Siete Pueblos del Uruguay), situados en la margen oriental del río Uruguay, hoy en territorio del estado de Rio Grande do Sul (Brasil).
@@ -37,8 +35,6 @@ La organización de las misiones combinaba la estructura colonial española con 
 - **Cultura:** Preservación parcial de la lengua guaraní para la evangelización; introducción de la escritura, la música europea (orquestas de las misiones), artes plásticas (escultura, arquitectura barroca).
 - **Defensa:** Milicias guaraníes armadas para proteger las misiones de los **bandeirantes** (cazadores de esclavos brasileños).
 
----
-
 ## Los bandeirantes y el impacto sobre las poblaciones indígenas
 
 Las **bandeiras** eran expediciones organizadas desde São Paulo (Brasil colonial portugués) con el objetivo de capturar indígenas para esclavizarlos. Sus ataques a las misiones jesuíticas fueron devastadores:
@@ -46,8 +42,6 @@ Las **bandeiras** eran expediciones organizadas desde São Paulo (Brasil colonia
 - Entre **1628 y 1641** los bandeirantes destruyeron o dispersaron varias misiones del Guairá y el Tape (actual Rio Grande do Sul), capturando o matando a decenas de miles de guaraníes.
 - La **batalla de Mbororé** (**1641**, en el río Uruguay) representó una victoria de las milicias guaraníes jesuíticas sobre los bandeirantes, con apoyo de sacerdotes jesuitas.
 - Como consecuencia, las misiones sobrevivientes se concentraron en la margen oriental del Uruguay, lejos de la penetración bandeirante.
-
----
 
 ## La expulsión de los jesuitas (1767)
 
@@ -57,8 +51,6 @@ El **2 de abril de 1767**, el rey **Carlos III de España** ordenó la expulsió
 - El sistema económico colectivo se desintegró.
 - Las poblaciones guaraníes de las misiones dispersaron progresivamente, muchos integrándose como trabajadores en las estancias coloniales.
 - El territorio de las misiones fue objeto de disputas entre España y Portugal, culminando en el **Tratado de San Ildefonso (1777)**, que asignó los Siete Pueblos a Portugal.
-
----
 
 ## El sistema colonial y los grupos no misionados
 
@@ -75,8 +67,6 @@ La introducción del ganado y la expansión de las **estancias coloniales** desd
 - Los charrúas y otros grupos cazaban el ganado cimarrón, lo que los ponía en conflicto con los intereses coloniales.
 - Las **expediciones punitivas** contra los grupos indígenas fueron frecuentes a lo largo del siglo XVIII.
 
----
-
 ## La Banda Oriental como zona de disputa hispano-portuguesa
 
 El actual Uruguay fue durante todo el período colonial una zona disputada entre España y Portugal:
@@ -90,8 +80,6 @@ El actual Uruguay fue durante todo el período colonial una zona disputada entre
 
 La **Guerra Guaranítica (1754–1756)** fue un episodio notable en que los guaraníes de las misiones resistieron militarmente la entrega de sus territorios acordada por España y Portugal sin consulta a las poblaciones locales. La resistencia fue aplastada militarmente por fuerzas combinadas hispano-portuguesas.
 
----
-
 ## Evangelización y resistencia cultural
 
 Los procesos de evangelización en las misiones jesuíticas implicaron transformaciones culturales profundas para los guaraníes misioneros, pero también mecanismos de preservación cultural:
@@ -100,16 +88,12 @@ Los procesos de evangelización en las misiones jesuíticas implicaron transform
 - Los guaraníes integraron elementos de la cosmovisión cristiana con su cosmovision propia, generando formas de **sincretismo religioso**.
 - Las **artes misioneras** (escultura barroca guaraní, arquitectura, música) representan una tradición cultural distintiva que combina elementos europeos e indígenas.
 
----
-
 ## Legado y memoria
 
 El período colonial dejó huellas duraderas:
 - Las **ruinas de las misiones** son hoy Patrimonio de la Humanidad (UNESCO, 1984), especialmente las de São Miguel das Missões (Brasil), San Ignacio Miní, Santa Ana, Loreto y Santa María la Mayor (Argentina).
 - En Uruguay, los vestigios físicos de las misiones en el territorio nacional son escasos, pero la memoria misionera es parte del patrimonio cultural regional.
 - La dispersión de los guaraníes misioneros tras 1767 contribuyó a la configuración de la población mestiza del Río de la Plata.
-
----
 
 ## Palabras clave
 

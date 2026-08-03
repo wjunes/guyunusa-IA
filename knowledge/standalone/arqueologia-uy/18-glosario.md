@@ -1,10 +1,6 @@
 # Glosario de Arqueología Uruguaya
 
----
-
 Este glosario define los términos técnicos y conceptos especializados empleados en el dominio **arqueologia-uy** de la BNC-UY. Los términos están ordenados alfabéticamente.
-
----
 
 **ADN antiguo (aDNA)**
 ADN recuperado de restos biológicos con antigüedad variable. Permite estudiar haplogrupos mitocondriales, parentesco y variación genética de individuos del pasado. Su preservación en Uruguay es limitada por el clima subtropical húmedo.
@@ -203,8 +199,6 @@ Tradición cerámica prehispánica característica de los constructores de cerri
 
 **Zooarqueología**
 Estudio de los restos óseos de animales recuperados en contextos arqueológicos, para reconstruir la subsistencia, la economía y la ecología de los grupos humanos del pasado.
-
----
 
 ## Palabras clave
 

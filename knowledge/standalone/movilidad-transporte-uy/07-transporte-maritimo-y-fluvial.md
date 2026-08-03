@@ -6,8 +6,6 @@ Uruguay posee una posición geográfica estratégica en la cuenca del Plata, con
 
 La **Administración Nacional de Puertos (ANP)** es el organismo estatal responsable de la administración y desarrollo de los puertos uruguayos.
 
----
-
 ## Administración Nacional de Puertos (ANP)
 
 ### Naturaleza y competencias
@@ -21,8 +19,6 @@ La **ANP** es un ente autónomo del Estado uruguayo creado por la **Ley 12.091**
 - Control del acceso y operaciones en los puertos públicos
 
 Desde la **Ley de Puertos 16.246** (1992), el sistema portuario uruguayo adoptó un modelo de **puerto landlord**, donde la ANP es propietaria y administradora de la infraestructura pero permite la operación de terminales a empresas privadas mediante concesiones.
-
----
 
 ## Puerto de Montevideo
 
@@ -59,8 +55,6 @@ Las principales terminales del Puerto de Montevideo son:
 
 El Puerto de Montevideo compite con Buenos Aires, Santos y Valparaíso por el rol de **hub logístico del Cono Sur**. Su posición geográfica y la profundidad del canal de acceso lo convierten en escala habitual de líneas marítimas internacionales.
 
----
-
 ## Puerto de Nueva Palmira
 
 El **Puerto de Nueva Palmira** (departamento de Colonia) es el principal puerto de cargas a granel del Uruguay, especializado en la exportación de:
@@ -72,8 +66,6 @@ El **Puerto de Nueva Palmira** (departamento de Colonia) es el principal puerto 
 Su ubicación en la confluencia del Río Uruguay y el Río Paraná le otorga una posición privilegiada para el transbordo de cargas provenientes de la **Hidrovía Paraguay-Paraná**, que conecta Brasil, Bolivia, Paraguay y Argentina con la salida atlántica.
 
 La **Terminal Granelera de Nueva Palmira** es operada por empresas privadas bajo concesión de la ANP y tiene capacidad de almacenamiento y embarque para grandes volúmenes de granos.
-
----
 
 ## Otros puertos fluviales del litoral
 
@@ -89,8 +81,6 @@ Uruguay cuenta con una serie de puertos fluviales sobre el **Río Uruguay** que 
 ### Represa de Salto Grande
 
 La **Represa de Salto Grande**, construida conjuntamente por Uruguay y Argentina sobre el Río Uruguay (inaugurada en 1979), incluye una **esclusa de navegación** que permite el paso de embarcaciones entre el sector superior e inferior del río, manteniendo la continuidad de la vía navegable.
-
----
 
 ## Transporte de pasajeros — Ferris y conexiones fluviales
 
@@ -109,15 +99,11 @@ El tráfico de pasajeros en esta ruta experimenta fuerte estacionalidad, con pic
 
 El servicio de lancha entre **Salto** (Uruguay) y **Concordia** (Argentina) es una conexión fluvial de pasajeros que opera con embarcaciones de menor porte. Esta ruta, aunque no tiene la demanda del corredor rioplatense, tiene importancia para las poblaciones fronterizas del litoral.
 
----
-
 ## Hidrovía Paraguay-Paraná
 
 Uruguay participa en el sistema de la **Hidrovía Paraguay-Paraná**, que permite la navegación fluvial desde el interior de América del Sur hasta los puertos del Río de la Plata. Esta vía fluvial tiene una extensión de más de 3.400 kilómetros y conecta Bolivia, Brasil, Paraguay, Argentina y Uruguay.
 
 El Puerto de Nueva Palmira es el principal punto de descarga y transbordo de las cargas provenientes de la hidrovía hacia buques oceánicos.
-
----
 
 ## Transporte fluvial de cargas
 
@@ -130,8 +116,6 @@ La carga fluvial que transita por los puertos uruguayos incluye:
 | Contenedores | Líneas internacionales | Montevideo |
 | Combustibles | Importación | Montevideo (ANCAP) |
 
----
-
 ## Marco legal del transporte acuático
 
 El transporte acuático en Uruguay está regulado por:
@@ -140,8 +124,6 @@ El transporte acuático en Uruguay está regulado por:
 - **ANP**: gestión portuaria y concesiones.
 - **Ley 16.246 (1992)**: reforma del sistema portuario.
 - **Convenios internacionales**: Uruguay es signatario de los principales convenios de la **Organización Marítima Internacional (OMI/IMO)**, incluyendo SOLAS y MARPOL.
-
----
 
 ## Palabras clave
 

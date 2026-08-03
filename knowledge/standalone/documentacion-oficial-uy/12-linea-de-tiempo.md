@@ -2,8 +2,6 @@
 
 Esta cronología registra los hitos principales en la historia de la documentación oficial del Estado uruguayo, desde los primeros registros de la vida independiente hasta la era digital.
 
----
-
 ## Siglo XIX: los primeros registros del Estado
 
 **1825** — Primeras publicaciones oficiales del Estado Oriental del Uruguay tras la independencia. El "Registro Oficial" compila leyes, decretos y actos del gobierno naciente.
@@ -11,8 +9,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 **1830** — La **Constitución de 1830** establece el marco normativo fundamental de la República. Se define la forma de publicidad de las leyes como condición de su vigencia.
 
 **1876** — Aparecen los primeros Registros de Leyes y Decretos organizados semestralmente, antecedentes directos del actual RNLD.
-
----
 
 ## Siglo XX: consolidación institucional
 
@@ -26,8 +22,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 
 **1991 (27/9)** — **Decreto 500/991**: Normas Generales de Actuación en la Administración Central. Regula el procedimiento administrativo y la gestión del expediente.
 
----
-
 ## 1990-1999: nacimiento de IMPO
 
 **1990 (28/12)** — **Ley 16.170, Art. 391**: creación de IMPO mediante la fusión del Diario Oficial y la Imprenta Nacional. Primera configuración institucional del organismo.
@@ -35,8 +29,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 **1996 (5/1)** — **Ley 16.736, Art. 341**: Ley Orgánica de IMPO. IMPO se convierte en persona jurídica de derecho público no estatal. Se amplían sus cometidos: administración del Banco Electrónico de Datos, sistematización de normativa interna de organismos públicos, creación del ONP.
 
 **1998 (23/12)** — **Ley 17.060**: Normas referidas al uso indebido del poder público (anticorrupción). El personal de IMPO queda comprendido en sus disposiciones.
-
----
 
 ## 2000-2009: era de internet y primeras leyes digitales
 
@@ -52,8 +44,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 
 **2009** — IMPO publica los primeros balances contables en su portal de Transparencia (balance del ejercicio 2009).
 
----
-
 ## 2010-2019: gobierno digital y consolidación normativa
 
 **2010** — **Decreto 232/010**: reglamentación de la Ley 18.381. Define procedimientos de transparencia activa y pasiva.
@@ -68,8 +58,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 
 **2015** — Inicio de la sustitución progresiva del Diario Oficial en papel por la versión electrónica, sin pérdida de validez jurídica.
 
----
-
 ## 2020-2026: consolidación digital y nuevos desafíos
 
 **2020 (7/7)** — **Ley 19.889**: Ley de Urgente Consideración (LUC). Reforma normativa transversal con más de 500 artículos. Publicada íntegramente en el Diario Oficial; IMPO la publica como libro en su catálogo.
@@ -81,8 +69,6 @@ Esta cronología registra los hitos principales en la historia de la documentaci
 **2025** — **Ley 20.446**: Presupuesto Nacional 2025-2029.
 
 **2026** — IMPO mantiene como portales de acceso: banco de datos normativa, Diario Oficial desde 1905, RNLD ePUB (desde 2007), directorio de bases institucionales, librería digital y red de agencias departamentales en Canelones, Colonia, Las Piedras, Maldonado, Pando y Rivera.
-
----
 
 ## Palabras clave
 

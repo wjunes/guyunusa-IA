@@ -4,8 +4,6 @@
 
 El **arroz** (*Oryza sativa*) es uno de los cultivos más emblemáticos del Uruguay agropecuario. Aunque el país no figura entre los grandes productores mundiales por volumen, se destaca por su **altísima calidad**, su eficiencia tecnológica y por ser uno de los exportadores de arroz con mayor porcentaje de su producción destinada al mercado externo. Uruguay exporta entre el **85% y el 95%** de su producción de arroz, siendo un exportador neto de grano de alta calidad.
 
----
-
 ## Historia del arroz en Uruguay
 
 | Período | Hito |
@@ -18,8 +16,6 @@ El **arroz** (*Oryza sativa*) es uno de los cultivos más emblemáticos del Urug
 | 1985–2000 | Gran salto de productividad; variedades de INIA; siembra directa; cosechadoras especializadas |
 | 2000–2015 | Uruguay entre los exportadores más eficientes del mundo; precio premium por calidad |
 | 2015–2023 | Producción estabilizada; inversión en valor agregado; diversificación de destinos |
-
----
 
 ## Zonas productoras
 
@@ -38,8 +34,6 @@ La región este dispone de:
 - Abundante disponibilidad de agua superficial en las cuencas de los ríos Olimar, Tacuarí, Yaguarón y en la Laguna Merín.
 - Topografía plana que facilita el manejo del agua y la mecanización.
 
----
-
 ## Sistema de producción
 
 El arroz uruguayo se cultiva íntegramente bajo **riego por inundación controlada**:
@@ -50,8 +44,6 @@ El arroz uruguayo se cultiva íntegramente bajo **riego por inundación controla
 4. **Manejo del agua:** inundación desde emergencia hasta maduración; drenaje en cosecha. Las **taipas** (diques de tierra) controlan el nivel del agua en cada potrero.
 5. **Control de malezas:** herbicidas pre y post emergentes; el **arroz rojo** (*Oryza sativa* tipo silvestre) es la principal maleza de difícil control.
 6. **Cosecha:** con cosechadoras adaptadas para terrenos húmedos; generalmente septiembre a diciembre según el año.
-
----
 
 ## Variedades
 
@@ -68,8 +60,6 @@ Uruguay invierte fuertemente en el desarrollo de variedades propias adaptadas al
 
 El INIA (Instituto Nacional de Investigación Agropecuaria), a través de su **Estación Experimental de Treinta y Tres ("José Enrique Ávila")**, es el principal generador de variedades arroceras uruguayas.
 
----
-
 ## Productividad
 
 Uruguay tiene una de las **productividades más altas del mundo** en arroz irrigado:
@@ -84,8 +74,6 @@ Uruguay tiene una de las **productividades más altas del mundo** en arroz irrig
 
 *Fuente: DIEA-MGAP / Cámara Uruguaya del Arroz*
 
----
-
 ## La industria molinera
 
 Entre la producción y la exportación, el arroz pasa por la **industria molinera** (molinos arroceros):
@@ -94,8 +82,6 @@ Entre la producción y la exportación, el arroz pasa por la **industria moliner
 - Principales molinos en Treinta y Tres, Cerro Largo y otras zonas productoras.
 - La **Cámara Uruguaya del Arroz (CUA)** agrupa a los principales actores de la cadena.
 - Creciente inversión en **parboilizado** (arroz parboil) y otros procesos de valor agregado.
-
----
 
 ## Mercados de exportación
 
@@ -110,8 +96,6 @@ Entre la producción y la exportación, el arroz pasa por la **industria moliner
 
 Uruguay exporta principalmente **arroz blanco** (grano largo, cristalino, de alta calidad). Se diferencia en el mercado internacional por su calidad culinaria, inocuidad y trazabilidad.
 
----
-
 ## Cooperativas arroceras
 
 El sector arrocero tiene una larga tradición cooperativa:
@@ -119,16 +103,12 @@ El sector arrocero tiene una larga tradición cooperativa:
 - **SAMAN (Sociedad Anónima Molinos Arroceros del Norte):** empresa mixta (productores + capital privado); uno de los mayores exportadores.
 - Otras cooperativas departamentales.
 
----
-
 ## Impacto ambiental
 
 - El arroz irrigado requiere grandes volúmenes de agua; gestión eficiente del agua es clave.
 - Los arrozales proveen hábitat para aves acuáticas (patos, garzas, espátulas).
 - Preocupaciones sobre escorrentía de nitrógeno, fósforo y agroquímicos hacia cursos de agua.
 - Programas de buenas prácticas del sector para reducir el impacto sobre la Laguna Merín y sus tributarios.
-
----
 
 ## Palabras clave
 

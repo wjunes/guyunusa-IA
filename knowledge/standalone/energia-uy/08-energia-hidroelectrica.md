@@ -4,8 +4,6 @@
 
 La **energía hidroeléctrica** (o hidráulica) es la forma de generación eléctrica basada en el aprovechamiento de la energía potencial y cinética del agua en movimiento. En Uruguay, la hidroelectricidad fue durante décadas la fuente dominante de electricidad y sigue siendo uno de los pilares de la matriz energética, complementada hoy por energía eólica, solar y biomasa.
 
----
-
 ## El recurso hídrico uruguayo
 
 Uruguay cuenta con recursos hídricos superficiales significativos, aunque su topografía relativamente plana limita el número de sitios aptos para grandes aprovechamientos hidroeléctricos:
@@ -15,8 +13,6 @@ Uruguay cuenta con recursos hídricos superficiales significativos, aunque su to
 - **Río Cuareim:** norte; frontero con Brasil; potencial limitado
 
 La principal limitación de la hidroelectricidad uruguaya es la **variabilidad interanual**: en años de sequía, la producción cae significativamente y obliga a recurrir a la generación termoeléctrica o a importaciones.
-
----
 
 ## Sistema hidroeléctrico del Río Negro
 
@@ -56,8 +52,6 @@ La **Represa de Rincón del Bonete** fue la primera gran central hidroeléctrica
 | **Operador** | UTE |
 | **Área protegida adyacente** | Esteros de Farrapos e Islas del Río Uruguay (Ramsar 2004) |
 
----
-
 ## Represa de Salto Grande (binacional)
 
 | Parámetro | Valor |
@@ -74,8 +68,6 @@ La **Represa de Rincón del Bonete** fue la primera gran central hidroeléctrica
 
 La **Represa de Salto Grande** es la mayor fuente de generación eléctrica de Uruguay (en años normales de lluvias), aportando entre el **20 y 35%** de la generación eléctrica anual [VERIFICAR]. Es una obra binacional administrada por la **CTM**, con partes iguales para Uruguay y Argentina.
 
----
-
 ## Resumen del sistema hidroeléctrico uruguayo
 
 | Central | Río | Capacidad (MW) | Año |
@@ -85,8 +77,6 @@ La **Represa de Salto Grande** es la mayor fuente de generación eléctrica de U
 | Palmar | Negro | ~333 [VERIFICAR] | 1982 |
 | Salto Grande (parte uruguaya) | Uruguay | ~945 | 1979–1981 |
 | **Total hidroeléctrico** | | **~1.546 MW** | |
-
----
 
 ## Generación hidroeléctrica: variabilidad y gestión
 
@@ -102,8 +92,6 @@ ADME coordina con UTE y la CTM la gestión de los embalses, balanceando:
 - Generación eléctrica inmediata
 - Reserva de agua para el futuro
 - Otros usos del agua (riego, abastecimiento, pesca)
-
----
 
 ## Ventajas y limitaciones de la hidroelectricidad uruguaya
 
@@ -122,8 +110,6 @@ ADME coordina con UTE y la CTM la gestión de los embalses, balanceando:
 - **Capacidad limitada:** no hay nuevos sitios de gran escala identificados en Uruguay
 - **Cambio climático:** proyecciones indican posible reducción de caudales en el Río Negro a largo plazo [VERIFICAR]
 
----
-
 ## Impacto ambiental de las represas uruguayas
 
 Las represas del Río Negro han generado impactos ambientales relevantes:
@@ -133,15 +119,11 @@ Las represas del Río Negro han generado impactos ambientales relevantes:
 - Transformación de ecosistemas ribereños
 - Creación de nuevos hábitats acuáticos (el embalse de Rincón del Bonete alberga fauna y flora características)
 
----
-
 ## Perspectivas futuras
 
 - **No se prevén nuevas represas de gran escala** en Uruguay a mediano plazo, dado que los sitios aptos ya están aprovechados y la política prioriza el almacenamiento por baterías.
 - Se analizan mejoras de eficiencia y aumento de potencia en las centrales existentes mediante modernización de turbinas.
 - El **cambio climático** representa una incertidumbre sobre la disponibilidad futura de caudales.
-
----
 
 ## Palabras clave
 

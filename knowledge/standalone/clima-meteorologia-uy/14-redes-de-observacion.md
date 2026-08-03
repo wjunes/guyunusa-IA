@@ -1,12 +1,8 @@
 # Redes de Observación Meteorológica en Uruguay
 
----
-
 ## Introducción
 
 La **red de observación meteorológica** es la infraestructura física e institucional que permite registrar el estado de la atmósfera en tiempo real. Sin observaciones, no hay pronóstico, ni climatología, ni investigación. Uruguay cuenta con una red de múltiples componentes, operada principalmente por INUMET, complementada por otras instituciones (SOHMA, INIA, DINAGUA, aeropuertos, Facultad de Ciencias, IMFIA).
-
----
 
 ## Red principal de INUMET
 
@@ -52,8 +48,6 @@ Las AWS de INUMET cubren todo el territorio nacional y han reemplazado progresiv
 - Precipitación acumulada
 - Temperatura del agua (en estaciones costeras)
 
----
-
 ## Red de radiosondeos
 
 Los **radiosondeos** (*upper-air soundings*) son el principal método de observación del perfil vertical de la atmósfera hasta la estratosfera (~30–35 km de altitud).
@@ -71,8 +65,6 @@ Se libera un **globo de helio** que asciende a una velocidad de ~5 m/s llevando 
 
 Los datos de radiosonde de Uruguay se transmiten a la red de la OMM y son utilizados por todos los centros de pronóstico del mundo para la inicialización de los modelos numéricos.
 
----
-
 ## Red de radares meteorológicos
 
 Los radares meteorológicos son instrumentos activos que emiten pulsos de microondas y detectan la energía retrodispersada (*backscattered*) por las hidrometeoros (gotas de lluvia, cristales de hielo, granizo).
@@ -86,8 +78,6 @@ Los radares meteorológicos son instrumentos activos que emiten pulsos de microo
 ### Cobertura en Uruguay
 
 INUMET opera una red de radares que cubre el territorio nacional. Los radares son de **banda C** (frecuencia ~5 GHz; longitud de onda ~5 cm) o **banda S** (frecuencia ~3 GHz; longitud de onda ~10 cm) [VERIFICAR tipo de radares actuales de INUMET y sus ubicaciones]. Las imágenes de radar se publican en tiempo real en el sitio web de INUMET y son fundamentales para el nowcasting de tormentas severas y la detección de granizo.
-
----
 
 ## Satélites meteorológicos
 
@@ -119,8 +109,6 @@ El satélite **GOES-16** (en operación desde 2017) provee imágenes de alta res
 | GPM (IMERG) | NASA/JAXA | Precipitación global |
 | Sentinel-6 | Copernicus | Altimetría de nivel del mar |
 
----
-
 ## Redes complementarias
 
 ### Red agrometeorológica (INIA)
@@ -139,19 +127,13 @@ Los aeropuertos uruguayos habilitados para la aviación comercial cuentan con es
 
 El **Departamento de Ciencias de la Atmósfera y los Océanos (DCAO)** de la Facultad de Ciencias y el **IMFIA** operan algunas estaciones propias y equipos de investigación (perfiladores de viento, sensores de radiación, etc.) en el campus universitario y otras localizaciones.
 
----
-
 ## Sistema Global de Telecomunicaciones (GTS)
 
 El **GTS** (*Global Telecommunication System*) es la red de comunicaciones de la OMM a través de la cual los datos meteorológicos observados en todo el mundo se intercambian entre los servicios meteorológicos en tiempo casi real. Uruguay, a través de INUMET y SOHMA, alimenta el GTS con datos de sus estaciones de superficie, radiosondeos y radares.
 
----
-
 ## Sistema Mundial de Observación (WIGOS)
 
 El **WIGOS** (*WMO Integrated Global Observing System*) es el marco integrado de la OMM para todos los sistemas de observación del clima y el tiempo. INUMET gestiona los metadatos de sus estaciones en la base de datos OSCAR/Surface de la OMM.
-
----
 
 ## Palabras clave
 

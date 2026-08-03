@@ -1,10 +1,6 @@
 # Línea de Tiempo: Meteorología y Climatología en Uruguay
 
----
-
 ## Cronología de hitos en meteorología, climatología y eventos extremos
-
----
 
 ### Siglo XIX
 
@@ -15,16 +11,12 @@
 | **~1888–1896** | Inicio de las series climáticas formales en Montevideo que dan base a las normas climatológicas actuales. [VERIFICAR fecha exacta — INUMET referencia ~1891] |
 | **1890s** | Expansión de la red de observación pluviométrica hacia el interior del país, vinculada a las necesidades agrícolas y a la gestión de los ríos. |
 
----
-
 ### Primer tercio del siglo XX (1900–1935)
 
 | Año / Período | Hito |
 |--------------|------|
 | **~1900–1920** | Consolidación de la red de estaciones meteorológicas en departamentos del interior; primera cobertura nacional aproximada. |
 | **1928–1929** | Se registran episodios de sequía significativos. [VERIFICAR] |
-
----
 
 ### Período 1936–1960
 
@@ -35,8 +27,6 @@
 | **~1950s** | Inicio del uso de radiosondes para observación del perfil vertical de la atmósfera en Uruguay (Montevideo). [VERIFICAR fecha de inicio de radiosondeos en Uruguay] |
 | **1959** | **Inundaciones históricas del Río Uruguay** (Paysandú, Salto, Fray Bentos): máximas crecidas registradas hasta entonces en el litoral. |
 
----
-
 ### Período 1961–1980
 
 | Año / Período | Hito |
@@ -44,8 +34,6 @@
 | **1961–1990** | Segunda **norma climatológica OMM** para Uruguay (período de referencia). |
 | **~1970s** | Desarrollo de la **Dirección Nacional de Meteorología (DNM)** como servicio meteorológico nacional bajo el Ministerio de Defensa; expansión de la red de estaciones automáticas. |
 | **~1975** | Primera imagen satelital meteorológica recibida en tiempo operativo en Uruguay. [VERIFICAR] |
-
----
 
 ### Período 1981–2000
 
@@ -63,8 +51,6 @@
 | **1999–2001** | **La Niña prolongada:** sequías; pérdidas agropecuarias en el norte y el este. |
 | **2000** | Uruguay ratifica el **Protocolo de Kioto** [VERIFICAR si lo ratificó y en qué fecha]. |
 
----
-
 ### Período 2001–2010
 
 | Año / Período | Hito |
@@ -74,8 +60,6 @@
 | **2008–2009** | **Sequía severa:** reducción de la generación hidroeléctrica; emergencia agropecuaria; una de las más graves del siglo XXI previas a 2022. |
 | **2009** | Creación del **SNRCC** (*Sistema Nacional de Respuesta al Cambio Climático*) en Uruguay. |
 | **~2009–2010** | INUMET comienza a operar radares meteorológicos Doppler de nueva generación para cobertura del territorio. [VERIFICAR fecha exacta de instalación de primeros radares Doppler] |
-
----
 
 ### Período 2011–2020
 
@@ -90,8 +74,6 @@
 | **2018** | Publicación del **Informe Especial del IPCC sobre 1,5 °C** (SR1.5); impacto en la política climática uruguaya. |
 | **2019** | Publicación del **Informe Especial del IPCC sobre Océanos y Criosfera** (SROCC): relevante para la costa uruguaya y el nivel del mar. |
 
----
-
 ### Período 2021–2026
 
 | Año / Período | Hito |
@@ -102,8 +84,6 @@
 | **2022–2023** | **Sequía histórica ("triple dip" La Niña):** la más severa en décadas; crisis de agua potable en Montevideo (OSE mezcla agua del Plata con el Paso Severino; aumento de salinidad). Emergencia agropecuaria. |
 | **2023** | **Publicación del IPCC AR6 Informe de Síntesis:** conclusión del ciclo AR6; reafirma la urgencia de la acción climática. |
 | **2024–2026** | [Período en curso — agregar hitos a medida que se produzcan] |
-
----
 
 ## Cronología de instituciones y marcos legales
 
@@ -118,8 +98,6 @@
 | 2012 | Ley 19.007 / INUMET | Modernización del servicio meteorológico |
 | 2015 | Acuerdo de París / NDC Uruguay | Compromisos climáticos actualizados |
 | 2021 | Nueva norma OMM 1991–2020 | Actualización de datos de referencia climáticos |
-
----
 
 ## Palabras clave
 

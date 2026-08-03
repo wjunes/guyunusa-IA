@@ -6,8 +6,6 @@ La **inversión extranjera directa (IED)** es la inversión realizada por un age
 
 El **BCU** compila las estadísticas de IED en Uruguay siguiendo los estándares del FMI (MBP6) y de la OCDE (Marco Referencial de Definición de IED). Uruguay XXI publica informes periódicos sobre las tendencias de la IED.
 
----
-
 ## Uruguay como destino de IED
 
 Uruguay ha atraído flujos significativos de IED en relación con el tamaño de su economía. Los factores que explican el atractivo de Uruguay para la IED incluyen:
@@ -19,8 +17,6 @@ Uruguay ha atraído flujos significativos de IED en relación con el tamaño de 
 - **Capital humano**: fuerza laboral calificada, particularmente en servicios.
 - **Conectividad regional**: posición geográfica estratégica en el Cono Sur.
 - **Acuerdos bilaterales de inversión (TBI)**: Uruguay ha firmado TBI con numerosos países, que ofrecen protección jurídica a los inversores (trato nacional, trato de NMF, arbitraje internacional en CIADI o CNUDMI).
-
----
 
 ## Principales flujos de IED por sector
 
@@ -55,13 +51,9 @@ La inversión extranjera en tierras agrícolas en Uruguay fue relevante en el pe
 
 Inversión de la banca privada internacional (Santander, BBVA, Itaú, Scotiabank) en el sistema bancario uruguayo.
 
----
-
 ## Destinos de la IED uruguaya en el exterior
 
 La IED uruguaya en el exterior (inversión directa de residentes uruguayos en otros países) es menor en escala, aunque ha crecido. Se concentra en el sector agropecuario y en servicios financieros en la región.
-
----
 
 ## Marco institucional de promoción
 
@@ -69,8 +61,6 @@ La IED uruguaya en el exterior (inversión directa de residentes uruguayos en ot
 - **COMAP**: evaluación y aprobación de proyectos de inversión con declaración de interés nacional y acceso a incentivos fiscales.
 - **AIN (Auditoría Interna de la Nación)**: control de las empresas.
 - **MEF**: política de incentivos a la inversión.
-
----
 
 ## Palabras clave
 

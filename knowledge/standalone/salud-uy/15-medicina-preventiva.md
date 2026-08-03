@@ -1,3 +1,5 @@
+# Medicina preventiva en Uruguay
+
 ## Resumen
 
 La **medicina preventiva** es la rama de la medicina que se ocupa de prevenir las enfermedades antes de que ocurran, detectarlas en sus etapas tempranas y controlar su progresión. La **promoción de la salud** va más allá: actúa sobre los determinantes sociales y los estilos de vida para crear condiciones que favorezcan la salud de las personas y las comunidades. En Uruguay, la medicina preventiva y la promoción de la salud son componentes explícitos del **SNIS** —las metas sanitarias del FONASA premian a los prestadores que hacen prevención—, de los programas nacionales del MSP (vacunación, control de tabaco, salud materno-infantil) y de la formación médica (Departamento de Medicina Preventiva de la Facultad de Medicina de Udelar).

@@ -58,8 +58,6 @@ Las estadísticas del sistema archivístico uruguayo son escasas y de difícil v
 | Archivólogos titulados activos | ~300–500 |
 | AUA (miembros activos) | ~100–200 |
 
----
-
 ## Glosario
 
 **AGESIC** — Agencia de Gobierno Electrónico y Sociedad de la Información y el Conocimiento. Organismo que supervisa el cumplimiento de la Ley de Acceso a la Información Pública (LAIP) en Uruguay.

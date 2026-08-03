@@ -10,8 +10,6 @@
 | 1892 | Fundación del Banco Hipotecario del Uruguay (BHU) mediante la Ley 2.242 |
 | 1896 | Fundación del Banco de la República Oriental del Uruguay (BROU) mediante la Ley 2.480 (4 de agosto) |
 
----
-
 ## Siglo XX — Primera mitad (1900–1959)
 
 | Año | Evento |
@@ -21,8 +19,6 @@
 | 1938 | Carta Orgánica del BROU (Ley 9.808) |
 | 1945 | Uruguay ingresa al FMI y al Banco Mundial como miembro fundador |
 | 1955 | Crisis de balanza de pagos: primeros acuerdos con el FMI |
-
----
 
 ## Siglo XX — Segunda mitad (1960–1999)
 
@@ -42,8 +38,6 @@
 | 1996 | Ley 16.749: Ley de Mercado de Valores. Marco moderno para el mercado de capitales uruguayo |
 | 1998 | Ley 17.016: tipificación del lavado de activos en Uruguay |
 
----
-
 ## Siglo XXI — Primera década (2000–2009)
 
 | Año | Evento |
@@ -59,8 +53,6 @@
 | 2008 | Ley 18.401: nueva reforma de la Carta Orgánica del BCU; creación de la SSF unificada |
 | 2009 | Creación del SENACLAFT (Ley 18.494). BEVSA plenamente operativa |
 
----
-
 ## Siglo XXI — Segunda década (2010–2019)
 
 | Año | Evento |
@@ -73,8 +65,6 @@
 | 2018 | Inicio del intercambio automático de información financiera con primer grupo de jurisdicciones |
 | 2019 | Evaluación del GAFILAT (Quinta Ronda): evaluación del sistema ALD/CFT de Uruguay |
 
----
-
 ## Siglo XXI — Tercera década (2020–2024)
 
 | Año | Evento |
@@ -84,8 +74,6 @@
 | 2022 | Uruguay inicia formalmente el proceso de adhesión a la OCDE. Referéndum constitucional sobre reforma previsional (aprobación de la reforma que derivaría en la Ley 20.130) |
 | 2023 | Ley 20.130 (30 de marzo): Reforma de la Seguridad Social; elevación progresiva de la edad de jubilación a 65 años; ajustes en el sistema mixto y las AFAPs |
 | 2024 | El sistema financiero uruguayo mantiene indicadores de solvencia y liquidez holgados. Las AFAPs administran más de USD 15.000 millones |
-
----
 
 ## Palabras clave
 

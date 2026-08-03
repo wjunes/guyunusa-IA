@@ -10,8 +10,6 @@ Uruguay tiene un sistema de seguridad social en materia de jubilaciones basado e
 
 **Tercer pilar — Ahorro voluntario**: aportes voluntarios adicionales que el trabajador puede realizar en su AFAP o en otros instrumentos de ahorro previsional.
 
----
-
 ## La Ley 16.713/1995: creación del sistema mixto
 
 La Ley 16.713 del 3 de setiembre de 1995 creó el sistema mixto de seguridad social en Uruguay, combinando el reparto del BPS con la capitalización individual de las AFAPs. Fue una reforma estructural de gran envergadura que implicó una transformación profunda del financiamiento previsional.
@@ -24,8 +22,6 @@ La Ley 16.713 del 3 de setiembre de 1995 creó el sistema mixto de seguridad soc
 Los trabajadores podían optar por aportar todo al BPS (primer pilar solo) o al sistema mixto. El objetivo de la ley fue diversificar el riesgo del sistema previsional, reducir la presión sobre el reparto y generar ahorro nacional.
 
 **Tasa de aporte**: el trabajador aporta el 15% de su salario nominal al sistema previsional, de los cuales una parte va al BPS y otra (en la proporción que corresponde) a la AFAP.
-
----
 
 ## Las AFAPs: naturaleza y funcionamiento
 
@@ -40,8 +36,6 @@ Las AFAPs son personas jurídicas privadas autorizadas por el BCU para administr
 
 **Comisiones**: las AFAPs cobran una comisión por administración sobre los aportes recaudados y/o el saldo administrado, dentro de los máximos fijados por el BCU/SSF.
 
----
-
 ## AFAPs autorizadas (2024)
 
 | AFAP | Capital | Observaciones |
@@ -52,8 +46,6 @@ Las AFAPs son personas jurídicas privadas autorizadas por el BCU para administr
 | Integración AFAP | Nacional / Banco BBVA Uruguay | — |
 
 La cantidad de AFAPs ha variado desde la reforma: inicialmente se instalaron seis, que se fueron fusionando hasta quedar cuatro. República AFAP, de capital público (BROU), tiene la mayor cuota de mercado.
-
----
 
 ## Cartera de inversión de los fondos
 
@@ -71,8 +63,6 @@ Los fondos de ahorro previsional administrados por las AFAPs deben invertirse co
 
 La cartera de los FAPs está históricamente muy concentrada en valores públicos uruguayos (principalmente en UI), lo que refleja tanto la profundidad del mercado local como las restricciones regulatorias. Los fondos de los FAPs representan un volumen significativo del mercado de deuda pública local.
 
----
-
 ## Prestaciones del sistema de AFAPs
 
 Cuando el afiliado alcanza la edad de retiro, puede acceder a sus ahorros acumulados en la AFAP a través de dos modalidades:
@@ -80,8 +70,6 @@ Cuando el afiliado alcanza la edad de retiro, puede acceder a sus ahorros acumul
 **Retiro programado**: el afiliado recibe mensualmente una suma calculada en función del saldo acumulado, la esperanza de vida y una tasa técnica. El fondo sigue siendo de propiedad del afiliado y se hereda en caso de fallecimiento si queda saldo.
 
 **Renta vitalicia**: el afiliado transfiere su fondo a una compañía de seguros (que puede ser el BSE u otras aseguradoras habilitadas) a cambio de una renta mensual garantizada de por vida, sin importar cuánto viva. La renta vitalicia elimina el riesgo de longevidad pero implica la renuncia al fondo acumulado.
-
----
 
 ## La Ley 20.130/2023: reforma de la seguridad social
 
@@ -94,8 +82,6 @@ La Ley 20.130 del 30 de marzo de 2023 reformó el sistema previsional uruguayo a
 - **Nuevas opciones**: incorporación de nuevas alternativas de inversión para los fondos de las AFAPs.
 
 La reforma fue el resultado de un largo proceso de debate público, una comisión de expertos convocada por el gobierno (Comisión de Expertos en Seguridad Social — CESS) y negociaciones entre el gobierno, los partidos políticos y las organizaciones sociales.
-
----
 
 ## Supervisión y control
 
@@ -110,8 +96,6 @@ Las AFAPs están supervisadas por la División Administradoras de Fondos de Ahor
 
 **Fondo de Fluctuación de Rentabilidad**: cada AFAP debe constituir un fondo de reserva para cubrir situaciones en que la rentabilidad del FAP caiga por debajo del mínimo regulatorio.
 
----
-
 ## Estadísticas del sistema
 
 El BCU y la SSF publican mensualmente estadísticas del sistema de AFAPs que incluyen:
@@ -123,8 +107,6 @@ El BCU y la SSF publican mensualmente estadísticas del sistema de AFAPs que inc
 - Comisiones promedio del sistema.
 
 Al 2024 el patrimonio total administrado por las AFAPs superaba los USD 15.000 millones (más del 20% del PIB), convirtiendo a los FAPs en los mayores inversores institucionales del sistema financiero uruguayo.
-
----
 
 ## Palabras clave
 

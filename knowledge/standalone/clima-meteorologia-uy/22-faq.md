@@ -1,7 +1,5 @@
 # Preguntas Frecuentes — Clima y Meteorología de Uruguay
 
----
-
 ## Clima general
 
 **¿Qué tipo de clima tiene Uruguay?**
@@ -21,8 +19,6 @@ El norte está más cerca del trópico y recibe mayor radiación solar anual. Ad
 
 **¿Por qué Rocha y la costa atlántica son más frescos en verano?**
 La Corriente de Malvinas —corriente oceánica fría (2–10 °C)— fluye de sur a norte paralela a la costa atlántica. Cuando el viento sopla desde el mar hacia la costa, enfría el aire y puede generar niebla por advección. Las temperaturas del mar en Rocha en verano (~18–21 °C) son claramente inferiores a las de la costa del Plata (~22–24 °C).
-
----
 
 ## Fenómenos meteorológicos
 
@@ -47,8 +43,6 @@ Según los criterios operativos de INUMET (verificar definición oficial vigente
 **¿Hay huracanes en Uruguay?**
 No hay huracanes en Uruguay. Los huracanes son ciclones tropicales que se forman en el Atlántico Norte tropical. Uruguay está demasiado al sur y las temperaturas del mar son demasiado frías para sustentar ciclones tropicales. Lo que afecta a Uruguay son los **ciclones extratropicales** (depresiones de latitudes medias), que pueden producir vientos fuertes y lluvias intensas, pero tienen una dinámica distinta.
 
----
-
 ## ENSO y variabilidad climática
 
 **¿Qué es El Niño y cómo afecta a Uruguay?**
@@ -59,8 +53,6 @@ No hay huracanes en Uruguay. Los huracanes son ciclones tropicales que se forman
 
 **¿Con qué anticipación se puede predecir el efecto del ENSO en Uruguay?**
 Las señales del ENSO son detectables con varios meses de anticipación a partir del monitoreo de la temperatura del Pacífico. Las perspectivas climáticas estacionales para Uruguay se elaboran con una antelación de 1 a 3 meses, aunque con niveles de incertidumbre considerables.
-
----
 
 ## Pronóstico e instituciones
 
@@ -76,8 +68,6 @@ El **SOHMA** (Servicio de Oceanografía, Hidrografía y Meteorología de la Arma
 **¿Uruguay tiene radares meteorológicos?**
 Sí. INUMET opera una red de radares meteorológicos **Doppler** (banda C) que cubren el territorio nacional. Las imágenes de radar en tiempo real están disponibles en el sitio web de INUMET y son fundamentales para el nowcasting de tormentas severas y la detección de granizo.
 
----
-
 ## Cambio climático
 
 **¿Está cambiando el clima de Uruguay?**
@@ -89,8 +79,6 @@ Los más relevantes son: mayor riesgo de sequías y déficit hídrico (como la c
 **¿Qué hace Uruguay frente al cambio climático?**
 Uruguay presentó su **NDC** (Contribución Determinada a Nivel Nacional) ante la CMNUCC con compromisos de reducción de emisiones y adaptación. El **SNRCC** (Sistema Nacional de Respuesta al Cambio Climático, 2009) coordina la acción interinstitucional. El Ministerio de Ambiente lidera la política climática nacional.
 
----
-
 ## Preguntas técnicas
 
 **¿Qué diferencia hay entre meteorología y climatología?**
@@ -101,8 +89,6 @@ Las **normas climatológicas** son los valores promedio de las variables climát
 
 **¿Qué es el punto de rocío?**
 El **punto de rocío** es la temperatura a la que el aire debe enfriarse para que el vapor de agua comience a condensarse. Cuando la temperatura del aire se aproxima al punto de rocío, la humedad relativa se acerca al 100 % y puede formarse rocío, niebla o nubosidad.
-
----
 
 ## Palabras clave
 

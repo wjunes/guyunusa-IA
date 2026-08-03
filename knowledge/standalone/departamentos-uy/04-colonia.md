@@ -16,8 +16,6 @@
 | **Rutas principales** | Ruta 1, Ruta 21, Ruta 22, Ruta 50 |
 | **Puerto principal** | Puerto de Colonia del Sacramento (ferries a Buenos Aires) |
 
----
-
 ## Historia
 
 ### Fundación portuguesa (1680)
@@ -44,8 +42,6 @@ Con la independencia, Colonia pasó a formar parte del territorio uruguayo. El d
 
 En 1856 llegó al Uruguay la primera oleada de inmigrantes **valdenses**, comunidad cristiana protestante de origen piamontés (Italia). Se asentaron en la zona de Colonia, fundando las colonias de **Colonia Valdense**, **Cosmopolita** y otras. Su influencia cultural y religiosa perdura.
 
----
-
 ## Geografía
 
 ### Relieve
@@ -69,8 +65,6 @@ Clima **templado oceánico** (Cfa), suavizado por el Río de la Plata. Temperatu
 
 Suelos fértiles: brunosoles y vertisoles en las zonas agrícolas del interior; arenosos en la franja costera.
 
----
-
 ## Naturaleza
 
 ### Flora
@@ -80,8 +74,6 @@ Vegetación de pradera natural en el interior; monte ribereño en las orillas de
 ### Fauna
 
 Fauna pampeana típica: venado de campo, zorro gris, ñandú, mulitas. Costa del Plata: aves acuáticas, espátula rosada, gaviotas.
-
----
 
 ## Economía
 
@@ -105,8 +97,6 @@ El turismo, especialmente en **Colonia del Sacramento**, es una actividad econó
 
 El **Puerto de Colonia del Sacramento** es uno de los más importantes del país: opera como punto de entrada y salida de ferries que conectan Uruguay con **Buenos Aires** (Argentina) en aproximadamente una hora. Es el punto de cruce más frecuente entre ambos países.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -117,16 +107,12 @@ El **Puerto de Colonia del Sacramento** es uno de los más importantes del país
 | **Centro Regional de Profesores (CeRP del Sur)** | Formación docente; sede en Colonia del Sacramento |
 | Escuela Agraria | Formación agropecuaria |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Colonia** | Hospital público departamental (ASSE) |
 | Centros de salud privados | Mutualistas en Colonia del Sacramento y otras localidades |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -139,8 +125,6 @@ El **Puerto de Colonia del Sacramento** es uno de los más importantes del país
 | **Casa de Nacarello** | Una de las casas históricas más antiguas preservadas |
 | **Iglesia Valdense de Colonia Valdense** | Patrimonio religioso protestante |
 | **Cabildo de Colonia** | Edificio histórico de la administración colonial |
-
----
 
 ## Cultura
 
@@ -164,16 +148,12 @@ Colonia tiene una notable diversidad cultural por su historia de inmigración:
 
 Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne asada, chivito. La cultura valdense ha preservado tradiciones alimentarias de origen piamontés.
 
----
-
 ## Deportes
 
 | Institución | Descripción |
 |-------------|-------------|
 | **Club Atlético de Colonia** | Fútbol departamental |
 | Liga Departamental de Fútbol de Colonia | Organismo rector local |
-
----
 
 ## Turismo
 
@@ -187,8 +167,6 @@ Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne a
 | **Carmelo** | Ciudad sobre el río Uruguay; puerto fluvial; viñedos |
 | **Termas de Concordia** (en Argentina, cruce desde Colonia) [VERIFICAR] | — |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -197,8 +175,6 @@ Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne a
 | **Ruta 21** | Hacia Soriano y el norte |
 | **Puerto de Colonia** | Ferries a Buenos Aires (Buquebus, Seacat) |
 | **Aeropuerto de Laguna de los Patos** [VERIFICAR] | — |
-
----
 
 ## Instituciones
 
@@ -210,16 +186,12 @@ Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne a
 | **Municipio de Carmelo** | Segunda ciudad del departamento |
 | **Municipio de Nueva Helvecia** | Comunidad de origen suizo-alemán |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Líber Seregni** (Montevideo, vínculos con Colonia) [VERIFICAR] | Política | Fundador del Frente Amplio; general retirado |
 | [VERIFICAR otras personalidades destacadas de Colonia] | — | — |
-
----
 
 ## Estadísticas
 
@@ -230,16 +202,12 @@ Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne a
 | Densidad | 22,2 hab./km² | INE |
 | Ciudad capital | Colonia del Sacramento (~26.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - El Barrio Histórico de Colonia del Sacramento es el **único Sitio del Patrimonio Mundial de la UNESCO** de la categoría de ciudad histórica en Uruguay.
 - El **Puerto de Colonia** conecta Uruguay con Argentina en aproximadamente **50 minutos** en ferry rápido.
 - La comunidad **valdense** de Uruguay es la más numerosa fuera de los valles piamonteses de Italia; Colonia Valdense es su centro histórico.
 - Nueva Helvecia es conocida como **"La Suiza uruguaya"** por su arquitectura, sus quesos y la herencia cultural de los inmigrantes suizos y alemanes que la fundaron.
-
----
 
 ## Cronología
 
@@ -254,8 +222,6 @@ Influencia suiza y europea notable: quesos artesanales (Nueva Helvecia), carne a
 | 1862 | Fundación de Nueva Helvecia (inmigración suiza y alemana) |
 | 1995 | El Barrio Histórico de Colonia del Sacramento es declarado Patrimonio Mundial UNESCO |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Este glosario define los términos técnicos, siglas e instituciones más frecuentes en el contexto de la educación superior universitaria de Uruguay. Ordenado alfabéticamente.
 
----
-
 **AGADU** — Asociación General de Autores del Uruguay. (Ver cultura-uy/16-glosario.md para definición completa.)
 
 **ANII** — Agencia Nacional de Investigación e Innovación. Organismo financiador de la I+D e innovación en Uruguay. Creado por Ley 18.084 (2006). Gestiona el SNII.

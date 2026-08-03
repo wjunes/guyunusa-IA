@@ -16,8 +16,6 @@
 | **Rutas principales** | Ruta 9, Ruta 10, Ruta 39 (Interbalnearia) |
 | **Ciudad turística más conocida** | Punta del Este |
 
----
-
 ## Historia
 
 ### Período colonial
@@ -33,8 +31,6 @@ Maldonado era un departamento ganadero hasta la primera mitad del siglo XX. El d
 ### Punta del Este: de balneario a destino internacional
 
 Punta del Este comenzó a desarrollarse como balneario a principios del siglo XX. A partir de la década de 1950–1960, atrajo inversión argentina y la construcción de grandes hoteles, casinos y residencias de lujo. En las décadas de 1980–2000 se consolidó como uno de los principales destinos turísticos de América del Sur.
-
----
 
 ## Geografía
 
@@ -54,8 +50,6 @@ Maldonado tiene el relieve más variado del sur de Uruguay: sierras del Escudo C
 ### Clima
 
 Clima **templado oceánico** (Cfa), moderado por el Atlántico. Temperatura media anual: ~17 °C. Precipitaciones: ~1.100–1.200 mm/año. Veranos cálidos y soleados, muy favorables para el turismo de playa.
-
----
 
 ## Naturaleza
 
@@ -77,8 +71,6 @@ La **Isla de Lobos** (a ~8 km de la costa de Punta del Este) alberga la **mayor 
 ### Laguna Garzón (Área Protegida SNAP)
 
 Laguna costera en el límite Maldonado-Rocha; baja perturbación; hábitat de aves acuáticas, peces, invertebrados. Área Protegida con Recursos Manejados del SNAP.
-
----
 
 ## Economía
 
@@ -103,8 +95,6 @@ En el interior del departamento persiste la ganadería extensiva como actividad 
 
 La pesca artesanal en la costa atlántica; la industria pesquera tiene presencia en la zona de La Paloma (Rocha) y en menores términos en Maldonado.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -114,8 +104,6 @@ La pesca artesanal en la costa atlántica; la industria pesquera tiene presencia
 | UTU — centros en Maldonado y Punta del Este | Formación técnica |
 | **CURE — Centro Universitario Regional Este (UdelaR)** | Sede principal en Maldonado; carreras de ciencias del mar, turismo, tecnología |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -123,8 +111,6 @@ La pesca artesanal en la costa atlántica; la industria pesquera tiene presencia
 | **Hospital de Maldonado** | Hospital público departamental (ASSE) |
 | **Sanatorio de Punta del Este** | Centro privado de referencia |
 | Mutualistas y clínicas privadas | Amplia red por demanda turística |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -136,8 +122,6 @@ La pesca artesanal en la costa atlántica; la industria pesquera tiene presencia
 | **Casapueblo** (Punta Ballena) | Obra arquitectónica de Carlos Páez Vilaró; museo y hotel; hito del turismo |
 | **Faro de Punta del Este** | Faro histórico en el extremo sur de la península |
 | **Isla Gorriti** | Isla histórica frente a Punta del Este; restos de fortines coloniales |
-
----
 
 ## Cultura
 
@@ -157,8 +141,6 @@ Punta del Este alberga actividades culturales de proyección internacional: el *
 
 Alta concentración de restaurantes de cocina nacional e internacional en Punta del Este; marisco, pescados frescos, asado, cocina de autor.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -167,8 +149,6 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | **Torneo Internacional de Polo de Punta del Este** | Polo; uno de los más importantes de Sudamérica |
 | **Golf** | Varios campos de golf de nivel internacional |
 | **Náutica y surf** | Actividades en la costa |
-
----
 
 ## Turismo
 
@@ -183,8 +163,6 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | **Playa Brava** | Oleaje atlántico; surf |
 | **José Ignacio** | Balneario boutique exclusivo |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -193,8 +171,6 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | **Ruta Interbalnearia (Ruta 10/39)** | Conecta las costas entre Montevideo y Rocha pasando por los balnearios |
 | **Aeropuerto Internacional de Laguna del Sauce** | Código IATA: PDP; vuelos nacionales e internacionales de temporada |
 | **Puerto de Punta del Este** | Puerto deportivo y de cruceros |
-
----
 
 ## Instituciones
 
@@ -206,16 +182,12 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | **Municipio de Punta del Este** | Gestión del principal destino turístico |
 | **Municipio de San Carlos** | Segunda ciudad del departamento |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Carlos Páez Vilaró** (Montevideo, 1923–2014; radicado en Maldonado) | Artes plásticas | Artista plástico; creador de Casapueblo en Punta Ballena |
 | **Leonel Viera** (vinculado a Maldonado) | Ingeniería | Diseñó el Puente de la Barra |
-
----
 
 ## Estadísticas
 
@@ -227,16 +199,12 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | Ciudad capital | Maldonado (~65.000 hab.) [VERIFICAR] | INE |
 | Punta del Este | ~9.300 hab. residentes permanentes; ~350.000–500.000 en verano [VERIFICAR] | INE/Ministerio de Turismo |
 
----
-
 ## Curiosidades
 
 - Punta del Este es el **único punto del continente americano** donde el Río de la Plata se une al Océano Atlántico: la costa "Mansa" da al Plata y la "Brava" da al Atlántico.
 - La **Mano en la arena** (escultura de Mario Irarrázabal, 1982) en la playa Brava de Punta del Este es una de las imágenes más icónicas del Uruguay en el mundo.
 - El **Aeropuerto de Laguna del Sauce (PDP)** opera vuelos internacionales de temporada, conectando Maldonado directamente con ciudades de Argentina y Brasil.
 - La **Laguna del Sauce** (OSE) provee agua potable a todo el departamento de Maldonado.
-
----
 
 ## Cronología
 
@@ -249,8 +217,6 @@ Alta concentración de restaurantes de cocina nacional e internacional en Punta 
 | 1969 | Conferencia de Punta del Este (reunión de presidentes americanos) |
 | 1982 | Instalación de la "Mano en la arena" de Irarrázabal |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

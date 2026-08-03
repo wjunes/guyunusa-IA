@@ -1,12 +1,8 @@
 # Geografía Marina del Uruguay
 
----
-
 ## Introducción
 
 La geografía marina del Uruguay comprende el espacio costero, el estuario del Río de la Plata y el sector del Océano Atlántico Sur sobre el que el país ejerce derechos soberanos o de jurisdicción. Este archivo describe las principales unidades geográficas marinas del Uruguay, sus características físicas y sus límites.
-
----
 
 ## La costa uruguaya
 
@@ -25,8 +21,6 @@ La costa continental uruguaya tiene una extensión total de aproximadamente **66
 - Longitud aproximada: ~260 km.
 - Morfología: playas arenosas rectilíneas; sistemas de dunas costeras; lagunas litorales (Merín, Rocha, Garzón, Negra, Castillos); barras arenosas.
 - Presencia de la Isla de Lobos (la isla oceánica uruguaya más importante; ~37°12'S, ~53°57'O) y Cabo Polonio.
-
----
 
 ## El Río de la Plata
 
@@ -54,8 +48,6 @@ El **Tratado del Río de la Plata y su Frente Marítimo** (1973, Uruguay-Argenti
 - **Turbidez:** elevada en la zona interna y media, causada por sedimentos en suspensión del Paraná y el Uruguay.
 - **Frente de turbidez:** zona de deposición de sedimentos en suspensión donde las aguas fluviales frenan su velocidad.
 
----
-
 ## El Océano Atlántico frente a Uruguay
 
 El sector del **Atlántico Sudoccidental** frente a Uruguay se caracteriza por:
@@ -73,8 +65,6 @@ El sector del **Atlántico Sudoccidental** frente a Uruguay se caracteriza por:
 | Talud continental | 200–2.000 m | 200–400 km |
 | Cuenca oceánica (Cuenca Argentina) | 2.000–5.000 m | >400 km |
 
----
-
 ## Islas y accidentes costeros principales
 
 | Nombre | Departamento | Coordenadas aprox. | Descripción |
@@ -85,8 +75,6 @@ El sector del **Atlántico Sudoccidental** frente a Uruguay se caracteriza por:
 | Cabo Polonio | Rocha | 34°24'S, 53°47'O | Punta rocosa; área protegida SNAP; lobería |
 | Punta del Este | Maldonado | 34°58'S, 54°57'O | Límite Río de la Plata / Océano Atlántico |
 | Punta Gorda | Colonia | ~33°53'S, ~58°26'O | Confluencia del río Uruguay con el Plata |
-
----
 
 ## Límites marítimos
 
@@ -100,8 +88,6 @@ Los límites marítimos entre Uruguay y Argentina están establecidos por:
 ### Con Brasil
 
 Uruguay y Brasil no tienen frontera marítima común en el Océano Atlántico; comparten la **Laguna Merín** y el litoral de la **Laguna Mirim** como límite terrestre/lacustre, y sus respectivas ZEE se extienden sin superposición al sur y al norte de la línea de frontera.
-
----
 
 ## Palabras clave
 

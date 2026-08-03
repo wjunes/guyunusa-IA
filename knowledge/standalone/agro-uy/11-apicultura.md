@@ -4,8 +4,6 @@
 
 La **apicultura** (producción con abejas melíferas) es un sector agropecuario relevante de Uruguay, reconocido internacionalmente por la calidad de su miel. Uruguay produce mieles de alta pureza, con baja intervención química, gracias a su flora nativa y a las amplias extensiones de campo con escasa contaminación. La producción se destina mayoritariamente a la exportación.
 
----
-
 ## Historia de la apicultura uruguaya
 
 | Período | Hito |
@@ -18,8 +16,6 @@ La **apicultura** (producción con abejas melíferas) es un sector agropecuario 
 | 2000–2010 | Llegada de la **Varroasis** (parásito Varroa destructor); impacto sanitario importante; adaptación del manejo |
 | 2010–2023 | Estabilización de la producción con nuevas prácticas de manejo; exportaciones sostenidas |
 
----
-
 ## Indicadores del sector
 
 | Indicador | Valor aproximado |
@@ -31,8 +27,6 @@ La **apicultura** (producción con abejas melíferas) es un sector agropecuario 
 | Principales mercados de exportación | Alemania, EE.UU., Reino Unido, Italia, Francia |
 | Rendimiento promedio | 15–20 kg/colmena/año |
 
----
-
 ## Razas de abejas
 
 - **Apis mellifera ligustica** (abeja italiana): la más difundida en Uruguay; dócil, buena producción.
@@ -41,8 +35,6 @@ La **apicultura** (producción con abejas melíferas) es un sector agropecuario 
 - **Cruzas y ecotipos locales:** frecuentes por años de cría sin selección estricta.
 
 No existe presencia de **Apis mellifera scutellata** (abeja africanizada) en Uruguay, lo que es una ventaja comparativa sanitaria y de manejo.
-
----
 
 ## Flora apícola
 
@@ -57,8 +49,6 @@ Uruguay cuenta con una rica **flora apícola** (flora de interés para las abeja
 | Girasol (*Helianthus annuus*) | Miel de cristalización rápida |
 | Citrus (azahar) | Mieles aromáticas; zona de Salto y Paysandú |
 
----
-
 ## Productos apícolas
 
 Además de la miel, la apicultura uruguaya produce:
@@ -67,8 +57,6 @@ Además de la miel, la apicultura uruguaya produce:
 - **Propóleo:** resina recolectada por las abejas de yemas y cortezas; propiedades antibacterianas; uso en cosmética y suplementos.
 - **Jalea real:** producida en sistemas especializados; consumo interno y exportación.
 - **Cera de abejas:** subproducto del procesamiento de la miel; exportación y uso en velas, cosmética, apicultura.
-
----
 
 ## Sanidad apícola
 
@@ -83,8 +71,6 @@ La sanidad es el principal desafío del sector:
 
 El **MGAP** regula el registro de colmenas, la comercialización de productos apícolas y los tratamientos autorizados.
 
----
-
 ## Marco institucional
 
 - **Sociedad Apícola Uruguaya (SAU):** gremio principal de apicultores.
@@ -93,15 +79,11 @@ El **MGAP** regula el registro de colmenas, la comercialización de productos ap
 - **Programa Apícola del Plan Agropecuario:** extensión rural para apicultores.
 - **INIA:** investigación en sanidad y mejoramiento apícola.
 
----
-
 ## Exportaciones
 
 Uruguay exporta principalmente **miel a granel** (en tambores de 300 kg), aunque hay crecimiento en la exportación de mieles fraccionadas y diferenciadas (orgánicas, monoflorales).
 
 La miel uruguaya tiene buena reputación en los mercados europeos y norteamericanos por sus residuos de antibióticos por debajo de los límites permitidos y por su origen botánico diverso.
-
----
 
 ## Palabras clave
 

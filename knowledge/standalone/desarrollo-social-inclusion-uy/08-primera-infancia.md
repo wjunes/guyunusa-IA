@@ -6,8 +6,6 @@ La **primera infancia** comprende el período desde la concepción hasta los 6 a
 
 En Uruguay, las políticas de primera infancia han avanzado significativamente desde 2005, con la construcción de un sistema que articula salud, educación, cuidados y protección social.
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -17,8 +15,6 @@ En Uruguay, las políticas de primera infancia han avanzado significativamente d
 | Ley 19.161 | 2013 | Subsidio por maternidad y paternidad extendido para trabajadores privados |
 | Ley 19.353 | 2015 | SNIC: establece servicios de cuidado para primera infancia |
 | Estrategia Nacional para la Infancia y la Adolescencia (ENIA) | 2010 | Plan estratégico 2010–2030 para niñez y adolescencia |
-
----
 
 ## El INAU — Instituto del Niño y Adolescente del Uruguay
 
@@ -34,8 +30,6 @@ El **INAU (Instituto del Niño y Adolescente del Uruguay)** es el organismo rect
 - Financiar y supervisar a las organizaciones de la sociedad civil que atienden a niños y adolescentes.
 
 **Dirección**: el INAU es dirigido por un Directorio de tres miembros, designados por el Poder Ejecutivo.
-
----
 
 ## Los Centros CAIF
 
@@ -56,8 +50,6 @@ Los **Centros CAIF (Centros de Atención a la Infancia y la Familia)** son el pr
 
 **Integración con el SNIC**: desde la creación del SNIC (2015), los CAIF son el principal servicio del sistema de cuidados para primera infancia.
 
----
-
 ## Estrategia Nacional para la Infancia y la Adolescencia (ENIA)
 
 La **ENIA (2010–2030)** es el plan estratégico nacional para la infancia y la adolescencia en Uruguay, elaborado por el Comité de Coordinación Estratégica de Infancia y Adolescencia (CCE), integrado por los ministerios y organismos con competencia en la materia.
@@ -68,8 +60,6 @@ La ENIA establece cuatro ejes:
 3. Ciudadanía: promover la participación de NNA.
 4. Entorno: crear ambientes seguros y estimulantes.
 
----
-
 ## Maternidad y paternidad
 
 La **Ley 19.161/2013** amplió las licencias de maternidad y paternidad:
@@ -77,13 +67,9 @@ La **Ley 19.161/2013** amplió las licencias de maternidad y paternidad:
 - Licencia de paternidad: progresivamente ampliada hasta 10 días hábiles y con subsidio adicional.
 - Subsidio por cuidados del recién nacido: subsidio especial para madres o padres que reduzcan su jornada laboral para cuidar al recién nacido durante los primeros meses de vida.
 
----
-
 ## Mortalidad infantil y nutrición
 
 Uruguay tiene una de las tasas de mortalidad infantil más bajas de América Latina (inferior a 7 por 1.000 nacidos vivos en el período reciente). El MSP y el INAU coordinan los controles de salud infantil. La desnutrición infantil severa es prácticamente inexistente en Uruguay, aunque persisten problemas de anemia, sobrepeso y carencias de micronutrientes en sectores vulnerables.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Panorama del deporte uruguayo
+
 ## Resumen
 
 El deporte en Uruguay es, antes que nada, el fútbol. Uruguay tiene una historia futbolística desproporcionada respecto a su tamaño: dos Copas del Mundo (1930 y 1950), dos medallas de oro olímpicas (1924 y 1928) y quince títulos de Copa América. La Celeste es el símbolo deportivo más potente del país. Más allá del fútbol, Uruguay tiene presencia internacional en rugby (Los Teros, clasificado a varios Mundiales), básquetbol, atletismo y tenis. El deporte —especialmente el fútbol— es una dimensión constitutiva de la identidad uruguaya: la Celeste en un partido importante concentra una intensidad emocional colectiva que pocos otros eventos pueden igualar.

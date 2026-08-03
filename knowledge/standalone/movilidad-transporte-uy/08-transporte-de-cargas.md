@@ -6,8 +6,6 @@ El transporte de cargas en Uruguay articula la cadena logística desde la produc
 
 Los principales modos de transporte de cargas son el **carretero** (predominante), el **ferroviario** (en expansión tras el Ferrocarril Central), el **marítimo/fluvial** (para exportaciones oceánicas) y, en menor medida, el **aéreo** (bienes de alto valor).
 
----
-
 ## Transporte carretero de cargas
 
 ### Características
@@ -42,8 +40,6 @@ Uruguay participa en el **Acuerdo sobre Transporte Internacional Terrestre (ATIT
 | Aceguá–Aceguá (BR) | Brasil | Ruta 8 |
 | Artigas–Quaraí | Brasil | Ruta 30 |
 
----
-
 ## Transporte ferroviario de cargas
 
 ### Estado actual
@@ -61,8 +57,6 @@ Adicionalmente, AFE mantiene servicios de carga en otros tramos de la red donde 
 | Capacidad de carga muy elevada por tren | Necesidad de transporte complementario (primera/última milla) |
 | Menor desgaste de la infraestructura vial | Limitada red activa |
 
----
-
 ## Transporte marítimo de cargas
 
 El transporte marítimo canaliza la mayor parte del volumen de exportaciones e importaciones de Uruguay en términos de toneladas. Los puertos principales para cargas son:
@@ -73,8 +67,6 @@ El transporte marítimo canaliza la mayor parte del volumen de exportaciones e i
 - **Puerto de Juan Lacaze**: productos menores, carga local
 
 El tráfico de contenedores en el Puerto de Montevideo lo posiciona como uno de los puertos más activos del litoral atlántico sudamericano.
-
----
 
 ## Transporte multimodal y logística
 
@@ -101,8 +93,6 @@ El MTOP ha desarrollado el **Plan de Logística** de Uruguay, que identifica los
 - Desarrollo de plataformas logísticas en el interior
 - Reducción de costos logísticos como porcentaje del valor exportado
 
----
-
 ## Corredores logísticos nacionales
 
 Los principales corredores de transporte de cargas en Uruguay son:
@@ -114,13 +104,9 @@ Los principales corredores de transporte de cargas en Uruguay son:
 | Corredor Litoral | Río Uruguay → Nueva Palmira | Fluvial | Granos a granel |
 | Corredor Sur | San José → Montevideo | Carretero | Horticultura, lechería |
 
----
-
 ## Transporte aéreo de cargas
 
 El transporte aéreo de cargas desde Uruguay es marginal en volumen pero significativo en valor. El **Aeropuerto Internacional de Carrasco** dispone de una terminal de cargas con infraestructura frigorífica para productos perecederos. Las exportaciones aéreas incluyen principalmente cortes de carne premium, flores frescas y medicamentos.
-
----
 
 ## Palabras clave
 

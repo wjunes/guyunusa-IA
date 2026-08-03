@@ -1,3 +1,5 @@
+# Figuras destacadas de la medicina uruguaya
+
 ## Resumen
 
 **Manuel Quintela** fue un médico y académico uruguayo de la primera mitad del siglo XX, figura central de la medicina interna y de la Universidad de la República. Ejerció como **rector de la Universidad de la República** y fue una de las personalidades más influyentes de la medicina académica uruguaya de su tiempo. El **Hospital de Clínicas** —el mayor hospital universitario de Uruguay, inaugurado en 1953— lleva su nombre como homenaje a su contribución a la medicina y a la universidad uruguaya. La Cátedra de Clínica Médica que fundó o impulsó influyó decisivamente en la formación de generaciones de médicos uruguayos.
@@ -20,8 +22,6 @@ El legado de Manuel Quintela en la medicina uruguaya se puede sintetizar en tres
 - **Académica:** contribuyó a la formación de la medicina universitaria en Uruguay, en particular de la medicina interna.
 - **Institucional:** como rector de Udelar, contribuyó al desarrollo de la institución universitaria.
 - **Simbólica:** el Hospital de Clínicas —el símbolo de la medicina pública universitaria uruguaya— lleva su nombre como reconocimiento perdurable.
-
----
 
 ## Resumen
 
@@ -68,8 +68,6 @@ El legado de Caldeyro Barcia es doble:
 2. **Institucional:** el CLAP que fundó en Montevideo sigue siendo, décadas después de su muerte (1996), el referente latinoamericano de la perinatología.
 
 La **Unidad Montevideo** —nombre que llevan las unidades de medición de la actividad uterina— es el testimonio más cotidiano de que la ciencia uruguaya tuvo contribuciones de alcance mundial.
-
----
 
 ## Resumen
 

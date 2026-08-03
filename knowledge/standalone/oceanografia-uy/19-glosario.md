@@ -1,7 +1,5 @@
 # Glosario de Oceanografía y Ciencias Marinas — Uruguay
 
----
-
 ## A
 
 **Abisopelágico:** Zona oceánica entre los 4.000 y 6.000 m de profundidad; condiciones de oscuridad total, temperatura cercana a 0 °C y presión extrema.
@@ -18,8 +16,6 @@
 
 **Arrecife de corales de aguas frías:** Formaciones de corales escleractinios que se desarrollan en aguas profundas y frías (por debajo de la zona fótica); presentes en el talud continental uruguayo.
 
----
-
 ## B
 
 **Batimetría:** Medición de las profundidades del fondo oceánico o de los cuerpos de agua; se representa en cartas batimétricasmediante curvas de igual profundidad (isóbatas).
@@ -31,8 +27,6 @@
 **Biomasa:** Masa total (generalmente expresada en toneladas) de los organismos de una especie o comunidad en una zona determinada; indicador clave en evaluación pesquera.
 
 **Boya oceanográfica:** Dispositivo flotante anclado o a la deriva que registra parámetros físico-químicos del mar (temperatura, salinidad, presión, viento, oleaje).
-
----
 
 ## C
 
@@ -56,15 +50,11 @@
 
 **CTD:** Instrumento oceanográfico que mide simultáneamente Conductividad (para calcular la salinidad), Temperatura y Profundidad (Depth) del agua de mar; esencial en cualquier crucero oceanográfico.
 
----
-
 ## D
 
 **Demersal:** Se dice de los peces y otros organismos que viven cerca del fondo marino; contraste con "pelágico" (columna de agua).
 
 **DINARA:** Dirección Nacional de Recursos Acuáticos; organismo del MGAP uruguayo responsable de la gestión y regulación de los recursos pesqueros y acuícolas.
-
----
 
 ## E
 
@@ -76,8 +66,6 @@
 
 **Eutrofización:** Enriquecimiento excesivo de un cuerpo de agua en nutrientes, que puede provocar proliferación de algas y depleción de oxígeno; problema en zonas costeras contaminadas.
 
----
-
 ## F
 
 **Fitoplancton:** Conjunto de organismos fotosintéticos microscópicos (algas, cianobacterias) que flotan en la zona fótica del océano; base de la cadena alimentaria marina y responsables de gran parte de la producción de oxígeno global.
@@ -88,21 +76,15 @@
 
 **Frente oceánico:** Zona de encuentro entre dos masas de agua de diferente temperatura, salinidad o densidad; los frentes concentran nutrientes y biomasa.
 
----
-
 ## G
 
 **GEBCO (General Bathymetric Chart of the Oceans):** Iniciativa internacional para la cartografía batimétrica global de los océanos; Uruguay contribuye a través del SOHMA y la Misión SUB 200.
-
----
 
 ## H
 
 **Hidrografía:** Ciencia que estudia las propiedades físicas del agua en ríos, mares y otros cuerpos de agua; incluye la cartografía del fondo marino. En Uruguay, es competencia del SOHMA.
 
 **Hielo marino (sea ice):** Hielo formado por la congelación del agua de mar; crucial para el albedo global y el ecosistema antártico.
-
----
 
 ## I
 
@@ -112,19 +94,13 @@
 
 **Isóbata:** Línea que une puntos de igual profundidad en una carta batimétrica; análogo submarino de las curvas de nivel topográficas.
 
----
-
 ## K
 
 **Krill (*Euphausia superba*):** Pequeño crustáceo pelágico del Océano Austral; especie clave (keystone) en el ecosistema antártico; base de la alimentación de ballenas, pingüinos, focas y muchos peces.
 
----
-
 ## L
 
 **Lobo marino de un pelo (*Otaria flavescens*):** Pinnípedo residente permanente de las costas uruguayas; la Isla de Lobos (Maldonado) alberga una de las mayores colonias del mundo.
-
----
 
 ## M
 
@@ -138,8 +114,6 @@
 
 **Microplásticos:** Fragmentos de plástico menores a 5 mm; contaminante ubicuo en los océanos, incluyendo el Río de la Plata y la costa atlántica de Uruguay.
 
----
-
 ## O
 
 **OHI (Organización Hidrográfica Internacional):** Organismo intergubernamental que establece los estándares para la cartografía náutica; el SOHMA uruguayo es miembro.
@@ -147,8 +121,6 @@
 **Oleaje / Swell:** Oscilación del mar generada por el viento; el swell del Atlántico Sur puede alcanzar las costas de Uruguay con alturas significativas de 1–3 m.
 
 **Oxígeno disuelto:** Concentración de O₂ en el agua; indicador clave de la salud del ecosistema marino; disminuye con el calentamiento del océano.
-
----
 
 ## P
 
@@ -158,13 +130,9 @@
 
 **Plancton:** Conjunto de organismos que flotan o se desplazan pasivamente en el agua; incluye fitoplancton (vegetal) y zooplancton (animal).
 
----
-
 ## R
 
 **ROV (Remotely Operated Vehicle):** Vehículo submarino no tripulado, controlado desde la superficie mediante un cable umbilical; permite explorar el fondo marino a grandes profundidades; utilizado en la Misión Uruguay SUB 200.
-
----
 
 ## S
 
@@ -178,8 +146,6 @@
 
 **Sudestada:** Fenómeno meteorológico caracterizado por vientos persistentes del sector sur-este que generan incremento del nivel del mar (storm surge) sobre las costas uruguayas y argentinas; puede elevar el nivel hasta 2–3 m.
 
----
-
 ## T
 
 **Talud continental:** Zona de pronunciada pendiente que une la plataforma continental (~200 m) con el fondo oceánico profundo (>2.000 m); frente a Uruguay es la zona donde se ubica el Cañón del Plata.
@@ -192,21 +158,15 @@
 
 **Turbidita:** Depósito sedimentario formado por corrientes de turbidez (avalanchas submarinas de sedimentos) que fluyen por el talud continental y se acumulan en la cuenca oceánica; en el Cañón del Plata son relevantes para el transporte de sedimentos del Río de la Plata.
 
----
-
 ## U
 
 **UNCLOS (Convención de las Naciones Unidas sobre el Derecho del Mar):** Tratado internacional adoptado en 1982 que establece los derechos y obligaciones de los Estados en los océanos; define el mar territorial, la ZEE y la plataforma continental; Uruguay es Estado Parte.
-
----
 
 ## Z
 
 **ZEE (Zona Económica Exclusiva):** Espacio marítimo que se extiende hasta las 200 millas náuticas desde la línea de base; el Estado costero tiene derechos soberanos sobre los recursos naturales; la ZEE de Uruguay tiene ~142.166 km².
 
 **Zooplancton:** Componente animal del plancton; incluye copépodos, quetognatos, medusas, larvas de invertebrados y krill; eslabón clave en la cadena alimentaria marina.
-
----
 
 ## Palabras clave
 

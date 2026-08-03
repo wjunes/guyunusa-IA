@@ -31,8 +31,6 @@
 - OPP. **Estrategia de desarrollo Uruguay 2050**. Montevideo: OPP, 2019.
 - OPP. **Uruguay y los Objetivos de Desarrollo Sostenible (ODS): informes voluntarios nacionales**. Montevideo: OPP. Presentados ante la ONU.
 
----
-
 ## Normativa legal
 
 | Norma | Año | Acceso |
@@ -51,8 +49,6 @@
 | Ley 19.353 (SNIC) | 2015 | www.parlamento.gub.uy |
 | Ley 19.580 (VBG) | 2017 | www.parlamento.gub.uy |
 | Ley 19.684 (Personas Trans) | 2018 | www.parlamento.gub.uy |
-
----
 
 ## Organismos internacionales
 
@@ -76,15 +72,11 @@
 - OIT. **Panorama Laboral de América Latina y el Caribe**. Lima: OIT. Publicación anual.
 - OIT / CEPAL. **Coyuntura laboral en América Latina y el Caribe**. Santiago / Lima: CEPAL-OIT. Publicación semestral.
 
----
-
 ## Publicaciones académicas y de investigación
 
 - Amarante, Verónica; Vigorito, Andrea. **"Pobreza y desigualdad en Uruguay: una revisión de la evidencia"**. Documentos de trabajo. Instituto de Economía (IECON), Facultad de Ciencias Económicas y de Administración, Universidad de la República.
 - Filgueira, Fernando. **"El nuevo modelo de prestaciones sociales en América Latina: eficiencia, residualismo y ciudadanía estratificada"**. En Ciudadanía y política social. San José: FLACSO, 1998.
 - Midaglia, Carmen; Antía, Florencia. **"La izquierda en el gobierno: ¿cambio o continuidad en las políticas de bienestar social?"**. Revista Uruguaya de Ciencia Política. Montevideo, 2007.
-
----
 
 ## Palabras clave
 

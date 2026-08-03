@@ -11,15 +11,11 @@
 | **Sede** | Montevideo, Uruguay |
 | **Sitio web oficial** | https://www.ursea.gub.uy |
 
----
-
 ## Historia
 
 La **Unidad Reguladora de Servicios de Energía y Agua (URSEA)** fue creada por la **Ley N.º 17.598 del 13 de diciembre de 2002**. Surgió para establecer una regulación técnica independiente de los servicios de energía y agua en Uruguay, separando las funciones regulatorias de las operativas (ejecutadas por UTE, ANCAP, OSE y otros).
 
 Su creación fue parte de una tendencia regional de establecer reguladores independientes en los sectores de infraestructura, fortaleciendo la transparencia, la calidad del servicio y la protección del usuario.
-
----
 
 ## Competencias
 
@@ -36,8 +32,6 @@ Su creación fue parte de una tendencia regional de establecer reguladores indep
 ### Sector agua (parcialmente)
 
 URSEA también regula aspectos del servicio de agua potable y saneamiento prestado por **OSE (Obras Sanitarias del Estado)**, aunque la regulación hídrica tiene especificidades propias.
-
----
 
 ## Funciones principales
 
@@ -68,14 +62,10 @@ URSEA otorga habilitaciones para:
 
 URSEA publica informes técnicos, estadísticas de calidad del servicio eléctrico, datos de precios de combustibles y resultados de controles de calidad, contribuyendo a la transparencia del sector.
 
----
-
 ## Estructura de gobierno
 
 - **Directorio:** compuesto por directores designados por el Poder Ejecutivo con venia del Senado
 - **Cuerpo técnico:** ingenieros, economistas y especialistas en regulación
-
----
 
 ## Indicadores relevantes (referencia 2022–2023)
 
@@ -87,8 +77,6 @@ URSEA publica informes técnicos, estadísticas de calidad del servicio eléctri
 
 *Los valores numéricos específicos se encuentran en los informes anuales de URSEA disponibles en su sitio oficial.*
 
----
-
 ## Rol en el sistema energético uruguayo
 
 URSEA actúa como árbitro técnico y regulador entre:
@@ -97,8 +85,6 @@ URSEA actúa como árbitro técnico y regulador entre:
 - El interés público y ambiental
 
 Su independencia técnica respecto de los operadores es clave para garantizar la calidad del servicio y la protección del usuario en un sistema donde los prestadores son en gran parte monopolios estatales.
-
----
 
 ## Palabras clave
 

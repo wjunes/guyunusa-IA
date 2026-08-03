@@ -4,8 +4,6 @@
 
 El **Instituto Nacional de Estadística (INE)** es el organismo rector del **Sistema Estadístico Nacional (SEN)** de Uruguay. Tiene a su cargo la producción, análisis y difusión de estadísticas oficiales sobre la economía, la población y las condiciones sociales del país, conforme a estándares internacionales de calidad.
 
----
-
 ## Historia
 
 ### Antecedentes
@@ -31,8 +29,6 @@ La Ley 16.616/1994 transformó la DGEC en el **INE**, dotándolo de:
 - Mandato explícito de rectoría del Sistema Estadístico Nacional.
 - Misión de producir estadísticas conforme a estándares internacionales.
 
----
-
 ## Marco legal
 
 | Norma | Contenido |
@@ -41,8 +37,6 @@ La Ley 16.616/1994 transformó la DGEC en el **INE**, dotándolo de:
 | Ley 17.556/2002 | Marco de función pública aplicable al INE |
 | Principios Fundamentales de las Estadísticas Oficiales de la ONU (1994, reafirmados 2014) | Marco de principios internacionales que el INE adopta |
 | Código de Buenas Prácticas Estadísticas de la UE | Marco de calidad de referencia para el INE |
-
----
 
 ## Competencias
 
@@ -55,8 +49,6 @@ Las competencias del INE establecidas por la Ley 16.616/1994 incluyen:
 - **Producir las Cuentas Nacionales** (Producto Interno Bruto y sus componentes).
 - **Mantener el registro estadístico** de establecimientos, empresas y actividades económicas.
 - **Participar en organismos estadísticos internacionales** (CEPAL, ONU, OCDE, etc.).
-
----
 
 ## Organización institucional
 
@@ -76,8 +68,6 @@ El INE está dirigido por un **Director General** designado por el Poder Ejecuti
 **Sede:** Río Negro 1520, Montevideo.
 **Sitio oficial:** https://www.ine.gub.uy
 
----
-
 ## Metodología estadística
 
 El INE aplica metodologías basadas en estándares internacionales:
@@ -91,13 +81,9 @@ El INE aplica metodologías basadas en estándares internacionales:
 | Censos de población | Recomendaciones de la ONU para Censos (2015/2020) |
 | Estadísticas de género | Estadísticas con perspectiva de género (ONU, 2010) |
 
----
-
 ## Confidencialidad estadística
 
 El INE garantiza la **confidencialidad** de los datos individuales que recaba de personas, hogares y empresas. La información estadística sólo se publica en forma agregada y nunca permite identificar a personas individuales. Este principio es la base de la confianza de los informantes y está consagrado en la Ley 16.616.
-
----
 
 ## Difusión y acceso a datos
 
@@ -109,8 +95,6 @@ El INE difunde sus estadísticas a través de:
 - **Atlas sociodemográfico**: visualizaciones cartográficas de datos censales.
 - **Catálogo de datos abiertos** (datos.gub.uy): datos del INE en formatos reutilizables.
 
----
-
 ## El INE en el contexto internacional
 
 El INE participa activamente en:
@@ -119,8 +103,6 @@ El INE participa activamente en:
 - **Sistema de Información de los Países en Desarrollo (Paris21)** — OCDE.
 - **Comité de Coordinación Estadística del MERCOSUR**.
 - **Grupos de trabajo temáticos de la ONU** (estadísticas de desarrollo sostenible, ODS).
-
----
 
 ## Palabras clave
 

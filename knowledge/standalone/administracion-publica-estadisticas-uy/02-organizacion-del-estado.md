@@ -4,8 +4,6 @@
 
 La organización del Estado uruguayo se rige por la **Constitución de la República**, aprobada en 1967 y modificada mediante plebiscitos en 1989, 1994, 1996 y 2004. El Estado uruguayo se estructura en tres poderes clásicos (Ejecutivo, Legislativo, Judicial) y cuenta con organismos constitucionales independientes de contralor y administración.
 
----
-
 ## Los tres poderes del Estado
 
 ### Poder Ejecutivo
@@ -40,8 +38,6 @@ El **Poder Ejecutivo** es ejercido por el **Presidente de la República**, quien
 | Ministerio de Turismo | MINTUR | Rambla 25 de Agosto 770, Montevideo |
 | Ministerio de Ambiente | MA | Montevideo |
 
----
-
 ### Poder Legislativo
 
 El **Poder Legislativo** es ejercido por la **Asamblea General**, compuesta por dos cámaras:
@@ -51,15 +47,11 @@ El **Poder Legislativo** es ejercido por la **Asamblea General**, compuesta por 
 
 La **Asamblea General** sesiona con ambas cámaras reunidas para actos especiales (juramento del Presidente, procesos de destitución, etc.).
 
----
-
 ### Poder Judicial
 
 El **Poder Judicial** es independiente de los demás poderes. Su órgano superior es la **Suprema Corte de Justicia (SCJ)**, integrada por 5 miembros designados por la Asamblea General. Ejerce la jurisdicción constitucional, la supervisión del sistema judicial y la designación de magistrados.
 
 Ver dominio `justicia-uy` para documentación completa del Poder Judicial.
-
----
 
 ## Organismos constitucionales de contralor e independientes
 
@@ -83,8 +75,6 @@ La **Corte Electoral** organiza, dirige y supervisa todos los actos electorales 
 ### Tribunal de lo Contencioso Administrativo (TCA)
 
 El **TCA** es el órgano jurisdiccional especializado en derecho administrativo. Tiene la potestad exclusiva de anular —con efectos generales— los actos administrativos del Estado que sean ilegítimos. Integrado por 5 miembros designados por la Asamblea General.
-
----
 
 ## Administración descentralizada
 
@@ -113,8 +103,6 @@ Los **Servicios Descentralizados** son organismos estatales descentralizados ter
 | ANP (Administración Nacional de Puertos) | Administración portuaria |
 | AFE (Administración de Ferrocarriles del Estado) | Ferrocarriles |
 
----
-
 ## Personas Públicas No Estatales (PPNE)
 
 Las **Personas Públicas No Estatales** son organismos creados por ley para cumplir funciones de interés público, pero que no integran el Estado formalmente. Tienen autonomía de gestión y financiamiento propio. Ejemplos:
@@ -126,8 +114,6 @@ Las **Personas Públicas No Estatales** son organismos creados por ley para cump
 - **Instituto Nacional de Carnes (INAC)**
 - **Instituto Nacional de la Leche (INALE)**
 - **Instituto Nacional de Investigación Agropecuaria (INIA)**
-
----
 
 ## Gobiernos Departamentales y Municipios
 
@@ -142,8 +128,6 @@ Las intendencias ejercen competencias propias sobre tributos locales, obras muni
 ### Municipios
 
 La **Ley 18.567/2009** (Descentralización Política y Participación Ciudadana) creó los **Municipios** como tercer nivel de gobierno subnacional dentro de los departamentos. Los municipios están encabezados por un **Alcalde** y un **Concejo Municipal** de 4 concejales, electos por 5 años. En 2010 se instalaron los primeros 89 municipios; en 2015 se llegó a 112 municipios.
-
----
 
 ## Palabras clave
 

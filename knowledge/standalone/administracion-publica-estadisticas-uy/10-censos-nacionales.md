@@ -6,8 +6,6 @@ Los **censos nacionales** son el recuento exhaustivo de la población, las vivie
 
 En Uruguay, los censos son realizados por el **Instituto Nacional de Estadística (INE)**.
 
----
-
 ## Historia de los censos en Uruguay
 
 ### Censos del siglo XIX
@@ -37,8 +35,6 @@ En Uruguay, los censos son realizados por el **Instituto Nacional de Estadístic
 | 2011 | Censo de Población, Hogares y Viviendas | Nacional | Primero con cuestionario largo a toda la población; metodología completa |
 | 2023 | Censo de Población, Hogares y Viviendas | Nacional | Incorporó herramientas digitales (tablets, georreferenciación); datos publicados en 2024 |
 
----
-
 ## Metodología censal
 
 ### Tipos de censado
@@ -60,8 +56,6 @@ Uruguay aplica el **censo de derecho**, registrando a la población en su lugar 
 
 El censo capta la situación en una **fecha censal** única (noche del día del censo). Las variables se refieren a la situación en ese momento (estado civil, actividad económica, etc.) o a un período de referencia próximo (nacimientos, defunciones).
 
----
-
 ## El Censo 2011: resultados principales
 
 El Censo 2011 fue el más completo de la historia estadística uruguaya hasta esa fecha:
@@ -76,8 +70,6 @@ El Censo 2011 fue el más completo de la historia estadística uruguaya hasta es
 | Departamento más poblado | Montevideo (1.319.108) |
 | Tasa de crecimiento intercensal (1996–2011) | 0,4% anual |
 | % hogares con jefatura femenina | ~38% |
-
----
 
 ## El Censo 2023: innovaciones y primeros resultados
 
@@ -98,8 +90,6 @@ El **Censo de Población, Hogares y Viviendas 2023** fue realizado por el INE en
 
 Los resultados definitivos y desagregados del Censo 2023 se publican progresivamente en el sitio del INE.
 
----
-
 ## Uso de los datos censales
 
 Los datos de los censos son utilizados por:
@@ -110,8 +100,6 @@ Los datos de los censos son utilizados por:
 - **Empresas**: estudios de mercado, localización de actividades.
 - **Organismos internacionales**: comparaciones regionales y globales.
 
----
-
 ## Acceso a datos censales
 
 El INE pone a disposición:
@@ -119,8 +107,6 @@ El INE pone a disposición:
 - **Microdatos censales**: bases de datos anonimizadas para investigadores.
 - **Cuadros estadísticos**: tablas cruzadas predefinidas disponibles en el sitio web.
 - **Repositorio en datos.gub.uy**: descarga en formatos abiertos.
-
----
 
 ## Palabras clave
 

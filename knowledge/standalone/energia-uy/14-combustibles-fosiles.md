@@ -6,8 +6,6 @@ Los **combustibles fósiles** son hidrocarburos de origen geológico — petról
 
 El petróleo y sus derivados constituyen el principal vector de energía para el sector **transporte** y son insumos esenciales para la industria, la agricultura y la generación eléctrica de respaldo.
 
----
-
 ## Petróleo en Uruguay
 
 ### Importación y dependencia
@@ -44,8 +42,6 @@ La refinería La Teja es la **única refinería de petróleo de Uruguay** y fue 
 | **Lubricantes** | Motores y maquinaria |
 | **Nafta virgen / solventes** | Industria química y petroquímica |
 
----
-
 ## Consumo de derivados del petróleo en Uruguay
 
 ### Por sector
@@ -64,13 +60,9 @@ El sector **transporte** es el mayor consumidor de derivados del petróleo en Ur
 
 Los precios de los combustibles derivados del petróleo al público en Uruguay son fijados por el **Poder Ejecutivo**, a través del MIEM, con insumos de URSEA y ANCAP. Esta fijación administrativa implica que los precios internos no siempre reflejan en tiempo real los cambios en el mercado internacional.
 
----
-
 ## Carbón mineral
 
 Uruguay **no produce ni importa carbón mineral en cantidades significativas** para generación de electricidad o uso industrial masivo. Históricamente, el carbón mineral no ha tenido un rol relevante en la matriz energética uruguaya, a diferencia de otros países de la región (como Argentina y Brasil, que poseen reservas propias o usinas termoeléctricas a carbón de gran escala).
-
----
 
 ## Impacto ambiental y social
 
@@ -87,8 +79,6 @@ El sector **transporte** representa la principal fuente de emisiones de CO₂ de
 ### Contaminación urbana
 
 La concentración de emisiones vehiculares en Montevideo y otras ciudades genera problemas de calidad del aire, especialmente en zonas de alto tránsito.
-
----
 
 ## Tendencias y política energética
 
@@ -107,8 +97,6 @@ Entre 2015 y 2024, Uruguay amplió su flota de ómnibus eléctricos en Montevide
 
 El peso de los combustibles fósiles en la **matriz de energía primaria** de Uruguay seguirá siendo significativo en el mediano plazo, especialmente a través del gasoil para transporte de carga y maquinaria agrícola. La reducción de la dependencia fósil es uno de los objetivos de largo plazo de la política energética uruguaya, alineado con los compromisos asumidos en el **Acuerdo de París (2015)** y en los sucesivos **Planes Nacionales de Adaptación y Mitigación al Cambio Climático**.
 
----
-
 ## Marco institucional
 
 | Institución | Rol en combustibles fósiles |
@@ -118,8 +106,6 @@ El peso de los combustibles fósiles en la **matriz de energía primaria** de Ur
 | **URSEA** | Control de calidad de combustibles, habilitación de estaciones de servicio |
 | **DNE** | Balance Energético Nacional, planificación y estadísticas |
 | **Ministerio de Ambiente** | Control ambiental, gestión de residuos hidrocarburíferos |
-
----
 
 ## Palabras clave
 

@@ -74,8 +74,6 @@
 
 **Zona franca**: área delimitada del territorio nacional donde rigen condiciones especiales fiscales y aduaneras (exoneración de IRAE, IVA, IMESI, IP; libre entrada y salida de mercancías). Marco legal: Ley 15.921/1987.
 
----
-
 ## Palabras clave
 
 glosario comercio exterior Uruguay, ACE acuerdo complementación económica ALADI, AEC arancel externo común MERCOSUR, balanza pagos Uruguay, CIADI inversiones Uruguay, CIF FOB exportaciones importaciones Uruguay, DNA aduanas Uruguay, GACC China habilitación frigoríficos Uruguay, IED Uruguay, INAC carnes Uruguay, MERCOSUR integración, NCM nomenclatura común MERCOSUR, OMC ALADI Uruguay, Puerto Libre Montevideo, TCP terminal contenedores Uruguay, Uruguay XXI estadísticas, zona franca Uruguay

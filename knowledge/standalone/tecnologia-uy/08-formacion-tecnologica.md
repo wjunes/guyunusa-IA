@@ -1,3 +1,5 @@
+# Formación tecnológica en Uruguay
+
 ## Resumen
 
 La formación tecnológica en Uruguay está liderada por la Universidad de la República (Udelar) a través del Instituto de Computación (InCo) y la Facultad de Ingeniería, la Universidad ORT Uruguay, la Universidad Tecnológica (UTEC) con foco en el interior del país, y la Universidad Católica del Uruguay (UCU). Estas instituciones forman anualmente cientos de ingenieros en sistemas, licenciados en computación y tecnólogos, aunque la demanda del sector supera con creces la oferta de graduados. La escasez crónica de talento es el principal cuello de botella del crecimiento exportador del sector tecnológico. El Plan Ceibal genera desde la infancia una base de alfabetización digital, y un ecosistema de bootcamps, cursos en línea y formación continua complementa la oferta formal.

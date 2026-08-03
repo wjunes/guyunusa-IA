@@ -1,7 +1,5 @@
 # Línea de Tiempo: Oceanografía e Historia Marítima de Uruguay
 
----
-
 ## Período geológico y paleogeográfico
 
 | Fecha aproximada | Evento |
@@ -14,8 +12,6 @@
 | ~18.000–7.000 AP (postglacial) | Ascenso del nivel del mar; inundación progresiva de la plataforma continental; formación del Río de la Plata en su forma actual |
 | ~7.000–5.000 AP | Nivel del mar alcanza aproximadamente el nivel actual |
 
----
-
 ## Período precolonial e indígena
 
 | Fecha aproximada | Evento |
@@ -23,8 +19,6 @@
 | ~10.000 AP | Presencia humana confirmada en el territorio uruguayo (Pay Paso 1); los pueblos indígenas conocían y utilizaban los recursos del Río de la Plata y la costa atlántica |
 | ~5.000–500 AP | Cerritos de indios en zonas costeras y de humedales; uso intensivo de recursos acuáticos (peces, moluscos, capybara, aves acuáticas) |
 | Siglos XV–XVI | Pueblos indígenas (Charrúas, Guaraníes, Chanás) habitaban las costas del Río de la Plata; navegaban en canoas por el río |
-
----
 
 ## Período colonial (siglos XVI–XVIII)
 
@@ -38,8 +32,6 @@
 | 1783–1801 | Félix de Azara y Oyarvide realizan los primeros relevamientos hidrográficos sistemáticos del Río de la Plata |
 | 1789–1794 | Expedición Malaspina pasa por Montevideo; observaciones naturalistas e hidrográficas |
 
----
-
 ## Período de independencia y siglo XIX
 
 | Fecha | Evento |
@@ -50,8 +42,6 @@
 | 1843–1852 | Primer gobierno de la Defensa; el puerto de Montevideo es estratégico en los conflictos del Plata |
 | 1868 | Inauguración del Puerto de Montevideo con las primeras obras de infraestructura portuaria moderna [VERIFICAR] |
 | 1880–1900 | Inicio de la pesca industrial en Uruguay; primeras empresas pesqueras |
-
----
 
 ## Siglo XX: institucionalización y desarrollo
 
@@ -71,8 +61,6 @@
 | 1991 | Firma del **Protocolo de Madrid** (protección medioambiental de la Antártida) |
 | 1998 | Ley 17.033: Uruguay define formalmente sus espacios marítimos (mar territorial, zona contigua, ZEE 200 mni, plataforma continental) |
 
----
-
 ## Siglo XXI: exploración y conservación
 
 | Fecha | Evento |
@@ -85,8 +73,6 @@
 | 2022 | Conclusión de la Misión Uruguay SUB 200 [VERIFICAR fecha exacta de conclusión] |
 | 2023 | **Crisis de agua potable en Montevideo**: sequía extrema (contexto de La Niña) y bajante del Río Santa Lucía generan escasez de agua; interacción entre el Río de la Plata y el sistema de abastecimiento urbano |
 | 2023 | Adopción del **Acuerdo de Alta Mar (BBNJ)** en la ONU para protección de biodiversidad en aguas internacionales; Uruguay [VERIFICAR participación] |
-
----
 
 ## Palabras clave
 

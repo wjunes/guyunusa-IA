@@ -1,3 +1,5 @@
+# Sistema carcelario y derechos en Uruguay
+
 ## Resumen
 
 El sistema carcelario uruguayo es uno de los principales déficits de derechos humanos del país. Uruguay tiene una de las **tasas de encarcelamiento más altas de América del Sur** —aproximadamente **350 a 400 personas presas por cada 100.000 habitantes**— y sus cárceles están crónicamente **superpobladas**. Las condiciones de reclusión han sido calificadas de inhumanas por organismos nacionales e internacionales: hacinamiento, violencia entre reclusos, malas condiciones sanitarias, insuficiente acceso a salud y educación. El **Comisionado Parlamentario Penitenciario** y la **INDDHH** (en su rol de Mecanismo Nacional de Prevención de la Tortura) son los organismos de control. El uso excesivo de la **detención preventiva** contribuye al problema.

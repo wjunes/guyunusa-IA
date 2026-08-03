@@ -1,3 +1,5 @@
+# Abstracta — empresa uruguaya de testing de software
+
 ## Resumen
 
 **Abstracta** es la empresa uruguaya más reconocida internacionalmente en el área de **software testing y calidad** (QA — Quality Assurance). Fundada en Montevideo, es referente de la industria del testing de software en Uruguay y América Latina, con clientes en EE.UU. y otros mercados globales. Su diferencial es la especialización profunda en testing: no hacen de todo, hacen testing y lo hacen muy bien. Son reconocidos por sus prácticas de testing automatizado, de rendimiento (performance testing) y su contribución a la comunidad técnica.

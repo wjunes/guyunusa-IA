@@ -4,8 +4,6 @@
 
 La **producción lechera** es uno de los sectores agropecuarios más importantes y dinámicos de Uruguay. El país produce volúmenes de leche muy superiores a su consumo interno, lo que lo convierte en un **exportador neto de lácteos** con presencia en más de 50 países. La lechería uruguaya se caracteriza por sistemas pastoriles a campo abierto, altos estándares sanitarios y una fuerte estructura cooperativa.
 
----
-
 ## Historia de la lechería uruguaya
 
 | Período | Hito principal |
@@ -19,8 +17,6 @@ La **producción lechera** es uno de los sectores agropecuarios más importantes
 | 2000–2015 | Gran expansión exportadora; diversificación de destinos; crecimiento de la producción |
 | 2015–2023 | Volatilidad de precios internacionales; concentración de empresas; presión ambiental |
 
----
-
 ## La CONAPROLE
 
 La **Cooperativa Nacional de Productores de Leche (CONAPROLE)** es el actor dominante del sector:
@@ -31,8 +27,6 @@ La **Cooperativa Nacional de Productores de Leche (CONAPROLE)** es el actor domi
 - Principales productos de exportación: leche en polvo entera y descremada, quesos, manteca, suero en polvo.
 - Planta industrial principal en **Montevideo**; plantas en **Nueva Helvecia** (Colonia), **Tarariras** (Colonia), **Trinidad** (Flores) y otras localidades.
 
----
-
 ## Cuencas lecheras
 
 | Cuenca | Departamentos | Características |
@@ -40,8 +34,6 @@ La **Cooperativa Nacional de Productores de Leche (CONAPROLE)** es el actor domi
 | Cuenca Sur | Colonia, San José, Florida, Soriano, Canelones | Más tradicional; mayor concentración de tambos |
 | Cuenca Litoral Norte | Paysandú, Río Negro | Crecimiento importante; tambos de mayor escala |
 | Cuenca Norte | Rivera, Tacuarembó, Salto | Tambos en zona más cálida |
-
----
 
 ## Indicadores de producción
 
@@ -53,8 +45,6 @@ La **Cooperativa Nacional de Productores de Leche (CONAPROLE)** es el actor domi
 | Producción media/vaca/año | 5.000–6.000 litros [VERIFICAR] |
 | Exportaciones lácteas | USD 400–600 millones/año [VERIFICAR] |
 
----
-
 ## Sistema de producción
 
 El sistema predominante es **pastoril** (basado en pasturas y forrajes):
@@ -64,8 +54,6 @@ El sistema predominante es **pastoril** (basado en pasturas y forrajes):
 - Ordeñe mayoritariamente **2 veces al día**; robots de ordeñe en establecimientos de alta escala.
 - **Calidad de leche:** regulada por el MGAP (células somáticas, recuento bacteriano, grasa, proteína).
 
----
-
 ## Razas lecheras
 
 | Raza | Características |
@@ -73,8 +61,6 @@ El sistema predominante es **pastoril** (basado en pasturas y forrajes):
 | Holando-Oriental (Frisona/Holstein) | Predominante (>90% del rodeo lechero); alta producción |
 | Jersey | Menor volumen pero mayor grasa y proteína; mayor valor por sólidos |
 | Cruces H×J | Creciente uso; combina volumen con contenido en sólidos y fertilidad |
-
----
 
 ## Exportaciones lácteas
 
@@ -85,8 +71,6 @@ El sistema predominante es **pastoril** (basado en pasturas y forrajes):
 | Quesos | Brasil, México, Rusia, otros |
 | Manteca | Mercados regionales e internacionales |
 | Suero en polvo | Asia y otros |
-
----
 
 ## Palabras clave
 

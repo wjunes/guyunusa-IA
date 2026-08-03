@@ -6,8 +6,6 @@ La seguridad vial es el conjunto de políticas, normas, acciones y medidas orien
 
 Los **siniestros viales** —denominación técnica que desplazó al término "accidente de tránsito" por su carácter de evento prevenible— constituyen una de las principales causas de muerte y discapacidad en Uruguay.
 
----
-
 ## Unidad Nacional de Seguridad Vial (UNASEV)
 
 ### Creación y naturaleza
@@ -27,8 +25,6 @@ La **UNASEV** fue creada por la **Ley 18.113** del 16 de abril de 2007. Es un or
 ### Sede
 
 UNASEV tiene su sede en Montevideo. Su dirección y composición son establecidas por el Poder Ejecutivo.
-
----
 
 ## Marco legal del tránsito
 
@@ -66,8 +62,6 @@ La **Ley 18.191** del 14 de noviembre de 2007 establece el marco normativo gener
 
 El **Código Nacional de Tránsito** regula en detalle las normas de circulación, señalización, infracciones y sanciones. Es complementado por el **Reglamento Nacional de Tránsito** y normas específicas del MTOP y las intendencias.
 
----
-
 ## Estadísticas de siniestros viales
 
 ### Tendencias generales
@@ -85,8 +79,6 @@ Características del problema:
 
 La tasa de mortalidad vial de Uruguay (fallecidos por 100.000 habitantes o por 100.000 vehículos) ha experimentado variaciones a lo largo de los años. Las políticas implementadas desde la creación de UNASEV han contribuido a reducciones en la tasa, aunque el objetivo de alcanzar los niveles más bajos de los países de la región sigue siendo un desafío.
 
----
-
 ## Educación vial
 
 La **educación vial** es reconocida como pilar fundamental de la seguridad vial. En Uruguay:
@@ -95,8 +87,6 @@ La **educación vial** es reconocida como pilar fundamental de la seguridad vial
 - **UNASEV** diseña y distribuye materiales educativos para distintos públicos.
 - Los **centros de formación de conductores** (autoescuelas) están habilitados por el MTOP y deben impartir formación teórica y práctica que incluye educación vial.
 - Las **intendencias** realizan programas de educación vial a nivel local.
-
----
 
 ## Fiscalización del tránsito
 
@@ -115,8 +105,6 @@ Los controles incluyen verificación de velocidad (con radares y cinemómetros),
 
 Los controles de alcoholemia son realizados por la Policía Nacional en coordinación con UNASEV. Uruguay adoptó el uso generalizado del **alcoholímetro de aire espirado** como instrumento de control, con equipos portátiles distribuidos en las fuerzas de seguridad.
 
----
-
 ## Señalización vial
 
 La señalización vial cumple una función preventiva y regulatoria. En Uruguay se aplica el sistema internacional de señalización (Convención de Viena):
@@ -130,23 +118,17 @@ La señalización vial cumple una función preventiva y regulatoria. En Uruguay 
 
 La **señalización horizontal** (líneas, palabras y símbolos sobre el pavimento) es responsabilidad de la DNV (en rutas) y las intendencias (en vías urbanas).
 
----
-
 ## Campañas nacionales de seguridad vial
 
 UNASEV coordina y promueve campañas nacionales de comunicación social orientadas a modificar comportamientos de riesgo. Las campañas se articulan con el calendario de mayor siniestralidad (temporada estival, Semana de Turismo).
 
 Algunas campañas destacadas son dirigidas a la conducción bajo los efectos del alcohol, el uso del casco, el exceso de velocidad y el uso del cinturón de seguridad.
 
----
-
 ## Plan Nacional de Seguridad Vial
 
 El **Plan Nacional de Seguridad Vial (PNSV)** es el instrumento de planificación estratégica de la seguridad vial en Uruguay, elaborado por UNASEV con participación interinstitucional. El plan define metas de reducción de siniestros, fallecidos y lesionados, e identifica las acciones prioritarias en los pilares de: gestión, infraestructura, vehículos, comportamiento del usuario y respuesta postsiniestro.
 
 Uruguay adhiere al **Decenio de Acción para la Seguridad Vial** promovido por la Organización Mundial de la Salud (OMS) y la Organización de las Naciones Unidas.
-
----
 
 ## Palabras clave
 

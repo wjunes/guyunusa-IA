@@ -4,8 +4,6 @@
 
 La historia agropecuaria del Uruguay es inseparable de la historia del país. Desde la introducción del ganado vacuno y equino en el siglo XVII hasta la revolución tecnológica del siglo XXI, el sector agropecuario ha sido el principal motor económico y el conformador del paisaje social y cultural uruguayo. El territorio uruguayo —con sus praderas naturales, suelos fértiles y clima templado— reunía condiciones excepcionales para el desarrollo de la ganadería extensiva y, posteriormente, de una agricultura diversificada.
 
----
-
 ## Período prehispánico y colonial temprano (siglos XVI–XVII)
 
 Los pueblos originarios que habitaron el actual Uruguay (charrúas, chanás, guaraníes) practicaban la caza, la pesca y la recolección. No existía agricultura sedentaria organizada en el territorio de la Banda Oriental, salvo la incipiente horticultura guaraní en el noreste.
@@ -16,8 +14,6 @@ El punto de inflexión fue la introducción de ganado vacuno y caballar en la Ba
 - Las **vaquerías** (cacerías de ganado cimarrón) fueron la primera actividad productiva organizada del territorio.
 - El cuero fue el primer gran producto de exportación: en el siglo XVII y XVIII se exportaban decenas de miles de cueros anuales desde Montevideo hacia España y otros mercados.
 
----
-
 ## La economía del cuero y los saladeros (siglos XVIII–XIX)
 
 Durante el período colonial tardío y los primeros años independientes, la economía agropecuaria uruguaya giró en torno al cuero y la **charqueada** (tasajo de carne):
@@ -25,8 +21,6 @@ Durante el período colonial tardío y los primeros años independientes, la eco
 - **Saladeros:** establecimientos donde se procesaba la carne mediante salazón para producir **tasajo** (charque), destinado principalmente a los mercados de Brasil y Cuba donde servía de alimento a la población esclavizada. El primer saladero formal fue establecido en **1786** [VERIFICAR fecha exacta] en las cercanías de Montevideo.
 - La **Refinería Inglesa** y otros saladeros de la zona sur del país impulsaron la primera agroindustria uruguaya.
 - El ganado era manejado extensivamente en estancias que ocupaban grandes extensiones de tierra.
-
----
 
 ## La estancia colonial y los primeros alambrados
 
@@ -38,8 +32,6 @@ Hitos del período:
 - **Década de 1860–1880:** Mestización del rodeo vacuno con razas europeas (Hereford, Shorthorn) para mejorar la calidad de la carne.
 - **1872:** Fundación de la **Asociación Rural del Uruguay**, primera organización gremial del sector agropecuario.
 
----
-
 ## La modernización ganadera y la llegada de frigoríficos (1890–1930)
 
 La incorporación de los **frigoríficos** marcó una ruptura definitiva con la economía del cuero y el tasajo:
@@ -47,8 +39,6 @@ La incorporación de los **frigoríficos** marcó una ruptura definitiva con la 
 - **1904:** Instalación de los primeros frigoríficos de capitales extranjeros (British y norteamericanos) en Uruguay. El **Frigorífico Anglo** de **Fray Bentos** (inaugurado en su forma industrial en 1904, sobre la base de la antigua Liebig's Extract of Meat Company, fundada en 1863) fue el más emblemático.
 - La demanda de carne enfriada y congelada de los mercados europeos (especialmente Gran Bretaña) impulsó la mejora genética del rodeo, la adopción de razas de mejor aptitud cárnica y la modernización de los campos.
 - **1914:** Uruguay exportaba carne a los mercados aliados durante la Primera Guerra Mundial.
-
----
 
 ## La agricultura cerealera y la colonización (1870–1930)
 
@@ -58,8 +48,6 @@ En paralelo a la ganadería, se desarrolló una agricultura cerealera impulsada 
 - La producción de **trigo** creció significativamente entre 1870 y 1910, aunque Uruguay dependía de importaciones en períodos de cosechas deficientes.
 - El **Instituto de Agronomía** (antecedente de la actual Facultad de Agronomía) fue fundado en **1906**, marcando el inicio de la enseñanza agrícola universitaria formal.
 
----
-
 ## El período batllista y la acción del Estado (1900–1930)
 
 El **batllismo** (gobiernos de José Batlle y Ordóñez, 1903–1907 y 1911–1915) impulsó una visión del Estado interventor que también se manifestó en el sector agropecuario:
@@ -67,8 +55,6 @@ El **batllismo** (gobiernos de José Batlle y Ordóñez, 1903–1907 y 1911–19
 - Debate sobre la reforma agraria: propuesta de **colonización de tierras** y limitación de los latifundios, aunque con resultados parciales.
 - Creación del **Banco de la República Oriental del Uruguay (BROU)** (1896) que proveyó crédito rural.
 - Expansión de la enseñanza agrícola y veterinaria.
-
----
 
 ## La industrialización y diversificación (1930–1960)
 
@@ -80,8 +66,6 @@ El período de **industrialización por sustitución de importaciones (ISI)** im
 - La producción de **arroz** se expandió especialmente en los departamentos del este (Treinta y Tres, Cerro Largo, Rocha) desde la década de 1940.
 - **1947:** Creación del **Ministerio de Ganadería y Agricultura** (antecedente del actual MGAP).
 
----
-
 ## La crisis ganadera y el estancamiento (1955–1973)
 
 Desde mediados de los años 1950, el agro uruguayo entró en un período de estancamiento:
@@ -91,15 +75,11 @@ Desde mediados de los años 1950, el agro uruguayo entró en un período de esta
 - Se agudizó el debate sobre la **reforma agraria**: el movimiento sindical rural (UTT) y los partidos de izquierda impulsaron proyectos de redistribución de tierras que no prosperaron en su forma más radical.
 - La productividad por hectárea creció lentamente comparada con otros países de la región.
 
----
-
 ## La investigación agropecuaria y el INIA (1914–1989)
 
 El antecedente institucional más importante de la investigación agropecuaria fue la **Estación Experimental "Dr. Mario A. Cassinoni"** y la red de estaciones experimentales del **Ministerio de Ganadería, Agricultura y Pesca (MGAP)**.
 
 - **1989:** Creación del **Instituto Nacional de Investigación Agropecuaria (INIA)** como persona jurídica de derecho público no estatal, con el cometido de generar y adaptar tecnología agropecuaria para Uruguay. El INIA pasó a centralizar y profesionalizar la investigación que antes estaba dispersa.
-
----
 
 ## La apertura y modernización (1985–2000)
 
@@ -110,8 +90,6 @@ El retorno a la democracia en **1985** y las reformas económicas de los años 1
 - **Tecnificación:** adopción de semillas mejoradas, fertilizantes, agroquímicos y maquinaria moderna.
 - **Expansión arrocera:** Uruguay se consolidó como uno de los principales exportadores mundiales de arroz, con alta tecnología de irrigación y variedades mejoradas.
 
----
-
 ## La revolución de la soja (2000–2010)
 
 La primera década del siglo XXI fue escenario de una transformación sin precedentes:
@@ -120,8 +98,6 @@ La primera década del siglo XXI fue escenario de una transformación sin preced
 - La soja se convirtió temporalmente en el principal producto de exportación agropecuaria por valor.
 - Hubo debates sobre el impacto ambiental: erosión de suelos, uso de agroquímicos, concentración de la tierra.
 - El **Plan de Uso y Manejo Responsable de Suelos** (MGAP, 2013) introdujo obligaciones para los productores.
-
----
 
 ## La forestación y la celulosa (1987–presente)
 
@@ -133,8 +109,6 @@ Otro vector de transformación fue la **forestación industrial**:
 - **2022:** Inauguración de **UPM 2** en Paso de los Toros, Durazno (~2,1 millones de toneladas anuales), la mayor inversión privada en la historia de Uruguay.
 - La celulosa se convirtió en uno de los principales productos de exportación del país.
 
----
-
 ## El agro uruguayo en el período 2010–2025
 
 Las tendencias más recientes del sector agropecuario uruguayo:
@@ -145,8 +119,6 @@ Las tendencias más recientes del sector agropecuario uruguayo:
 - **Trazabilidad:** Uruguay fue pionero mundial en la implementación de un **Sistema Nacional de Información Ganadera (SNIG)** con identificación individual de todos los bovinos.
 - **Sostenibilidad:** creciente énfasis en producción sostenible, certificaciones ambientales y reducción de huella de carbono.
 - **Digitalización:** agricultura de precisión, drones, sensores remotos, modelos predictivos e inteligencia artificial aplicada al manejo agropecuario.
-
----
 
 ## Palabras clave
 

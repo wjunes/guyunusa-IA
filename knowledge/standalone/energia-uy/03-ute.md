@@ -13,8 +13,6 @@
 | **Sitio web oficial** | https://www.ute.com.uy |
 | **Dependencia** | Ministerio de Industria, Energía y Minería (MIEM) |
 
----
-
 ## Historia
 
 ### Fundación (1912)
@@ -50,8 +48,6 @@ UTE fue el instrumento principal del Estado para implementar la política de div
 
 UTE avanzó en la modernización digital de la red: medición inteligente (AMI), integración de vehículos eléctricos, sistemas de gestión de la demanda y proyectos piloto de almacenamiento por baterías (BESS).
 
----
-
 ## Estructura y competencias
 
 ### Actividades principales
@@ -69,8 +65,6 @@ UTE avanzó en la modernización digital de la red: medición inteligente (AMI),
 - **Directorio:** presidente y directores nombrados por el Poder Ejecutivo con venia del Senado
 - **Gerencia General:** dirección ejecutiva
 - **Divisiones:** Generación, Transmisión, Distribución, Comercial, Tecnología, Administración
-
----
 
 ## Infraestructura de generación (referencia 2024)
 
@@ -101,8 +95,6 @@ UTE dispone de centrales termoeléctricas como respaldo ante sequías o picos de
 - **Central Batlle** (Montevideo): turbinas de vapor y ciclo combinado [VERIFICAR]
 - **Turbinas de gas** en distintas ubicaciones del país
 
----
-
 ## Red de transmisión
 
 La red de **transmisión de alta tensión** de UTE comprende [VERIFICAR datos actualizados]:
@@ -120,15 +112,11 @@ La red de **transmisión de alta tensión** de UTE comprende [VERIFICAR datos ac
 | Interconexión con Argentina (Colonia–Costanera) | Argentina | 220 kV [VERIFICAR] | ~500 MW [VERIFICAR] |
 | Interconexión con Brasil (Rivera–Livramento) | Brasil | 230 kV [VERIFICAR] | ~70 MW [VERIFICAR] |
 
----
-
 ## Red de distribución
 
 - Cubre prácticamente todo el territorio nacional (~99,6% de hogares con acceso a electricidad) [VERIFICAR]
 - Red de media y baja tensión en todas las ciudades, pueblos y zonas rurales electrificadas
 - Medidores inteligentes (AMI) instalados en parte del parque de clientes [VERIFICAR extensión]
-
----
 
 ## Indicadores operativos (referencia 2022–2023)
 
@@ -138,8 +126,6 @@ La red de **transmisión de alta tensión** de UTE comprende [VERIFICAR datos ac
 | Energía distribuida (GWh/año) | ~10.000–11.000 [VERIFICAR] | UTE/ADME |
 | Pérdidas del sistema (%) | ~14–16% [VERIFICAR] | URSEA |
 | Empleados | ~6.000–7.000 [VERIFICAR] | UTE |
-
----
 
 ## Proyectos destacados
 
@@ -151,8 +137,6 @@ La red de **transmisión de alta tensión** de UTE comprende [VERIFICAR datos ac
 | Parque solar Quiliman | 2019 [VERIFICAR] | Primera planta solar de gran escala de UTE [VERIFICAR] |
 | BESS / Almacenamiento | 2022–2026 | Proyectos piloto de baterías para estabilización de red |
 
----
-
 ## Rol en la política energética nacional
 
 UTE es el actor central del sistema eléctrico uruguayo:
@@ -161,8 +145,6 @@ UTE es el actor central del sistema eléctrico uruguayo:
 - Ejecuta las políticas de acceso universal a la energía
 - Gestiona el despacho eléctrico del país (en coordinación con ADME)
 - Participa en la planificación de la expansión del parque generador
-
----
 
 ## Palabras clave
 

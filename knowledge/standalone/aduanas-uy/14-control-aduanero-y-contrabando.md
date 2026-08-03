@@ -4,8 +4,6 @@
 
 El control aduanero es el conjunto de medidas adoptadas por la DNA para asegurar el cumplimiento de la legislación aduanera y de otras normas que regulan el ingreso, permanencia, tránsito y egreso de mercancías del territorio uruguayo. El control abarca tanto los aspectos tributarios (cobro correcto de los tributos) como los no tributarios (restricciones, prohibiciones, seguridad, propiedad intelectual, salud pública).
 
----
-
 ## Infracciones aduaneras
 
 El Código Aduanero (Decreto-Ley 15.691/1984) establece un régimen de infracciones aduaneras clasificado en:
@@ -34,8 +32,6 @@ El contrabando es la infracción aduanera más grave: consiste en introducir o e
 
 El contrabando está tipificado como delito penal en el Código Penal uruguayo y en el Código Aduanero. Las penas incluyen multas de alto valor y prisión para los responsables.
 
----
-
 ## Tipos de contrabando y tráfico ilícito en Uruguay
 
 **Contrabando de mercancías gravadas**: introducción de cigarrillos, bebidas alcohólicas, combustibles, ropa, electrónica o electrodomésticos sin pagar los tributos correspondientes. El comercio fronterizo con Brasil y Argentina genera oportunidades de arbitraje de precios que alimentan el contrabando.
@@ -50,8 +46,6 @@ El contrabando está tipificado como delito penal en el Código Penal uruguayo y
 
 **Tráfico de residuos peligrosos**: importación ilegal de residuos industriales o electrónicos (e-waste) que está prohibida por el Convenio de Basilea.
 
----
-
 ## Mecanismos de control
 
 **Gestión del riesgo aduanero**: la DNA aplica un sistema de análisis de riesgo que permite concentrar los recursos de control en las operaciones de mayor riesgo, liberando rápidamente las de bajo riesgo. El sistema asigna perfiles de riesgo a importadores, exportadores, mercancías y rutas de tráfico, y actualiza estos perfiles con los resultados de las verificaciones.
@@ -64,8 +58,6 @@ El contrabando está tipificado como delito penal en el Código Penal uruguayo y
 
 **Inteligencia aduanera**: la Dirección de Análisis de Riesgo e Inteligencia Aduanera trabaja en la detección de redes de contrabando y organizaciones criminales.
 
----
-
 ## Decomiso de mercancías
 
 Cuando la DNA constata que las mercancías han ingresado o pretenden ingresar o salir del país en contrabando, o que están involucradas en una infracción grave, procede al **decomiso**: la aprehensión y retención de las mercancías. Las mercancías decomisadas pueden:
@@ -73,8 +65,6 @@ Cuando la DNA constata que las mercancías han ingresado o pretenden ingresar o 
 - Ser subastadas públicamente (para mercancías lícitas cuyo propietario evade el pago de tributos).
 - Ser destruidas (para mercancías peligrosas, drogas, falsificaciones).
 - Ser donadas a instituciones públicas o benéficas (en ciertos casos habilitados por ley).
-
----
 
 ## Recursos ante sanciones aduaneras
 
@@ -85,8 +75,6 @@ Ante una sanción o un aforo con el que el importador no está de acuerdo, el pr
 3. **Recurso en vía administrativa ante el MEF**.
 4. **Acción anulatoria ante el Tribunal de lo Contencioso Administrativo (TCA)**: para impugnar los actos definitivos de la administración.
 
----
-
 ## Cooperación aduanera internacional
 
 La DNA coopera con aduanas extranjeras e instituciones internacionales:
@@ -95,8 +83,6 @@ La DNA coopera con aduanas extranjeras e instituciones internacionales:
 - **Acuerdos de asistencia mutua administrativa (AAMA)**: con varios países, para el intercambio de información y la cooperación en investigaciones de contrabando y fraude aduanero.
 - **Operaciones multinacionales GAFILAT/GAFI**: coordinadas con autoridades de ALD/CFT para el seguimiento de flujos financieros vinculados al contrabando.
 - **INTERPOL y UNODC**: cooperación en la lucha contra el tráfico internacional de drogas y fauna silvestre.
-
----
 
 ## Palabras clave
 

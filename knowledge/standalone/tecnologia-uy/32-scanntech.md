@@ -1,3 +1,5 @@
+# Scanntech — empresa uruguaya de tecnología para retail
+
 ## Resumen
 
 **Scanntech** es una empresa uruguaya especializada en **tecnología para el sector retail** —principalmente supermercados, minimarkets y cadenas de comercio minorista—. Provee sistemas de punto de venta (POS), software de gestión de stock, plataformas de fidelización y análisis de datos para comercios de distintos tamaños, con fuerte presencia en Uruguay y expansión a otros países de América Latina. Es un ejemplo poco visible pero significativo de una empresa uruguaya de software vertical que ha logrado escala regional.

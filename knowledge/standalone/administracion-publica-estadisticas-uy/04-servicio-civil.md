@@ -6,8 +6,6 @@ El **servicio civil** uruguayo es el conjunto de normas, principios e institucio
 
 La función pública uruguaya se basa en principios constitucionales de **mérito, aptitud e idoneidad** para el ingreso y la carrera administrativa, con protección del funcionario presupuestado frente al despido arbitrario.
 
----
-
 ## Marco constitucional
 
 La **Constitución de la República** establece los principios fundamentales de la función pública en los artículos 58 a 69:
@@ -23,8 +21,6 @@ La **Constitución de la República** establece los principios fundamentales de 
 | Art. 64 | Estatuto del funcionario: derechos y garantías |
 | Art. 65 | Juicio político para los funcionarios que cometan delitos en el ejercicio de sus funciones |
 
----
-
 ## Clases de vínculos con el Estado
 
 | Tipo de vínculo | Descripción |
@@ -34,8 +30,6 @@ La **Constitución de la República** establece los principios fundamentales de 
 | **Contrato de arrendamiento de servicios** | Prestación de servicios profesionales sin relación de dependencia laboral |
 | **Becario / pasante** | Vínculo formativo; no genera relación laboral |
 | **Comisión de servicios** | Traslado temporal de un funcionario a otro organismo |
-
----
 
 ## La carrera administrativa
 
@@ -63,8 +57,6 @@ Los ascensos dentro de la carrera administrativa también deben basarse en el m�
 
 La ONSC promueve la implementación de sistemas de **evaluación del desempeño** que permitan gestionar el rendimiento individual y colectivo de los equipos de trabajo. La evaluación incide en los ascensos y en la identificación de necesidades de capacitación.
 
----
-
 ## Capacitación y formación
 
 ### Escuela Nacional de Administración Pública (ENAP)
@@ -78,8 +70,6 @@ La **ENAP** es la institución de formación y capacitación de funcionarios pú
 ### Plan Nacional de Formación en Gestión Pública
 
 La ONSC coordina el **Plan Nacional de Formación en Gestión Pública**, que establece las prioridades de capacitación para la Administración Central en cada ejercicio presupuestal.
-
----
 
 ## Derechos y obligaciones de los funcionarios
 
@@ -100,8 +90,6 @@ La ONSC coordina el **Plan Nacional de Formación en Gestión Pública**, que es
 - Prohibición de utilizar la función pública para beneficio personal o partidario.
 - Declaración de situaciones de conflicto de interés.
 
----
-
 ## Transparencia y ética pública
 
 La **Ley 17.060/1998** (Uso indebido del poder público — Corrupción) y la **Ley 19.823/2019** (Estatuto del Funcionario) establecen normas sobre:
@@ -111,8 +99,6 @@ La **Ley 17.060/1998** (Uso indebido del poder público — Corrupción) y la **
 - Protección de denunciantes de corrupción.
 
 La **Junta de Transparencia y Ética Pública (JUTEP)** es el organismo que recibe, archiva y controla las declaraciones juradas, y promueve la integridad pública.
-
----
 
 ## Profesionalización del servicio civil
 
@@ -125,8 +111,6 @@ Uruguay ha avanzado progresivamente en la profesionalización del servicio civil
 - Medición del Índice de Profesionalización del Servicio Civil mediante estudios comparados (BID, CLAD).
 
 Los desafíos persistentes incluyen el equilibrio entre la estabilidad del funcionario y la flexibilidad de gestión, y la plena implementación del mérito en todos los escalafones.
-
----
 
 ## Palabras clave
 

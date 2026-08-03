@@ -4,8 +4,6 @@
 
 El **cooperativismo** tiene una larga y relevante historia en el sector agropecuario uruguayo. Las cooperativas rurales han sido instrumentos clave para que los pequeños y medianos productores accedan a mercados, tecnología, crédito y servicios que individualmente no podrían obtener. Uruguay tiene una de las tradiciones cooperativas agrarias más sólidas de América Latina.
 
----
-
 ## Historia del cooperativismo agrario uruguayo
 
 | Período | Hito |
@@ -21,15 +19,11 @@ El **cooperativismo** tiene una larga y relevante historia en el sector agropecu
 | **2008** | Aprobación de la **Ley 18.407** (Ley General de Cooperativas): marco legal moderno y comprehensivo para todas las formas cooperativas |
 | 2010–2023 | Consolidación; nuevas cooperativas en rubros emergentes (arándanos, olivicultura, agtech) |
 
----
-
 ## Marco legal
 
 - **Ley 18.407/2008** (Ley General de Cooperativas): regula todos los tipos de cooperativas en Uruguay; establece principios (libre adhesión, gestión democrática, participación económica, autonomía, educación, cooperación entre cooperativas, interés por la comunidad).
 - **Decreto 198/009:** reglamentario de la Ley General.
 - **INACOOP (Instituto Nacional del Cooperativismo):** creado por la misma Ley 18.407; promueve y apoya el desarrollo del sector cooperativo; financia proyectos de cooperativas.
-
----
 
 ## Tipos de cooperativas agrarias
 
@@ -40,8 +34,6 @@ El **cooperativismo** tiene una larga y relevante historia en el sector agropecu
 | **Cooperativas de crédito agrario** | Acceso a crédito para sus socios | Cooperativas de ahorro y crédito rural |
 | **Cooperativas de consumo rural** | Abastecimiento de insumos (semillas, agroquímicos, combustible) y bienes de consumo a productores | CALNU (Cooperativa Agraria Limitada del Norte Uruguay) y otros |
 | **Cooperativas mixtas** | Combinan producción, servicios y consumo | Comunes en el interior |
-
----
 
 ## Las principales cooperativas agrarias
 
@@ -79,8 +71,6 @@ El **cooperativismo** tiene una larga y relevante historia en el sector agropecu
 
 - Existen cooperativas de trabajadores (zanaforieros, apaceros, esquiladores) que organizan el trabajo rural estacional.
 
----
-
 ## El INACOOP
 
 - **Instituto Nacional del Cooperativismo (INACOOP):** creado por la Ley 18.407/2008.
@@ -89,23 +79,17 @@ El **cooperativismo** tiene una larga y relevante historia en el sector agropecu
 - **Fondo para el Desarrollo (FONDES):** financia proyectos de cooperativas, incluyendo agropecuarias.
 - Registra y habilita cooperativas; brinda asistencia técnica; capacita dirigentes.
 
----
-
 ## El cooperativismo y los pequeños productores
 
 - Las cooperativas han sido históricamente el principal mecanismo de acceso de los **pequeños y medianos productores** (PMP) al mercado.
 - La CNFR y el MGAP (DGDR) tienen programas específicos de apoyo a los PMP mediante el asociativismo y el cooperativismo.
 - Las cooperativas permiten economías de escala en la compra de insumos, acceso a maquinaria, negociación de precios y acceso a crédito.
 
----
-
 ## Cooperativismo y género
 
 - Creciente participación de la mujer en la dirección de cooperativas agropecuarias.
 - El MGAP y la CNFR tienen programas de fortalecimiento del rol de la mujer rural.
 - Cooperativas de mujeres rurales en algunos rubros (horticultura, apicultura, artesanías).
-
----
 
 ## Palabras clave
 

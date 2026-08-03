@@ -1,3 +1,5 @@
+# Salud sexual y reproductiva en Uruguay
+
 ## Resumen
 
 Uruguay tiene uno de los marcos legales y programáticos más avanzados de América Latina en salud sexual y reproductiva. La **Ley 18.426 (2008)** reconoció la salud sexual y reproductiva como derecho humano. La **Ley 18.987 (2012)** legalizó la interrupción voluntaria del embarazo (IVE) hasta las 12 semanas de gestación. El **Programa Nacional de Salud Sexual y Reproductiva** del MSP provee acceso a métodos anticonceptivos, atención del embarazo, prevención de ITS y VIH, y salud sexual integral para adolescentes y adultos. Uruguay fue el segundo país de América Latina (después de Cuba) en legalizar el aborto, y el proceso legal transcurrió en el marco de un debate social amplio.

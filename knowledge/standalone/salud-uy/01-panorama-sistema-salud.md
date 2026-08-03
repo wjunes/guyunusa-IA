@@ -1,3 +1,5 @@
+# Panorama del sistema de salud de Uruguay
+
 ## Resumen
 
 Uruguay posee uno de los sistemas de salud más avanzados de América Latina, caracterizado por una alta cobertura, indicadores sanitarios comparables a países desarrollados y un modelo mixto público-privado organizado en el **Sistema Nacional Integrado de Salud (SNIS)**, creado por la reforma de 2007. El sistema articula prestadores públicos (encabezados por ASSE) y privados (mutualistas e IAMC) bajo la rectoría del Ministerio de Salud Pública (MSP) y el financiamiento centralizado del Fondo Nacional de Salud (FONASA). Uruguay tiene una esperanza de vida al nacer superior a los 77 años, mortalidad infantil inferior a 7 por cada 1.000 nacidos vivos y una cobertura que alcanza al 99% de la población.

@@ -4,8 +4,6 @@
 
 La política económica de Uruguay comprende el conjunto de decisiones e instrumentos que los poderes públicos utilizan para orientar la actividad económica del país. Sus principales dimensiones son la **política fiscal**, la **política monetaria**, la **política cambiaria** y la **política de desarrollo productivo**. La formulación de la política económica es responsabilidad del Poder Ejecutivo, con el MEF y el BCU como organismos centrales.
 
----
-
 ## Política fiscal
 
 ### Definición y alcance
@@ -25,8 +23,6 @@ A partir de 2020 (con modificaciones institucionales posteriores), Uruguay adopt
 ### Presión tributaria
 
 La **presión tributaria** (recaudación como porcentaje del PIB) es uno de los indicadores de política fiscal más relevantes. En Uruguay, la presión tributaria se ubica en torno al 28–30% del PIB (incluyendo aportes a la seguridad social), un nivel elevado para los estándares regionales.
-
----
 
 ## Política monetaria
 
@@ -51,8 +47,6 @@ La banda objetivo de inflación ha variado históricamente; en períodos recient
 | Operaciones de mercado abierto | Compra/venta de letras de regulación monetaria |
 | Facilidades de liquidez | Provisión de liquidez a los bancos en caso de necesidad |
 
----
-
 ## Política cambiaria
 
 ### Evolución histórica
@@ -73,15 +67,11 @@ Desde 2002, Uruguay opera con un **tipo de cambio flexible** (flotación adminis
 
 La **dolarización** de la economía uruguaya es históricamente elevada: gran parte de los activos y pasivos del sistema financiero, y una porción significativa de los contratos y precios, están denominados en dólares. Las políticas de **desdolarización** han sido un objetivo de largo plazo, con avances parciales.
 
----
-
 ## Política de ingresos y salarios
 
 El **Consejo de Salarios** es el mecanismo tripartito (gobierno, empleadores, trabajadores) que negocia los salarios mínimos por rama de actividad. Fue reactivado en 2005 y ha contribuido a la formalización del mercado laboral y la reducción de la informalidad.
 
 El **salario mínimo nacional (SMN)** es fijado periódicamente por el Poder Ejecutivo. La **unidad de cuenta del sistema tributario y previsional** es la **Base de Prestaciones y Contribuciones (BPC)**, que se actualiza anualmente por decreto.
-
----
 
 ## Política de desarrollo productivo
 
@@ -91,8 +81,6 @@ El MEF, en coordinación con el MIEM (Ministerio de Industria, Energía y Miner�
 - **Zonas Francas**: régimen de exenciones impositivas para empresas instaladas en zonas delimitadas.
 - **Parques Industriales**: infraestructura para el desarrollo industrial.
 - **Uruguay XXI**: agencia de promoción de exportaciones e inversiones (vinculada al MIEM y MRREE).
-
----
 
 ## Política de deuda pública
 
@@ -105,13 +93,9 @@ El manejo de la **deuda pública** es una función central del MEF. Los objetivo
 
 Tras la reestructuración de 2003, Uruguay recuperó gradualmente el acceso a los mercados internacionales de capital y obtuvo grado inversor (investment grade) de las principales agencias calificadoras, lo que redujo el costo de financiamiento soberano.
 
----
-
 ## Política de inclusión financiera
 
 La **Ley 19.210/2014** de Inclusión Financiera estableció un marco para promover el uso de medios de pago electrónicos, el acceso universal a cuentas bancarias y la formalización de las transacciones económicas. La política de inclusión financiera articula a la URSEA, el BCU, la DGI y el MEF.
-
----
 
 ## Palabras clave
 

@@ -6,8 +6,6 @@ La **educación financiera** es el proceso por el cual las personas adquieren lo
 
 Este archivo tiene propósito exclusivamente educativo e informativo. No constituye asesoramiento financiero, tributario ni de inversión. Para decisiones específicas, deben consultarse profesionales habilitados.
 
----
-
 ## Conceptos económicos básicos
 
 ### Ingreso, gasto y ahorro
@@ -25,8 +23,6 @@ La **inflación** es el aumento generalizado y sostenido del nivel de precios. C
 
 La inflación afecta en mayor medida a quienes tienen sus ingresos fijos sin actualización y a quienes mantienen ahorros en efectivo sin instrumentos de protección contra la inflación.
 
----
-
 ## Presupuesto personal y familiar
 
 Un **presupuesto** es la planificación anticipada de los ingresos y gastos de un período.
@@ -38,8 +34,6 @@ Un **presupuesto** es la planificación anticipada de los ingresos y gastos de u
 3. **Estimar los gastos variables** (alimentación, transporte, salud, recreación).
 4. **Calcular la diferencia**: si los ingresos superan los gastos, hay margen para el ahorro; si los gastos superan los ingresos, debe ajustarse.
 5. **Revisar periódicamente** el cumplimiento del presupuesto.
-
----
 
 ## Ahorro
 
@@ -54,8 +48,6 @@ El ahorro es la postergación del consumo presente para disponer de recursos en 
 | Certificados de depósito en UI | Indexados a la inflación, protegen el poder adquisitivo |
 | Bonos del Estado | Deuda soberana uruguaya; diversas monedas y plazos |
 | AFAPs (ahorro previsional) | Obligatorio para trabajadores en relación de dependencia; largo plazo |
-
----
 
 ## Crédito
 
@@ -83,8 +75,6 @@ El **crédito** es la posibilidad de obtener recursos financieros hoy a cambio d
 
 El BCU fija periódicamente las **tasas máximas de interés permitidas** (tasa de usura) para los créditos al consumo. Los contratos de crédito que superen estas tasas son nulos en lo que exceda el máximo legal.
 
----
-
 ## Endeudamiento responsable
 
 El endeudamiento puede ser una herramienta valiosa si se gestiona responsablemente. Algunas recomendaciones de carácter general:
@@ -95,15 +85,11 @@ El endeudamiento puede ser una herramienta valiosa si se gestiona responsablemen
 - Leer y comprender el contrato antes de firmarlo.
 - Consultar la Tasa Efectiva Anual (TEA) y no solo la cuota.
 
----
-
 ## Central de Riesgos Crediticios
 
 El BCU administra la **Central de Riesgos Crediticios**, que recopila información sobre el historial crediticio de las personas en el sistema financiero uruguayo. Esta información es consultada por los bancos y otras entidades al evaluar solicitudes de crédito.
 
 Una persona con antecedentes de impago puede tener dificultades para acceder al crédito formal. El historial crediticio positivo (pago puntual de obligaciones) facilita el acceso a mejores condiciones de financiamiento.
-
----
 
 ## Cultura tributaria
 
@@ -124,13 +110,9 @@ La DGI ofrece:
 - Sistema de consultas en línea.
 - Campañas de divulgación periódicas sobre obligaciones tributarias.
 
----
-
 ## Inclusión financiera
 
 La **Ley 19.210/2014** de Inclusión Financiera estableció medidas para que el mayor número posible de personas tengan acceso a servicios financieros básicos: cuentas bancarias, medios de pago electrónicos y crédito. El BROU está obligado a ofrecer cuentas de ahorro básicas y gratuitas a quienes las soliciten.
-
----
 
 ## Palabras clave
 

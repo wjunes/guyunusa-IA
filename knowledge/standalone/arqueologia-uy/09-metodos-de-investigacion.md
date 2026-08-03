@@ -1,12 +1,8 @@
 # Métodos de Investigación Arqueológica en Uruguay
 
----
-
 ## Introducción
 
 La arqueología uruguaya utiliza una combinación de métodos de campo, laboratorio y análisis especializado que han evolucionado desde el coleccionismo del siglo XIX hasta los enfoques multidisciplinares del siglo XXI. Este archivo describe los principales métodos aplicados en la investigación arqueológica del Uruguay, con indicación de sus aplicaciones locales.
-
----
 
 ## 1. Prospección arqueológica
 
@@ -24,8 +20,6 @@ Consiste en el recorrido sistemático del terreno por parte de equipos de invest
 ### Prospección subsuperficial
 
 Incluye el uso de sondeos (pozos de prueba de pequeñas dimensiones) y barrenados (barreno manual o mecánico) para evaluar la presencia y profundidad de materiales arqueológicos sin realizar excavaciones extensivas.
-
----
 
 ## 2. Excavación arqueológica
 
@@ -51,8 +45,6 @@ Todo hallazgo se registra con:
 - Registro tridimensional de coordenadas (x, y, z) de los hallazgos.
 - Descripción textual en fichas de campo.
 - En excavaciones recientes: registro con estación total o GPS diferencial.
-
----
 
 ## 3. Datación arqueológica
 
@@ -91,8 +83,6 @@ El análisis de isótopos estables (δ¹³C, δ¹⁵N, δ¹⁸O, ⁸⁷Sr/⁸⁶
 
 **Aplicaciones en Uruguay:** análisis de dieta en poblaciones de cerritos (Bracco, López Mazz y colaboradores); estudios de movilidad en restos humanos prehispánicos.
 
----
-
 ## 4. ADN antiguo (aDNA)
 
 El análisis de **ADN antiguo** se extrae de restos óseos y dentales de individuos fallecidos. Permite estudiar:
@@ -105,8 +95,6 @@ El análisis de **ADN antiguo** se extrae de restos óseos y dentales de individ
 **Estado en Uruguay:** su aplicación en el país es incipiente. Los restos humanos de cerritos tienen potencial para estos análisis, pero las condiciones de preservación subtropical limitan la conservación del ADN.
 
 Estudios de genética de poblaciones humanas actuales de Uruguay, especialmente los de **Mónica Sans** (Facultad de Humanidades, Udelar), han empleado haplogrupos mitocondriales para demostrar la presencia de linajes indígenas en la población uruguaya actual (~30–40% de haplogrupos mitocondriales indígenas en algunas muestras).
-
----
 
 ## 5. Zooarqueología
 
@@ -121,8 +109,6 @@ La **zooarqueología** analiza los restos óseos de animales recuperados en cont
 - Roberto Bracco: análisis de fauna de cerritos del este.
 - Caracterización de la pesca y la caza en los grupos constructores de montículos.
 
----
-
 ## 6. Arqueobotánica
 
 La **arqueobotánica** estudia los restos vegetales en contextos arqueológicos:
@@ -135,8 +121,6 @@ La **arqueobotánica** estudia los restos vegetales en contextos arqueológicos:
 
 **Investigadores de referencia en Uruguay:** José Iriarte (Exeter University) realizó análisis de fitolitos y palinología en cerritos del Uruguay. Ilaria Capdepont (FHCE-Udelar) ha trabajado en arqueobotánica aplicada a sitios del este.
 
----
-
 ## 7. Geoarqueología
 
 La **geoarqueología** integra métodos de las ciencias de la Tierra (geología, geomorfología, sedimentología, edafología) en la investigación arqueológica. Sus aplicaciones incluyen:
@@ -144,8 +128,6 @@ La **geoarqueología** integra métodos de las ciencias de la Tierra (geología,
 - Reconstrucción del paleoambiente (cambios en la vegetación, el clima y el nivel del mar).
 - Comprensión de los procesos de formación de sitios (sedimentación, erosión, actividad biológica).
 - Identificación de contextos naturales vs. artificiales (en el caso de los cerritos).
-
----
 
 ## 8. Teledetección y SIG aplicados a la arqueología
 
@@ -168,8 +150,6 @@ Los **SIG** permiten integrar y analizar datos espaciales de múltiples fuentes 
 - Análisis de captación de recursos (áreas de aprovisionamiento de materias primas).
 - Gestión del Registro Nacional de Patrimonio Cultural (CPCN).
 
----
-
 ## 9. Fotogrametría y documentación 3D
 
 La **fotogrametría** genera modelos tridimensionales de sitios, estructuras y objetos a partir de series de fotografías tomadas desde distintos ángulos. Sus aplicaciones en arqueología incluyen:
@@ -181,13 +161,9 @@ La **fotogrametría** genera modelos tridimensionales de sitios, estructuras y o
 
 El uso de **drones** (UAV) para la fotogrametría aérea ha crecido significativamente en la arqueología uruguaya en la segunda década del siglo XXI.
 
----
-
 ## 10. Análisis de marcas de uso en instrumentos líticos (traceología)
 
 La **traceología** o análisis de huellas de uso estudia, bajo microscopía (lupa binocular y microscopio metalográfico), las marcas de desgaste, pulido y estrías presentes en los filos de los instrumentos líticos, para determinar el tipo de actividad para el que fueron utilizados (corte de carne, trabajo de cuero, madera, etc.).
-
----
 
 ## Palabras clave
 

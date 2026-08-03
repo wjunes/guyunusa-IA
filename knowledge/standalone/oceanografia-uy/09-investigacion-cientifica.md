@@ -1,12 +1,8 @@
 # Investigación Científica Oceanográfica en Uruguay
 
----
-
 ## Panorama general
 
 La investigación oceanográfica en Uruguay se desarrolla en el cruce de múltiples disciplinas —oceanografía física, química y biológica, ciencias pesqueras, geología marina, meteorología oceánica— y es llevada a cabo por un conjunto de instituciones públicas, universitarias y castrenses. Aunque modesta en comparación con países del norte del Atlántico, la producción científica uruguaya en ciencias marinas ha crecido significativamente desde los años 2000 y cuenta con relevantes vínculos internacionales.
-
----
 
 ## Instituciones de investigación (resumen)
 
@@ -19,8 +15,6 @@ La investigación oceanográfica en Uruguay se desarrolla en el cruce de múltip
 | Instituto Antártico Uruguayo (IAU) | Oceanografía antártica y subantártica |
 | PEDECIBA (Udelar-MEC) | Financiación de investigación básica en ciencias |
 | ANII | Financiación de investigación y desarrollo; becas |
-
----
 
 ## Principales líneas de investigación activas
 
@@ -59,8 +53,6 @@ La investigación oceanográfica en Uruguay se desarrolla en el cruce de múltip
 - Fauna de aguas profundas: corales, esponjas, peces de profundidad.
 - Geología del talud y cuenca oceánica.
 
----
-
 ## Monitoreo oceanográfico continuo
 
 ### Red de observación
@@ -74,8 +66,6 @@ La investigación oceanográfica en Uruguay se desarrolla en el cruce de múltip
 | CTD (sondas de temperatura, salinidad, profundidad) | Perfiles verticales en cruceros oceanográficos | DINARA; Facultad de Ciencias; IAU; Misión SUB 200 |
 | Boyas Argo [VERIFICAR participación Uruguay] | Sistema global de perfiles de T y S hasta 2000 m | Programa Argo (ONU) |
 
----
-
 ## Cruceros y campañas oceanográficas
 
 Uruguay realiza o ha participado en cruceros oceanográficos regulares:
@@ -87,8 +77,6 @@ Uruguay realiza o ha participado en cruceros oceanográficos regulares:
 | Campañas Antárticas uruguayas | IAU / Armada | Oceanografía antártica; apoyo a Base Científica Antártica Artigas (BCAA) |
 | Misión Uruguay SUB 200 (2016–2022) | Armada / IAU / DINARA / Facultad Ciencias / Museo Nacional | Exploración aguas profundas (ver archivo 14) |
 | Campaña IMECOCOA [VERIFICAR] | Internacional; participación uruguaya | Dinámica costera y pesquerías del Atlántico Sudoccidental |
-
----
 
 ## Tecnologías de investigación oceanográfica
 
@@ -103,8 +91,6 @@ Uruguay realiza o ha participado en cruceros oceanográficos regulares:
 | Modelos numéricos regionales | ROMS, HYCOM y otros modelos de circulación aplicados al Atlántico Sudoccidental |
 | Bioacústica | Estimación de biomasa de anchoa y calamar mediante ecosondas |
 
----
-
 ## Publicaciones y revistas de referencia
 
 La producción científica uruguaya en oceanografía se publica en revistas internacionales como:
@@ -118,8 +104,6 @@ La producción científica uruguaya en oceanografía se publica en revistas inte
 
 Bases de datos nacionales: **COLIBRÍ** (repositorio Udelar); **BVSSALUD**; publicaciones de DINARA.
 
----
-
 ## Cooperación científica internacional
 
 La investigación oceanográfica uruguaya se desarrolla en estrecha colaboración con instituciones de Argentina, Brasil, Alemania, España, Francia, Italia y organismos internacionales como:
@@ -128,8 +112,6 @@ La investigación oceanográfica uruguaya se desarrolla en estrecha colaboració
 - **IBCSO** (Carta Batimétrica Internacional del Océano Austral).
 - **SCAR** (Comité Científico para la Investigación Antártica).
 - **CCAMLR** (Comisión para la Conservación de los Recursos Vivos Marinos Antárticos).
-
----
 
 ## Palabras clave
 

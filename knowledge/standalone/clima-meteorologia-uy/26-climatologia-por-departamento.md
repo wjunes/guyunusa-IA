@@ -1,12 +1,8 @@
 # Climatología por Departamento
 
----
-
 ## Introducción
 
 Este archivo sintetiza las principales características climáticas de cada uno de los **19 departamentos** de Uruguay. Para cada departamento se incluyen: temperatura media anual, precipitación anual aproximada, fenómenos característicos, y referencias a las estaciones meteorológicas principales. Los valores son aproximados y están basados en las normas climatológicas 1981–2010 salvo indicación contraria. Para datos precisos, consultar las publicaciones oficiales de INUMET.
-
----
 
 ## Departamento de Artigas
 
@@ -22,8 +18,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Es el departamento más cálido de Uruguay. Las temperaturas máximas en verano pueden superar los 43–44 °C. La precipitación es la más alta del país, con influencia del régimen subtropical del sur de Brasil. Alta frecuencia de granizo en primavera. Tormentas eléctricas frecuentes. Pocas heladas.
 
----
-
 ## Departamento de Salto
 
 | Variable | Valor aproximado |
@@ -37,8 +31,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Salto (86500) |
 
 **Características climáticas:** Clima cálido con influencia del Río Uruguay. Alta producción de citrus (Salto Grande). Inundaciones históricas asociadas a crecidas del Río Uruguay. Gran potencial solar y eólico.
-
----
 
 ## Departamento de Paysandú
 
@@ -54,8 +46,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Litoral oeste; influencia del Río Uruguay. Inundaciones frecuentes en zona costera baja. Transición entre el norte cálido y el centro más templado.
 
----
-
 ## Departamento de Río Negro
 
 | Variable | Valor aproximado |
@@ -69,8 +59,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | [VERIFICAR — posiblemente Mercedes o Fray Bentos] |
 
 **Características climáticas:** Zona de embalses (Rincón del Bonete, Baygorria, Palmar — Río Negro). Los embalses generan un efecto lago local moderando la temperatura y aumentando la humedad. Inundaciones en la zona costera del Río Uruguay y el Río Negro.
-
----
 
 ## Departamento de Rivera
 
@@ -86,8 +74,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Norte del país; confinante con Brasil. Elevación media superior al promedio nacional (~200 m s.n.m.). Precipitación alta por influencia subtropical. Temperatura mínima absoluta de las más bajas de Uruguay (cuchillas del noreste). Sector forestal importante (eucaliptos).
 
----
-
 ## Departamento de Tacuarembó
 
 | Variable | Valor aproximado |
@@ -101,8 +87,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Paso de los Toros (86625) |
 
 **Características climáticas:** Centro-norte del país. Mayor continentalidad; amplitud térmica marcada. Zona de origen del Río Negro. Alta productividad ganadera. Sector forestal significativo.
-
----
 
 ## Departamento de Cerro Largo
 
@@ -118,8 +102,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Noreste; frontera con Brasil (Río Yaguarón, Laguna Merín). Mayor continentalidad. Inundaciones frecuentes en Melo (cuenca del Arroyo Conventos). Zona sojera y ganadera.
 
----
-
 ## Departamento de Treinta y Tres
 
 | Variable | Valor aproximado |
@@ -133,8 +115,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Treinta y Tres (86640) |
 
 **Características climáticas:** Este del país. Zona arrocera más importante de Uruguay (cuencas de los ríos Cebollatí y Olimar). Régimen de precipitaciones influido por la proximidad al Atlántico.
-
----
 
 ## Departamento de Rocha
 
@@ -150,8 +130,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Costa atlántica sur. Fuerte influencia de la Corriente de Malvinas: veranos frescos (mar ~18–21 °C); niebla de advección frecuente en primavera-verano. Turismo costero (La Paloma, Punta del Diablo, Cabo Polonio). Laguna de Rocha; Laguna Merín. Alta biodiversidad costera.
 
----
-
 ## Departamento de Maldonado
 
 | Variable | Valor aproximado |
@@ -165,8 +143,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Laguna del Sauce (aeropuerto) |
 
 **Características climáticas:** Costa sur-atlántica. Transición entre el Río de la Plata y el Atlántico. Punta del Este: verano relativamente fresco por influencia oceánica; muy populoso en enero-febrero. Sierras de Carapé (cuchilla Grande): orografía modesta que influye localmente en las precipitaciones.
-
----
 
 ## Departamento de Lavalleja
 
@@ -182,8 +158,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Interior sur-este. Zona de mayor altitud relativa (sierras de Minas, Cuchilla Grande): hasta ~500 m s.n.m. en algunos cerros. Mayor frecuencia de heladas que la costa sur. Cuenca alta del Río Santa Lucía (embalse Paso Severino).
 
----
-
 ## Departamento de Florida
 
 | Variable | Valor aproximado |
@@ -197,8 +171,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Florida (86612) |
 
 **Características climáticas:** Centro del país; mayor continentalidad. Embalse de Paso Severino (cuenca del Santa Lucía; principal fuente de agua para Montevideo). La sequía 2022-2023 afectó críticamente este embalse. Amplitud térmica marcada.
-
----
 
 ## Departamento de Durazno
 
@@ -214,8 +186,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Centro geográfico del país. Zona de mayor amplitud térmica de Uruguay. Embalse de Rincón del Bonete (el mayor de Uruguay, sobre el Río Negro). Ganadería extensiva.
 
----
-
 ## Departamento de Flores
 
 | Variable | Valor aproximado |
@@ -229,8 +199,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | [VERIFICAR] |
 
 **Características climáticas:** Departamento más pequeño de Uruguay. Zona ganadera y agrícola. Sin costa marítima ni fluvial mayor; régimen climático de interior.
-
----
 
 ## Departamento de Soriano
 
@@ -246,8 +214,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Litoral suroeste; confluencia del Río Negro con el Río Uruguay. Dolores: ciudad afectada por el tornado del 15 de abril de 2016. Zona agrícola-ganadera. Inundaciones en zonas ribereñas.
 
----
-
 ## Departamento de Colonia
 
 | Variable | Valor aproximado |
@@ -261,8 +227,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Colonia del Sacramento (86560) |
 
 **Características climáticas:** Costa del Río de la Plata sur. Una de las precipitaciones más bajas del país (~1.020 mm). Influencia moderadora del Plata. Brumas y nieblas frecuentes en otoño-invierno. Zona vitícola y lechera.
-
----
 
 ## Departamento de San José
 
@@ -278,8 +242,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Litoral sur. Cuenca del Río Santa Lucía (tributarios). Zona lechera más importante de Uruguay. Riesgo de inundaciones en Paso de la Arena y zonas bajas del Santa Lucía.
 
----
-
 ## Departamento de Canelones
 
 | Variable | Valor aproximado |
@@ -294,8 +256,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 
 **Características climáticas:** Rodea a Montevideo; alta densidad de población. Aeropuerto Internacional de Carrasco. Costa rioplatense (Ciudad de la Costa); Sudestadas afectan la costa. Zona vitícola, hortícola y frutícola. Cuenca del Santa Lucía.
 
----
-
 ## Departamento de Montevideo
 
 | Variable | Valor aproximado |
@@ -309,8 +269,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Estación INUMET principal | Montevideo/Carrasco (86580) |
 
 **Características climáticas:** Capital y mayor área urbana del país. Isla de calor urbano (~2–4 °C más que el entorno rural en noches calurosas). Niebla frecuente en otoño-invierno. Sudestadas con inundaciones en Bahía. Alta HR (~78–80 %). Serie climática histórica más larga del país (~1891). Estación principal de meteorología aeronáutica y radiosondeos.
-
----
 
 ## Tabla comparativa interdepartamental
 
@@ -337,8 +295,6 @@ Este archivo sintetiza las principales características climáticas de cada uno 
 | Montevideo | ~16,8 | ~1.001–1.100 | 3–10 |
 
 *Todos los valores son aproximados basados en la norma 1981–2010. Para datos oficiales, consultar INUMET.*
-
----
 
 ## Palabras clave
 

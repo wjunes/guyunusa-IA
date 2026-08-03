@@ -4,8 +4,6 @@
 
 Los **datos abiertos** son aquellos datos producidos por el Estado que se ponen a disposición del público en formatos digitales abiertos, sin restricciones de uso, descarga ni reutilización. Uruguay ha adoptado una política nacional de datos abiertos que lo ubica como referente regional en apertura de información pública.
 
----
-
 ## Marco normativo
 
 | Norma | Contenido |
@@ -15,8 +13,6 @@ Los **datos abiertos** son aquellos datos producidos por el Estado que se ponen 
 | Decreto 177/013 | Establece la política nacional de datos abiertos para el sector público |
 | Decreto 232/015 | Amplía la política; crea el Catálogo Nacional de Datos Abiertos |
 | Ley 19.924/2020 | Mandato explícito de publicación de datos abiertos en el Presupuesto Nacional |
-
----
 
 ## Portal Nacional de Datos Abiertos
 
@@ -44,8 +40,6 @@ El **Catálogo Nacional de Datos Abiertos** es el repositorio oficial del Estado
 - **MINTUR**: turismo.
 - **MGAP**: producción agropecuaria.
 
----
-
 ## Política Nacional de Datos Abiertos
 
 El **Decreto 177/013** estableció los principios de la política nacional de datos abiertos en Uruguay:
@@ -58,8 +52,6 @@ El **Decreto 177/013** estableció los principios de la política nacional de da
 6. **Interoperabilidad**: los datos deben poder combinarse con otras fuentes.
 7. **Documentación**: los datos deben incluir metadatos suficientes para su comprensión y uso.
 
----
-
 ## Reutilización de información pública
 
 Los datos abiertos del Estado uruguayo pueden ser reutilizados por:
@@ -71,16 +63,12 @@ Los datos abiertos del Estado uruguayo pueden ser reutilizados por:
 - **Organismos internacionales**: para comparaciones y evaluaciones regionales.
 - **Otras entidades públicas**: para la interoperabilidad entre sistemas del Estado.
 
----
-
 ## Transparencia presupuestal
 
 El **Portal de Transparencia Presupuestal** (transparencia.opp.gub.uy) publica en tiempo real:
 - Ejecución del Presupuesto Nacional por organismo, programa y objeto de gasto.
 - Compromisos, devengados y pagos.
 - Evolución del gasto público a lo largo del ejercicio.
-
----
 
 ## Datos abiertos en el contexto internacional
 
@@ -96,8 +84,6 @@ La **OCDE** evalúa los sistemas de datos abiertos gubernamentales. Uruguay, en 
 
 Los **Planes de Acción de Gobierno Abierto** de Uruguay ante la OGP incluyen compromisos específicos sobre datos abiertos, con metas verificables por la sociedad civil.
 
----
-
 ## Iniciativas complementarias
 
 | Iniciativa | Descripción |
@@ -107,8 +93,6 @@ Los **Planes de Acción de Gobierno Abierto** de Uruguay ante la OGP incluyen co
 | **Portal de Transparencia del Poder Judicial** | Estadísticas judiciales en formatos abiertos |
 | **Catálogo de Estadísticas del INE** | Microdatos de la ECH, censos y encuestas |
 | **Geoportal Uruguay** | Datos geográficos del Estado (Intendencias, MTOP, SGM) |
-
----
 
 ## Palabras clave
 

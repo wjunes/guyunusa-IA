@@ -4,8 +4,6 @@
 
 Este documento presenta una **cronología comentada** de los principales hitos en la historia del sector energético de Uruguay, desde el período colonial hasta la década de 2020. Incluye eventos de política energética, fundación de instituciones, inauguración de infraestructura, crisis energéticas y transformaciones de la matriz.
 
----
-
 ## Siglo XIX y principios del XX
 
 | Año | Hito |
@@ -18,8 +16,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **1906–1915** | **Período Batllista:** José Batlle y Ordóñez promueve la estatización de servicios públicos (banco, electricidad, seguros) como parte del modelo de Estado de bienestar uruguayo. |
 | **12-12-1912** | **Fundación de UTE (Ley 3.996):** Administración Nacional de Usinas y Trasmisiones Eléctricas; monopolio estatal de electricidad. |
 
----
-
 ## 1913–1950
 
 | Año | Hito |
@@ -29,8 +25,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **1937** | **Inauguración de la Refinería La Teja (ANCAP):** primera y única refinería de petróleo de Uruguay, en el barrio La Teja, Montevideo; capacidad inicial inferior a la actual. |
 | **1940–1944** | **Construcción de la Represa Rincón del Bonete:** obras de la primera gran represa hidroeléctrica del Uruguay sobre el Río Negro; embalse con lago artificial. |
 | **1945** | **Inauguración de la Central Gabriel Terra (Rincón del Bonete):** primera gran central hidroeléctrica; genera electricidad a partir del Río Negro; potencia inicial ~152 MW [VERIFICAR]. |
-
----
 
 ## 1950–1980
 
@@ -46,8 +40,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **1980–1982** | **Construcción e inauguración de la Represa del Palmar (Central Constitución):** tercera y más potente represa del Río Negro; ~333 MW [VERIFICAR]; inaugurada en 1982. |
 | **1981** | **Inauguración oficial de Salto Grande:** presidentes Aparicio Méndez (Uruguay) y Jorge Rafael Videla (Argentina); potencia total ~1.890 MW, ~945 MW para Uruguay [VERIFICAR]. |
 
----
-
 ## 1980–2005
 
 | Año | Hito |
@@ -58,8 +50,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **13-12-2002** | **Creación de URSEA (Ley 17.598):** regulador independiente para electricidad, combustibles y gas natural. |
 | **2004** | **Crisis del suministro de gas natural argentino:** Argentina restringe exportaciones de gas a Uruguay; impacto sobre consumidores domiciliarios e industria; evidencia la vulnerabilidad energética. |
 | **2005** | **Lanzamiento de la Política Energética Nacional 2005–2030:** el gobierno del presidente Tabaré Vázquez (Frente Amplio) define la diversificación de la matriz, las renovables y la eficiencia energética como ejes estratégicos. |
-
----
 
 ## 2006–2016: La transición renovable
 
@@ -76,8 +66,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **2016** | **Inauguración del Terminal GNL Montevideo (GNLM):** la terminal flotante de regasificación reduce la dependencia del gas argentino. |
 | **2016–2017** | **Uruguay supera el 97% de electricidad renovable:** hito histórico; energía eólica, solar, hídrica y biomasa aportan más del 97% de la generación eléctrica anual [VERIFICAR año exacto]. |
 
----
-
 ## 2017–2026
 
 | Año | Hito |
@@ -90,8 +78,6 @@ Este documento presenta una **cronología comentada** de los principales hitos e
 | **2023–2024** | **Avance en proyectos de H₂ verde:** HIF Global y otras empresas anuncian interés o proyectos piloto en Uruguay. |
 | **~2030 (proyectado)** | **Vencimiento de primeros PPAs eólicos:** los contratos de 20 años de los primeros parques eólicos (instalados ~2010–2013) comenzarán a vencer; renegociación o mercado spot. |
 | **~2030–2035 (proyectado)** | **Inicio de exportaciones de H₂ verde/amoníaco verde** (sujeto a viabilidad económica y decisiones de inversión). |
-
----
 
 ## Palabras clave
 

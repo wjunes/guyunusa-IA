@@ -4,8 +4,6 @@
 
 Las **estadísticas económicas** comprenden el conjunto de mediciones sobre la producción, los precios, el empleo, el comercio, las finanzas y el sector externo de la economía uruguaya. Son producidas por el **INE**, el **BCU**, el **MEF** y otros organismos del **Sistema Estadístico Nacional (SEN)**. Ver también el dominio `economia-finanzas-impuestos-uy` para mayor detalle sobre las estadísticas de finanzas públicas.
 
----
-
 ## Cuentas Nacionales (PIB)
 
 ### Organismo responsable
@@ -30,8 +28,6 @@ Las **estadísticas económicas** comprenden el conjunto de mediciones sobre la 
 | Servicios | ~65% |
 | Industria | ~25% |
 | Agropecuario | ~10% |
-
----
 
 ## Índice de Precios al Consumo (IPC)
 
@@ -59,15 +55,11 @@ Las **estadísticas económicas** comprenden el conjunto de mediciones sobre la 
 ### Publicación
 Mensual, primer semana hábil del mes siguiente.
 
----
-
 ## Índice de Precios al Productor (IPP) e Índice de Precios de Importación y Exportación (IPIM/IPIX)
 
 El INE también produce:
 - **IPP**: mide la variación de precios en la etapa de producción (antes de impuestos al consumo).
 - **IPIM/IPIX**: mide la variación de precios de los bienes importados y exportados.
-
----
 
 ## Estadísticas del mercado laboral
 
@@ -83,8 +75,6 @@ El INE también produce:
 | Tasa de desempleo | (Desocupados / PEA) × 100 |
 | Subempleo | Ocupados que trabajan menos de 40 hs. semanales y desean trabajar más |
 | Empleo informal | Trabajadores sin cobertura de seguridad social (BPS) |
-
----
 
 ## Estadísticas de comercio exterior
 
@@ -109,8 +99,6 @@ El INE también produce:
 ### Principales destinos de exportación
 China, Brasil, Estados Unidos, Unión Europea, Argentina.
 
----
-
 ## Estadísticas de industria
 
 ### Organismo responsable
@@ -121,8 +109,6 @@ China, Brasil, Estados Unidos, Unión Europea, Argentina.
 - **Índice de Volumen Físico de la Industria Manufacturera (IVFIM)**: variación mensual de la producción industrial.
 - Producción por sector: alimentos, bebidas, celulosa y papel, refinería (ANCAP), metalmecánica, textiles.
 - **Encuesta de Actividad Industrial**: datos de personal, horas trabajadas, producción y ventas por sector CIIU.
-
----
 
 ## Estadísticas agropecuarias
 
@@ -138,8 +124,6 @@ China, Brasil, Estados Unidos, Unión Europea, Argentina.
 - Producción láctea mensual (INALE).
 - Faena de ganado y producción cárnica mensual (INAC).
 
----
-
 ## Estadísticas de turismo
 
 ### Organismo responsable
@@ -152,13 +136,9 @@ China, Brasil, Estados Unidos, Unión Europea, Argentina.
 - Ingresos de divisas por turismo.
 - Ocupación hotelera.
 
----
-
 ## Estadísticas financieras y de deuda
 
 Ver dominio `economia-finanzas-impuestos-uy` para estadísticas completas del BCU y MEF.
-
----
 
 ## Palabras clave
 

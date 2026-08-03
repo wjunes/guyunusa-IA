@@ -4,8 +4,6 @@
 
 Uruguay participa activamente en organismos internacionales de cooperación en materia de administración pública, estadística y gobierno digital. Esta participación permite a Uruguay acceder a estándares internacionales, metodologías comparadas, asistencia técnica y recursos de cooperación, al tiempo que contribuye con su experiencia regional.
 
----
-
 ## Estadística internacional
 
 ### Comisión Estadística de las Naciones Unidas (UNSC)
@@ -46,8 +44,6 @@ En el marco del proceso de **adhesión de Uruguay a la OCDE** (iniciado formalme
 
 El **MERCOSUR** cuenta con un **Comité de Coordinación Estadística** que busca armonizar conceptos, metodologías y clasificaciones estadísticas entre los países miembros (Argentina, Brasil, Paraguay, Uruguay). El INE participa activamente en este comité.
 
----
-
 ## Administración Pública y servicio civil
 
 ### CLAD — Centro Latinoamericano de Administración para el Desarrollo
@@ -76,15 +72,11 @@ Uruguay es miembro de la **Alianza para el Gobierno Abierto (OGP)** desde 2011. 
 
 El **BID** financia y asiste técnicamente a Uruguay en reformas de gestión pública, modernización del Estado, gobierno digital y estadística. Ha apoyado programas de fortalecimiento del INE, la ONSC, AGESIC y la OPP.
 
----
-
 ## Agenda 2030 y ODS
 
 Uruguay ha integrado los **Objetivos de Desarrollo Sostenible (ODS)** de la **Agenda 2030 de Naciones Unidas** en su planificación nacional. La **OPP** coordina el monitoreo de los ODS, con el INE como proveedor de los indicadores estadísticos correspondientes.
 
 Uruguay publica periódicamente informes voluntarios nacionales sobre el cumplimiento de los ODS ante el **Foro Político de Alto Nivel (HLPF)** de la ONU.
-
----
 
 ## Palabras clave
 

@@ -1,12 +1,8 @@
 # Uruguay y la Antártida
 
----
-
 ## La Antártida como dimensión oceánica de Uruguay
 
 La relación de Uruguay con la Antártida es una dimensión estratégica de su política exterior y científica que tiene una directa vinculación con sus intereses marítimos y oceanográficos. Las aguas del Océano Austral que rodean el continente antártico se conectan directamente con el Atlántico Sudoccidental y, en consecuencia, con la plataforma continental y la Zona Económica Exclusiva de Uruguay. La dinámica oceanográfica del Océano Austral —en particular, la Corriente Circumpolar Antártica— determina en parte las características de las masas de agua que bañan las costas uruguayas.
-
----
 
 ## Historia de la vinculación de Uruguay con la Antártida
 
@@ -19,8 +15,6 @@ La relación de Uruguay con la Antártida es una dimensión estratégica de su p
 | Instalación de la Base Científica Antártica Artigas (BCAA) en Isla Rey Jorge | 11 de diciembre de 1984 |
 | Uruguay, Parte Consultiva del Tratado Antártico | 1985 |
 | Uruguay ratifica el Protocolo de Madrid (Protocolo al Tratado Antártico sobre Protección del Medio Ambiente) | [VERIFICAR año] |
-
----
 
 ## El Tratado Antártico y el Sistema del Tratado Antártico (STA)
 
@@ -37,8 +31,6 @@ Uruguay, como **Parte Consultiva**, tiene derecho a voto en las Reuniones Consul
 ### El Protocolo de Madrid (1991)
 
 El **Protocolo al Tratado Antártico sobre Protección del Medio Ambiente** (Protocolo de Madrid) establece la Antártida como "reserva natural, consagrada a la paz y a la ciencia" y prohíbe las actividades minerales (salvo con fines científicos). Uruguay es Parte de este Protocolo.
-
----
 
 ## Base Científica Antártica Artigas (BCAA)
 
@@ -61,8 +53,6 @@ La **BCAA** es la instalación permanente de Uruguay en la Antártida. Ubicada e
 - Monitoreo ambiental.
 - Apoyo logístico a las campañas de investigación.
 
----
-
 ## Intereses uruguayos en la Antártida
 
 ### Científicos
@@ -83,8 +73,6 @@ La **BCAA** es la instalación permanente de Uruguay en la Antártida. Ubicada e
 - Los recursos vivos del Océano Austral —en particular el krill y los peces antárticos— son objeto de gestión en el marco de la CCAMLR, en la que Uruguay participa.
 - El debate sobre recursos minerales antárticos (actualmente prohibidos por el Protocolo de Madrid) es relevante para el futuro a largo plazo.
 
----
-
 ## CCAMLR y los recursos vivos del Océano Austral
 
 La **Comisión para la Conservación de los Recursos Vivos Marinos Antárticos (CCAMLR)**, establecida por la Convención de Canberra (1980), gestiona los recursos vivos del Océano Austral al sur de la Convergencia Antártica. Uruguay es miembro de la CCAMLR y participa en sus reuniones anuales.
@@ -97,16 +85,12 @@ Las pesquerías más relevantes bajo la gestión de la CCAMLR incluyen:
 | Merluza negra | *Dissostichus eleginoides* | Especie de alto valor comercial; pesquería en las Islas Georgias del Sur y otras zonas australes |
 | Bacalao de profundidad antártico | *Dissostichus mawsoni* | Alta Mar antártica; pesca regulada por CCAMLR |
 
----
-
 ## Logística antártica uruguaya
 
 El acceso y el suministro de la BCAA se realizan mediante:
 
 - **Fuerza Aérea Uruguaya (FAU):** vuelos regulares a la Isla Rey Jorge durante la campaña de verano austral, generalmente desde Montevideo con escala en Punta Arenas (Chile).
 - **Armada Nacional:** transporte marítimo de cargas pesadas, combustible y personal; ocasionalmente buques con capacidad de investigación oceanográfica.
-
----
 
 ## Conexión oceanográfica: Antártida y Uruguay
 
@@ -115,8 +99,6 @@ El Océano Austral y la Antártida tienen una profunda influencia sobre la ocean
 - La **Corriente de Malvinas** es una rama de la **Corriente Circumpolar Antártica** y es la que trae las aguas frías y ricas en nutrientes al margen continental uruguayo.
 - El **Agua Antártica Intermedia (AAIW)** [VERIFICAR presencia en plataforma uruguaya] y otras masas de agua de origen antártico están presentes en las capas intermedias y profundas del Atlántico Sudoccidental frente a Uruguay.
 - Los cambios en la criosfera antártica —derretimiento de hielos, variabilidad en la extensión del hielo marino— tienen impactos directos sobre la circulación oceánica global y, en última instancia, sobre el nivel del mar y la oceanografía de las aguas uruguayas.
-
----
 
 ## Palabras clave
 

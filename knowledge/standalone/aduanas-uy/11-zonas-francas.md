@@ -4,8 +4,6 @@
 
 Las zonas francas en Uruguay están reguladas por la **Ley 15.921 del 17 de diciembre de 1987** y sus decretos reglamentarios (Decreto 454/988 y modificativos). El régimen establece áreas geográficas dentro del territorio uruguayo que, a efectos fiscales y aduaneros, se consideran **fuera del territorio aduanero nacional**: las mercancías que ingresan a las zonas francas no pagan aranceles de importación ni IVA, y las que salen hacia el exterior no pagan aranceles de exportación.
 
----
-
 ## Concepto y características
 
 Una zona franca es un área delimitada del territorio nacional en la que:
@@ -14,8 +12,6 @@ Una zona franca es un área delimitada del territorio nacional en la que:
 - Las empresas radicadas en zona franca (usuarios de zona franca) gozan de importantes exoneraciones tributarias.
 - Las exportaciones desde zona franca al exterior no pagan derechos de exportación.
 - Las ventas desde zona franca al territorio nacional aduanero (plaza) sí tributan los impuestos de importación correspondientes (en ese caso se consideran importaciones desde la zona franca).
-
----
 
 ## Exoneraciones tributarias de los usuarios
 
@@ -27,8 +23,6 @@ Las empresas usuarias de zona franca gozan de:
 
 **Excepción importante**: los trabajadores dependientes que prestan servicios en zona franca tributan IRPF sobre sus remuneraciones como cualquier otro trabajador. Los usuarios deben aportar al BPS por sus trabajadores.
 
----
-
 ## El explotador y los usuarios
 
 El régimen distingue dos tipos de actores:
@@ -39,8 +33,6 @@ El régimen distingue dos tipos de actores:
 
 Los usuarios se clasifican en directos (instalados físicamente en la zona franca) e indirectos (pueden operar fuera de la zona franca pero facturando desde ella, en condiciones limitadas definidas por la normativa).
 
----
-
 ## Actividades permitidas en zona franca
 
 Las actividades que pueden desarrollarse en zona franca son amplias:
@@ -50,8 +42,6 @@ Las actividades que pueden desarrollarse en zona franca son amplias:
 - **Servicios**: una de las grandes ventajas comparativas de las zonas francas uruguayas es la posibilidad de prestar servicios exportables desde ellas: call centers, servicios de TI, ingeniería, consultoría, servicios financieros y de seguros offshore, software.
 - **Logística y distribución**: almacenaje y distribución regional de productos importados con redistribución hacia países vecinos sin necesidad de pagar aranceles en Uruguay.
 - **Sector financiero**: bancos y compañías de seguros pueden operar en zona franca bajo regímenes especiales (aunque con restricciones para no competir con el sistema financiero local).
-
----
 
 ## Principales zonas francas activas (2024)
 
@@ -68,15 +58,11 @@ Las actividades que pueden desarrollarse en zona franca son amplias:
 
 La Zona Franca de Montevideo (gestionada por Zonamerica) es la de mayor actividad y la más desarrollada en servicios globales. Concentra numerosas multinacionales que han elegido Uruguay como hub regional para servicios de tecnología, finanzas y back-office.
 
----
-
 ## Relación con la aduana
 
 Las zonas francas están bajo control de la DNA. Los ingresos y egresos de mercancías entre la zona franca y el exterior, y entre la zona franca y el territorio nacional, se documentan y controlan aduaneramente. Los explotadores deben mantener registros de las operaciones y cooperar con la DNA en las inspecciones.
 
 El movimiento de personas entre la zona franca y el exterior de la misma (el "plaza") también está regulado: los trabajadores tienen acceso controlado y deben portar identificación habilitante.
-
----
 
 ## Debate sobre las zonas francas
 
@@ -85,8 +71,6 @@ Las zonas francas han sido objeto de debate en Uruguay:
 **A favor**: generan empleo calificado, atraen inversión extranjera directa, promueven la exportación de servicios y diversifican la economía.
 
 **Críticas**: implican una renuncia fiscal significativa del Estado; pueden generar distorsiones competitivas frente a empresas fuera de zona franca; algunos críticos señalan que parte de la actividad podría realizarse en plaza si los tributos generales fueran menores.
-
----
 
 ## Palabras clave
 

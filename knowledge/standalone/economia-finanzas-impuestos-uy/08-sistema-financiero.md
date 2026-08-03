@@ -4,8 +4,6 @@
 
 El **sistema financiero** de Uruguay comprende el conjunto de instituciones, mercados, instrumentos y regulaciones que intermedian el ahorro y el crédito en la economía. Su regulación corresponde principalmente al **Banco Central del Uruguay (BCU)**, que supervisa bancos, casas de cambio, administradoras de fondos de ahorro previsional (AFAPs), empresas de seguros y el mercado de valores.
 
----
-
 ## Estructura del sistema financiero
 
 ```
@@ -24,8 +22,6 @@ Sistema Financiero Uruguay
 ├── Administradoras de Crédito
 └── Cooperativas de Ahorro y Crédito (CAC)
 ```
-
----
 
 ## Bancos públicos
 
@@ -66,15 +62,11 @@ El **BSE** es la empresa pública de seguros de Uruguay.
 
 El BSE mantuvo el monopolio de los seguros en Uruguay hasta el año 2001, cuando se abrió el mercado asegurador a la competencia privada. El seguro de accidentes laborales (SUAT) sigue siendo de gestión obligatoria por el BSE.
 
----
-
 ## Banca privada
 
 El sector bancario privado en Uruguay está integrado por filiales de bancos internacionales y algunos bancos de capital nacional o regional. Entre los bancos privados con presencia en Uruguay se encuentran instituciones vinculadas a grupos españoles, brasileños e internacionales.
 
 El BCU regula la admisión de nuevos bancos, los requisitos de capital, los encajes y la supervisión prudencial del sector bancario privado.
-
----
 
 ## Crisis bancaria de 2002
 
@@ -88,8 +80,6 @@ La **crisis bancaria de 2002** fue el evento más disruptivo del sistema financi
 
 La supervisión bancaria del BCU fue reforzada significativamente tras la crisis de 2002, con nuevas normas de capital, gestión de riesgos y supervisión consolidada.
 
----
-
 ## AFAPs — Administradoras de Fondos de Ahorro Previsional
 
 Las **AFAPs** fueron creadas por la **Ley 16.713/1995** (Reforma Previsional) como parte del sistema mixto de pensiones. Administran el ahorro previsional individual de los trabajadores afiliados al nuevo sistema. Los fondos acumulados en las AFAPs son supervisados por el BCU.
@@ -97,8 +87,6 @@ Las **AFAPs** fueron creadas por la **Ley 16.713/1995** (Reforma Previsional) co
 El sistema mixto combina el pilar de reparto solidario (BPS) con el pilar de capitalización individual (AFAPs).
 
 La **Ley 20.130/2023** (Reforma de la Seguridad Social) modificó aspectos del sistema previsional, incluyendo la edad de retiro y los mecanismos de transferencia entre pilares.
-
----
 
 ## Mercado de valores
 
@@ -117,8 +105,6 @@ El mercado de valores uruguayo tiene menor desarrollo relativo que otros países
 
 El BCU supervisa el mercado de valores, los intermediarios de valores (corredores de bolsa, asesores de inversión) y las emisiones de valores.
 
----
-
 ## Inclusión financiera — Ley 19.210/2014
 
 La **Ley 19.210** de Inclusión Financiera (2014) estableció un conjunto de medidas para ampliar el acceso de la población al sistema financiero:
@@ -130,8 +116,6 @@ La **Ley 19.210** de Inclusión Financiera (2014) estableció un conjunto de med
 - Interoperabilidad de sistemas de pago
 
 Organismos involucrados: BCU, MEF, BROU, sistema bancario privado.
-
----
 
 ## Regulación y supervisión financiera
 
@@ -145,8 +129,6 @@ El **BCU** ejerce la supervisión prudencial del sistema financiero a través de
 - Empresas administradoras de crédito
 
 Los pilares de la regulación son los estándares internacionales de **Basilea III** (capital mínimo, liquidez, apalancamiento) adaptados al contexto uruguayo.
-
----
 
 ## Palabras clave
 

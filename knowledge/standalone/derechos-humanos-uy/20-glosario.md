@@ -2,8 +2,6 @@
 
 Términos técnicos y conceptos clave del ámbito de los derechos humanos en Uruguay.
 
----
-
 **Acción de amparo**: Recurso judicial para proteger derechos fundamentales ante actos u omisiones del Estado o particulares que los vulneren o amenacen. Regulado en Uruguay por la Ley 16.011/1988.
 
 **Caducidad (Ley 15.848/1986)**: Ley que estableció que el Estado "caducaba" su potestad punitiva respecto de militares y policías que hubieran cometido delitos en el período dictatorial 1973-1985. Fue el principal obstáculo a la justicia transicional en Uruguay durante décadas.

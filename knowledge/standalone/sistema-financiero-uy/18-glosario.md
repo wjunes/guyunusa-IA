@@ -90,8 +90,6 @@
 
 **Usura**: delito tipificado en el Código Penal uruguayo que consiste en cobrar intereses por encima de la tasa máxima fijada mensualmente por el BCU.
 
----
-
 ## Palabras clave
 
 glosario sistema financiero Uruguay, términos bancarios Uruguay, AFAP definición Uruguay, BCU definición, dolarización Uruguay glosario, encaje bancario Uruguay definición, GAFI GAFILAT Uruguay glosario, Unidad Indexada UI Uruguay, TPM COPOM Uruguay definición, SSF definición Uruguay, usura definición Uruguay, grado inversión Uruguay, lavado activos Uruguay términos

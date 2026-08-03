@@ -2,8 +2,6 @@
 
 Glosario de los principales términos jurídicos y procesales utilizados en el sistema de justicia de Uruguay. Las definiciones son descriptivas, no normativas.
 
----
-
 **Acción penal pública.** Derecho y obligación del Estado, ejercido a través del Ministerio Público (Fiscalía), de perseguir los delitos que afectan bienes jurídicos de la comunidad. En Uruguay, desde 2017, el fiscal es el titular exclusivo de la acción penal pública.
 
 **Acordada.** Resolución de carácter reglamentario dictada por la Suprema Corte de Justicia en ejercicio de sus poderes de superintendencia sobre el Poder Judicial. Las acordadas tienen fuerza obligatoria para todos los órganos del PJ.
@@ -139,8 +137,6 @@ Glosario de los principales términos jurídicos y procesales utilizados en el s
 **Tutela.** Institución del derecho de familia por la cual una persona (tutor) es designada para proteger y administrar los bienes e intereses de un menor o incapaz que carece de representación legal.
 
 **Ventanilla Única Judicial.** Plataforma digital del PJ que permite a los abogados presentar escritos y realizar gestiones procesales en línea, sin concurrir físicamente al juzgado.
-
----
 
 ## Palabras clave
 

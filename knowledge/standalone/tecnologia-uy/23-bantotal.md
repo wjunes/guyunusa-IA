@@ -1,3 +1,5 @@
+# Bantotal — software bancario uruguayo
+
 ## Resumen
 
 **Bantotal** es una empresa uruguaya de software especializada en **core banking** —el sistema informático central de operación de un banco. Fue fundada en Uruguay y se ha posicionado como uno de los proveedores de core banking más usados en América Latina, especialmente en el segmento de bancos medianos, cooperativas de ahorro y crédito, y microfinancieras. Con presencia en más de 15 países y en uso por centenares de instituciones financieras de la región, Bantotal es uno de los casos más sólidos de software de producto uruguayo especializado en el sector financiero.

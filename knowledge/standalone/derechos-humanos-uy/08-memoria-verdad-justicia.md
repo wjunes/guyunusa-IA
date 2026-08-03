@@ -1,3 +1,5 @@
+# Memoria, verdad y justicia en Uruguay
+
 ## Resumen
 
 El proceso uruguayo de **justicia transicional** —el conjunto de mecanismos institucionales para enfrentar las violaciones a los derechos humanos cometidas durante la dictadura— ha sido lento, irregular y marcado por obstáculos políticos y legales. El principal fue la **Ley de Caducidad** (1986), que durante décadas amparó de la acción penal a los responsables de crímenes de la dictadura. Hitos relevantes en el camino hacia la verdad y la justicia fueron la **Comisión para la Paz** (2000-2003), las **excavaciones en predios militares** (desde 2005), la **Ley de Reparación** (2009, Ley 18.596), la **sentencia de la Corte IDH en el caso Gelman vs. Uruguay** (2011) y los avances judiciales posteriores que llevaron a la condena de militares y policías. La agenda sigue abierta: aún hay desaparecidos sin localizar y responsables sin condenar.
@@ -61,8 +63,6 @@ La **Ley 18.596** (2009) estableció el sistema de reparación a las víctimas d
 ## La Secretaría de Derechos Humanos para el Pasado Reciente
 
 Creada en 2010, la **Secretaría de Derechos Humanos para el Pasado Reciente** tiene a su cargo la coordinación de las políticas de memoria, verdad y justicia, incluyendo las excavaciones y la búsqueda de los desaparecidos. (Ver INS_DRH_0002.)
-
----
 
 ## Resumen
 

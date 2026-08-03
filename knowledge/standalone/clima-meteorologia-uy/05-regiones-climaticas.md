@@ -1,7 +1,5 @@
 # Regiones Climáticas del Uruguay
 
----
-
 ## Introducción
 
 Aunque el clima de Uruguay es relativamente homogéneo bajo la clasificación general **Cfa** (subtropical húmedo) de Köppen-Geiger, existen **diferencias regionales** perceptibles en temperatura, precipitaciones, humedad y frecuencia de fenómenos extremos. Estas diferencias se deben principalmente a:
@@ -12,8 +10,6 @@ Aunque el clima de Uruguay es relativamente homogéneo bajo la clasificación ge
 - El **relieve local** (cuchillas, valles).
 
 La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en su Atlas Climático), la **Facultad de Ciencias** y el **IMFIA** con distintas metodologías. A continuación se describe la regionalización más utilizada en estudios climáticos nacionales.
-
----
 
 ## Regiones climáticas
 
@@ -32,8 +28,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 
 **Estaciones representativas:** Artigas (ciudad), Salto, Rivera.
 
----
-
 ### Región Litoral Oeste
 
 | Parámetro | Descripción |
@@ -47,8 +41,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 | **Clasificación Köppen** | Cfa |
 
 **Estaciones representativas:** Colonia del Sacramento, Mercedes, Paysandú.
-
----
 
 ### Región Sur (Montevideo y costas del Río de la Plata)
 
@@ -64,8 +56,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 
 **Estaciones representativas:** Montevideo (Aeropuerto), Punta del Este (Laguna del Sauce), Colonia del Sacramento.
 
----
-
 ### Región Centro
 
 | Parámetro | Descripción |
@@ -79,8 +69,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 | **Clasificación Köppen** | Cfa |
 
 **Estaciones representativas:** Durazno, Paso de los Toros.
-
----
 
 ### Región Este y Litoral Atlántico
 
@@ -96,8 +84,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 
 **Estaciones representativas:** La Paloma (Rocha), Melo (Cerro Largo), Treinta y Tres.
 
----
-
 ## Comparación regional de parámetros clave
 
 | Región | Tmed anual (°C) | Tmáx enero (°C) | Tmín julio (°C) | Precip. anual (mm) | HR media (%) |
@@ -109,8 +95,6 @@ La regionalización climática de Uruguay ha sido abordada por el **INUMET** (en
 | Este / Atlántico (Rocha) | ~17,5 | ~26 | ~9 | ~1.350 | ~80 |
 
 *Valores aproximados basados en normas 1981–2010 de INUMET. Los valores de Tmáx y Tmín representan medias de las temperaturas extremas diarias, no valores absolutos.*
-
----
 
 ## Variaciones locales notables
 
@@ -137,8 +121,6 @@ La **Corriente de Malvinas** mantiene las aguas del litoral atlántico de Rocha 
 - Refresca las temperaturas estivales en la costa (de 2 a 4 °C menos que en Montevideo en enero).
 - Favorece la formación de **niebla de advección** cuando el aire húmedo y cálido del norte fluye sobre las aguas frías.
 
----
-
 ## Regionalización agrometeorológica
 
 Para aplicaciones agronómicas, el **INIA (Instituto Nacional de Investigación Agropecuaria)** y el **MGAP** utilizan zonificaciones climáticas más detalladas que incorporan variables como la distribución de las heladas, el balance hídrico y el período libre de heladas:
@@ -146,8 +128,6 @@ Para aplicaciones agronómicas, el **INIA (Instituto Nacional de Investigación 
 - **Zona norte:** período libre de heladas > 300 días/año; riesgo bajo de heladas; apto para cultivos tropicales y subtropicales.
 - **Zona sur:** período libre de heladas ~270–300 días/año; riesgo moderado.
 - **Zona interior-centro:** período libre de heladas < 270 días/año en los sitios más bajos; riesgo más alto de heladas tardías.
-
----
 
 ## Palabras clave
 

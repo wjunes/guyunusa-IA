@@ -1,3 +1,5 @@
+# El Maracanazo — Uruguay campeón mundial en 1950
+
 ## Resumen
 
 El Maracanazo (16 de julio de 1950) es el hito más mítico del fútbol uruguayo y uno de los episodios más sorprendentes de la historia del deporte mundial. En la última fecha del torneo final de la Copa del Mundo de Brasil 1950, Uruguay enfrentó a Brasil en el Estadio Maracaná de Río de Janeiro ante más de 200.000 espectadores (la mayor asistencia a un partido de fútbol en la historia). Brasil necesitaba solo un empate para ser campeón; Uruguay necesitaba ganar. Uruguay ganó 2 a 1. Los goles uruguayos fueron de Juan Schiaffino y Alcides Ghiggia. El capitán era Obdulio Varela. El resultado sumió a Brasil en un duelo nacional; para Uruguay fue la confirmación de su identidad de campeón.

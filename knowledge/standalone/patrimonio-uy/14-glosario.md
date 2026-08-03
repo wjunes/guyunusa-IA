@@ -4,8 +4,6 @@
 
 Este glosario define los términos técnicos, siglas e instrumentos más frecuentes en el campo del patrimonio cultural de Uruguay. Ordenado alfabéticamente.
 
----
-
 **AGN** — Archivo General de la Nación. Organismo del MEC que custodia el acervo documental histórico del Estado uruguayo desde 1724.
 
 **Anastilosis** — Técnica de restauración que consiste en rearmar partes fragmentadas o caídas de un bien patrimonial usando los fragmentos originales, distinguiendo claramente las adiciones nuevas.

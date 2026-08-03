@@ -4,8 +4,6 @@
 
 La **cultura material** de los pueblos originarios del actual Uruguay abarca el conjunto de objetos, herramientas, armas, recipientes, adornos y construcciones producidos y utilizados por esas sociedades. Su estudio se basa principalmente en los **hallazgos arqueológicos** (objetos recuperados en excavaciones sistemáticas) y, en menor medida, en las descripciones de los **cronistas europeos** del siglo XVI al XVIII.
 
----
-
 ## Industria lítica (piedra tallada)
 
 La **industria lítica** es el conjunto de herramientas y objetos fabricados en piedra. Es el elemento más abundante y mejor conservado del registro arqueológico del Uruguay.
@@ -38,8 +36,6 @@ La **industria lítica** es el conjunto de herramientas y objetos fabricados en 
 - **Talla por presión:** refinamiento de los bordes con un retocador de hueso o madera.
 - **Bipolar:** técnica de talla sobre yunque, documentada en Uruguay.
 
----
-
 ## Las boleadoras
 
 Las **boleadoras** son uno de los instrumentos más característicos de las culturas cazadoras del Uruguay y la pampa:
@@ -51,8 +47,6 @@ Las **boleadoras** son uno de los instrumentos más característicos de las cult
 | **Boleadora de tres bolas** | Tres piedras unidas; más efectiva para enredar las patas del animal |
 
 Las bolas se fabricaban en piedra (cuarcita, basalto, arenisca), con superficie lisa o con acanaladura ecuatorial para la sujeción del cuero. El tamaño variaba según el uso: para cazar venados o ñandúes se usaban bolas de tamaño mediano; para la guerra, se preferían bolas más grandes o con puntas.
-
----
 
 ## Cerámica
 
@@ -79,8 +73,6 @@ La **cerámica** es el segundo gran conjunto de materiales del registro arqueol�
 - **Tradición del litoral:** asociada a grupos de la margen del Río Uruguay (chanás y relacionados).
 - **Ceramicas guaraníes:** con características propias (decoración corrugada y ungulada), identificables en el nordeste.
 
----
-
 ## Armas
 
 | Arma | Grupos que la usaban | Materiales |
@@ -91,16 +83,12 @@ La **cerámica** es el segundo gran conjunto de materiales del registro arqueol�
 | **Maza** | Charrúas y otros | Madera, a veces con cabeza de piedra |
 | **Escudo** | Documentado en algunos grupos | Cuero |
 
----
-
 ## Trabajo del cuero y textiles
 
 - El **cuero** de los animales cazados era un recurso fundamental: servía para vestido, recipientes, lazos, tientos, toldo, envolturas de las bolas de boleadora.
 - Se curtía con técnicas de raspado y tratamiento con grasa.
 - Los **textiles** estaban poco desarrollados en los grupos nómadas; los guaraníes producían tejidos de algodón.
 - Los instrumentos relacionados: raspadores de piedra y hueso, agujas de hueso.
-
----
 
 ## Objetos de hueso y asta
 
@@ -110,8 +98,6 @@ La **cerámica** es el segundo gran conjunto de materiales del registro arqueol�
 - **Adornos:** cuentas de hueso, pendientes.
 - **Objetos de asta de venado:** vainas, mangos.
 
----
-
 ## Adornos y objetos rituales
 
 - **Cuentas:** fabricadas en hueso, dientes de animales, piedras pulidas.
@@ -120,13 +106,9 @@ La **cerámica** es el segundo gran conjunto de materiales del registro arqueol�
 - **Tembetá:** adorno labial, documentado en algunos grupos; fabricado en piedra pulida o resina.
 - **Plumas de aves:** para adornos en la cabeza y el cuerpo.
 
----
-
 ## Canoas
 
 Los chanás y grupos fluviales fabricaban canoas, posiblemente monóxilas (talladas de un tronco), aunque el registro arqueológico de canoas en Uruguay es prácticamente inexistente (la madera no se conserva bien en los suelos uruguayos).
-
----
 
 ## Palabras clave
 

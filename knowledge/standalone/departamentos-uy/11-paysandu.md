@@ -15,8 +15,6 @@
 | **Límites** | Salto (norte), Tacuarembó (noreste), Rivera (este), Río Negro (sur), Río Uruguay (oeste, frontera con Argentina: Entre Ríos) |
 | **Rutas principales** | Ruta 3, Ruta 26, Ruta 90 |
 
----
-
 ## Historia
 
 ### Fundación y período colonial
@@ -30,8 +28,6 @@ El episodio histórico más relevante de Paysandú fue el **Sitio de Paysandú**
 ### Desarrollo industrial del siglo XX
 
 Paysandú se consolidó a lo largo del siglo XX como la segunda ciudad industrial de Uruguay, con frigoríficos, industria alimentaria, textil y química.
-
----
 
 ## Geografía
 
@@ -56,8 +52,6 @@ Clima **templado húmedo** (Cfa) con veranos cálidos. Temperatura media anual: 
 
 Suelos de pradera: **Brunizems y Vertisoles** en el norte; suelos arenosos en zonas costeras del Río Uruguay. Aptos para ganadería y agricultura de secano.
 
----
-
 ## Naturaleza
 
 ### Flora y fauna
@@ -70,8 +64,6 @@ La vegetación predominante es el **pastizal natural** con monte ribereño a lo 
 |------|-------------|
 | **Montes del Queguay** | Bosques ribereños; propuestos para protección ambiental [VERIFICAR estado SNAP] |
 | **Costa del Río Uruguay** | Playas de arena, humedales y montes costeros |
-
----
 
 ## Economía
 
@@ -96,8 +88,6 @@ El **Puerto de Paysandú**, sobre el Río Uruguay, es importante para el comerci
 
 El **Puente Internacional Gral. Artigas** (conocido como **Puente Paysandú–Colón**) conecta Paysandú con **Colón**, provincia de **Entre Ríos**, Argentina. Es uno de los puentes internacionales más transitados del Uruguay–Argentina.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -107,8 +97,6 @@ El **Puente Internacional Gral. Artigas** (conocido como **Puente Paysandú–Co
 | **UdelaR – Centro Universitario de Paysandú** | Cursos universitarios en Paysandú |
 | **Escuelas primarias y secundarias (ANEP)** | Red departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -116,8 +104,6 @@ El **Puente Internacional Gral. Artigas** (conocido como **Puente Paysandú–Co
 | **Hospital Escuela del Litoral** (ex Hospital Departamental de Paysandú) | Principal hospital público; referencia médica del litoral norte |
 | **CASMU, Médica Uruguaya** | Mutualistas con presencia en la ciudad |
 | **ASSE** | Red de policlínicas en el departamento |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -129,8 +115,6 @@ El **Puente Internacional Gral. Artigas** (conocido como **Puente Paysandú–Co
 | **Basílica Nuestra Señora del Rosario** | Iglesia histórica de la ciudad |
 | **Parque Artigas** | Parque histórico central de la ciudad |
 | **Faro del Río Uruguay** | Antiguo faro histórico [VERIFICAR existencia] |
-
----
 
 ## Cultura
 
@@ -150,8 +134,6 @@ La ciudad organiza importantes exposiciones agropecuarias e industriales, siendo
 
 Típica gaucha: asado, chivito, empanadas. La citricultura regional provee productos frescos. Influencia de la cocina rioplatense por la cercanía con Argentina.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -160,8 +142,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | **Nacional de Paysandú** | Rama del fútbol local |
 | **Deportivo Artigas** | Club local de fútbol |
 | **Remo, kayak, natación** | Actividades en el Río Uruguay |
-
----
 
 ## Turismo
 
@@ -172,8 +152,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | **Puente Internacional Paysandú–Colón** | Cruce fronterizo internacional |
 | **Museo de los Sitios** | Historia del Sitio de Paysandú [VERIFICAR nombre y existencia] |
 | **Iglesias y edificios históricos** | Ciudad Vieja de Paysandú |
-
----
 
 ## Infraestructura
 
@@ -187,8 +165,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | **OSE** | Planta de agua potable local |
 | **UTE** | Distribución eléctrica |
 
----
-
 ## Instituciones
 
 | Institución | Descripción |
@@ -200,8 +176,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | **BPS, MTSS, MIDES** | Oficinas locales de organismos nacionales |
 | **Ministerio del Interior – Jefatura** | Seguridad pública departamental |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -210,8 +184,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | **Julio Sosa** (Paysandú, 1926–Montevideo, 1964) | Música | Cantor de tango; conocido como "el Varón del Tango" |
 | **Washington Beltrán** (Paysandú, 1914–Montevideo, 1984) | Política / Periodismo | Periodista y político; presidente del Senado |
 | **Dardo Larrañaga** (relacionado con la región) [VERIFICAR] | Historia | Político y eclesiástico del período independentista |
-
----
 
 ## Estadísticas
 
@@ -222,16 +194,12 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | Densidad | 8,8 hab./km² | INE |
 | Localidades principales | Paysandú, Guichón, Quebracho, Tambores | INE |
 
----
-
 ## Curiosidades
 
 - **Julio Sosa**, el gran cantor de tango sanducero, fue uno de los últimos grandes representantes del tango rioplatense clásico. Su voz grave y su estilo viril lo convirtieron en leyenda antes de su muerte a los 38 años en un accidente automovilístico.
 - El **Sitio de Paysandú** (1864–1865) es uno de los episodios más dramáticos de la historia uruguaya y marcó el inicio de la Guerra del Paraguay.
 - Las **Termas del Guaviyú** son uno de los complejos termales más visitados del interior uruguayo, conocidas por sus propiedades terapéuticas.
 - Paysandú es el principal productor de **cítricos** del Uruguay: la región del Queguay y sus afluentes concentran la mayor parte de los montes citrícolas del país.
-
----
 
 ## Cronología
 
@@ -244,8 +212,6 @@ Típica gaucha: asado, chivito, empanadas. La citricultura regional provee produ
 | Siglo XX | Industrialización; frigoríficos; desarrollo citrícola |
 | 1926 | Nacimiento de Julio Sosa, el "Varón del Tango" |
 | 2000s | Expansión de los complejos termales como atractivo turístico |
-
----
 
 ## Palabras clave
 

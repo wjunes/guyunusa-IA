@@ -1,7 +1,5 @@
 # Programa Uruguay SUB 200
 
----
-
 ## Presentación
 
 El **programa Uruguay SUB 200** es el esfuerzo científico, institucional y cultural de Uruguay orientado a la exploración sistemática de las aguas profundas de la Zona Económica Exclusiva (ZEE) uruguaya. Unifica los aspectos científicos, de divulgación y de formación asociados a las expediciones de exploración del margen continental.
@@ -11,8 +9,6 @@ El programa tiene dos fases principales:
 - **Fase I (2016–2022):** Primera exploración sistemática de aguas profundas de la ZEE uruguaya mediante ROV y ecosonda multihaz, realizada por un consorcio de instituciones nacionales (Armada, DINARA, IAU, Facultad de Ciencias, MNHN).
 - **Fase II — Campaña Fkt250812 (2025):** Continuación mediante la campaña a bordo del **B/I Falkor (too)** del **Schmidt Ocean Institute (SOI)**, con énfasis en los Ecosistemas Marinos Vulnerables (EMV) del margen continental y la alfabetización oceánica.
 
----
-
 ## Contexto y origen
 
 Hasta el inicio de la Fase I en 2016, el conocimiento sobre los fondos marinos de la ZEE uruguaya a profundidades superiores a los 200 m era muy escaso. La plataforma continental y sus recursos superficiales habían sido objeto de investigación por parte de la DINARA y el SOHMA, pero el talud continental, el Cañón del Plata y las zonas oceánicas profundas permanecían prácticamente inexplorados desde el punto de vista biológico y geomorfológico.
@@ -20,8 +16,6 @@ Hasta el inicio de la Fase I en 2016, el conocimiento sobre los fondos marinos d
 La Misión surgió de la convergencia de voluntades institucionales entre la **Armada Nacional**, la **DINARA**, el **IAU**, la **Facultad de Ciencias (Udelar)** y el **Museo Nacional de Historia Natural (MNHN)**, con apoyo institucional del Estado uruguayo.
 
 La Fase II responde además a la necesidad de avanzar en la **alfabetización oceánica** y en la formación de recursos humanos en ciencias marinas, articulando ciencia, innovación y conciencia ciudadana a escala nacional.
-
----
 
 ## Fase I (2016–2022): exploración sistemática inicial
 
@@ -65,8 +59,6 @@ La Fase I documentó una diversidad biológica previamente desconocida en las ag
 | Talud continental frente a Montevideo y Maldonado | 200 – 1.500 m |
 | Talud continental frente a Rocha | 200 – 2.000 m |
 | Zona oceánica profunda | 1.500 – 3.000+ m |
-
----
 
 ## Fase II — Campaña Fkt250812 (2025)
 
@@ -240,8 +232,6 @@ En su sesión del **6 de mayo de 2025**, el Consejo Directivo Central de la Univ
 
 Udelar ha elaborado un plan de estudios para la **Licenciatura en Oceanografía** (implementación próxima). La carrera formará profesionales con conocimientos en física, química, geología, biología y aspectos socioculturales de los océanos, habilitados para la investigación y la gestión sostenible de los recursos marinos.
 
----
-
 ## Divulgación y alfabetización oceánica
 
 | Iniciativa | Descripción |
@@ -254,8 +244,6 @@ Udelar ha elaborado un plan de estudios para la **Licenciatura en Oceanografía*
 | **Vídeo 4K** | Material grabado por el ROV SuBastian publicado en el canal YouTube del SOI bajo licencia libre |
 | **Galería y repositorio** | Imágenes, vídeos, identidad gráfica y materiales para prensa disponibles en el sitio del programa |
 
----
-
 ## Impacto científico y nacional
 
 - **Primer inventario sistemático** de la fauna de aguas profundas de la ZEE uruguaya (Fase I).
@@ -266,13 +254,9 @@ Udelar ha elaborado un plan de estudios para la **Licenciatura en Oceanografía*
 - **Creación del Instituto de Ciencias Oceánicas** y desarrollo de la Licenciatura en Oceanografía como legado institucional de la Fase II.
 - **Datos para políticas públicas:** base para la posible declaración de Áreas Marinas Protegidas en el talud y las zonas de mayor biodiversidad documentada.
 
----
-
 ## Sitio web oficial
 
 **uruguaysub200.udelar.edu.uy**
-
----
 
 ## Palabras clave
 

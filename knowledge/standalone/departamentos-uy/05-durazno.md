@@ -15,8 +15,6 @@
 | **Límites** | Tacuarembó (norte), Cerro Largo (noreste), Florida (este), Lavalleja (sureste), Flores (sur), Soriano (suroeste), Río Negro (oeste) |
 | **Rutas principales** | Ruta 5 (hacia Montevideo y Rivera), Ruta 14 |
 
----
-
 ## Historia
 
 ### Origen del nombre
@@ -30,8 +28,6 @@ La ciudad de Durazno fue fundada el **25 de octubre de 1821** durante el dominio
 ### Siglo XIX–XX
 
 Durazno fue un departamento de frontera en las guerras del siglo XIX. Su posición central en el país lo hizo punto de cruce de rutas ganaderas y militares. Durante el siglo XX se consolidó como centro ganadero y agrícola.
-
----
 
 ## Geografía
 
@@ -51,8 +47,6 @@ Durazno ocupa el **centro geográfico** del Uruguay. El relieve es ondulado, con
 
 Clima **templado húmedo** (Cfa). Temperatura media: ~17–18 °C. Precipitaciones: ~1.200–1.300 mm/año.
 
----
-
 ## Naturaleza
 
 ### Flora y fauna
@@ -62,8 +56,6 @@ Pastizales naturales dominantes; monte ribereño en las orillas del Río Negro y
 ### Lago Artificial de Rincón del Bonete
 
 El **Embalse de Rincón del Bonete** (~1.000 km²) es el mayor lago artificial de Uruguay. Ofrece ecosistemas acuáticos únicos con aves acuáticas, peces y paisajes lacustres.
-
----
 
 ## Economía
 
@@ -79,8 +71,6 @@ Soja, girasol y trigo en rotación con ganadería. El arroz se cultiva en zonas 
 
 Las represas del Río Negro (**Rincón del Bonete**, **Baygorria** y **Palmar**) generan energía hidroeléctrica para la red nacional de UTE. La represa de Rincón del Bonete (inaugurada en **1945**) fue la primera gran represa hidroeléctrica de Uruguay.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -90,16 +80,12 @@ Las represas del Río Negro (**Rincón del Bonete**, **Baygorria** y **Palmar**)
 | UTU — Durazno | Formación técnica |
 | Sede de UdelaR en Durazno [VERIFICAR oferta] | Educación universitaria |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Durazno** | Hospital público departamental (ASSE) |
 | Mutualistas locales | Cobertura privada |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -108,8 +94,6 @@ Las represas del Río Negro (**Rincón del Bonete**, **Baygorria** y **Palmar**)
 | **Plaza Batlle de Durazno** | Centro histórico de la capital |
 | **Catedral de Durazno** | Patrimonio religioso |
 | **Museo Histórico de Durazno** | Historia regional |
-
----
 
 ## Cultura
 
@@ -123,16 +107,12 @@ Las represas del Río Negro (**Rincón del Bonete**, **Baygorria** y **Palmar**)
 
 El **Festival de Folclore de Durazno** es uno de los festivales de música criolla y folclórica más importantes del Uruguay.
 
----
-
 ## Deportes
 
 | Club | Descripción |
 |------|-------------|
 | **Club Atlético River Plate** (Durazno) | Fútbol departamental |
 | Liga Departamental de Fútbol | Organismo local |
-
----
 
 ## Turismo
 
@@ -142,8 +122,6 @@ El **Festival de Folclore de Durazno** es uno de los festivales de música criol
 | **Parque Rodó de Durazno** | Parque urbano junto al Río Yi |
 | **Termas del Arapey** (en Salto, accesibles desde Durazno) | — |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -151,8 +129,6 @@ El **Festival de Folclore de Durazno** es uno de los festivales de música criol
 | **Ruta 5** | Principal arteria; conecta Montevideo con el norte (Rivera) pasando por Durazno |
 | **Ruta 14** | Conexión este-oeste del centro del país |
 | **Aeropuerto de Durazno** | Aeródromo regional [VERIFICAR operatividad] |
-
----
 
 ## Instituciones
 
@@ -163,15 +139,11 @@ El **Festival de Folclore de Durazno** es uno de los festivales de música criol
 | **Municipio de Durazno** | Gobierno municipal capital |
 | **Municipio de Sarandí del Yi** | Segunda localidad del departamento |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | [VERIFICAR personalidades destacadas de Durazno] | — | — |
-
----
 
 ## Estadísticas
 
@@ -181,15 +153,11 @@ El **Festival de Folclore de Durazno** es uno de los festivales de música criol
 | Población (Censo 2023) | 62.011 hab. | INE |
 | Densidad | 5,3 hab./km² | INE |
 
----
-
 ## Curiosidades
 
 - Durazno es considerado el **centro geográfico** aproximado del Uruguay.
 - La represa de **Rincón del Bonete** (1945) fue la **primera gran obra hidroeléctrica** del Uruguay y uno de los mayores proyectos de infraestructura del siglo XX.
 - El **Festival de Folclore de Durazno** reúne cada año a decenas de miles de personas y es uno de los más importantes del folclore rioplatense.
-
----
 
 ## Cronología
 
@@ -201,8 +169,6 @@ El **Festival de Folclore de Durazno** es uno de los festivales de música criol
 | 1960 | Inauguración de la represa de Baygorria |
 | 1982 | Inauguración de la represa de Palmar |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

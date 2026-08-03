@@ -50,8 +50,6 @@ Los datos sobre el sistema bibliotecario uruguayo son parciales y de actualizaci
 | Bibliotecólogos titulados activos | ~1.000–1.500 |
 | Miembros AUB | ~300–500 |
 
----
-
 ## Glosario
 
 **Acceso abierto (Open Access)** — Modelo de publicación y distribución del conocimiento científico que permite el acceso libre, gratuito e irrestricto a los resultados de la investigación a través de internet. En Uruguay es impulsado por la Udelar (Colibri) y la ANII (Portal Timbó).

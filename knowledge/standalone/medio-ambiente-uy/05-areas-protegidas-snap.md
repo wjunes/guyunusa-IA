@@ -1,3 +1,5 @@
+# Sistema Nacional de Áreas Protegidas (SNAP) de Uruguay
+
 ## Resumen
 
 El **Sistema Nacional de Áreas Protegidas (SNAP)** de Uruguay fue creado por la **Ley 17.234** en **2000** y reglamentado a partir de 2005. Es el principal instrumento legal para la conservación de la naturaleza en Uruguay. Administrado por el **Ministerio de Ambiente** (antes MVOTMA), el SNAP incluye una red de áreas naturales —parques nacionales, paisajes protegidos, monumentos naturales, áreas de manejo de hábitat— que protegen muestras representativas de los ecosistemas uruguayos. El sistema fue construido de manera gradual, con participación ciudadana y con la colaboración de propietarios privados de tierra que integran zonas de amortiguación. La cobertura es todavía relativamente limitada frente a las recomendaciones internacionales, pero ha crecido sostenidamente.
@@ -51,8 +53,6 @@ Los bañados de Santa Lucía, cerca de Montevideo, son un área Ramsar de import
 ## La convención Ramsar y los sitios de importancia internacional
 
 Uruguay tiene varios **sitios Ramsar** (humedales de importancia internacional bajo la Convención de Ramsar de 1971), incluyendo la Laguna de Rocha y los bañados del Santa Lucía.
-
----
 
 ## Resumen
 

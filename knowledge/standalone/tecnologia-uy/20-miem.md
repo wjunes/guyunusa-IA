@@ -1,3 +1,5 @@
+# Ministerio de Industria, Energía y Minería (MIEM) — sector tecnológico
+
 ## Resumen
 
 El **MIEM (Ministerio de Industria, Energía y Minería)** es el organismo central del Estado uruguayo para la política industrial, energética y tecnológica. En el ámbito tecnológico, el MIEM actúa en múltiples frentes: regula las zonas francas (donde opera una parte significativa del sector TIC exportador), coordina la política de ciencia, tecnología e innovación a través de la DINACYT, gestiona el registro de marcas y patentes (DINAPI), impulsa el régimen de promoción de inversiones en tecnología y coordina la política energética que habilita el liderazgo de Uruguay en energías renovables. El MIEM es el "gobierno de la economía productiva" uruguaya.

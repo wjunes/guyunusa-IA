@@ -1,3 +1,5 @@
+# Pyxis — empresa uruguaya de desarrollo de software
+
 ## Resumen
 
 **Pyxis** es una empresa uruguaya de desarrollo de software a medida (custom software development), reconocida por su adopción temprana y profunda de **metodologías ágiles** (Scrum, Lean, XP). Fundada en Montevideo, Pyxis atiende principalmente a clientes internacionales de EE.UU. y Europa en un modelo de nearshoring, desarrollando productos y plataformas digitales complejas. Es referente en Uruguay y en la región en prácticas de desarrollo ágil de alta calidad.

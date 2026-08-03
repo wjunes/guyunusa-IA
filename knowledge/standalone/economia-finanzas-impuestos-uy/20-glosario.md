@@ -12,8 +12,6 @@
 
 **AIN (Auditoría Interna de la Nación)**: Organismo del MEF responsable del control interno del Poder Ejecutivo uruguayo.
 
----
-
 ## B
 
 **BEPS (Base Erosion and Profit Shifting)**: Marco de la OCDE/G20 para combatir la erosión de bases imponibles y el traslado de beneficios; Uruguay adhirió al Marco Inclusivo.
@@ -26,8 +24,6 @@
 
 **BSE (Banco de Seguros del Estado)**: Empresa pública de seguros, fundada en 1911; mantiene el monopolio del seguro de accidentes laborales.
 
----
-
 ## C
 
 **CGN (Contaduría General de la Nación)**: Organismo del MEF responsable de la contabilidad pública del Estado uruguayo.
@@ -37,8 +33,6 @@
 **COPOM (Comité de Política Monetaria)**: Órgano del BCU responsable de las decisiones sobre la Tasa de Política Monetaria (TPM).
 
 **CRS (Common Reporting Standard)**: Estándar de intercambio automático de información financiera de la OCDE, implementado por Uruguay.
-
----
 
 ## D
 
@@ -50,8 +44,6 @@
 
 **Doble imposición**: Situación en que una misma renta o patrimonio tributa en dos países distintos. Se evita mediante Convenios para Evitar la Doble Imposición (CDI).
 
----
-
 ## E
 
 **Evasión fiscal**: Reducción ilegal de la obligación tributaria mediante ocultamiento de ingresos, bienes o transacciones.
@@ -60,13 +52,9 @@
 
 **E-factura (Factura electrónica)**: Sistema de emisión y transmisión digital de comprobantes fiscales con validación en tiempo real por la DGI; obligatorio para los contribuyentes activos en Uruguay.
 
----
-
 ## F
 
 **Feriado bancario**: Suspensión temporal de las operaciones bancarias decretada por el Poder Ejecutivo. En Uruguay, el feriado bancario de agosto de 2002 fue una medida de emergencia ante la corrida de depósitos.
-
----
 
 ## G
 
@@ -74,13 +62,9 @@
 
 **Grado inversor (investment grade)**: Calificación crediticia otorgada por agencias internacionales (Moody's, S&P, Fitch) que indica que la deuda de un país tiene bajo riesgo de impago. Uruguay recuperó el grado inversor en 2012.
 
----
-
 ## H
 
 **Hecho generador**: El evento o situación económica que da lugar al nacimiento de la obligación tributaria. Cada impuesto define su propio hecho generador.
-
----
 
 ## I
 
@@ -96,8 +80,6 @@
 
 **IVA (Impuesto al Valor Agregado)**: Principal impuesto de Uruguay; tasa básica 22%, tasa mínima 10%.
 
----
-
 ## M
 
 **MEF (Ministerio de Economía y Finanzas)**: Organismo del Poder Ejecutivo rector de la política económica, fiscal y financiera de Uruguay.
@@ -106,15 +88,11 @@
 
 **Monotributo**: Régimen simplificado de tributación para pequeños contribuyentes; unifica IVA, IRAE, IRPF y aportes al BPS en un único pago.
 
----
-
 ## P
 
 **Presión tributaria**: Recaudación tributaria total como porcentaje del PIB; indicador del peso de los impuestos en la economía.
 
 **Presupuesto Nacional Quinquenal**: Ley que define la asignación de recursos del Estado por un período de cinco años; es el principal instrumento de política fiscal.
-
----
 
 ## R
 
@@ -124,13 +102,9 @@
 
 **RUT (Registro Único Tributario)**: Identificador único de personas físicas, jurídicas y otras entidades ante el sistema tributario uruguayo.
 
----
-
 ## S
 
 **SIIF (Sistema Integrado de Información Financiera)**: Plataforma informática de gestión presupuestal y contable del Estado uruguayo.
-
----
 
 ## T
 
@@ -140,21 +114,15 @@
 
 **Tablita cambiaria**: Sistema de tipo de cambio fijo con mini-devaluaciones programadas, utilizado en Uruguay entre 1978 y 1982; colapsó en noviembre de 1982.
 
----
-
 ## U
 
 **UDECO (Unidad de Defensa del Consumidor)**: Dependencia del MEF responsable de aplicar la Ley 17.250/2000 de Relaciones de Consumo.
 
 **UI (Unidad Indexada)**: Unidad de cuenta creada en 2002, indexada al IPC; utilizada en contratos de alquiler, hipotecas, depósitos bancarios y deuda pública.
 
----
-
 ## Z
 
 **Zonas Francas**: Áreas delimitadas del territorio uruguayo donde las empresas instaladas gozan de exenciones impositivas y aduaneras; reguladas por la Ley 15.921/1987.
-
----
 
 ## Palabras clave
 

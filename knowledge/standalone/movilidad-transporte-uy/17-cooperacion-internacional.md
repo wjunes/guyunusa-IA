@@ -4,8 +4,6 @@
 
 Uruguay participa activamente en marcos de cooperación regional e internacional en materia de transporte y movilidad. Estos esquemas de cooperación abarcan la integración de redes de infraestructura, la armonización de normativas, los acuerdos bilaterales de transporte, la financiación de proyectos y la adhesión a convenios y organismos internacionales especializados.
 
----
-
 ## MERCOSUR y el transporte regional
 
 ### Marco general
@@ -27,8 +25,6 @@ Uruguay aplica el ATIT en la regulación del transporte de cargas y pasajeros co
 
 El MERCOSUR ha aprobado normas técnicas para vehículos (MERCOSUR/GMC), seguridad vial y transporte de materiales peligrosos, que los países miembros deben incorporar a sus legislaciones nacionales.
 
----
-
 ## Corredores bioceánicos
 
 ### Concepto
@@ -43,8 +39,6 @@ Uruguay forma parte del proyecto del **Corredor Bioceánico de Capricornio**, qu
 
 El **Corredor Bioceánico Norte** conecta Brasil (Mato Grosso do Sul) con Chile a través de Paraguay, Bolivia y Argentina. Uruguay, por su posición en la cuenca del Plata, puede articularse con este corredor a través del Puerto de Nueva Palmira y la Hidrovía.
 
----
-
 ## Hidrovía Paraguay-Paraná
 
 ### Marco de cooperación
@@ -56,8 +50,6 @@ La **Hidrovía Paraguay-Paraná** (HPP) es un sistema de navegación fluvial que
 El **Acuerdo de Transporte Fluvial por la Hidrovía Paraguay-Paraná** (firmado en 1992 por los cinco países) establece la libre navegación comercial y la armonización de normas para las embarcaciones que operan en la vía.
 
 El Puerto de **Nueva Palmira** es el punto terminal uruguayo de la Hidrovía, donde se transbordan cargas a granel (granos) desde barcazas fluviales a buques oceánicos.
-
----
 
 ## Acuerdos bilaterales de transporte
 
@@ -79,8 +71,6 @@ Los acuerdos con Brasil regulan:
 - Transporte terrestre de pasajeros y cargas en los pasos fronterizos
 - Integración de redes viales en zonas de frontera
 - Navegación en el Río Yaguarón y la Laguna Merín (administración conjunta mediante la **Comisión Mixta Brasileño-Uruguaya para el Desarrollo de la Cuenca de la Laguna Merín — CLM**)
-
----
 
 ## Organismos internacionales
 
@@ -107,19 +97,13 @@ El **BID** y el **Banco Mundial** han financiado proyectos de infraestructura vi
 
 La **CAF** (Banco de Desarrollo de América Latina) ha financiado proyectos de infraestructura de transporte en Uruguay, incluyendo obras viales y portuarias.
 
----
-
 ## Integración eléctrica y transporte
 
 La interconexión eléctrica entre Uruguay y Argentina (y en menor medida Brasil) también tiene implicancias para el transporte, en particular para la electromovilidad: la calidad y precio de la energía eléctrica en Uruguay, determinados en parte por los acuerdos de interconexión regional, condicionan la competitividad de los vehículos eléctricos.
 
----
-
 ## Normas internacionales en seguridad vial y vehículos
 
 Uruguay sigue las normativas de la **Comisión Económica de las Naciones Unidas para Europa (UNECE)** en materia de homologación de vehículos y equipamiento de seguridad vial, a través de los reglamentos UNECE aplicados en el MERCOSUR.
-
----
 
 ## Palabras clave
 

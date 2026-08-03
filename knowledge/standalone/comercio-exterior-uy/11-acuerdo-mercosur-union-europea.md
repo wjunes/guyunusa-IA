@@ -6,8 +6,6 @@ El **Acuerdo de Asociación MERCOSUR–Unión Europea** es el mayor acuerdo de l
 
 El acuerdo no se limita al comercio de bienes: incluye compromisos en materia de servicios, inversiones, contratación pública, propiedad intelectual, competencia, desarrollo sostenible y cooperación.
 
----
-
 ## Historia de las negociaciones
 
 Las negociaciones entre el MERCOSUR y la Unión Europea comenzaron en 1999. La primera fase concluyó sin resultado debido a diferencias sobre agricultura (el MERCOSUR exigía mayor acceso para sus exportaciones agropecuarias y la UE resistía por la presión de sus agricultores).
@@ -17,8 +15,6 @@ Las negociaciones se retomaron en 2010 y progresaron lentamente. El **28 de juni
 En diciembre de 2023, la UE y el MERCOSUR alcanzaron un acuerdo político final sobre el capítulo comercial, incorporando un protocolo adicional en materia de sostenibilidad medioambiental para responder a las objeciones europeas (en particular de Francia, Austria y otros países que condicionaban el acuerdo a compromisos ambientales más estrictos).
 
 El acuerdo está pendiente de ratificación formal por todos los parlamentos de los Estados parte del MERCOSUR y por el Parlamento Europeo y los parlamentos nacionales de la UE (en la parte mixta del acuerdo).
-
----
 
 ## Contenido del pilar comercial
 
@@ -54,8 +50,6 @@ Los proveedores del MERCOSUR accederían a los procesos de contratación públic
 
 La UE exige protección de sus indicaciones geográficas en los países del MERCOSUR (Champagne, Parmigiano Reggiano, Prosciutto di Parma, etc.). A cambio, el MERCOSUR obtiene reconocimiento de algunas de sus indicaciones geográficas propias.
 
----
-
 ## Capítulo de desarrollo sostenible
 
 Uno de los puntos más conflictivos fue el capítulo de sostenibilidad ambiental, dado el contexto de los incendios en el Amazonas (2019) y las presiones europeas sobre deforestación. El protocolo adicional de 2023 reforzó los compromisos en:
@@ -63,8 +57,6 @@ Uno de los puntos más conflictivos fue el capítulo de sostenibilidad ambiental
 - Protección de la biodiversidad.
 - Lucha contra la deforestación.
 - Estándares laborales (OIT).
-
----
 
 ## Impacto esperado para Uruguay
 
@@ -81,8 +73,6 @@ Uno de los puntos más conflictivos fue el capítulo de sostenibilidad ambiental
 - Presión sobre los sectores manufactureros que compiten con importaciones europeas.
 - Cumplimiento de exigencias de estándares ambientales y sanitarios europeos.
 
----
-
 ## Estado actual del proceso de ratificación
 
 La ratificación del acuerdo es un proceso complejo que requiere:
@@ -91,8 +81,6 @@ La ratificación del acuerdo es un proceso complejo que requiere:
 3. Ratificación por los 27 parlamentos nacionales europeos (para la parte mixta del acuerdo, que incluye inversión y contratación pública).
 
 El proceso puede llevar varios años desde el cierre político. Francia ha condicionado su apoyo a los compromisos ambientales del MERCOSUR, en particular sobre deforestación en la Amazonia brasileña.
-
----
 
 ## Palabras clave
 

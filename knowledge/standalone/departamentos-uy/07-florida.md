@@ -15,8 +15,6 @@
 | **Límites** | Durazno (norte), Cerro Largo (noreste), Lavalleja (este), Canelones (sureste y sur), San José (sur), Flores (oeste) |
 | **Rutas principales** | Ruta 5, Ruta 6, Ruta 56 |
 
----
-
 ## Historia
 
 ### Importancia histórica: la declaración de independencia
@@ -28,8 +26,6 @@ Este acontecimiento es conocido como la **Declaración de la Florida** y el **25
 ### Fundación del departamento
 
 La ciudad de Florida fue fundada el **24 de junio de 1809** como **Villa de la Florida** por el gobernador Francisco Javier de Elío. El departamento fue creado formalmente el **3 de julio de 1837**.
-
----
 
 ## Geografía
 
@@ -49,15 +45,11 @@ Terreno ondulado con cuchillas del sistema del Escudo Cristalino. Altitudes entr
 
 Clima **templado húmedo** (Cfa). Temperatura media: ~17–18 °C. Precipitaciones: ~1.100–1.200 mm/año.
 
----
-
 ## Naturaleza
 
 ### Flora y fauna
 
 Pastizales naturales; monte ribereño en las orillas de los ríos. El nacimiento del Río Santa Lucía en el departamento lo hace relevante para la gestión hídrica nacional.
-
----
 
 ## Economía
 
@@ -73,8 +65,6 @@ Soja, girasol, trigo. Tambos en la zona sur.
 
 Zona de tambos importante, especialmente en la zona sur, integrada al circuito de Conaprole.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -84,16 +74,12 @@ Zona de tambos importante, especialmente en la zona sur, integrada al circuito d
 | UTU — Florida | Formación técnica |
 | **Instituto de Formación Docente de Florida** | Formación de maestros y profesores |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Florida** | Hospital público departamental (ASSE) |
 | Mutualistas locales | Cobertura privada |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -102,8 +88,6 @@ Zona de tambos importante, especialmente en la zona sur, integrada al circuito d
 | **Casa de la Independencia** | Sitio donde se firmó la Declaración de Independencia del 25 de agosto de 1825; museo histórico nacional |
 | **Iglesia de Florida** | Patrimonio religioso |
 | **Plaza de la Independencia de Florida** | Centro histórico de la ciudad |
-
----
 
 ## Cultura
 
@@ -118,15 +102,11 @@ La ciudad de Florida celebra anualmente el **Día de la Independencia Nacional**
 | **25 de agosto — Día de la Independencia** | Celebración central del departamento |
 | **Semana de Florida** | Actividades culturales y deportivas |
 
----
-
 ## Deportes
 
 | Club | Descripción |
 |------|-------------|
 | **Club Social y Deportivo Fútbol Club** de Florida | Fútbol departamental |
-
----
 
 ## Turismo
 
@@ -136,16 +116,12 @@ La ciudad de Florida celebra anualmente el **Día de la Independencia Nacional**
 | **Ciudad de Florida** | Arquitectura histórica de fines del siglo XIX y principios del XX |
 | **Río Santa Lucía** | Naciente del río principal de la cuenca de abastecimiento de Montevideo |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
 |------|-------------|
 | **Ruta 5** | Principal arteria norte-sur del país; pasa por Florida |
 | **Ruta 6** | Conexión hacia el este |
-
----
 
 ## Instituciones
 
@@ -156,16 +132,12 @@ La ciudad de Florida celebra anualmente el **Día de la Independencia Nacional**
 | **Municipio de Florida** | Gobierno municipal capital |
 | **Municipio de Sarandí Grande** | Segunda localidad del departamento |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Juan Zorrilla de San Martín** (Montevideo, pero vinculado a Florida) [VERIFICAR] | Literatura / Artes | Poeta nacional; autor de *Tabaré* (1888) |
 | [VERIFICAR otras personalidades de Florida] | — | — |
-
----
 
 ## Estadísticas
 
@@ -176,15 +148,11 @@ La ciudad de Florida celebra anualmente el **Día de la Independencia Nacional**
 | Densidad | 6,7 hab./km² | INE |
 | Ciudad capital | Florida (~33.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - En la ciudad de Florida se declaró la **independencia del Uruguay** el 25 de agosto de 1825, en la Sala de Representantes reunida en la Casa de la Independencia.
 - El **Río Santa Lucía**, principal fuente de agua potable de Montevideo y el área metropolitana, **nace en el departamento de Florida**.
 - Florida fue durante un tiempo el departamento con mayor vocación láctea del interior del país.
-
----
 
 ## Cronología
 
@@ -195,8 +163,6 @@ La ciudad de Florida celebra anualmente el **Día de la Independencia Nacional**
 | 1837 | Creación formal del departamento de Florida (3 de julio) |
 | 1901 | Se segrega Flores de Florida (y San José); Florida pierde superficie |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

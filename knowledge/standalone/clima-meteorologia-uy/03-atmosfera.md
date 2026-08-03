@@ -1,7 +1,5 @@
 # La Atmósfera Terrestre
 
----
-
 ## Definición
 
 La **atmósfera** es la envoltura gaseosa que rodea la Tierra, retenida por la gravedad terrestre. Tiene una masa total de aproximadamente **5,15 × 10¹⁸ kg** y se extiende desde la superficie hasta los ~10.000 km de altitud, aunque el 99 % de su masa se concentra en los primeros **30 km**.
@@ -12,8 +10,6 @@ La atmósfera cumple funciones esenciales:
 - Protege a los seres vivos de la **radiación ultravioleta** (capa de ozono).
 - Es el medio donde ocurren los **fenómenos meteorológicos**.
 - Transporta **vapor de agua**, **polvo** y **gases traza** a escala global.
-
----
 
 ## Composición
 
@@ -32,8 +28,6 @@ La composición del aire seco en la troposfera es:
 | Vapor de agua | H₂O | 0–4 % (variable) |
 
 El **vapor de agua** es el gas de efecto invernadero más abundante y variable; su concentración depende de la temperatura y la disponibilidad de agua líquida. En Uruguay, la humedad específica es relativamente alta durante todo el año debido a la influencia oceánica.
-
----
 
 ## Capas atmosféricas
 
@@ -82,8 +76,6 @@ En Uruguay, la **tropopausa** se encuentra a unos **10–12 km** de altitud.
 | Extensión | > 600 km |
 | Características | Los átomos escapan al espacio exterior; límite difuso con el espacio interplanetario |
 
----
-
 ## Circulación general de la atmósfera
 
 La **circulación general de la atmósfera** es el patrón de movimiento a gran escala del aire en todo el planeta, impulsado por el **gradiente de temperatura** entre el ecuador (más caliente) y los polos (más fríos) y modificado por la **fuerza de Coriolis** (efecto de la rotación terrestre).
@@ -101,8 +93,6 @@ Uruguay se ubica en la **célula de Ferrel** del Hemisferio Sur (~30°–35° S)
 - Exposición a frecuentes sistemas frontales y ciclones extratropicales.
 - Alta variabilidad meteorológica.
 
----
-
 ## Masas de aire que afectan a Uruguay
 
 Una **masa de aire** es un gran volumen de aire con propiedades termodinámicas (temperatura, humedad) relativamente uniformes horizontalmente. Se clasifican según su origen:
@@ -113,8 +103,6 @@ Una **masa de aire** es un gran volumen de aire con propiedades termodinámicas 
 | Tropical continental | cTa | Región del Chaco (Argentina/Paraguay) | Muy cálida, seca | Calor extremo, baja humedad; norte del país |
 | Polar marítima | mPa | Latitudes subantárticas / Atlántico Sur | Fresca a fría, húmeda | Lluvias frontales, temperaturas bajas |
 | Polar continental | cPa | Patagonia, sur de Argentina | Fría, muy seca | Heladas, Pampero; descenso brusco de temperatura |
-
----
 
 ## Frentes meteorológicos
 
@@ -144,8 +132,6 @@ Un **frente** es la zona de transición entre dos masas de aire con diferentes p
 - **Definición:** Frente que prácticamente no se desplaza.
 - **Efectos en Uruguay:** Lluvias prolongadas, condiciones grises persistentes por días.
 
----
-
 ## Sistemas de alta y baja presión
 
 ### Anticiclón (alta presión)
@@ -164,8 +150,6 @@ Un **frente** es la zona de transición entre dos masas de aire con diferentes p
   - **Ciclón del Plata o del litoral**: ciclogénesis frente a las costas del Río de la Plata y sur de Brasil; asociado a fuertes lluvias y vientos.
   - **Ciclón extratropical del sur de América del Sur**: influye en el pasaje de frentes fríos sobre Uruguay.
 
----
-
 ## La corriente en chorro (jet stream)
 
 La **corriente en chorro subtropical** (Subtropical Jet Stream) y la **corriente en chorro polar** (Polar Jet Stream) son corrientes de viento de alta velocidad en la tropopausa (~9–12 km de altitud) que guían el movimiento de los sistemas meteorológicos en la superficie.
@@ -175,8 +159,6 @@ Para Uruguay:
 - La **corriente en chorro polar subantártico** (~50–60° S) guía el movimiento de los ciclones y frentes fríos hacia el norte durante el invierno.
 
 En invierno, la corriente en chorro se desplaza hacia el norte y puede acercarse a Uruguay, favoreciendo el ingreso de sistemas frontales y frío polar.
-
----
 
 ## Palabras clave
 

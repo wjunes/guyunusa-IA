@@ -6,8 +6,6 @@ La economía productiva de Uruguay se organiza en torno a tres grandes sectores:
 
 Este archivo ofrece una visión de síntesis. Los sectores que tengan dominios propios en el BNC-UY (como `agro-uy`, `energia-uy`, `turismo-uy`) son tratados de forma resumida con referencias cruzadas.
 
----
-
 ## Sector agropecuario
 
 El sector agropecuario es la base histórica de la economía uruguaya y el principal generador de divisas por exportaciones.
@@ -35,8 +33,6 @@ El sector forestal-celulósico es uno de los más dinámicos. Las plantas de cel
 - **INAC (Instituto Nacional de Carnes)**: regulación y promoción de la carne.
 - **INALE (Instituto Nacional de la Leche)**: regulación lechera.
 
----
-
 ## Sector industrial
 
 La industria uruguaya es de escala reducida, orientada principalmente al mercado interno y a la transformación de materias primas agropecuarias.
@@ -55,8 +51,6 @@ La industria uruguaya es de escala reducida, orientada principalmente al mercado
 
 El **MIEM** es el ministerio rector de la industria. La **CÁMARA DE INDUSTRIAS DEL URUGUAY (CIU)** es la principal organización gremial del sector.
 
----
-
 ## Sector servicios
 
 El sector servicios es el más grande en términos de participación en el PIB (~65%) y de empleo.
@@ -73,8 +67,6 @@ El sector servicios es el más grande en términos de participación en el PIB (
 | Salud | Mutualistas, policlínicas, sistema público |
 | Educación | Pública y privada |
 | Telecomunicaciones | ANTEL y privados |
-
----
 
 ## Economía del conocimiento
 
@@ -94,19 +86,13 @@ Organismos e instituciones del sector:
 
 El **Plan Ceibal** (creado en 2007) fue pionero en el mundo en proporcionar computadoras portátiles y conectividad a todos los niños y docentes de la enseñanza pública primaria, y luego se extendió a secundaria. Es un ejemplo de política de inclusión digital con impacto en la economía del conocimiento.
 
----
-
 ## Turismo
 
 El turismo es una actividad económica de primer orden en Uruguay, especialmente en los departamentos costeros del este (Maldonado, Rocha). El **Ministerio de Turismo** es el organismo rector. La afluencia de turistas argentinos y brasileños es históricamente el principal flujo.
 
----
-
 ## Energía
 
 La **matriz energética** de Uruguay experimentó una transformación radical en la segunda década del siglo XXI: el país pasó de ser importador neto de energía eléctrica a exportador, basado en el desarrollo acelerado de la energía eólica, solar e hidroeléctrica. El **MIEM** y **UTE** lideran la política energética. Para más información, ver el dominio `energia-uy` del BNC-UY.
-
----
 
 ## Palabras clave
 

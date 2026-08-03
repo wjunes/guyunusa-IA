@@ -6,8 +6,6 @@ Este documento reúne las **fuentes primarias y secundarias** de referencia util
 
 Para cada consulta específica sobre datos estadísticos, normativa vigente o proyectos en ejecución, se recomienda acudir directamente a los sitios oficiales de las instituciones listadas, dado que los datos energéticos se actualizan con frecuencia.
 
----
-
 ## Fuentes institucionales uruguayas
 
 ### MIEM — Ministerio de Industria, Energía y Minería
@@ -59,8 +57,6 @@ Para cada consulta específica sobre datos estadísticos, normativa vigente o pr
 - **Convocatorias y proyectos financiados en energía.**
 - **Informes de ciencia, tecnología e innovación en Uruguay.**
 
----
-
 ## Fuentes académicas y de investigación
 
 ### Universidad de la República (UdelaR) — Facultad de Ingeniería (FING)
@@ -72,8 +68,6 @@ Para cada consulta específica sobre datos estadísticos, normativa vigente o pr
 ### UdelaR — Facultad de Química
 
 - Investigaciones en biocombustibles, biogas, análisis de ciclo de vida energético.
-
----
 
 ## Organismos internacionales
 
@@ -116,8 +110,6 @@ Para cada consulta específica sobre datos estadísticos, normativa vigente o pr
 - **Publicaciones sobre energía y cambio climático en América Latina.**
 - Estadísticas de consumo energético regional.
 
----
-
 ## Normativa legal uruguaya
 
 Los textos completos de las leyes y decretos se encuentran en:
@@ -133,8 +125,6 @@ Los textos completos de las leyes y decretos se encuentran en:
 - Ley 18.597/21-09-2009 — Eficiencia energética; SNEE; FEE
 - Ley 17.930/2005 — Creación de ANII
 
----
-
 ## Publicaciones científicas y técnicas recomendadas
 
 - **Energy Policy** (Elsevier): revista con artículos sobre política energética; publicaciones sobre Uruguay.
@@ -145,15 +135,11 @@ Los textos completos de las leyes y decretos se encuentran en:
 
 Para acceder a publicaciones académicas, se recomienda el repositorio **Colibri (UdelaR)**, **SciELO** y bases de datos como **Scopus** y **Web of Science**.
 
----
-
 ## Notas de uso
 
 - Los datos estadísticos de este dominio (capacidades instaladas, porcentajes de generación, costo de tecnologías) tienen año de referencia aproximado y están marcados con `[VERIFICAR]` cuando su exactitud no pudo ser confirmada por el equipo de redacción.
 - Para datos actualizados, se recomienda siempre consultar las publicaciones más recientes de la DNE (BEN), UTE (Memoria Anual) y ADME (Informe Estadístico Anual).
 - Los textos normativos deben ser verificados en IMPO (https://www.impo.com.uy) para confirmar su vigencia y posibles modificaciones.
-
----
 
 ## Palabras clave
 

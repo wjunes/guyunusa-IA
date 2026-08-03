@@ -4,8 +4,6 @@
 
 La producción y el consumo de energía tienen impactos directos sobre el **medio ambiente**: emisiones de gases de efecto invernadero (GEI), contaminación del aire, alteración de ecosistemas acuáticos, uso del suelo, generación de residuos y presión sobre los recursos hídricos. Uruguay ha avanzado significativamente en la reducción de los impactos ambientales del sector energético mediante la transición hacia fuentes renovables, aunque persisten desafíos en el transporte, la producción de combustibles fósiles y la gestión de residuos energéticos.
 
----
-
 ## Emisiones de gases de efecto invernadero (GEI) del sector energético
 
 ### Contexto nacional
@@ -30,8 +28,6 @@ En Uruguay, el **sector energía** representa aproximadamente el **30–40% de l
 
 La masiva incorporación de energía **eólica, solar e hídrica** ha reducido drásticamente las emisiones de CO₂ del sector de generación eléctrica de Uruguay desde 2010. En años de buena hidrologíca y alta generación renovable, las emisiones del sector eléctrico son **mínimas**. Esto convierte a Uruguay en uno de los países con **menores emisiones de CO₂ por kWh generado** del mundo en esos años.
 
----
-
 ## Compromisos climáticos internacionales
 
 ### Acuerdo de París (2015)
@@ -47,8 +43,6 @@ Las NDC de Uruguay han sido actualizadas periódicamente; la versión más recie
 ### Convenio Marco de Naciones Unidas sobre Cambio Climático (CMNUCC)
 
 Uruguay presenta regularmente sus **Inventarios Nacionales de GEI** ante la CMNUCC, elaborados por el **Ministerio de Ambiente** con insumos del sector energético.
-
----
 
 ## Impactos ambientales de las fuentes de energía
 
@@ -99,8 +93,6 @@ Uruguay presenta regularmente sus **Inventarios Nacionales de GEI** ante la CMNU
 | **Uso de agua** | La producción de bioetanol de caña requiere agua de riego; ALUR usa aguas del Río Cuareim (Bella Unión) |
 | **Impacto de los montes forestales** | La expansión de eucaliptos y pinos para biomasa altera la biodiversidad y el ciclo hidrológico |
 
----
-
 ## Gestión ambiental del sector energético
 
 ### Evaluación de Impacto Ambiental (EIA)
@@ -111,8 +103,6 @@ Todo proyecto energético de escala relevante (parque eólico, planta solar, cen
 
 ANCAP y las empresas distribuidoras de combustibles gestionan sitios con **contaminación de suelos y aguas subterráneas** por derrames históricos de hidrocarburos (estaciones de servicio, depósitos). El Ministerio de Ambiente regula la remediación de estos sitios.
 
----
-
 ## Cambio climático y el sistema energético uruguayo
 
 El **cambio climático** tiene impactos directos sobre el sistema energético de Uruguay:
@@ -120,8 +110,6 @@ El **cambio climático** tiene impactos directos sobre el sistema energético de
 - **Variabilidad del recurso eólico y solar:** los modelos climáticos proyectan cambios en los patrones de viento y nubosidad
 - **Eventos extremos:** tormentas, granizos, inundaciones pueden dañar infraestructura eléctrica (líneas de transmisión, subestaciones, parques eólicos y solares)
 - **Demanda de climatización:** el aumento de temperaturas incrementa la demanda de aire acondicionado (verano)
-
----
 
 ## Palabras clave
 

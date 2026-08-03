@@ -4,8 +4,6 @@
 
 La **Matanza de Salsipuedes** fue una operación militar planificada y ejecutada el **11 de abril de 1831** por orden del presidente de Uruguay **Fructuoso Rivera**, con el objetivo de eliminar o capturar a la población charrúa sobreviviente en el territorio uruguayo. Fue la acción más devastadora del Estado uruguayo recientemente independiente contra los pueblos originarios, y marcó el fin efectivo de la presencia charrúa como grupo diferenciado en el territorio nacional.
 
----
-
 ## Contexto histórico previo
 
 ### Uruguay independiente y el "problema" charrúa
@@ -24,8 +22,6 @@ La **independencia de Uruguay** (formalmente consolidada en 1828 con la Convenci
 - Durante las guerras de independencia, Rivera tuvo alianzas con grupos charrúas, incorporándolos a sus fuerzas militares.
 - Algunos caciques charrúas, como **Polidoro**, habían combatido junto a Rivera.
 - Sin embargo, como presidente del nuevo Estado, Rivera adoptó la decisión de eliminar a los charrúas como grupo.
-
----
 
 ## Los hechos del 11 de abril de 1831
 
@@ -59,8 +55,6 @@ Los números exactos son debatidos por los historiadores y difíciles de estable
 
 El 26 de mayo de 1831 se realizó una segunda acción, conocida como la **segunda matanza de Salsipuedes** o **"matanza del Queguay"**, en la que las fuerzas militares atacaron a los grupos charrúas que habían escapado a la primera operación. El cacique **Polidoro**, antiguo aliado de Rivera, fue muerto en esta segunda acción.
 
----
-
 ## Los cuatro charrúas en París (1833–1834)
 
 Tras Salsipuedes, cuatro charrúas capturados fueron llevados a Europa por el empresario francés **François de Curel**:
@@ -75,8 +69,6 @@ Tras Salsipuedes, cuatro charrúas capturados fueron llevados a Europa por el em
 Los cuatro fueron exhibidos ante el público parisino en el **Jardin des Plantes**, en lo que constituyó un espectáculo de exhibición de "salvajes" propio del pensamiento científico y cultural europeo de la época. Despertaron interés científico: el lingüista **Alcide d'Orbigny** realizó observaciones y registros, entre ellos uno de los escasos vocabularios de la lengua charrúa.
 
 **Vaimaca Pirú** falleció en París el **14 de julio de 1833**. Sus restos fueron conservados en el **Museo del Hombre (Musée de l'Homme)** de París. En **2002**, tras gestiones diplomáticas del gobierno uruguayo, los restos de Vaimaca Pirú fueron **repatriados a Uruguay** y recibieron sepultura en el **Panteón Nacional (Cementerio Central)** de Montevideo, el **13 de abril de 2002**.
-
----
 
 ## Consecuencias
 
@@ -95,8 +87,6 @@ El episodio de Salsipuedes ha sido objeto de recuperación histórica y debate e
 - **Daniel Vidart** contribuyó a la revisión de la historia indígena uruguaya.
 - Desde finales del siglo XX, organizaciones de descendientes charrúas y otros actores han reclamado el reconocimiento oficial de la matanza como un **genocidio** o **etnocidio**.
 
----
-
 ## Debates historiográficos
 
 | Debate | Posiciones |
@@ -107,16 +97,12 @@ El episodio de Salsipuedes ha sido objeto de recuperación histórica y debate e
 | **Continuidad charrúa** | Debate sobre si quedaron grupos charrúas supervivientes que mantuvieron alguna continuidad cultural |
 | **Responsabilidad histórica** | Debate sobre cómo el Estado uruguayo debe reconocer y asumir este episodio |
 
----
-
 ## Reconocimiento oficial y memoria
 
 - El **11 de abril** es conmemorado anualmente por organizaciones de descendientes charrúas y grupos culturales en Uruguay.
 - En **Montevideo** existe la **Plaza de los Charrúas** y el monumento **Los Últimos Charrúas** (obra del escultor **José Belloni**, inaugurada en **1938**), que representa a los cuatro charrúas llevados a París.
 - La repatriación de los restos de **Vaimaca Pirú** en 2002 fue un hito en el reconocimiento de la memoria indígena.
 - En 2009 el Parlamento uruguayo declaró el 11 de abril **Día de la Nación Charrúa y de la Identidad Indígena**.
-
----
 
 ## Palabras clave
 

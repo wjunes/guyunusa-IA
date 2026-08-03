@@ -4,8 +4,6 @@
 
 El actual territorio de la República Oriental del Uruguay fue habitado por seres humanos desde hace al menos **12.000 a 13.000 años**, en el marco del poblamiento general del continente americano. Las evidencias más tempranas corresponden a grupos de cazadores-recolectores que ocuparon el territorio en condiciones climáticas y ecológicas distintas a las actuales, cuando la megafauna pleistocénica aún habitaba la región.
 
----
-
 ## El poblamiento de América y el Cono Sur
 
 ### Contexto continental
@@ -21,8 +19,6 @@ Al momento del primer poblamiento humano documentado, el territorio que hoy cons
 - **Vegetación:** paisajes de estepa y sabana, con menor cobertura de bosques.
 - **Fauna:** megafauna pleistocénica, incluyendo mastodontes (*Notiomastodon platensis*), gliptodontes, toxodontes, grandes felinos (*Smilodon*), caballos extintos (*Hippidion*) y otros.
 - **Nivel del mar:** más bajo que el actual; la plataforma continental estaba parcialmente expuesta.
-
----
 
 ## Evidencias arqueológicas del poblamiento temprano
 
@@ -56,8 +52,6 @@ Las evidencias arqueológicas más sólidamente aceptadas para la presencia huma
 | Puntas tipo Fell (colecciones) | Varios | Puntas "cola de pescado" de superficie | Sin contexto estratigráfico preciso en la mayoría |
 | Sitios del este (Rocha, Maldonado) | Este del país | Lítica paleoindía en colecciones | Investigados por diversos equipos UdelaR |
 
----
-
 ## Período Arcaico (aprox. 9.000–3.000 a.C.)
 
 ### Características generales
@@ -70,8 +64,6 @@ Tras el final del Pleistoceno y la extinción de la megafauna (~9.000–8.000 a.
 - **Industria lítica:** instrumentos de piedra tallada (raspadores, raederas, puntas de proyectil) fabricados en cuarcita, basalto y otros materiales locales.
 - **Cambio ambiental:** la estabilización del clima y el ascenso del nivel del mar reconfiguró el territorio disponible y los recursos accesibles.
 
----
-
 ## Período Formativo y desarrollo de los cerritos (aprox. 4.000 a.C. – siglo XVI d.C.)
 
 ### Aparición de la cerámica y los cerritos de indios
@@ -82,15 +74,11 @@ La cerámica aparece en el registro arqueológico del Uruguay a partir de aproxi
 
 Este período es fundamental para comprender la diversidad cultural que existía en el territorio uruguayo antes de la llegada de los europeos. Ver documento `14-cerritos-de-indios.md` para mayor detalle.
 
----
-
 ## Relación entre las poblaciones tempranas y los pueblos históricos
 
 La relación entre las poblaciones del período paleoindio y arcaico y los pueblos documentados históricamente (charrúas, chanás, guaraníes, etc.) es objeto de debate académico. No existe consenso sobre si se trata de poblaciones con continuidad biológica y cultural directa o si el registro arqueológico refleja múltiples oleadas de poblamiento con distintos grupos.
 
 La arqueología uruguaya contemporánea tiende a reconocer una **gran diversidad cultural y étnica** en el pasado prehispánico del territorio, mayor de lo que los primeros cronistas europeos pudieron registrar.
-
----
 
 ## Palabras clave
 

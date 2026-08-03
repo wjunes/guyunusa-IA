@@ -4,8 +4,6 @@
 
 Las exportaciones de servicios constituyen un componente de creciente importancia en el total de los ingresos externos de Uruguay. En términos de balanza de pagos, el BCU compila las estadísticas del comercio de servicios siguiendo el Manual de Balanza de Pagos del FMI (MBP6). Las exportaciones de servicios uruguayas comprenden turismo, servicios empresariales, software y tecnología, servicios financieros y logísticos.
 
----
-
 ## Turismo
 
 El turismo receptivo es la mayor fuente de ingresos por exportación de servicios de Uruguay.
@@ -18,8 +16,6 @@ El turismo receptivo es la mayor fuente de ingresos por exportación de servicio
 - El Ministerio de Turismo (MINTUR) y Uruguay XXI desarrollan la estrategia de promoción turística internacional.
 
 **Impacto macroeconómico**: los ingresos por turismo son cíclicos y sensibles a la situación económica de Argentina y Brasil. Las crisis argentinas de 2001–2002 y de 2018–2023 impactaron negativamente en el turismo receptivo.
-
----
 
 ## Software y servicios de tecnología de la información
 
@@ -34,8 +30,6 @@ Uruguay tiene una industria de software y tecnologías de la información recono
 - Uruguay tiene ventajas comparativas en el sector: fuerza laboral calificada, banda ancha de calidad, estabilidad institucional, huso horario conveniente para el mercado norteamericano.
 - Empresas globales de tecnología (Amazon, Google, Mercado Libre, entre otras) tienen operaciones en Uruguay.
 
----
-
 ## Servicios empresariales y centros de servicios compartidos
 
 Uruguay atrae **centros de servicios compartidos (SSC)** y **Centros de Servicios Globales (GBS)** de empresas multinacionales, que desde Uruguay prestan servicios de contabilidad, recursos humanos, análisis financiero, atención al cliente y otros servicios administrativos a sus subsidiarias en la región.
@@ -43,8 +37,6 @@ Uruguay atrae **centros de servicios compartidos (SSC)** y **Centros de Servicio
 Las zonas francas (especialmente Zonamerica, WTC Free Zone) son el hub principal de este tipo de operaciones.
 
 **Régimen aplicable**: los usuarios de zonas francas están exonerados de IRAE, IVA, IMESI e impuestos patrimoniales. Los servicios se prestan desde Uruguay a destinatarios en el exterior (exportación de servicios).
-
----
 
 ## Servicios logísticos y portuarios
 
@@ -56,8 +48,6 @@ El Puerto de Montevideo funciona como nodo logístico del Cono Sur. La capacidad
 
 El Puerto Libre de Montevideo (Ley 16.246/1992) permite el depósito, manipulación y reexportación de mercancías con exoneración de tributos, lo que potencia la función logística regional del puerto.
 
----
-
 ## Servicios financieros
 
 Uruguay tiene una plaza financiera con proyección regional. Los servicios financieros exportados incluyen:
@@ -68,25 +58,17 @@ Uruguay tiene una plaza financiera con proyección regional. Los servicios finan
 
 La supervisión del BCU (SSF) y la posición de Uruguay como país con grado inversor (desde 2012) contribuyen a la credibilidad de la plaza financiera.
 
----
-
 ## Educación superior y servicios de salud
 
 En menor escala, Uruguay exporta servicios educativos (estudiantes extranjeros en universidades uruguayas, principalmente de países de la región) y servicios de salud (turismo médico, especialmente desde Argentina en períodos de paridad cambiaria favorable para el paciente argentino).
-
----
 
 ## Servicios audiovisuales y creativos
 
 El sector audiovisual uruguayo exporta servicios de producción y postproducción. El régimen de incentivos a la producción audiovisual (Ley 18.284/2008 y sucesoras) y la radicación de producciones internacionales en Uruguay son factores de crecimiento.
 
----
-
 ## Estadísticas del comercio de servicios
 
 El BCU publica trimestralmente las estadísticas de la Balanza de Pagos incluyendo el desglose del comercio de servicios. Uruguay XXI publica informes periódicos sobre las exportaciones de servicios. La OCDE y el FMI incluyen datos de Uruguay en sus estadísticas comparadas de comercio de servicios.
-
----
 
 ## Palabras clave
 

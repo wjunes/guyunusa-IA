@@ -4,8 +4,6 @@
 
 El sistema financiero uruguayo opera en un entorno de intensa integración económica y financiera internacional. La apertura de la cuenta de capital (desde 1974) y la vocación exportadora de la economía hacen que Uruguay esté estrechamente vinculado a los mercados financieros internacionales a través del comercio, la inversión extranjera directa, la deuda pública externa y las relaciones con organismos multilaterales.
 
----
-
 ## Fondo Monetario Internacional (FMI)
 
 Uruguay es miembro del FMI desde 1945. La relación con el FMI ha atravesado distintas fases:
@@ -24,8 +22,6 @@ El FMI realiza anualmente la Consulta del Artículo IV con Uruguay, que incluye 
 
 Sitio: https://www.imf.org/en/countries/URY
 
----
-
 ## Banco Interamericano de Desarrollo (BID)
 
 Uruguay es miembro del BID desde su fundación en 1959. El BID ha financiado programas en múltiples áreas:
@@ -38,15 +34,11 @@ Uruguay es miembro del BID desde su fundación en 1959. El BID ha financiado pro
 
 Sitio: https://www.iadb.org/
 
----
-
 ## Banco de Desarrollo de América Latina (CAF)
 
 Uruguay es accionista y prestatario de la CAF (antes denominada Corporación Andina de Fomento). La CAF financia proyectos de infraestructura, desarrollo productivo y modernización institucional en Uruguay, con énfasis en proyectos que no acceden fácilmente al mercado de capitales privado.
 
 Sitio: https://www.caf.com/
-
----
 
 ## Banco Mundial
 
@@ -55,8 +47,6 @@ El Banco Mundial ha financiado proyectos en Uruguay en áreas de desarrollo soci
 Los indicadores del Banco Mundial (World Development Indicators) son una fuente estadística de referencia para Uruguay.
 
 Sitio: https://www.worldbank.org/en/country/uruguay
-
----
 
 ## OCDE y el proceso de adhesión
 
@@ -71,13 +61,9 @@ Uruguay inició formalmente el proceso de adhesión a la Organización para la C
 
 **FATF/GAFI**: Uruguay ha implementado las 40 Recomendaciones del GAFI.
 
----
-
 ## GAFILAT
 
 El Grupo de Acción Financiera de Latinoamérica (GAFILAT, antes GAFISUD) es el organismo regional afiliado al GAFI que coordina las políticas ALD/CFT en América Latina. Uruguay es miembro fundador. El GAFILAT realiza evaluaciones mutuas periódicas del cumplimiento de sus miembros.
-
----
 
 ## Tratados de libre comercio e integración financiera
 
@@ -87,15 +73,11 @@ El Grupo de Acción Financiera de Latinoamérica (GAFILAT, antes GAFISUD) es el 
 
 **Convenios para Evitar la Doble Imposición (CDI)**: Uruguay tiene convenios vigentes con Alemania, España, Finlandia, Hungría, India, México, Suiza, Ecuador, Portugal, Corea del Sur, Vietnam, Emiratos Árabes Unidos, Malta, Liechtenstein, Luxemburgo y otros. Los CDI son instrumentos de cooperación tributaria que facilitan la inversión bilateral.
 
----
-
 ## Mercados financieros internacionales y deuda soberana
 
 Uruguay emite deuda pública en los mercados internacionales. Sus bonos soberanos son calificados por las principales agencias de calificación crediticia internacionales (Moody's, S&P, Fitch). Uruguay mantiene desde 2012 el grado de inversión (investment grade) en todas las agencias, lo que refleja la solidez de sus fundamentos macroeconómicos y la credibilidad institucional.
 
 Las emisiones de deuda soberana uruguaya en mercados internacionales se denominan principalmente en dólares y en pesos uruguayos (denominados "bonos globales en pesos"), bajo legislación extranjera (ley de Nueva York). Esta estrategia de deuda ha permitido extender plazos y diversificar la base de inversores.
-
----
 
 ## Cooperación técnica y asistencia
 
@@ -105,8 +87,6 @@ El BCU, el MEF y otros organismos reciben asistencia técnica de organismos inte
 - **OCDE**: asistencia en la implementación de estándares BEPS y CRS.
 - **GAFI/GAFILAT**: fortalecimiento del sistema ALD/CFT.
 - **BIS (Banco de Pagos Internacionales)**: capacitación de supervisores bancarios.
-
----
 
 ## Palabras clave
 

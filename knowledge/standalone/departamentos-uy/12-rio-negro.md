@@ -15,8 +15,6 @@
 | **Límites** | Paysandú (norte), Tacuarembó (noreste), Durazno (este), Flores/Soriano (sur), Río Uruguay (oeste, frontera con Argentina: Entre Ríos) |
 | **Rutas principales** | Ruta 2, Ruta 3, Ruta 24, Ruta 25 |
 
----
-
 ## Historia
 
 ### Fundación de Fray Bentos
@@ -34,8 +32,6 @@ En **2015**, el **Paisaje Industrial Fray Bentos** (que comprende el Frigorífic
 ### La controversia UPM/Botnia
 
 En 2003–2007, la instalación de la **Planta de Celulosa Botnia** (luego comprada por **UPM**) en **Fray Bentos** (sobre el Río Uruguay) generó una grave controversia diplomática entre Uruguay y Argentina. Argentina alegó violación del Estatuto del Río Uruguay (1975) y contaminación; Uruguay sostuvo que la planta cumplía con estándares ambientales internacionales. El caso fue llevado a la **Corte Internacional de Justicia (CIJ)** de La Haya, que en **2010** emitió un fallo: Uruguay no había violado los procedimientos del tratado, aunque Argentina no probó contaminación suficiente. Las restricciones físicas de los puentes fronterizos por ciudadanos argentinos afectaron durante años el turismo y la economía de la región.
-
----
 
 ## Geografía
 
@@ -56,8 +52,6 @@ Territorio predominantemente llano a ondulado. La cuenca del **Río Negro** y el
 
 Clima **templado húmedo** (Cfa). Temperatura media: ~17–18 °C. Precipitaciones: ~1.100–1.200 mm/año. Veranos cálidos. El Río Uruguay tiene efecto moderador sobre el litoral oeste.
 
----
-
 ## Naturaleza
 
 ### Esteros de Farrapos e Islas del Río Uruguay (Sitio Ramsar)
@@ -74,8 +68,6 @@ Los **Esteros de Farrapos e Islas del Río Uruguay** son el área protegida más
 ### Flora y fauna general
 
 La vegetación incluye pastizal natural, monte ribereño del Río Uruguay, esteros y bosques de galería. La fauna incluye carpinchos, nutrias, coipos, zorros y abundantes aves acuáticas y rapaces.
-
----
 
 ## Economía
 
@@ -96,8 +88,6 @@ La economía de Río Negro se basa en la ganadería extensiva, la industria celu
 
 La **Represa de Palmar** (central hidroeléctrica), sobre el Río Negro, es una de las tres represas del sistema de UTE en el Río Negro (junto con Rincón del Bonete y Baygorria). Fue inaugurada en **1982** y aporta una fracción importante de la generación hidroeléctrica nacional.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -106,16 +96,12 @@ La **Represa de Palmar** (central hidroeléctrica), sobre el Río Negro, es una 
 | **UdelaR – cursos regionales** | Extensión universitaria [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital Departamental de Fray Bentos** | Principal centro hospitalario público (ASSE) |
 | **CASMU, mutualistas** | Servicios de salud privados [VERIFICAR presencia] |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -127,8 +113,6 @@ La **Represa de Palmar** (central hidroeléctrica), sobre el Río Negro, es una 
 | **Catedral de Fray Bentos** | Edificio religioso histórico |
 | **Palacio Municipal** | Sede de la Intendencia de Río Negro |
 | **Casa de la Cultura** | Centro cultural de la capital |
-
----
 
 ## Cultura
 
@@ -144,8 +128,6 @@ Río Negro tiene fuerte tradición gaucha. Las fiestas departamentales y exposic
 
 Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argentina y el Río Uruguay influyen en la gastronomía local.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -153,8 +135,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | **Clubs locales de fútbol** | Liga departamental de fútbol de Río Negro |
 | **Pesca deportiva** | Río Uruguay y embalse de Palmar |
 | **Remo y natación** | Actividades sobre el Río Uruguay |
-
----
 
 ## Turismo
 
@@ -166,8 +146,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | **Costa del Río Uruguay** | Playas y balnearios fluviales; pesca |
 | **Represa de Palmar** | Lago artificial; entorno natural; pesca |
 | **Young** | Ciudad interior; turismo agropecuario [VERIFICAR atractivos] |
-
----
 
 ## Infraestructura
 
@@ -181,8 +159,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | **Represa de Palmar** | Central hidroeléctrica del Río Negro (UTE) |
 | **Planta UPM** | Puerto propio para exportación de celulosa sobre el Río Uruguay |
 
----
-
 ## Instituciones
 
 | Institución | Descripción |
@@ -194,8 +170,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | **Comisión Administradora del Río Uruguay (CARU)** | Organismo binacional Uruguay–Argentina; controla uso del Río Uruguay (Estatuto 1975) |
 | **UTE** | Represa de Palmar |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -204,8 +178,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | **Líderes obreros del Frigorífico Anglo** | Historia laboral | Representantes del movimiento obrero uruguayo de principios del siglo XX en la industria frigorífica de Fray Bentos |
 
 *Nota: Río Negro es uno de los departamentos con menor registro de personalidades nacionales prominentes nacidas en él; se investigará para completar esta sección [VERIFICAR].*
-
----
 
 ## Estadísticas
 
@@ -216,8 +188,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | Densidad | 6,2 hab./km² | INE |
 | Localidades principales | Fray Bentos, Young, Nuevo Berlín, San Javier | INE |
 
----
-
 ## Curiosidades
 
 - El **extracto de carne Liebig** producido en Fray Bentos se comercializaba en latas con la inscripción "Fray Bentos" en todo el mundo; en el Reino Unido "Fray Bentos" sigue siendo una marca registrada de alimentos enlatados.
@@ -225,8 +195,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 - **San Javier** (Río Negro) fue fundada en 1913 por inmigrantes **rusos** (de la región de los rusos de Ucrania, los "malorrusos") y conserva tradiciones culturales eslavas, idioma y danzas [VERIFICAR detalles de la colonia].
 - El caso Botnia/UPM ante la **Corte Internacional de Justicia** es el único caso en que Uruguay enfrentó a Argentina ante un tribunal internacional, y el fallo de 2010 fue considerado un respaldo a la soberanía uruguaya en la gestión del Río Uruguay.
 - Los **Esteros de Farrapos** son hábitat del **ciervo de los pantanos** (*Blastocerus dichotomus*, VU), una de las especies de mayor tamaño en peligro de Uruguay.
-
----
 
 ## Cronología
 
@@ -244,8 +212,6 @@ Asado, chivito, pescado de río (surubí, patí, dorado). La cercanía con Argen
 | 2007 | Inauguración de la Planta de Celulosa Botnia (luego UPM) |
 | 2010 | Fallo de la CIJ; Uruguay no violó el Estatuto del Río Uruguay |
 | 2015 | El Paisaje Industrial Fray Bentos declarado Patrimonio Mundial UNESCO |
-
----
 
 ## Palabras clave
 

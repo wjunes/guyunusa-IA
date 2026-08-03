@@ -6,8 +6,6 @@ Las zonas francas uruguayas son áreas delimitadas del territorio nacional donde
 
 El régimen de zonas francas (Ley 15.921/1987 y Decreto 454/988 reglamentario) combina una exoneración tributaria total con libertad operativa, lo que ha permitido atraer inversión extranjera y desarrollar actividades exportadoras de servicios de alto valor agregado.
 
----
-
 ## Exoneraciones y ventajas del régimen
 
 Los usuarios de zonas francas en Uruguay se benefician de:
@@ -20,8 +18,6 @@ Los usuarios de zonas francas en Uruguay se benefician de:
 - Libre repatriación de utilidades y capitales.
 
 La única carga tributaria significativa para los usuarios es el aporte patronal y personal al BPS y al IRPF para sus empleados residentes en Uruguay.
-
----
 
 ## Principales zonas francas orientadas a servicios
 
@@ -61,8 +57,6 @@ Zona franca de escala más pequeña, orientada a actividades industriales.
 
 Zona franca vinculada al complejo portuario industrial donde opera Montes del Plata. Orientada a la industria forestal y celulósica.
 
----
-
 ## Exportación de servicios desde zonas francas
 
 El modelo de exportación de servicios desde zonas francas funciona bajo el principio de "exportación de servicios": el usuario de la zona franca presta servicios a una entidad en el exterior (o en el territorio aduanero nacional con ficción de exportación), y el ingreso resultante se computa como exportación de servicios en la balanza de pagos.
@@ -79,13 +73,9 @@ El modelo de exportación de servicios desde zonas francas funciona bajo el prin
 
 **Logística**: almacenamiento, preparación de pedidos, consolidación de cargas para reexportación.
 
----
-
 ## Marco regulatorio y supervisión
 
 El MEF (Área de Zonas Francas) autoriza y supervisa a los explotadores y usuarios de zonas francas. La DNA controla el movimiento de mercancías entre las zonas francas y el territorio aduanero nacional. El BCU incluye los servicios exportados desde zonas francas en las estadísticas de la balanza de pagos.
-
----
 
 ## Palabras clave
 

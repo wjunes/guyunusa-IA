@@ -1,3 +1,5 @@
+# Contaminación y gestión de residuos en Uruguay
+
 ## Resumen
 
 Uruguay enfrenta desafíos significativos en materia de **contaminación y gestión de residuos**. La **bahía de Montevideo** es uno de los cuerpos de agua más contaminados del país, afectada por décadas de vertidos industriales y aguas servidas. Los **ríos y arroyos** reciben cargas de agroquímicos, efluentes ganaderos y residuos domésticos. La gestión de **residuos sólidos urbanos** es dispar: Montevideo tiene sistemas de recolección diferenciada y plantas de clasificación, pero el interior del país depende en gran medida de vertederos a cielo abierto. El sector informal de **clasificadores** (recolectores de materiales reciclables) cumple un papel central en el reciclaje urbano y ha sido progresivamente integrado en políticas públicas. Uruguay aprobó la **Ley de Envases** (Ley 17.849, 2004) y la **Política Nacional de Residuos** para mejorar la situación.

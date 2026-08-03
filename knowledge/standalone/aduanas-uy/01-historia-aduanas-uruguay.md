@@ -8,8 +8,6 @@ La primera estructura fiscal en torno al puerto de Montevideo fue la Aduana de M
 
 La Aduana de Montevideo cobró importancia estratégica a partir de 1778, cuando los Borbones dictaron el Reglamento de Libre Comercio, que habilitó a los puertos americanos a comerciar directamente con España y entre sí, eliminando el monopolio de Cádiz. Montevideo fue designado puerto habilitado bajo este régimen.
 
----
-
 ## La Aduana en la independencia y los primeros años de la República (1811–1860)
 
 La Revolución Oriental de 1811 y las guerras de independencia perturbaron gravemente el funcionamiento de la Aduana de Montevideo. El puerto fue escenario de bloqueos y disputas entre criollos, españoles y portugueses.
@@ -19,8 +17,6 @@ Con la consolidación de la independencia (1825–1830) y la Constitución de 18
 En 1829 se dictaron los primeros aranceles aduaneros de la República Oriental del Uruguay. El debate sobre libre cambio versus proteccionismo marcó la política económica y aduanera durante todo el siglo XIX: los sectores comerciales montevideanos favorecían el libre comercio, mientras los incipientes industriales y los productores agropecuarios pugnaban por protección arancelaria.
 
 La "Guerra Grande" (1839–1851) paralizó parcialmente el comercio exterior y las operaciones de la aduana, aunque Montevideo mantuvo su puerto activo gracias al apoyo de las flotas francesa e inglesa.
-
----
 
 ## Modernización institucional (1860–1930)
 
@@ -35,8 +31,6 @@ La organización de la Aduana de Montevideo se fue profesionalizando. Se estable
 
 El batllismo (José Batlle y Ordóñez, 1903–1907 y 1911–1915) tuvo una política económica que combinó cierta protección arancelaria a la industria con la apertura necesaria para el financiamiento del Estado a través de las rentas aduaneras. Los aranceles fueron una herramienta activa de política económica e industrial.
 
----
-
 ## El siglo XX: de la aduana fiscal a la aduana reguladora (1930–1990)
 
 La Gran Depresión (1929–1933) marcó un giro hacia mayor proteccionismo en todo el mundo, incluyendo Uruguay. Se elevaron los aranceles, se introdujeron cuotas de importación y se usaron los controles de cambio como sustituto de los aranceles en algunos períodos.
@@ -47,8 +41,6 @@ La crisis económica de los años 1950–1960 en Uruguay (fin del ciclo batllist
 
 En 1984 se aprobó el Decreto-Ley 15.691, que constituyó el Código Aduanero uruguayo, organizando sistemáticamente la legislación aduanera dispersa. Este código, con sus modificaciones, sigue siendo la norma básica del régimen aduanero.
 
----
-
 ## El MERCOSUR y la transformación aduanera (1991–2010)
 
 La creación del MERCOSUR en 1991 (Tratado de Asunción) transformó profundamente la política aduanera uruguaya. La unión aduanera —establecida por el Protocolo de Ouro Preto (1994)— implicó la adopción del Arancel Externo Común (AEC) para las importaciones de fuera del bloque y la eliminación de los aranceles internos entre los países miembros (Argentina, Brasil, Paraguay, Uruguay).
@@ -56,8 +48,6 @@ La creación del MERCOSUR en 1991 (Tratado de Asunción) transformó profundamen
 Desde entonces, Uruguay ya no puede modificar unilateralmente sus aranceles de importación extrazona: las decisiones arancelarias se toman por consenso en el Consejo del Mercado Común (CMC) del MERCOSUR.
 
 El impulso del MERCOSUR llevó también a la modernización de los procedimientos aduaneros: informatización del despacho, adopción de la nomenclatura NANDINA (armonizada a nivel del bloque), y estandarización de formularios y procedimientos.
-
----
 
 ## Modernización tecnológica e institucional (2000–2024)
 
@@ -72,8 +62,6 @@ La DNA fue incorporando tecnologías de información para modernizar la gestión
 En 2010 el MERCOSUR aprobó el Código Aduanero del MERCOSUR (CAM) mediante la Decisión CMC 27/10, aunque su entrada en vigor plena ha encontrado dificultades por diferencias entre los Estados parte.
 
 La DNA se ha integrado progresivamente a la cooperación aduanera internacional: intercambio de información con la OMA, convenios de asistencia mutua administrativa con países socios, y participación en iniciativas de seguridad de la cadena de suministro.
-
----
 
 ## Palabras clave
 

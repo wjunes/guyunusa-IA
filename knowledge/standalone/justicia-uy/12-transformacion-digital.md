@@ -4,8 +4,6 @@
 
 Uruguay ha sido uno de los países de América Latina con mayor avance en la digitalización del sistema judicial. El Poder Judicial ha implementado progresivamente herramientas de gestión digital que han transformado el funcionamiento de los tribunales, el acceso a la información y la relación entre los operadores del sistema y los ciudadanos.
 
----
-
 ## Expediente Electrónico (EE)
 
 El **Expediente Electrónico (EE)** es el sistema que reemplazó progresivamente el expediente judicial en papel. Su implementación en el Poder Judicial de Uruguay comenzó en **2012** y se extendió de forma gradual a todos los juzgados y tribunales del país.
@@ -21,8 +19,6 @@ El **Expediente Electrónico (EE)** es el sistema que reemplazó progresivamente
 
 El **sistema IUS** es la plataforma informática del Poder Judicial que soporta el expediente electrónico y la gestión de causas. Es el sistema de back-office que los funcionarios y magistrados utilizan para trabajar con los expedientes.
 
----
-
 ## Firma Digital
 
 La **Ley N° 18.600** de 21 de septiembre de 2009 estableció el marco jurídico del **Documento Electrónico y la Firma Electrónica** en Uruguay. Bajo esta ley, los documentos y firmas electrónicas certificadas tienen pleno valor legal, equiparable al documento en papel con firma manuscrita.
@@ -31,8 +27,6 @@ En el Poder Judicial, los magistrados y actuarios utilizan firma digital certifi
 - Firmar resoluciones y sentencias electrónicas
 - Autorizar actuaciones procesales
 - Certificar notificaciones electrónicas
-
----
 
 ## Notificaciones Electrónicas
 
@@ -52,8 +46,6 @@ El sistema de **notificaciones electrónicas** permite comunicar las resolucione
 - Registro automático de fecha y hora de recepción
 - Disponibilidad en cualquier momento y lugar
 
----
-
 ## Ventanilla Única Judicial
 
 La **Ventanilla Única Judicial** es la plataforma digital del Poder Judicial que permite a los abogados realizar gestiones en línea sin necesidad de concurrir físicamente al juzgado. A través de ella, los profesionales pueden:
@@ -65,13 +57,9 @@ La **Ventanilla Única Judicial** es la plataforma digital del Poder Judicial qu
 
 Esta herramienta redujo significativamente los traslados físicos al Palacio de Justicia y otras sedes, especialmente fuera de Montevideo.
 
----
-
 ## Consulta de expediente para ciudadanos
 
 Los ciudadanos pueden consultar el estado de su expediente judicial directamente en el **sitio web del Poder Judicial** (www.poderjudicial.gub.uy), introduciendo el número y año de la causa. Esta herramienta de transparencia permite a las partes y sus familiares seguir el avance de los procesos sin necesitar intermediarios.
-
----
 
 ## Audiencias por Videoconferencia
 
@@ -82,8 +70,6 @@ Las audiencias por videoconferencia son especialmente útiles para:
 - Imputados privados de libertad cuyo traslado implica alto costo o riesgo
 - Conciliaciones y audiencias de trámite en las que no es imprescindible la presencia física
 - Acceso a la justicia en zonas rurales o de difícil acceso
-
----
 
 ## Acceso a la Información Pública y Transparencia
 
@@ -96,13 +82,9 @@ El Poder Judicial publica en su sitio web:
 - Información institucional de todos los juzgados y tribunales
 - Convocatorias a concursos del CEJU
 
----
-
 ## CEJU digital
 
 El **Centro de Estudios Judiciales del Uruguay (CEJU)** ofrece cursos de formación y perfeccionamiento en modalidad **virtual**, además de la presencial. Las convocatorias a concursos de ingreso y ascenso en la magistratura se realizan a través del sitio del CEJU y del Poder Judicial.
-
----
 
 ## Datos institucionales de la digitalización judicial
 

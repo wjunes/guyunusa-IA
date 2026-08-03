@@ -11,8 +11,6 @@
 | Fines s. XVIII | Primeras **estancias** organizadas con límites definidos y gestión sistemática del ganado. |
 | **1793** | Apertura del **Saladero** de Barquín y Ximénez (uno de los primeros): procesamiento de carne salada y cueros para exportación. |
 
----
-
 ## Período independiente temprano (1825–1900)
 
 | Año | Hito |
@@ -30,8 +28,6 @@
 | **1888** | Primera **Exposición Nacional de Ganadería**, organizada por la ARU (antecedente de la Expo Prado). |
 | 1890–1900 | Consolidación de la producción ovina: Uruguay llega a tener 20–25 millones de ovinos. |
 
----
-
 ## Modernización agraria (1900–1950)
 
 | Año | Hito |
@@ -48,8 +44,6 @@
 | **1946** | Creación del **Ministerio de Ganadería y Agricultura (MGA)**, precursor del MGAP. |
 | **1948** | Ley 11.029: crea el **Instituto Nacional de Colonización (INC)**; política de acceso a la tierra para pequeños productores. |
 
----
-
 ## Industrialización y diversificación (1950–1985)
 
 | Año | Hito |
@@ -65,8 +59,6 @@
 | **1979** | Decreto de **liberalización de arrendamientos agrarios**; impacto en la estructura tenencial. |
 | **1982** | Crisis financiera: fuerte impacto en el sector agropecuario; endeudamiento masivo de productores. |
 
----
-
 ## Modernización y apertura (1985–2000)
 
 | Año | Hito |
@@ -80,8 +72,6 @@
 | **1997** | Creación del **INASE** (Instituto Nacional de Semillas) por Ley 16.811; regula el mercado de semillas. |
 | **1998** | Aprobación de los primeros eventos transgénicos (soja RR, maíz Bt) para uso comercial en Uruguay. |
 | **1998–2001** | **Fiebre aftosa** con brotes activos; campaña de vacunación y posterior erradicación de la circulación viral. |
-
----
 
 ## Boom exportador y nuevos desafíos (2000–2015)
 
@@ -102,8 +92,6 @@
 | **2014** | El área sojera comienza a contraerse desde el pico; retiro de capitales especulativos. |
 | **2015** | El **Frigorífico Anglo** de Fray Bentos es declarado **Patrimonio de la Humanidad** por UNESCO. |
 
----
-
 ## Consolidación y nuevas tendencias (2015–2026)
 
 | Año | Hito |
@@ -116,8 +104,6 @@
 | **2023** | Expansión del uso de **drones agrícolas** (fumigación, monitoreo, conteo de animales). |
 | **2024** | Nuevas regulaciones sobre **bioinsumos** (biofertilizantes, biopesticidas) en el marco de la transición agroecológica. |
 | **2025** | Debate sobre regulación de la **inteligencia artificial en el agro** (modelos predictivos de rendimiento, detección de enfermedades). |
-
----
 
 ## Palabras clave
 

@@ -2,8 +2,6 @@
 
 Este archivo compila las principales fuentes documentales para la elaboración del dominio **geografia-uy** de la BNC-UY. Se organiza por tipo de institución y por tema.
 
----
-
 ## 1. Instituciones oficiales y portales de datos
 
 ### Instituto Geográfico Militar (IGM)
@@ -50,8 +48,6 @@ Este archivo compila las principales fuentes documentales para la elaboración d
 - OPP. *Infraestructura de Datos Espaciales del Uruguay (IDEUY): Catálogo de datos geográficos*. Montevideo: OPP, 2014.
 - **Portal:** www.gub.uy/infraestructura-datos-espaciales
 
----
-
 ## 2. Legislación y normativa
 
 - *Constitución de la República Oriental del Uruguay* (1967, con reformas de 1996, 2004 — art. 47).
@@ -68,8 +64,6 @@ Este archivo compila las principales fuentes documentales para la elaboración d
 - *Tratado del Río de la Plata y su Frente Marítimo* (1973, Uruguay-Argentina).
 - *Estatuto del Río Uruguay* (1975, Uruguay-Argentina).
 - *Tratado de límites Uruguay-Brasil* (1851 y ratificaciones sucesivas).
-
----
 
 ## 3. Publicaciones académicas y científicas
 
@@ -99,16 +93,12 @@ Este archivo compila las principales fuentes documentales para la elaboración d
 - IGM. *Historia del Instituto Geográfico Militar del Uruguay*. Montevideo: IGM.
 - ARANA, Carlos M. *Cartografía histórica del Río de la Plata*. Montevideo: Academia Uruguaya de Historia / Biblioteca Nacional.
 
----
-
 ## 4. Publicaciones periódicas especializadas
 
 - *Revista de la Sociedad Uruguaya de Geociencias*. ISSN [VERIFICAR].
 - *Anuario de Geografía*, Departamento de Geografía, Facultad de Ciencias, UdelaR.
 - *Contribuciones científicas del Congreso Geológico Uruguayo*. Serie de congresos.
 - *Revista Uruguaya de Ciencia Política*. FCS-UdelaR.
-
----
 
 ## 5. Portales de datos geoespaciales y estadísticos
 
@@ -121,8 +111,6 @@ Este archivo compila las principales fuentes documentales para la elaboración d
 - **MTOP:** www.mtop.gub.uy (red vial, infraestructura)
 - **ANP:** www.anp.com.uy (estadísticas portuarias)
 
----
-
 ## 6. Fuentes de organismos internacionales
 
 - UNESCO. *Lista del Patrimonio Mundial: Barrio Histórico de Colonia del Sacramento; Paisaje Industrial de Fray Bentos*. París: UNESCO.
@@ -130,8 +118,6 @@ Este archivo compila las principales fuentes documentales para la elaboración d
 - FAO / AQUASTAT. *Uruguay: recursos hídricos y gestión del agua*. Roma: FAO.
 - CEPAL. *Uruguay: estadísticas territoriales y demográficas*. Santiago: CEPAL.
 - OEA. *Acuerdo sobre el Acuífero Guaraní (Argentina, Brasil, Paraguay, Uruguay)*, 2010.
-
----
 
 ## Palabras clave
 

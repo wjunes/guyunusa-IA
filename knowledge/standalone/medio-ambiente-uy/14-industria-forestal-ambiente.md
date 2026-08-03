@@ -1,3 +1,5 @@
+# Industria forestal y ambiente en Uruguay
+
 ## Resumen
 
 Uruguay tiene una **industria forestal y de celulosa** que se convirtió en una de las principales exportaciones del país desde la década de 1990. La **Ley Forestal 15.939** (1987) y sus incentivos fiscales impulsaron la expansión de **plantaciones de eucalipto y pino** en suelos de prioridad forestal (clasificados como no aptos para agricultura). Las plantas de celulosa de **UPM** y **Montes del Plata** son las mayores inversiones industriales de la historia del Uruguay. Desde el punto de vista ambiental, el sector genera un **debate complejo**: por un lado, las plantaciones forestales secuestran carbono y generan energía renovable (biomasa); por otro, la expansión sobre praderas nativas afecta a la biodiversidad, el alto consumo de agua del eucalipto genera controversia, y los efluentes industriales de las plantas de celulosa han sido motivo de conflictos (el más grave: el conflicto por la planta de Botnia/UPM con Argentina entre 2005 y 2010).

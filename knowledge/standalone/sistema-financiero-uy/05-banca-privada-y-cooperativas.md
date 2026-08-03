@@ -29,8 +29,6 @@ Los bancos privados en Uruguay están sujetos a los mismos requerimientos pruden
 
 Las entidades bancarias privadas deben obtener habilitación del BCU para instalarse y operar. Los cambios de accionistas significativos (que superen umbrales definidos) requieren aprobación previa del BCU. Las fusiones y adquisiciones bancarias también requieren autorización.
 
----
-
 ## Instituciones financieras externas (banca offshore)
 
 ### Marco legal
@@ -46,8 +44,6 @@ En su apogeo (años 1980 y 1990) decenas de IFEs operaban en Uruguay, principalm
 Los acuerdos internacionales de intercambio de información fiscal —en particular los Estándares de Información Financiera de la OCDE (CRS, Common Reporting Standard) adoptados por Uruguay— erosionaron el atractivo del modelo offshore. A partir de 2017–2018 Uruguay adoptó el intercambio automático de información fiscal con más de 100 jurisdicciones, lo que eliminó el secreto bancario para no residentes.
 
 Al año 2024 el sector offshore prácticamente ha desaparecido como categoría diferenciada: las operaciones con no residentes se canalizan a través de los bancos ordinarios bajo las normas generales.
-
----
 
 ## Cooperativas de ahorro y crédito (CAC)
 
@@ -70,8 +66,6 @@ Las CAC son especialmente relevantes en el interior del país, donde la banca pr
 
 Desde la Ley 17.613/2002, las CAC con activos que superan determinados umbrales están sometidas a la supervisión de la SSF del BCU con exigencias similares (aunque adaptadas) a las de los bancos. Las más pequeñas quedan fuera del perímetro de supervisión de la SSF.
 
----
-
 ## Casas de cambio
 
 ### Marco legal
@@ -90,15 +84,11 @@ Las casas de cambio cumplen una función económica significativa en Uruguay:
 
 El mercado de remesas entrantes ha crecido con el aumento de la emigración uruguaya y el retorno de emigrantes durante la pandemia. Varias fintechs han incursionado en el mercado de remesas compitiendo con las casas de cambio tradicionales.
 
----
-
 ## Empresas de servicios financieros (ESF) y administradoras de crédito
 
 Las ESF y administradoras de crédito al consumo (ACC) son entidades no bancarias que ofrecen financiamiento sin captar depósitos del público. Operan con fondos propios o mediante la emisión de obligaciones negociables. Son reguladas por la SSF con menores exigencias que las bancarias.
 
 Las grandes cadenas de retail y supermercados han desarrollado brazos financieros (tarjetas de crédito propias, financiamiento de electrodomésticos) que operan bajo estas categorías.
-
----
 
 ## Palabras clave
 

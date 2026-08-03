@@ -1,12 +1,8 @@
 # Instituciones Arqueológicas del Uruguay
 
----
-
 ## Introducción
 
 La investigación, la conservación y la gestión del patrimonio arqueológico del Uruguay se distribuyen entre instituciones académicas, museos nacionales, organismos estatales y centros de investigación. Este archivo presenta las principales instituciones con competencia en arqueología.
-
----
 
 ## Facultad de Humanidades y Ciencias de la Educación (FHCE) — Universidad de la República
 
@@ -41,8 +37,6 @@ Durante la dictadura cívico-militar (1973–1985), la actividad del departament
 
 La FHCE ofrece la **Licenciatura en Ciencias Antropológicas** con orientación en **Arqueología**, que es la única formación de grado en arqueología del Uruguay. La carrera prepara arqueólogos para la investigación académica y la gestión del patrimonio.
 
----
-
 ## Museo Nacional de Antropología (MNA)
 
 ### Datos institucionales
@@ -74,8 +68,6 @@ Gran parte de las colecciones proceden de las excavaciones de **Antonio Taddei**
 
 El MNA ha publicado trabajos de investigación y ha sido sede de proyectos arqueológicos. Su revista y publicaciones institucionales constituyen fuentes de referencia para la arqueología uruguaya.
 
----
-
 ## Museo Nacional de Historia Natural (MNHN)
 
 ### Datos institucionales
@@ -96,8 +88,6 @@ El **MNHN** es el museo científico más antiguo del Uruguay, fundado en 1837. A
 - Restos paleontológicos de megafauna (mastodontes, toxodontes, gliptodontes).
 - Colecciones arqueológicas reunidas en el siglo XIX.
 - Materiales del sitio Arroyo del Vizcaíno (paleontología/arqueología).
-
----
 
 ## Comisión del Patrimonio Cultural de la Nación (CPCN)
 
@@ -121,13 +111,9 @@ La **CPCN** es el organismo estatal con competencia directa sobre el patrimonio 
 - Promover la educación y difusión del patrimonio.
 - Coordinar con organismos internacionales (UNESCO, ICOMOS).
 
----
-
 ## Centro Universitario de la Región Este (CURE) — Udelar
 
 El **CURE** (Rocha, Maldonado, Treinta y Tres) es un centro regional de la Udelar que ha desarrollado actividades vinculadas a la arqueología de la región este del Uruguay, en articulación con el Departamento de Arqueología de la FHCE.
-
----
 
 ## Laboratorio de Arqueología del Paisaje y Teledetección (LAPTE/CSIC)
 
@@ -136,8 +122,6 @@ El **CURE** (Rocha, Maldonado, Treinta y Tres) es un centro regional de la Udela
 - Teledetección y SIG aplicados al estudio de cerritos.
 - Arqueología del paisaje.
 - Gestión participativa del patrimonio arqueológico con comunidades rurales.
-
----
 
 ## Museos departamentales con colecciones arqueológicas (selección)
 
@@ -150,13 +134,9 @@ El **CURE** (Rocha, Maldonado, Treinta y Tres) es un centro regional de la Udela
 | Museo de Salto | Salto | Arqueología regional, lítica |
 | Museo de Durazno | Durazno | Materiales prehispánicos |
 
----
-
 ## Instituto de Ciencias Antropológicas / FHCE-Udelar
 
 El Instituto de Ciencias Antropológicas de la FHCE agrupa los departamentos de Arqueología, Antropología Social y Cultural, y Bioantropología, facilitando la integración disciplinar en los proyectos de investigación.
-
----
 
 ## Palabras clave
 

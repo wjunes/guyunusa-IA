@@ -6,8 +6,6 @@ La **balanza comercial** registra la diferencia entre el valor de las exportacio
 
 La **balanza de pagos** es un concepto más amplio: incluye la cuenta corriente (bienes, servicios, rentas y transferencias corrientes), la cuenta financiera y la cuenta de capital. El BCU publica trimestralmente la Balanza de Pagos de Uruguay siguiendo el Manual del FMI (MBP6).
 
----
-
 ## Evolución histórica de la balanza comercial de bienes
 
 ### Período de déficit estructural (siglo XX)
@@ -26,8 +24,6 @@ El auge de los precios internacionales de los commodities (carne, soja, lácteos
 
 El fin del superciclo de las materias primas y la desaceleración de la economía brasileña y la crisis argentina impactaron en la balanza comercial uruguaya. La incorporación de UPM2 (celulosa) a las exportaciones desde 2023 genera un incremento adicional en el valor exportado.
 
----
-
 ## Principales determinantes de la balanza comercial uruguaya
 
 ### Por el lado de las exportaciones
@@ -43,33 +39,23 @@ El fin del superciclo de las materias primas y la desaceleración de la economí
 - **Demanda interna**: el nivel de actividad económica y el consumo privado determinan la demanda de importaciones de bienes de consumo y bienes de capital.
 - **Tipo de cambio nominal y real**: una apreciación del peso hace las importaciones más baratas y las exportaciones más caras.
 
----
-
 ## Balanza de servicios
 
 Uruguay tiene una **balanza de servicios históricamente superavitaria**, principalmente por el turismo receptivo (ingresos de turistas extranjeros, mayoritariamente argentinos y brasileños) y la exportación de servicios empresariales y tecnológicos. Este superávit en servicios compensa parcialmente el déficit en la balanza de bienes en períodos de baja en los precios de los commodities.
-
----
 
 ## Balanza de rentas (renta primaria)
 
 La balanza de rentas suele ser **deficitaria** para Uruguay, dado el stock de inversión extranjera directa y de deuda externa pública y privada: los pagos de utilidades, dividendos e intereses al exterior superan a los ingresos por inversión uruguaya en el exterior.
 
----
-
 ## Transferencias corrientes (renta secundaria)
 
 Las remesas de uruguayos residentes en el exterior (principalmente en Argentina, Brasil, España y Estados Unidos) representan un ingreso de transferencias corrientes positivo, aunque de magnitud moderada.
-
----
 
 ## Balanza de pagos: cuenta corriente
 
 La cuenta corriente de Uruguay resulta de la suma de la balanza de bienes, la balanza de servicios, la balanza de rentas y las transferencias corrientes. Históricamente, Uruguay ha tenido una cuenta corriente deficitaria, financiada con ingresos de la cuenta financiera (inversión extranjera directa, endeudamiento externo público y privado).
 
 La IED en los complejos celulósicos (UPM, Montes del Plata), en el sector inmobiliario (Punta del Este, zonas francas) y en el sector energético (parques eólicos) son fuentes importantes de financiamiento de la cuenta corriente.
-
----
 
 ## Publicación y estadísticas
 
@@ -82,8 +68,6 @@ El **BCU** publica:
 **Uruguay XXI** publica:
 - Estadísticas mensuales de exportaciones e importaciones de bienes (con desglose por producto, destino y empresa exportadora).
 - Informes anuales de coyuntura del comercio exterior.
-
----
 
 ## Palabras clave
 

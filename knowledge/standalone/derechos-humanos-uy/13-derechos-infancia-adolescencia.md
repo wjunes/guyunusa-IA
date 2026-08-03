@@ -1,3 +1,5 @@
+# Derechos de la infancia y la adolescencia en Uruguay
+
 ## Resumen
 
 Uruguay ratificó la **Convención sobre los Derechos del Niño (CDN)** de la ONU en 1990. El sistema de protección de la infancia y la adolescencia está regulado por el **Código de la Niñez y la Adolescencia (Ley 17.823, 2004)** y el organismo rector es el **INAU (Instituto del Niño y Adolescente del Uruguay)**. Los avances en cobertura educativa, salud infantil y reducción de la mortalidad infantil son significativos. El principal desafío estructural es la **pobreza infantil**: en Uruguay los niños y adolescentes son el grupo etario con mayor incidencia de pobreza, lo que reproduce desigualdades intergeneracionales. Los programas **CAIF** (Centros de Atención a la Infancia y la Familia) son la política de primera infancia más consolidada del país.

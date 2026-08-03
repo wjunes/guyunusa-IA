@@ -36,8 +36,6 @@
 
 - Portal: https://www.jutep.gub.uy
 
----
-
 ## Normativa de referencia
 
 ### Legislación fundamental
@@ -76,8 +74,6 @@
 
 - **Ley 20.446/2025** — Presupuesto Nacional 2025-2029: https://www.impo.com.uy/bases/leyes/20446-2025
 
----
-
 ## Publicaciones oficiales de IMPO
 
 - **Registro Nacional de Leyes y Decretos** (RNLD), publicación semestral, desde 2007 en ePUB. IMPO, Montevideo. https://www.impo.com.uy/tienda/71-rnld
@@ -94,8 +90,6 @@
 
 - **Decreto 500/991 — Normas de Actuación en la Administración**. IMPO, Montevideo.
 
----
-
 ## Fuentes académicas y de referencia
 
 - **Durán Martínez, Augusto** — *Derecho Administrativo*. Varias ediciones. Referencia académica del derecho administrativo uruguayo.
@@ -107,8 +101,6 @@
 - **UNIT** (Instituto Uruguayo de Normas Técnicas) — Norma UNIT-ISO 9001:2015. Portal: https://www.unit.org.uy
 
 - **AENOR** — Certificación ER-0361/2021 (Sistema de Gestión de Calidad IMPO). https://www.aenor.com
-
----
 
 ## Recursos digitales complementarios
 

@@ -6,8 +6,6 @@ El **Sistema Estadístico Nacional (SEN)** es el conjunto de organismos, normas,
 
 El SEN no es un organismo único sino una red coordinada de productores de estadísticas distribuidos a lo largo de toda la Administración Pública, con el INE como eje central.
 
----
-
 ## Marco legal
 
 | Norma | Relevancia |
@@ -15,8 +13,6 @@ El SEN no es un organismo único sino una red coordinada de productores de estad
 | Ley 16.616/1994 | Crea el INE y el SEN; establece competencias y estructura |
 | Principios Fundamentales de las Estadísticas Oficiales de la ONU | Marco ético y técnico adoptado por el SEN |
 | Normas sectoriales de cada organismo | Marcos estadísticos específicos por área (salud, educación, agro, etc.) |
-
----
 
 ## Organismos integrantes del SEN
 
@@ -41,8 +37,6 @@ El SEN está integrado por el INE como rector y por un conjunto de organismos qu
 | **MINTUR** (Ministerio de Turismo) | Turismo receptivo, gasto turístico |
 | **Intendencias** | Estadísticas departamentales y municipales |
 
----
-
 ## Coordinación del SEN
 
 El INE coordina al SEN a través de:
@@ -51,8 +45,6 @@ El INE coordina al SEN a través de:
 - **Normas y metodologías comunes**: el INE establece estándares que todos los organismos deben respetar para garantizar la comparabilidad.
 - **Clasificadores estadísticos oficiales**: el INE aprueba y difunde las clasificaciones estadísticas estándar (CIIU, COICOP, CNPV, etc.) para que todos los organismos las usen.
 - **Plan Estadístico Nacional**: documento que programa la producción estadística del SEN para cada período.
-
----
 
 ## Clasificadores estadísticos
 
@@ -66,8 +58,6 @@ Los **clasificadores estadísticos** son sistemas de nomenclatura y codificació
 | CNAE | Clasificación Nacional de Actividades Económicas | Encuestas económicas |
 | CPC | Clasificación Central de Productos | Producción y comercio |
 
----
-
 ## Calidad estadística
 
 El SEN uruguayo aplica principios de **calidad estadística** basados en marcos internacionales:
@@ -79,13 +69,9 @@ El SEN uruguayo aplica principios de **calidad estadística** basados en marcos 
 - **Oportunidad**: las estadísticas deben publicarse en los plazos previstos.
 - **Accesibilidad**: los datos deben ser fácilmente accesibles para todos los usuarios.
 
----
-
 ## El SEN y los Objetivos de Desarrollo Sostenible (ODS)
 
 Uruguay utiliza el SEN como base para monitorear el cumplimiento de los **ODS de la Agenda 2030** de Naciones Unidas. El INE coordina con los organismos sectoriales la producción de los **indicadores ODS** acordados internacionalmente, publicados en el portal de datos abiertos.
-
----
 
 ## Palabras clave
 

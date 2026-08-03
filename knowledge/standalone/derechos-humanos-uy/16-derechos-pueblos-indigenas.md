@@ -1,3 +1,5 @@
+# Derechos de los pueblos indígenas en Uruguay
+
 ## Resumen
 
 Uruguay tiene una situación particular en materia de **derechos de los pueblos indígenas**: a diferencia de la mayoría de los países de América Latina, el Estado uruguayo históricamente sostuvo que no existían pueblos indígenas en su territorio, resultado del exterminio del pueblo **charrúa** en el siglo XIX. La **masacre de Salsipuedes** (1831), ordenada por el presidente Fructuoso Rivera, fue el episodio más brutal de este exterminio. En las últimas décadas, organizaciones que reivindican la **ascendencia charrúa** han impulsado el reconocimiento de los derechos indígenas en Uruguay, y existe un debate abierto sobre la herencia biológica y cultural charrúa en la población actual. Uruguay **no ha ratificado** el Convenio 169 de la OIT sobre Pueblos Indígenas y Tribales. El nombre **Guyunusa** —que da nombre a la IA a la que alimenta este repositorio— proviene de la lengua charrúa.

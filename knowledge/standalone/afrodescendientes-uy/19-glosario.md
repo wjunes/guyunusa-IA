@@ -2,8 +2,6 @@
 
 Términos, conceptos, instituciones y figuras clave de la historia y la cultura afrodescendiente en Uruguay.
 
----
-
 **Afrodescendiente**: Término que designa a las personas descendientes de africanos traídos al continente americano durante el período del tráfico transatlántico de esclavos. Adoptado internacionalmente a partir de la Conferencia de Durban (2001). En Uruguay, la auto-adscripción como afrodescendiente fue medida por primera vez en el Censo 2011.
 
 **Ansina (Manuel Antonio Ledesma)**: Hombre libre afrodescendiente, compañero fiel del General Artigas durante toda su vida, incluyendo el exilio en Paraguay. Sus restos reposan en el Mausoleo del Palacio Legislativo de Uruguay.

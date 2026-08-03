@@ -1,3 +1,5 @@
+# Política ambiental en Uruguay
+
 ## Resumen
 
 Uruguay tiene un **marco legal e institucional ambiental** construido progresivamente desde los años 1990, con avances significativos en las primeras décadas del siglo XXI. La **Ley General de Medio Ambiente** (Ley 17.283, 2000) es la norma fundamental. La Constitución incluye desde **2004** el derecho al agua como derecho humano (art. 47) y desde **1997** un reconocimiento al medio ambiente como bien de interés público. El **Ministerio de Ambiente** (creado en 2020, separado del anterior MVOTMA) es el organismo rector. Los instrumentos centrales de gestión ambiental son la **Evaluación de Impacto Ambiental (EIA)**, el **Sistema Nacional de Áreas Protegidas** y los sistemas de información y monitoreo. Uruguay participa activamente en los tratados ambientales internacionales.

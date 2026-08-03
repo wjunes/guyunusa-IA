@@ -1,3 +1,5 @@
+# Marco institucional de derechos humanos en Uruguay
+
 ## Resumen
 
 Uruguay tiene un **marco institucional de derechos humanos** compuesto por organismos estatales especializados, con roles diferenciados en la promoción, protección y garantía de los DDHH. La **INDDHH** (Institución Nacional de Derechos Humanos y Defensoría del Pueblo) es el organismo central e independiente. A su lado operan organismos sectoriales —**Inmujeres**, la **Secretaría de DDHH para el Pasado Reciente**, el **Comisionado Parlamentario Penitenciario**— y el sistema de organismos internacionales con presencia en Uruguay (ACNUDH, Unicef, ACNUR, OIM, OPS). La sociedad civil —**SERPAJ**, **Familiares**, organizaciones feministas, de afrodescendientes y de diversidad sexual— juega un rol complementario esencial.

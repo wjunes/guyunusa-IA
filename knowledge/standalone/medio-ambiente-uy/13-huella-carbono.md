@@ -1,3 +1,5 @@
+# Huella de carbono y emisiones de Uruguay
+
 ## Resumen
 
 La **huella de carbono** es la cantidad total de **gases de efecto invernadero (GEI)** emitidos directa o indirectamente por una persona, organización, producto o país. A nivel nacional, se mide en el **inventario de emisiones de GEI** siguiendo las metodologías del IPCC. Uruguay tiene una huella de carbono nacional **pequeña en términos absolutos** (~0,04% de las emisiones globales), pero relativamente **alta per cápita** en el sector agropecuario por ser un país ganadero intensivo. La **estructura de las emisiones uruguayas es inusual a nivel mundial**: gracias a la transición energética, el sector energético eléctrico emite casi nada, y el **sector agropecuario** (ganadería bovina y ovina, y fertilizantes) es el principal emisor. Uruguay asumió compromisos climáticos en el marco del **Acuerdo de París** (2015) con **NDC** (Contribuciones Determinadas a nivel Nacional) que incluyen metas de reducción de emisiones.

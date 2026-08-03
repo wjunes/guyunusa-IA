@@ -1,12 +1,8 @@
 # Glosario de Fenómenos Meteorológicos Severos
 
----
-
 ## Introducción
 
 Este glosario define los fenómenos meteorológicos severos más relevantes para Uruguay: su definición técnica, los umbrales operativos utilizados por INUMET, el mecanismo de formación y los impactos típicos. Complementa el glosario general (archivo `20-glosario.md`) con mayor detalle en los fenómenos de alto impacto.
-
----
 
 ## Criterios generales de severidad
 
@@ -21,15 +17,11 @@ Un fenómeno meteorológico se considera **severo** cuando supera umbrales de in
 
 *[VERIFICAR umbrales exactos por variable y nivel según protocolo vigente de INUMET]*
 
----
-
 ## A
 
 **Aguacero (chubasco):** Precipitación de lluvia intensa de corta duración y carácter convectivo. No existe un umbral universal único; en Uruguay se asocia a tasas > 20–30 mm/h. Puede ir acompañado de granizo y viento fuerte.
 
 **Arco de línea de turbonada (bow echo / arcus):** Estructura radar de reflectividad con forma de arco, asociada a una línea de turbonada (squall line) con vientos dañinos en superficie. Indica la presencia de una corriente descendente fuerte (*downdraft*) que puede producir ráfagas de hasta 100 km/h o más.
-
----
 
 ## B
 
@@ -42,8 +34,6 @@ Un fenómeno meteorológico se considera **severo** cuando supera umbrales de in
 | 1.000–2.500 J/kg | Alto; tormentas severas probables |
 | > 2.500 J/kg | Muy alto; potencial de tornados y granizo grande |
 
----
-
 ## C
 
 **Ciclogénesis extratropical:** Proceso de desarrollo o intensificación de un ciclón extratropical. En el Río de la Plata es frecuente la formación de ciclones que se intensifican rápidamente (*bombs*, o ciclogénesis explosiva), especialmente en invierno, produciendo lluvias intensas, vientos fuertes y agitación del mar.
@@ -54,8 +44,6 @@ Un fenómeno meteorológico se considera **severo** cuando supera umbrales de in
 
 **Cortante vertical del viento (wind shear):** Cambio de la velocidad y/o dirección del viento con la altura. La cortante entre los niveles bajo (~1 km) y medio (~6 km) de la atmósfera es el factor clave para la organización de tormentas severas y la formación de tornados. Altos valores de cortante favorecen supercélulas y tornados; bajos valores, tormentas menos organizadas.
 
----
-
 ## D
 
 **Derecho:** Fenómeno de vientos convectivos destructivos en línea recta, producidos por un sistema de tormentas organizado que se desplaza cientos de kilómetros. A diferencia de un tornado, los daños del derecho son amplios y en línea recta, no en forma de trayectoria estrecha y giratoria. Los derechos pueden producir ráfagas de > 100–130 km/h sobre franjas extensas.
@@ -63,8 +51,6 @@ Un fenómeno meteorológico se considera **severo** cuando supera umbrales de in
 **Downdraft (corriente descendente):** Corriente de aire que desciende dentro o en la periferia de una tormenta. Los downdrafts fríos y húmedos pueden generar ráfagas en superficie. El **microburst** es un downdraft especialmente intenso y concentrado (< 4 km de diámetro) que puede ser peligroso para la aviación.
 
 **Dryline:** Límite de humedad entre masas de aire seco continental y aire húmedo. Común en la región de la Pampa argentina y puede extenderse hasta Uruguay. Favorece el desencadenamiento de tormentas severas al anochecer.
-
----
 
 ## E
 
@@ -81,8 +67,6 @@ Un fenómeno meteorológico se considera **severo** cuando supera umbrales de in
 
 El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los daños observados [VERIFICAR clasificación final de INUMET].
 
----
-
 ## G
 
 **Granizo:** Precipitación en forma de piedras de hielo de diámetro ≥ 5 mm (pellets de menor tamaño se denominan granizo pequeño o nieve granulada). Se forma dentro de cumulonimbos con fuertes corrientes ascendentes que mantienen las partículas en suspensión mientras se acumula hielo en capas concéntricas.
@@ -90,8 +74,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 **Criterio de granizo severo (operativo):** INUMET considera el granizo severo cuando el diámetro de las piedras supera ciertos umbrales [VERIFICAR umbral exacto; referencia internacional común: ≥ 2,5 cm de diámetro]. El granizo severo daña cultivos, vehículos, cristales, cubiertas de edificios e infraestructura.
 
 **Frecuencia en Uruguay:** Mayor en norte y centro; estación de mayor frecuencia: setiembre–noviembre (primavera). Favorecido por masas de aire tropical inestable y cálido en niveles bajos con aire frío en altura.
-
----
 
 ## H
 
@@ -103,8 +85,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 
 **Helada de radiación:** Causada por el enfriamiento radiativo nocturno del suelo en noches despejadas y con viento débil. Más localizada y frecuente en valles y zonas bajas.
 
----
-
 ## I
 
 **Inundación pluvial:** Anegamiento por acumulación de agua de lluvia en zonas urbanas o rurales que no puede ser absorbida ni drenada rápidamente. Causada por lluvias intensas; no requiere desbordamiento de cursos de agua.
@@ -112,8 +92,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 **Inundación fluvial:** Desbordamiento de ríos o arroyos por acumulación de lluvias en la cuenca. Puede ocurrir horas o días después de las lluvias más intensas. Afecta principalmente zonas ribereñas.
 
 **Inundación costera:** Elevación del nivel del Río de la Plata o del mar por efecto de la Sudestada, oleaje o ciclones extratropicales. Afecta zonas costeras bajas de Montevideo, Canelones y Maldonado.
-
----
 
 ## L
 
@@ -123,8 +101,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 
 **LFC (Level of Free Convection):** Nivel de convección libre. Altura por encima del LCL a partir de la cual la parcela asciende libremente por flotabilidad positiva. Cuanto más bajo el LFC y mayor el CAPE, más fácil se desencadena la convección.
 
----
-
 ## M
 
 **MCS (Mesoscale Convective System):** Sistema convectivo de mesoescala. Complejo organizado de tormentas que se comportan como un sistema único. Puede cubrir áreas de cientos a miles de km², durar varias horas y producir precipitaciones extremas. Muy frecuentes en el este de América del Sur.
@@ -133,23 +109,17 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 
 **Microburst:** Corriente descendente muy intensa y concentrada (< 4 km de radio) dentro de una tormenta. Puede generar ráfagas en superficie de hasta 150–200 km/h. Peligroso para la aviación en despegues y aterrizajes.
 
----
-
 ## N
 
 **Niebla densa:** Niebla que reduce la visibilidad a menos de 200 m. INUMET emite alertas específicas para niebla densa, especialmente en el área metropolitana de Montevideo y las rutas del litoral.
 
 **Nowcasting:** Predicción del tiempo a muy corto plazo (0–2 horas), basada principalmente en imágenes de radar, satélite y observaciones de superficie. Es la escala de tiempo crítica para la alerta temprana de fenómenos severos.
 
----
-
 ## O
 
 **Ola de calor:** Período de días consecutivos con temperaturas anormalmente elevadas que representan un riesgo para la salud. Criterio operativo de INUMET: ≥ 3 días consecutivos con temperatura máxima ≥ 36 °C y temperatura mínima ≥ 22 °C [VERIFICAR]. Los más vulnerables son adultos mayores, niños pequeños, personas con enfermedades crónicas y trabajadores al aire libre.
 
 **Ola de frío:** Período de días consecutivos con temperaturas anormalmente bajas. Se asocia a invasiones de aire polar (Pampero severo). El criterio exacto varía según la región del país [VERIFICAR umbral de INUMET].
-
----
 
 ## P
 
@@ -163,8 +133,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 - **Señales previas:** Aumento de temperatura y humedad; tormentas eléctricas en el frente de tormenta previo
 
 **Pampero sucio:** Pampero precedido de lluvias y tormentas intensas, asociado a sistemas frontales activos. Opuesto al **Pampero seco**, que llega sin precipitaciones previas.
-
----
 
 ## S
 
@@ -183,8 +151,6 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 - **Duración:** 1–5 días
 - **Impacto:** Inundaciones costeras en Montevideo y Buenos Aires; oleaje; interrupción de la navegación en el Plata; daños en ramblas y construcciones costeras
 
----
-
 ## T
 
 **Temporal:** Combinación de vientos fuertes, precipitaciones intensas y, eventualmente, granizo o mal estado del mar. En Uruguay, los temporales más severos se asocian a líneas de inestabilidad o ciclones extratropicales en intensificación.
@@ -200,15 +166,11 @@ El tornado de Dolores (15/04/2016) fue estimado en **EF-2 o EF-3** según los da
 
 **Tromba marina (waterspout):** Tornado que se forma sobre el agua (mar o río). Generalmente de menor intensidad que los tornados terrestres. Se observan ocasionalmente sobre el Río de la Plata y la costa atlántica.
 
----
-
 ## V
 
 **Viento cortante (wind shear):** Ver *Cortante vertical del viento*.
 
 **Vientos katabáticos:** Vientos producidos por el enfriamiento del aire en pendientes elevadas (no habituales en Uruguay dado el relieve bajo, pero relevantes en el contexto de la región).
-
----
 
 ## Palabras clave
 

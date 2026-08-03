@@ -1,3 +1,5 @@
+# Infocorp — tecnología financiera de Uruguay
+
 ## Resumen
 
 **Infocorp** es una empresa uruguaya especializada en software para el sector bancario y financiero, con foco en **banca digital** (canales digitales, banca móvil, internet banking). A diferencia de Bantotal, que se concentra en el core bancario, Infocorp se especializa en la capa de **canales digitales** que los clientes del banco usan para interactuar con su banco (app móvil, web banking, onboarding digital). Opera en América Latina con clientes en múltiples países.

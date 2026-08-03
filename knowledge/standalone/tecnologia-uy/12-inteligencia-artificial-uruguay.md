@@ -1,3 +1,5 @@
+# Inteligencia artificial en Uruguay
+
 ## Resumen
 
 Uruguay está desarrollando una estrategia nacional de inteligencia artificial que combina la promoción de su uso productivo, el fortalecimiento de capacidades nacionales y un enfoque en el uso ético y responsable. El país tiene un ecosistema emergente de empresas especializadas en IA y machine learning —siendo Tryolabs la más reconocida internacionalmente—, y está incorporando la IA en sectores clave como salud, educación, agro y gobierno. Como referente latinoamericano en gobierno digital, Uruguay busca ser también referente regional en IA pública responsable, adoptando marcos como la Recomendación de la UNESCO sobre la Ética de la IA.

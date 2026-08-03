@@ -43,8 +43,6 @@
 | 2023 | Actualización del Acuerdo MERCOSUR-UE: incorpora protocolo de sostenibilidad medioambiental; pendiente de ratificación. |
 | 2023 | Rehabilitación del Ferrocarril Central: inauguración del servicio de cargas Montevideo–Paso de los Toros para el transporte de celulosa de UPM2. |
 
----
-
 ## Palabras clave
 
 línea de tiempo comercio exterior Uruguay, historia comercio exterior Uruguay, MERCOSUR creación 1991 Tratado Asunción, AEC arancel externo común 1994, celulosa Uruguay UPM Botnia 2007, grado inversor Uruguay 2012, acuerdo MERCOSUR UE 2019 2023, UPM2 2023 Uruguay, ALADI 1980 GATT OMC Uruguay, zonas francas Uruguay 1987, Ferrocarril Central Uruguay UPM

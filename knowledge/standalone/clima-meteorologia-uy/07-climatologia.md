@@ -1,12 +1,8 @@
 # Climatología del Uruguay
 
----
-
 ## Definición
 
 La **climatología** es la rama de las ciencias atmosféricas que estudia el **comportamiento estadístico** del clima en un lugar determinado durante períodos prolongados (mínimo 30 años según la OMM). Se basa en el análisis de las **series históricas** de observaciones meteorológicas para calcular **normas climatológicas**, identificar **tendencias** y caracterizar la **variabilidad** del clima.
-
----
 
 ## Normas climatológicas (Normals)
 
@@ -20,8 +16,6 @@ La **Organización Meteorológica Mundial (OMM)** establece que las normas clima
 | **1991–2020** | Nuevo período de referencia oficial (OMM, desde 2021) |
 
 El **INUMET** publica sus normas climatológicas basadas en la red de estaciones meteorológicas del país. El documento de referencia más reciente es el **Atlas Climático del Uruguay** [VERIFICAR año de la edición más reciente].
-
----
 
 ## Temperatura: normas climatológicas
 
@@ -44,8 +38,6 @@ El **INUMET** publica sus normas climatológicas basadas en la red de estaciones
 | **Anual** | **16,8** | **21,5** | **12,1** |
 
 *Valores aproximados basados en INUMET. Verificar con la publicación oficial del Atlas Climático.*
-
----
 
 ## Precipitación: normas climatológicas
 
@@ -84,8 +76,6 @@ El **INUMET** publica sus normas climatológicas basadas en la red de estaciones
 | Rocha (La Paloma) | ~1.200 |
 | Colonia del Sacramento | ~1.020 |
 
----
-
 ## Humedad relativa: normas climatológicas
 
 | Parámetro | Valor (Montevideo, aproximado) |
@@ -93,8 +83,6 @@ El **INUMET** publica sus normas climatológicas basadas en la red de estaciones
 | Humedad relativa media anual | ~78 % |
 | Mayor humedad (meses) | Mayo–agosto (otoño-invierno) ~80–85 % |
 | Menor humedad (meses) | Noviembre–febrero (primavera-verano) ~72–75 % |
-
----
 
 ## Horas de sol: normas climatológicas
 
@@ -116,8 +104,6 @@ El **INUMET** publica sus normas climatológicas basadas en la red de estaciones
 | Diciembre | ~290 |
 | **Anual** | **~2.500** |
 
----
-
 ## Viento: normas climatológicas
 
 | Parámetro | Valor (Montevideo) |
@@ -125,8 +111,6 @@ El **INUMET** publica sus normas climatológicas basadas en la red de estaciones
 | Velocidad media anual | ~20–25 km/h (~5–7 m/s) |
 | Dirección predominante | N–NE (verano); S–SO (invierno) |
 | Velocidad máxima de ráfaga registrada | [VERIFICAR récord Montevideo] |
-
----
 
 ## Balance hídrico climatológico
 
@@ -154,8 +138,6 @@ Para Montevideo (aproximado, normal 1981–2010):
 
 *Valores aproximados calculados con la fórmula de Thornthwaite.*
 
----
-
 ## Variabilidad climática interanual
 
 La precipitación en Uruguay presenta una **alta variabilidad interanual** ligada principalmente al **ENSO** (ver archivo 09-oceano-y-clima.md):
@@ -165,8 +147,6 @@ La precipitación en Uruguay presenta una **alta variabilidad interanual** ligad
 
 El **coeficiente de variación (CV)** de la precipitación mensual en Uruguay es alto (~30–50 % para meses individuales), lo que implica que los valores mensuales individuales pueden diferir significativamente de la normal.
 
----
-
 ## Índices climáticos
 
 | Índice | Descripción | Relevancia en Uruguay |
@@ -175,8 +155,6 @@ El **coeficiente de variación (CV)** de la precipitación mensual en Uruguay es
 | **PDSI** (Palmer Drought Severity Index) | Índice de severidad de la sequía que incorpora temperatura | Aplicación agronómica |
 | **NDVI** (Normalized Difference Vegetation Index) | Índice de vegetación por teledetección; indirecto de estado hídrico | Monitoreo de cobertura vegetal |
 | **SST** (Sea Surface Temperature) | Temperatura superficial del mar; clave para ENSO | Pronóstico estacional |
-
----
 
 ## Series históricas en Uruguay
 
@@ -190,8 +168,6 @@ Las series de observación más largas disponibles en Uruguay corresponden a est
 | Paysandú | ~1900s [VERIFICAR] |
 
 Las series históricas son mantenidas por INUMET y son de acceso público (con algunas restricciones) en el portal del organismo.
-
----
 
 ## Palabras clave
 

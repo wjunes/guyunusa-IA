@@ -6,8 +6,6 @@ Uruguay se divide en **19 departamentos**. Este archivo presenta fichas geográf
 
 Para información ampliada de cada departamento, véase el dominio **departamentos-uy** de la BNC-UY.
 
----
-
 ## 01 — Artigas
 
 | Parámetro | Dato |
@@ -19,8 +17,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Cuareim (frontera), Río Uruguay (oeste), Río Arapey (sur) |
 | **Economía** | Ganadería; arroz (Bella Unión); caña de azúcar (Bella Unión, ALUR); ágatas y amatistas |
 | **Otros hitos** | Ágatas y amatistas de Artigas (líder mundial); Bella Unión (extremo noroeste de Uruguay) |
-
----
 
 ## 02 — Canelones
 
@@ -34,8 +30,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Horticultura (principal productor hortícola); vitivinicultura (Tannat, Juanicó, Establecimiento Juanicó); lechería; industria; Aeropuerto Internacional Carrasco |
 | **Otros hitos** | Aeropuerto Internacional de Carrasco (MVD); Planta OSE Aguas Corrientes (cuenca Santa Lucía); segundo departamento más poblado (~570.000 hab.) |
 
----
-
 ## 03 — Cerro Largo
 
 | Parámetro | Dato |
@@ -47,8 +41,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Yaguarón (frontera norte), Río Tacuarí, Laguna Merín (este) |
 | **Economía** | Ganadería; arroz (cuenca del Tacuarí); minería (granito ornamental); frontera con Brasil |
 | **Otros hitos** | Ciudad fronteriza Rio Branco–Jaguarão; cuenca arrocera del Tacuarí |
-
----
 
 ## 04 — Colonia
 
@@ -62,8 +54,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Lechería; agricultura (trigo, soja); turismo histórico; colonias agrícolas (valdenses, suizo-alemanes) |
 | **Otros hitos** | Barrio Histórico de Colonia del Sacramento (UNESCO 1995); ferrys a Buenos Aires; Nueva Helvecia (colonia suizo-alemana, 1862); colonias valdenses (1856) |
 
----
-
 ## 05 — Durazno
 
 | Parámetro | Dato |
@@ -75,8 +65,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Negro y sus embalses (Bonete, Baygorria); Río Yi |
 | **Economía** | Ganadería extensiva; energía hidroeléctrica (represas); Festival de Folclore |
 | **Otros hitos** | Centro geográfico aproximado del Uruguay; Represa Rincón del Bonete (1945, ~160 MW) |
-
----
 
 ## 06 — Flores
 
@@ -90,8 +78,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Ganadería extensiva |
 | **Otros hitos** | Departamento más nuevo (creado 16/10/1901); segundo más pequeño en superficie; menos poblado (~25.000 hab.) |
 
----
-
 ## 07 — Florida
 
 | Parámetro | Dato |
@@ -103,8 +89,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Santa Lucía (nace aquí; Embalse Paso Severino); Río Yí |
 | **Economía** | Ganadería; lechería; agricultura |
 | **Otros hitos** | Declaración de la Independencia de Uruguay (25/08/1825, Sala de Representantes de Florida); Embalse Paso Severino (agua potable Montevideo) |
-
----
 
 ## 08 — Lavalleja
 
@@ -118,8 +102,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Ganadería; minería (granito, mármol; canteras de Minas); agua mineral (Nativa); turismo rural |
 | **Otros hitos** | Punto más alto de Uruguay (Cerro Catedral); Cerro Arequita (zona de escalada); Peregrinación al Verdún (santuario religioso); agua mineral Nativa |
 
----
-
 ## 09 — Maldonado
 
 | Parámetro | Dato |
@@ -131,8 +113,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Laguna del Sauce (agua potable); Laguna Garzón; Arroyo Solís Grande (límite oeste); Río Santa Lucía Chico |
 | **Economía** | Turismo de playa (Punta del Este, principal resort de América del Sur); ganadería; construcción; pesca |
 | **Otros hitos** | Punta del Este (turismo internacional); Casapueblo (Carlos Páez Vilaró); Isla de Lobos (SNAP, ~200.000 lobos marinos); "La Mano en la Arena" (Mario Irarrázabal, 1982); CURE (UdelaR) |
-
----
 
 ## 10 — Montevideo
 
@@ -146,8 +126,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Principal nodo económico del país: finanzas, comercio, industria, servicios, Puerto de Montevideo |
 | **Otros hitos** | Capital nacional; ~1.350.000 hab. (~40% de la población del país); Rambla (~22 km); Estadio Centenario (Mundial 1930); Puerto de Montevideo; Aeropuerto de Carrasco (en Canelones pero sirve a Montevideo); Ciudad Vieja (patrimonio histórico); Candombe UNESCO 2009 |
 
----
-
 ## 11 — Paysandú
 
 | Parámetro | Dato |
@@ -159,8 +137,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Uruguay (oeste); Río Queguay; Termas del Guaviyú (Acuífero Guaraní) |
 | **Economía** | Ganadería; citricultura; Maltería Uruguay (cebada maltera, Paysandú); forestación; turismo termal |
 | **Otros hitos** | Sitio de Paysandú (1864–65; Leandro Gómez); Puente Internacional Paysandú–Colón (Argentina); Julio Sosa ("el Varón del Tango", nacido en San José de Mayo pero vinculado al litoral); Termas del Guaviyú |
-
----
 
 ## 12 — Río Negro
 
@@ -174,8 +150,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Celulosa (UPM Fray Bentos); ganadería; lechería; forestación |
 | **Otros hitos** | Frigorífico Anglo de Fray Bentos (UNESCO 2015); UPM Fray Bentos (celulosa, ~880.000 t/año); Puente General San Martín (Fray Bentos–Puerto Unzué, AR); Esteros de Farrapos (Ramsar, SNAP); colonia San Javier (inmigrantes rusos, 1913) |
 
----
-
 ## 13 — Rivera
 
 | Parámetro | Dato |
@@ -187,8 +161,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Cuareim (noroeste), Río Tacuarembó (sur) |
 | **Economía** | Ganadería; forestación (eucaliptos); turismo de compras; Zona Franca de Rivera |
 | **Otros hitos** | Rivera–Santana do Livramento: ciudad binacional Uruguay-Brasil sin barreras físicas; Portuñol/DPU (lengua de frontera); Minas de Corrales (oro); Zona Franca de Rivera |
-
----
 
 ## 14 — Rocha
 
@@ -202,8 +174,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Ganadería; arroz; turismo (playas no masificadas; Cabo Polonio, La Pedrera, Punta del Diablo); pesca; soja |
 | **Otros hitos** | Bañados del Este (Ramsar 1984, primer sitio Ramsar de Uruguay); Cabo Polonio (SNAP, dunas, lobos marinos, faro); Palmar de Butiá (*Butia odorata*, VU; mayor concentración mundial); Fortaleza de San Miguel (1734); Barra del Chuy |
 
----
-
 ## 15 — Salto
 
 | Parámetro | Dato |
@@ -215,8 +185,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Uruguay; Río Arapey; Río Daymán; Embalse de Salto Grande |
 | **Economía** | Energía hidroeléctrica (Salto Grande); citricultura; ganadería; turismo termal |
 | **Otros hitos** | Represa de Salto Grande (CTM Uruguay-Argentina, ~1.890 MW, inaugurada 1979–1981); Termas del Daymán (mayor complejo termal del Uruguay); Puente Internacional Salto–Concordia; Luis Suárez (nacido en Salto, 24/01/1987) |
-
----
 
 ## 16 — San José
 
@@ -230,8 +198,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Lechería (cuenca sur de CONAPROLE); horticultura; ganadería |
 | **Otros hitos** | Cuenca lechera sur; Ciudad del Plata (expansión metropolitana de Montevideo); balnearios Kiyú y Playa Pascual |
 
----
-
 ## 17 — Soriano
 
 | Parámetro | Dato |
@@ -243,8 +209,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Uruguay; Río Negro; Río San Salvador |
 | **Economía** | Ganadería; lechería; soja y agricultura; fruticultura |
 | **Otros hitos** | Playa de la Agraciada: desembarco de los 33 Orientales (19/04/1825); Nuevo Berlín (colonia alemana) |
-
----
 
 ## 18 — Tacuarembó
 
@@ -258,8 +222,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Economía** | Ganadería extensiva sobre basalto; forestación; arándanos; turismo rural |
 | **Otros hitos** | Departamento más extenso de Uruguay (~15.438 km²); Festival de Folclore de Tacuarembó (mayor festival gaucho del país); controversia sobre el nacimiento de Carlos Gardel; Valle del Lunarejo (quebrada con vegetación de Mata Atlántica); Estación experimental INIA Tacuarembó |
 
----
-
 ## 19 — Treinta y Tres
 
 | Parámetro | Dato |
@@ -271,8 +233,6 @@ Para información ampliada de cada departamento, véase el dominio **departament
 | **Hidrografía** | Río Olimar, Río Cebollatí, Laguna Merín (este) |
 | **Economía** | Arroz (principal productor nacional); ganadería |
 | **Otros hitos** | Principal zona arrocera de Uruguay (cuenca del Olimar/Laguna Merín); Quebrada de los Cuervos (SNAP, tucán *Ramphastos toco*); Bañados del Este (Ramsar 1984); El Olimareño (cantautor José Luis Guerra); único departamento uruguayo con nombre numérico |
-
----
 
 ## Palabras clave
 

@@ -6,13 +6,9 @@ El despachante de aduana es el profesional habilitado por la DNA para actuar com
 
 El despachante firma el DUA en calidad de declarante, asumiendo responsabilidad solidaria con el importador o exportador por la veracidad de los datos declarados. Esta responsabilidad solidaria hace del despachante un actor clave en el control del cumplimiento aduanero: no puede limitarse a reproducir lo que le dice el cliente, sino que debe verificar la información y alertar sobre posibles incumplimientos.
 
----
-
 ## Marco legal
 
 La profesión de despachante de aduana está regulada por el **Decreto-Ley 15.691/1984** (Código Aduanero) y sus decretos reglamentarios. Las condiciones de habilitación, registro, suspensión y cancelación de la habilitación profesional están establecidas en la normativa de la DNA.
-
----
 
 ## Requisitos para la habilitación
 
@@ -26,8 +22,6 @@ Para ejercer como despachante de aduana en Uruguay, se requiere:
 
 No existe en Uruguay un título universitario obligatorio para ser despachante (a diferencia de algunos países que exigen estudios superiores en comercio exterior o derecho). La habilitación se obtiene por vía del examen de la DNA.
 
----
-
 ## Colegio y Asociación de Despachantes de Aduana (CADU)
 
 El Colegio y Asociación de Despachantes de Aduana del Uruguay (CADU) es la organización gremial que agrupa a los despachantes habilitados. El CADU:
@@ -38,8 +32,6 @@ El Colegio y Asociación de Despachantes de Aduana del Uruguay (CADU) es la orga
 - Emite opinión sobre proyectos de modificación de la normativa aduanera.
 
 Sitio institucional: http://www.cadu.org.uy/
-
----
 
 ## Funciones del despachante
 
@@ -68,8 +60,6 @@ Las funciones típicas del despachante de aduana incluyen:
 - Tramitar rectificaciones del DUA cuando sean necesarias.
 - Interponer recursos administrativos ante la DNA si hay discrepancias con el aforo.
 
----
-
 ## Responsabilidades y sanciones
 
 El despachante responde solidariamente con el importador o exportador por:
@@ -83,8 +73,6 @@ Las sanciones aplicables al despachante incluyen:
 
 Las infracciones más graves (contrabando, defraudación aduanera) pueden resultar en responsabilidad penal.
 
----
-
 ## Agentes de carga (freight forwarders) y agentes marítimos
 
 El despachante de aduana se distingue de otros actores del comercio exterior:
@@ -95,15 +83,11 @@ El despachante de aduana se distingue de otros actores del comercio exterior:
 
 **Transitario**: término genérico para el intermediario que organiza el transporte internacional. Puede actuar como agente de carga, agente marítimo y/o despachante.
 
----
-
 ## Digitalización de la profesión
 
 La informatización del despacho aduanero a través del sistema LUCIA ha transformado profundamente el trabajo del despachante. El trámite en papel ha sido prácticamente eliminado: las declaraciones se presentan electrónicamente, los pagos se realizan por transferencia bancaria o a través del sistema de pagos en línea, y el seguimiento del estado de la operación se hace en tiempo real.
 
 Este proceso ha aumentado la eficiencia y reducido los tiempos de despacho, pero también ha elevado los requisitos técnicos de la profesión: el despachante moderno debe dominar el sistema LUCIA, los procedimientos electrónicos de los organismos de control (MGAP, MSP, MIEM) y el uso de herramientas de clasificación arancelaria digital.
-
----
 
 ## Palabras clave
 

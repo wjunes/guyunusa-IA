@@ -1,3 +1,5 @@
+# Exportación de software y servicios tecnológicos de Uruguay
+
 ## Resumen
 
 Uruguay es el mayor exportador de software y servicios tecnológicos per cápita de América Latina. Las exportaciones del sector superaron los 800 millones de dólares anuales en 2021-2022, representando uno de los principales rubros de exportación del país. La combinación de incentivos fiscales poderosos (exoneración del IRAE para exportaciones), infraestructura de telecomunicaciones, talento calificado, huso horario conveniente y estabilidad institucional posicionó a Uruguay como hub de exportación tecnológica regional. Los principales destinos son EE.UU., Europa y América Latina, con modelos que van desde nearshoring de servicios hasta venta de productos de software (licencias, SaaS).

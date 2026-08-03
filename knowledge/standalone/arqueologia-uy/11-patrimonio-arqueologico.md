@@ -1,12 +1,8 @@
 # Patrimonio Arqueológico del Uruguay
 
----
-
 ## Definición
 
 El **patrimonio arqueológico** comprende los vestigios materiales de la actividad humana del pasado que no están documentados principalmente por registros escritos: sitios arqueológicos, objetos, estructuras y contextos que forman parte del patrimonio cultural de la nación. En Uruguay, el patrimonio arqueológico abarca desde los sitios del Pleistoceno final hasta los contextos históricos del siglo XIX.
-
----
 
 ## Marco institucional de protección
 
@@ -19,15 +15,11 @@ Otras instituciones con roles complementarios:
 - **Intendencias departamentales:** patrimonio de alcance departamental.
 - **Ministerio de Defensa:** patrimonio en áreas militares; arqueología subacuática.
 
----
-
 ## Registro de sitios arqueológicos
 
 El **Registro Nacional de Monumentos y Sitios Históricos** (administrado por la CPCN) incluye los sitios declarados Monumentos Históricos Nacionales (MHN), entre los que se cuentan sitios arqueológicos. Sin embargo, la mayoría de los sitios arqueológicos identificados en Uruguay no tienen declaración formal de protección.
 
 La CPCN mantiene un catálogo de sitios, aunque su sistematización y disponibilidad pública son limitadas. No existe (al 2023) un portal de acceso abierto y completo con el inventario del patrimonio arqueológico nacional.
-
----
 
 ## Sitios declarados Monumentos Históricos Nacionales (selección arqueológica)
 
@@ -39,8 +31,6 @@ La CPCN mantiene un catálogo de sitios, aunque su sistematización y disponibil
 | Arte rupestre de Chamangá | Flores | MHN [VERIFICAR decreto] | Prehispánico (cronología incierta) |
 | Calera de los Huérfanos | Colonia | MHN [VERIFICAR decreto] | Colonial (siglo XVIII) |
 | Grutas del Palacio | Flores | SNAP + [VERIFICAR MHN] | Geológico/Arqueológico |
-
----
 
 ## Protección de cerritos de indios
 
@@ -58,8 +48,6 @@ Los cerritos de indios son el tipo de sitio arqueológico más abundante del Uru
 - Los propietarios rurales desconocen frecuentemente la protección legal que los cubre.
 - La fiscalización del cumplimiento es difícil por la extensión del territorio y la dispersión de los sitios.
 - La ley no establece compensaciones claras para los propietarios que protegen sitios.
-
----
 
 ## Amenazas al patrimonio arqueológico
 
@@ -87,8 +75,6 @@ El **tráfico ilícito de bienes arqueológicos** está prohibido por la legisla
 
 Los sitios de arte rupestre (Chamangá) son especialmente vulnerables al vandalismo (pinturas superpuestas a los grabados, extracción de fragmentos de roca).
 
----
-
 ## Conservación y restauración
 
 ### Conservación en campo
@@ -106,15 +92,11 @@ Los objetos recuperados en excavaciones son conservados en los laboratorios del:
 
 Los tratamientos de conservación incluyen limpieza, consolidación, estabilización química y almacenamiento en condiciones controladas.
 
----
-
 ## Arqueología preventiva y patrimonio
 
 La **arqueología preventiva** (también llamada arqueología de contrato o de gestión) es el mecanismo por el cual se realizan estudios arqueológicos previos o simultáneos a obras de infraestructura o desarrollo urbano, como condición para la aprobación de la obra.
 
 En Uruguay, la arqueología preventiva está reglamentada de manera imperfecta. La normativa de evaluación de impacto ambiental (EIA) del **Ministerio de Ambiente** incluye entre sus consideraciones el patrimonio cultural, pero el procedimiento específico para la arqueología no está completamente formalizado.
-
----
 
 ## Palabras clave
 

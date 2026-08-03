@@ -4,8 +4,6 @@
 
 La **toponimia** —el estudio de los nombres de lugares— del Uruguay es una fuente fundamental para rastrear la presencia y distribución de los pueblos originarios. La gran mayoría de los nombres de ríos, arroyos, sierras, lagunas, localidades y departamentos del Uruguay tiene origen indígena, principalmente **guaraní**, con aportes menores de otras lenguas (charrúa, chaná) y del español colonial. El análisis toponímico aporta información sobre la distribución geográfica de los pueblos, sus categorías para el entorno natural, y los vectores del contacto con el mundo colonial.
 
----
-
 ## Las lenguas fuente de la toponimia uruguaya
 
 | Lengua | Origen | Alcance en la toponimia uruguaya |
@@ -20,8 +18,6 @@ El **dominio del guaraní** en la toponimia uruguaya se explica por varios facto
 - Las misiones jesuíticas reforzaron el uso del guaraní como lengua de comunicación en la región.
 - Los colonos españoles adoptaron muchos nombres guaraníes ya establecidos para los accidentes geográficos.
 - El guaraní fue durante el siglo XVII y XVIII una lingua franca en la cuenca del Plata.
-
----
 
 ## Nombres de departamentos con origen indígena
 
@@ -47,8 +43,6 @@ El **dominio del guaraní** en la toponimia uruguaya se explica por varios facto
 | **Tacuarembó** | **Guaraní:** *takuare'ẽ mbó* (caña brava larga/espinosa) o similar | Nombre con claro origen guaraní |
 | **Treinta y Tres** | Español (histórico) | No indígena |
 
----
-
 ## Nombres de ríos y arroyos con origen guaraní
 
 El guaraní es particularmente dominante en la hidrónimia (nombres de cuerpos de agua):
@@ -68,8 +62,6 @@ El guaraní es particularmente dominante en la hidrónimia (nombres de cuerpos d
 | **Cebollatí** | *Keboyllatí* o guaraní con influencia española | Rocha |
 | **Olimar** | Etimología debatida; posible guaraní | Treinta y Tres |
 
----
-
 ## Nombres de localidades con origen guaraní
 
 | Localidad | Departamento | Significado aproximado |
@@ -84,8 +76,6 @@ El guaraní es particularmente dominante en la hidrónimia (nombres de cuerpos d
 | **Yaguarón** | Canelones | Ver ríos |
 | **Ombúes de Lavalle** | Colonia | *Ombú*: árbol de origen guaraní (*ombú*) |
 
----
-
 ## Nombres de accidentes geográficos y localidades con otros posibles orígenes indígenas
 
 Algunos topónimos podrían tener origen en otras lenguas indígenas (charrúa, chaná), aunque la atribución es incierta por la escasez de documentación de esas lenguas:
@@ -94,8 +84,6 @@ Algunos topónimos podrían tener origen en otras lenguas indígenas (charrúa, 
 - **Charrúa (localidad):** Departamento de Canelones; nombre dado en memoria del pueblo.
 - **Chaná (localidad):** Departamento de Soriano; [VERIFICAR existencia].
 - Algunos investigadores señalan posibles charrúanismos en la toponimia, pero la documentación es escasa.
-
----
 
 ## Palabras con origen guaraní en el vocabulario del español uruguayo
 
@@ -120,8 +108,6 @@ Además de los topónimos, el guaraní legó al español del Uruguay (y del Río
 | **petunia** | *petý* (tabaco) + sufijo | Flor ornamental |
 | **yerba mate** | *ka'á* (yerba), *mate* (del quechua *mati*, recipiente) | Infusión; *mate* viene del quechua, pero la práctica es guaraní |
 
----
-
 ## El nombre "Uruguay"
 
 El topónimo más importante de origen indígena en el país es el nombre del propio **río Uruguay** y por extensión del **Estado uruguayo**:
@@ -131,8 +117,6 @@ El topónimo más importante de origen indígena en el país es el nombre del pr
 - **Otras interpretaciones:** "río de los caracoles de agua" (*uru* = caracol, *guay* = agua); "río de los pintados" (en referencia a ciertos peces); "río que corre hacia el mar".
 - Ninguna etimología ha sido aceptada definitivamente por todos los especialistas.
 
----
-
 ## Investigadores sobre toponimia indígena uruguaya
 
 | Investigador/a | Aportes principales |
@@ -141,8 +125,6 @@ El topónimo más importante de origen indígena en el país es el nombre del pr
 | **Academia Nacional de Letras** | Estudios lexicológicos sobre el español del Uruguay con atención a las fuentes indígenas |
 | **Renzo Pi Ugarte** | Historia de los pueblos indígenas con atención a la distribución territorial y los topónimos |
 | **Eduardo Acosta y Lara** | Investigación etnohistórica con referencias a la distribución geográfica de los grupos |
-
----
 
 ## Palabras clave
 

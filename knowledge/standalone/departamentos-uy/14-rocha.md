@@ -15,8 +15,6 @@
 | **Límites** | Treinta y Tres (norte), Cerro Largo (noreste), Brasil (noreste: Río Grande do Sul), Océano Atlántico (este), Maldonado (oeste), Lavalleja (noroeste) |
 | **Rutas principales** | Ruta 9, Ruta 10, Ruta 15 |
 
----
-
 ## Historia
 
 ### Colonización y período colonial
@@ -30,8 +28,6 @@ La **Laguna Merín** define parte de la frontera oriental del departamento con B
 ### Historia natural
 
 Rocha es históricamente el departamento más importante en cuanto a conservación de la naturaleza en Uruguay: los Bañados del Este, la Laguna de Rocha, el Cabo Polonio y los palmares de butiá son sus hitos naturales más reconocidos.
-
----
 
 ## Geografía
 
@@ -58,8 +54,6 @@ Rocha tiene la **costa atlántica más extensa y menos urbanizada de Uruguay**: 
 ### Clima
 
 Clima **templado oceánico** (Cfa), fuertemente influenciado por el Océano Atlántico. Temperatura media: ~17 °C. Inviernos suaves; veranos frescos para lo tropical. Vientos fuertes del sur y del este frecuentes.
-
----
 
 ## Naturaleza
 
@@ -96,8 +90,6 @@ Los **palmares de butiá** (*Butia odorata*) de Rocha —especialmente en torno 
 | **Parque Nacional San Miguel** | Área protegida histórica y natural; fortaleza de San Miguel |
 | **Isla de Torres** | Área costera [VERIFICAR] |
 
----
-
 ## Economía
 
 ### Perfil económico
@@ -112,8 +104,6 @@ Rocha tiene una economía basada en la ganadería extensiva, la pesca artesanal,
 | **Forestación** | Plantaciones de eucaliptos en el interior |
 | **Agropecuaria** | Arroceras en la cuenca del Cebollatí y Laguna Merín [VERIFICAR extensión] |
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -121,8 +111,6 @@ Rocha tiene una economía basada en la ganadería extensiva, la pesca artesanal,
 | **CURE – Centro Universitario Regional del Este** (UdelaR) | Sede en Rocha y Maldonado; carreras en Ecología, Turismo, Tecnología |
 | **CeRP del Este** [VERIFICAR existencia en Rocha] | Formación docente regional |
 | **Liceos y UTU** | Red ANEP departamental |
-
----
 
 ## Salud
 
@@ -132,8 +120,6 @@ Rocha tiene una economía basada en la ganadería extensiva, la pesca artesanal,
 | **Policlínicas ASSE** | Localidades costeras en temporada |
 | **Servicios privados** | Presencia limitada |
 
----
-
 ## Arquitectura y patrimonio
 
 | Edificio / Sitio | Descripción |
@@ -142,8 +128,6 @@ Rocha tiene una economía basada en la ganadería extensiva, la pesca artesanal,
 | **Faro de Cabo Polonio** | Faro histórico del siglo XIX; activo; hito visual del paisaje |
 | **Aldea de Cabo Polonio** | Conjunto de construcciones de pescadores; sin tendido eléctrico de red |
 | **Palacio Municipal de Rocha** | Sede de la Intendencia |
-
----
 
 ## Cultura
 
@@ -161,8 +145,6 @@ Rocha es reconocida en Uruguay y el exterior como el departamento de la **natura
 
 Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar de butiá: licor de butiá, mermeladas, dulces artesanales. Mariscos y pescados frescos en la costa.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -171,8 +153,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | **Surf, kite surf** | Playas atlánticas; Punta del Diablo, Cabo Polonio |
 | **Pesca deportiva** | Lagunas y costa atlántica |
 | **Avistamiento de aves (birdwatching)** | Actividad importante en los Bañados del Este |
-
----
 
 ## Turismo
 
@@ -188,8 +168,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | **Barra del Chuy** | Frontera con Brasil; comercio de frontera (free shops) |
 | **Aguas Dulces** | Playa apartada; arte rupestre cercano [VERIFICAR] |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -200,8 +178,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | **Puerto de La Paloma** | Puerto pesquero y recreativo |
 | **Barra del Chuy** | Paso fronterizo Uruguay–Brasil |
 | **OSE, UTE** | Servicios básicos; algunos balnearios con generación local |
-
----
 
 ## Instituciones
 
@@ -215,8 +191,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | **Municipio de Chuy** | Frontera con Brasil |
 | **DINAMA / Ministerio de Ambiente** | Oficinas locales de control ambiental |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -225,8 +199,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | **Luis Lacalle Pou** (Montevideo, 1973; familia de Rocha) | Política | Presidente de Uruguay 2020–2025 [VERIFICAR relación familiar con Rocha] |
 
 *Nota: Rocha es un departamento con menor densidad de personalidades célebres documentadas; se ampliará con fuentes locales [VERIFICAR].*
-
----
 
 ## Estadísticas
 
@@ -237,8 +209,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | Densidad | 7,6 hab./km² | INE |
 | Localidades principales | Rocha, La Paloma, Castillos, Chuy, Lascano | INE |
 
----
-
 ## Curiosidades
 
 - Los **Bañados del Este** fueron el **primer sitio Ramsar de Uruguay** (1984), y son uno de los sistemas de humedales más importantes de América del Sur.
@@ -246,8 +216,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 - **Cabo Polonio** es el único lugar de Uruguay al que no se puede llegar en vehículo propio desde la ruta; el acceso es exclusivamente a pie o en vehículos habilitados desde la Ruta 10.
 - La costa atlántica de Rocha tiene las **playas más salvajes y menos urbanizadas del Uruguay**, siendo un destino de turismo alternativo y naturaleza.
 - **Punta del Diablo** pasó de ser un pequeño pueblo de pescadores a convertirse, en las últimas dos décadas, en uno de los destinos más de moda del Río de la Plata para el turismo alternativo y joven.
-
----
 
 ## Cronología
 
@@ -259,8 +227,6 @@ Pesca artesanal: corvina, lenguado, brósmio. Asado ganadero. Frutos del palmar 
 | 2000 | Ley 17.234: incorporación de áreas de Rocha al SNAP (Cabo Polonio, Laguna de Rocha) |
 | 2000s | Crecimiento de Punta del Diablo y La Paloma como destinos turísticos alternativos |
 | 2009 | Expansión del SNAP con nuevas áreas en Rocha |
-
----
 
 ## Palabras clave
 

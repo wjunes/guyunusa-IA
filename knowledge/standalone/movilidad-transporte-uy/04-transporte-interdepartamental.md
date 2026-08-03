@@ -6,8 +6,6 @@ El transporte interdepartamental de pasajeros en Uruguay se refiere a los servic
 
 La regulación del transporte interdepartamental es competencia de la **Dirección Nacional de Transporte (DNT)** del **Ministerio de Transporte y Obras Públicas (MTOP)**.
 
----
-
 ## Marco regulatorio
 
 ### Competencias del MTOP
@@ -25,8 +23,6 @@ El MTOP, a través de la Dirección Nacional de Transporte (DNT), es el organism
 
 La normativa de transporte interdepartamental se sustenta en el **Decreto-Ley 15.562/1984** (modificado posteriormente) y en disposiciones complementarias del MTOP. Los servicios regulares de transporte terrestre de pasajeros deben operar bajo permiso gubernamental con condiciones definidas de recorrido, frecuencia y tarifa.
 
----
-
 ## Terminal Tres Cruces
 
 La **Terminal de Ómnibus Tres Cruces** es la principal terminal de transporte interdepartamental e internacional del Uruguay. Está ubicada en Montevideo, en la intersección del **Bulevar General Artigas** y **Avenida del Libertador** (antes Avenida Italia), en el barrio del mismo nombre.
@@ -42,8 +38,6 @@ La **Terminal de Ómnibus Tres Cruces** es la principal terminal de transporte i
 ### Función en el sistema
 
 Tres Cruces centraliza la salida y llegada de todos los servicios regulares interdepartamentales e internacionales desde y hacia Montevideo. Es el nodo de mayor afluencia del sistema de transporte de larga distancia en el país.
-
----
 
 ## Terminales departamentales
 
@@ -61,8 +55,6 @@ Cada capital departamental cuenta con una terminal de ómnibus que funciona como
 | Treinta y Tres | Treinta y Tres | Servicios nacionales |
 | Rocha | Rocha | Servicios nacionales, alta demanda estacional |
 
----
-
 ## Servicios regulares nacionales
 
 Los servicios regulares interdepartamentales conectan Montevideo con todos los departamentos del país, así como las capitales departamentales entre sí. Los principales corredores de servicio son:
@@ -77,8 +69,6 @@ Los servicios regulares interdepartamentales conectan Montevideo con todos los d
 | Corredor Sur-Este Costero | Ruta 10 | La Paloma, La Pedrera, Valizas |
 
 Las frecuencias de los servicios varían según la demanda: los corredores de mayor tráfico (norte, litoral, este) cuentan con varias salidas diarias; los corredores de menor demanda pueden tener una o dos salidas por día.
-
----
 
 ## Servicios internacionales
 
@@ -105,8 +95,6 @@ Los servicios hacia Brasil se realizan por los pasos fronterizos terrestres:
 
 Los servicios internacionales de mayor volumen son los que conectan Montevideo con Buenos Aires y con Porto Alegre / São Paulo (Brasil).
 
----
-
 ## Estacionalidad de la demanda
 
 El transporte interdepartamental experimenta variaciones estacionales marcadas:
@@ -114,8 +102,6 @@ El transporte interdepartamental experimenta variaciones estacionales marcadas:
 - **Temporada estival (diciembre–marzo)**: aumento significativo de la demanda hacia la costa este (Maldonado, Rocha) y las localidades balnearias.
 - **Feriados y semana de turismo**: picos de demanda en todos los corredores.
 - **Retorno a las ciudades del interior**: flujos migratorios de trabajadores y estudiantes.
-
----
 
 ## Condiciones del servicio
 
@@ -129,8 +115,6 @@ Los vehículos habilitados para el transporte interdepartamental deben cumplir r
 - Revisión técnica vehicular periódica
 
 Los conductores deben poseer licencia profesional habilitante y cumplir con los límites de horas de conducción establecidos por la normativa.
-
----
 
 ## Palabras clave
 

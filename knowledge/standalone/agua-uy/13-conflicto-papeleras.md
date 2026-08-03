@@ -49,7 +49,17 @@ El fallo fue interpretado como un resultado **parcial para cada parte**: Argenti
 
 ## El monitoreo ambiental posterior
 
-Tras el fallo, Argentina y Uruguay acordaron establecer un **sistema de monitoreo ambiental conjunto** del Río Uruguay, coordinado a través de la CARU. Este sistema registra regularmente la calidad del agua, los sedimentos y la biota del río en tramos adyacentes a la planta.
+Tras el fallo, Argentina y Uruguay acordaron establecer un **sistema de monitoreo ambiental conjunto** del Río Uruguay a través del **Comité Científico** creado en el seno de la CARU (Acuerdo Presidencial de Olivos, 28 de julio de 2010). El Comité Científico tiene dirección técnica sobre todos los programas de monitoreo relacionados con la planta UPM.
+
+### Programas de monitoreo activos (a julio de 2026)
+
+**Monitoreo en la Planta Orión (UPM):** frecuencia mensual desde junio de 2011. Releva el efluente descargado y lo compara con la normativa aplicable. Informes anuales publicados en caru.org.uy (disponibles: 2021, 2022, 2023; también un informe de incumplimientos 2011-2021).
+
+**Monitoreo del Río Uruguay en la zona de influencia de UPM:** reformulado en 2019. Incluye: calidad de agua en 6 puntos (trimestral); sedimentos en 3 puntos (semestral); bioacumulación y crecimiento de almejas en jaulas (semestral); salud de comunidades de peces (semestral); toxicidad para zooplancton, crustáceos y peces (trimestral); boya perfiladora multiparamétrica que registra cada 30 minutos.
+
+**Monitoreo en la desembocadura del Río Gualeguaychú:** mensual desde junio de 2011. Informes anuales publicados (2021, 2022, 2023).
+
+Los análisis se realizan en laboratorios de Argentina (INA, INTA, UNL, UNER), Uruguay (UdelaR, LATU, laboratorio CARU en Fray Bentos) y Canadá (PacificRim, Exova, Econ-tech).
 
 A julio de 2026, la planta —rebautizada **UPM** tras la adquisición de Botnia por UPM-Kymmene— sigue operando en Fray Bentos. La segunda planta de UPM se instaló en **Paso de los Toros** (Durazno), sobre el Río Negro, con autorización uruguaya y sin el mismo nivel de conflicto binacional (no sobre el Río Uruguay fronterizo).
 

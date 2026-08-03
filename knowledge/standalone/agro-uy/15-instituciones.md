@@ -4,8 +4,6 @@
 
 El sector agropecuario uruguayo cuenta con un sistema institucional público y privado bien articulado que abarca la regulación, la investigación, la extensión rural, la sanidad, la comercialización y la representación gremial. A continuación se describen las principales instituciones con sus objetivos, competencias, historia e impacto.
 
----
-
 ## Ministerio de Ganadería, Agricultura y Pesca (MGAP)
 
 - **Creación:** 1947 (como Ministerio de Ganadería y Agricultura; posteriormente incorporó Pesca).
@@ -22,8 +20,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
   - **DINARA** (Dirección Nacional de Recursos Acuáticos): pesca y acuicultura.
 - **Impacto:** Define la política sectorial, regula el acceso a mercados, certifica exportaciones y financia programas de desarrollo rural.
 
----
-
 ## Instituto Nacional de Investigación Agropecuaria (INIA)
 
 - **Creación:** Ley 16.065 del **6 de octubre de 1989**.
@@ -33,8 +29,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Objetivo:** generar, adaptar y transferir tecnología agropecuaria; contribuir al desarrollo sostenible del sector.
 - **Áreas:** mejoramiento vegetal y animal, manejo de suelos y agua, sanidad, sistemas de producción, biotecnología.
 - **Impacto:** Variedades de arroz (INIA Tacuarí, INIA Olimar), trigo, cebada, pasturas; tecnologías de manejo de suelos; diagnóstico y control de enfermedades. *(Ver archivo 14-investigacion-e-innovacion.md)*
-
----
 
 ## Instituto Nacional de Carnes (INAC)
 
@@ -49,8 +43,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Competencias:** habilitación de establecimientos frigoríficos, inspección veterinaria en plantas, categorización de carnes, sistema de tipificación de carcasas.
 - **Impacto:** Uruguay exporta carne a más de 100 países gracias al reconocimiento internacional de las certificaciones del INAC.
 
----
-
 ## Instituto Nacional de Vitivinicultura (INAVI)
 
 - **Creación:** Ley 15.876 de **1987**.
@@ -62,8 +54,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
   - Gestionar las denominaciones de origen e indicaciones geográficas.
 - **Competencias:** registro de viñedos, bodegas y enólogos; análisis de vinos; combate al fraude enológico.
 - **Impacto:** Organizó y profesionalizó el sector vitivinícola; apoyó la reconversión hacia variedades finas; promovió el Tannat como variedad emblema.
-
----
 
 ## Instituto Nacional de la Leche (INALE)
 
@@ -77,8 +67,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
   - Proponer políticas sectoriales y mediar entre productores e industria.
 - **Impacto:** Sistematización de información láctea; referencias de precios al productor; mediación en conflictos de precio.
 
----
-
 ## Instituto Nacional de Semillas (INASE)
 
 - **Creación:** Ley 16.811 de **1997**.
@@ -91,8 +79,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Competencias:** Registro Nacional de Cultivares Protegidos; Laboratorio de Análisis de Semillas (LASE); inspección en campo y en comercio.
 - **Impacto:** Garantiza al agricultor la calidad y la identidad de las semillas; protege la inversión en mejoramiento genético vegetal.
 
----
-
 ## Plan Agropecuario
 
 - **Creación:** Ley 16.736 de **1996**; reformado por Ley 17.930 de **2005**.
@@ -103,8 +89,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Revista:** *El País Agropecuario* y publicaciones técnicas periódicas.
 - **Impacto:** Principal organismo de extensión rural del Estado; llega a miles de productores anualmente.
 
----
-
 ## Colonización (Instituto Nacional de Colonización)
 
 - **Creación:** Ley 11.029 de **1948**.
@@ -112,8 +96,6 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Objetivo:** Fraccionar y distribuir tierras del Estado entre pequeños productores familiares, especialmente jóvenes y familias sin tierra.
 - **Patrimonio:** Administra tierras adquiridas por el Estado para colonización.
 - **Impacto:** Ha instalado miles de colonos en tierras del interior del país a lo largo de décadas.
-
----
 
 ## Asociación Rural del Uruguay (ARU)
 
@@ -123,16 +105,12 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Actividades:** Organización de la **Expo Prado** (principal feria agropecuaria del país, celebrada anualmente en Montevideo); defensa de los intereses del sector; capacitación y difusión.
 - **Expo Prado:** la exposición agropecuaria más importante de Uruguay; se celebra en el **Prado** (Montevideo) en primavera desde 1872.
 
----
-
 ## Federación Rural del Uruguay (FR)
 
 - **Fundación:** 1915.
 - **Sede:** Montevideo.
 - **Naturaleza:** Organización gremial privada de productores; agrupa a sociedades rurales departamentales.
 - **Actividades:** Defensa gremial de los productores rurales; exposiciones departamentales.
-
----
 
 ## Comisión Nacional de Fomento Rural (CNFR)
 
@@ -142,14 +120,10 @@ El sector agropecuario uruguayo cuenta con un sistema institucional público y p
 - **Objetivo:** Representar y apoyar al pequeño y mediano productor familiar rural; promover el cooperativismo y el asociativismo.
 - **Impacto:** Red de 120+ Sociedades de Fomento Rural en todo el país.
 
----
-
 ## Cooperativas Agrarias Federadas (CAF)
 
 - Organización que agrupa a las cooperativas agrarias del Uruguay.
 - Brinda servicios a sus cooperativas afiliadas en áreas de gestión, capacitación y representación.
-
----
 
 ## Palabras clave
 

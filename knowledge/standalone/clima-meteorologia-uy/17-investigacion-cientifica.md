@@ -1,12 +1,8 @@
 # Investigación Científica en Meteorología y Climatología en Uruguay
 
----
-
 ## Panorama general
 
 La investigación meteorológica y climatológica en Uruguay es llevada a cabo principalmente por instituciones académicas públicas y por INUMET. Si bien Uruguay es un país de tamaño mediano con recursos limitados para la investigación científica, cuenta con grupos activos y reconocidos internacionalmente, especialmente en climatología regional, variabilidad climática (ENSO), hidrología, modelación numérica y cambio climático.
-
----
 
 ## Principales instituciones de investigación
 
@@ -27,8 +23,6 @@ El **DCAO** es el principal centro académico de investigación en meteorología
 - **Mario Bidegain:** Climatología de Uruguay; series históricas; variabilidad climática; proyecciones de cambio climático. Referencia clave en estudios de temperatura y precipitación de Uruguay. [VERIFICAR afiliación actual]
 - **Otros investigadores:** [VERIFICAR lista actualizada del DCAO — los nombramientos y afiliaciones cambian]
 
----
-
 ### IMFIA — Instituto de Mecánica de los Fluidos e Ingeniería Ambiental (Facultad de Ingeniería, Udelar)
 
 El **IMFIA** es el principal instituto de investigación en hidrometeorología, modelación numérica del tiempo y el clima, y aplicaciones ingenieriles de la meteorología en Uruguay.
@@ -41,8 +35,6 @@ El **IMFIA** es el principal instituto de investigación en hidrometeorología, 
 | **Proyectos destacados** | Modelación regional del clima para Uruguay; proyectos de energía renovable con UTE; colaboración con SMN Argentina y CPTEC/INPE |
 | **Cooperación** | INUMET; DINAGUA; UTE (Administración Nacional de Usinas y Trasmisiones Eléctricas); ADME; CPTEC/INPE Brasil; SMN Argentina |
 
----
-
 ### INUMET — Área de Investigación y Desarrollo
 
 Además de sus funciones operativas, INUMET desarrolla investigación aplicada orientada a:
@@ -52,8 +44,6 @@ Además de sus funciones operativas, INUMET desarrolla investigación aplicada o
 - Proyecciones climáticas para Uruguay.
 - Seguimiento del ENSO y variabilidad climática.
 - Participación en proyectos de cooperación internacional.
-
----
 
 ### Otras instituciones con actividad de investigación meteorológica/climática
 
@@ -65,8 +55,6 @@ Además de sus funciones operativas, INUMET desarrolla investigación aplicada o
 | **Facultad de Arquitectura, Diseño y Urbanismo (FADU)** | Climatología urbana; confort térmico; isla de calor |
 | **Ministerio de Ambiente (MA)** | Política climática; inventario de GEI; comunicaciones al IPCC |
 | **SOHMA** | Oceanografía física; climatología marina |
-
----
 
 ## Líneas de investigación activas
 
@@ -113,8 +101,6 @@ El IMFIA y DINAGUA colaboran en el desarrollo de sistemas de pronóstico hidrol�
 - **Confort térmico:** índices bioclimáticos; aplicaciones en planificación urbana.
 - **Fenología:** tendencias en la fecha de primera y última helada; inicio de la primavera fenológica.
 
----
-
 ## Formación de recursos humanos en meteorología y climatología
 
 Uruguay forma meteorólogos y climatólogos principalmente en:
@@ -123,8 +109,6 @@ Uruguay forma meteorólogos y climatólogos principalmente en:
 - **Posgrados:** Maestría y Doctorado en Ciencias (Facultad de Ciencias); Posgrado en Ingeniería Ambiental (Facultad de Ingeniería) con especialización en hidrometeorología [VERIFICAR programas vigentes].
 - **Formación técnica en INUMET:** Capacitación operativa interna y mediante cooperación con la OMM (cursos regionales en el CIMMET —Centro Internacional de Meteorología y Meteorología Tropical— u otros centros de la OMM).
 - **Becas y estadías en el exterior:** Investigadores y técnicos han realizado posgrados y estadías de investigación en ECMWF, NCAR, CIMA (Argentina), LTHE (Grenoble), entre otros.
-
----
 
 ## Publicaciones científicas relevantes
 
@@ -138,8 +122,6 @@ Los investigadores uruguayos publican principalmente en revistas indexadas inter
 - *Natural Hazards and Earth System Sciences*
 
 Además, producen reportes técnicos para organismos nacionales (INUMET, Ministerio de Ambiente, MGAP) y publicaciones de divulgación.
-
----
 
 ## Palabras clave
 

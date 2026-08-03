@@ -4,8 +4,6 @@
 
 La **horticultura** y la **fruticultura** uruguayas abastecen principalmente el mercado interno y tienen una importante función social, al sostener a miles de productores familiares en zonas periurbanas y rurales. Aunque la producción no alcanza grandes volúmenes exportables en la mayoría de los rubros (con excepción de los cítricos), el sector es fundamental para la seguridad alimentaria, el empleo rural y la diversidad del sistema agroalimentario del país.
 
----
-
 ## Horticultura
 
 ### Características generales
@@ -41,8 +39,6 @@ La **horticultura** y la **fruticultura** uruguayas abastecen principalmente el 
 - Crecimiento del sector de producción hortícola orgánica, certificada o en transición.
 - Red de ferias agrológicas y mercados orgánicos en Montevideo y ciudades del interior.
 - MGAP regula y promueve la producción orgánica.
-
----
 
 ## Fruticultura
 
@@ -106,8 +102,6 @@ La **citricultura** es el rubro frutícola más importante de Uruguay por su val
 - Producción bajo cubierta y al aire libre; principalmente en Canelones y Salto.
 - Consumo en fresco e industria conservera.
 
----
-
 ## Olivicultura
 
 - La **olivicultura** es un rubro en crecimiento desde los años 2000:
@@ -117,8 +111,6 @@ La **citricultura** es el rubro frutícola más importante de Uruguay por su val
 - Departamentos: Colonia, Canelones, Maldonado, Paysandú.
 - El **MGAP** y la **Cámara Olivícola Uruguaya** apoyan el desarrollo del sector.
 
----
-
 ## Instituciones y apoyo al sector
 
 - **Plan Agropecuario:** extensión rural y asistencia técnica a productores hortifrutícolas.
@@ -126,8 +118,6 @@ La **citricultura** es el rubro frutícola más importante de Uruguay por su val
 - **LATU:** control de calidad e inocuidad alimentaria.
 - **MGAP-DIGEGRA:** regulación sanitaria vegetal.
 - **INASE:** certificación de semillas y materiales de propagación.
-
----
 
 ## Palabras clave
 

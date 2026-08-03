@@ -1,3 +1,5 @@
+# Instituto Nacional de las Mujeres (INMUJERES)
+
 ## Resumen
 
 El **Instituto Nacional de las Mujeres (Inmujeres)** es el organismo del Estado uruguayo rector de las **políticas de género** y de derechos de la mujer. Dependiente del **Ministerio de Desarrollo Social (MIDES)**, fue creado en **2005** como parte de la estructura del recién creado MIDES durante el primer gobierno del Frente Amplio. Sus funciones incluyen la elaboración y coordinación del **Plan Nacional de Igualdad** entre hombres y mujeres, la prevención y atención de la **violencia basada en género**, el empoderamiento económico de las mujeres, y la transversalización de la perspectiva de género en toda la administración pública.

@@ -1,3 +1,5 @@
+# Figuras destacadas de los derechos humanos en Uruguay
+
 ## Resumen
 
 **Elena Quinteros Almeida** (Montevideo, 1945 – desaparecida desde 1976) es el caso más emblemático y simbólico de las desapariciones forzadas ocurridas durante la dictadura uruguaya. Maestra y militante del **Partido por la Victoria del Pueblo (PVP)**, fue detenida y torturada en Uruguay, logró fugarse y buscar refugio en la **Embajada de Venezuela en Montevideo** el **28 de junio de 1976** (un día después del tercer aniversario del golpe de Estado). Ante la mirada de funcionarios venezolanos, fue **violentamente arrancada de los jardines de la embajada** por agentes uruguayos y volvió a caer en manos de la dictadura. Su madre, **Olimpia Quinteros**, luchó durante décadas por conocer su destino. Elena Quinteros nunca fue encontrada y su caso generó una crisis diplomática entre Uruguay y Venezuela, además de convertirse en símbolo internacional de los crímenes de la dictadura.
@@ -46,8 +48,6 @@ El caso de Elena Quinteros tiene un peso simbólico particular por varias razone
 - La violación de la soberanía de una embajada —un acto audaz incluso para una dictadura— mostró la extensión e impunidad de la represión.
 - La figura de Olimpia Quinteros es un símbolo de la resistencia de los familiares.
 - El caso fue citado en instancias internacionales como ejemplo del nivel de los crímenes de la dictadura uruguaya.
-
----
 
 ## Resumen
 

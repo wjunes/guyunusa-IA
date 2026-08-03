@@ -4,8 +4,6 @@
 
 La Administración Pública uruguaya tiene sus raíces en el período colonial y se desarrolló progresivamente desde la independencia hasta conformar un Estado de bienestar temprano en América Latina. Su evolución refleja las transformaciones políticas, económicas y sociales del país a lo largo de casi dos siglos.
 
----
-
 ## Período colonial y primeras décadas (1724–1830)
 
 Durante el período colonial, el territorio que hoy es Uruguay dependía administrativamente del Virreinato del Río de la Plata. Montevideo, fundada en 1724, fue sede del Cabildo —primera institución administrativa local— que ejercía funciones de gobierno municipal, justicia y orden público.
@@ -13,8 +11,6 @@ Durante el período colonial, el territorio que hoy es Uruguay dependía adminis
 Con la Revolución Oriental (1811) y la declaración de independencia (1825), Uruguay inició la construcción de sus instituciones estatales propias.
 
 La Constitución de 1830 fue el fundamento jurídico del nuevo Estado. Estableció los tres poderes (Ejecutivo, Legislativo, Judicial) y creó las bases de la Administración Central.
-
----
 
 ## El Estado decimonónico (1830–1900)
 
@@ -31,8 +27,6 @@ En la segunda mitad del siglo XIX, el Estado uruguayo fue expandiendo sus funcio
 
 La mayor parte de los funcionarios del siglo XIX accedían a sus cargos por vínculos políticos o personales, sin sistemas de mérito ni carrera administrativa formal.
 
----
-
 ## El batllismo y el Estado de bienestar (1903–1930)
 
 Las presidencias de José Batlle y Ordóñez (1903–1907 y 1911–1915) marcaron una transformación profunda del Estado uruguayo:
@@ -44,8 +38,6 @@ Las presidencias de José Batlle y Ordóñez (1903–1907 y 1911–1915) marcaro
 
 Este período estableció el modelo de un Estado interventor y prestador de servicios que caracterizaría a Uruguay durante el siglo XX.
 
----
-
 ## Consolidación y crecimiento del aparato estatal (1930–1967)
 
 Entre 1930 y 1967, el Estado uruguayo continuó expandiéndose:
@@ -54,8 +46,6 @@ Entre 1930 y 1967, el Estado uruguayo continuó expandiéndose:
 - **Crecimiento del empleo público**: Uruguay desarrolló un sector público extenso como mecanismo de integración social y amortiguador del mercado de trabajo.
 - **Creación de entes autónomos y servicios descentralizados**: ANCAP (1931), ANTEL (1931), OSE (1952), AFE (1952).
 - **Constitución de 1952**: estableció el Consejo Nacional de Gobierno (colegiado) en lugar del Presidente, vigente hasta 1967.
-
----
 
 ## La Constitución de 1967 y las reformas institucionales
 
@@ -67,8 +57,6 @@ La **Constitución de 1967** —vigente con modificaciones— es el marco instit
 - Creación de la **Oficina Nacional del Servicio Civil (ONSC)** (Ley 13.640/1967) para gestionar el empleo público.
 - Establecimiento del **Tribunal de lo Contencioso Administrativo (TCA)** como órgano jurisdiccional especializado en materia administrativa.
 
----
-
 ## La dictadura y sus efectos en la Administración Pública (1973–1985)
 
 El golpe de Estado cívico-militar de 1973 interrumpió el orden constitucional. Durante la dictadura (1973–1985):
@@ -79,8 +67,6 @@ El golpe de Estado cívico-militar de 1973 interrumpió el orden constitucional.
 - El Estado fue instrumentado al servicio del régimen, afectando la carrera administrativa, la independencia institucional y los derechos de los funcionarios.
 
 Con el retorno a la democracia (1985), el Gobierno de Julio María Sanguinetti procedió a la restitución de funcionarios destituidos y la normalización institucional.
-
----
 
 ## Reforma del Estado y modernización (1985–2010)
 
@@ -98,8 +84,6 @@ En el marco de las reformas estructurales de la región, Uruguay adoptó medidas
 - **Ley 18.046/2006**: Presupuesto Nacional 2005–2009 con enfoque de gestión por resultados.
 - **Ley 18.172/2007**: inicio formal del sistema de gestión por resultados en el sector público.
 
----
-
 ## Modernización digital y gobierno abierto (2005–presente)
 
 Desde 2005, la modernización del Estado uruguayo se aceleró con la incorporación de herramientas digitales:
@@ -111,8 +95,6 @@ Desde 2005, la modernización del Estado uruguayo se aceleró con la incorporaci
 - **Ley 18.381/2008** (Acceso a la Información Pública): transparencia y derecho de acceso.
 - **Ley 19.353/2015**: creación del Sistema Nacional de Cuidados.
 - **Decreto 64/020**: profundización del gobierno digital durante la pandemia de COVID-19 (2020).
-
----
 
 ## Palabras clave
 

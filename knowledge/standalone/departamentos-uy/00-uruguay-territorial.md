@@ -6,8 +6,6 @@ La **República Oriental del Uruguay** está organizada políticamente en **diec
 
 Uruguay no tiene estados ni provincias. Los departamentos son unidades de gobierno subnacional con autonomía en determinadas materias (obras públicas locales, servicios departamentales, planificación territorial) pero dentro del marco del Estado unitario establecido por la Constitución de la República.
 
----
-
 ## La Constitución y la organización territorial
 
 La **Constitución de la República Oriental del Uruguay** (vigente en su texto actualizado de 1967 con reformas posteriores) establece en su Sección XV (artículos 262 a 306) el régimen departamental y municipal. Los aspectos fundamentales son:
@@ -19,8 +17,6 @@ La **Constitución de la República Oriental del Uruguay** (vigente en su texto 
 | **Municipios** | Creados por Ley 18.567/2009; tercer nivel de gobierno |
 | **Congreso de Intendentes** | Órgano de coordinación entre las 19 intendencias |
 | **Autonomía** | Limitada; el Estado nacional mantiene potestades en defensa, justicia, seguridad, educación, salud |
-
----
 
 ## Los diecinueve departamentos
 
@@ -47,8 +43,6 @@ La **Constitución de la República Oriental del Uruguay** (vigente en su texto 
 | 19 | Treinta y Tres | Treinta y Tres | 9.529 | 47.706 | −5,7% |
 
 **Fuente:** INE — Censo 2023. Población estimada al 31 de mayo de 2023 (fecha de referencia del operativo censal). La variación corresponde al crecimiento intercensal relativo 2011–2023. Superficie: IGM.
-
----
 
 ## Historia de los departamentos
 
@@ -98,8 +92,6 @@ Tras la independencia consolidada y la promulgación de la **Constitución de 18
 | 2009 | **Ley 18.567**: creación del tercer nivel de gobierno — los **Municipios** |
 | 2010 | Primeras elecciones municipales (mayo 2010) |
 
----
-
 ## El tercer nivel de gobierno: los Municipios
 
 La **Ley 18.567 de Descentralización Política y Participación Ciudadana** (2009) creó el tercer nivel de gobierno en Uruguay: los **Municipios**. Características:
@@ -111,8 +103,6 @@ La **Ley 18.567 de Descentralización Política y Participación Ciudadana** (20
 | **Mandato** | 5 años |
 | **Competencias** | Servicios de proximidad; participación en planificación departamental |
 | **Cantidad** | ~125 municipios en todo el país [VERIFICAR cifra actualizada] |
-
----
 
 ## Regiones
 
@@ -132,8 +122,6 @@ Uruguay no tiene una regionalización oficial de base constitucional, pero diver
 
 La **Oficina de Planeamiento y Presupuesto (OPP)** utiliza una clasificación regional para la gestión del desarrollo territorial. [VERIFICAR clasificación actualizada de OPP]
 
----
-
 ## Gobierno departamental: estructura
 
 Cada departamento tiene una estructura de gobierno similar:
@@ -146,13 +134,9 @@ Cada departamento tiene una estructura de gobierno similar:
 
 La Intendencia gestiona servicios públicos locales (vialidad departamental, obras públicas, transporte, limpieza, alumbrado, espacios verdes, cementerios), recauda tributos departamentales y planifica el territorio en coordinación con el gobierno nacional.
 
----
-
 ## El Congreso de Intendentes
 
 El **Congreso de Intendentes** (CI) es el órgano de coordinación de los 19 gobiernos departamentales. No tiene poder legislativo propio pero coordina políticas interdepartamentales, gestiona programas financiados por el gobierno central, y representa a los departamentos ante el Estado nacional y organismos internacionales.
-
----
 
 ## Características territoriales de Uruguay
 
@@ -165,8 +149,6 @@ El **Congreso de Intendentes** (CI) es el órgano de coordinación de los 19 gob
 | **Capital y ciudad principal** | Montevideo (1.302.954 hab.; 37,2% de la población nacional) |
 | **Fronteras** | Brasil (norte y noreste); Argentina (oeste); Océano Atlántico (sur y este); Río de la Plata (sur) |
 | **Fuente población** | INE — Censo 2023 (resultados definitivos, diciembre 2024) |
-
----
 
 ## Cronología de la organización territorial uruguaya
 
@@ -188,8 +170,6 @@ El **Congreso de Intendentes** (CI) es el órgano de coordinación de los 19 gob
 | 1901 | Creación de Flores; total: 19 departamentos |
 | 2009 | Ley 18.567: creación de los Municipios (tercer nivel de gobierno) |
 | 2010 | Primeras elecciones municipales simultáneas |
-
----
 
 ## Dinámica demográfica (Censo 2023)
 
@@ -260,8 +240,6 @@ La relación de masculinidad es favorable a hombres en edades tempranas (≈105 
 | Artigas | 12,6% | 11,0% | 1,6% |
 
 *Fuente: INE, Censo 2023, resultados definitivos (diciembre 2024).*
-
----
 
 ## Palabras clave
 

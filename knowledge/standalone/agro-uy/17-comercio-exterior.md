@@ -4,8 +4,6 @@
 
 El sector agropecuario y agroindustrial es el principal generador de divisas de Uruguay. Las exportaciones de origen agropecuario representan históricamente entre el **60% y el 75%** del total de exportaciones del país, convirtiendo a Uruguay en una de las economías más agroexportadoras per cápita del mundo.
 
----
-
 ## Principales productos de exportación agropecuaria
 
 | Producto | Valor estimado (USD/año) | Participación en total agro |
@@ -24,8 +22,6 @@ El sector agropecuario y agroindustrial es el principal generador de divisas de 
 
 *Fuente: Uruguay XXI / BCU. Los valores varían significativamente según los precios internacionales de cada año.*
 
----
-
 ## Principales mercados de destino
 
 | Mercado | Productos principales | Participación aproximada en las exportaciones totales |
@@ -39,8 +35,6 @@ El sector agropecuario y agroindustrial es el principal generador de divisas de 
 | **Oriente Medio (Israel, Arabia Saudita, Irak)** | Carne (Kosher/Halal), citrus, arroz | ~5–8% |
 | **Otros América Latina** | Varios | ~5–8% |
 
----
-
 ## Evolución histórica de las exportaciones agropecuarias
 
 | Período | Característica principal |
@@ -51,8 +45,6 @@ El sector agropecuario y agroindustrial es el principal generador de divisas de 
 | 2000–2010 | Soja explota; celulosa arranca con UPM 2007; China emerge como mercado |
 | 2010–2020 | China consolida su posición; celulosa supera a la carne en algunos años |
 | 2020–2023 | Celulosa como primer exportación; carne sólida; diversificación creciente |
-
----
 
 ## Competitividad agroexportadora
 
@@ -75,8 +67,6 @@ Uruguay basa su competitividad agropecuaria en varios factores diferenciales:
 - Red de tratados comerciales (MERCOSUR + acuerdos bilaterales).
 - Eficiencia portuaria (Puerto de Montevideo; Terminal Especializada de Contenedores).
 
----
-
 ## Acuerdos comerciales relevantes
 
 | Acuerdo/Bloque | Vigencia | Relevancia para el agro |
@@ -87,8 +77,6 @@ Uruguay basa su competitividad agropecuaria en varios factores diferenciales:
 | **TLC con Israel** | [VERIFICAR] | Acceso de carne bovina al mercado israelí |
 | **TLC con México** | ACE 5 ALADI | Acceso de productos lácteos y otros |
 
----
-
 ## El puerto de Montevideo y la logística de exportación
 
 - El **Puerto de Montevideo** es la principal puerta de salida de las exportaciones agropecuarias uruguayas.
@@ -98,8 +86,6 @@ Uruguay basa su competitividad agropecuaria en varios factores diferenciales:
 - El **Puerto de Nueva Palmira** (Colonia) es relevante para la exportación de granos (trigo, soja, maíz) hacia el interior de Sudamérica.
 - El proyecto **Vía Navegable del Río Uruguay** y los puertos fluviales del litoral son relevantes para la logística de celulosa (UPM 2 – Puerto de Montevideo).
 
----
-
 ## Desafíos del comercio exterior agropecuario
 
 - **Concentración en China:** la dependencia del mercado chino para celulosa, soja y carne es un riesgo de diversificación.
@@ -107,8 +93,6 @@ Uruguay basa su competitividad agropecuaria en varios factores diferenciales:
 - **Barreras sanitarias:** las restricciones fitosanitarias y zoosanitarias de cada mercado requieren un esfuerzo continuo de negociación.
 - **Tipos de cambio:** la competitividad uruguaya depende en parte del tipo de cambio real frente a Brasil y Argentina.
 - **Cambio climático:** la variabilidad climática puede afectar los volúmenes de exportación.
-
----
 
 ## Palabras clave
 

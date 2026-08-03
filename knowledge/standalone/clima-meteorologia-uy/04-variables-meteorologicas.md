@@ -1,14 +1,10 @@
 # Variables Meteorológicas
 
----
-
 ## Introducción
 
 Las **variables meteorológicas** (también llamadas **elementos meteorológicos** o **parámetros meteorológicos**) son las magnitudes físicas que caracterizan el estado de la atmósfera en un lugar y un instante determinados. Su medición sistemática mediante una red de estaciones es la base tanto del **pronóstico del tiempo** como de la **climatología**.
 
 La **Organización Meteorológica Mundial (OMM)** establece los estándares internacionales para la observación, el procesamiento y el intercambio de datos meteorológicos.
-
----
 
 ## Temperatura del aire
 
@@ -33,8 +29,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | Media de las máximas anuales | ~22,0 °C |
 | Media de las mínimas anuales | ~13,5 °C |
 
----
-
 ## Presión atmosférica
 
 | Aspecto | Detalle |
@@ -46,8 +40,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | **Corrección** | Las lecturas se reducen al nivel del mar (QFF o QNH) para comparación |
 | **Productos derivados** | Mapas de isóbaras; tendencia de presión (barómetro en descenso = tiempo peor) |
 | **Importancia** | Indica la llegada de sistemas de tiempo; diferencia entre altas (anticiclones) y bajas (ciclones) |
-
----
 
 ## Humedad del aire
 
@@ -66,8 +58,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | **Instrumento** | Higrómetro de cabello; psicrómetro (termómetro seco y húmedo); sensor capacitivo electrónico |
 | **HR en Uruguay** | Media anual ~75–80 % (Montevideo); menor en el interior norte |
 | **Importancia** | Determina la formación de niebla, nubes, precipitación; disconfort térmico (índice de calor) |
-
----
 
 ## Viento
 
@@ -97,8 +87,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | S | Minuano | Frío, en la costa sur y Montevideo |
 | O–SO | Viento del oeste | Frecuente en invierno; asociado a anticiclones |
 
----
-
 ## Precipitación
 
 | Aspecto | Detalle |
@@ -120,8 +108,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | Norte (Artigas, Salto) | ~1.300–1.500 mm |
 | Este (Rocha, Treinta y Tres) | ~1.200–1.400 mm |
 | Costa atlántica (Rocha) | ~1.100–1.200 mm |
-
----
 
 ## Nubosidad
 
@@ -148,8 +134,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | Cúmulo (Cu) | Variable | Convectivas | Chubascos |
 | Cumulonimbo (Cb) | Variable (puede superar 12 km) | Convectivas | Chubascos intensos, granizo, rayos |
 
----
-
 ## Radiación solar
 
 | Aspecto | Detalle |
@@ -169,8 +153,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | Máxima radiación | Diciembre–enero (verano) |
 | Mínima radiación | Junio–julio (invierno) |
 
----
-
 ## Evapotranspiración
 
 | Aspecto | Detalle |
@@ -181,8 +163,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | **Fórmulas** | Penman-Monteith (OMM recomienda Penman-Monteith FAO-56 como estándar) |
 | **Importancia** | Balance hídrico de cuencas; necesidades de riego; sequías agronómicas |
 
----
-
 ## Visibilidad
 
 | Aspecto | Detalle |
@@ -192,8 +172,6 @@ La **Organización Meteorológica Mundial (OMM)** establece los estándares inte
 | **Instrumento** | Observación visual; transmisómetro; dispersómetro (Belfort) |
 | **Reducción de visibilidad** | Niebla (< 1 km); neblina (1–5 km); lluvia intensa; humo; polvo |
 | **Importancia** | Seguridad en la aviación, carretera y navegación |
-
----
 
 ## Palabras clave
 

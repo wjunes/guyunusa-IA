@@ -1,3 +1,5 @@
+# Figuras destacadas de la tecnología uruguaya
+
 ## Resumen
 
 **Nicolás Jodal** es el CEO de **Artech**, la empresa creadora de **GeneXus**, y una de las figuras más influyentes del ecosistema tecnológico de Uruguay y América Latina. Bajo su liderazgo, GeneXus se consolidó como la plataforma de desarrollo de software de bajo código más reconocida de América Latina, usada en más de 50 países. Jodal es también uno de los pensadores más originales del sector tecnológico latinoamericano, conocido por sus reflexiones sobre la naturaleza del software, el futuro de la programación, la inteligencia artificial y el rol de las empresas de tecnología en la sociedad.
@@ -46,8 +48,6 @@ Nicolás Jodal es una figura de referencia para múltiples generaciones de empre
 | Empresa | Artech S.R.L. |
 | País | Uruguay |
 | Especialidad | Plataformas de desarrollo de software, IA, futuro del software |
-
----
 
 ## Resumen
 

@@ -4,8 +4,6 @@
 
 La **gestión pública** comprende el conjunto de prácticas, herramientas, metodologías y principios que rigen el funcionamiento de las organizaciones del Estado para cumplir sus objetivos y rendir cuentas a la ciudadanía. En Uruguay, la gestión pública ha evolucionado desde modelos burocráticos tradicionales hacia enfoques orientados a resultados, calidad y gobierno abierto.
 
----
-
 ## Marco institucional de la gestión pública
 
 ### Oficina de Planeamiento y Presupuesto (OPP)
@@ -23,8 +21,6 @@ La OPP alberga también a la **Escuela Nacional de Administración Pública (ENA
 
 **Sede:** Torre Ejecutiva, Plaza Independencia 710, Montevideo.
 
----
-
 ## El Presupuesto Nacional Quinquenal
 
 El **Presupuesto Nacional** es el instrumento central de la política fiscal y de gestión pública. Se aprueba por ley al inicio de cada período de gobierno (cada 5 años) y asigna los recursos de los organismos del Estado.
@@ -39,8 +35,6 @@ El **Presupuesto Nacional** es el instrumento central de la política fiscal y d
 
 El presupuesto uruguayo aplica progresivamente el **presupuesto por programas** y el **presupuesto por resultados**, asociando los recursos a metas e indicadores de gestión.
 
----
-
 ## Gestión por resultados
 
 La **gestión por resultados (GpR)** es el modelo de administración que orienta la acción pública hacia el logro de objetivos y resultados medibles, en contraste con el enfoque burocrático centrado en el cumplimiento de procesos.
@@ -52,8 +46,6 @@ En Uruguay, la GpR fue introducida formalmente con la **Ley 18.172/2007** y desa
 - **Evaluación de programas y políticas**: análisis sistemático del cumplimiento de objetivos.
 - **Transparencia presupuestal**: publicación de la ejecución presupuestal en tiempo real.
 
----
-
 ## Calidad en la gestión pública
 
 Uruguay ha impulsado iniciativas de **calidad** en la gestión de sus organismos:
@@ -62,8 +54,6 @@ Uruguay ha impulsado iniciativas de **calidad** en la gestión de sus organismos
 - **Premio Nacional de Calidad del Sector Público**: instrumento de reconocimiento a organismos con buenas prácticas de gestión.
 - **Normas ISO en organismos públicos**: algunos entes y servicios han implementado sistemas de gestión de calidad certificados.
 - **Sistema Nacional de Acreditación** (MEC): relevante para la calidad en educación.
-
----
 
 ## Planificación estratégica
 
@@ -74,8 +64,6 @@ La **Estrategia Uruguay 2050** (OPP, 2019) es el marco de planificación de larg
 
 ### Nivel sectorial
 Cada ministerio y organismo desarrolla su propio **plan estratégico institucional**, alineado con el Presupuesto Nacional y con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
-
----
 
 ## Gobierno abierto y participación ciudadana
 
@@ -89,8 +77,6 @@ Uruguay integra la **Alianza para el Gobierno Abierto (OGP — Open Government P
 
 Los **Planes de Acción de Gobierno Abierto** son compromisos que Uruguay presenta ante la OGP cada dos años, con metas verificables por la sociedad civil.
 
----
-
 ## Control interno y auditoría
 
 ### Auditoría Interna de la Nación (AIN)
@@ -101,13 +87,9 @@ La **AIN** (dependiente del MEF) es el organismo de control interno del Poder Ej
 
 El **Tribunal de Cuentas** ejerce el control externo e independiente de los actos financieros del Estado. Su dictamen previo es preceptivo (aunque no vinculante) para determinados actos del Poder Ejecutivo con implicaciones económicas.
 
----
-
 ## Descentralización y desarrollo local
 
 La **Ley 18.567/2009** creó los **Municipios** como tercer nivel de gobierno, profundizando la descentralización iniciada con los gobiernos departamentales. La OPP gestiona programas de apoyo al desarrollo local, como el **Fondo de Desarrollo del Interior (FDI)**.
-
----
 
 ## Palabras clave
 

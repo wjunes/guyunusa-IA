@@ -1,3 +1,5 @@
+# Profesionales de la salud en Uruguay
+
 ## Resumen
 
 El sistema de salud uruguayo cuenta con recursos humanos de alta calificación, formados principalmente en la **Universidad de la República (Udelar)**. La **Facultad de Medicina** de Udelar es la institución formadora de la gran mayoría de los médicos uruguayos desde 1876. La **Escuela Universitaria de Enfermería (EUE)** forma a los/as enfermeros/as universitarios. El MSP habilita el ejercicio de todas las profesiones de salud mediante el **Registro de Títulos Habilitantes**. Uruguay tiene una densidad médica notable para la región (más de 5 médicos por 1.000 habitantes), aunque con fuerte concentración en Montevideo. Las **residencias médicas** son el sistema de formación de especialistas, coordinadas por las escuelas de posgrado de Udelar y los hospitales acreditados.

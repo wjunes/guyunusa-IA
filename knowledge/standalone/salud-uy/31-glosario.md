@@ -2,8 +2,6 @@
 
 Términos técnicos y conceptos clave del ámbito de la salud en Uruguay.
 
----
-
 **ASSE (Administración de Servicios de Salud del Estado)**: Mayor prestador de salud del Uruguay, de carácter público. Creado por Ley 18.161/2007 como servicio descentralizado del MSP. Atiende a cerca del 40% de la población, principalmente a través del seguro de salud público (FONASA) y a personas sin cobertura.
 
 **Atención primaria de salud (APS)**: Primer nivel de contacto del usuario con el sistema de salud. Incluye policlínicas, centros de salud y consultorios de medicina general. Resuelve la mayoría de las necesidades de salud y es la puerta de entrada al SNIS.

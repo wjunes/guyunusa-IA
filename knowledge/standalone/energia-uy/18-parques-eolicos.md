@@ -4,8 +4,6 @@
 
 Los **parques eólicos** son instalaciones de generación eléctrica que aprovechan la energía cinética del viento mediante aerogeneradores (turbinas eólicas). Uruguay desarrolló su capacidad eólica de manera acelerada entre **2009 y 2016**, pasando de prácticamente cero a convertirse en uno de los países con **mayor penetración eólica en su matriz eléctrica a nivel mundial**, con la energía eólica representando el **30–35% de la generación eléctrica anual** a partir de 2016.
 
----
-
 ## Recurso eólico en Uruguay
 
 | Parámetro | Valor |
@@ -14,8 +12,6 @@ Los **parques eólicos** son instalaciones de generación eléctrica que aprovec
 | **Zonas de mejor recurso** | Costa atlántica (Rocha, Maldonado), litoral sur, zonas interiores altas (Lavalleja, Treinta y Tres, Cerro Largo, Tacuarembó) |
 | **Factor de planta promedio** | ~40–45% [VERIFICAR] |
 | **Curvas de viento** | Perfil de viento relativamente estable; complementariedad con la hidro y la solar |
-
----
 
 ## Historia del desarrollo eólico en Uruguay
 
@@ -27,8 +23,6 @@ Los **parques eólicos** son instalaciones de generación eléctrica que aprovec
 | 2016 en adelante | Capacidad total supera los 1.500 MW; viento aporta ~30-35% de la electricidad |
 | 2020s | Debate sobre repotenciación de turbinas y extensión de PPAs al vencer los primeros contratos |
 
----
-
 ## Modelo de desarrollo: licitaciones competitivas
 
 El desarrollo eólico de Uruguay se basó en un modelo de **licitaciones competitivas** coordinadas por el MIEM y UTE:
@@ -39,8 +33,6 @@ El desarrollo eólico de Uruguay se basó en un modelo de **licitaciones competi
 4. **Integración a la red:** UTE garantizaba la conexión al sistema de transmisión.
 
 Este modelo redujo el riesgo para los inversores y generó competencia en los precios de la energía eólica, que cayeron de ~80–90 USD/MWh en las primeras rondas a ~45–55 USD/MWh en las últimas [VERIFICAR rangos exactos].
-
----
 
 ## Parques eólicos principales
 
@@ -65,8 +57,6 @@ Este modelo redujo el riesgo para los inversores y generó competencia en los pr
 
 > Nota: Uruguay tiene más de 40 parques eólicos en operación [VERIFICAR número exacto] distribuidos en múltiples departamentos. Los datos detallados de cada parque están publicados en el sitio de ADME y en los informes de UTE y DNE.
 
----
-
 ## Aerogeneradores: fabricantes y modelos
 
 Los principales fabricantes de turbinas eólicas instaladas en Uruguay son:
@@ -79,8 +69,6 @@ Los principales fabricantes de turbinas eólicas instaladas en Uruguay son:
 | **Gamesa** | España | G87-2.0 MW [VERIFICAR] | 2,0 MW |
 
 La altura de buje de las turbinas oscila entre 80 m y 120 m, y el diámetro del rotor entre 82 m y 132 m según el modelo [VERIFICAR].
-
----
 
 ## Impacto económico y social
 
@@ -95,8 +83,6 @@ Durante la fase de construcción (2011–2016), la industria eólica generó mil
 ### Ingresos para propietarios rurales
 
 Los parques eólicos se instalan en establecimientos rurales cuyos dueños reciben **cánones de arrendamiento** por el uso del terreno, representando un ingreso complementario para los productores agropecuarios.
-
----
 
 ## Desafíos del sector eólico en Uruguay
 
@@ -115,8 +101,6 @@ Los primeros parques instalados entre 2009 y 2013 comenzarán a alcanzar el **fi
 
 Los contratos de compra de energía (PPA) a 20 años de los parques más antiguos comenzarán a vencer a partir de aproximadamente 2029–2031. La negociación de nuevas condiciones o la incorporación de esa energía al mercado spot es un tema de política energética en discusión.
 
----
-
 ## Marco regulatorio
 
 | Instrumento | Contenido |
@@ -125,8 +109,6 @@ Los contratos de compra de energía (PPA) a 20 años de los parques más antiguo
 | **Decreto 77/006 (2006)** | Política de promoción de energías renovables |
 | **Llamados a licitación MIEM/UTE** | Mecanismo de contratación de parques eólicos privados |
 | **Contratos PPA con UTE** | Compra garantizada a 20 años del MWh eólico |
-
----
 
 ## Palabras clave
 

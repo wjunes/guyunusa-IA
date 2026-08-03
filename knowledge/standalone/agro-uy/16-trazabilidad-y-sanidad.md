@@ -4,8 +4,6 @@
 
 Uruguay ocupa una posición de vanguardia mundial en materia de **trazabilidad agropecuaria** y **sanidad animal y vegetal**. El **Sistema Nacional de Información Ganadera (SNIG)**, que identifica individualmente a cada bovino del país, es reconocido internacionalmente como uno de los sistemas de trazabilidad más avanzados. La trazabilidad y la sanidad son pilares competitivos que permiten a Uruguay acceder a los mercados más exigentes del mundo con sus exportaciones agropecuarias.
 
----
-
 ## Sistema Nacional de Información Ganadera (SNIG)
 
 ### Historia y creación
@@ -38,8 +36,6 @@ Uruguay ocupa una posición de vanguardia mundial en materia de **trazabilidad a
 - **Trazabilidad porcina:** en implementación.
 - **Trazabilidad de origen vegetal:** en desarrollo para algunos rubros (arroz, citrus).
 
----
-
 ## Sanidad Animal
 
 ### Organización institucional
@@ -64,8 +60,6 @@ La sanidad animal en Uruguay es competencia del **MGAP** a través de:
 - **Red de laboratorios privados acreditados:** análisis de leche, semen, serología, etc.
 - **LATU** y **Facultad de Veterinaria:** laboratorios de referencia para ciertos análisis.
 
----
-
 ## Bienestar Animal
 
 - Uruguay adhirió a los principios de las **Cinco Libertades** del bienestar animal (WOAH/OIE).
@@ -75,8 +69,6 @@ La sanidad animal en Uruguay es competencia del **MGAP** a través de:
   - Manejo en establecimientos (procedimientos dolorosos, mutilaciones).
 - Creciente atención en tambos lecheros para mercados de la UE.
 - La **Sociedad de Medicina Veterinaria del Uruguay** y la **Facultad de Veterinaria** promueven la formación en bienestar animal.
-
----
 
 ## Sanidad Vegetal
 
@@ -100,8 +92,6 @@ La sanidad vegetal es regulada por la **Dirección General de Servicios Agrícol
 | Arroz rojo (*Oryza sativa* tipo silvestre) | Arroz |
 | Nematodos en soja | Soja |
 
----
-
 ## Inocuidad alimentaria
 
 La inocuidad de los alimentos agropecuarios para exportación e interno es responsabilidad compartida entre:
@@ -109,8 +99,6 @@ La inocuidad de los alimentos agropecuarios para exportación e interno es respo
 - **MGAP (DGSA, DGSV):** control en el campo y en los establecimientos industriales.
 - **LATU:** análisis de laboratorio para exportación (residuos de pesticidas, metales pesados, aflatoxinas, microbiología).
 - **Ministerio de Salud Pública (MSP):** regulación de alimentos para consumo humano.
-
----
 
 ## Certificaciones internacionales
 
@@ -122,8 +110,6 @@ La inocuidad de los alimentos agropecuarios para exportación e interno es respo
 | **Kosher** | Matanza y procesamiento según leyes judías | Israel, EE.UU., otros |
 | **USDA** | Equivalencia sanitaria USA | EE.UU. (carne bovina) |
 | **EU Approved Establishment** | Habilitación de plantas para UE | Unión Europea |
-
----
 
 ## Palabras clave
 

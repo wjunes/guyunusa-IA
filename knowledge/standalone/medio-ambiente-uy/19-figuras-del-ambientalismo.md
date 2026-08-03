@@ -1,3 +1,5 @@
+# Figuras del ambientalismo uruguayo
+
 ## Resumen
 
 **Daniel Vidart** (Montevideo, 1920 – 2019) fue uno de los pensadores más originales y prolíficos del Uruguay del siglo XX. **Antropólogo, etnógrafo, ecólogo y filósofo**, Vidart exploró durante décadas el vínculo entre los seres humanos y su entorno natural y cultural. Su obra —que abarca más de cincuenta libros— cubrió temas tan diversos como la filosofía ambiental, la cultura gaucha, el pensamiento ecológico, el mate, el carnaval, el fútbol y la identidad uruguaya. Fue **pionero del pensamiento ecológico en Uruguay** en una época en que la preocupación ambiental era marginal en América Latina, y su trabajo anticipó muchos de los debates que hoy están en el centro de la agenda ambiental. Docente de la **Universidad de la República** durante décadas, formó a generaciones de estudiantes.
@@ -31,8 +33,6 @@ Vidart fue docente de la **Facultad de Humanidades y Ciencias de la Educación**
 ## Su longevidad y su vigencia
 
 Vidart vivió casi un siglo y mantuvo una actividad intelectual hasta avanzada edad. Siguió publicando, dando entrevistas y participando en debates públicos hasta sus últimos años. Su longevidad y su vitalidad intelectual fueron en sí mismas un fenómeno cultural en Uruguay.
-
----
 
 ## Resumen
 

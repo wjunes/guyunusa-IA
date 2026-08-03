@@ -6,8 +6,6 @@ El sistema de pagos comprende el conjunto de instrumentos, procedimientos, regla
 
 En Uruguay, el BCU cumple el rol de autoridad del sistema de pagos: vigila su funcionamiento, promueve su eficiencia y seguridad, y opera los sistemas de liquidación interbancaria.
 
----
-
 ## Subsistemas del sistema de pagos uruguayo
 
 ### Sistema de Liquidación Bruta en Tiempo Real (LBTR)
@@ -46,8 +44,6 @@ El sistema de transferencias inmediatas (o transferencias en tiempo real) fue im
 
 Los instrumentos de dinero electrónico (monederos electrónicos) procesados por las empresas de dinero electrónico (EDEs) se integran al sistema de pagos a través de mecanismos de interoperabilidad con la red bancaria.
 
----
-
 ## Medios de pago en Uruguay: tendencias
 
 La composición de los medios de pago en Uruguay ha evolucionado significativamente desde la Ley 19.210 (2014):
@@ -58,8 +54,6 @@ La composición de los medios de pago en Uruguay ha evolucionado significativame
 - **Tarjetas de débito**: fuerte crecimiento post-2014, ampliamente usadas en supermercados, farmacias y estaciones de servicio.
 - **Tarjetas de crédito**: crecimiento moderado; el nivel de endeudamiento con tarjeta es relativamente bajo.
 - **Pagos móviles/digitales**: sector en expansión (apps de pago como MercadoPago, PayPal, transferencias QR).
-
----
 
 ## Vigilancia y normativa del sistema de pagos
 
@@ -73,8 +67,6 @@ El BCU ejerce la vigilancia del sistema de pagos mediante:
 
 La Recopilación de Normas del Sistema de Pagos del BCU (RNSP) contiene el marco normativo completo.
 
----
-
 ## Internacionalización de los pagos
 
 Uruguay forma parte de los sistemas de pagos internacionales a través de:
@@ -82,8 +74,6 @@ Uruguay forma parte de los sistemas de pagos internacionales a través de:
 - **SWIFT**: los bancos uruguayos están conectados a la red SWIFT para transferencias internacionales.
 - **Corresponsales bancarios**: los bancos uruguayos mantienen cuentas corresponsales en bancos del exterior (principalmente en dólares en bancos de Estados Unidos y en euros en bancos europeos).
 - **Remesas**: los sistemas de remesas (transferencias de emigrantes) son procesados por Western Union, MoneyGram y operadores fintech.
-
----
 
 ## Ciberseguridad en los pagos
 
@@ -93,8 +83,6 @@ El BCU ha emitido normas de ciberseguridad para las entidades del sistema financ
 - Continuidad operativa del sistema de pagos.
 - Notificación de incidentes de ciberseguridad.
 - Estándares de seguridad para tarjetas de pago (PCI-DSS).
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Las políticas de desarrollo social en Uruguay no son responsabilidad exclusiva del MIDES: involucran a un conjunto amplio de organismos del Estado que coordinan entre sí a través del **Consejo Nacional de Políticas Sociales (CNPS)**, presidido por el MIDES.
 
----
-
 ## INAU — Instituto del Niño y Adolescente del Uruguay
 
 **Dependencia**: desconcentrado del Poder Ejecutivo, bajo la órbita del MIDES.
@@ -21,8 +19,6 @@ Las políticas de desarrollo social en Uruguay no son responsabilidad exclusiva 
 
 Ver archivo `08-primera-infancia.md`.
 
----
-
 ## INJU — Instituto Nacional de la Juventud
 
 **Dependencia**: MIDES.
@@ -30,8 +26,6 @@ Ver archivo `08-primera-infancia.md`.
 **Misión**: formular y coordinar las políticas públicas de juventud en Uruguay.
 
 Ver archivo `09-juventudes.md`.
-
----
 
 ## INMAYORES — Instituto Nacional de las Personas Mayores
 
@@ -41,8 +35,6 @@ Ver archivo `09-juventudes.md`.
 
 Ver archivo `10-personas-mayores.md`.
 
----
-
 ## INMUJERES — Instituto Nacional de las Mujeres
 
 **Dependencia**: MIDES.
@@ -51,16 +43,12 @@ Ver archivo `10-personas-mayores.md`.
 
 Ver archivo `13-genero-y-diversidad.md`.
 
----
-
 ## PRONADIS — Programa Nacional de Discapacidad
 
 **Dependencia**: MIDES.
 **Misión**: políticas públicas de discapacidad e implementación de la Ley 18.651.
 
 Ver archivo `11-personas-con-discapacidad.md`.
-
----
 
 ## INDA — Instituto Nacional de Alimentación
 
@@ -69,8 +57,6 @@ Ver archivo `11-personas-con-discapacidad.md`.
 **Misión**: seguridad alimentaria y nutricional, programas de alimentación.
 
 Ver archivo `14-seguridad-alimentaria.md`.
-
----
 
 ## BPS — Banco de Previsión Social
 
@@ -86,8 +72,6 @@ Ver archivo `14-seguridad-alimentaria.md`.
 
 Ver dominio `sistema-financiero-uy` para detalle del sistema previsional.
 
----
-
 ## ASSE — Administración de los Servicios de Salud del Estado
 
 **Naturaleza**: servicio descentralizado del MSP.
@@ -98,8 +82,6 @@ Ver dominio `sistema-financiero-uy` para detalle del sistema previsional.
 - Servicios de salud mental comunitaria.
 - Servicios de salud sexual y reproductiva.
 - Articulación con el SNIC.
-
----
 
 ## ANEP — Administración Nacional de Educación Pública
 
@@ -115,8 +97,6 @@ Ver dominio `sistema-financiero-uy` para detalle del sistema previsional.
 
 Ver dominio `educacion-uy`.
 
----
-
 ## MTSS — Ministerio de Trabajo y Seguridad Social
 
 **Vinculación con el desarrollo social**:
@@ -125,8 +105,6 @@ Ver dominio `educacion-uy`.
 - Control del empleo de personas con discapacidad en el Estado.
 - Sindicatos y negociación colectiva.
 
----
-
 ## MVOT — Ministerio de Vivienda y Ordenamiento Territorial
 
 **Vinculación con el desarrollo social**:
@@ -134,15 +112,11 @@ Ver dominio `educacion-uy`.
 - Regularización de asentamientos irregulares.
 - Articulación con el MIDES en programas de atención a personas en situación de calle (egreso hacia vivienda).
 
----
-
 ## INISA — Instituto Nacional de Inclusión Social Adolescente
 
 **Dependencia**: desconcentrado del Poder Ejecutivo (antes parte del INAU).
 **Ley de creación**: Ley 19.196/2014.
 **Misión**: gestionar las medidas socioeducativas para adolescentes infractores.
-
----
 
 ## Junta Nacional de Drogas (JND)
 
@@ -151,13 +125,9 @@ Ver dominio `educacion-uy`.
 
 **Vinculación con el desarrollo social**: coordinación con el MIDES en atención a personas en situación de calle con consumo problemático de sustancias; programas de prevención en barrios vulnerables.
 
----
-
 ## Consejo Nacional de Políticas Sociales (CNPS)
 
 El **CNPS** es el organismo interministerial que coordina el diseño y la implementación de las políticas sociales en Uruguay. Está presidido por el MIDES e integrado por los ministerios y organismos con competencia social. Es el órgano de coordinación de más alto nivel en el sistema de políticas sociales.
-
----
 
 ## Palabras clave
 

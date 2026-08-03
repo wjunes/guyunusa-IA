@@ -6,8 +6,6 @@ Las importaciones de Uruguay reflejan la estructura de su economía: un país de
 
 El valor de las importaciones de bienes oscila en el entorno de los USD 10.000–13.000 millones anuales (valores CIF) en la primera mitad de la década de 2020, con variaciones significativas según los precios internacionales del petróleo y las fluctuaciones de la demanda interna.
 
----
-
 ## Composición por uso económico
 
 ### Bienes de consumo
@@ -33,8 +31,6 @@ Los bienes de consumo importados incluyen:
 - **Maquinaria industrial** y equipos de construcción.
 - **Equipos de tecnología** (servidores, equipos de telecomunicaciones, equipos médicos).
 - **Material ferroviario**: en el marco de la inversión de UPM2 y el Ferrocarril Central, Uruguay importó material rodante y equipos para la rehabilitación ferroviaria.
-
----
 
 ## Principales países de origen
 
@@ -76,15 +72,11 @@ China ha ganado participación creciente como proveedor de importaciones a Urugu
 - Equipos médicos y farmacéuticos.
 - Agroquímicos y fertilizantes.
 
----
-
 ## Energía como componente crítico
 
 La factura energética (petróleo crudo, derivados y GNL) es el componente más volátil de las importaciones uruguayas. Las variaciones del precio del petróleo (WTI, Brent) impactan directamente en el valor de las importaciones y, por ende, en la balanza comercial.
 
 La expansión de las energías renovables (eólica, solar e hidroeléctrica) a partir de 2010 redujo la dependencia de Uruguay de los combustibles importados para la generación eléctrica, aunque no eliminó la dependencia del petróleo para el transporte.
-
----
 
 ## Régimen arancelario de las importaciones
 
@@ -95,13 +87,9 @@ Las importaciones uruguayas están sujetas al:
 
 Existen exoneraciones parciales o totales para bienes de capital (LNEA — Lista Nacional de Excepciones al AEC) y para insumos de ciertos sectores prioritarios.
 
----
-
 ## Estadísticas
 
 La DNA compila las estadísticas de importaciones sobre la base de los despachos aduaneros. Uruguay XXI publica mensualmente un resumen de las estadísticas de importaciones. El BCU incorpora estos datos a la balanza de pagos.
-
----
 
 ## Palabras clave
 

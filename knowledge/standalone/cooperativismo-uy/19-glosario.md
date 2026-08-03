@@ -2,8 +2,6 @@
 
 Términos, conceptos e instituciones clave del cooperativismo uruguayo.
 
----
-
 **ACI (Alianza Cooperativa Internacional)**: Organismo mundial del movimiento cooperativo, fundado en 1895 y con sede en Bruselas. Define los siete principios cooperativos y representa al cooperativismo ante la ONU, la OIT y otros organismos internacionales.
 
 **ACI Américas**: Instancia regional de la ACI para América Latina y el Caribe. Tiene sede en San José, Costa Rica.

@@ -6,8 +6,6 @@ La **arqueología** es la disciplina científica que estudia el pasado humano a 
 
 La arqueología uruguaya se desarrolla principalmente desde la **Universidad de la República (UdelaR)**, en particular desde la **Facultad de Humanidades y Ciencias de la Educación (FHCE)** y la **Facultad de Ciencias**, en coordinación con el **Museo Nacional de Antropología (MNA)** y el **Museo Nacional de Historia Natural (MNHN)**.
 
----
-
 ## Historia de la arqueología en Uruguay
 
 | Período | Características |
@@ -18,8 +16,6 @@ La arqueología uruguaya se desarrolla principalmente desde la **Universidad de 
 | **1970–1990** | Introducción de métodos modernos (carbono 14); estudios de **Carmen Curbelo** y otros; comienzo de investigaciones sistemáticas en los cerritos |
 | **1990–2010** | Gran expansión de la arqueología académica; trabajos de **José López Mazz** y su equipo en los cerritos del este; sistematización de sitios; incorporación de paleoecología |
 | **2010–presente** | Arqueología de contrato (por obras de infraestructura); estudios interdisciplinarios (ADN antiguo, paleodieta, movilidad); participación de comunidades de descendientes |
-
----
 
 ## Principales investigadores
 
@@ -33,8 +29,6 @@ La arqueología uruguaya se desarrolla principalmente desde la **Universidad de 
 | **Richard Fariña** | UdelaR–Facultad de Ciencias | Megafauna del Pleistoceno; Arroyo del Vizcaíno |
 | **Alicia Gianotti** | UdelaR–FHCE | Organización espacial de los cerritos; paisaje |
 | **Renzo Pi Ugarte** | UdelaR / Historia | Historia de los charrúas; documentación colonial |
-
----
 
 ## Tipos de sitios arqueológicos en Uruguay
 
@@ -69,8 +63,6 @@ La arqueología uruguaya se desarrolla principalmente desde la **Universidad de 
 - **Cerro Pintado** (Rivera) y otros sitios del norte presentan grabados esquemáticos.
 - La atribución cultural de los grabados a grupos específicos es en muchos casos incierta.
 
----
-
 ## Sitios arqueológicos relevantes
 
 | Sitio | Departamento | Período | Tipo | Importancia |
@@ -84,8 +76,6 @@ La arqueología uruguaya se desarrolla principalmente desde la **Universidad de 
 | **Cerro Pintado** | Rivera | Indeterminado | Arte rupestre | Petroglifos |
 | **Punta Ballena** | Maldonado | Holoceno | Conchero | Material lítico y faunístico |
 
----
-
 ## Dataciones absolutas en la arqueología uruguaya
 
 Los métodos de datación más utilizados en Uruguay son:
@@ -94,8 +84,6 @@ Los métodos de datación más utilizados en Uruguay son:
 - **Isótopos estables (C y N):** para reconstrucción de paleodieta.
 
 Las dataciones absolutas de los sitios arqueológicos uruguayos abarcan desde el **Pleistoceno final** (~11.000–12.000 años a.C. para los materiales paleoindios más tempranos) hasta el **período histórico** (siglos XVI-XIX).
-
----
 
 ## Museos e instituciones
 
@@ -107,8 +95,6 @@ Las dataciones absolutas de los sitios arqueológicos uruguayos abarcan desde el
 | **Museo del Indio y del Gaucho** | Tacuarembó | Colección con materiales indígenas y gauchescos |
 | **Museos departamentales** | Varios departamentos | Colecciones locales de materiales arqueológicos |
 
----
-
 ## Investigaciones actuales y tendencias
 
 La arqueología uruguaya contemporánea incorpora:
@@ -117,8 +103,6 @@ La arqueología uruguaya contemporánea incorpora:
 - **Isótopos de estroncio y oxígeno:** para determinar la movilidad de individuos (análisis de dientes).
 - **Arqueología del paisaje:** estudio de la organización espacial de los sitios y su relación con el entorno.
 - **Arqueología comunitaria:** participación de comunidades de descendientes en el proceso de investigación.
-
----
 
 ## Palabras clave
 

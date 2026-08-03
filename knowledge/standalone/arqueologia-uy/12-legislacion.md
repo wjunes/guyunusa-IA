@@ -1,12 +1,8 @@
 # Legislación sobre Patrimonio Arqueológico en Uruguay
 
----
-
 ## Introducción
 
 El marco legal de protección del patrimonio arqueológico en Uruguay está compuesto por normas nacionales e instrumentos internacionales ratificados por el Estado uruguayo. La legislación establece la titularidad estatal del patrimonio cultural, los mecanismos de protección, las instituciones competentes y las sanciones aplicables.
-
----
 
 ## Legislación nacional
 
@@ -30,8 +26,6 @@ La **Ley 14.040** del 20 de octubre de 1971 es el instrumento legal fundamental 
 - No establece un sistema de registro obligatorio de hallazgos fortuitos.
 - Las sanciones previstas son de escasa eficacia disuasoria.
 
----
-
 ### Ley 17.234/2000 — Sistema Nacional de Áreas Protegidas (SNAP)
 
 La **Ley 17.234** crea el **Sistema Nacional de Áreas Protegidas (SNAP)**, administrado por el Ministerio de Ambiente. Aunque su objetivo principal es la conservación de la biodiversidad, las áreas protegidas pueden incluir sitios arqueológicos y su declaración implica una capa adicional de protección sobre los bienes naturales y culturales presentes.
@@ -40,25 +34,17 @@ La **Ley 17.234** crea el **Sistema Nacional de Áreas Protegidas (SNAP)**, admi
 - Grutas del Palacio (Flores): formación geológica con posibles contextos arqueológicos.
 - Quebrada de los Cuervos (Treinta y Tres): paisaje natural con posibles evidencias arqueológicas.
 
----
-
 ### Ley 18.308/2008 — LOTDS
 
 La **Ley de Ordenamiento Territorial y Desarrollo Sostenible (LOTDS)** incluye el patrimonio cultural entre los aspectos a considerar en la planificación territorial. Los planes de ordenamiento departamental y local pueden establecer zonas de protección del patrimonio cultural arqueológico.
-
----
 
 ### Decreto-Ley 14.859/1978 — Código de Aguas (y normas marítimas)
 
 Las normas sobre recursos hídricos y marítimos tienen incidencia sobre el patrimonio arqueológico subacuático, aunque sin disposiciones específicas de protección arqueológica [VERIFICAR].
 
----
-
 ### Decreto reglamentario de la Ley 14.040 [VERIFICAR]
 
 La Ley 14.040 ha sido reglamentada por decretos sucesivos que establecen procedimientos específicos para declaraciones y autorizaciones [VERIFICAR número y fecha del decreto reglamentario vigente].
-
----
 
 ## Instrumentos internacionales
 
@@ -91,8 +77,6 @@ Uruguay debe verificar si ha ratificado esta convención específica sobre patri
 
 Uruguay ratificó la **Convención del Patrimonio Mundial** de la UNESCO, que establece la protección del patrimonio de valor universal excepcional. En virtud de esta convención, el **Barrio Histórico de Colonia del Sacramento** fue inscrito en la Lista del Patrimonio Mundial en 1995, y el **Paisaje Industrial Fray Bentos** en 2015.
 
----
-
 ## Tabla resumen de instrumentos legales
 
 | Instrumento | Año | Nivel | Objeto |
@@ -106,8 +90,6 @@ Uruguay ratificó la **Convención del Patrimonio Mundial** de la UNESCO, que es
 | Convención Patrimonio Mundial | 1972 | Internacional | Patrimonio de valor universal excepcional |
 | Convención Patrimonio Subacuático | 2001 | Internacional | Patrimonio sumergido [VERIFICAR ratificación] |
 
----
-
 ## Vacíos legales y propuestas de mejora
 
 El marco legal uruguayo presenta vacíos significativos para la protección del patrimonio arqueológico:
@@ -118,8 +100,6 @@ El marco legal uruguayo presenta vacíos significativos para la protección del 
 4. **Arqueología preventiva no sistematizada:** la normativa ambiental menciona el patrimonio cultural pero no establece protocolos específicos.
 5. **Sanciones insuficientes** para disuadir el coleccionismo ilegal y el tráfico de objetos.
 6. **Insuficiencia de recursos** para la fiscalización por parte de la CPCN.
-
----
 
 ## Palabras clave
 

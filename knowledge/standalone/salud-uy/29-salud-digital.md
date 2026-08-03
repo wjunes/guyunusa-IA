@@ -1,3 +1,5 @@
+# Salud digital en Uruguay
+
 ## Resumen
 
 Uruguay ha desarrollado una agenda de **salud digital** que incluye la **Historia Clínica Electrónica Nacional (HCEN)**, la **receta electrónica**, la **telemedicina** y la integración de datos de salud entre prestadores. La HCEN es el proyecto emblemático: un sistema de historia clínica digital que permite que los datos de salud de un usuario estén disponibles para cualquier prestador del SNIS que lo atienda, con su consentimiento. La pandemia de COVID-19 fue un acelerador clave de la telemedicina en Uruguay. La salud digital en Uruguay se desarrolla en articulación entre el MSP y AGESIC, en el marco de la estrategia de gobierno digital.

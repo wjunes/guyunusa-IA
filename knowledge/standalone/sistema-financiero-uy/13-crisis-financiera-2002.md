@@ -6,8 +6,6 @@ La crisis financiera de 2002 fue el episodio más grave de la historia financier
 
 A finales de 2001, Argentina sufrió una de las peores crisis económicas de su historia: el "corralito" (restricción al retiro de depósitos bancarios, diciembre de 2001) y la posterior declaración de cesación de pagos (default) de la deuda pública argentina (la mayor hasta entonces en la historia, por USD 100.000 millones) detonaron una corrida bancaria masiva y el abandono de la convertibilidad peso-dólar (devaluación del peso argentino, enero de 2002).
 
----
-
 ## Causas de la crisis uruguaya
 
 **Contagio directo desde Argentina**:
@@ -24,8 +22,6 @@ A finales de 2001, Argentina sufrió una de las peores crisis económicas de su 
 - La economía uruguaya ya estaba en recesión desde 1999, tras el impacto de la devaluación brasileña y la caída de los precios de las materias primas.
 - La deuda pública era elevada y los compromisos de pago externos significativos.
 
----
-
 ## Desarrollo de la crisis: enero–agosto de 2002
 
 **Enero–marzo de 2002**: la corrida comenzó suavemente. Los ahorristas argentinos empezaron a retirar depósitos de los bancos uruguayos. El BCU intervino vendiendo reservas para satisfacer la demanda de dólares.
@@ -36,8 +32,6 @@ A finales de 2001, Argentina sufrió una de las peores crisis económicas de su 
 
 **30 de julio de 2002 — Feriado bancario**: el presidente Jorge Batlle decretó un feriado bancario de cuatro días (30 de julio al 2 de agosto). Durante este período los bancos no operaron.
 
----
-
 ## La Ley 17.613: Estabilidad del Sistema Financiero
 
 La Ley 17.613 del 2 de agosto de 2002 (Ley de Estabilidad del Sistema Financiero) fue aprobada durante el feriado bancario con los votos del Partido Colorado, el Partido Nacional y el Frente Amplio, estableciendo las bases legales para la reestructura:
@@ -47,8 +41,6 @@ La Ley 17.613 del 2 de agosto de 2002 (Ley de Estabilidad del Sistema Financiero
 - **Liquidación de tres bancos**: se suspendieron y liquidaron el Banco Montevideo, la Caja Obrera y Crédito.
 - **Intervención del Banco Galicia Uruguay**: luego absorbido por el BROU.
 
----
-
 ## Rescate financiero internacional
 
 Para sostener el plan de estabilización, Uruguay accedió a créditos de emergencia sin precedentes:
@@ -57,13 +49,9 @@ Para sostener el plan de estabilización, Uruguay accedió a créditos de emerge
 - **Banco Mundial y BID**: créditos de ajuste estructural por varios centenares de millones de dólares.
 - **Estados Unidos**: un préstamo puente de USD 1.500 millones del Departamento del Tesoro, que fue el primero de este tipo para Uruguay.
 
----
-
 ## Reestructura de la deuda pública (2003)
 
 En mayo de 2003 Uruguay completó una reestructura voluntaria de su deuda pública externa: extendió los plazos de vencimiento de los bonos en dólares con el consentimiento de los tenedores privados. La tasa de aceptación superó el 90%, permitiendo a Uruguay evitar un default desordenado. Esta reestructura fue considerada un modelo de manejo de deuda.
-
----
 
 ## Costos de la crisis
 
@@ -78,8 +66,6 @@ Los costos económicos y sociales de la crisis fueron enormes:
 | Pérdida de reservas del BCU | Más de USD 2.000 millones |
 | Depósitos congelados | Aproximadamente USD 2.500 millones |
 | Costo fiscal del rescate bancario | ~20% del PIB |
-
----
 
 ## Recuperación y legado
 
@@ -96,8 +82,6 @@ La recuperación uruguaya sorprendió por su velocidad: el PIB retomó el crecim
 - Creación del Fondo de Garantía de Depósitos (FGDIF) para proteger a los ahorristas en futuras crisis.
 - Supervisión más estricta de la concentración de riesgos y la exposición a entidades vinculadas.
 - Fortalecimiento de la función de prestamista de última instancia del BCU.
-
----
 
 ## Palabras clave
 

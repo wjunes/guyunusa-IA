@@ -4,8 +4,6 @@
 
 Uruguay, en su calidad de país de renta media-alta, tiene una relación con la cooperación internacional distinta a la de países de menor desarrollo. La cooperación técnica y financiera de organismos internacionales ha complementado los recursos nacionales en el diseño y la evaluación de políticas sociales, la transferencia de metodologías y el financiamiento de programas específicos.
 
----
-
 ## Sistema de Naciones Unidas en Uruguay
 
 El sistema de Naciones Unidas tiene una importante presencia en Uruguay, coordinada a través del Marco de Cooperación de la ONU con Uruguay (denominado UNDAF — United Nations Development Assistance Framework, o UNSDCF en su versión más reciente).
@@ -57,8 +55,6 @@ La OPS tiene representación en Uruguay y apoya:
 - Estadísticas de salud.
 - Respuesta a emergencias sanitarias.
 
----
-
 ## CEPAL — Comisión Económica para América Latina y el Caribe
 
 La CEPAL, con sede en Santiago de Chile, tiene una fuerte presencia en el debate de políticas sociales en Uruguay:
@@ -67,8 +63,6 @@ La CEPAL, con sede en Santiago de Chile, tiene una fuerte presencia en el debate
 - **División Social**: análisis de políticas sociales, pobreza, desigualdad y protección social en Uruguay.
 - Publicaciones: la CEPAL publica periódicamente análisis sobre la situación social de Uruguay (Panorama Social de América Latina, informes temáticos).
 - Apoyo técnico a la OPP y al MIDES en metodologías de evaluación de políticas sociales.
-
----
 
 ## Banco Interamericano de Desarrollo (BID)
 
@@ -82,8 +76,6 @@ El BID es uno de los principales financiadores de programas de desarrollo social
 - Infraestructura social.
 - Préstamos de apoyo al MIDES para la implementación del SNIC.
 
----
-
 ## Banco Mundial (BM)
 
 El Banco Mundial ha otorgado préstamos y asistencia técnica a Uruguay en:
@@ -92,16 +84,12 @@ El Banco Mundial ha otorgado préstamos y asistencia técnica a Uruguay en:
 - Infraestructura.
 - Estadísticas (fortalecimiento del INE).
 
----
-
 ## Unión Europea (UE)
 
 La Unión Europea ha financiado programas de cooperación técnica y financiera con Uruguay en áreas de políticas sociales, incluyendo:
 - Programas de inclusión social.
 - Economía social.
 - Cooperación en género y diversidad.
-
----
 
 ## Agenda 2030 y Objetivos de Desarrollo Sostenible (ODS)
 
@@ -120,8 +108,6 @@ Uruguay adoptó la **Agenda 2030** de las Naciones Unidas y sus **17 Objetivos d
 | ODS 16 | Paz, justicia e instituciones sólidas |
 
 La **OPP (Oficina de Planeamiento y Presupuesto)** es el organismo de coordinación nacional para el seguimiento de los ODS en Uruguay, con participación del MIDES para los objetivos sociales.
-
----
 
 ## Palabras clave
 

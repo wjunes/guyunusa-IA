@@ -4,8 +4,6 @@
 
 Los principales productos de exportación se identifican por su participación en el valor total exportado FOB. Los datos siguientes reflejan la estructura promedio del período 2018–2024, con referencia a las fuentes estadísticas oficiales de Uruguay XXI y el BCU.
 
----
-
 ## 1. Celulosa (pasta de papel)
 
 La celulosa es el principal producto de exportación de Uruguay por valor desde mediados de la década de 2010.
@@ -18,8 +16,6 @@ La celulosa es el principal producto de exportación de Uruguay por valor desde 
 **Mercados de destino**: principalmente Europa (Países Bajos, Alemania, Italia, Portugal, Finlandia, Bélgica), seguido de Asia (China, Japón, Corea del Sur).
 
 **Tipo de celulosa**: fibra corta de eucalipto (BHKP — Bleached Hardwood Kraft Pulp).
-
----
 
 ## 2. Carne bovina y subproductos
 
@@ -34,8 +30,6 @@ La carne bovina ha sido el principal rubro de exportación de Uruguay durante gr
 
 **INAC**: El Instituto Nacional de Carnes habilita las plantas frigoríficas para exportar a cada mercado, negocia el acceso sanitario con las autoridades de los países importadores y compila las estadísticas del sector.
 
----
-
 ## 3. Soja
 
 Uruguay amplió su superficie agrícola incorporando la soja a partir de la década de 2000, impulsado por la demanda china y la tecnología de siembra directa.
@@ -45,16 +39,12 @@ Uruguay amplió su superficie agrícola incorporando la soja a partir de la déc
 - La producción se concentra en los departamentos de Paysandú, Soriano, Río Negro, Young y la región oeste.
 - El período 2010–2014 fue de expansión acelerada; desde entonces la superficie se estabilizó con fluctuaciones.
 
----
-
 ## 4. Concentrado de bebidas
 
 El concentrado de bebidas (base para gaseosas y otras bebidas no alcohólicas) es producido en Uruguay por empresas instaladas en zonas francas. Las estadísticas de exportación lo ubican consistentemente entre los principales rubros por valor.
 
 - No se identifica públicamente al productor por tratarse de información comercialmente sensible de empresas multinacionales.
 - El rubro genera ingresos de exportación relevantes y empleo calificado en las zonas francas.
-
----
 
 ## 5. Leche y productos lácteos
 
@@ -69,8 +59,6 @@ Uruguay es el segundo exportador de lácteos de América del Sur (tras Argentina
 
 **Principales mercados**: Brasil (receptor histórico más importante), Argelia, Venezuela (en distintos períodos), China, México y otros países de la región y Oriente Medio.
 
----
-
 ## 6. Arroz
 
 Uruguay es uno de los principales exportadores de arroz de América Latina.
@@ -79,16 +67,12 @@ Uruguay es uno de los principales exportadores de arroz de América Latina.
 - **Principales destinos**: Brasil (MERCOSUR), Perú, Bolivia, Cuba, Oriente Medio, África.
 - La producción se concentra en Treinta y Tres, Rocha, Cerro Largo y Artigas.
 
----
-
 ## 7. Madera y productos forestales
 
 La expansión forestal (eucaliptos y pinos para madera industrial) generó excedentes exportables más allá de la celulosa:
 - **Chips de madera** (para industria de tableros y papel).
 - **Madera en rollo** (logs).
 - **Madera aserrada y tableros**.
-
----
 
 ## 8. Lana y tops de lana
 
@@ -98,15 +82,11 @@ La ganadería ovina uruguaya produce lana de alta calidad (lanas finas Merino y 
 - Destinos: Europa (Alemania, Italia) y China.
 - El sector ovino redujo su importancia relativa en las últimas décadas frente a la expansión bovina y agrícola.
 
----
-
 ## 9. Medicamentos y productos farmacéuticos
 
 Uruguay tiene una industria farmacéutica con capacidad exportadora:
 - Exporta principios activos y especialidades farmacéuticas a mercados de la región y, en menor medida, a mercados extrarregionales.
 - Las zonas francas albergan algunas instalaciones farmacéuticas.
-
----
 
 ## 10. Pescado y productos del mar
 
@@ -117,13 +97,9 @@ Las capturas pesqueras de Uruguay se exportan principalmente como:
 
 Mercados: Unión Europea, Brasil, Asia.
 
----
-
 ## Concentración e interdependencia
 
 Los primeros diez rubros concentran más del 70% del valor de las exportaciones de bienes. La dependencia de commodities implica alta exposición a la volatilidad de precios internacionales (índice de precios de materias primas FAO, cotizaciones Chicago/CME para soja, precios pulpa RISI para celulosa).
-
----
 
 ## Palabras clave
 

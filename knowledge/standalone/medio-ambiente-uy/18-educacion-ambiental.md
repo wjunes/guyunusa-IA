@@ -1,3 +1,5 @@
+# Educación ambiental en Uruguay
+
 ## Resumen
 
 La **educación ambiental** en Uruguay se desarrolla en el sistema educativo formal y en el ámbito no formal, a través de organizaciones de la sociedad civil, medios de comunicación y programas del Estado. El **Plan Nacional de Educación Ambiental (PLANEA)** —elaborado conjuntamente por el **Ministerio de Ambiente** y la **ANEP**— es el instrumento rector que orienta la integración de la dimensión ambiental en los currículos escolares. Uruguay tiene una sociedad civil ambiental activa, con organizaciones que trabajan en conservación de la biodiversidad, cambio climático, residuos y derechos ambientales. La conciencia ambiental de la sociedad ha crecido significativamente en las últimas décadas, aunque persiste una brecha entre el conocimiento y los comportamientos concretos.

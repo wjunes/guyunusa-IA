@@ -1,7 +1,5 @@
 # SOHMA: Servicio de Oceanografía, Hidrografía y Meteorología de la Armada
 
----
-
 ## Presentación institucional
 
 El **Servicio de Oceanografía, Hidrografía y Meteorología de la Armada (SOHMA)** es el organismo oficial de la **Armada Nacional de Uruguay** responsable de las tareas técnicas y científicas relacionadas con la hidrografía, la oceanografía, la meteorología marítima y la cartografía náutica en las aguas bajo jurisdicción uruguaya.
@@ -13,13 +11,9 @@ El **Servicio de Oceanografía, Hidrografía y Meteorología de la Armada (SOHMA
 | Fundación | [VERIFICAR año de fundación] |
 | Web | [VERIFICAR URL oficial] |
 
----
-
 ## Historia
 
 La Armada Nacional ha realizado actividades hidrográficas en el Río de la Plata desde el siglo XIX, cuando se comenzaron a relevar los fondos y a producir las primeras cartas náuticas para la navegación segura en el estuario. El SOHMA en su forma actual es el heredero institucional de estas actividades. Con el tiempo, sus competencias se ampliaron para incluir la oceanografía física y química, la meteorología marítima y, más recientemente, la participación en investigaciones de aguas profundas como la Misión Uruguay SUB 200.
-
----
 
 ## Funciones y competencias
 
@@ -45,8 +39,6 @@ La hidrografía es la función tradicional y central del SOHMA:
 - **Observaciones meteorológicas:** la Armada mantiene estaciones meteorológicas en sus bases e instalaciones costeras.
 - **Avisos y alertas marítimas:** difusión de alertas de tiempo severo para la navegación (temporales, Sudestadas, vientos fuertes).
 
----
-
 ## Buques e instalaciones
 
 El SOHMA dispone de buques hidrográficos y oceanográficos para sus operaciones en el mar:
@@ -59,8 +51,6 @@ El SOHMA dispone de buques hidrográficos y oceanográficos para sus operaciones
 
 En el marco de la **Misión Uruguay SUB 200**, la Armada Nacional —con participación del SOHMA— operó buques equipados con ecosondas multihaz y albergó equipos de investigación multinstitucionales para la exploración de aguas profundas. (Ver archivo 14.)
 
----
-
 ## Publicaciones y productos
 
 El SOHMA produce y distribuye una amplia gama de publicaciones técnicas y cartográficas:
@@ -70,8 +60,6 @@ El SOHMA produce y distribuye una amplia gama de publicaciones técnicas y carto
 - **Anuarios meteorológicos marítimos** [VERIFICAR disponibilidad].
 - **Avisos a los Navegantes** (boletines periódicos de correcciones a la cartografía náutica).
 - **Publicaciones náuticas de referencia** (Libro de Faros y Señales, Derrotero de costas uruguayas).
-
----
 
 ## Cooperación nacional e internacional
 
@@ -92,8 +80,6 @@ El SOHMA coopera estrechamente con:
 - **IBCSO / GEBCO:** participación en la cartografía batimétrica internacional del Océano Austral y los océanos globales.
 - **IOC-UNESCO:** participación en programas internacionales de oceanografía.
 
----
-
 ## Relevancia para la seguridad marítima y la soberanía
 
 El SOHMA cumple un rol estratégico para Uruguay, ya que:
@@ -102,8 +88,6 @@ El SOHMA cumple un rol estratégico para Uruguay, ya que:
 - Produce la cartografía náutica oficial, que es un elemento de soberanía y reconocimiento internacional.
 - Contribuye al conocimiento científico de las aguas bajo jurisdicción uruguaya.
 - Aporta capacidades técnicas a la exploración de los recursos del subsuelo marino (relevante para la plataforma continental extendida).
-
----
 
 ## Palabras clave
 

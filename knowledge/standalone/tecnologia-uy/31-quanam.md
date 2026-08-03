@@ -1,3 +1,5 @@
+# Quanam — empresa uruguaya de consultoría tecnológica
+
 ## Resumen
 
 **Quanam** es una empresa uruguaya de consultoría y servicios tecnológicos (IT consulting) con varias décadas de trayectoria. Especializada en la implementación y transformación digital de empresas, Quanam opera en Uruguay y tiene presencia en otros países de América Latina, particularmente Argentina y Brasil. Sus servicios incluyen consultoría de TI, implementación de sistemas ERP (especialmente SAP), análisis de datos, cloud y transformación digital. Es una de las empresas de consulting tecnológico más consolidadas del ecosistema uruguayo.

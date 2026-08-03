@@ -1,3 +1,5 @@
+# Institución Nacional de Derechos Humanos y Defensoría del Pueblo (INDDHH)
+
 ## Resumen
 
 La **Institución Nacional de Derechos Humanos y Defensoría del Pueblo (INDDHH)** es el organismo estatal **independiente** de Uruguay responsable de promover y proteger los derechos humanos. Creada por la **Ley 18.446** (2008) e inaugurada en **2012**, tiene **Estatus A** ante las Naciones Unidas —el más alto nivel de independencia reconocido para las instituciones nacionales de DDHH—. Sus funciones principales son recibir denuncias por violaciones de DDHH, monitorear el cumplimiento de los tratados internacionales, actuar como **Mecanismo Nacional de Prevención de la Tortura (MNPT)** y asesorar a los poderes del Estado. No es un tribunal: sus resoluciones son recomendaciones, no sentencias.

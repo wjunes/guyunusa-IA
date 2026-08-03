@@ -6,8 +6,6 @@ Uruguay participa activamente en **organismos internacionales, programas multila
 
 Los actores uruguayos más activos en la cooperación internacional energética son el **MIEM**, la **DNE**, **UTE**, **ANCAP**, la **Cancillería (MRREE)**, la **ANII**, el **LATU** y la **UdelaR**.
 
----
-
 ## Organismos internacionales multilaterales
 
 ### IRENA (Agencia Internacional de Energías Renovables)
@@ -52,8 +50,6 @@ El Banco Mundial ha apoyado a Uruguay en:
 
 CAF ha financiado proyectos de infraestructura energética en Uruguay, incluyendo líneas de transmisión e interconexiones regionales [VERIFICAR proyectos específicos].
 
----
-
 ## Cooperación bilateral destacada
 
 ### Argentina
@@ -97,8 +93,6 @@ España ha tenido un rol importante en el desarrollo eólico y solar de Uruguay:
 - Empresas españolas (Acciona, Gamesa/Siemens Gamesa) participaron en parques eólicos
 - Cooperación técnica a través de la AECID (Agencia Española de Cooperación Internacional para el Desarrollo) [VERIFICAR proyectos energéticos específicos]
 
----
-
 ## Integración eléctrica regional (MERCOSUR y CIER)
 
 ### CIER (Comisión de Integración Energética Regional)
@@ -113,8 +107,6 @@ En el marco del MERCOSUR, Uruguay participa en el **SGT 9 (Subgrupo de Trabajo e
 
 IIRSA, luego integrada al **COSIPLAN** (Consejo Suramericano de Infraestructura y Planeamiento), incluye proyectos de interconexión eléctrica entre Uruguay y sus vecinos como parte de la cartera de proyectos de integración regional [VERIFICAR proyectos específicos de Uruguay en COSIPLAN].
 
----
-
 ## Uruguay como referente internacional en renovables
 
 La experiencia de Uruguay en la **transición energética renovable** —que alcanzó >97% de electricidad renovable hacia 2017, en menos de una década, a través de licitaciones competitivas y sin subsidios directos al consumidor— ha sido reconocida y estudiada por organismos internacionales:
@@ -123,8 +115,6 @@ La experiencia de Uruguay en la **transición energética renovable** —que alc
 - La **IEA** y la **IFC (International Finance Corporation)** citan a Uruguay en publicaciones sobre licitaciones de renovables en mercados emergentes
 
 Esta reputación posiciona a Uruguay favorablemente para atraer cooperación técnica, inversiones y proyectos piloto en la próxima fase de la transición (H₂ verde, baterías, smart grids, transporte eléctrico).
-
----
 
 ## Palabras clave
 

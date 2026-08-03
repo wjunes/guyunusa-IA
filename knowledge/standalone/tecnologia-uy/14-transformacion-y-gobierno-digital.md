@@ -1,3 +1,5 @@
+# Transformación y gobierno digital en Uruguay
+
 ## Resumen
 
 La **transformación digital** es el proceso mediante el cual organizaciones —empresas, gobiernos, instituciones— integran tecnologías digitales en todos sus aspectos, cambiando fundamentalmente la forma en que operan y crean valor. En Uruguay, la transformación digital tiene una dimensión notable en el sector público (liderada por AGESIC), en el sistema financiero (banca digital, fintech, inclusión financiera), en el agro (agtech) y en la educación (Plan Ceibal). La pandemia de COVID-19 fue un acelerador de la transformación digital en todos los sectores.
@@ -84,8 +86,6 @@ La mayoría de las empresas uruguayas son pymes. Acelerar su transformación dig
 ### La regulación de la economía digital
 
 Nuevos modelos de negocio (plataformas de trabajo, economía gig, cripto, IA generativa) plantean desafíos regulatorios que Uruguay enfrenta, como todos los países, con cierto retraso respecto a la velocidad de la tecnología.
-
----
 
 ## Resumen
 

@@ -6,8 +6,6 @@ El **Sistema Nacional Integrado de Cuidados (SNIC)** es el conjunto de política
 
 El SNIC se funda en el reconocimiento del cuidado como un **derecho** (para quienes lo necesitan), como un **trabajo** (para quienes lo realizan, remunerado o no) y como una **responsabilidad compartida** entre el Estado, las familias, el mercado y la comunidad.
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -17,8 +15,6 @@ El SNIC se funda en el reconocimiento del cuidado como un **derecho** (para quie
 | Ley 19.161 | 2013 | Subsidio por maternidad y paternidad extendido para trabajadores privados; ampliación del subsidio por cuidados |
 | Ley 18.065 | 2006 | Trabajo doméstico remunerado: regulación de derechos laborales de trabajadoras domésticas |
 | Ley 19.747 | 2019 | Ampliación de prestaciones del SNIC |
-
----
 
 ## Historia y antecedentes
 
@@ -35,8 +31,6 @@ La **Ley 19.353** del 26 de noviembre de 2015 creó formalmente el SNIC. La impl
 ### Evolución (2016–2025)
 
 El SNIC se fue implementando progresivamente, expandiendo la cobertura de servicios de cuidado para primera infancia, personas mayores dependientes y personas con discapacidad. A partir de 2020, el nuevo gobierno mantuvo el SNIC como política de Estado, con ajustes en la gestión y la cobertura.
-
----
 
 ## Organización institucional
 
@@ -58,8 +52,6 @@ El órgano rector del SNIC es la **Junta Nacional de Cuidados**, integrada por r
 
 La **Secretaría Nacional de Cuidados** es la unidad ejecutiva bajo la órbita del MIDES que gestiona operativamente el SNIC: diseño de servicios, supervisión, financiamiento, formación de cuidadores y comunicación.
 
----
-
 ## Poblaciones destinatarias
 
 El SNIC atiende a tres poblaciones principales:
@@ -69,8 +61,6 @@ El SNIC atiende a tres poblaciones principales:
 | **Niños y niñas de 0 a 3 años** | Primera infancia — período crítico del desarrollo | CAIF, centros de cuidado, prestación económica |
 | **Personas con discapacidad que requieren apoyo** | Certificado de discapacidad + necesidad de apoyo en AVD | Asistentes personales, centros de día, residenciales |
 | **Personas mayores en situación de dependencia** | 65+ años + dependencia funcional (escala Barthel u otras) | Centros de día, asistentes personales, residenciales, subsidio |
-
----
 
 ## Servicios del SNIC
 
@@ -94,15 +84,11 @@ El SNIC atiende a tres poblaciones principales:
 - **Centros de rehabilitación y centros de día**: servicios terapéuticos y de inclusión para personas con discapacidad.
 - **Subsidio para cuidados**: apoyo económico para familias con miembros con discapacidad que requieren cuidados.
 
----
-
 ## Formación de cuidadores
 
 El SNIC incluye un componente de formación de la fuerza laboral de cuidados. La **UTEC (Universidad Tecnológica del Uruguay)** y el **INEFOP (Instituto Nacional de Empleo y Formación Profesional)** ofrecen certificaciones y cursos de formación para asistentes personales, auxiliares de cuidado y técnicos en primera infancia.
 
 La formalización del trabajo de cuidados y la incorporación de hombres a este sector son objetivos del SNIC, en el marco de las políticas de igualdad de género.
-
----
 
 ## Enfoque de género y corresponsabilidad
 
@@ -112,8 +98,6 @@ El SNIC reconoce que el trabajo de cuidados ha recaído históricamente de maner
 - Formalizar el trabajo doméstico remunerado (Ley 18.065/2006).
 - Promover la licencia por paternidad extendida.
 - Apoyar la conciliación entre trabajo remunerado y cuidados.
-
----
 
 ## Palabras clave
 

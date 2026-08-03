@@ -6,8 +6,6 @@ El sistema judicial uruguayo organiza la función jurisdiccional en ramas especi
 
 Además del Poder Judicial, existen órganos constitucionales independientes (TCA, Corte Electoral, Tribunal de Cuentas) que ejercen funciones jurisdiccionales o cuasi-jurisdiccionales en sus ámbitos específicos.
 
----
-
 ## Justicia Civil
 
 **Competencia:** contratos, propiedad inmueble, daños y perjuicios, sucesiones y herencias, cobro de deudas, acciones posesorias, concursos de acreedores, quiebras, sociedades comerciales.
@@ -19,8 +17,6 @@ Además del Poder Judicial, existen órganos constitucionales independientes (TC
 **Normativa principal:** Código Civil (1889), Código de Comercio (1865), Código General del Proceso (1988, Ley N° 15.982).
 
 **Proceso:** predominantemente escrito con audiencias; el CGP introdujo elementos de oralidad.
-
----
 
 ## Justicia Penal
 
@@ -39,8 +35,6 @@ Además del Poder Judicial, existen órganos constitucionales independientes (TC
 
 **Ministerio Público:** el Fiscal es el titular de la acción penal y el director de la investigación (ver archivo 05).
 
----
-
 ## Justicia de Familia
 
 **Competencia:** divorcio y nulidad de matrimonio, alimentos (pensiones alimentarias), tenencia y régimen de visitas de hijos menores, adopción, tutela y curatela, violencia doméstica (medidas de protección), unión concubinaria, régimen de bienes entre cónyuges, filiación.
@@ -55,8 +49,6 @@ Además del Poder Judicial, existen órganos constitucionales independientes (TC
 
 **Normativa principal:** Código Civil (libro de familia), Ley N° 17.514 de 2002 (Violencia Doméstica), Código de la Niñez y la Adolescencia (Ley N° 17.823 de 2004), Ley N° 18.246 de 2008 (Unión Concubinaria).
 
----
-
 ## Justicia Laboral (Trabajo)
 
 **Competencia:** relaciones de trabajo dependiente: despido, salarios adeudados, horas extra, accidentes de trabajo y enfermedades profesionales, licencias, indemnizaciones, negociación colectiva, conflictos sindicales.
@@ -68,8 +60,6 @@ Además del Poder Judicial, existen órganos constitucionales independientes (TC
 **Proceso:** oral (Ley N° 18.572 de 2009, Proceso Laboral Oral), con audiencias concentradas y rápida resolución.
 
 **Normativa principal:** Ley N° 18.572 (proceso laboral), Ley N° 18.566 (negociación colectiva), Ley N° 16.074 (accidentes de trabajo), Ley N° 10.449 (salario mínimo nacional).
-
----
 
 ## Justicia Contencioso-Administrativa
 
@@ -87,8 +77,6 @@ Los **Juzgados Letrados en lo Contencioso-Administrativo** (dentro del Poder Jud
 
 **Normativa principal:** Constitución, Arts. 307–321 (TCA); Ley Orgánica del TCA N° 15.524; Decreto N° 500/991 (procedimiento administrativo).
 
----
-
 ## Justicia de Adolescentes
 
 **Competencia:** infracciones a la ley penal cometidas por **adolescentes** (personas de 13 a 17 años inclusive, según el Código de la Niñez y la Adolescencia).
@@ -105,8 +93,6 @@ Los **Juzgados Letrados en lo Contencioso-Administrativo** (dentro del Poder Jud
 
 **Normativa principal:** Código de la Niñez y la Adolescencia (Ley N° 17.823 de 2004), con reformas posteriores.
 
----
-
 ## Justicia Electoral
 
 La **Corte Electoral** es el órgano constitucional independiente (Art. 322–331 de la Constitución) que organiza, dirige y fiscaliza los actos electorales en Uruguay. No forma parte del Poder Judicial.
@@ -116,8 +102,6 @@ Funciones: convoca elecciones, escrutina votos, proclama resultados, juzga las r
 Integración: 9 miembros; los cinco primeros son elegidos por la Asamblea General; los cuatro restantes representan a los dos partidos más votados (2 c/u).
 
 Los **Juzgados Electorales** (uno por departamento) son órganos dependientes de la Corte Electoral que actúan en primera instancia en asuntos electorales locales.
-
----
 
 ## Resumen comparativo
 

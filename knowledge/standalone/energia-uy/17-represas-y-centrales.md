@@ -6,8 +6,6 @@ Las **represas hidroeléctricas** y otras **centrales de generación eléctrica*
 
 Además de la generación hídrica, el sistema eléctrico uruguayo cuenta con **centrales térmicas de respaldo** (fuel oil y gas oil), utilizadas principalmente en períodos de sequía o picos de demanda.
 
----
-
 ## Represas del Río Negro
 
 El Río Negro es el principal afluente interno de Uruguay. Tres represas en cascada aprovechan su potencial hidroeléctrico:
@@ -56,8 +54,6 @@ La Central Baygorria está ubicada aguas abajo de Rincón del Bonete y complemen
 
 La Central Constitución (conocida como **Palmar**) es la mayor de las tres represas del Río Negro y la central hidroeléctrica de mayor potencia operada exclusivamente por UTE. Fue inaugurada en 1982 durante el gobierno de facto (Gregorio Álvarez).
 
----
-
 ## Represa de Salto Grande (Binacional Uruguay–Argentina)
 
 ### Ficha técnica
@@ -89,8 +85,6 @@ La Central Constitución (conocida como **Palmar**) es la mayor de las tres repr
 
 Salto Grande aporta aproximadamente el **20–30% de la generación eléctrica anual** de Uruguay en años hidrológicos normales [VERIFICAR]. En años de alta pluviosidad puede superar ese porcentaje. En sequías severas, su aporte se reduce drásticamente.
 
----
-
 ## Centrales térmicas de UTE
 
 Uruguay mantiene **centrales termoeléctricas** como respaldo del sistema en períodos de sequía, de alta demanda o de baja generación renovable:
@@ -102,8 +96,6 @@ Uruguay mantiene **centrales termoeléctricas** como respaldo del sistema en per
 | **Motores de emergencia** | Varios puntos | Gas oil | Variable | Reserva |
 
 Estas centrales operan **fuera de mérito** (a alto costo variable) y son despachadas por ADME solo cuando la generación renovable y las importaciones son insuficientes.
-
----
 
 ## Otras centrales de generación
 
@@ -121,8 +113,6 @@ Las plantas de celulosa UPM (ex Botnia, Fray Bentos, Río Negro, inaugurada 2007
 
 [VERIFICAR existencia y datos de otras centrales de biomasa en operación o proyectadas]
 
----
-
 ## Gestión de sequías
 
 La **sequía histórica de 2022–2023** fue la más severa registrada en décadas en Uruguay, afectando severamente los embalses del Río Negro y Salto Grande. Durante esa crisis:
@@ -132,8 +122,6 @@ La **sequía histórica de 2022–2023** fue la más severa registrada en décad
 - El gobierno adoptó medidas de ahorro energético y se produjeron alertas de suministro
 
 El episodio demostró la vulnerabilidad climática del sistema hídrico y reforzó la necesidad de diversificar la generación (mayor solar, almacenamiento en baterías, etc.).
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 La **matriz energética** de un país describe el conjunto de fuentes de energía que utiliza para satisfacer su demanda total: electricidad, transporte, industria, calefacción y usos residenciales. En Uruguay, la matriz energética ha experimentado una transformación profunda entre 2005 y 2020, pasando de una alta dependencia de combustibles fósiles importados a una predominancia de fuentes renovables autóctonas.
 
----
-
 ## Conceptos clave
 
 | Concepto | Definición |
@@ -17,8 +15,6 @@ La **matriz energética** de un país describe el conjunto de fuentes de energí
 | **Capacidad instalada (MW)** | Potencia máxima que puede generar una planta o el sistema |
 | **Generación (GWh)** | Energía efectivamente producida en un período |
 | **Factor de capacidad** | Relación entre energía generada y la potencia instalada máxima |
-
----
 
 ## Evolución histórica de la matriz eléctrica
 
@@ -53,8 +49,6 @@ La **Política Energética Nacional 2005–2030** impulsó la diversificación c
 | 2022–2023 | Sequía histórica; debate sobre almacenamiento |
 | 2024–2026 | Primera fase de instalación de baterías BESS; expansión solar |
 
----
-
 ## Composición de la matriz eléctrica (referencia 2023)
 
 Los datos exactos varían año a año según condiciones climáticas. A continuación se presentan referencias aproximadas para el año **2023** [VERIFICAR con datos oficiales DNE/ADME]:
@@ -69,8 +63,6 @@ Los datos exactos varían año a año según condiciones climáticas. A continua
 | **Total sistema** | **~4.000–5.000** | **~100%** |
 
 *Nota: Los valores son aproximados. Consultar los Balances Energéticos anuales de la DNE y los reportes de ADME para cifras actualizadas.*
-
----
 
 ## Matriz de energía primaria total
 
@@ -88,8 +80,6 @@ Composición aproximada de la energía primaria de Uruguay (referencia ~2022) [V
 
 El petróleo y derivados siguen siendo la fuente dominante en el total de energía primaria, principalmente por el sector transporte.
 
----
-
 ## Indicadores clave del sector eléctrico
 
 | Indicador | Valor de referencia | Fuente/Año |
@@ -99,8 +89,6 @@ El petróleo y derivados siguen siendo la fuente dominante en el total de energ�
 | Cobertura eléctrica nacional | ~99,6% de hogares [VERIFICAR] | UTE |
 | Precio promedio de la electricidad | Variable; regulado por URSEA | URSEA |
 | Intensidad energética | kWh/USD PIB — referencia MIEM | MIEM/DNE |
-
----
 
 ## Ventajas y desafíos de la matriz renovable uruguaya
 
@@ -120,8 +108,6 @@ El petróleo y derivados siguen siendo la fuente dominante en el total de energ�
 - **Interconexión:** capacidad limitada con Argentina y Brasil para exportar excedentes
 - **Descarbonización del transporte:** el sector transporte sigue dominado por combustibles fósiles
 
----
-
 ## Comparación regional e internacional
 
 | País/Región | % Renovable en electricidad (aprox. 2022) |
@@ -135,8 +121,6 @@ El petróleo y derivados siguen siendo la fuente dominante en el total de energ�
 
 Uruguay es reconocido por la **IEA (Agencia Internacional de Energía)** e **IRENA** como uno de los líderes mundiales en penetración de energías renovables en la matriz eléctrica.
 
----
-
 ## Política de precios y tarifas eléctricas
 
 Las **tarifas eléctricas** en Uruguay son fijadas por resolución del **Poder Ejecutivo**, sobre la base de propuestas del **MIEM**, con asesoría técnica de **UTE** y **URSEA**. Existen tarifas diferenciadas por:
@@ -149,13 +133,9 @@ Las **tarifas eléctricas** en Uruguay son fijadas por resolución del **Poder E
 
 El precio de la electricidad industrial en Uruguay ha sido históricamente competitivo a nivel regional gracias al alto porcentaje de generación renovable de bajo costo variable.
 
----
-
 ## Balances Energéticos Nacionales
 
 El **MIEM/DNE** publica anualmente el **Balance Energético Nacional (BEN)**, que documenta la producción, transformación, importación, exportación y consumo de todas las fuentes de energía del país. Es la fuente de referencia oficial para el análisis de la matriz energética uruguaya.
-
----
 
 ## Palabras clave
 

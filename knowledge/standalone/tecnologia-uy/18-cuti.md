@@ -1,3 +1,5 @@
+# Cámara Uruguaya de Tecnologías de la Información (CUTI)
+
 ## Resumen
 
 La **CUTI (Cámara Uruguaya de Tecnologías de la Información)** es el organismo gremial que agrupa a las empresas del sector de tecnologías de la información (TIC) de Uruguay. Fundada en 1997, la CUTI es el interlocutor del sector privado tecnológico ante el Estado, los organismos internacionales y los medios. Publica las estadísticas anuales de exportaciones de software, organiza los CUTI Awards (los premios más importantes del sector), promueve a Uruguay en ferias y misiones internacionales y defiende los intereses del sector ante el poder legislativo y ejecutivo. Con más de 130 empresas afiliadas, representa la columna vertebral institucional del ecosistema tecnológico uruguayo.

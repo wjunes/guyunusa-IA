@@ -1,3 +1,5 @@
+# Historia de la salud pública en Uruguay
+
 ## Resumen
 
 La historia de la salud pública uruguaya es la historia de la construcción gradual de un Estado que asumió la responsabilidad de proteger la salud de sus ciudadanos. Desde el higienismo de fines del siglo XIX, pasando por las reformas batllistas de principios del siglo XX, la fundación de la Facultad de Medicina y el crecimiento del mutualismo, hasta la gran reforma de 2007 que creó el SNIS, Uruguay construyó un sistema de salud progresivamente universal. La temprana presencia del Estado en salud pública —control de epidemias, saneamiento, vacunación obligatoria— fue característica diferenciadora del modelo uruguayo frente al resto de América Latina.

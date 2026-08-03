@@ -15,8 +15,6 @@
 | **Límites** | Río Negro (norte), Durazno (noreste), Florida (este), San José (sur), Soriano (oeste) |
 | **Rutas principales** | Ruta 2, Ruta 3, Ruta 23 |
 
----
-
 ## Historia
 
 ### Origen
@@ -28,8 +26,6 @@ La ciudad de **Trinidad** fue fundada en **1805** por el gobernador español Fra
 ### Venancio Flores
 
 El general **Venancio Flores** (1808–1868) fue una figura controvertida de la historia uruguaya: líder del Partido Colorado, organizó la **Cruzada Libertadora** (1863) contra el gobierno del Partido Nacional, con apoyo argentino y brasileño, lo que desencadenó la **Guerra del Paraguay** (1864–1870). Fue gobernador provisional de Uruguay (1865–1868) y fue asesinado en 1868.
-
----
 
 ## Geografía
 
@@ -49,15 +45,11 @@ Terreno **ondulado a llano**, con cuchillas suaves. Altitudes entre 50 y 150 m s
 
 Clima **templado húmedo** (Cfa). Temperatura media: ~17–18 °C. Precipitaciones: ~1.100–1.200 mm/año.
 
----
-
 ## Naturaleza
 
 ### Flora y fauna
 
 Pastizales naturales de la Región Pampeana; monte ribereño en orillas del Río Yi y el Negro. Fauna de pradera típica: venado de campo, ñandú, zorro gris, mulita.
-
----
 
 ## Economía
 
@@ -73,8 +65,6 @@ Producción de soja, girasol, trigo y maíz. La rotación agricultura-ganadería
 
 Trinidad ofrece servicios de paso para turistas que atraviesan el centro del país, pero el turismo no es una actividad predominante.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -83,16 +73,12 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | Liceos del CES en Trinidad | Educación media |
 | UTU — Trinidad | Formación técnica |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Trinidad** | Hospital público departamental (ASSE) |
 | Mutualistas locales | Cobertura privada |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -101,8 +87,6 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | **Plaza de la Constitución de Trinidad** | Centro histórico; edificios gubernamentales |
 | **Iglesia de Trinidad** | Patrimonio religioso |
 | **Casa del General Flores** [VERIFICAR si existe como patrimonio] | — |
-
----
 
 ## Cultura
 
@@ -113,15 +97,11 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | **Semana de Trinidad** | Fiestas patronales de la capital |
 | **Jineteadas y actividades gauchescas** | Tradición criolla viva en el departamento |
 
----
-
 ## Deportes
 
 | Club | Descripción |
 |------|-------------|
 | Clubes de fútbol de la Liga Departamental | Fútbol aficionado local |
-
----
 
 ## Turismo
 
@@ -131,8 +111,6 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | **Río Yi** | Pesca deportiva; riberas naturales |
 | **Turismo rural** | Estancias y campo uruguayo |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -140,8 +118,6 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | **Ruta 2** | Conexión con Montevideo y el litoral oeste |
 | **Ruta 3** | Hacia Salto y el norte |
 | **Ruta 23** | Hacia Florida y el este |
-
----
 
 ## Instituciones
 
@@ -151,16 +127,12 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | **Junta Departamental** | 31 ediles |
 | **Municipio de Trinidad** | Gobierno municipal capital |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Venancio Flores** (1808–1868) | Política / Militar | General y político; el departamento lleva su nombre |
 | [VERIFICAR otras personalidades destacadas] | — | — |
-
----
 
 ## Estadísticas
 
@@ -171,16 +143,12 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | Densidad | 5,1 hab./km² | INE |
 | Ciudad capital | Trinidad (~21.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - Flores es el **departamento más pequeño del Uruguay después de Montevideo** en superficie.
 - Es también el **menos poblado** del país.
 - Fue creado en **1901**, siendo el último departamento establecido en Uruguay; tiene el proceso de creación más reciente de todos.
 - Su capital, Trinidad, es conocida por sus calles anchas y su trazado urbano ordenado, típico de las ciudades uruguayas del siglo XIX.
-
----
 
 ## Cronología
 
@@ -191,8 +159,6 @@ Trinidad ofrece servicios de paso para turistas que atraviesan el centro del pa�
 | 1868 | Asesinato de Venancio Flores |
 | 1901 | Creación del departamento de Flores (el último en crearse en Uruguay) |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

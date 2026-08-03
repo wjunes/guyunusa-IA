@@ -4,8 +4,6 @@
 
 Los **indicadores económicos** son medidas estadísticas que reflejan el estado y la evolución de la economía. En Uruguay, los principales indicadores son producidos por el **Instituto Nacional de Estadística (INE)**, el **Banco Central del Uruguay (BCU)** y el **Ministerio de Economía y Finanzas (MEF)**. Este archivo describe los indicadores más relevantes, su definición, fuente y evolución histórica general.
 
----
-
 ## Producto Interno Bruto (PIB)
 
 ### Definición
@@ -29,8 +27,6 @@ El INE publica las **Cuentas Nacionales** de Uruguay en las que estima el PIB po
 | 2015–2019 | Desaceleración |
 | 2020 | Caída de ~6,8% por pandemia COVID-19 |
 | 2021–2022 | Recuperación; crecimiento superior al 4% |
-
----
 
 ## Inflación y Precios
 
@@ -56,8 +52,6 @@ El IPC es el indicador de inflación de referencia. Se utiliza para actualizar s
 
 La banda objetivo de inflación del BCU ha sido históricamente de **3% a 7% anual**. En períodos recientes la inflación ha superado la banda, llevando al BCU a endurecer la política monetaria.
 
----
-
 ## Tipo de cambio
 
 El **tipo de cambio** expresa el precio del dólar estadounidense en pesos uruguayos. El BCU publica diariamente el **tipo de cambio interbancario** (promedio de operaciones entre bancos).
@@ -70,8 +64,6 @@ El **tipo de cambio** expresa el precio del dólar estadounidense en pesos urugu
 | Crisis de 2002 | El dólar pasó de ~13 a más de 30 pesos en meses |
 | Período 2003–2015 | Tipo de cambio relativamente estable (20–30 pesos) |
 | Período 2016–2023 | Apreciación del peso relativa; dólar en torno a 35–40 pesos |
-
----
 
 ## Empleo y desempleo
 
@@ -92,8 +84,6 @@ El INE publica la **Encuesta Continua de Hogares (ECH)**, de la cual se derivan 
 
 La tasa de desempleo llegó al pico de aproximadamente **17%** en 2002. Con la recuperación económica bajó sostenidamente hasta aproximadamente **7–8%** en los años de mayor crecimiento. La pandemia de 2020 provocó un repunte transitorio.
 
----
-
 ## Pobreza e indigencia
 
 El INE mide la **pobreza** y la **indigencia** a través de la metodología de línea de pobreza, aplicada a la ECH.
@@ -110,13 +100,9 @@ El INE mide la **pobreza** y la **indigencia** a través de la metodología de l
 
 La reducción de la pobreza fue uno de los logros más destacados del período 2005–2019, resultado de la combinación de crecimiento económico, política social (MIDES, Plan de Emergencia, Plan de Equidad) y política de ingresos (Consejo de Salarios, aumento del SMN).
 
----
-
 ## Distribución del ingreso
 
 El **coeficiente de Gini** es el indicador más utilizado para medir la distribución del ingreso. Uruguay redujo su índice de Gini de aproximadamente 0,46 en 2006 a alrededor de 0,39–0,40 en 2019, consolidándose como uno de los países con menor desigualdad de América Latina.
-
----
 
 ## Balanza comercial
 
@@ -124,19 +110,13 @@ La **balanza comercial** registra la diferencia entre las exportaciones y las im
 
 Uruguay ha alternado períodos de superávit y déficit en su balanza comercial de bienes. La entrada en operaciones de las plantas de celulosa (2007, 2022) impulsó significativamente el valor de las exportaciones.
 
----
-
 ## Reservas internacionales
 
 Las **reservas internacionales brutas** son activos externos administrados por el BCU. Se publican semanalmente. Las reservas se expresan en millones de dólares y representan un colchón de liquidez ante shocks externos.
 
----
-
 ## Deuda pública como porcentaje del PIB
 
 La deuda pública/PIB es indicador de sostenibilidad fiscal. Tras la crisis de 2002 (cuando superó el 100% del PIB), Uruguay la redujo progresivamente hasta alrededor del 60–70% del PIB en los años previos a la pandemia.
-
----
 
 ## Palabras clave
 

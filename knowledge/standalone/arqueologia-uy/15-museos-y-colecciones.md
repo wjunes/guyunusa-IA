@@ -1,12 +1,8 @@
 # Museos y Colecciones Arqueológicas del Uruguay
 
----
-
 ## Introducción
 
 El patrimonio arqueológico del Uruguay está custodiado en museos nacionales, museos departamentales, colecciones universitarias y, en menor medida, en colecciones privadas (muchas de ellas de problemática procedencia). Este archivo describe los principales espacios de conservación, exhibición e investigación de materiales arqueológicos del país.
-
----
 
 ## Museos Nacionales
 
@@ -32,8 +28,6 @@ El MNA fue fundado en 1960 como institución especializada en el estudio y difus
 **Exposiciones:**
 El MNA cuenta con salas de exhibición permanente sobre los pueblos originarios del Uruguay y la diversidad humana, integrando materiales arqueológicos, etnográficos y fotográficos.
 
----
-
 ### Museo Nacional de Historia Natural (MNHN)
 
 | Campo | Dato |
@@ -51,13 +45,9 @@ Fundado en 1837, el MNHN es el museo científico más antiguo del Uruguay. Alber
 - Materiales del sitio Arroyo del Vizcaíno (coordinación con Facultad de Ciencias).
 - Colecciones de fósiles y restos óseos con contextos arqueológicos o paleoarqueológicos.
 
----
-
 ### Museo del Gaucho y la Moneda (Banco de la República)
 
 Este museo, aunque principalmente dedicado al gaucho y la numismática, alberga materiales relacionados con la vida rural histórica que tienen interés para la arqueología histórica del período colonial y republicano.
-
----
 
 ### Museo Naval del Uruguay
 
@@ -69,8 +59,6 @@ Este museo, aunque principalmente dedicado al gaucho y la numismática, alberga 
 
 **Relevancia para la arqueología subacuática:**
 El Museo Naval custodia materiales relacionados con la historia naval del Uruguay, incluyendo piezas rescatadas del acorazado alemán **Admiral Graf Spee** (hundido en 1939). El **telémetro del Graf Spee**, rescatado en 2006, es la pieza más notable.
-
----
 
 ## Museos Departamentales con Colecciones Arqueológicas
 
@@ -94,8 +82,6 @@ Cuenta con materiales arqueológicos de la región del Río Negro.
 
 Aunque principalmente de carácter histórico, custodia algunos materiales relacionados con la arqueología urbana de Montevideo (período colonial y republicano).
 
----
-
 ## Colecciones Universitarias
 
 ### Colección de Arqueología — FHCE-Udelar
@@ -112,8 +98,6 @@ Estas colecciones tienen acceso restringido para investigación; no son de acces
 
 La **Facultad de Ciencias** (Udelar) custodia los materiales del sitio Arroyo del Vizcaíno y otras colecciones paleontológicas con relevancia para el estudio del poblamiento temprano.
 
----
-
 ## Centros de Interpretación
 
 ### Centro de Visitantes — Fortaleza de Santa Teresa (Rocha)
@@ -124,13 +108,9 @@ La **Fortaleza de Santa Teresa** cuenta con un espacio de interpretación histó
 
 El sector declarado Patrimonio de la Humanidad de **Colonia del Sacramento** integra la arqueología a la interpretación histórica del sitio a través del **Museo Municipal de Colonia** y los espacios de visita del casco histórico.
 
----
-
 ## Exposiciones Temporales Relevantes
 
 A lo largo de las últimas décadas, el MNA, el MNHN y la FHCE-Udelar han organizado exposiciones temporales sobre arqueología uruguaya, aunque sin la regularidad de un programa sistemático de difusión.
-
----
 
 ## Estado general y desafíos
 
@@ -141,8 +121,6 @@ Los principales desafíos de los museos con colecciones arqueológicas en Urugua
 - **Digitalización de colecciones:** proceso iniciado pero incompleto; no existe un catálogo nacional en línea accesible.
 - **Acceso restringido a investigadores:** algunos materiales no están disponibles para consulta sistemática.
 - **Colecciones sin documentación:** parte de los materiales históricos ingresados al MNA y otros museos antes de la década de 1980 tienen documentación contextual deficiente.
-
----
 
 ## Palabras clave
 

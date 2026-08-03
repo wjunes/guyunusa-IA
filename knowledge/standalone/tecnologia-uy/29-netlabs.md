@@ -1,3 +1,5 @@
+# Netlabs — empresa tecnológica uruguaya
+
 ## Resumen
 
 **Netlabs** es una empresa uruguaya de servicios de tecnología informática (IT services) especializada en infraestructura, redes y comunicaciones para empresas. Su oferta incluye diseño, implementación y gestión de redes corporativas, ciberseguridad, servicios de cloud y soporte tecnológico. Es una empresa establecida en el mercado uruguayo de IT services, con clientes en el sector privado y el sector público.

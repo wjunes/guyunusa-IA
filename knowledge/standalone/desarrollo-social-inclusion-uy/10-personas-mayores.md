@@ -11,8 +11,6 @@ Uruguay es uno de los países más envejecidos de América Latina. Según el Cen
 
 Este contexto demográfico convierte las políticas de envejecimiento en un desafío estructural de largo plazo para el sistema de protección social.
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -22,8 +20,6 @@ Este contexto demográfico convierte las políticas de envejecimiento en un desa
 | Decreto 305/006 | 2006 | Normas de habilitación de residenciales de larga estadía |
 | Convención Interamericana sobre Protección de DDHH de las Personas Mayores (CIPM) | 2015 | Uruguay la ratificó; instrumento vinculante interamericano |
 | Plan Nacional de Envejecimiento y Vejez | 2016–2030 | Marco estratégico para las políticas de envejecimiento |
-
----
 
 ## INMAYORES — Instituto Nacional de las Personas Mayores
 
@@ -40,8 +36,6 @@ El **INMAYORES** es el organismo del MIDES responsable de las políticas públic
 - Desarrollar programas de envejecimiento activo.
 - Asesorar al Poder Ejecutivo en políticas de personas mayores.
 - Difundir los derechos de las personas mayores.
-
----
 
 ## Servicios del SNIC para personas mayores
 
@@ -63,8 +57,6 @@ Servicio de alerta y acompañamiento a distancia mediante dispositivos electrón
 
 Contribución económica del Estado para familias que cuidan a personas mayores dependientes en el hogar, como reconocimiento del valor del trabajo de cuidados.
 
----
-
 ## Establecimientos de larga estadía (residenciales)
 
 Los establecimientos de larga estadía (popularmente denominados "hogares de ancianos" o "residenciales") son instituciones residenciales para personas mayores con dependencia funcional severa o sin redes de apoyo familiar.
@@ -78,8 +70,6 @@ Los establecimientos de larga estadía (popularmente denominados "hogares de anc
 
 **Financiamiento**: el BPS tiene un subsidio de internación para personas mayores de menores recursos que necesitan ingresar a un establecimiento residencial.
 
----
-
 ## Plan Nacional de Envejecimiento y Vejez (2016–2030)
 
 El Plan Nacional de Envejecimiento y Vejez es el instrumento estratégico de política pública de largo plazo para las personas mayores en Uruguay. Sus ejes son:
@@ -89,15 +79,11 @@ El Plan Nacional de Envejecimiento y Vejez es el instrumento estratégico de pol
 4. Cuidados de calidad.
 5. Investigación y gestión del conocimiento.
 
----
-
 ## Derechos de las personas mayores
 
 Uruguay ratificó la **Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores (CIPM)** adoptada por la OEA en 2015. Es el primer instrumento internacional vinculante específicamente dedicado a los derechos de las personas mayores en el continente.
 
 Los derechos reconocidos incluyen: la vida, la dignidad, la autonomía, la identidad, la salud, la educación, la participación, la accesibilidad y el cuidado.
-
----
 
 ## Palabras clave
 

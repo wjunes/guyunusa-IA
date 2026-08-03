@@ -4,8 +4,6 @@
 
 Este archivo recoge las **fichas institucionales** de los principales organismos vinculados al Ministerio de Educación y Cultura (MEC) y al Sistema Nacional de Educación Pública (SNEP) de Uruguay. Incluye entes autónomos, servicios descentralizados, institutos y organismos especializados que integran el ecosistema educativo, cultural y científico uruguayo.
 
----
-
 ## ANEP — Administración Nacional de Educación Pública
 
 | Campo | Información |
@@ -19,8 +17,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Subsistemas | DGEIP, DGES, DGETP (UTU), CFE |
 | Gobierno | CODICEN (5 consejeros designados por el PE con venia del Senado) |
 
----
-
 ## CODICEN — Consejo Directivo Central
 
 | Campo | Información |
@@ -31,8 +27,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Designación | Poder Ejecutivo con venia del Senado |
 | Período | 5 años |
 | Funciones | Conducción general de la ANEP; presupuesto; coordinación de subsistemas |
-
----
 
 ## DGEIP — Dirección General de Educación Inicial y Primaria
 
@@ -45,8 +39,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Gobierno | Consejo de 3 integrantes |
 | Sitio web | www.dgeip.edu.uy |
 
----
-
 ## DGES — Dirección General de Educación Secundaria
 
 | Campo | Información |
@@ -57,8 +49,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Dependencia | CODICEN/ANEP |
 | Gobierno | Consejo de 3 integrantes |
 | Sitio web | www.ces.edu.uy |
-
----
 
 ## DGETP / UTU — Dirección General de Educación Técnico-Profesional
 
@@ -72,8 +62,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Historia | Fundada como Escuela de Artes y Oficios (1878); UTU desde 1942 |
 | Sitio web | www.utec.edu.uy (UTEC) / www.utu.edu.uy |
 
----
-
 ## CFE — Consejo de Formación en Educación
 
 | Campo | Información |
@@ -85,8 +73,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Base legal | Ley 18.437 (2008) |
 | Debate | IUDE: universitarización pendiente de definición |
 | Sitio web | www.cfe.edu.uy |
-
----
 
 ## Udelar — Universidad de la República
 
@@ -101,8 +87,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Centros regionales | CENUR Litoral Norte, Noreste, Este, Durazno |
 | Sitio web | www.udelar.edu.uy |
 
----
-
 ## UTEC — Universidad Tecnológica del Uruguay
 
 | Campo | Información |
@@ -115,8 +99,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Sitio web | www.utec.edu.uy |
 | Misión | Universidad tecnológica descentralizada; interior del país |
 
----
-
 ## Plan Ceibal
 
 | Campo | Información |
@@ -126,8 +108,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Misión | Tecnología educativa; dispositivos, conectividad y plataformas digitales para el sistema educativo |
 | Cobertura | Primaria completa (desde 2009); secundaria desde 2010 |
 | Sitio web | www.ceibal.edu.uy |
-
----
 
 ## INEEd — Instituto Nacional de Evaluación Educativa
 
@@ -141,8 +121,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Actividades | Pruebas ARISTAS; participación en PISA, ERCE; informes sobre el estado de la educación |
 | Sitio web | www.ineed.edu.uy |
 
----
-
 ## ANII — Agencia Nacional de Investigación e Innovación
 
 | Campo | Información |
@@ -154,8 +132,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Misión | Fomento de la investigación científica y la innovación en Uruguay |
 | Instrumentos | SNII, becas de posgrado, fondos de I+D, emprendedurismo |
 | Sitio web | www.anii.org.uy |
-
----
 
 ## IIBCE — Instituto de Investigaciones Biológicas Clemente Estable
 
@@ -169,8 +145,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Áreas | Neurociencias, genética, microbiología, biología celular |
 | Sitio web | www.iibce.edu.uy |
 
----
-
 ## Biblioteca Nacional
 
 | Campo | Información |
@@ -181,8 +155,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Sede | Av. 18 de Julio 1790, Montevideo |
 | Colección | Más de 1 millón de volúmenes |
 
----
-
 ## Archivo General de la Nación (AGN)
 
 | Campo | Información |
@@ -191,8 +163,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Dependencia | MEC |
 | Misión | Custodia y organización del acervo documental histórico del Estado |
 | Fondos | Período colonial (1724) hasta presente |
-
----
 
 ## SODRE — Servicio Oficial de Difusión, Radiotelevisión y Espectáculos
 
@@ -205,8 +175,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Sede | Auditorio Nacional del SODRE, Montevideo |
 | Sitio web | www.sodre.gub.uy |
 
----
-
 ## INEFOP — Instituto Nacional de Empleo y Formación Profesional
 
 | Campo | Información |
@@ -216,8 +184,6 @@ Este archivo recoge las **fichas institucionales** de los principales organismos
 | Misión | Formación laboral y profesional continua para adultos en el mercado de trabajo |
 | Articulación | UTU/DGETP; ANEP; MTSS |
 | Sitio web | www.inefop.org.uy |
-
----
 
 ## Palabras clave
 

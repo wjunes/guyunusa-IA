@@ -6,8 +6,6 @@ La accesibilidad en el transporte refiere a la capacidad del sistema de movilida
 
 Uruguay cuenta con un marco legal que reconoce los derechos de las personas con discapacidad y establece obligaciones para el sector transporte en materia de accesibilidad.
 
----
-
 ## Marco legal
 
 ### Ley 18.651 — Protección Integral de Personas con Discapacidad
@@ -25,8 +23,6 @@ El **Decreto 402/015** (2015) reglamenta aspectos de la accesibilidad en el tran
 ### Ley 18.776 — Convención sobre los Derechos de las Personas con Discapacidad (CDPD)
 
 Uruguay ratificó la **Convención sobre los Derechos de las Personas con Discapacidad** (ONU, 2006) mediante la **Ley 18.776** (2011). El artículo 9 de la CDPD establece la obligación de los Estados de asegurar el acceso de las personas con discapacidad a la infraestructura de transporte en condiciones de igualdad.
-
----
 
 ## Accesibilidad en el transporte colectivo urbano
 
@@ -53,8 +49,6 @@ Las paradas de ómnibus se están adaptando progresivamente con:
 - Información en sistema Braille (en proceso de expansión)
 - Cartelería a altura accesible
 
----
-
 ## Accesibilidad en terminales
 
 ### Terminal Tres Cruces
@@ -80,8 +74,6 @@ El Aeropuerto Internacional de Carrasco (terminal inaugurada en 2009) cumple est
 
 La terminal de pasajeros del Puerto de Montevideo ha incorporado mejoras de accesibilidad, aunque la adaptación completa de la infraestructura portuaria representa un desafío de mayor envergadura.
 
----
-
 ## Tarifas y beneficios sociales en el transporte
 
 ### Tarifa cero y tarifa reducida
@@ -97,8 +89,6 @@ La **tarjeta STM** permite la aplicación de tarifas diferenciadas para distinto
 
 La gratuidad para personas con discapacidad en el transporte urbano de Montevideo está regulada por normativa específica. Los criterios de elegibilidad son definidos por el **MIDES** y el **BPS**.
 
----
-
 ## Movilidad universal y diseño inclusivo
 
 El **diseño universal** (o diseño inclusivo) implica que la infraestructura y los vehículos de transporte sean utilizables por el mayor número posible de personas sin necesidad de adaptaciones específicas. Este enfoque aplica a:
@@ -108,13 +98,9 @@ El **diseño universal** (o diseño inclusivo) implica que la infraestructura y 
 - **Terminales**: rutas de circulación sin obstáculos, señalización multimodal.
 - **Información**: apps con opciones de accesibilidad (lector de pantalla, contraste alto, texto ampliado).
 
----
-
 ## Transporte especial para personas con discapacidad
 
 El **MIDES** y otras instituciones coordinan servicios de transporte especial para personas con discapacidad que no pueden utilizar el transporte colectivo convencional. Estos servicios complementan el transporte público accesible para casos de mayor dependencia.
-
----
 
 ## Instituciones responsables de la accesibilidad en transporte
 
@@ -126,8 +112,6 @@ El **MIDES** y otras instituciones coordinan servicios de transporte especial pa
 | BPS | Beneficios para jubilados y pensionistas |
 | PRONADIS (MIDES) | Programa Nacional de Discapacidad; asesoramiento y supervisión |
 
----
-
 ## Desafíos pendientes
 
 | Desafío | Descripción |
@@ -137,8 +121,6 @@ El **MIDES** y otras instituciones coordinan servicios de transporte especial pa
 | Accesibilidad en terminales del interior | Infraestructura con distintos grados de adaptación |
 | Información accesible | Apps y señalética aún no uniformemente adaptadas |
 | Capacitación del personal | Atención a usuarios con discapacidad por conductores y personal de terminales |
-
----
 
 ## Palabras clave
 

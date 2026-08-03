@@ -4,15 +4,11 @@
 
 Las exportaciones de Uruguay se caracterizan por una alta concentración en bienes de origen agropecuario y agroindustrial, aunque en las últimas décadas se ha consolidado un sector exportador de servicios de creciente importancia.
 
----
-
 ## Evolución reciente del valor exportado
 
 A lo largo de la primera mitad de la década de 2020, Uruguay registró exportaciones de bienes del orden de los USD 10.000–12.000 millones anuales (valores FOB). Las exportaciones de servicios representan una cifra adicional significativa, impulsadas principalmente por los servicios empresariales, tecnológicos y el turismo.
 
 Los datos oficiales son publicados mensualmente por Uruguay XXI y el BCU.
-
----
 
 ## Composición sectorial de las exportaciones de bienes
 
@@ -38,8 +34,6 @@ El complejo agroexportador concentra la mayor parte del valor exportado en biene
 
 **Lana y tops**: La lana uruguaya, de calidad reconocida internacionalmente, se exporta tanto en greasy (sucia) como en tops (peinada).
 
----
-
 ### Sector industrial
 
 **Productos químicos y farmacéuticos**: Uruguay exporta medicamentos, principios activos y productos químicos. La instalación de plantas farmacéuticas en el país, incluyendo en zonas francas, impulsó este segmento.
@@ -50,13 +44,9 @@ El complejo agroexportador concentra la mayor parte del valor exportado en biene
 
 **Maquinaria y equipos**: Exportaciones de menor volumen de equipos e implementos agrícolas y otros.
 
----
-
 ### Sector minero y energético
 
 Uruguay no es un exportador relevante de minerales ni energía, aunque esporádicamente exporta energía eléctrica a Argentina y Brasil en períodos de excedente (generación eólica e hidroeléctrica).
-
----
 
 ## Exportaciones de servicios
 
@@ -70,8 +60,6 @@ Las exportaciones de servicios han ganado participación en el total de los ingr
 
 **Servicios financieros y logísticos**: Uruguay ofrece servicios financieros y logísticos al entorno regional, en particular a través de la plaza financiera de Montevideo y el Puerto de Montevideo como nodo del MERCOSUR.
 
----
-
 ## Concentración de la canasta exportadora
 
 Una característica estructural del comercio exterior uruguayo es la alta concentración de las exportaciones en un número reducido de rubros (celulosa, carne, soja, lácteos) y en los commodities agropecuarios. Esto expone al país a la volatilidad de los precios internacionales de materias primas.
@@ -80,8 +68,6 @@ Las políticas de diversificación apuntan a:
 - Expandir las exportaciones de servicios de mayor valor agregado.
 - Desarrollar rubros de nicho (alimentos especiales, biotecnología, economía creativa).
 - Profundizar el procesamiento industrial de materias primas.
-
----
 
 ## Palabras clave
 

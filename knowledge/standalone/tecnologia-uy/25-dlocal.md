@@ -1,3 +1,5 @@
+# dLocal — fintech uruguaya de pagos globales
+
 ## Resumen
 
 **dLocal** es una empresa de tecnología financiera (fintech) fundada en Montevideo en 2016, especializada en el procesamiento de pagos para empresas globales que operan en mercados emergentes de América Latina, África y Asia. Resuelve un problema crítico: permitir que corporaciones como Spotify, Netflix, Uber, Amazon, Microsoft o Booking cobren y paguen en países donde los sistemas de pago son fragmentados, locales y complejos. En junio de 2021, dLocal realizó su Oferta Pública Inicial (IPO) en el **NASDAQ** bajo el ticker **DLO**, convirtiéndose en el **primer unicornio tecnológico de Uruguay** y uno de los primeros de América del Sur en cotizar directamente en el NASDAQ.

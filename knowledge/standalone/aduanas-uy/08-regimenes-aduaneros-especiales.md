@@ -4,8 +4,6 @@
 
 Los regímenes aduaneros especiales son tratamientos diferenciados que la DNA otorga a determinadas mercancías en función de su destino, uso, duración de la permanencia en el país o condiciones específicas de la operación. Se distinguen del régimen de importación definitiva en que las mercancías no se incorporan de manera permanente al circuito económico del país o no están sujetas al pago íntegro de los tributos de importación.
 
----
-
 ## Admisión temporaria
 
 La admisión temporaria es el régimen que permite introducir mercancías extranjeras en el territorio aduanero uruguayo, con suspensión total o parcial del pago de los derechos e impuestos de importación, con la condición de que sean reexportadas dentro de un plazo determinado.
@@ -22,8 +20,6 @@ La admisión temporaria es el régimen que permite introducir mercancías extran
 
 **Plazos**: el plazo de permanencia varía según el régimen y el tipo de mercancía, pudiendo prorrogarse con autorización de la DNA.
 
----
-
 ## Exportación temporaria
 
 La exportación temporaria es el régimen que permite la salida del territorio aduanero uruguayo de mercancías nacionales o en libre circulación, con obligación de reimportarlas dentro de un plazo, sin que sean gravadas como si fueran importaciones definitivas al retornar.
@@ -35,8 +31,6 @@ La exportación temporaria es el régimen que permite la salida del territorio a
 - Animales para reproducción o participación en eventos.
 
 **Reimportación**: cuando los bienes retornan, no se pagan derechos sobre el valor original uruguayo. Si el bien ha sido reparado y tiene mayor valor, los derechos se aplican solo sobre el valor agregado en el exterior (costo de la reparación o del proceso).
-
----
 
 ## Depósito de aduana (Depósito Fiscal)
 
@@ -50,8 +44,6 @@ El depósito de aduana (también denominado depósito fiscal) es el régimen que
 
 Los depósitos de aduana están habilitados principalmente en el área portuaria de Montevideo (Puerto Libre de Montevideo) y en el Aeropuerto Internacional de Carrasco.
 
----
-
 ## Tránsito aduanero
 
 El tránsito aduanero es el régimen que permite el transporte de mercancías extranjeras a través del territorio uruguayo, desde un punto de entrada hasta un punto de salida o un depósito de aduana, sin pagar los tributos de importación.
@@ -60,31 +52,21 @@ El tránsito aduanero es el régimen que permite el transporte de mercancías ex
 
 **Marco**: el tránsito aduanero en el MERCOSUR está regulado por el Acuerdo de Tránsito Aduanero Internacional (ATAI) del ALADI y las normas propias del bloque.
 
----
-
 ## Importación condicional
 
 La importación condicional es el régimen que permite introducir mercancías al territorio nacional con suspensión o exoneración de derechos, condicionada al cumplimiento de determinadas obligaciones en un plazo determinado (por ejemplo, uso en un proyecto específico aprobado por la COMAP, destino a zona franca, etc.).
-
----
 
 ## Zona Franca (régimen especial)
 
 Las zonas francas son áreas del territorio uruguayo en las que las mercancías se consideran fuera del territorio aduanero a efectos de los tributos al comercio exterior. Se tratan en detalle en el archivo 11-zonas-francas.md.
 
----
-
 ## Régimen especial de equipaje
 
 Los viajeros que ingresan a Uruguay pueden introducir mercancías para uso personal con exenciones o límites especiales, sin pagar derechos de aduana ni IVA, siempre que no superen los umbrales establecidos por la DNA y el Poder Ejecutivo (montos de exención por vía aérea y terrestre).
 
----
-
 ## Régimen especial de menaje de casa
 
 Los uruguayos que regresan al país tras un período de residencia en el exterior pueden importar su menaje de hogar (muebles, electrodomésticos) con exoneración de derechos, sujeto a condiciones de plazo de residencia mínima en el exterior y cumplimiento de requisitos documentales ante la DNA.
-
----
 
 ## Palabras clave
 

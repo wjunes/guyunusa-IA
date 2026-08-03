@@ -1,7 +1,5 @@
 # Línea de Tiempo de la Arqueología y el Poblamiento del Uruguay
 
----
-
 ## Período geológico y paleoambiental
 
 | Fecha aproximada | Evento |
@@ -13,8 +11,6 @@
 | ~15.000–12.000 AP | Inicio del calentamiento posglacial; retroceso de los glaciares en el Hemisferio Sur |
 | ~12.000–10.000 AP | Extinción de la megafauna en América del Sur: mastodontes, toxodontes, gliptodontes, caballos americanos, paleollamas |
 | ~8.000–6.000 AP | Estabilización del nivel del mar; formación del estuario del Río de la Plata en su forma actual |
-
----
 
 ## Período prehistórico
 
@@ -31,8 +27,6 @@
 | ~2.000–1.000 AP | Continuación de la tradición de cerritos; posibles evidencias de contacto con grupos de otras regiones |
 | ~1.000–500 AP | Llegada de grupos de filiación Guaraní al litoral fluvial del río Uruguay; convivencia con grupos locales; cerámica Guaraní |
 | ~500 AP (siglo XVI) | Período de contacto con europeos; primeros europeos en el Río de la Plata |
-
----
 
 ## Período histórico: exploración y colonización
 
@@ -58,8 +52,6 @@
 | 1825 | Declaración de Independencia (Florida) |
 | 1828 | Convención Preliminar de Paz; reconocimiento de la independencia del Uruguay |
 
----
-
 ## Historia de la arqueología en Uruguay
 
 | Año | Evento |
@@ -83,8 +75,6 @@
 | 2014 | Fariña et al. publican en *Proceedings of the Royal Society B*: debate internacional sobre Arroyo del Vizcaíno |
 | 2015 | Inscripción del Paisaje Industrial Fray Bentos en la Lista del Patrimonio Mundial UNESCO |
 | 2022 | [VERIFICAR publicaciones o hitos recientes de la arqueología uruguaya] |
-
----
 
 ## Palabras clave
 

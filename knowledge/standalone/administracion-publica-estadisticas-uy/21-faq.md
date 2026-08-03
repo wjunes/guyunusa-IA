@@ -2,8 +2,6 @@
 
 > Este archivo tiene propósito exclusivamente informativo y educativo. No constituye asesoramiento legal, administrativo ni de ningún otro tipo. Para situaciones específicas, debe consultarse un profesional o el organismo competente.
 
----
-
 ## Sobre la Administración Pública
 
 **¿Cómo se organiza el Estado uruguayo?**
@@ -17,8 +15,6 @@ Los entes autónomos son personas jurídicas estatales con autonomía funcional 
 
 **¿Qué son los Municipios y cuándo fueron creados?**
 Los Municipios son el tercer nivel de gobierno subnacional uruguayo, creados por la Ley 18.567/2009 (Descentralización Política y Participación Ciudadana). Están encabezados por un Alcalde y un Concejo de 4 miembros, electos por 5 años. Los primeros 89 municipios se instalaron en 2010; en 2015 eran 112. Son la instancia de gobierno más cercana a la ciudadanía.
-
----
 
 ## Sobre el servicio civil y el empleo público
 
@@ -34,8 +30,6 @@ Los funcionarios presupuestados gozan de estabilidad laboral por la Constitució
 **¿Qué es el RVE?**
 El Registro de Vínculos con el Estado (RVE) es el registro nacional de todos los vínculos laborales de personas con el sector público uruguayo (cargos, contratos, comisiones, becas, pasantías). Lo administra la ONSC y permite al Estado conocer la dotación total del sector público.
 
----
-
 ## Sobre el gobierno digital y la transparencia
 
 **¿Qué es el expediente electrónico?**
@@ -46,8 +40,6 @@ La Ley 18.381/2008 garantiza el derecho de acceso a la información pública. Cu
 
 **¿Dónde puedo encontrar datos abiertos del Estado?**
 El catálogo oficial de datos abiertos del Estado uruguayo es **datos.gub.uy** (accesible como catalogodatos.gub.uy). Contiene miles de conjuntos de datos de todos los organismos públicos en formatos abiertos (CSV, JSON, shapefile, etc.), de descarga libre y gratuita.
-
----
 
 ## Sobre las estadísticas
 
@@ -65,8 +57,6 @@ Los resultados del Censo 2023 se publican progresivamente en el sitio del INE (w
 
 **¿Dónde puedo consultar los datos de pobreza en Uruguay?**
 Los datos de pobreza son publicados anualmente por el INE en su sitio web (www.ine.gub.uy), a partir de los resultados de la ECH. La metodología y los microdatos también están disponibles en el Banco de Datos del INE.
-
----
 
 ## Palabras clave
 

@@ -28,8 +28,6 @@ Las fuentes normativas están disponibles en el portal oficial del IMPO (Institu
 | Ley N° 19.483 | 5 de enero de 2017 | Estatuto del Fiscal |
 | Ley N° 19.636 | 2018 | Arbitraje Comercial Internacional |
 
----
-
 ## Fuentes institucionales oficiales
 
 | Organismo | URL | Contenido relevante |
@@ -43,8 +41,6 @@ Las fuentes normativas están disponibles en el portal oficial del IMPO (Institu
 | Corte Electoral | www.corteelectoral.gub.uy | Normativa electoral, resultados, estadísticas |
 | Ministerio de Educación y Cultura (MEC) | www.gub.uy/ministerio-educacion-cultura | Normativa vinculada a la FGN; habilitaciones educativas |
 
----
-
 ## Instrumentos internacionales
 
 | Instrumento | Año | Ratificación Uruguay |
@@ -56,8 +52,6 @@ Las fuentes normativas están disponibles en el portal oficial del IMPO (Institu
 | Convención de la ONU contra la Corrupción (UNCAC) | 2003 | 2007 |
 | Protocolo de Las Leñas (MERCOSUR) | 1992 | 1992 |
 | Protocolo de Olivos (MERCOSUR) | 2002 | 2002 |
-
----
 
 ## Fuentes académicas — Selección
 
@@ -82,14 +76,10 @@ Las siguientes obras son referencias clásicas en el estudio del derecho procesa
 - *Revista Uruguaya de Derecho Procesal*, FCU.
 - *Anuario de Derecho Administrativo*, FCU.
 
----
-
 ## Publicaciones estadísticas oficiales
 
 - **Anuario Estadístico Judicial** — Poder Judicial de Uruguay (publicación anual). Disponible en: www.poderjudicial.gub.uy
 - **Informe de Rendición de Cuentas del PJ** — Publicación anual con datos presupuestarios y de gestión.
-
----
 
 ## Palabras clave
 

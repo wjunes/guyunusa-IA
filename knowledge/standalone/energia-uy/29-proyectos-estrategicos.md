@@ -4,8 +4,6 @@
 
 Este documento describe los **proyectos estratégicos** del sector energético de Uruguay para el período 2023–2035: aquellos que definirán la **segunda transición energética** del país (más allá del 97% de electricidad renovable ya alcanzado) y su posicionamiento en la economía de la energía limpia global. Los proyectos se agrupan en cinco ejes: hidrógeno verde, almacenamiento en baterías, movilidad eléctrica, redes inteligentes y segunda transición energética.
 
----
-
 ## Eje 1: Hidrógeno Verde (H2U)
 
 ### Contexto
@@ -29,8 +27,6 @@ Si los costos de producción de H₂ verde convergen hacia la paridad con el H�
 - Exportar amoníaco verde hacia Europa como combustible naviero o fertilizante descarbonizado
 - Atraer industrias electrointensivas que buscan energía limpia certificada (acero verde, silicio solar, datos)
 - Convertir el excedente eólico/solar en un producto de exportación de alto valor agregado
-
----
 
 ## Eje 2: Almacenamiento de Energía en Baterías (BESS)
 
@@ -56,8 +52,6 @@ La **sequía de 2022–2023** —que demostró la vulnerabilidad del sistema hí
 | **Baterías de flujo (vanadio, zinc-bromo)** | Mayor duración de ciclo; ideal para almacenamiento de largo plazo (horas) | Aplicaciones de varios horas |
 | **Hidrógeno como almacenamiento estacional** | P2X (Power-to-X); ideal para excedentes de días o semanas | Complemento al BESS para almacenamiento de largo plazo |
 
----
-
 ## Eje 3: Movilidad Eléctrica
 
 ### Contexto
@@ -75,8 +69,6 @@ El **transporte** es el sector de mayor consumo de combustibles fósiles en Urug
 | **Piloto V2G (Vehicle-to-Grid)** | UTE + empresas tecnológicas | En fase de estudio/piloto; los VE como almacenamiento bidireccional [VERIFICAR] |
 | **Flota pública electrificada (organismos del Estado)** | Presidencia / MIEM / otros | Sustitución gradual de vehículos oficiales por eléctricos [VERIFICAR avance] |
 
----
-
 ## Eje 4: Redes Inteligentes (Smart Grids)
 
 ### Contexto
@@ -92,8 +84,6 @@ La integración de generación distribuida (solar residencial, pequeños parques
 | **Plataforma de gestión de la demanda** | UTE / ADME | Sistema para señales de precio en tiempo real y gestión de la demanda flexible [VERIFICAR] |
 | **Microrredes (microgrids)** | UTE / MIEM | Proyectos piloto de microrredes en zonas rurales aisladas o islas (e.g., Isla Martín García) [VERIFICAR] |
 | **Ciberseguridad de infraestructura crítica** | UTE / AGESIC | Fortalecimiento de la seguridad informática de la red eléctrica nacional [VERIFICAR] |
-
----
 
 ## Eje 5: Segunda Transición Energética — Descarbonización Profunda
 
@@ -112,8 +102,6 @@ La **primera transición** (2010–2017) descarbonizó la generación eléctrica
 | **Edificación eficiente y electrificada** | 2025–2040 | Aislamiento térmico, bombas de calor y cocinas de inducción en sustitución de GLP y gas natural residencial |
 | **Revisión de la Política Energética 2030** | 2025 | El MIEM revisará la Política Energética 2005–2030 y presentará la visión para 2050 [VERIFICAR] |
 
----
-
 ## Financiamiento de proyectos estratégicos
 
 Los proyectos estratégicos de la segunda transición energética de Uruguay se financian con:
@@ -122,8 +110,6 @@ Los proyectos estratégicos de la segunda transición energética de Uruguay se 
 - **Inversión privada nacional y extranjera** (especialmente en H₂ verde y renovables)
 - **Donaciones y cooperación técnica no reembolsable:** GIZ, IRENA, UE (EUROCLIMA+)
 - **Mecanismos de financiamiento climático:** GCF (Fondo Verde para el Clima), GEF (Fondo para el Medio Ambiente Mundial) [VERIFICAR acceso de Uruguay]
-
----
 
 ## Palabras clave
 

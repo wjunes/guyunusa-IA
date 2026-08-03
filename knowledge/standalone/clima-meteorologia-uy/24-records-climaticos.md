@@ -1,14 +1,10 @@
 # Récords Climáticos de Uruguay
 
----
-
 ## Introducción
 
 Los **récords climáticos** son los valores extremos de las variables meteorológicas observados en la historia de las mediciones en Uruguay. Su conocimiento es fundamental para la gestión del riesgo, el diseño de infraestructura, la adaptación al cambio climático y la comprensión de los límites de la variabilidad natural del clima del país.
 
 Todos los récords deben ser verificados con los datos oficiales de INUMET y deben constar en el registro histórico de la estación correspondiente. Los valores aquí indicados son de referencia e incluyen etiquetas [VERIFICAR] donde la información no ha podido ser confirmada con total certeza.
-
----
 
 ## Temperatura
 
@@ -56,8 +52,6 @@ Todos los récords deben ser verificados con los datos oficiales de INUMET y deb
 
 El récord de temperatura mínima en Montevideo (Aeropuerto de Carrasco) se ubica en el entorno de **−4 °C a −6 °C** [VERIFICAR], registrado durante episodios de invasión polar severa. La ciudad tiene un efecto de isla de calor urbano que modera las mínimas respecto al entorno rural.
 
----
-
 ## Precipitación
 
 ### Precipitación diaria máxima
@@ -82,8 +76,6 @@ El año más lluvioso registrado en Uruguay (en promedio para el país) correspo
 
 Los años más secos corresponden a años de **La Niña intensa**, como la sequía de 2022–2023. Los valores anuales en años de sequía severa pueden descender a menos de **600–700 mm** en partes del país [VERIFICAR].
 
----
-
 ## Viento
 
 ### Racha de viento máxima registrada
@@ -97,8 +89,6 @@ Los años más secos corresponden a años de **La Niña intensa**, como la sequ�
 - *Tornados (el tornado de Dolores generó vientos estimados en > 200 km/h localmente [VERIFICAR])*
 - *Pamperos extremos*
 - *Ciclogénesis extratropicales intensas*
-
----
 
 ## Heladas
 
@@ -124,16 +114,12 @@ Los años más secos corresponden a años de **La Niña intensa**, como la sequ�
 
 El interior del país (departamentos del noreste, cuchilla Grande, cuchilla de Haedo) puede registrar hasta **30–40 días de helada por año** [VERIFICAR] en años con invasiones polares frecuentes. Montevideo raramente supera **10–15 días de helada** por año.
 
----
-
 ## Granizo
 
 Los episodios de granizo más intensos en Uruguay se han registrado principalmente en primavera, con:
 
 - **Tamaño máximo de granizo:** en los episodios más severos se han observado piedras de > 5 cm de diámetro [VERIFICAR casos documentados por INUMET].
 - **Mayor frecuencia:** norte y centro del país (departamentos de Salto, Artigas, Rivera, Tacuarembó, Durazno).
-
----
 
 ## Eventos de precipitación extrema históricos con datos
 
@@ -142,8 +128,6 @@ Los episodios de granizo más intensos en Uruguay se han registrado principalmen
 | Temporal del litoral | [VERIFICAR mm] | Cuenca del Queguay / litoral norte | Múltiples episodios |
 | Lluvias que precedieron al tornado de Dolores | [VERIFICAR mm] | Soriano | Abril 2016 |
 | Episodios de La Niña / El Niño extremos | [VERIFICAR] | Registro nacional | 1982–83, 1997–98, 2022–23 |
-
----
 
 ## Tabla resumen de récords aproximados
 
@@ -158,8 +142,6 @@ Los episodios de granizo más intensos en Uruguay se han registrado principalmen
 
 *Todos los valores deben verificarse con la base de datos oficial de INUMET. Este archivo tiene carácter orientativo y de referencia para búsquedas RAG; no debe citarse en publicaciones académicas sin verificación directa en la fuente primaria.*
 
----
-
 ## Nota metodológica
 
 Los récords climáticos dependen de:
@@ -167,8 +149,6 @@ Los récords climáticos dependen de:
 2. **La calidad de las observaciones:** instrumentación correcta, calibración y control de calidad.
 3. **La densidad de la red:** zonas con pocas estaciones pueden no haber capturado los extremos locales más severos.
 4. **La definición operativa:** los récords de temperatura se miden en caseta Stevenson; los de viento, a 10 m de altura; etc.
-
----
 
 ## Palabras clave
 

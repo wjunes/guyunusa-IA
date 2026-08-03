@@ -1,12 +1,8 @@
 # Estaciones Meteorológicas de Uruguay
 
----
-
 ## Introducción
 
 Las **estaciones meteorológicas** son los nodos fundamentales de la red de observación que permite conocer el estado de la atmósfera en un lugar y momento determinados. En Uruguay, la red de estaciones es operada principalmente por **INUMET**, con aportes complementarios del **INIA**, **DINAGUA**, el **SOHMA** y las redes de los aeropuertos. La densidad y calidad de la red determinan la precisión de los pronósticos y la representatividad de las normas climatológicas.
-
----
 
 ## Clasificación de las estaciones
 
@@ -33,8 +29,6 @@ La OMM establece una clasificación de las estaciones según su función, el nú
 | **Automático (AWS)** | Los sensores registran y transmiten los datos sin intervención humana. Operativa las 24 horas. |
 | **Mixto** | Combina lecturas manuales con registros automáticos de algunas variables. |
 
----
-
 ## Estaciones sinópticas principales de INUMET
 
 La siguiente tabla recoge las estaciones sinópticas y su información de referencia. Los indicativos de la OMM (5 dígitos, comenzando en 86 para Uruguay) identifican a cada estación en el sistema internacional.
@@ -56,8 +50,6 @@ La siguiente tabla recoge las estaciones sinópticas y su información de refere
 
 *[VERIFICAR: coordenadas, elevaciones e indicativos exactos según la base de datos OSCAR/Surface de la OMM — datos aproximados]*
 
----
-
 ## Red de estaciones automáticas (AWS)
 
 INUMET ha desarrollado en los últimos años una red de **estaciones meteorológicas automáticas** (AWS) que amplía significativamente la cobertura espacial de la observación en Uruguay. Las AWS:
@@ -68,8 +60,6 @@ INUMET ha desarrollado en los últimos años una red de **estaciones meteorológ
 - Proporcionan mayor resolución temporal para nowcasting y alertas.
 
 La cobertura actual incluye estaciones en todos los departamentos, aunque la densidad varía. El objetivo es contar con una estación automática al menos cada ~50–100 km [VERIFICAR metas actuales de INUMET].
-
----
 
 ## Red agrometeorológica del INIA
 
@@ -85,8 +75,6 @@ El **INIA** (*Instituto Nacional de Investigación Agropecuaria*) opera estacion
 
 Las estaciones del INIA incluyen sensores especiales para la agrometeorología: temperatura del suelo a distintas profundidades, humedad del suelo (tensiómetros), balance de radiación, evapotranspiración real, horas de frío acumuladas (para fruticultura).
 
----
-
 ## Instalación y siting (emplazamiento) de estaciones
 
 La calidad de los datos depende en gran medida del **emplazamiento** (siting) correcto de la estación. La OMM establece criterios de siting en el CIMO Guide:
@@ -101,8 +89,6 @@ La calidad de los datos depende en gran medida del **emplazamiento** (siting) co
 
 La **urbanización** y el **cambio de entorno** a lo largo del tiempo son fuentes de heterogeneidad artificial en las series climáticas (breakpoints). La detección y corrección de estos quiebres es parte de la **homogeneización de series históricas**.
 
----
-
 ## Series históricas destacadas
 
 Uruguay cuenta con algunas de las series meteorológicas más largas de América del Sur:
@@ -115,8 +101,6 @@ Uruguay cuenta con algunas de las series meteorológicas más largas de América
 
 La continuidad de estas series es de gran valor para los estudios de cambio climático, ya que permite detectar tendencias de largo plazo en temperatura y precipitación.
 
----
-
 ## Calidad de datos y control de calidad
 
 Los datos de las estaciones son sometidos a procesos automatizados de control de calidad:
@@ -127,8 +111,6 @@ Los datos de las estaciones son sometidos a procesos automatizados de control de
 - **Control de persistencia:** detectar valores constantes durante períodos sospechosamente largos (sensor bloqueado).
 
 Los datos validados se almacenan en la base de datos climática de INUMET, que custodia el archivo meteorológico histórico de Uruguay.
-
----
 
 ## Palabras clave
 

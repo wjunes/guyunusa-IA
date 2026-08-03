@@ -4,8 +4,6 @@
 
 Uruguay ha construido un marco institucional robusto en materia de **transparencia pública**, **acceso a la información** y **gobierno abierto**. Este marco combina una legislación avanzada, organismos especializados y compromisos internacionales que posicionan al país como referente en la región en integridad y apertura del Estado.
 
----
-
 ## Acceso a la Información Pública
 
 ### Ley 18.381/2008 (Acceso a la Información Pública)
@@ -20,8 +18,6 @@ La **Ley 18.381** de 17 de octubre de 2008 reconoció el **derecho de acceso a l
 **Alcance**: aplica a todos los organismos del Estado uruguayo, incluyendo el Poder Ejecutivo, Legislativo, Judicial, entes autónomos, servicios descentralizados, empresas públicas y personas públicas no estatales.
 
 **Excepciones**: la ley establece excepciones taxativas (información clasificada por razones de seguridad nacional, datos personales sensibles, secreto comercial o industrial, entre otros).
-
----
 
 ## Unidad de Acceso a la Información Pública (UAIP)
 
@@ -38,15 +34,11 @@ La **UAIP** fue creada por la **Ley 18.381/2008** (art. 19) y fortalecida por la
 - Controlar el cumplimiento de la Ley 18.381.
 - Dictar resoluciones vinculantes sobre pedidos de acceso.
 
----
-
 ## Protección de Datos Personales
 
 La **Ley 18.331/2008** (Protección de Datos Personales y Habeas Data) establece el marco para la protección de los datos personales de los ciudadanos. La **UAIP** actúa también como **Unidad Reguladora de Protección de Datos (URCDP)**, registrando las bases de datos con información personal y resolviendo reclamos.
 
 Uruguay es reconocido internacionalmente por su legislación de protección de datos: la Unión Europea lo incluyó en la lista de países con nivel adecuado de protección (Decisión 2012/484/UE).
-
----
 
 ## Declaraciones Juradas de Bienes e Ingresos
 
@@ -61,15 +53,11 @@ La **JUTEP** fue creada por la **Ley 17.060/1998** (Uso Indebido del Poder Públ
 
 Todos los funcionarios con cargos de responsabilidad deben presentar declaración jurada al inicio, durante y al cese de sus funciones.
 
----
-
 ## Rendición de Cuentas
 
 La **Rendición de Cuentas** es el mecanismo constitucional (art. 214–216 de la Constitución) por el cual el Poder Ejecutivo informa anualmente al Parlamento sobre el uso de los recursos públicos y solicita los ajustes al presupuesto vigente. Es el principal instrumento de **accountability vertical** del Estado uruguayo.
 
 El **Portal de Transparencia Presupuestal** (transparencia.opp.gub.uy) publica en tiempo real la ejecución presupuestal del Estado, permitiendo a cualquier ciudadano seguir el gasto público.
-
----
 
 ## Gobierno Abierto y la OGP
 
@@ -85,8 +73,6 @@ Uruguay presenta **Planes de Acción bianuales** ante la OGP, con compromisos ve
 
 La sociedad civil participa activamente en la elaboración y monitoreo de los planes a través del **Espacio de Participación** coordinado por AGESIC y la UAIP.
 
----
-
 ## Participación Ciudadana
 
 Uruguay cuenta con varios mecanismos de participación ciudadana en la gestión pública:
@@ -100,13 +86,9 @@ Uruguay cuenta con varios mecanismos de participación ciudadana en la gestión 
 | **Cabildos Abiertos** | Instancias de consulta pública convocadas por el Poder Ejecutivo u organismos |
 | **Consejos consultivos** | Órganos multiactorales en políticas sectoriales (salud, educación, medioambiente) |
 
----
-
 ## Contratación pública y transparencia
 
 El **SICP (Sistema de Información de Compras y Contrataciones del Estado)** (comprasestatales.gub.uy) publica en línea todos los procesos de compras y contrataciones del Estado uruguayo. La **ARCE (Agencia Reguladora de Compras Estatales)** regula los procedimientos de adquisición pública. Estos mecanismos garantizan competencia, publicidad y no discriminación en las compras del Estado.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Uruguay en el Mundial de 1930 — Primera Copa del Mundo
+
 ## Resumen
 
 La Copa del Mundo de Fútbol de 1930, celebrada en Uruguay del 13 al 30 de julio, fue el primer Campeonato Mundial de Fútbol de la historia, organizado por la FIFA bajo la presidencia de Jules Rimet. Uruguay fue elegida sede en reconocimiento a su doble título olímpico (1924 y 1928) y a la conmemoración del centenario de su Constitución (1830). El torneo reunió a 13 selecciones —ninguna de Europa continental desistió en el último momento; solo Francia, Yugoslavia, Bélgica y Rumanía cruzaron el Atlántico—. Uruguay ganó el torneo al vencer a Argentina en la final por 4 a 2, ante más de 68.000 espectadores en el Estadio Centenario. El capitán era José Nasazzi; el héroe goleador, Héctor Scarone y Pedro Cea entre otros.

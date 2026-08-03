@@ -6,8 +6,6 @@ Las estadísticas judiciales del Uruguay son elaboradas por el **Departamento de
 
 Los datos de este archivo son de carácter aproximado y estructural. Para datos actualizados y precisos, debe consultarse directamente el Anuario Estadístico Judicial del año correspondiente.
 
----
-
 ## Estructura del sistema judicial (datos aproximados)
 
 | Instancia | Cantidad aproximada |
@@ -19,8 +17,6 @@ Los datos de este archivo son de carácter aproximado y estructural. Para datos 
 | Juzgados de Paz | ~100 |
 | **Total juzgados y tribunales** | **~280–290** |
 
----
-
 ## Recursos humanos del Poder Judicial
 
 | Categoría | Cantidad aproximada |
@@ -31,8 +27,6 @@ Los datos de este archivo son de carácter aproximado y estructural. Para datos 
 | Personal técnico (ITF, mediadores, etc.) | ~200 |
 | Personal administrativo y de apoyo | ~4.000 |
 
----
-
 ## Fiscalía General de la Nación
 
 | Dato | Cantidad |
@@ -40,8 +34,6 @@ Los datos de este archivo son de carácter aproximado y estructural. Para datos 
 | Fiscalías Letradas Departamentales | 33 |
 | Departamentos con presencia fiscal | 19 (todos) |
 | Fiscalías especializadas en Montevideo | Varias (penal, familia, crimen organizado, DDHH, etc.) |
-
----
 
 ## Distribución geográfica de la actividad judicial
 
@@ -56,8 +48,6 @@ La distribución de la carga de trabajo judicial en Uruguay es marcadamente desi
 
 Esta concentración refleja la distribución poblacional del país: Montevideo y el área metropolitana concentran alrededor del 55–60% de la población total.
 
----
-
 ## Demanda de servicios judiciales
 
 El Anuario Estadístico del PJ registra anualmente los siguientes indicadores:
@@ -69,25 +59,17 @@ El Anuario Estadístico del PJ registra anualmente los siguientes indicadores:
 - **Audiencias realizadas** (indicador de productividad del sistema oral)
 - **Notificaciones electrónicas** enviadas
 
----
-
 ## Mediación
 
 Los **Centros de Mediación del Poder Judicial** registran anualmente el número de mediaciones iniciadas, los acuerdos alcanzados y las materias involucradas. Las tasas de acuerdo en mediación suelen superar el 50% de los casos en que ambas partes participan efectivamente del proceso.
-
----
 
 ## Defensoría Pública
 
 La Dirección Nacional de Defensa Pública reporta anualmente la cantidad de personas asistidas, distribuidas por materia (penal, civil, familia, laboral) y por departamento. La reforma procesal penal de 2017–2019 generó un aumento significativo en la demanda de defensores públicos.
 
----
-
 ## Instituto Técnico Forense (ITF)
 
 El ITF registra anualmente el número de pericias realizadas, distribuidas por especialidad (medicina legal, química, documentología, psicología, etc.) y el tiempo promedio de respuesta.
-
----
 
 ## Anuario Estadístico Judicial
 
@@ -100,8 +82,6 @@ El **Anuario Estadístico Judicial** es la publicación oficial del Poder Judici
 - Estadísticas del ITF
 
 **Acceso:** www.poderjudicial.gub.uy (sección Transparencia / Estadísticas / Anuario Estadístico)
-
----
 
 ## Palabras clave
 

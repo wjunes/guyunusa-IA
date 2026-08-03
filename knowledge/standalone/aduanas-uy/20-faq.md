@@ -2,8 +2,6 @@
 
 > Este archivo tiene propósito exclusivamente informativo y educativo. No constituye asesoramiento aduanero ni jurídico. Para situaciones específicas, debe consultarse un despachante de aduana habilitado o un asesor especializado.
 
----
-
 ## Sobre la aduana en general
 
 **¿Qué es la Dirección Nacional de Aduanas (DNA)?**
@@ -12,8 +10,6 @@ La DNA es el organismo del Estado uruguayo encargado de controlar el ingreso y e
 **¿Cuáles son los pasos de frontera con control aduanero en Uruguay?**
 Los principales pasos de frontera con control aduanero son: Rivera (con Santana do Livramento, Brasil), Río Branco (con Jaguarão, Brasil), Artigas (con Quaraí, Brasil), Bella Unión (triple frontera), Salto (con Concordia, Argentina, por el Puente Salto Grande), Paysandú (con Colón, Argentina), Fray Bentos (con Puerto Unzué, Argentina), y Colonia (ferry con Buenos Aires). El Puerto de Montevideo y el Aeropuerto Internacional de Carrasco son los principales puntos de entrada aérea y marítima.
 
----
-
 ## Sobre clasificación e impuestos
 
 **¿Cuánto se paga para importar una mercancía a Uruguay?**
@@ -21,8 +17,6 @@ Los tributos que gravan las importaciones son: el Derecho de Aduana (DA), que va
 
 **¿Qué es la NCM o posición arancelaria?**
 La NCM (Nomenclatura Común del MERCOSUR) es el código de ocho dígitos que clasifica cada tipo de mercancía dentro del sistema arancelario del MERCOSUR. El código NCM determina el arancel aplicable, las exenciones, los requisitos de permisos y otros aspectos del régimen de importación. Si tiene dudas sobre la clasificación de su mercancía, puede consultar a un despachante de aduana o presentar una consulta formal ante la DNA.
-
----
 
 ## Sobre el despacho aduanero
 
@@ -35,8 +29,6 @@ El Documento Único Aduanero (DUA) es la declaración aduanera electrónica pres
 **¿Qué significa que mi importación esté en "canal rojo"?**
 El canal rojo implica que la DNA ha seleccionado la operación para una inspección física. Un Vista de Aduana revisará físicamente las mercancías, verificará la correspondencia con lo declarado en el DUA y la documentación de respaldo. Si todo es correcto, se autoriza el levante. El canal rojo suele demorar el despacho entre dos y cinco días hábiles adicionales.
 
----
-
 ## Sobre zonas francas
 
 **¿Qué ventajas tienen las zonas francas en Uruguay?**
@@ -44,8 +36,6 @@ Las zonas francas son áreas dentro del territorio uruguayo que se consideran fu
 
 **¿Dónde están las principales zonas francas de Uruguay?**
 Las principales son la Zona Franca de Montevideo (Zonamerica, en Montevideo), la WTC Free Zone (en el World Trade Center Montevideo), la Zona Franca Rivera (en Rivera, frontera con Brasil), la Zona Franca Colonia y la Zona Franca Punta Pereira (logística forestal/celulosa). Hay varias otras en el interior del país.
-
----
 
 ## Sobre compras en el exterior e e-commerce
 
@@ -55,8 +45,6 @@ Los viajeros que regresan a Uruguay tienen un límite de exención por equipaje 
 **¿Qué pasa si compro algo en Amazon o AliExpress y lo mandan a Uruguay?**
 Los envíos internacionales de e-commerce ingresan a Uruguay como envíos postales (por CORREOS) o como envíos courier (DHL, FedEx, etc.). Si el valor del envío está por debajo del umbral de exención y tiene carácter personal (no comercial), puede ingresar sin pagar tributos. Si supera el umbral, se aplican DA e IVA sobre el valor declarado. Los medicamentos, alimentos, plantas y algunos otros productos tienen restricciones adicionales independientemente del valor.
 
----
-
 ## Sobre exportaciones y origen
 
 **¿Qué necesito para exportar con preferencias arancelarias al MERCOSUR?**
@@ -64,8 +52,6 @@ Para exportar con preferencias arancelarias dentro del MERCOSUR (arancel cero), 
 
 **¿Se pagan impuestos al exportar desde Uruguay?**
 En general, no. Uruguay aplica arancel cero en las exportaciones. Los exportadores tienen derecho a recuperar el IVA que pagaron en sus compras de insumos (devolución del IVA exportador) a través de certificados de crédito fiscal de la DGI.
-
----
 
 ## Palabras clave
 

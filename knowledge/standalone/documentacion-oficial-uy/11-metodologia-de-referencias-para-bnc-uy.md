@@ -6,16 +6,12 @@ Este archivo define el **estándar de citación de documentación oficial** adop
 
 La fuente primaria de verificación para toda citación normativa es el **Banco de Datos de IMPO** (https://www.impo.com.uy/bases).
 
----
-
 ## 1. Principios generales
 
 - **Fuente primaria:** toda norma citada debe verificarse en el portal de IMPO (https://www.impo.com.uy/bases) o en publicaciones oficiales (RNLD, Diario Oficial)
 - **Completitud:** la cita debe incluir tipo de norma, número, año, título descriptivo y, cuando corresponda, el artículo específico
 - **Vigencia:** cuando se cita una norma modificada, se debe indicar si se refiere al texto original o al texto vigente (modificado); si existe texto ordenado, se menciona
 - **Accesibilidad:** siempre que sea posible, incluir la URL del portal de IMPO donde se puede consultar la norma
-
----
 
 ## 2. Formato estándar por tipo de norma
 
@@ -75,8 +71,6 @@ Ejemplo: https://www.impo.com.uy/bases/leyes/18381-2008
 **Formato:**
 `Decreto Departamental de [Intendencia] [número]/[año] — [descripción]`
 
----
-
 ## 3. Citación de artículos específicos
 
 Cuando la referencia recae en un artículo particular, se indica luego del nombre de la norma:
@@ -85,8 +79,6 @@ Cuando la referencia recae en un artículo particular, se indica luego del nombr
 - `Arts. 341 y 341-2` (dos artículos)
 - `Arts. 1 al 10` (rango)
 - `Art. 341, num. 3°` (numeral dentro del artículo)
-
----
 
 ## 4. Indicación de modificaciones y derogaciones
 
@@ -98,8 +90,6 @@ Cuando una norma ha sido modificada:
 
 Cuando existe texto ordenado vigente, se indica: `(ver TOCAF vigente)` o `(texto ordenado IMPO actualizado a [año])`.
 
----
-
 ## 5. Referencias al Diario Oficial
 
 Cuando la trazabilidad lo requiere, puede añadirse la referencia de publicación:
@@ -109,8 +99,6 @@ Cuando la trazabilidad lo requiere, puede añadirse la referencia de publicació
 
 **Ejemplo:**
 `Ley 18.381/2008, publicada en el Diario Oficial del 17 de octubre de 2008`
-
----
 
 ## 6. Uso en el texto del BNC-UY
 
@@ -124,8 +112,6 @@ En el cuerpo de los archivos Markdown del BNC-UY, las normas deben citarse con e
 
 **Incorrecto (sin número de ley):**
 > "La ley de firma electrónica establece..."
-
----
 
 ## 7. Dominios del BNC-UY y sus fuentes normativas primarias
 
@@ -141,8 +127,6 @@ Cada dominio del BNC-UY tiene sus fuentes normativas características. La siguie
 | `salud` | Ley 18.211, MSP, ASSE, JUNASA |
 | `documentacion-oficial-uy` | Ley 16.736, IMPO, RNLD, Diario Oficial |
 
----
-
 ## 8. Normas que no son accesibles en IMPO
 
 Algunas normas históricas anteriores a la digitalización o resoluciones de baja difusión pueden no estar disponibles en el banco de datos de IMPO. En esos casos:
@@ -150,8 +134,6 @@ Algunas normas históricas anteriores a la digitalización o resoluciones de baj
 - Indicar la fuente alternativa de verificación (RNLD impreso, publicaciones del organismo emisor)
 - No citar la norma si no puede verificarse su contenido exacto
 - Señalar en el texto que la verificación requiere fuente física: `[verificar en RNLD impreso]`
-
----
 
 ## 9. Detección de nuevos dominios del BNC-UY a partir de referencias normativas
 

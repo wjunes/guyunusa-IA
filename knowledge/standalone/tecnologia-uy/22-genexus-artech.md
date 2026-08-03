@@ -1,3 +1,5 @@
+# GeneXus y Artech — tecnología uruguaya global
+
 ## Resumen
 
 **Artech** es la empresa madre; **GeneXus** es su producto estrella y el nombre por el que la empresa es mundialmente conocida. Fundada en Montevideo en 1988 por Breogán Hackett y socios, GeneXus es una plataforma de desarrollo de software basada en el conocimiento del negocio que genera automáticamente aplicaciones para múltiples plataformas. Es la empresa uruguaya de software de producto más antigua con proyección global, usada en más de 50 países y especialmente arraigada en América Latina, Europa (Japón es un mercado clave en Asia) y EE.UU. Su CEO de larga data es Nicolás Jodal, figura referente del ecosistema tecnológico uruguayo.

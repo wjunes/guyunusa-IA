@@ -1,3 +1,5 @@
+# Panorama de los derechos humanos en Uruguay
+
 ## Resumen
 
 Uruguay tiene una posición reconocida en el concierto internacional en materia de **derechos humanos**: ha ratificado los principales tratados internacionales, tiene una larga tradición de **estado de derecho** y sus instituciones democráticas han mantenido estabilidad desde el retorno a la democracia en **1985**. Al mismo tiempo, el país enfrenta desafíos persistentes en derechos económicos y sociales, en el sistema carcelario, en la plena vigencia de los derechos de grupos históricamente discriminados (mujeres, afrodescendientes, personas LGBTIQ+) y en la resolución pendiente de las violaciones a los derechos humanos cometidas durante la **dictadura cívico-militar (1973-1985)**. La **Institución Nacional de Derechos Humanos y Defensoría del Pueblo (INDDHH)** es el organismo estatal de referencia en la materia. Uruguay participa activamente en el sistema de Naciones Unidas y en el sistema interamericano de DDHH.

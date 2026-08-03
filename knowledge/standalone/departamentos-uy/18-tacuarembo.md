@@ -15,8 +15,6 @@
 | **Límites** | Rivera (norte), Cerro Largo (noreste), Treinta y Tres (este), Durazno (sur), Florida y Flores (suroeste), Río Negro (oeste), Salto y Paysandú (noroeste) |
 | **Rutas principales** | Ruta 5, Ruta 26, Ruta 31 |
 
----
-
 ## Historia
 
 ### Fundación y período colonial
@@ -38,8 +36,6 @@ Uno de los debates históricos más resonantes sobre Tacuarembó es la controver
 
 El debate no ha sido resuelto definitivamente. La postura oficial argentina y la mayoría de los biógrafos apoya el origen francés, pero la teoría tacuaremboense tiene defensores y evidencia circunstancial. Tacuarembó ha capitalizado esta identidad cultural.
 
----
-
 ## Geografía
 
 ### Relieve
@@ -59,8 +55,6 @@ Tacuarembó es el departamento **más extenso de Uruguay** (~15.438 km²). El re
 
 Clima **subtropical húmedo** (Cfa) con tendencia templada. Temperatura media anual: ~18 °C. Precipitaciones: ~1.200–1.400 mm/año. Inviernos con heladas moderadas; veranos cálidos.
 
----
-
 ## Naturaleza
 
 ### Valle del Lunarejo
@@ -79,8 +73,6 @@ Aunque el Parque Nacional Quebrada de los Cuervos está principalmente en Treint
 
 El **Acuífero Guaraní** aflora en el norte y noroeste de Tacuarembó. Es la fuente de las aguas termales de Salto y el recurso hídrico subterráneo más importante del Uruguay.
 
----
-
 ## Economía
 
 ### Perfil económico
@@ -98,8 +90,6 @@ Tacuarembó es uno de los departamentos más extensos pero de baja densidad demo
 
 Tacuarembó es uno de los departamentos con mayor superficie forestada del Uruguay. Las plantaciones de eucaliptos y pinos abarcan decenas de miles de hectáreas y proveen materia prima para las plantas de celulosa de Río Negro (UPM) y otras.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -109,8 +99,6 @@ Tacuarembó es uno de los departamentos con mayor superficie forestada del Urugu
 | **UTEC** | Cursos tecnológicos regionales [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -118,8 +106,6 @@ Tacuarembó es uno de los departamentos con mayor superficie forestada del Urugu
 | **Hospital Departamental de Tacuarembó** | Principal hospital público del centro-norte (ASSE) |
 | **Policlínicas ASSE** | Red en localidades del interior |
 | **Mutualistas** | Presencia en la capital [VERIFICAR] |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -129,8 +115,6 @@ Tacuarembó es uno de los departamentos con mayor superficie forestada del Urugu
 | **Palacio Municipal de Tacuarembó** | Sede de la Intendencia |
 | **Catedral de Tacuarembó** | Iglesia principal |
 | **Parque Ansina** | Parque central de la ciudad |
-
----
 
 ## Cultura
 
@@ -150,8 +134,6 @@ La teoría del nacimiento de **Carlos Gardel** en Tacuarembó genera un fenómen
 
 Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz con leche, dulce de cayote. Mate como bebida omnipresente.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -159,8 +141,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | **Clubs locales de fútbol** | Liga departamental |
 | **Jineteadas y rodeos** | Tradición gaucha; eventos anuales |
 | **Festival de Folclore** | Evento cultural masivo con competencias artísticas |
-
----
 
 ## Turismo
 
@@ -172,8 +152,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | **Parque Ansina** | Parque urbano; sede del festival |
 | **Turismo rural** | Estancias ganaderas; vida del campo |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -183,8 +161,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | **Ruta 31** | Conexión noreste |
 | **Aeropuerto de Tacuarembó** (Gral. Juan A. Lavalleja) [VERIFICAR nombre] | Pista local; vuelos regionales [VERIFICAR operatividad] |
 | **OSE, UTE, ANTEL** | Servicios básicos departamentales |
-
----
 
 ## Instituciones
 
@@ -196,8 +172,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | **Municipio de Paso de los Toros** | Segunda ciudad del departamento |
 | **Municipio de San Gregorio de Polanco** | Localidad del embalse de Rincón del Bonete |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -205,8 +179,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | **Carlos Gardel** (¿Tacuarembó?, 1890–Medellín, 1935) | Música / Tango | El mayor ídolo del tango rioplatense; "zorzal criollo"; *Mi Buenos Aires Querido*, *Volver*, *El día que me quieras*; nacimiento en disputa entre Toulouse (Francia) y Tacuarembó (Uruguay) |
 | **Tabaré Vázquez** (Montevideo, 1940–2020) | Política | Primer presidente de izquierda de Uruguay; sus bases en Tacuarembó fueron importantes políticamente [VERIFICAR relación directa] |
 | **Elías Regules** (Montevideo, 1860–1929; poeta rural vinculado al norte) | Literatura | Poeta gauchesco; *El fogón* |
-
----
 
 ## Estadísticas
 
@@ -217,8 +189,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | Densidad | 6,2 hab./km² | INE |
 | Localidades principales | Tacuarembó, Paso de los Toros, San Gregorio de Polanco | INE |
 
----
-
 ## Curiosidades
 
 - Tacuarembó es el **departamento más extenso de Uruguay** (~15.438 km²), pero uno de los menos poblados.
@@ -226,8 +196,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 - La controversia sobre el lugar de nacimiento de **Carlos Gardel** ha sido uno de los debates histórico-culturales más prolongados del Río de la Plata, sin resolución definitiva.
 - El **Valle del Lunarejo** es considerado uno de los ecosistemas más biodiversos de Uruguay por la influencia de la Mata Atlántica.
 - **Paso de los Toros** (segunda ciudad de Tacuarembó) se ubica a orillas del **Embalse de Rincón del Bonete** (Río Negro), el lago artificial más grande de Uruguay por área antes de Salto Grande.
-
----
 
 ## Cronología
 
@@ -241,8 +209,6 @@ Asado ganadero. Comida criolla del interior: guiso de campo, carbonada, arroz co
 | 1970s–1980s | Boom de la forestación en Tacuarembó |
 | 1980s | Primeras ediciones del Festival de Folclore de Tacuarembó |
 | 1990s–2000s | Expansión forestal; Tacuarembó como polo de celulosa |
-
----
 
 ## Palabras clave
 

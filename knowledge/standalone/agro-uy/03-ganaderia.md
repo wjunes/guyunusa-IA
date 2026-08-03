@@ -6,8 +6,6 @@ La **ganadería bovina y ovina** es la actividad agropecuaria histórica de Urug
 
 La carne y los productos ganaderos representan una fracción muy importante de las exportaciones agropecuarias y son la base de una cadena agroindustrial que incluye frigoríficos, curtiembres, industria láctea, lana y cuero.
 
----
-
 ## Rodeo bovino
 
 ### Evolución histórica del stock bovino
@@ -37,8 +35,6 @@ La carne y los productos ganaderos representan una fracción muy importante de l
 | **Holando-Oriental** (Frisona) | Lechera | Predominante en lecherías |
 | **Jersey** | Lechera | Menor presencia; mayor contenido graso en leche |
 
----
-
 ## Sistemas de producción ganadera
 
 ### Cría bovina
@@ -53,8 +49,6 @@ La carne y los productos ganaderos representan una fracción muy importante de l
 - **Recría extensiva:** terneros y novillos alimentados sobre campo natural y mejorado hasta peso de venta (~350–450 kg para faena o exportación en pie).
 - **Feedlot o confinamiento:** engorde intensivo con raciones balanceadas, granos y forrajes. Representa una proporción menor del total pero con crecimiento en las últimas décadas.
 - **Pastoreo rotativo intensivo:** división del campo en potreros para optimizar el uso de la pastura.
-
----
 
 ## Ganadería ovina
 
@@ -82,8 +76,6 @@ La carne y los productos ganaderos representan una fracción muy importante de l
 | **Texel** | Cárnica; músculos prominentes |
 | **Ile de France** | Cárnica; uso en mejora de la conformación |
 
----
-
 ## Sanidad animal
 
 La sanidad del rodeo uruguayo es gestionada por la **División de Sanidad Animal (DSA)** del **Ministerio de Ganadería, Agricultura y Pesca (MGAP)**:
@@ -93,8 +85,6 @@ La sanidad del rodeo uruguayo es gestionada por la **División de Sanidad Animal
 - **Tuberculosis:** programa de vigilancia y saneamiento activo.
 - **Garrapata (Rhipicephalus microplus):** principal ectoparásito; programas de control con acaricidas; resistencia creciente a productos.
 - **Mosca de los cuernos (Haematobia irritans):** control con insecticidas.
-
----
 
 ## Trazabilidad individual
 
@@ -106,16 +96,12 @@ Uruguay implementó el **Sistema Nacional de Información Ganadera (SNIG)**, uno
 
 *(Ver archivo 16-trazabilidad-y-sanidad.md)*
 
----
-
 ## Genética bovina
 
 - Uruguay tiene un sector de genética bovina activo: numerosas **cabañas** (establecimientos con rodeos de pedigree) de Hereford, Angus, Brahman y otras razas.
 - Uso creciente de **inseminación artificial (IA)** y **transferencia de embriones (TE)** para mejorar la genética del rodeo comercial.
 - **INIA** desarrolla programas de mejoramiento genético, incluyendo el sistema **Información de Razas Carniceras (IU-RACES)** [VERIFICAR nombre exacto].
 - **SUL (Secretariado Uruguayo de la Lana)** apoya la mejora genética del rodeo ovino.
-
----
 
 ## Producción y exportaciones de carne bovina
 
@@ -129,8 +115,6 @@ Uruguay implementó el **Sistema Nacional de Información Ganadera (SNIG)**, uno
 
 *Fuente: INAC. Cifras varían significativamente por año.*
 
----
-
 ## Equinos
 
 - Uruguay tiene una tradición equina vinculada al trabajo ganadero y a los deportes ecuestres.
@@ -139,14 +123,10 @@ Uruguay implementó el **Sistema Nacional de Información Ganadera (SNIG)**, uno
 - La **Junta Departamental de Carreras** regula las carreras hípicas.
 - Existe exportación de caballos de polo hacia Argentina y otros mercados.
 
----
-
 ## Caprinos
 
 - Producción de cabras es muy marginal en Uruguay.
 - Stock muy reducido; principalmente subsistencia rural y nichos artesanales (quesos de cabra).
-
----
 
 ## Palabras clave
 

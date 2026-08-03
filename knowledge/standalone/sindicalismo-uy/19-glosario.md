@@ -2,8 +2,6 @@
 
 Términos, instituciones y conceptos clave del movimiento sindical y las relaciones laborales en Uruguay.
 
----
-
 **AEBU (Asociación de Empleados Bancarios del Uruguay)**: Sindicato de los trabajadores de bancos públicos y privados. Una de las organizaciones sindicales más influyentes del país.
 
 **AFUTU (Asociación de Funcionarios de UTU)**: Sindicato de docentes y funcionarios de la UTU y el CETP.

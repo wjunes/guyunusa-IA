@@ -4,15 +4,11 @@
 
 La historia de la educación uruguaya es inseparable de la construcción del Estado laico y la identidad nacional. Desde la enseñanza colonial bajo tutela eclesiástica hasta el sistema público laico fundado por la reforma de José Pedro Varela (1877), y desde las expansiones del batllismo hasta la Ley General de Educación de 2008, Uruguay desarrolló uno de los sistemas educativos más tempranos, igualitarios y laicos de América Latina. La educación pública fue un instrumento deliberado de integración nacional, formación ciudadana y movilidad social.
 
----
-
 ## La educación colonial (hasta 1828)
 
 Durante el período colonial, la educación en el territorio oriental era escasa, informal y mayoritariamente eclesiástica. Las primeras escuelas fueron establecidas por órdenes religiosas (franciscanos, dominicos) con carácter elemental. La enseñanza secundaria y superior prácticamente no existía: quienes aspiraban a formación avanzada debían trasladarse a Buenos Aires.
 
 La primera institución educativa relevante fue la Casa de Ejercicios de los jesuitas, interrumpida por su expulsión en 1767. Las escuelas públicas fundadas durante el período artiguista (1811–1820) tuvieron vida efímera por la inestabilidad política.
-
----
 
 ## La primera organización republicana (1828–1877)
 
@@ -25,8 +21,6 @@ Con la independencia (1828) y la Constitución de 1830, el Estado oriental comen
 | 1850–1870 | Expansión lenta de escuelas en Montevideo y capitales departamentales |
 
 A mediados del siglo XIX, la influencia del positivismo europeo —especialmente francés— creó el clima ideológico que haría posible la reforma vareliana.
-
----
 
 ## La reforma Varela (1877): laica, gratuita y obligatoria
 
@@ -44,8 +38,6 @@ Bajo el gobierno del coronel Lorenzo Latorre —que encontró en la reforma una 
 
 La paradoja de la reforma: sus principios democráticos fueron implementados bajo un gobierno autoritario. Varela aceptó ese contexto con pragmatismo. Murió en 1879, a los 34 años, sin ver los frutos completos de su obra.
 
----
-
 ## El batllismo y la expansión educativa (1903–1930)
 
 La era de **José Batlle y Ordóñez** (presidencias 1903–1907 y 1911–1915) impulsó una segunda gran ola de democratización educativa:
@@ -56,8 +48,6 @@ La era de **José Batlle y Ordóñez** (presidencias 1903–1907 y 1911–1915) 
 - Ley de 1909: eliminación de crucifijos y símbolos religiosos de los centros públicos, profundizando el laicismo escolar
 - Expansión de la Universidad de la República (nuevas facultades: Medicina, Ingeniería, Agronomía, Derecho)
 
----
-
 ## La consolidación institucional (1930–1963)
 
 Las décadas de 1930 a 1963 fueron de consolidación:
@@ -67,8 +57,6 @@ Las décadas de 1930 a 1963 fueron de consolidación:
 | 1935 | UTU (Universidad del Trabajo del Uruguay) recibe nombre formal, consolidando la educación técnica |
 | 1954 | Consejo de Enseñanza Secundaria creado como organismo autónomo, separado de la Universidad |
 | 1958 | Ley Orgánica de la Universidad de la República: autonomía universitaria y cogobierno (docentes, egresados, estudiantes). Referencia en toda América Latina |
-
----
 
 ## La crisis y la dictadura (1963–1985)
 
@@ -81,8 +69,6 @@ Desde mediados de los años 60, la crisis económica y política culminó en el 
 
 El período dictatorial causó un daño profundo al sistema educativo en términos de recursos humanos, infraestructura y cultura institucional.
 
----
-
 ## El retorno democrático y la reconstrucción (1985–1995)
 
 Con la recuperación democrática (1 de marzo de 1985):
@@ -91,8 +77,6 @@ Con la recuperación democrática (1 de marzo de 1985):
 - Reintegro de docentes ilegítimamente destituidos durante la dictadura.
 - Restitución de la autonomía universitaria (Udelar recupera el cogobierno).
 - Aumento significativo de la matrícula en todos los niveles.
-
----
 
 ## La reforma educativa de 1995
 
@@ -106,13 +90,9 @@ Bajo la presidencia de Julio María Sanguinetti (segundo período) y con el econ
 
 La reforma fue criticada por los sindicatos docentes (FENAPES) por implementarse sin suficiente consulta.
 
----
-
 ## El Plan Ceibal (2007)
 
 Lanzado durante el primer gobierno de Tabaré Vázquez, el **Plan Ceibal** distribuyó una computadora portátil a cada niño de primaria pública, convirtiendo a Uruguay en el **primer país del mundo** en implementar el modelo *One Laptop Per Child* a escala nacional. Transformó la infraestructura tecnológica del sistema y se convirtió en referencia internacional de política pública educativa.
-
----
 
 ## La Ley General de Educación de 2008
 
@@ -124,13 +104,9 @@ Durante el primer gobierno del Frente Amplio (Tabaré Vázquez), la **Ley N° 18
 - Regula la formación docente y su tendencia hacia la universitarización
 - Define la educación permanente y no formal
 
----
-
 ## La UTEC y la expansión terciaria (2012)
 
 La **Universidad Tecnológica del Uruguay (UTEC)**, creada por Ley 19.043 en 2012, respondió a la necesidad de descentralizar la educación universitaria hacia el interior del país con enfoque en áreas técnicas y tecnológicas.
-
----
 
 ## Siglo XXI: reformas y desafíos (2020–2026)
 

@@ -1,3 +1,5 @@
+# Salud mental en Uruguay
+
 ## Resumen
 
 La salud mental es uno de los campos donde Uruguay ha tenido mayor rezago histórico dentro de su sistema sanitario, aunque con avances significativos en el siglo XXI. La aprobación de la **Ley 19.529 de Salud Mental** en **2017** fue un hito: estableció un modelo de atención comunitaria, la integración de la salud mental al SNIS, el respeto a los derechos humanos de las personas con trastornos mentales y la desinstitucionalización progresiva de la psiquiatría manicomial. El **Plan Nacional de Salud Mental** del MSP orienta la política en este campo. Uruguay enfrenta desafíos significativos: tasas de suicidio relativamente altas para el contexto regional, alta prevalencia de depresión y ansiedad, y una red comunitaria de salud mental aún en construcción.

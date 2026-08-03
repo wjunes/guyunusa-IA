@@ -6,8 +6,6 @@ La **eficiencia energética** consiste en obtener el mismo nivel de servicio ene
 
 El organismo rector de la eficiencia energética en Uruguay es la **Dirección Nacional de Energía (DNE)** del MIEM. Programas de eficiencia energética son también ejecutados por UTE, ANCAP, MIEM, el **MVOT (Ministerio de Vivienda y Ordenamiento Territorial)** y el sistema educativo.
 
----
-
 ## Marco normativo
 
 | Instrumento | Contenido |
@@ -16,8 +14,6 @@ El organismo rector de la eficiencia energética en Uruguay es la **Dirección N
 | **Ley 18.597 (21-09-2009)** | Ley de Uso Eficiente de la Energía: establece el Sistema Nacional de Eficiencia Energética (SNEE), el Fondo de Eficiencia Energética (FEE) y las obligaciones de etiquetado energético |
 | **Decreto reglamentario del SNEE** | Define roles institucionales, mecanismos de financiamiento y programas sectoriales [VERIFICAR decreto específico] |
 | **Decreto de etiquetado energético** | Obliga a que electrodomésticos (heladeras, lavarropas, aires acondicionados, etc.) exhiban etiqueta de eficiencia (categorías A a G) [VERIFICAR decreto y año] |
-
----
 
 ## Sistema Nacional de Eficiencia Energética (SNEE)
 
@@ -30,8 +26,6 @@ La **Ley 18.597/2009** creó el **Sistema Nacional de Eficiencia Energética (SN
 - MGAP (sector agropecuario)
 - Sector privado e industria
 
----
-
 ## Fondo de Eficiencia Energética (FEE)
 
 El **Fondo de Eficiencia Energética (FEE)**, creado por la Ley 18.597/2009, financia:
@@ -41,8 +35,6 @@ El **Fondo de Eficiencia Energética (FEE)**, creado por la Ley 18.597/2009, fin
 - Sensibilización y educación
 
 El fondo se integra con aportes del Estado y, en su diseño original, con un componente de cargos sobre el consumo de energía [VERIFICAR composición actual y montos].
-
----
 
 ## Programas de eficiencia energética por sector
 
@@ -91,8 +83,6 @@ El fondo se integra con aportes del Estado y, en su diseño original, con un com
 | **Eficiencia en edificios públicos** | Diagnósticos y mejoras en organismos del Estado |
 | **Educación energética** | Programas de sensibilización en escuelas y liceos; DNE materiales educativos |
 
----
-
 ## Indicadores de eficiencia energética en Uruguay
 
 ### Intensidad energética
@@ -103,8 +93,6 @@ La **intensidad energética** (energía consumida por unidad de PIB) es un indic
 
 El consumo de energía per cápita de Uruguay es relativamente moderado en el contexto latinoamericano, influenciado por el clima templado (menor demanda de climatización que los trópicos), el alto nivel de eficiencia eléctrica y la penetración de renovables.
 
----
-
 ## Desafíos
 
 | Desafío | Descripción |
@@ -113,8 +101,6 @@ El consumo de energía per cápita de Uruguay es relativamente moderado en el co
 | **Edificación residencial e histórica** | Gran parte del parque edilicio uruguayo tiene baja eficiencia térmica (escaso aislamiento, ventanas simples); la renovación es costosa |
 | **Cultura del consumo** | La conciencia energética en la ciudadanía es desigual; los programas de educación requieren continuidad |
 | **Financiamiento** | Las inversiones en eficiencia tienen retorno diferido; las PYME y los hogares de menores ingresos tienen dificultad para acceder a crédito |
-
----
 
 ## Organismos e instituciones
 
@@ -127,8 +113,6 @@ El consumo de energía per cápita de Uruguay es relativamente moderado en el co
 | **LATU** | Certificación de equipos; laboratorios de eficiencia energética; I+D |
 | **ANII** | Financiamiento de proyectos de innovación en eficiencia energética |
 | **ANEP / UdelaR** | Educación energética; investigación académica |
-
----
 
 ## Palabras clave
 

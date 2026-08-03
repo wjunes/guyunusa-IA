@@ -1,3 +1,5 @@
+# Reparación a víctimas de la dictadura en Uruguay
+
 ## Resumen
 
 La **reparación a las víctimas** de las violaciones a los derechos humanos durante la dictadura uruguaya es uno de los cuatro pilares de la justicia transicional (junto a la verdad, la justicia y las garantías de no repetición). Uruguay estableció su sistema de reparación principalmente a través de la **Ley 18.596** (2009), que reconoció como víctimas a las personas que sufrieron la actuación ilegítima del Estado en el período **1968-1985** (incluyendo el período pre-dictatorial de Pacheco Areco) y estableció distintas formas de reparación: **económica** (indemnizaciones y pensiones) y **simbólica** (reconocimiento oficial, actos de desagravio). Un componente específico de reparación para las **personas trans** víctimas de la persecución durante la dictadura fue incorporado en la **Ley 19.684** (2018). La reparación fue históricamente incompleta: muchas víctimas esperaron décadas y algunas murieron sin recibir reconocimiento.

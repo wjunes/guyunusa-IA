@@ -6,8 +6,6 @@ La clasificación arancelaria de las mercancías en Uruguay —y en prácticamen
 
 El SA organiza todas las mercancías comercializables en una nomenclatura estructurada en secciones, capítulos, partidas y subpartidas, codificadas con un número de seis dígitos. Más de 200 países y territorios utilizan el SA como base de sus nomenclaturas aduaneras nacionales o regionales, lo que facilita el comercio internacional al crear un lenguaje común para la clasificación de mercancías.
 
----
-
 ## La NANDINA: nomenclatura del MERCOSUR
 
 La Nomenclatura Arancelaria del MERCOSUR está basada en la NANDINA, que es la nomenclatura de la Comunidad Andina de Naciones (CAN) adaptada a los seis primeros dígitos del SA. El MERCOSUR adoptó una versión propia conocida como **Nomenclatura Común del MERCOSUR (NCM)**, que extiende los seis dígitos del SA a ocho dígitos mediante la adición de dos dígitos regionales.
@@ -26,8 +24,6 @@ Ejemplo: `8471.30.10` — ordenadores portátiles.
 
 Uruguay puede agregar dos dígitos adicionales a nivel nacional para fines estadísticos, resultando en códigos de hasta **10 dígitos**.
 
----
-
 ## Estructura del Sistema Armonizado
 
 El SA organiza las mercancías en:
@@ -40,8 +36,6 @@ El SA organiza las mercancías en:
 ### Notas de sección, capítulo y subpartida
 
 Cada sección y capítulo del SA incluye notas legales que definen los alcances de la clasificación, las exclusiones y las condiciones especiales. La interpretación de estas notas es fundamental para clasificar correctamente una mercancía cuando su clasificación es ambigua.
-
----
 
 ## Reglas Generales de Interpretación (RGI)
 
@@ -61,21 +55,15 @@ La clasificación de las mercancías se determina aplicando las seis Reglas Gene
 
 **RGI 6**: para la clasificación en las subpartidas se aplican las mismas reglas, comparando subpartidas del mismo nivel.
 
----
-
 ## Consultas de clasificación arancelaria
 
 Los importadores y exportadores pueden presentar consultas de clasificación arancelaria ante la DNA para determinar el código NCM correcto de una mercancía antes de realizar la operación. La DNA emite un pronunciamiento técnico (criterio de clasificación) que tiene carácter vinculante para esa operación.
 
 A nivel del MERCOSUR existe el Comité Técnico N.° 1 de la Comisión de Comercio del MERCOSUR (CT1), que emite criterios de clasificación arancelaria vinculantes para todos los Estados parte, resolviendo dudas sobre la NCM que involucran mercancías nuevas o con clasificación controvertida.
 
----
-
 ## Actualización del Sistema Armonizado
 
 La OMA revisa el SA periódicamente (aproximadamente cada cinco años) para adaptarlo a los cambios en el comercio internacional, la tecnología y las convenciones internacionales. Las versiones son SA2002, SA2007, SA2012, SA2017 y SA2022. Uruguay adopta las actualizaciones del SA a través de la NCM del MERCOSUR, que se actualiza en línea con las revisiones de la OMA.
-
----
 
 ## Importancia de la clasificación arancelaria
 
@@ -90,15 +78,11 @@ La clasificación arancelaria de una mercancía determina:
 
 Una clasificación incorrecta puede resultar en pago insuficiente de tributos (infracción aduanera) o en pago excesivo (perjuicio económico para el operador).
 
----
-
 ## Recursos electrónicos
 
 - **Nomenclatura Común del MERCOSUR (NCM)**: disponible en el sitio de la Comisión de Comercio del MERCOSUR y en el portal de la DNA (aduanas.gub.uy).
 - **Arancel integrado**: el arancel integrado de la DNA combina la NCM con las tasas arancelarias aplicables, las restricciones y los tratados preferenciales.
 - **OMA — Sistema Armonizado**: https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs-nomenclature-2022-edition.aspx
-
----
 
 ## Palabras clave
 

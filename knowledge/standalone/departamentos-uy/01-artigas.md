@@ -16,8 +16,6 @@
 | **Rutas principales** | Ruta 3 (hacia Salto y Montevideo), Ruta 30 (frontera Brasil) |
 | **Río principal** | Río Cuareim (frontera con Brasil) |
 
----
-
 ## Historia
 
 ### Período colonial y precolombino
@@ -33,8 +31,6 @@ La ciudad de Artigas (originalmente llamada **Itacumbú** y luego **San Eugenio 
 ### Siglo XX: desarrollo minero y ganadero
 
 La explotación de ágatas y amatistas en los basaltos del departamento cobró importancia económica creciente durante el siglo XX. La construcción de la **Represa de Salto Grande** (1974–1979) sobre el río Uruguay, aunque ubicada en el límite entre Salto y Artigas / Argentina, impactó en la economía regional.
-
----
 
 ## Geografía
 
@@ -59,8 +55,6 @@ Clima **subtropical húmedo** (Cfa según Köppen), con temperaturas más elevad
 
 Predominan los **Vertisoles** (praderas negras) sobre basalto, aptos para ganadería extensiva. En el norte hay suelos de origen sedimentario relacionados con la Formación Tacuarembó.
 
----
-
 ## Naturaleza
 
 ### Flora
@@ -83,8 +77,6 @@ El departamento forma parte del bioma de **Pastizales del Río de la Plata**. La
 ### Áreas protegidas
 
 Artigas no tiene áreas formalmente incorporadas al SNAP [VERIFICAR], pero posee ecosistemas de alto valor como las quebradas del norte y los montes riparios del Cuareim.
-
----
 
 ## Economía
 
@@ -110,8 +102,6 @@ Producción de **arroz** (en la cuenca del Cuareim), **soja**, **girasol** y **s
 
 La ciudad de Artigas y la ciudad brasileña de **Quaraí** (Rio Grande do Sul) conforman una **zona de frontera seca** con intenso intercambio comercial. El comercio fronterizo es una actividad económica relevante.
 
----
-
 ## Educación
 
 | Institución | Tipo |
@@ -122,8 +112,6 @@ La ciudad de Artigas y la ciudad brasileña de **Quaraí** (Rio Grande do Sul) c
 | Centro Regional de Profesores (CeRP del Norte) | Formación docente [VERIFICAR si tiene sede en Artigas] |
 | CURE — sede de UdelaR en el norte [VERIFICAR] | Educación universitaria [VERIFICAR oferta] |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -131,8 +119,6 @@ La ciudad de Artigas y la ciudad brasileña de **Quaraí** (Rio Grande do Sul) c
 | **Hospital Departamental de Artigas** | Principal centro hospitalario público (ASSE) |
 | **Hospital Neonatal** [VERIFICAR denominación] | Referencia materno-infantil |
 | Mutualistas locales | Cobertura privada (FONASA) |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -142,8 +128,6 @@ La ciudad de Artigas y la ciudad brasileña de **Quaraí** (Rio Grande do Sul) c
 | **Puente Internacional Artigas-Quaraí** | Une Artigas (Uruguay) con Quaraí (Brasil) sobre el río Cuareim |
 | **Iglesia Catedral de Artigas** | Patrimonio religioso de la ciudad capital |
 | Museo Departamental de Artigas | Colecciones históricas y mineralógicas |
-
----
 
 ## Cultura
 
@@ -163,16 +147,12 @@ La gastronomía de Artigas refleja la influencia gaúcha (brasileña) del estado
 
 La talla y pulido de ágatas y amatistas es la artesanía más característica del departamento. Se producen objetos decorativos, joyería y piezas coleccionables.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
 |--------------|-------------|
 | **Club Atlético Artigas** | Fútbol departamental |
 | Liga Deportiva Artiguense | Organismo rector del deporte local |
-
----
 
 ## Turismo
 
@@ -183,8 +163,6 @@ La talla y pulido de ágatas y amatistas es la artesanía más característica d
 | **Ciudad de Quaraí (Brasil)** | Turismo de frontera; gastronomía; compras |
 | **Sierras del norte** | Paisajes de cuchillas y afloramientos basálticos |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -193,8 +171,6 @@ La talla y pulido de ágatas y amatistas es la artesanía más característica d
 | **Aeropuerto** | Aeropuerto de Artigas (código ICAO: SUAG) — vuelos regionales [VERIFICAR operatividad] |
 | **Puente internacional** | Artigas-Quaraí sobre el río Cuareim |
 | **Energía** | Red eléctrica de UTE; zona próxima a Salto Grande |
-
----
 
 ## Instituciones
 
@@ -207,15 +183,11 @@ La talla y pulido de ágatas y amatistas es la artesanía más característica d
 | **Ministerio del Interior — Jefatura** | Seguridad pública departamental |
 | **Ministerio de Ganadería — Oficinas regionales** | MGAP; DINARA; RENARE |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte principal |
 |--------|------|-----------------|
 | [VERIFICAR personalidades artiguenses destacadas] | — | — |
-
----
 
 ## Estadísticas
 
@@ -227,16 +199,12 @@ La talla y pulido de ágatas y amatistas es la artesanía más característica d
 | Población urbana | ~90% [VERIFICAR] | INE |
 | Capital departamental | Artigas (~40.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - El departamento de Artigas produce algunas de las **ágatas y amatistas más apreciadas del mundo**; los yacimientos de la región del Catalán son de renombre internacional.
 - La ciudad de Artigas y Quaraí (Brasil) forman una **zona de libre tránsito** donde se habla indistintamente español y portugués (portuñol).
 - El río Cuareim, frontera natural con Brasil, tiene un caudal muy variable según la estación, llegando a niveles muy bajos en épocas de sequía.
 - Artigas tiene la **densidad de población más baja** del Uruguay junto con Treinta y Tres y Cerro Largo.
-
----
 
 ## Cronología
 
@@ -250,8 +218,6 @@ La talla y pulido de ágatas y amatistas es la artesanía más característica d
 | 1970s | Impacto de la construcción de Salto Grande en la región norte |
 | 2009 | Ley 18.567; creación de municipios en el departamento |
 | 2010 | Primeras elecciones municipales |
-
----
 
 ## Palabras clave
 

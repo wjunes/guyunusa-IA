@@ -1,12 +1,8 @@
 # Eventos Meteorológicos Históricos de Uruguay
 
----
-
 ## Criterios de selección
 
 Este archivo recoge los eventos meteorológicos más significativos de la historia documentada de Uruguay, seleccionados por su impacto en la población, la economía y el territorio. Incluye inundaciones, sequías, tornados, tormentas, olas de calor y de frío, y fenómenos excepcionales. Cada ficha incluye: fecha, tipo, descripción, impactos y fuentes de referencia.
-
----
 
 ## Inundaciones
 
@@ -53,8 +49,6 @@ Este archivo recoge los eventos meteorológicos más significativos de la histor
 | **Impactos** | >10.000 evacuados en el litoral; pérdidas en citicultura (Salto) y ganadería; daños a infraestructura. Declaración de emergencia nacional. |
 | **Fuente** | SINAE; Presidencia de la República; informes departamentales. |
 
----
-
 ## Sequías
 
 ### Sequía de 1988–1989
@@ -98,8 +92,6 @@ Este archivo recoge los eventos meteorológicos más significativos de la histor
 | **Impactos** | Crisis política y social; cuestionamiento a la gestión del agua; debate sobre fuentes alternativas de agua potable; pérdidas agropecuarias extraordinarias; reducción de la generación hidroeléctrica (ADME activó plantas termoeléctricas). |
 | **Fuente** | SINAE; OSE; INUMET seguimiento; MGAP informes de emergencia agropecuaria. |
 
----
-
 ## Tornados
 
 ### Tornado de Dolores (2016)
@@ -117,8 +109,6 @@ Este archivo recoge los eventos meteorológicos más significativos de la histor
 
 Uruguay registra una frecuencia baja pero no excepcional de tornados y trombas marinas, especialmente en la región norte y centro. Los tornados anteriores al de Dolores tuvieron menor impacto en zonas urbanas. [VERIFICAR registros sistemáticos en INUMET / Facultad de Ciencias]
 
----
-
 ## Tormentas severas
 
 ### Tormenta severa de Montevideo (29 de diciembre de 2012)
@@ -133,8 +123,6 @@ Uruguay registra una frecuencia baja pero no excepcional de tornados y trombas m
 
 *[VERIFICAR y ampliar la lista de tormentas severas con datos de INUMET y cobertura periodística]*
 
----
-
 ## Olas de calor
 
 ### Ola de calor de enero 2022
@@ -148,8 +136,6 @@ Uruguay registra una frecuencia baja pero no excepcional de tornados y trombas m
 | **Impactos** | Demanda récord de electricidad; riesgo para personas vulnerables (adultos mayores, niños); estrés calórico en el ganado; aumento en el consumo de agua. |
 | **Fuente** | INUMET. [VERIFICAR fechas exactas y récords asociados] |
 
----
-
 ## Olas de frío
 
 ### Ola de frío de julio 2000
@@ -162,8 +148,6 @@ Uruguay registra una frecuencia baja pero no excepcional de tornados y trombas m
 | **Descripción** | Entrada de aire polar continental (Pampero) con descenso brusco de temperaturas. |
 | **Impactos** | Daños en cultivos; heladas severas; mortalidad de ganado en el norte. |
 
----
-
 ## Nevada histórica (julio 2007)
 
 | Campo | Detalle |
@@ -175,13 +159,9 @@ Uruguay registra una frecuencia baja pero no excepcional de tornados y trombas m
 | **Impactos** | Interrupción del tránsito; daños a cultivos; caída de árboles; espectáculo inusual para la población capitalina. |
 | **Fuente** | INUMET; archivos de prensa. [VERIFICAR fechas exactas y registros de acumulación] |
 
----
-
 ## Récords históricos de temperatura y precipitación
 
 Para el listado completo de récords climáticos de Uruguay, ver archivo `24-records-climaticos.md`.
-
----
 
 ## Palabras clave
 

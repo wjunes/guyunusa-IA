@@ -1,14 +1,10 @@
 # Arqueología Histórica del Uruguay
 
----
-
 ## Definición y alcance
 
 La **arqueología histórica** estudia el pasado a través de los vestigios materiales de sociedades que dejaron registros escritos. En el caso del Uruguay, abarca el período comprendido desde los primeros contactos europeos (siglo XVI) hasta el siglo XX, e incluye el estudio de asentamientos coloniales, fortificaciones, reducciones indígenas, misiones jesuíticas, naufragios, sitios vinculados a la independencia y la arqueología urbana de Montevideo y otras ciudades.
 
 La arqueología histórica del Uruguay se articula frecuentemente con la historia colonial, la historia de la arquitectura y la historia oral, y sus hallazgos complementan la documentación escrita con evidencia material que muchas veces ilumina aspectos de la vida cotidiana no registrados en los archivos.
-
----
 
 ## Período colonial temprano (1516–1680)
 
@@ -22,8 +18,6 @@ Las evidencias arqueológicas del siglo XVI en el actual Uruguay son casi inexis
 
 El territorio oriental fue escenario de tempranas iniciativas misioneras. Se atribuye a los jesuitas el establecimiento de algunas reducciones tempranas en el siglo XVII, aunque su arqueología sistemática está poco desarrollada.
 
----
-
 ## Reducciones jesuíticas (siglo XVII)
 
 Las **misiones o reducciones jesuíticas** del territorio uruguayo forman parte del sistema misional más amplio de los Pueblos de las Misiones, cuyo centro de gravedad estuvo en los actuales territorios de Argentina (Misiones) y Brasil (Rio Grande do Sul), pero que también tuvo presencia en la margen oriental del río Uruguay.
@@ -31,8 +25,6 @@ Las **misiones o reducciones jesuíticas** del territorio uruguayo forman parte 
 La reducción más relevante arqueológicamente para el Uruguay fue la de **San Gabriel** (departamento de Soriano), que fue el primer establecimiento permanente europeo documentado en el actual territorio uruguayo, fundado en la primera mitad del siglo XVII [VERIFICAR fecha exacta]. La mayoría de estas reducciones fueron destruidas en las guerras entre españoles, portugueses y las propias comunidades indígenas, especialmente tras la **Guerra Guaranítica** (1754–1756) y la expulsión de los jesuitas de los dominios españoles (1767).
 
 La arqueología de las misiones jesuíticas en Uruguay está poco desarrollada en comparación con la de Argentina y Brasil. Las intervenciones son escasas.
-
----
 
 ## Colonia do Sacramento (1680–1777)
 
@@ -59,8 +51,6 @@ Las intervenciones arqueológicas en el Barrio Histórico han sido realizadas en
 
 La superposición de ocupaciones desde el siglo XVII y la presencia de estructuras vivas dificultan la arqueología extensiva. La legislación de patrimonio protege las estructuras históricas.
 
----
-
 ## Montevideo colonial y republicano
 
 ### Fundación y primeras estructuras
@@ -79,19 +69,13 @@ La arqueología urbana de Montevideo se ha desarrollado principalmente de forma 
 - Hallazgos en obras de infraestructura (saneamiento, construcción de edificios) en la Ciudad Vieja.
 - La **Puerta de la Ciudadela**, único vestigio visible de las murallas coloniales, ha sido objeto de estudios arqueológicos y restauraciones.
 
----
-
 ## Caleras jesuíticas
 
 Las caleras fueron instalaciones industriales coloniales para la producción de cal a partir de conchas o piedra caliza, utilizada en la construcción. En Uruguay, la más importante arqueológicamente es la **Calera de los Huérfanos** (departamento de Colonia), una calera jesuítica del siglo XVIII que ha sido objeto de investigaciones y se encuentra en estado de conservación parcial.
 
----
-
 ## Estancias jesuíticas y coloniales
 
 El territorio uruguayo albergó estancias jesuíticas y coloniales dedicadas a la ganadería, cuya arqueología está poco desarrollada. Las **estancias jesuíticas del este del Uruguay** han sido referenciadas en documentos históricos pero carecen de excavaciones sistemáticas.
-
----
 
 ## Sitios militares y fortines
 
@@ -104,27 +88,19 @@ El territorio uruguayo albergó estancias jesuíticas y coloniales dedicadas a l
 
 La **Fortaleza de Santa Teresa** (Rocha) es la estructura militar colonial mejor conservada del Uruguay. Construida originalmente por los portugueses en 1762 y capturada por los españoles en 1793, fue restaurada en el siglo XX. Los estudios arqueológicos han permitido documentar fases constructivas sucesivas.
 
----
-
 ## Arqueología de la independencia y el siglo XIX
 
 La arqueología del período de la Independencia (1811–1830) y el siglo XIX es aún incipiente en Uruguay. Los sitios vinculados a los episodios bélicos de la independencia (Batalla de Las Piedras, Cerrito, Arroyo Grande) no han sido objeto de investigaciones arqueológicas sistemáticas.
 
 La arqueología industrial del siglo XIX (saladeros, molinos, frigoríficos tempranos) es también un campo escasamente desarrollado en el país.
 
----
-
 ## Arqueología de la esclavitud y la afrodescendencia
 
 La arqueología de la esclavitud en Uruguay ha recibido escasa atención sistemática. El territorio fue escenario de una significativa presencia africana esclavizada, especialmente en Montevideo y el litoral. Los trabajos de arqueología histórica que abordan esta temática están en sus inicios en Uruguay, a diferencia de lo avanzado en Brasil o Estados Unidos.
 
----
-
 ## Arqueología de naufragios
 
 El litoral uruguayo y el Río de la Plata albergan numerosos naufragios de interés arqueológico. Este tema se desarrolla en el archivo `10-arqueologia-subacuatica.md`.
-
----
 
 ## Principales investigadores de arqueología histórica en Uruguay
 
@@ -132,8 +108,6 @@ El litoral uruguayo y el Río de la Plata albergan numerosos naufragios de inter
 - **Leonel Cabrera** (FHCE-Udelar): arqueología histórica, sitios coloniales y postcoloniales.
 - **Nicolás Fusco:** arqueología de la Ciudad Vieja de Montevideo [VERIFICAR].
 - **Beatriz Besednjak:** [VERIFICAR] contribuciones a la arqueología histórica.
-
----
 
 ## Palabras clave
 

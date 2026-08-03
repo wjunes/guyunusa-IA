@@ -48,7 +48,6 @@
 - **El País, La Diaria, El Observador**: Cobertura de la crisis hídrica de 2023.
 - **PARLAMENTO DEL URUGUAY — Diario de Sesiones**: Debates sobre el Artículo 47 y la Ley 18.610.
 
----
 *Las fuentes consignadas en este documento son de carácter público, institucional y académico. Para información contemporánea verificada, se recomienda consultar directamente a los organismos oficiales listados. Este dominio no constituye asesoramiento legal, técnico ni ambiental.*
 
 ## Palabras clave

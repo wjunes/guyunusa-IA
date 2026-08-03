@@ -6,8 +6,6 @@
 
 **AIN (Auditoría Interna de la Nación)**: Organismo de control interno del Poder Ejecutivo, dependiente del MEF. Realiza auditorías de gestión, financieras y de cumplimiento en la Administración Central.
 
----
-
 ## C
 
 **Canasta básica alimentaria (CBA)**: Conjunto mínimo de alimentos que cubre las necesidades calóricas y proteicas de una persona. Es la base para el cálculo de la línea de indigencia.
@@ -26,8 +24,6 @@
 
 **Coeficiente de Gini**: Indicador estadístico que mide la desigualdad en la distribución del ingreso (0 = perfecta igualdad; 1 = máxima desigualdad).
 
----
-
 ## D
 
 **Datos abiertos**: Datos producidos por el Estado que se publican en formatos digitales abiertos, sin restricciones de uso ni descarga. Marco legal principal en Uruguay: Ley 18.381/2008 y Decreto 177/013.
@@ -35,8 +31,6 @@
 **DGEC (Dirección General de Estadística y Censos)**: Nombre de la institución estadística nacional de Uruguay entre 1982 y 1994, sucedida por el INE.
 
 **DGE (Dirección General de Estadística)**: Nombre del organismo estadístico nacional creado en 1919 (Ley 7.098); antecedente del INE.
-
----
 
 ## E
 
@@ -48,23 +42,17 @@
 
 **Expediente electrónico**: Sistema digital de gestión de expedientes administrativos en la Administración Central uruguaya. Establecido por el Decreto 276/013.
 
----
-
 ## F
 
 **Firma electrónica**: Datos electrónicos que identifican al firmante de un documento digital. La firma electrónica avanzada tiene la misma validez jurídica que la firma manuscrita (Ley 18.600/2009).
 
 **Funcionario presupuestado**: Funcionario público cuyo cargo está incluido en el Presupuesto Nacional. Tiene estabilidad laboral; sólo puede cesar por resolución fundada.
 
----
-
 ## G
 
 **Gobierno abierto**: Modelo de gestión pública basado en transparencia, participación ciudadana y rendición de cuentas. Uruguay es miembro de la OGP desde 2011.
 
 **Gestión por resultados (GpR)**: Modelo de administración que orienta la acción pública hacia el logro de objetivos y resultados medibles.
-
----
 
 ## I
 
@@ -80,25 +68,17 @@
 
 **Interoperabilidad**: Capacidad de los sistemas informáticos del Estado de intercambiar datos entre sí sin que el ciudadano deba presentar información que ya obra en poder del Estado.
 
----
-
 ## J
 
 **JUTEP (Junta de Transparencia y Ética Pública)**: Organismo independiente creado por la Ley 17.060/1998 para recibir y controlar las declaraciones juradas de bienes de funcionarios públicos.
-
----
 
 ## L
 
 **Línea de pobreza**: Nivel de ingreso per cápita por debajo del cual un hogar es considerado pobre. Calculado por el INE.
 
----
-
 ## M
 
 **Municipio**: Tercer nivel de gobierno subnacional en Uruguay, creado por la Ley 18.567/2009, encabezado por un Alcalde y un Concejo de 4 miembros.
-
----
 
 ## O
 
@@ -108,21 +88,15 @@
 
 **OPP (Oficina de Planeamiento y Presupuesto)**: Organismo asesor del Poder Ejecutivo en planificación y presupuesto; coordina la elaboración del Presupuesto Nacional Quinquenal.
 
----
-
 ## P
 
 **PDI (Plataforma de Interoperabilidad)**: Sistema digital de AGESIC para el intercambio de datos entre organismos del Estado uruguayo.
 
 **Personas Públicas No Estatales (PPNE)**: Organismos creados por ley para funciones de interés público que no integran formalmente el Estado. Ejemplos: INAC, INALE, INIA, Cajas de Jubilaciones.
 
----
-
 ## R
 
 **RVE (Registro de Vínculos con el Estado)**: Registro nacional de la ONSC de todos los vínculos laborales de personas con el sector público uruguayo.
-
----
 
 ## S
 
@@ -132,23 +106,17 @@
 
 **Servicio descentralizado**: Organismo estatal con autonomía de gestión, personalidad jurídica y patrimonio propios, bajo tutela del Poder Ejecutivo. Ejemplos: ANCAP, UTE, ANTEL, OSE.
 
----
-
 ## T
 
 **TCA (Tribunal de lo Contencioso Administrativo)**: Órgano jurisdiccional especializado en derecho administrativo; tiene la potestad exclusiva de anular actos administrativos del Estado ilegítimos.
 
 **TPM (Tasa de Política Monetaria)**: Tasa de interés de referencia fijada por el BCU para influir en las condiciones monetarias. Ver `economia-finanzas-impuestos-uy`.
 
----
-
 ## U
 
 **UAIP (Unidad de Acceso a la Información Pública)**: Organismo independiente que controla la aplicación de la Ley 18.381/2008 (Acceso a la Información Pública) y la Ley 18.331/2008 (Protección de Datos).
 
 **Uruguay Concursa**: Plataforma digital de la ONSC para la gestión de concursos de ingreso y ascenso en la Administración Central.
-
----
 
 ## Palabras clave
 

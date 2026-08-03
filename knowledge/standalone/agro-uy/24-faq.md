@@ -14,8 +14,6 @@ Uruguay mantiene un stock bovino de aproximadamente **11 a 12 millones de cabeza
 **¿Cuál es el principal destino de las exportaciones agropecuarias uruguayas?**
 **China** es el principal destino, absorbiendo aproximadamente el 30–35% del valor total exportado. Es el mayor comprador de carne bovina, soja y celulosa uruguaya. Otros destinos importantes son Brasil, la Unión Europea (especialmente Alemania y Países Bajos), Estados Unidos y varios países asiáticos.
 
----
-
 ## Ganadería y carnes
 
 **¿Cuál es el estatus sanitario de Uruguay respecto a la fiebre aftosa?**
@@ -33,8 +31,6 @@ Uruguay tiene varias plantas frigoríficas habilitadas para exportar, entre las 
 **¿Cuántos ovinos tiene Uruguay?**
 El stock ovino uruguayo es de **6 a 8 millones de cabezas** en 2023. En la década de 1990, Uruguay llegó a tener más de 25 millones de ovinos. La caída se debió a la baja del precio internacional de la lana y cambios en los sistemas productivos. La raza dominante es la **Corriedale** (doble propósito: lana y carne).
 
----
-
 ## Lechería
 
 **¿Qué es CONAPROLE y cuál es su peso en el sector?**
@@ -42,8 +38,6 @@ El stock ovino uruguayo es de **6 a 8 millones de cabezas** en 2023. En la déca
 
 **¿Cuál es el sistema de producción lechera predominante en Uruguay?**
 El sistema **pastoril** es predominante: las vacas pastorean en praderas a campo, con suplementación estratégica (silo, concentrado en sala de ordeñe). Este sistema es relativamente eficiente en costo y genera productos con imagen de "natural". La temporalidad es moderada: los picos de producción coinciden con la primavera.
-
----
 
 ## Agricultura
 
@@ -56,8 +50,6 @@ La expansión sojera comenzó alrededor de **2002–2004**, impulsada por la ado
 **¿Qué variedad de uva es la emblema de Uruguay?**
 El **Tannat**, uva tinta de origen en la región de Madiran (Francia), introducida en Uruguay por el viticultor vasco-francés **Pascual Harriague** en 1874 en Salto. En Uruguay encontró un terroir que acentuó sus características tánicas y frutales. Es considerada la "uva nacional" de Uruguay y es la base del vino tinto más exportado del país. El **INAVI** (Instituto Nacional de Vitivinicultura, Ley 15.876/1987) regula y promociona el sector.
 
----
-
 ## Forestación y celulosa
 
 **¿Qué ley impulsó la forestación en Uruguay?**
@@ -65,8 +57,6 @@ La **Ley 15.939 de 1987** (Ley de Forestación) estableció un sistema de incent
 
 **¿Cuál fue la controversia entre Argentina y Uruguay por UPM?**
 La planta de celulosa de UPM (ex Botnia) en **Fray Bentos**, inaugurada en 2007 sobre el río Uruguay, generó una controversia diplomática con Argentina, que alegó contaminación transfronteriza. El caso llegó a la **Corte Internacional de Justicia (CIJ)** de La Haya. En 2010, la CIJ falló que Uruguay no había violado el Estatuto del Río Uruguay y que no había pruebas de daño ambiental transfronterizo, aunque Uruguay no había cumplido plenamente con las obligaciones de notificación previa.
-
----
 
 ## Instituciones e investigación
 
@@ -76,8 +66,6 @@ El **INIA (Instituto Nacional de Investigación Agropecuaria)**, creado por la L
 **¿Qué es el Plan Agropecuario?**
 El **Plan Agropecuario** (Instituto Plan Agropecuario) fue creado por la Ley 16.736/1996. Es el principal organismo de extensión y transferencia de tecnología rural en Uruguay. Asesora a productores en todo el país, especialmente pequeños y medianos, sobre sistemas de producción, manejo de pasturas, suelos, sanidad y gestión empresarial. Publica la *Revista del Plan Agropecuario* y materiales de divulgación técnica.
 
----
-
 ## Cooperativismo y estructura social
 
 **¿Qué es la CNFR?**
@@ -86,8 +74,6 @@ La **Comisión Nacional de Fomento Rural (CNFR)** es una organización paraguas 
 **¿Qué ley regula las cooperativas en Uruguay?**
 La **Ley 18.407 de 2008** (Ley General de Cooperativas) establece el marco legal para todos los tipos de cooperativas en Uruguay, incluyendo las agrarias. Creó el **INACOOP (Instituto Nacional del Cooperativismo)** como organismo promotor y regulador. El **FONDES** es el fondo de financiamiento de proyectos cooperativos.
 
----
-
 ## Ambiente y sostenibilidad
 
 **¿Cuál es el mayor problema ambiental del agro uruguayo?**
@@ -95,8 +81,6 @@ Los principales desafíos ambientales son: (1) **erosión de suelos** por la exp
 
 **¿Tiene Uruguay compromisos climáticos en el agro?**
 Sí. Uruguay presentó su **NDC (Contribución Determinada a Nivel Nacional)** en el marco del Acuerdo de París (2015), que incluye compromisos específicos para reducir las emisiones de metano de los rumiantes (intensificación eficiente, manejo de pasturas) y proteger los pastizales naturales. El INIA y la Facultad de Agronomía trabajan en estrategias de mitigación.
-
----
 
 ## Palabras clave
 

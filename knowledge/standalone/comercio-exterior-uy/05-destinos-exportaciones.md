@@ -4,8 +4,6 @@
 
 La geografía de las exportaciones uruguayas ha experimentado una transformación sustancial a lo largo del siglo XXI. La participación de los socios tradicionales del MERCOSUR y Europa fue cediendo terreno a China, que se consolidó como el principal destino por valor en la década de 2010.
 
----
-
 ## China
 
 China es el principal destino de las exportaciones uruguayas de bienes desde mediados de la década de 2010.
@@ -20,8 +18,6 @@ China es el principal destino de las exportaciones uruguayas de bienes desde med
 **Dimensión política y comercial**:
 Uruguay y China establecieron una Asociación Estratégica (2016). Las negociaciones para un Tratado de Libre Comercio bilateral, iniciadas formalmente durante el gobierno de Luis Lacalle Pou (2020–2025), generaron tensiones al interior del MERCOSUR por la Decisión CMC 32/00, que prohíbe a los Estados parte negociar acuerdos comerciales de forma individual. El debate sobre la autonomía comercial uruguaya ante el bloque regional se intensificó en este contexto.
 
----
-
 ## Brasil
 
 Brasil es históricamente el principal socio comercial de Uruguay y el receptor más importante de sus exportaciones en el marco del MERCOSUR.
@@ -35,8 +31,6 @@ Brasil es históricamente el principal socio comercial de Uruguay y el receptor 
 
 La frontera terrestre Brasil-Uruguay es un eje de comercio bilateral intenso, con los pasos de Chuy-Chuí, Rivera-Santana do Livramento, Artigas-Quaraí y Bella Unión-Barra do Quaraí como principales puntos.
 
----
-
 ## Unión Europea
 
 La Unión Europea es un destino prioritario para las exportaciones uruguayas de calidad.
@@ -49,8 +43,6 @@ La Unión Europea es un destino prioritario para las exportaciones uruguayas de 
 
 El **Acuerdo MERCOSUR–Unión Europea**, cuyo texto se cerró políticamente en 2019 y se actualizó en 2023, abriría nuevas oportunidades de acceso al mercado europeo para las exportaciones uruguayas, aunque la ratificación del acuerdo por los parlamentos europeos es un proceso complejo.
 
----
-
 ## Estados Unidos
 
 Estados Unidos es un destino de creciente importancia para la carne bovina uruguaya.
@@ -58,8 +50,6 @@ Estados Unidos es un destino de creciente importancia para la carne bovina urugu
 - La habilitación del FSIS (Food Safety and Inspection Service) del USDA permite a una lista de plantas frigoríficas uruguayas exportar carne bovina refrigerada y congelada a ese mercado.
 - Uruguay exporta también software y servicios tecnológicos a mercados norteamericanos.
 - No existe un Tratado de Libre Comercio entre Uruguay y Estados Unidos. Los intentos de negociación bilateral en los años 2000 quedaron inconclusos.
-
----
 
 ## Argentina
 
@@ -72,13 +62,9 @@ Argentina es socio fundador del MERCOSUR y vecino de Uruguay. El comercio bilate
 
 Las sucesivas crisis económicas argentinas impactan negativamente en las exportaciones uruguayas al vecino país, que restringe importaciones en períodos de ajuste (2001–2002, 2012–2015, 2018–2023).
 
----
-
 ## Países de Oriente Medio
 
 Israel, Arabia Saudita, los Emiratos Árabes Unidos, Egipto y otros países de la región son compradores tradicionales de carne bovina y lácteos uruguayos, incluyendo cortes con certificación halal.
-
----
 
 ## México y resto de América Latina
 
@@ -87,21 +73,15 @@ México, Colombia, Chile, Perú y Bolivia son destinos relevantes en el marco de
 - Lácteos.
 - Manufacturas.
 
----
-
 ## Rusia y otros mercados del Este europeo
 
 Rusia fue un destino importante para la carne bovina y los lácteos uruguayos hasta 2022. La invasión rusa a Ucrania en febrero de 2022 y las sanciones internacionales impactaron en este flujo comercial.
-
----
 
 ## Concentración por destino
 
 La alta participación de China como destino introduce un riesgo de concentración: variaciones en la demanda china (por desaceleración económica, cambios en políticas sanitarias o en la relación MERCOSUR-China) pueden tener impacto significativo en las exportaciones uruguayas.
 
 Uruguay XXI y el MRE trabajan en la diversificación de mercados, con foco en el mercado europeo (Acuerdo MERCOSUR-UE), el mercado norteamericano y nuevos destinos en Asia-Pacífico (Indonesia, Vietnam, India).
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Energía renovable en Uruguay
+
 ## Resumen
 
 Uruguay protagonizó una de las **transiciones energéticas más rápidas y completas del mundo** en el sector eléctrico entre 2008 y 2016. En menos de una década, el país pasó de depender mayoritariamente de la hidroelectricidad (con alta vulnerabilidad a las sequías) a generar más del **97% de su electricidad a partir de fuentes renovables**: eólica, hidráulica, solar y biomasa. Este logro fue el resultado de una **política pública deliberada** —no de la casualidad ni de condiciones geográficas excepcionales— y es reconocido internacionalmente como un modelo a seguir. La **energía eólica** fue el motor principal de la transición, con más de 1.500 MW instalados. La planificación fue coordinada por la Dirección Nacional de Energía, con un papel central del economista **Ramón Méndez** como arquitecto de la política.

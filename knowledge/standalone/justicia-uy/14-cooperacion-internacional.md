@@ -4,8 +4,6 @@
 
 Uruguay participa activamente en el sistema internacional y regional de derechos humanos y cooperación judicial. El país ha ratificado los principales instrumentos internacionales de derechos humanos, es parte de los sistemas interamericano y universal de protección, y ha suscrito tratados de cooperación judicial en el marco del MERCOSUR y con otros Estados.
 
----
-
 ## Sistema Interamericano de Derechos Humanos
 
 ### Comisión Interamericana de Derechos Humanos (CIDH)
@@ -27,8 +25,6 @@ La **Corte Interamericana de Derechos Humanos** tiene sede en San José, Costa R
 - **Gelman vs. Uruguay (2011):** la Corte IDH condenó a Uruguay por violaciones de derechos humanos durante la dictadura (1973–1985), específicamente por la desaparición forzada de María Claudia García de Gelman y la supresión de identidad de su hija Macarena Gelman. La Corte ordenó al Estado investigar, juzgar y reparar.
 - **Barbani Duarte y otros vs. Uruguay (2011):** relacionado con el proceso de liquidación del Banco Comercial y el derecho a garantías judiciales de los ahorristas.
 - **Mota Abarullo y otros vs. Uruguay (2020):** muerte de adolescentes privados de libertad en centros del INAU.
-
----
 
 ## MERCOSUR y cooperación judicial regional
 
@@ -55,8 +51,6 @@ Uruguay reconoce la competencia del TPR.
 
 Los tratados del bloque facilitan la extradición de personas requeridas entre los países miembros, en el marco del Protocolo de Asistencia Jurídica Mutua en Asuntos Penales (MERCOSUR, 1996).
 
----
-
 ## Sistema Universal de Derechos Humanos (Naciones Unidas)
 
 Uruguay es Estado parte en los principales tratados de la ONU con incidencia en el sistema de justicia:
@@ -80,13 +74,9 @@ La **Oficina de Naciones Unidas contra la Droga y el Delito (UNODC)** coopera co
 - Asistencia técnica para la reforma procesal y la modernización judicial
 - Prevención de la corrupción (en el marco de la UNCAC)
 
----
-
 ## IberRed — Red Iberoamericana de Cooperación Judicial
 
 Uruguay participa en la **IberRed** (Red Iberoamericana de Cooperación Judicial Internacional), que facilita la cooperación judicial y fiscal entre los países iberoamericanos. La IberRed cuenta con autoridades centrales en cada país y utiliza herramientas digitales para agilizar los pedidos de cooperación.
-
----
 
 ## Extradición
 
@@ -101,8 +91,6 @@ La extradición es el procedimiento por el cual un Estado entrega a otro a una p
 **Tratados bilaterales:** Uruguay ha suscrito tratados de extradición con varios países, entre ellos Argentina, Brasil, Paraguay, Bolivia, España, Italia, México y Estados Unidos, entre otros.
 
 **Sin tratado:** en ausencia de tratado específico, Uruguay puede aplicar el principio de reciprocidad.
-
----
 
 ## Tabla: Instrumentos internacionales clave
 

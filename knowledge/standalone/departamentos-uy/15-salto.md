@@ -15,8 +15,6 @@
 | **Límites** | Artigas (norte), Rivera (noreste), Tacuarembó (este), Paysandú (sur), Río Uruguay (oeste, frontera con Argentina: Entre Ríos y Corrientes) |
 | **Rutas principales** | Ruta 3, Ruta 31 |
 
----
-
 ## Historia
 
 ### Fundación
@@ -37,8 +35,6 @@ El **Salto Grande** era originalmente un conjunto de rápidos y cataratas en el 
 
 La represa fue construida en forma binacional, con potencia dividida entre Uruguay y Argentina. Ha sido un factor clave en la autosuficiencia energética de ambos países.
 
----
-
 ## Geografía
 
 ### Relieve
@@ -57,8 +53,6 @@ El sur del departamento es llano y ondulado. El norte es más accidentado, con s
 ### Clima
 
 Clima **subtropical húmedo** (Cfa), el más cálido de Uruguay. Temperatura media anual: ~19–20 °C. Precipitaciones: ~1.300–1.400 mm/año. Veranos muy cálidos (máximas frecuentes de 35–40 °C). Heladas escasas; adecuado para citricultura. Salto y Concordia (Argentina) son el punto más cálido del eje fluvial Uruguay.
-
----
 
 ## Naturaleza
 
@@ -82,8 +76,6 @@ Salto es el departamento con mayor concentración de **establecimientos termales
 
 Las aguas termales provienen de acuíferos del **Sistema Acuífero Guaraní** (SAG), que aflora en el noroeste de Uruguay.
 
----
-
 ## Economía
 
 ### Perfil económico
@@ -103,8 +95,6 @@ Salto es el segundo departamento de Uruguay en población y uno de los más din�
 
 La **Represa de Salto Grande** es administrada por la **Comisión Técnica Mixta de Salto Grande (CTM)**, organismo binacional Uruguay–Argentina. Cada país recibe el 50% de la energía generada. Para Uruguay, representa una parte significativa de la generación eléctrica nacional.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -114,8 +104,6 @@ La **Represa de Salto Grande** es administrada por la **Comisión Técnica Mixta
 | **UTEC** | Cursos tecnológicos regionales [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
@@ -123,8 +111,6 @@ La **Represa de Salto Grande** es administrada por la **Comisión Técnica Mixta
 | **Hospital Regional de Salto** | Principal hospital público del norte del país (ASSE); referencia para toda la región |
 | **Policlínicas ASSE** | Red en localidades del departamento |
 | **Mutualistas** | CASMU, COSEM, IMEBA [VERIFICAR presencia en Salto] |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -136,8 +122,6 @@ La **Represa de Salto Grande** es administrada por la **Comisión Técnica Mixta
 | **Represa de Salto Grande** | Obra de ingeniería de escala monumental sobre el Río Uruguay |
 | **Casco histórico de Salto** | Edificios del siglo XIX y principios del XX |
 | **Museo del Hombre y la Tecnología de Salto** [VERIFICAR nombre] | Museo regional |
-
----
 
 ## Cultura
 
@@ -153,8 +137,6 @@ El departamento tiene fuerte tradición gaucha: desfiles de gauchos, jineteadas,
 
 Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pescado de río (dorado, surubí). Influencia de la cocina del litoral mesopotámico (Argentina).
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
@@ -163,8 +145,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | **Salto Uruguay Fútbol Club** | Club local |
 | **Pesca deportiva en Salto Grande** | Dorado, surubí; competencias nacionales e internacionales |
 | **Básquetbol** | Tradición baloncestística salteña |
-
----
 
 ## Turismo
 
@@ -177,8 +157,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | **Casco histórico de Salto** | Teatro Larrañaga; edificios patrimoniales |
 | **Puente Internacional Salto–Concordia** | Cruce con Concordia (Argentina) |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -189,8 +167,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | **Aeropuerto de Salto** (Nueva Hesperides) [VERIFICAR nombre oficial] | Aeropuerto con vuelos regulares a Montevideo; el más importante del interior norte |
 | **Puerto de Salto** | Puerto fluvial histórico sobre el Río Uruguay |
 | **OSE, UTE, ANTEL** | Servicios básicos departamentales |
-
----
 
 ## Instituciones
 
@@ -203,8 +179,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | **Municipio de Belén** | Localidad interior |
 | **CTM (Comisión Técnica Mixta de Salto Grande)** | Organismo binacional Uruguay–Argentina; gestión de la represa |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
@@ -213,8 +187,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | **Isidoro de María** (Montevideo, 1815–1906; documentó Salto) [VERIFICAR] | Historia | Historiador; documentó el período colonial |
 | **Juana de Ibarbourou** (Melo, 1892 [VERIFICAR]; no de Salto) | Literatura | [No es de Salto; se menciona para evitar error común] |
 | **Emilio Oribe** (Salto, 1893–1975) | Literatura / Filosofía | Poeta y ensayista; miembro de la Generación del Centenario |
-
----
 
 ## Estadísticas
 
@@ -225,8 +197,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | Densidad | 9,6 hab./km² | INE |
 | Localidades principales | Salto, Constitución, Belén, Termas del Daymán | INE |
 
----
-
 ## Curiosidades
 
 - **Luis Suárez**, nacido en Salto el 24 de enero de 1987, es el máximo goleador de la historia de la Selección Uruguaya con más de 68 goles [VERIFICAR cifra actualizada] y uno de los mejores delanteros del mundo de su generación.
@@ -234,8 +204,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 - La **Represa de Salto Grande** eliminó los rápidos y cataratas que le daban nombre a la región, inundando el Salto Grande original bajo el embalse.
 - Salto es el **segundo departamento más poblado del interior** de Uruguay (después de Canelones si no se cuenta Montevideo).
 - El **embalse de Salto Grande** es el lago artificial más grande de Uruguay y uno de los más grandes de América del Sur entre los binacionales.
-
----
 
 ## Cronología
 
@@ -250,8 +218,6 @@ Citricultura: naranjas y mandarinas frescas, dulces, licores. Asado ganadero. Pe
 | 1987 | Nacimiento de Luis Suárez, futbolista salteño |
 | 1990s–2000s | Expansión de los complejos termales como polo turístico |
 | 2011 | Luis Suárez, figura clave en la Copa América ganada por Uruguay |
-
----
 
 ## Palabras clave
 

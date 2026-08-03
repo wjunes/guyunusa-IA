@@ -1,3 +1,5 @@
+# Ciudades y ambiente urbano en Uruguay
+
 ## Resumen
 
 Uruguay es un **país altamente urbanizado**: el 95% de su población vive en centros urbanos, con Montevideo concentrando casi la mitad de los habitantes del país. El **ambiente urbano** —calidad del aire, el agua, los espacios verdes, la gestión de residuos, la movilidad, las inundaciones— tiene un impacto directo en la salud y calidad de vida de la mayoría de los uruguayos. Montevideo ha avanzado en políticas de movilidad sostenible (**ciclovías**, peatonalización), gestión de residuos diferenciada y mejora del saneamiento, aunque persisten desafíos: los **arroyos urbanos contaminados**, las **inundaciones frecuentes** en zonas bajas, los asentamientos irregulares con déficit de saneamiento y la dependencia del automóvil privado.

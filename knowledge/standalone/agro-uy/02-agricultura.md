@@ -6,8 +6,6 @@ La **agricultura** ocupa en Uruguay una posición complementaria pero cada vez m
 
 Uruguay ha logrado transformarse en un exportador neto de alimentos y materias primas agrícolas gracias a la combinación de suelos fértiles, clima templado, disponibilidad de agua y adopción tecnológica.
 
----
-
 ## Condiciones naturales para la agricultura
 
 | Factor | Característica |
@@ -17,8 +15,6 @@ Uruguay ha logrado transformarse en un exportador neto de alimentos y materias p
 | **Agua** | Red hídrica densa; ríos Santa Lucía, Negro, Tacuarembó, Queguay; acuífero Guaraní; riego disponible especialmente en el este |
 | **Topografía** | Mayormente ondulado suave a llano; apto para mecanización |
 | **Plagas y enfermedades** | Clima templado húmedo favorece algunas enfermedades fúngicas en cultivos; sin grandes plagas tropicales |
-
----
 
 ## Principales cultivos agrícolas
 
@@ -42,8 +38,6 @@ Uruguay ha logrado transformarse en un exportador neto de alimentos y materias p
 ### Horticultura y fruticultura
 - Ver archivo 08-horticultura-y-fruticultura.md
 
----
-
 ## Evolución de la superficie agrícola
 
 | Período | Superficie cultivada estimada | Cultivo predominante |
@@ -57,8 +51,6 @@ Uruguay ha logrado transformarse en un exportador neto de alimentos y materias p
 
 *Fuente: DIEA-MGAP. Las cifras son estimadas y varían por campaña.*
 
----
-
 ## Zonas agrícolas por departamento
 
 | Zona | Departamentos principales | Cultivos característicos |
@@ -70,8 +62,6 @@ Uruguay ha logrado transformarse en un exportador neto de alimentos y materias p
 | **Sur-oeste** | Colonia, Soriano, Río Negro, San José | Trigo, cebada, soja, tambo, horticultura |
 | **Metropolitana** | Canelones, Montevideo | Horticultura, viticultura, floricultura |
 
----
-
 ## Manejo de suelos
 
 El manejo responsable de suelos es un tema crítico en Uruguay dado el avance de la agricultura intensiva:
@@ -81,15 +71,11 @@ El manejo responsable de suelos es un tema crítico en Uruguay dado el avance de
 - **Rotaciones:** rotación cultivo-pradera para recuperar fertilidad y reducir erosión.
 - **Cobertura vegetal:** uso de cultivos de cobertura entre zafras.
 
----
-
 ## Fertilización
 
 - Uruguay históricamente tenía baja fertilización respecto a otros países agrícolas; aumentó significativamente con la expansión sojera y cerealera.
 - Fertilizantes más utilizados: **urea** (nitrógeno), **superfosfato** (fósforo), **potasio** (menor uso dado el nivel natural de suelos uruguayos).
 - La **acidificación** de suelos por uso intensivo de fertilizantes nitrogenados y la lixiviación es un desafío creciente; corrección con **cal agrícola**.
-
----
 
 ## Semillas
 
@@ -98,16 +84,12 @@ El manejo responsable de suelos es un tema crítico en Uruguay dado el avance de
 - Producción de **semilla sexual** para exportación en algunos rubros.
 - Debate sobre **semillas transgénicas (OGM):** Uruguay aprobó el cultivo de soja transgénica resistente a herbicidas (RR y otras) y maíz transgénico desde mediados de los años 2000.
 
----
-
 ## Riego
 
 - Uruguay tiene disponibilidad natural de agua, pero el riego se usa sobre todo en **arroz** (riego por inundación; ~96% del arroz se riega).
 - Para otros cultivos (soja, maíz, horticultura), el riego suplementario creció desde los años 2010.
 - **Represas prediales** (tajamares): miles de pequeñas represas acumulan agua para uso ganadero y agrícola.
 - Potencial mayor de riego en cuencas del Río Negro, Río Santa Lucía y Laguna Merín.
-
----
 
 ## Mecanización
 
@@ -116,8 +98,6 @@ El manejo responsable de suelos es un tema crítico en Uruguay dado el avance de
 - **Cosechadoras** de gran capacidad para cereales y oleaginosas.
 - El parque de maquinaria es mayormente importado (Brasil, EE.UU., Alemania, Italia).
 - Creciente uso de **tecnología de precisión** en maquinaria (GPS, monitores de rendimiento, dosificación variable).
-
----
 
 ## Palabras clave
 

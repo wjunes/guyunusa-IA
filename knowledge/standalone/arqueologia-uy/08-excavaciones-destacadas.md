@@ -1,12 +1,8 @@
 # Excavaciones Arqueológicas Destacadas del Uruguay
 
----
-
 ## Introducción
 
 Este archivo documenta las principales intervenciones arqueológicas realizadas en el territorio de la República Oriental del Uruguay, con especial atención a aquellas que han generado datos significativos para el conocimiento del pasado humano del país. Se incluyen tanto excavaciones sistemáticas planificadas como intervenciones de rescate y arqueología preventiva.
-
----
 
 ## Excavaciones en cerritos — Región este (Rocha / Treinta y Tres)
 
@@ -35,8 +31,6 @@ Las excavaciones en el complejo Los Ajos constituyen la intervención más exten
 
 Excavaciones puntuales en cerritos del departamento de Rocha, realizadas por López Mazz y colaboradores, que ampliaron el conocimiento de la distribución y cronología de los montículos en la región costera atlántica.
 
----
-
 ## Excavaciones en Arroyo del Vizcaíno (Canelones)
 
 **Investigador principal:** Richard Fariña (Facultad de Ciencias, Udelar).
@@ -57,8 +51,6 @@ Las excavaciones en el lecho del Arroyo del Vizcaíno se orientaron al estudio d
 - Publicación en *Proceedings of the Royal Society B* (2014): Fariña et al., "Arroyo del Vizcaíno, Uruguay: a fossil-rich 30-ka-old megafaunal locality with cut-marked bones."
 - **Debate científico:** otros investigadores han propuesto explicaciones alternativas para las marcas (raíces, presión sedimentaria, pisoteo). El consenso científico sobre la presencia humana a esa fecha no se ha alcanzado.
 
----
-
 ## Excavaciones en Pay Paso 1 (Artigas)
 
 **Investigador principal:** Rafael Suárez (FHCE-Udelar).
@@ -71,8 +63,6 @@ Las excavaciones en Pay Paso 1 revelaron uno de los conjuntos líticos del Pleis
 - Conjuntos con puntas de proyectil fishtail y artefactos bifaciales asociados.
 - Dataciones en torno a ~10.500–10.000 AP.
 - Comparación con sitios del Pleistoceno final del Cono Sur.
-
----
 
 ## Excavaciones en el Barrio Histórico de Colonia del Sacramento
 
@@ -90,8 +80,6 @@ Las excavaciones en la zona declarada Patrimonio de la Humanidad (UNESCO, 1995) 
 
 **Importancia:** documentación de la estratigrafía colonial de la ciudad, desde la fundación portuguesa de 1680 hasta la época española y republicana.
 
----
-
 ## Excavaciones en la Ciudad Vieja de Montevideo
 
 **Instituciones:** CPCN; Facultad de Humanidades y Ciencias de la Educación (FHCE-Udelar); Intendencia de Montevideo.
@@ -103,8 +91,6 @@ Las excavaciones en la Ciudad Vieja han revelado restos de las murallas colonial
 - Materiales coloniales (loza, cerámica, metales, vidrio).
 - Estratigrafía que documenta la expansión urbana desde el siglo XVIII.
 
----
-
 ## Excavaciones en la Fortaleza de Santa Teresa (Rocha)
 
 **Institución:** Ministerio de Defensa / Ejército Nacional; CPCN.
@@ -113,16 +99,12 @@ Las excavaciones en la Ciudad Vieja han revelado restos de las murallas colonial
 
 La **Fortaleza de Santa Teresa** es la estructura militar colonial mejor conservada del Uruguay. Las intervenciones arqueológicas han documentado las distintas fases constructivas (fase portuguesa 1762; fase española desde 1793) y materiales asociados.
 
----
-
 ## Excavaciones en sitios de arte rupestre (Chamangá, Flores)
 
 **Investigadores:** varios (FHCE-Udelar, MNA).
 **Localización:** Chamangá, Flores.
 
 Las intervenciones en Chamangá se han centrado en el registro y documentación de los grabados (petroglifos) y en prospecciones del entorno inmediato. No se ha determinado con precisión la cronología de los petroglifos mediante dataciones absolutas, lo que constituye una limitación del conocimiento actual.
-
----
 
 ## Arqueología preventiva destacada
 
@@ -135,8 +117,6 @@ La arqueología preventiva —intervenciones arqueológicas realizadas como cond
 | Ferrocarril Central (rehabilitación, 2018–2022) | Multiple | Monitoreo arqueológico en el trazado |
 | Construcción de carreteras (PPP MTOP) | Múltiple | Hallazgos puntuales; rescates arqueológicos |
 | Planta UPM 2 Conchillas / Paso de los Toros (2019–2022) | Río Negro / Durazno | Estudios arqueológicos de impacto ambiental |
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 La narrativa histórica uruguaya del siglo XX sostuvo durante décadas que los **indígenas habían desaparecido** del Uruguay —afirmación sintetizada en la expresión "país de europeos sin indios ni negros"— ocultando tanto los procesos de mestizaje como la presencia de descendientes indígenas en la población actual. Desde finales del siglo XX esta narrativa ha sido cuestionada desde la academia, la genética y los propios movimientos de descendientes, que reivindican una identidad indígena viva.
 
----
-
 ## El mestizaje y la invisibilización
 
 ### El proceso histórico del mestizaje
@@ -22,8 +20,6 @@ A lo largo del siglo XIX y principios del XX, el Estado uruguayo y la historiogr
 - La mitología de la desaparición indígena sirvió para justificar la ocupación del territorio.
 - El "gaucho" fue construido como símbolo nacional sin reconocimiento explícito de sus componentes indígenas y africanos.
 - La narrativa de José Batlle y Ordóñez (presidente 1903–1907 y 1911–1915) del Uruguay moderno y progresista omitió los procesos históricos de eliminación indígena.
-
----
 
 ## La investigación genética
 
@@ -50,8 +46,6 @@ Desde finales del siglo XX, investigaciones genéticas han demostrado la presenc
 - Los haplogrupos mitocondriales rastrean solo la línea materna; la herencia total puede ser mayor.
 - La asignación de haplogrupos a "pueblos" específicos (charrúas, guaraníes, etc.) es difícil con las técnicas disponibles.
 
----
-
 ## Organizaciones de descendientes
 
 Desde fines del siglo XX surgieron en Uruguay diversas organizaciones que reivindican la identidad y herencia charrúa y de otros pueblos originarios:
@@ -72,8 +66,6 @@ Desde fines del siglo XX surgieron en Uruguay diversas organizaciones que reivin
 - Titularidad sobre ciertos recursos y territorios asociados a la historia indígena.
 - Acceso a la educación intercultural bilingüe.
 
----
-
 ## Marco legal e institucional
 
 ### Uruguay y los derechos indígenas
@@ -93,8 +85,6 @@ Uruguay **no ratificó** el **Convenio 169 de la OIT** (Organización Internacio
 - El debate sobre la **inclusión de la identidad indígena** en el censo nacional ha sido recurrente.
 - En el **Censo 2011**, Uruguay incluyó por primera vez una pregunta sobre ascendencia: un pequeño porcentaje de la población se identificó como de ascendencia indígena.
 
----
-
 ## Debates sobre la identidad charrúa contemporánea
 
 La identidad charrúa contemporánea genera debates:
@@ -106,16 +96,12 @@ La identidad charrúa contemporánea genera debates:
 | **Herencia biológica y cultural** | La genética confirma herencia biológica; la herencia cultural es más difícil de rastrear y evaluar |
 | **Legitimidad de la reivindicación** | Independientemente del debate sobre continuidad, la reivindicación identitaria es considerada por muchos un derecho fundamental de las comunidades |
 
----
-
 ## El caso de los guaraníes
 
 La herencia guaraní en Uruguay tiene una expresión más visible en algunos aspectos:
 - La **lengua guaraní** dejó una huella en la **toponimia** del territorio uruguayo y en el vocabulario del español rioplatense.
 - En la región fronteriza con Brasil (Rivera-Livramento) existe una presencia guaraní con cierta continuidad cultural y lingüística.
 - El guaraní como lengua sigue vivo en Paraguay (donde es lengua oficial) y en comunidades de Argentina y Brasil.
-
----
 
 ## Palabras clave
 

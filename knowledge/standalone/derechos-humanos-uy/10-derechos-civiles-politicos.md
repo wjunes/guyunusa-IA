@@ -1,3 +1,5 @@
+# Derechos civiles y políticos en Uruguay
+
 ## Resumen
 
 Uruguay tiene un sistema sólido de **derechos civiles y políticos**, respaldado por una tradición democrática de casi 90 años ininterrumpidos (con la excepción de la dictadura 1973-1985) y por un marco constitucional y legal robusto. Las **libertades de expresión, prensa, reunión y asociación** son amplias y están efectivamente garantizadas. El **sistema electoral** es reconocido como uno de los más confiables y transparentes de América Latina. El **Poder Judicial** opera con independencia. Uruguay obtiene sistemáticamente las puntuaciones más altas de la región en índices de libertades civiles y derechos políticos (Freedom House, V-Dem, Varieties of Democracy). Los principales desafíos persisten en el **acceso a la justicia** para sectores vulnerables y en la **detención preventiva** en el sistema carcelario.

@@ -4,8 +4,6 @@
 
 Esta cronología registra los principales hitos de la formación del territorio, la exploración, la delimitación de fronteras, la cartografía, la organización territorial y la gestión de los recursos naturales del actual Uruguay, desde el período precolonial hasta 2026.
 
----
-
 ## Período geológico y precolonial (antes de 1516)
 
 | Año / Período | Hito |
@@ -16,8 +14,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | ~2 Ma – 10.000 a.C. | Cuaternario: depósitos fluviales y costeros; megafauna pleistocena (mastodontes, gliptodontes, toxodontes, Smilodon). |
 | ~13.000–12.000 a.C. | Primeros humanos en el actual Uruguay (sitio Arroyo del Vizcaíno, Sauce, Canelones; Fariña et al.). |
 | ~4.000 a.C. | Construcción de los primeros **cerritos de indios** (montículos artificiales) en el este del Uruguay. |
-
----
 
 ## Exploración y conquista europea (1516–1700)
 
@@ -31,8 +27,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **1624–1706** | Fundación de las Misiones Jesuíticas del Uruguay en el norte (actuales Rio Grande do Sul, Brasil); influencia en la región fronteriza. |
 | **1680** | Portugal funda **Colonia del Sacramento** (20/01/1680): primera ciudad permanente en la Banda Oriental; disputa hispano-portuguesa por el territorio. |
 
----
-
 ## Período colonial tardío (1700–1810)
 
 | Año | Hito |
@@ -42,8 +36,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **1777** | **Tratado de San Ildefonso** (España-Portugal): nueva delimitación; comisiones mixtas de demarcación. Crear la franja fronteriza norte reconocida hasta la independencia. |
 | **1783** | Félix de Azara y Juan Francisco de Oyarvide inician la **exploración y cartografía sistemática** de la Banda Oriental; primeras mediciones geodésicas de la región. |
 | **1807** | Las invasiones inglesas al Río de la Plata (1806–07) producen cartografía inglesa del área. |
-
----
 
 ## Independencia y formación del Estado (1810–1880)
 
@@ -59,8 +51,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **1878–1882** | **Comisión Demarcadora de Límites con Brasil**: trabajos en terreno para demarcación definitiva de la frontera norte. |
 | **1884** | Creación del **Servicio Geográfico Militar** (antecedente del IGM). |
 
----
-
 ## Modernización territorial (1880–1945)
 
 | Año | Hito |
@@ -71,8 +61,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **1930** | Uruguay organiza el **primer Mundial de Fútbol** (Montevideo, Estadio Centenario): hito para la infraestructura capitalina. |
 | **1938–1945** | Construcción de la **Represa Rincón del Bonete** (inaugurada 1945): primera gran obra hidroeléctrica del Uruguay; mayor embalse artificial del país (~783 km² de espejo de agua [VERIFICAR, incluye El Palmar]). |
 | **1945** | Inauguración de la **Represa Gabriel Terra** (Rincón del Bonete, Río Negro): ~160 MW; primera gran represa de Uruguay. |
-
----
 
 ## Uruguay moderno (1945–2000)
 
@@ -89,8 +77,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **1991** | Uruguay integra el **MERCOSUR** (Tratado de Asunción): impacto en la infraestructura y el comercio regional. |
 | **1995** | El **Barrio Histórico de Colonia del Sacramento** es declarado **Patrimonio de la Humanidad UNESCO** (diciembre 1995). |
 | **1998** | **Ley 17.033**: define las líneas de base del mar territorial uruguayo y la ZEE. |
-
----
 
 ## Siglo XXI (2000–2026)
 
@@ -112,8 +98,6 @@ Esta cronología registra los principales hitos de la formación del territorio,
 | **2020** | Creación del **Ministerio de Ambiente** (separado del MVOT): reorganización institucional ambiental. |
 | **2022** | Inauguración de **UPM 2** en Paso de los Toros (Durazno): ~2,1 Mt/año; mayor inversión extranjera directa de la historia uruguaya (~USD 3.000 millones). Rehabilitación del **Ferrocarril Central** (273 km; Montevideo–Paso de los Toros). |
 | **2023** | **Crisis hídrica**: sequía extrema (2022–2023); el Embalse Paso Severino alcanza mínimos históricos (junio 2023); crisis en el abastecimiento de agua potable de Montevideo. |
-
----
 
 ## Palabras clave
 

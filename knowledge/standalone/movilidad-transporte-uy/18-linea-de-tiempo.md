@@ -4,8 +4,6 @@
 
 Esta cronología registra los hitos principales de la historia del transporte y la movilidad en Uruguay, desde el período colonial hasta la segunda década del siglo XXI. El objetivo es ofrecer una referencia ordenada para la contextualización histórica de los desarrollos institucionales, de infraestructura y tecnológicos del sector.
 
----
-
 ## Período colonial y primeras décadas de vida independiente (siglos XVII–1869)
 
 | Año / Período | Hito |
@@ -17,8 +15,6 @@ Esta cronología registra los hitos principales de la historia del transporte y 
 | 1836 | Primera empresa de diligencias regulares Montevideo–interior |
 | 1852 | Iniciativas de navegación a vapor en el Río de la Plata y el Río Uruguay |
 | 1868 | Inauguración del primer tranvía de tracción animal en Montevideo |
-
----
 
 ## La era ferroviaria (1869–1948)
 
@@ -40,8 +36,6 @@ Esta cronología registra los hitos principales de la historia del transporte y 
 | 1938 | Primer vuelo regular internacional de PLUNA (Montevideo–Porto Alegre) |
 | 1948 | Nacionalización de los ferrocarriles (adquisición de las líneas de las empresas británicas por el Estado) |
 
----
-
 ## Mediados del siglo XX: nacionalización y transición modal (1948–1980)
 
 | Año | Hito |
@@ -57,8 +51,6 @@ Esta cronología registra los hitos principales de la historia del transporte y 
 | 1976 | Inauguración del Puente Internacional General San Martín (Fray Bentos–Puerto Unzué, Argentina) |
 | 1979 | Inauguración de la Represa de Salto Grande (binacional Uruguay–Argentina) |
 
----
-
 ## Reforma y modernización (1980–2009)
 
 | Año | Hito |
@@ -70,8 +62,6 @@ Esta cronología registra los hitos principales de la historia del transporte y 
 | 2007 | Promulgación de la Ley 18.191 de Tránsito y Seguridad Vial |
 | 2007 | Decreto 354/009: incentivos fiscales para vehículos eléctricos (inicio política electromovilidad) |
 | 2009 | Inauguración de la nueva terminal del Aeropuerto Internacional de Carrasco (diseño Rafael Viñoly) |
-
----
 
 ## Siglo XXI: integración, sostenibilidad y renovación (2009–presente)
 
@@ -89,8 +79,6 @@ Esta cronología registra los hitos principales de la historia del transporte y 
 | 2021–2022 | Obras del Ferrocarril Central (Paso de los Toros–Montevideo) |
 | 2023 | Inauguración del Ferrocarril Central: mayor inversión en infraestructura ferroviaria de la historia de Uruguay (~270 km, >USD 1.000 millones) |
 | 2023 | Incorporación progresiva de ómnibus eléctricos a la flota del STM de Montevideo |
-
----
 
 ## Palabras clave
 

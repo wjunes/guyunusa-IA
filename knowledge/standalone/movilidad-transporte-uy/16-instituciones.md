@@ -4,8 +4,6 @@
 
 El sistema de transporte de Uruguay involucra una estructura institucional compleja, con organismos de distinto nivel jerárquico y diferentes competencias: ministerios, entes autónomos, servicios descentralizados, organismos especializados e intendencias departamentales. Este archivo describe las instituciones principales que regulan, planifican y operan el sistema de movilidad y transporte nacional.
 
----
-
 ## Ministerio de Transporte y Obras Públicas (MTOP)
 
 ### Historia y naturaleza
@@ -38,8 +36,6 @@ MTOP
 
 El MTOP tiene su sede en **Rincón 561, Montevideo**.
 
----
-
 ## Dirección Nacional de Transporte (DNT)
 
 La **DNT** es la dependencia del MTOP responsable de:
@@ -50,8 +46,6 @@ La **DNT** es la dependencia del MTOP responsable de:
 - Control técnico de vehículos de transporte público
 - Estadísticas del sector transporte terrestre
 
----
-
 ## Dirección Nacional de Vialidad (DNV)
 
 La **DNV** es la dependencia del MTOP responsable de:
@@ -61,8 +55,6 @@ La **DNV** es la dependencia del MTOP responsable de:
 - Gestión de contratos de mantenimiento vial por niveles de servicio (PBC)
 - Gestión de puentes y viaductos en la red nacional
 - Levantamiento del estado de la red vial
-
----
 
 ## Unidad Nacional de Seguridad Vial (UNASEV)
 
@@ -78,8 +70,6 @@ La **UNASEV** fue creada por la **Ley 18.113** del 16 de abril de 2007. Es un or
 - Diseño y coordinación de campañas de educación y prevención
 - Elaboración de estadísticas de siniestros viales
 - Relaciones con organismos internacionales (OMS, OPS, OEA) en seguridad vial
-
----
 
 ## Administración de Ferrocarriles del Estado (AFE)
 
@@ -107,8 +97,6 @@ La **UNASEV** fue creada por la **Ley 18.113** del 16 de abril de 2007. Es un or
 
 AFE tiene su sede en la **Estación Central General Artigas, La Paz 1095, Montevideo**.
 
----
-
 ## Administración Nacional de Puertos (ANP)
 
 ### Historia y naturaleza
@@ -131,8 +119,6 @@ Los principales puertos bajo administración de la ANP son: Montevideo, Nueva Pa
 
 La ANP tiene su sede en Montevideo.
 
----
-
 ## Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica (DINACIA)
 
 ### Historia y naturaleza
@@ -153,8 +139,6 @@ La **DINACIA** es un servicio del **Ministerio de Defensa Nacional (MDN)**. Regu
 
 DINACIA administra los aeropuertos nacionales y aeródromos del interior. El Aeropuerto Internacional de Carrasco opera bajo concesión privada (Puerta del Sur S.A.), con supervisión de DINACIA.
 
----
-
 ## Prefectura Nacional Naval (PNN)
 
 La **Prefectura Nacional Naval** es un organismo del **Ministerio de Defensa Nacional** con competencias de policía marítima y fluvial. Sus funciones incluyen:
@@ -163,8 +147,6 @@ La **Prefectura Nacional Naval** es un organismo del **Ministerio de Defensa Nac
 - Control de seguridad náutica en aguas uruguayas
 - Fiscalización del transporte acuático
 - Control fronterizo en pasos fluviales
-
----
 
 ## Intendencias Departamentales
 
@@ -179,13 +161,9 @@ Las **19 intendencias departamentales** de Uruguay tienen competencia sobre el t
 
 La **Intendencia de Montevideo (IM)** tiene especial relevancia por el tamaño de su sistema de transporte urbano y su co-gestión del STM.
 
----
-
 ## Sistema de Transporte Metropolitano (STM)
 
 El **STM** no es un ente público autónomo sino un sistema de coordinación y regulación del transporte colectivo de Montevideo, establecido por el Decreto 102/010 (2010). Opera mediante contratos de concesión con empresas privadas, bajo la supervisión conjunta de la Intendencia de Montevideo y el MTOP.
-
----
 
 ## Organigrama del sistema institucional de transporte
 
@@ -208,8 +186,6 @@ Entes Autónomos
 Gobierno Departamental
 └── 19 Intendencias (transporte urbano y caminos departamentales)
 ```
-
----
 
 ## Palabras clave
 

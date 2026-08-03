@@ -1,3 +1,5 @@
+# La Ley de Caducidad y su debate en Uruguay
+
 ## Resumen
 
 La **Ley 15.848 de Caducidad de la Pretensión Punitiva del Estado** (1986) fue el principal obstáculo para el juzgamiento de los crímenes cometidos durante la dictadura uruguaya (1973-1985). Aprobada por el Parlamento en diciembre de 1986 durante el gobierno de Julio María Sanguinetti, estableció que el Estado "caducaba" su potestad punitiva respecto de los militares y policías que hubieran cometido delitos en el período dictatorial. En la práctica, fue una **amnistía encubierta**. Fue refrendada en el **referéndum de 1989** (57% a favor de mantenerla) y en el **plebiscito de 2009** (47,4% por su derogación — insuficiente). La **Suprema Corte de Justicia** la declaró inconstitucional en sucesivos fallos, y la **Ley 18.831** (2011) restableció la pretensión punitiva del Estado. La **Corte IDH**, en el caso **Gelman vs. Uruguay** (2011), declaró que la ley era incompatible con la Convención Americana de DDHH.

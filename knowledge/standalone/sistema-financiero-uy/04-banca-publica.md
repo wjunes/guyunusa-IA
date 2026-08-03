@@ -6,8 +6,6 @@ Uruguay tiene una tradición histórica de banca pública fuerte. Tres grandes i
 
 La banca pública uruguaya no persigue rentabilidad como objetivo primario, sino la prestación de servicios financieros con fines sociales y de desarrollo. Esta orientación le ha valido históricamente tanto defensas (acceso al crédito en crisis) como críticas (ineficiencia y cobertura de pérdidas con recursos del Estado).
 
----
-
 ## Banco de la República Oriental del Uruguay (BROU)
 
 ### Fundación e historia
@@ -36,8 +34,6 @@ El BROU es la mayor institución bancaria de Uruguay por activos, depósitos y c
 
 Sitio institucional: https://www.brou.com.uy/
 
----
-
 ## Banco Hipotecario del Uruguay (BHU)
 
 ### Fundación e historia
@@ -55,8 +51,6 @@ Tras la reestructura, el BHU redujo drásticamente su cartera y se especializó 
 El BHU opera en coordinación con el Ministerio de Vivienda y Ordenamiento Territorial (MVOT) y el Fondo Nacional de Vivienda, aunque son instituciones distintas.
 
 Sitio institucional: https://www.bhu.com.uy/
-
----
 
 ## Banco de Seguros del Estado (BSE)
 
@@ -78,8 +72,6 @@ El BSE actúa como asegurador del Estado (patrimonios públicos) y es el agente 
 
 Sitio institucional: https://www.bse.com.uy/
 
----
-
 ## Corporación Nacional para el Desarrollo (CND)
 
 ### Creación y misión
@@ -98,8 +90,6 @@ La CND fue creada por la Ley 15.785 del 4 de diciembre de 1985. Es una persona j
 La CND no capta depósitos del público; opera con recursos propios, préstamos del Estado y fondos multilaterales (BID, BM, CAF).
 
 Sitio institucional: https://www.cnd.org.uy/
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Inteligencia artificial: conceptos y aplicaciones
+
 ## Resumen
 
 La **Inteligencia Artificial (IA)** es el campo de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana: reconocer imágenes, entender lenguaje natural, tomar decisiones, aprender de la experiencia. En Uruguay, la IA es un área emergente con aplicaciones en educación (Plan Ceibal PAM), salud, agro, finanzas y gobierno. Uruguay tiene una posición estratégica de adopción activa con marco ético, alineada con los estándares de UNESCO y OCDE.

@@ -4,8 +4,6 @@
 
 El **primer contacto documentado** entre europeos y los pueblos originarios del actual Uruguay ocurrió en **1516**, con la expedición de **Juan Díaz de Solís**, navegante español de origen portugués al servicio de la Corona de Castilla. A partir de ese momento, la historia de los pueblos indígenas del territorio quedó irremediablemente ligada a la expansión colonial europea, con consecuencias devastadoras para sus poblaciones, culturas y territorios.
 
----
-
 ## Cronología del contacto europeo con el actual territorio uruguayo
 
 | Año | Evento | Detalles |
@@ -20,8 +18,6 @@ El **primer contacto documentado** entre europeos y los pueblos originarios del 
 | **1580** | Segunda fundación de Buenos Aires por Juan de Garay | La fundación definitiva de Buenos Aires comienza la articulación colonial del Río de la Plata |
 | **1603–1607** | Expedición de Hernando Arias de Saavedra ("Hernandarias") | Primera incursión profunda en el territorio de la Banda Oriental; contacto directo con grupos charrúas |
 | **1611** | Introducción de ganado vacuno y caballar en la Banda Oriental | Por decisión de Hernandarias; transformación fundamental del ecosistema y de la economía indígena |
-
----
 
 ## La muerte de Juan Díaz de Solís (1516)
 
@@ -41,8 +37,6 @@ Según las crónicas, Solís y un pequeño grupo de sus hombres desembarcaron en
 
 Lo cierto es que el episodio estableció desde el principio una **imagen de los indígenas de la región como hostiles**, imagen que influyó en las expediciones posteriores y en la política colonial.
 
----
-
 ## La introducción del ganado (1611) y sus consecuencias
 
 En **1611**, el gobernador **Hernando Arias de Saavedra (Hernandarias)** introdujo **100 vacas y caballos** [VERIFICAR número exacto] en el territorio de la Banda Oriental para que se reprodujeran libremente. Esta decisión tuvo consecuencias profundas e irreversibles:
@@ -57,8 +51,6 @@ En **1611**, el gobernador **Hernando Arias de Saavedra (Hernandarias)** introdu
 - Los charrúas "ecuestes" del siglo XVII y XVIII eran grupos muy diferentes a los charrúas del siglo XVI.
 - La aparición del cuero como recurso abundante generó también un interés colonial que transformó las relaciones con los indígenas.
 
----
-
 ## Los primeros cronistas europeos
 
 Los cronistas europeos que describieron a los pueblos indígenas del actual Uruguay en los siglos XVI y XVII son fuentes fundamentales, aunque deben leerse con conciencia de sus limitaciones (perspectiva etnocéntrica, comprensión limitada de las lenguas locales, propósitos coloniales):
@@ -70,8 +62,6 @@ Los cronistas europeos que describieron a los pueblos indígenas del actual Urug
 | **Pero Lopes de Sousa** | 1531–1532; *Diário de Navegação* | Descripción de grupos de la costa oriental |
 | **Ruy Díaz de Guzmán** | ~1612; *La Argentina* | Historia narrativa con referencias a grupos indígenas del Río de la Plata, incluyendo el actual Uruguay |
 | **Padre Francisco Jarque** | Siglo XVII | Documentos jesuíticos sobre grupos indígenas |
-
----
 
 ## Alianzas y conflictos durante el período colonial
 
@@ -90,16 +80,12 @@ En algunos momentos y contextos, los grupos indígenas buscaron alianzas con eur
 - Alianzas de grupos charrúas con los **portugueses** en algunas coyunturas del conflicto hispano-portugués por la Banda Oriental.
 - Algunos caciques charrúas participaron como aliados en las guerras civiles del período de la independencia.
 
----
-
 ## Epidemias
 
 Las epidemias introducidas por los europeos (principalmente **viruela, sarampión y otras enfermedades**) fueron devastadoras para las poblaciones indígenas del Uruguay:
 - Los grupos indígenas no tenían inmunidad previa frente a estas enfermedades.
 - Se estima que las epidemias redujeron drásticamente las poblaciones indígenas del Uruguay en los siglos XVI, XVII y XVIII, aunque los datos precisos son difíciles de obtener.
 - Las epidemias debilitaron la capacidad de resistencia de los grupos indígenas.
-
----
 
 ## Impacto del contacto europeo en la estructura étnica
 
@@ -109,8 +95,6 @@ El contacto europeo produjo transformaciones profundas en la estructura étnica 
 - **Mestizaje** con la población colonial (española, portuguesa, africana).
 - **Transformación cultural:** adopción del caballo, el ganado, nuevos materiales y herramientas.
 - **Erosión de las identidades étnicas diferenciadas**.
-
----
 
 ## Palabras clave
 

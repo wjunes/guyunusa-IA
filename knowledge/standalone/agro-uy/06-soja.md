@@ -4,8 +4,6 @@
 
 La **soja** (*Glycine max*) es el cultivo agrícola de secano que más impacto tuvo en el paisaje agropecuario uruguayo en las primeras dos décadas del siglo XXI. Su expansión desde principios de los años 2000 hasta mediados de la segunda década constituyó una revolución productiva sin precedentes, transformando el uso de la tierra, la estructura productiva y las exportaciones del país.
 
----
-
 ## Historia de la soja en Uruguay
 
 | Período | Hito |
@@ -18,8 +16,6 @@ La **soja** (*Glycine max*) es el cultivo agrícola de secano que más impacto t
 | 2015–2020 | Caída de precios internacionales; retroceso parcial; debates sobre erosión y concentración de tierra |
 | 2020–2023 | Recuperación de precios; estabilización en torno a 700.000–900.000 ha; mayor énfasis en rotaciones |
 
----
-
 ## Zonas productoras
 
 | Zona | Departamentos | Características |
@@ -28,8 +24,6 @@ La **soja** (*Glycine max*) es el cultivo agrícola de secano que más impacto t
 | Centro | Rivera, Tacuarembó, Durazno, Flores, Florida | Expansión más reciente |
 | Sur-oeste | Soriano, Colonia, San José | Zonas con tradición cerealera que incorporaron soja |
 | Centro-norte | Cerro Largo, Rivera | Expansión sobre zonas antes ganaderas |
-
----
 
 ## Sistema de producción
 
@@ -40,8 +34,6 @@ La soja uruguaya se produce prácticamente en su totalidad bajo **siembra direct
 3. **Fertilización:** soja fija nitrógeno atmosférico mediante simbiosis con *Bradyrhizobium japonicum* (inoculación con rizobios); fósforo como principal nutriente limitante en Uruguay.
 4. **Control de malezas:** glifosato (herbicida total + cultivo resistente) fue la base del manejo; aparición de malezas resistentes al glifosato (yuyo colorado *Amaranthus hybridus*, entre otras) obliga a estrategias de manejo integrado.
 5. **Cosecha:** marzo–abril; rendimientos de 2.000–3.500 kg/ha según año, variedad y ambiente.
-
----
 
 ## Indicadores productivos
 
@@ -56,8 +48,6 @@ La soja uruguaya se produce prácticamente en su totalidad bajo **siembra direct
 
 *Fuente: DIEA-MGAP / BCU*
 
----
-
 ## Mercados de exportación
 
 | Destino | Producto exportado |
@@ -65,8 +55,6 @@ La soja uruguaya se produce prácticamente en su totalidad bajo **siembra direct
 | China | Principal destino de soja en grano |
 | Argentina (transbordo) | Parte del flujo de granos transita por puertos argentinos |
 | UE y otros | Pellets de soja (expeller) |
-
----
 
 ## Impactos y debates
 
@@ -86,8 +74,6 @@ La soja uruguaya se produce prácticamente en su totalidad bajo **siembra direct
 ### Regulación
 - **Plan de Uso y Manejo Responsable de Suelos** (Decreto 405/008, Decreto 007/013): los productores deben presentar planes de manejo de suelos certificados por ingenieros agrónomos; objetivo de mantener pérdida de suelo por erosión dentro de tolerancias.
 - **Impuesto a la concentración de inmuebles rurales (ICIR):** impuesto aprobado para frenar la concentración de tierras [VERIFICAR si continúa vigente].
-
----
 
 ## Palabras clave
 

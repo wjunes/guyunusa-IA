@@ -1,7 +1,5 @@
 # Preguntas Frecuentes — Oceanografía del Uruguay
 
----
-
 ## Geografía y espacios marítimos
 
 **¿Cuánto mide la costa de Uruguay?**
@@ -15,8 +13,6 @@ El límite marítimo entre Uruguay y Argentina en el Río de la Plata y su frent
 
 **¿Uruguay tiene plataforma continental extendida?**
 Sí. Uruguay —junto con Argentina— presentó en 2008 una solicitud conjunta a la **Comisión de Límites de la Plataforma Continental (CLCS) de la ONU** para extender los derechos soberanos sobre la plataforma continental más allá de las 200 millas náuticas, conforme al Artículo 76 de la UNCLOS.
-
----
 
 ## Oceanografía
 
@@ -35,8 +31,6 @@ Las mareas en Uruguay son de tipo **semidiurno** (dos pleamares y dos bajamares 
 **¿Qué es la Sudestada?**
 La **Sudestada** es un fenómeno meteorológico frecuente en el Río de la Plata y la costa atlántica uruguaya, caracterizado por vientos persistentes del sur-sureste que generan un apilamiento de agua sobre la costa (storm surge o marea de tormenta). Puede elevar el nivel del mar hasta 2–3 m, causando inundaciones en zonas bajas de Montevideo y de la costa bonaerense. Ocurre principalmente en otoño e invierno.
 
----
-
 ## Biodiversidad marina
 
 **¿Qué mamíferos marinos hay en Uruguay?**
@@ -51,8 +45,6 @@ La confluencia de las Corrientes del Brasil y de Malvinas genera una mezcla de a
 **¿Cuál es el pez más importante para la pesca uruguaya?**
 La **merluza común (*Merluccius hubbsi*)** es históricamente el recurso pesquero más importante de la pesca industrial uruguaya, tanto en volumen de captura como en valor económico. También son muy relevantes la corvina rubia (*Micropogonias furnieri*), el calamar patagónico (*Illex argentinus*) y la anchoa (*Engraulis anchoita*).
 
----
-
 ## Instituciones e investigación
 
 **¿Qué es el SOHMA?**
@@ -64,8 +56,6 @@ La **Dirección Nacional de Recursos Acuáticos (DINARA)** es el organismo del M
 **¿Qué fue la Misión Uruguay SUB 200?**
 La **Misión Uruguay SUB 200** fue la mayor expedición oceanográfica de exploración de aguas profundas realizada por Uruguay, ejecutada entre 2016 y 2022. Utilizando un **ROV** (vehículo submarino no tripulado), exploró el Cañón del Plata y otras zonas del talud continental y cuencas profundas de la ZEE uruguaya, alcanzando más de 2.000 m de profundidad. Documentó por primera vez la biodiversidad de las aguas profundas de Uruguay, incluyendo corales de aguas frías, esponjas, peces y otros organismos nunca antes registrados en esas aguas.
 
----
-
 ## Uruguay y la Antártida
 
 **¿Uruguay tiene presencia en la Antártida?**
@@ -73,8 +63,6 @@ Sí. Uruguay mantiene la **Base Científica Antártica Artigas (BCAA)** en la Is
 
 **¿Para qué le sirve la Antártida a Uruguay?**
 La presencia en la Antártida le otorga a Uruguay la condición de **Parte Consultiva del Tratado Antártico** (desde 1985), con derecho a voz y voto en la gobernanza del continente. También permite a Uruguay participar en la gestión de los recursos del Océano Austral (CCAMLR) y en la investigación científica de un continente clave para el clima global.
-
----
 
 ## Conservación y cambio climático
 
@@ -86,8 +74,6 @@ El cambio climático está calentando las aguas del Atlántico Sudoccidental, lo
 
 **¿Por qué la franciscana está amenazada?**
 La **franciscana (*Pontoporia blainvillei*)** es vulnerable principalmente por la **captura incidental** en redes de enmalle de la pesca artesanal e industrial en el Río de la Plata y la costa uruguaya. Esta pequeña especie, endémica del Atlántico Sudoccidental, muere enredada en las redes al no poder escapar ni detectar los obstáculos con su sonar.
-
----
 
 ## Palabras clave
 

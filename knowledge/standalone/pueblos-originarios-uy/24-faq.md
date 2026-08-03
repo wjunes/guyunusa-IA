@@ -4,8 +4,6 @@
 
 Respuestas a las preguntas más frecuentes sobre los pueblos originarios del actual Uruguay, organizadas por áreas temáticas. Cada respuesta está diseñada para ser autocontenida y útil para estudiantes, docentes, periodistas y público general.
 
----
-
 ## Sobre los pueblos originarios en general
 
 **¿Qué pueblos indígenas habitaron el actual Uruguay antes de la llegada de los europeos?**
@@ -23,8 +21,6 @@ Esta es una pregunta de debate arqueológico. La investigación actual sugiere q
 **¿Los charrúas eran violentos o belicosos por naturaleza?**
 La imagen de los charrúas como "salvajes guerreros" fue construida en buena medida por los cronistas coloniales y luego por el discurso nacionalista del siglo XIX para justificar su eliminación. Los charrúas eran efectivamente cazadores-recolectores que resistieron militarmente la conquista colonial y los intentos de reducirlos. Su resistencia fue una respuesta racional a la invasión de su territorio. Como todos los grupos humanos, tenían sistemas normativos, relaciones de cooperación y una vida social compleja.
 
----
-
 ## Sobre los charrúas específicamente
 
 **¿Cómo era la vida de los charrúas?**
@@ -36,8 +32,6 @@ Probablemente en la **segunda mitad del siglo XVII**, tras la introducción de g
 **¿Qué lengua hablaban los charrúas?**
 Los charrúas hablaban una lengua **aislada**, no emparentada demostrativamente con ninguna otra familia lingüística conocida. Está prácticamente extinta: se conservan solo unas **100 a 200 palabras**, principalmente a partir de lo registrado por el lingüista **Alcide d'Orbigny** con los cuatro charrúas llevados a París en 1833, y de algunos vocabularios coloniales. La investigadora **Ana Mourelle de Lema** de la Academia Nacional de Letras publicó el estudio más exhaustivo disponible sobre la lengua charrúa.
 
----
-
 ## Sobre el contacto con los europeos y el período colonial
 
 **¿Cómo murió Juan Díaz de Solís y qué tiene que ver con los charrúas?**
@@ -48,8 +42,6 @@ Las **misiones jesuíticas** (o reducciones) fueron asentamientos organizados po
 
 **¿Qué fue la Guerra Guaranítica?**
 La **Guerra Guaranítica (1754–1756)** fue la resistencia armada de los guaraníes de los Siete Pueblos contra el **Tratado de Madrid (1750)**, que cedía sus territorios a Portugal y les obligaba a abandonar sus tierras. Las milicias guaraníes, bien organizadas gracias a años de entrenamiento para resistir a los bandeirantes, enfrentaron militarmente a las fuerzas combinadas de España y Portugal. Fueron derrotadas. El episodio fue inspiración para películas como *La Misión* (1986).
-
----
 
 ## Sobre Salsipuedes
 
@@ -65,8 +57,6 @@ Los restos de Vaimaca Pirú fueron conservados durante más de 150 años en el *
 **¿Es Salsipuedes considerado un genocidio?**
 El debate sobre la calificación de Salsipuedes como **genocidio o etnocidio** es activo. Las organizaciones de descendientes charrúas, como **CONACHA** y **ADENCH**, lo califican como genocidio. Algunos historiadores prefieren los términos "etnocidio" o "eliminación étnica programada". Desde el punto de vista jurídico, la aplicación del concepto de genocidio (definido en la Convención de la ONU de 1948) a hechos anteriores a esa convención es objeto de debate entre especialistas en derecho internacional.
 
----
-
 ## Sobre los descendientes y la identidad indígena hoy
 
 **¿Hay charrúas en el Uruguay actual?**
@@ -78,8 +68,6 @@ Las principales organizaciones son el **CONACHA (Consejo de la Nación Charrúa)
 **¿Qué dice la ley sobre los pueblos indígenas en Uruguay?**
 Uruguay **no ha ratificado** el **Convenio 169 de la OIT** sobre pueblos indígenas, a diferencia de la mayoría de los países latinoamericanos. En 2009, el Parlamento declaró el **11 de abril como Día de la Nación Charrúa y de la Identidad Indígena**. En el **Censo 2011**, por primera vez se incluyó una pregunta sobre ascendencia indígena.
 
----
-
 ## Sobre la herencia cultural
 
 **¿De dónde viene la mayoría de los nombres de ríos, arroyos y lugares del Uruguay?**
@@ -90,8 +78,6 @@ El **ombú** (*Phytolacca dioica*) es un árbol emblemático de la llanura pampe
 
 **¿El mate tiene origen indígena?**
 Sí. La **yerba mate** (*Ilex paraguariensis*) y la práctica de beberla fueron adoptadas por los europeos de los **guaraníes**, que la denominaban *ka'á* (yerba). El recipiente *mate* toma su nombre del **quechua** *mati* (calabaza o recipiente). La práctica de tomar mate es uno de los legados culturales indígenas más vivos en Uruguay, Argentina, Paraguay y sur de Brasil.
-
----
 
 ## Palabras clave
 

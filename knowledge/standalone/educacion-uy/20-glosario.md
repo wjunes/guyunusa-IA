@@ -4,8 +4,6 @@
 
 Este glosario define los términos técnicos, siglas e instituciones más frecuentes en el contexto del sistema educativo, cultural y científico de Uruguay. Está ordenado alfabéticamente.
 
----
-
 **AGN** — Archivo General de la Nación. Organismo del MEC que custodia el acervo documental histórico del Estado uruguayo desde la época colonial.
 
 **ANII** — Agencia Nacional de Investigación e Innovación. Organismo que financia la investigación científica y la innovación en Uruguay. Gestiona el SNII.

@@ -4,8 +4,6 @@
 
 El **desarrollo comunitario** es un proceso mediante el cual los miembros de una comunidad se organizan y actúan colectivamente para mejorar sus condiciones de vida, fortalecer los vínculos sociales, identificar y resolver problemas comunes, y ejercer sus derechos como ciudadanos. En el marco de las políticas sociales uruguayas, el desarrollo comunitario es un eje transversal que complementa las transferencias monetarias y los servicios sociales.
 
----
-
 ## El enfoque territorial del MIDES
 
 El MIDES adopta un **enfoque territorial** en sus políticas sociales: reconoce que las vulnerabilidades y las soluciones se expresan de manera diferente en cada territorio (barrio, localidad, zona rural), y que las intervenciones más eficaces son las que se diseñan e implementan en articulación con las comunidades y con los actores locales.
@@ -14,8 +12,6 @@ El MIDES adopta un **enfoque territorial** en sus políticas sociales: reconoce 
 - **Centros de referencia del MIDES**: puntos de contacto del MIDES en los barrios, donde los ciudadanos pueden acceder a información, asesoramiento y gestiones relacionadas con los programas sociales.
 - **Equipos territoriales**: trabajadores sociales, educadores y psicólogos que trabajan directamente en los barrios con familias y organizaciones.
 - **Articulación con las intendencias**: coordinación con los gobiernos departamentales para el diseño y la ejecución de acciones territoriales.
-
----
 
 ## Economía social y solidaria
 
@@ -35,8 +31,6 @@ El MIDES promueve microemprendimientos colectivos en los barrios, apoyando la or
 
 Las ferias sociales son espacios de comercialización de productos elaborados por emprendedores en situación de vulnerabilidad, articulados con el MIDES y las intendencias. Permiten el acceso al mercado a emprendedores que no podrían acceder de otra manera.
 
----
-
 ## Participación ciudadana y comunitaria
 
 ### Consejos Sociales
@@ -53,15 +47,11 @@ El **Registro Nacional de Organizaciones Sociales (RENOS)** del MIDES registra a
 
 Varias intendencias (en particular la Intendencia de Montevideo) implementan mecanismos de **presupuesto participativo** que permiten a los vecinos decidir sobre la asignación de recursos públicos en sus barrios.
 
----
-
 ## Voluntariado social
 
 El voluntariado es una práctica relevante en el tejido social uruguayo. El MIDES promueve el voluntariado a través de programas de articulación entre voluntarios y organizaciones sociales.
 
 La **Ley 17.885/2005** regula el voluntariado en Uruguay, estableciendo los derechos y deberes de los voluntarios y las organizaciones.
-
----
 
 ## Redes territoriales
 
@@ -69,13 +59,9 @@ El MIDES promueve la construcción de **redes territoriales** que articulan a lo
 
 Estas redes permiten la coordinación de las intervenciones, la identificación conjunta de situaciones de vulnerabilidad y la movilización de recursos locales.
 
----
-
 ## Casas Comunitarias y Centros de Convivencia
 
 El MIDES y las intendencias gestionan **Casas Comunitarias** y **Centros de Convivencia**, que son espacios físicos en los barrios donde se desarrollan actividades comunitarias, talleres, servicios de orientación y acceso a programas sociales.
-
----
 
 ## Palabras clave
 

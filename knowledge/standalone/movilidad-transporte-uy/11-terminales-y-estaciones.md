@@ -4,8 +4,6 @@
 
 Las terminales y estaciones son los nodos físicos donde se concentran los servicios de transporte, facilitando el embarque, desembarque y transbordo de pasajeros y cargas. Uruguay cuenta con infraestructuras de este tipo para todos los modos de transporte: ómnibus, ferroviario, aéreo, marítimo y fluvial.
 
----
-
 ## Terminales de ómnibus
 
 ### Terminal Tres Cruces (Montevideo)
@@ -43,8 +41,6 @@ Cada capital departamental y algunos centros de transporte importantes cuentan c
 | Mercedes | Soriano | Servicios nacionales |
 | Colonia del Sacramento | Colonia | Servicios nacionales; conexión con servicio fluvial a Buenos Aires |
 | Trinidad | Flores | Servicios nacionales |
-
----
 
 ## Estaciones ferroviarias
 
@@ -86,8 +82,6 @@ Numerosas estaciones ferroviarias del interior del país conservan su valor arqu
 | Colonia | Colonia | Sin servicio activo |
 | Peñarol | Montevideo | Histórica; zona industrial |
 
----
-
 ## Terminales portuarias y marítimas
 
 ### Puerto de Montevideo — Terminal de Pasajeros
@@ -105,8 +99,6 @@ La terminal de pasajeros cuenta con instalaciones para control migratorio (DNM),
 
 El muelle de pasajeros de Colonia del Sacramento es el punto de salida y llegada del servicio de ferri hacia Buenos Aires. Cuenta con instalaciones de embarque, control fronterizo y conectividad terrestre hacia el centro histórico de Colonia.
 
----
-
 ## Terminales aeroportuarias
 
 Las terminales aeroportuarias de Uruguay son administradas por la DINACIA o por concesionarios privados:
@@ -116,8 +108,6 @@ Las terminales aeroportuarias de Uruguay son administradas por la DINACIA o por 
 | Terminal Internacional de Carrasco | Aeropuerto Carrasco (MVD) | Puerta del Sur S.A. | Principal hub internacional |
 | Terminal de Laguna del Sauce | Aeropuerto Laguna del Sauce (PDP) | DINACIA / concesión | Internacional estacional y nacional |
 | Terminales de aeropuertos del interior | Salto, Rivera, Artigas, etc. | DINACIA | Vuelos nacionales |
-
----
 
 ## Intercambiadores urbanos en Montevideo
 
@@ -130,8 +120,6 @@ Los **intercambiadores** son nodos de transferencia entre líneas de ómnibus ur
 | Terminal Aguada | Centro norte | Líneas norte y acceso centro |
 | Terminal Colón | Noreste / Colón | Líneas zona noroeste |
 | Tres Cruces | Zona centro-este | Intercambiador urbano + terminal interdepartamental |
-
----
 
 ## Palabras clave
 

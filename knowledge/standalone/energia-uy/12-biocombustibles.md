@@ -4,8 +4,6 @@
 
 Los **biocombustibles** son combustibles líquidos producidos a partir de materia orgánica (biomasa) y utilizados principalmente en el sector transporte como sustitutos parciales de los combustibles fósiles. En Uruguay los biocombustibles más relevantes son el **biodiésel** (mezclado con gasoil) y el **bioetanol** (mezclado con naftas). Su desarrollo está impulsado por razones ambientales (reducción de emisiones de GEI), energéticas (reducción de importaciones de petróleo) y económicas (valor agregado a la producción agropecuaria).
 
----
-
 ## Marco legal
 
 | Instrumento | Descripción |
@@ -15,8 +13,6 @@ Los **biocombustibles** son combustibles líquidos producidos a partir de materi
 | **ANCAP** | Responsable de la mezcla y distribución de biocombustibles |
 | **MIEM/DNE** | Política sectorial y supervisión |
 | **URSEA** | Control de calidad de los biocombustibles mezclados |
-
----
 
 ## Biodiésel
 
@@ -43,8 +39,6 @@ La **Ley N.º 18.195** estableció la incorporación obligatoria de biodiésel e
 - Progresivamente aumentada: **5%** (B5) [VERIFICAR porcentaje vigente en 2024]
 
 Todo el gasoil vendido en Uruguay debe contener biodiésel en el porcentaje establecido, lo que representa un consumo obligatorio de miles de metros cúbicos de biodiésel anuales.
-
----
 
 ## Bioetanol
 
@@ -78,8 +72,6 @@ El **bioetanol** es alcohol etílico producido por fermentación de azúcares (c
 La **Ley N.º 18.195** establece la mezcla de bioetanol en naftas:
 - Actualmente: **5–10%** (E5 o E10) [VERIFICAR porcentaje vigente]
 
----
-
 ## Impacto del programa de biocombustibles
 
 ### Beneficios
@@ -95,8 +87,6 @@ La **Ley N.º 18.195** establece la mezcla de bioetanol en naftas:
 - **Balance de GEI:** la efectividad en reducción de GEI depende de las prácticas agrícolas (fertilizantes, deforestación)
 - **Costo:** en algunos períodos, el biodiésel es más caro que el gasoil fósil, lo que implica un subsidio implícito o explícito
 
----
-
 ## Indicadores (referencia 2022–2023)
 
 | Indicador | Valor aproximado | Fuente |
@@ -105,14 +95,10 @@ La **Ley N.º 18.195** establece la mezcla de bioetanol en naftas:
 | Producción de bioetanol (Ml/año) | [VERIFICAR] | ALUR/ANCAP |
 | Ahorro de divisas por sustitución de combustible fósil | [VERIFICAR] | ANCAP |
 
----
-
 ## Perspectivas
 
 - Uruguay evalúa el potencial de **combustibles de aviación sostenibles (SAF)** a partir de biomasa, en el marco de los compromisos de descarbonización del sector aéreo
 - El desarrollo del **hidrógeno verde** podría complementar o eventualmente desplazar algunos usos de los biocombustibles líquidos en el sector transporte pesado
-
----
 
 ## Palabras clave
 

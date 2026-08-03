@@ -4,15 +4,11 @@
 
 El **Ministerio de Economía y Finanzas (MEF)** tiene bajo su órbita o vinculación funcional a una serie de organismos especializados responsables de la administración tributaria, aduanera, financiera y de control del Estado. Este archivo describe cada uno de esos organismos con su historia, misión, competencias y funciones.
 
----
-
 ## Dirección General Impositiva (DGI)
 
 Ver archivo específico: `06-direccion-general-impositiva.md`
 
 **Síntesis**: Principal organismo de administración tributaria nacional. Recauda IVA, IRPF, IRAE, IASS, IMESI, Patrimonio y otros tributos. Administra el RUT y la factura electrónica. Dependiente del MEF.
-
----
 
 ## Dirección Nacional de Aduanas (DNA)
 
@@ -30,8 +26,6 @@ La **Dirección Nacional de Aduanas (DNA)** es uno de los organismos más antigu
 
 **Sitio oficial**: [https://www.aduanas.gub.uy](https://www.aduanas.gub.uy)
 
----
-
 ## Contaduría General de la Nación (CGN)
 
 ### Historia
@@ -46,8 +40,6 @@ La **Contaduría General de la Nación (CGN)** es el organismo responsable de la
 - Coordinar con el Tribunal de Cuentas el control previo de los gastos.
 - Emitir normativa de contabilidad pública.
 
----
-
 ## Tesorería General de la Nación (TGN)
 
 ### Historia y misión
@@ -60,8 +52,6 @@ La **Tesorería General de la Nación (TGN)** es el organismo responsable de la 
 - Gestionar los pagos a proveedores del Estado, sueldos de funcionarios y servicios de la deuda.
 - Coordinar con el BCU la gestión de la liquidez del sector público.
 - Publicar información sobre la situación de caja del Estado.
-
----
 
 ## Dirección Nacional de Catastro (DNC)
 
@@ -76,8 +66,6 @@ La **Dirección Nacional de Catastro (DNC)** del MEF tiene como función la dete
 - Proporcionar información a la DGI, las intendencias y los escribanos públicos.
 - Certificar el valor catastral para efectos tributarios y transacciones inmobiliarias.
 
----
-
 ## Auditoría Interna de la Nación (AIN)
 
 ### Misión
@@ -87,8 +75,6 @@ La **Auditoría Interna de la Nación (AIN)** es el organismo responsable del **
 ### Diferencia con el Tribunal de Cuentas
 
 El **Tribunal de Cuentas** es el organismo de control **externo** del Estado (constitucional), independiente del Poder Ejecutivo. La **AIN** es el organismo de control **interno**, dependiente del MEF.
-
----
 
 ## Dirección Nacional de Zonas Francas (DNZF)
 
@@ -103,19 +89,13 @@ La **DNZF** es el organismo del MEF responsable de la administración del régim
 - Control del movimiento de mercancías dentro de las zonas.
 - Coordinación con la DNA para las operaciones de exportación/importación.
 
----
-
 ## Dirección General de Casinos (DGC)
 
 La **Dirección General de Casinos (DGC)** administra los casinos del Estado uruguayo (Casino Carrasco, Casino del Hotel Radisson, Hotel del Lago — Punta del Este, entre otros). Los casinos estatales son una fuente de ingresos para el Estado.
 
----
-
 ## Dirección Nacional de Loterías y Quinielas (DNLQ)
 
 La **DNLQ** administra los juegos de lotería y quiniela del Estado uruguayo. La Lotería y la Quiniela son los juegos de azar autorizados más extendidos en el país y representan ingresos para el Estado y para las comisiones de los distribuidores.
-
----
 
 ## Unidad de Defensa del Consumidor (UDECO)
 
@@ -131,8 +111,6 @@ La **Unidad de Defensa del Consumidor (UDECO)**, anteriormente denominada **UCDI
 - Brindar información y educación al consumidor.
 - Coordinar con organismos de control sectorial.
 
----
-
 ## Resumen institucional del MEF
 
 | Organismo | Función principal |
@@ -147,8 +125,6 @@ La **Unidad de Defensa del Consumidor (UDECO)**, anteriormente denominada **UCDI
 | DGC | Casinos del Estado |
 | DNLQ | Loterías y quinielas |
 | UDECO | Defensa del consumidor |
-
----
 
 ## Palabras clave
 

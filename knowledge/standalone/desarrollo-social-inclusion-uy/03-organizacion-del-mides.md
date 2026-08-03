@@ -4,8 +4,6 @@
 
 El Ministerio de Desarrollo Social (MIDES) está organizado en una estructura jerárquica que incluye la conducción política (ministro/a y subsecretario/a), las Direcciones Nacionales con competencias sectoriales, las unidades ejecutoras de programas y los institutos especializados.
 
----
-
 ## Conducción política
 
 | Cargo | Función |
@@ -13,8 +11,6 @@ El Ministerio de Desarrollo Social (MIDES) está organizado en una estructura je
 | **Ministro/a de Desarrollo Social** | Máxima autoridad política; conduce la política social del Estado; integra el Consejo de Ministros |
 | **Subsecretario/a de Desarrollo Social** | Segunda autoridad; suplencia del ministro; supervisión de la gestión |
 | **Secretario/a General** | Coordinación administrativa interna |
-
----
 
 ## Direcciones Nacionales
 
@@ -54,8 +50,6 @@ La DINAPS administra las transferencias monetarias y los programas de protecció
 ### Dirección Nacional de Integración Social y Urbana (DINISU) / antes DINAVI
 
 Unidad que articula las políticas sociales con la dimensión habitacional y el ordenamiento territorial. Coordina con el Ministerio de Vivienda y Ordenamiento Territorial (MVOT) las intervenciones en asentamientos irregulares y zonas de vulnerabilidad urbana.
-
----
 
 ## Institutos especializados
 
@@ -97,13 +91,9 @@ Organismo del MIDES que coordina las políticas de seguridad alimentaria y nutri
 
 Ver archivo `14-seguridad-alimentaria.md` para detalle.
 
----
-
 ## Sistema Nacional Integrado de Cuidados (SNIC)
 
 La **Secretaría Nacional de Cuidados** (Junta Nacional de Cuidados) funciona bajo la coordinación del MIDES y articula el Sistema Nacional Integrado de Cuidados. Ver archivo `04-sistema-nacional-integrado-de-cuidados.md`.
-
----
 
 ## Programas transversales relevantes
 
@@ -118,8 +108,6 @@ Programa de atención a familias en situación de extrema vulnerabilidad, con ab
 ### APEX / Programa de Atención en Persona y Familia en Situación de Calle (PASC)
 
 Gestión de refugios nocturnos y diurnos para personas en situación de calle, con servicios de alojamiento, alimentación, higiene y acompañamiento social.
-
----
 
 ## Palabras clave
 

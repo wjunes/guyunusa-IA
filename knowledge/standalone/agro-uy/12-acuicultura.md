@@ -4,15 +4,11 @@
 
 La **acuicultura** en Uruguay es un sector en desarrollo, aún marginal en términos de producción comparada con los grandes rubros agropecuarios del país. Sin embargo, cuenta con un potencial relevante dada la disponibilidad de agua dulce (ríos, lagos y lagunas), la costa atlántica y del Río de la Plata, y la demanda creciente de productos acuícolas de calidad. El **MGAP** regula la actividad mediante la **Dirección General de Recursos Acuáticos (DINARA)**.
 
----
-
 ## Marco normativo
 
 - **Decreto-ley 14.343/1974:** regulación pesquera y acuícola de base.
 - **Ley 19.175/2014:** Ley General de Pesca y Acuicultura; reforma del marco regulatorio; establece condiciones para el desarrollo de la acuicultura.
 - **DINARA** (Dirección Nacional de Recursos Acuáticos): perteneciente al MGAP; competente en pesca continental y marítima, y en acuicultura.
-
----
 
 ## Especies cultivadas
 
@@ -41,8 +37,6 @@ La **acuicultura** en Uruguay es un sector en desarrollo, aún marginal en térm
 
 - Investigación incipiente en cultivo de algas marinas con fines cosméticos y alimentarios.
 
----
-
 ## Producción acuícola
 
 La producción acuícola nacional es muy limitada:
@@ -53,8 +47,6 @@ La producción acuícola nacional es muy limitada:
 | Número de establecimientos acuícolas habilitados | <100 [VERIFICAR] |
 | Principales rubros | Ostras, bagre de canal, pacú, mejillón |
 
----
-
 ## Pesca continental
 
 Aunque no es estrictamente acuicultura, la pesca continental (en ríos y lagunas) complementa la actividad acuática:
@@ -64,16 +56,12 @@ Aunque no es estrictamente acuicultura, la pesca continental (en ríos y lagunas
 - **Embalses del Río Negro** (Rincón del Bonete, Baygorria, Palmar): pejerrey, dorado, otras especies.
 - Pesca deportiva con importancia económica local en zonas de ríos (Salto Grande, Río Negro, Río Uruguay).
 
----
-
 ## Investigación y desarrollo
 
 - **DINARA** tiene un programa de acuicultura con foco en ostras, mejillones y peces de agua dulce.
 - **Facultad de Ciencias (UdelaR)** y **Facultad de Veterinaria** participan en investigaciones.
 - **INIA** apoya con investigaciones relacionadas (uso de agua en establecimientos agropecuarios).
 - Proyectos BID y FAO han financiado investigaciones y proyectos piloto en acuicultura.
-
----
 
 ## Desafíos y potencial
 
@@ -88,8 +76,6 @@ Aunque no es estrictamente acuicultura, la pesca continental (en ríos y lagunas
 - La laguna costera de **Garzón** (Maldonado) tiene condiciones favorables para ostras.
 - La demanda interna de productos del mar de calidad es creciente.
 - El turismo de pesca deportiva en el río Uruguay y embalses es una oportunidad de desarrollo regional.
-
----
 
 ## Palabras clave
 

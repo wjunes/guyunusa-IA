@@ -8,8 +8,6 @@ La SSF fue creada en su forma actual por la Ley 18.401 del 24 de octubre de 2008
 
 La unificación bajo la SSF buscó mejorar la visión sistémica del riesgo financiero, evitar el arbitraje regulatorio entre sectores y reducir costos administrativos.
 
----
-
 ## Funciones y atribuciones
 
 Las funciones principales de la SSF son:
@@ -35,8 +33,6 @@ Las funciones principales de la SSF son:
 
 **Central de riesgos crediticios**
 - Administrar la Central de Riesgos del BCU, que contiene el historial crediticio de personas físicas y jurídicas en el sistema financiero.
-
----
 
 ## Áreas sectoriales de la SSF
 
@@ -86,15 +82,11 @@ Las normas aplicables incluyen:
 - Comisiones máximas cobradas a los afiliados.
 - Información a los afiliados sobre sus saldos y rentabilidades.
 
----
-
 ## Central de Riesgos Crediticios
 
 La Central de Riesgos del BCU es un registro que centraliza información sobre el endeudamiento de personas físicas y jurídicas en el sistema financiero uruguayo. Las entidades supervisadas deben reportar mensualmente el endeudamiento de sus clientes (saldos, tipo de crédito, categoría de riesgo y estado).
 
 Las entidades financieras tienen acceso a esta información para evaluar el riesgo crediticio de potenciales clientes. Los particulares tienen derecho a acceder a su propia información en la Central de Riesgos y a solicitar la corrección de errores.
-
----
 
 ## Régimen de sanciones
 
@@ -108,13 +100,9 @@ La SSF puede imponer las siguientes sanciones ante el incumplimiento de la norma
 - **Intervención**: designación de un interventor oficial que asume la dirección de la entidad.
 - **Liquidación**: cierre definitivo y liquidación de activos para satisfacer a los acreedores.
 
----
-
 ## Sitio institucional
 
 https://www.bcu.gub.uy/Servicios-Financieros-SSF/
-
----
 
 ## Palabras clave
 

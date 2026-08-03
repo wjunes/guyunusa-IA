@@ -1,12 +1,8 @@
 # Expediciones Científicas Oceanográficas de Uruguay
 
----
-
 ## Introducción
 
 A lo largo del siglo XX y lo que va del siglo XXI, Uruguay ha participado en múltiples expediciones y cruceros oceanográficos en sus propias aguas y en el Océano Austral. Estas campañas han permitido conocer la biodiversidad marina, evaluar los recursos pesqueros, cartografiar el fondo marino y estudiar la dinámica oceánica de la plataforma continental y las aguas profundas. El hito más reciente y relevante es la **Misión Uruguay SUB 200** (detallada en el archivo 14).
-
----
 
 ## Antecedentes históricos
 
@@ -32,8 +28,6 @@ Durante el siglo XX, Uruguay desarrolló capacidades propias de investigación m
 | Campañas antárticas (desde 1984) | IAU / Armada / FAU | Océano Austral; Mar de Scotia | Oceanografía antártica; biología marina; meteorología |
 | Campaña IMECOCOA [VERIFICAR] | Internacional con participación uruguaya | Plataforma sudoccidental | Dinámica costera y pesquerías |
 
----
-
 ## Expediciones recientes
 
 ### Cruceros de evaluación pesquera (DINARA)
@@ -54,8 +48,6 @@ El IAU organiza campañas anuales al continente antártico durante el verano aus
 
 La expedición más significativa de la historia de la oceanografía uruguaya. Detallada en el archivo 14.
 
----
-
 ## Cooperación internacional en expediciones
 
 Uruguay ha participado en expediciones internacionales en las que equipos uruguayos colaboran con instituciones extranjeras:
@@ -67,8 +59,6 @@ Uruguay ha participado en expediciones internacionales en las que equipos urugua
 | CCAMLR surveys | CCAMLR (múltiples países) | Océano Austral | Datos de capturas y biología |
 | Campañas conjuntas con Argentina (INIDEP) | Argentina-Uruguay | Plataforma compartida | Evaluación de stocks compartidos (merluza, calamar) |
 | Campañas de biodiversidad profunda (IUCN, GBIF) | Internacional | Aguas profundas | Registros de fauna profunda en Misión SUB 200 |
-
----
 
 ## Tecnologías utilizadas en expediciones
 
@@ -85,8 +75,6 @@ Uruguay ha participado en expediciones internacionales en las que equipos urugua
 | ADCP (perfilador de corrientes) | Medición de corrientes en la columna de agua |
 | Grabación audiovisual submarina | ROV con cámaras HD (Misión SUB 200) |
 
----
-
 ## Impacto científico de las expediciones
 
 Las expediciones oceanográficas uruguayas han generado:
@@ -97,8 +85,6 @@ Las expediciones oceanográficas uruguayas han generado:
 - Primeros registros de fauna de aguas profundas en el Cañón del Plata y áreas adyacentes (Misión SUB 200).
 - Publicaciones científicas en revistas nacionales e internacionales.
 - Colecciones de especímenes depositados en el Museo Nacional de Historia Natural y otras instituciones.
-
----
 
 ## Palabras clave
 

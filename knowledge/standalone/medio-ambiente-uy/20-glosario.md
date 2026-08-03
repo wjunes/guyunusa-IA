@@ -2,8 +2,6 @@
 
 Términos técnicos y conceptos clave del ámbito ambiental en Uruguay.
 
----
-
 **Acuífero Guaraní**: Sistema acuífero transfronterizo compartido por Argentina, Brasil, Paraguay y Uruguay. Uno de los mayores reservorios de agua dulce subterránea del mundo. En Uruguay abarca parte de los departamentos del litoral y el norte.
 
 **Área de manejo de hábitat/especie**: Categoría del SNAP orientada a la gestión activa de hábitats o especies específicas, pudiendo incluir usos productivos compatibles.

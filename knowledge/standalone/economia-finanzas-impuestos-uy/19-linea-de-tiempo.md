@@ -4,8 +4,6 @@
 
 Esta cronología registra los hitos principales de la historia económica, fiscal e institucional del Uruguay, desde el período colonial hasta las reformas más recientes del siglo XXI.
 
----
-
 ## Período colonial y primeras décadas (siglos XVII–1870)
 
 | Año / Período | Hito |
@@ -16,8 +14,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 1836 | Primeras empresas de diligencias y correos interurbanos |
 | 1850s | Introducción masiva del ovino; la lana supera al cuero como principal exportación |
 | 1863 | Fondos de tierras y primeras políticas agrarias |
-
----
 
 ## El Estado moderno y el batllismo (1870–1930)
 
@@ -32,8 +28,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 1919 | Nueva Constitución; separación Iglesia-Estado |
 | 1929 | Quiebra de la Bolsa de Nueva York; inicio de la Gran Depresión que afecta las exportaciones uruguayas |
 
----
-
 ## Industrialización y welfare state (1930–1960)
 
 | Año | Hito |
@@ -45,8 +39,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 1952 | Creación de AFE (Administración de Ferrocarriles del Estado) tras la nacionalización |
 | 1954 | Creación de la ANP (Administración Nacional de Puertos) |
 | 1955 | Inicio del estancamiento uruguayo; caída de los términos de intercambio |
-
----
 
 ## Estancamiento y dictadura (1960–1984)
 
@@ -61,8 +53,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 1974–1979 | Apertura comercial y financiera; boom del sistema bancario offshore |
 | 1979–1982 | Tablita cambiaria: tipo de cambio fijo; endeudamiento en dólares |
 | Noviembre 1982 | Colapso de la tablita; devaluación del peso; crisis bancaria |
-
----
 
 ## Democracia y reformas (1985–2002)
 
@@ -80,8 +70,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 2003 | Reestructuración voluntaria de la deuda pública uruguaya |
 | 2003 | Ley 17.706: modernización de la DGI |
 
----
-
 ## Recuperación y consolidación (2003–2019)
 
 | Año | Hito |
@@ -98,8 +86,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 2014–2015 | Uruguay alcanza niveles mínimos históricos de pobreza (~8%) y desempleo |
 | 2018–2019 | Desaceleración económica; recesión de Argentina; tensiones fiscales |
 
----
-
 ## Período reciente (2020–2023)
 
 | Año | Hito |
@@ -110,8 +96,6 @@ Esta cronología registra los hitos principales de la historia económica, fisca
 | 2022 | Inicio del proceso formal de adhesión de Uruguay a la OCDE |
 | 2023 | Inauguración del Ferrocarril Central (logística UPM2–Puerto Montevideo) |
 | 2023 | Ley de Reforma de la Seguridad Social (Ley 20.130): edad de retiro a 65 años |
-
----
 
 ## Palabras clave
 

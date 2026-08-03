@@ -8,8 +8,6 @@ La seguridad alimentaria tiene cuatro dimensiones: disponibilidad, acceso, utili
 
 Uruguay cuenta con un sistema de seguridad alimentaria articulado entre el MIDES (a través del INDA), el MSP, el MGAP y los gobiernos departamentales.
 
----
-
 ## Situación nutricional de Uruguay
 
 Uruguay no presenta problemas de hambre severa o desnutrición generalizada. Sin embargo, persisten vulnerabilidades nutricionales en sectores específicos de la población:
@@ -18,8 +16,6 @@ Uruguay no presenta problemas de hambre severa o desnutrición generalizada. Sin
 - **Anemia en niños y mujeres embarazadas**: problema de micronutrientes presente en sectores vulnerables.
 - **Sobrepeso y obesidad**: problema de salud pública creciente en la población general, incluyendo en niños y adolescentes. Resultado de la transición nutricional (mayor consumo de alimentos ultraprocesados, menor actividad física).
 - **Inseguridad alimentaria en hogares vulnerables**: hogares con dificultades para acceder a una alimentación suficiente y de calidad.
-
----
 
 ## INDA — Instituto Nacional de Alimentación
 
@@ -35,8 +31,6 @@ El **INDA (Instituto Nacional de Alimentación)** es el organismo del MIDES resp
 - Supervisar la calidad nutricional de los alimentos distribuidos por programas del Estado.
 - Fomentar huertas escolares, comunitarias y familiares.
 - Coordinar políticas nutricionales con el MSP, el MGAP y el MEC.
-
----
 
 ## Programas de alimentación
 
@@ -64,15 +58,11 @@ El MIDES y el MGAP promueven las huertas como instrumento de seguridad alimentar
 - **Huertas escolares**: integradas al currículo educativo como instrumento de educación alimentaria y producción.
 - **Huertas comunitarias**: espacios colectivos de producción de alimentos en barrios.
 
----
-
 ## Etiquetado de alimentos y educación nutricional
 
 A partir de la **Ley 19.140/2013** y su reglamentación (Decreto 272/018), Uruguay implementó el **etiquetado frontal de advertencia** en alimentos envasados con exceso de azúcar, sodio, grasas saturadas y grasas trans. Este es uno de los sistemas de etiquetado más avanzados de América Latina en materia de salud pública y transparencia para el consumidor.
 
 El MSP coordina la política de etiquetado nutricional, articulada con el MGAP (control de calidad de alimentos) y la ANCAT.
-
----
 
 ## Coordinación institucional
 
@@ -86,8 +76,6 @@ La seguridad alimentaria en Uruguay involucra a múltiples organismos:
 | MEC/ANEP | Comedores escolares, educación alimentaria |
 | BPS | AFAM-PE (condicionalidades vinculadas a controles de salud/nutrición) |
 | Intendencias | Comedores departamentales, ferias alimentarias |
-
----
 
 ## Palabras clave
 

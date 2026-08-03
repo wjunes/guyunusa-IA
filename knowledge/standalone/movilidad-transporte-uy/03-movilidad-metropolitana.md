@@ -6,8 +6,6 @@ El Área Metropolitana de Montevideo (AMM) comprende el departamento de Montevid
 
 La movilidad metropolitana articula los desplazamientos cotidianos entre Montevideo y su entorno suburbano: Ciudad de la Costa, Canelones, Las Piedras, La Paz, Progreso, Pando, San José de Mayo, entre otras localidades. El sistema integra servicios de transporte colectivo, infraestructura vial y, en menor medida, modos alternativos de movilidad.
 
----
-
 ## Definición del Área Metropolitana
 
 No existe una delimitación administrativa única y formal del Área Metropolitana de Montevideo. La planificación territorial la aborda desde distintos organismos:
@@ -27,8 +25,6 @@ El AMM incluye las siguientes zonas urbanizadas principales:
 | Pando | Canelones | Nodo secundario con funciones industriales |
 | Canelones ciudad | Canelones | Capital departamental |
 | San José de Mayo | San José | Fuera del continuo pero con flujos intensos |
-
----
 
 ## Transporte suburbano
 
@@ -51,15 +47,11 @@ El transporte entre Montevideo y las localidades del AMM se realiza principalmen
 | Corredor Norte | Montevideo – La Paz – Progreso | Ómnibus |
 | Corredor Oeste | Montevideo – San José de Mayo | Ómnibus interdepartamental |
 
----
-
 ## Integración de servicios
 
 La integración tarifaria y operativa entre el transporte urbano de Montevideo (STM) y los servicios metropolitanos e interurbanos es un objetivo de política pública en proceso de implementación. Históricamente, los servicios urbanos e interurbanos han operado con tarifas y sistemas de pago separados.
 
 La **tarjeta STM** tiene cobertura en las líneas del sistema STM dentro del Área Metropolitana. Sin embargo, los servicios interdepartamentales regulados por la DNT-MTOP operan con sus propios sistemas de cobro, lo que limita la integración plena.
-
----
 
 ## Infraestructura compartida
 
@@ -80,8 +72,6 @@ Las principales rutas de acceso al Área Metropolitana de Montevideo son:
 
 El **Acceso Sur** conecta la Ruta 1 (hacia Colonia del Sacramento) con el centro de Montevideo. Algunos tramos de acceso a la capital operan bajo régimen de concesión con cobro de peaje.
 
----
-
 ## Conectividad regional y planificación
 
 La planificación de la movilidad metropolitana involucra múltiples organismos:
@@ -95,8 +85,6 @@ La planificación de la movilidad metropolitana involucra múltiples organismos:
 
 La coordinación intermunicipal para la movilidad metropolitana es reconocida como un desafío institucional, dada la autonomía departamental establecida por la Constitución uruguaya.
 
----
-
 ## Demanda y patrones de movilidad
 
 La movilidad metropolitana está determinada por los siguientes patrones:
@@ -107,8 +95,6 @@ La movilidad metropolitana está determinada por los siguientes patrones:
 
 Las encuestas de movilidad realizadas por la Intendencia de Montevideo y el MTOP identifican al ómnibus como el modo predominante en los desplazamientos metropolitanos, seguido por el automóvil particular.
 
----
-
 ## Desafíos de la movilidad metropolitana
 
 | Desafío | Descripción |
@@ -118,8 +104,6 @@ Las encuestas de movilidad realizadas por la Intendencia de Montevideo y el MTOP
 | Expansión suburbana | Crecimiento de Ciudad de la Costa y otras zonas sin planificación de transporte previa |
 | Coordinación interinstitucional | Tres intendencias y múltiples organismos nacionales con competencias superpuestas |
 | Déficit de infraestructura ciclista | Falta de ciclovías en corredores metropolitanos |
-
----
 
 ## Palabras clave
 

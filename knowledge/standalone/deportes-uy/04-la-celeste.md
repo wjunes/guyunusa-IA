@@ -1,3 +1,5 @@
+# La Celeste — Selección uruguaya de fútbol
+
 ## Resumen
 
 La Celeste es la selección nacional de fútbol de Uruguay y uno de los símbolos de identidad más poderosos del país. Su nombre viene del color celeste —azul claro— de su camiseta, el mismo color de la franja de la bandera nacional. Con dos Copas del Mundo (1930 y 1950), dos medallas de oro olímpicas (1924 y 1928) y quince títulos de Copa América —el máximo en la historia del torneo—, Uruguay tiene el palmarés más rico del mundo en proporción a su población. La Celeste genera una intensidad emocional colectiva que pocos otros fenómenos culturales pueden igualar: cuando juega Uruguay, el país se detiene.

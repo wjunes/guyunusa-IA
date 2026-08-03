@@ -1,3 +1,5 @@
+# Historia de los derechos humanos en Uruguay
+
 ## Resumen
 
 La historia de los derechos humanos en Uruguay es la historia de una tensión entre avances institucionales notables —muchos de ellos tempranos a nivel latinoamericano— y retrocesos graves, en especial durante la **dictadura cívico-militar de 1973-1985**. Uruguay fue pionero en la región en derechos laborales, sufragio femenino y educación pública laica y gratuita durante el período **batllista** (1903-1958). La dictadura interrumpió brutalmente este proceso. La restauración democrática de 1985 abrió una etapa de reconstrucción institucional en DDHH que continúa hasta hoy, con avances en diversidad, derechos reproductivos y sistema de garantías internacionales, pero con deudas pendientes en justicia transicional y derechos económicos.

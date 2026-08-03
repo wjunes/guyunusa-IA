@@ -1,3 +1,5 @@
+# Estadio Centenario de Montevideo
+
 ## Resumen
 
 El Estadio Centenario de Montevideo es uno de los estadios más históricos del mundo. Construido para albergar la primera Copa del Mundo de fútbol (1930) y para conmemorar el centenario de la Constitución uruguaya, es el único estadio del mundo declarado "Monumento del Fútbol" por la FIFA. Inaugurado el 18 de julio de 1930, fue sede de la final del primer Mundial —que Uruguay ganó ante Argentina por 4 a 2— y ha sido durante casi un siglo el escenario principal del fútbol uruguayo. Está ubicado en el barrio de Parque Batlle, Montevideo.

@@ -1,12 +1,8 @@
 # Fenómenos Meteorológicos en Uruguay
 
----
-
 ## Introducción
 
 Uruguay experimenta una amplia variedad de **fenómenos meteorológicos** a lo largo del año, derivados de su posición geográfica en la confluencia de masas de aire tropicales y polares, la proximidad al Río de la Plata y el Océano Atlántico, y su exposición a sistemas sinópticos de latitudes medias. Este archivo documenta los principales fenómenos, su definición, mecanismo de formación, frecuencia en Uruguay, impactos y registros históricos destacados.
-
----
 
 ## Tormentas eléctricas (Thunderstorms)
 
@@ -18,8 +14,6 @@ Uruguay experimenta una amplia variedad de **fenómenos meteorológicos** a lo l
 | **Impactos** | Rayos: incendios, víctimas; granizo: daños en cultivos y vehículos; vientos: árboles caídos, daños estructurales; inundaciones urbanas por lluvias intensas de corta duración |
 | **Registro histórico** | Sin fecha única; episodios frecuentes en Montevideo y norte del país |
 
----
-
 ## Rayos
 
 | Aspecto | Detalle |
@@ -30,8 +24,6 @@ Uruguay experimenta una amplia variedad de **fenómenos meteorológicos** a lo l
 | **Impactos** | Fallecimientos (víctimas mortales registradas anualmente); incendios rurales; daños en instalaciones eléctricas; riesgo para la navegación |
 | **Prevención** | INUMET emite alertas de tormentas eléctricas; normas de pararrayos (edificios, campos) |
 
----
-
 ## Granizo
 
 | Aspecto | Detalle |
@@ -41,8 +33,6 @@ Uruguay experimenta una amplia variedad de **fenómenos meteorológicos** a lo l
 | **Frecuencia en Uruguay** | Más frecuente en primavera (septiembre-noviembre); el norte del país presenta mayor frecuencia |
 | **Impactos** | Daños severos en cultivos agrícolas (viticultura, horticultura, granos); daños en vehículos y techos |
 | **Registros** | Episodios históricos de granizo grande (> 5 cm de diámetro) documentados en Salto, Paysandú y Artigas [VERIFICAR fechas específicas]. Daños millonarios en viñedos y cultivos hortícolas de Canelones y Colonia |
-
----
 
 ## Tornados
 
@@ -63,8 +53,6 @@ Uruguay experimenta una amplia variedad de **fenómenos meteorológicos** a lo l
 
 El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y documentado de la historia reciente de Uruguay. Afectó al centro de la ciudad de Dolores (departamento de Soriano), dejando un tendal de destrucción de varios kilómetros.
 
----
-
 ## Trombas marinas
 
 | Aspecto | Detalle |
@@ -73,8 +61,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Formación** | Generalmente asociada a cúmulos congestivos o cumulonimbos sobre el agua; pueden trasladarse a tierra |
 | **Frecuencia en Uruguay** | Documentadas en el Río de la Plata, la costa atlántica y las lagunas del este |
 | **Impactos** | Peligro para embarcaciones de pequeño porte; si llegan a tierra pueden causar daños locales |
-
----
 
 ## Frentes fríos
 
@@ -86,8 +72,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Post-frente** | Cielo despejado, frío, viento del S-SO moderado, baja humedad |
 | **Frecuencia** | Varios frentes fríos por mes en otoño-invierno; menos frecuentes en verano |
 
----
-
 ## Olas de calor
 
 | Aspecto | Detalle |
@@ -97,8 +81,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Frecuencia en Uruguay** | Ocurren casi todos los veranos; más frecuentes e intensas en el norte y centro del país |
 | **Impactos** | Golpes de calor y mortalidad; demanda eléctrica extrema; daños en la producción ganadera y agrícola; incendios rurales |
 | **Registros** | Ola de calor de enero de 2022 [VERIFICAR]; ola de calor de diciembre de 2023 [VERIFICAR] con temperaturas históricas en varias estaciones |
-
----
 
 ## Olas de frío
 
@@ -110,8 +92,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Impactos** | Heladas; daños en cultivos de invierno; hielo en carreteras y puentes; aumento de demanda energética para calefacción; riesgo para personas en situación de calle |
 | **Registros** | Julio de 2007 [VERIFICAR]: temperaturas mínimas de -5 a -9 °C en el interior |
 
----
-
 ## Heladas
 
 | Aspecto | Detalle |
@@ -122,8 +102,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Período de riesgo** | Mayo–septiembre; máximo riesgo en julio |
 | **Impactos** | Daños en citrus, viñas, horticultura; pérdida de pasturas; daños en redes de agua |
 
----
-
 ## Niebla
 
 | Aspecto | Detalle |
@@ -132,8 +110,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Tipos** | De radiación (enfriamiento nocturno del suelo bajo cielo despejado); de advección (aire húmedo y cálido sobre superficie fría, como la costa de Rocha sobre agua fría de Malvinas); de mezcla; de precipitación |
 | **Frecuencia en Uruguay** | Moderada; más frecuente en otoño-invierno; costa atlántica y costas del Plata presentan mayor frecuencia; también en valles del interior |
 | **Impactos** | Riesgo en la aviación (aeropuerto de Montevideo); accidentes viales; retrasos en puertos y aeropuertos |
-
----
 
 ## Inundaciones
 
@@ -155,8 +131,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | 2015 | Dolores, Mercedes, litoral | Inundaciones; posterior al ciclón extratropical |
 | 2023 | Área metropolitana Montevideo | Lluvias intensas; inundaciones pluviales en barrios bajos |
 
----
-
 ## Sequías
 
 | Aspecto | Detalle |
@@ -175,8 +149,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | 2008–2009 | Sequía importante en el norte y centro del país |
 | 2022–2023 | Sequía histórica; niveles de embalses en mínimos históricos; **crisis de agua potable en Montevideo** (OSE mezcló agua del Río de la Plata con salinidad elevada en el sistema de abastecimiento) |
 
----
-
 ## Ciclones extratropicales
 
 | Aspecto | Detalle |
@@ -187,8 +159,6 @@ El **tornado de Dolores del 15 de abril de 2016** es el más destructivo y docum
 | **Frecuencia en Uruguay** | Frecuente; el Río de la Plata y el litoral atlántico son zonas de ciclogénesis activa |
 | **Impactos** | Vientos muy fuertes; oleaje intenso; lluvias abundantes; inundaciones costeras |
 | **Registro** | Ciclón extratropical de mayo de 2015 [VERIFICAR] que afectó al litoral uruguayo |
-
----
 
 ## Palabras clave
 

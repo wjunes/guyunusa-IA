@@ -1,7 +1,5 @@
 # Cambio Climático en Uruguay
 
----
-
 ## Contexto científico global
 
 El **cambio climático** se refiere a la variación estadísticamente significativa del estado promedio del clima (o de su variabilidad), que persiste durante períodos extensos (décadas o más). En la literatura científica y en el contexto de las políticas públicas internacionales, el término se utiliza principalmente para referirse al calentamiento global de origen **antropogénico** —causado por las actividades humanas—, especialmente la emisión de gases de efecto invernadero (GEI).
@@ -12,8 +10,6 @@ El **Panel Intergubernamental sobre el Cambio Climático (IPCC)** —organismo c
 
 La temperatura media global de la superficie ha aumentado aproximadamente **1,1 °C** por encima de los niveles preindustriales (1850–1900) durante el período 2011–2020.
 
----
-
 ## Marco político internacional
 
 | Instrumento | Año | Contenido |
@@ -22,8 +18,6 @@ La temperatura media global de la superficie ha aumentado aproximadamente **1,1 
 | Protocolo de Kioto | 1997 | Compromisos vinculantes de reducción de emisiones para países desarrollados |
 | **Acuerdo de París** | 2015 | Objetivo de limitar el calentamiento a 1,5–2 °C respecto a niveles preindustriales; cada país presenta Contribuciones Determinadas a Nivel Nacional (NDC) |
 | NDC de Uruguay | 2020 (actualizada) | Compromisos de mitigación y adaptación al cambio climático de Uruguay ante la CMNUCC |
-
----
 
 ## Tendencias observadas en Uruguay
 
@@ -54,8 +48,6 @@ El **Ministerio de Ambiente** de Uruguay, en conjunto con INUMET, Facultad de Ci
 |-----------|----------|--------|
 | Aumento del nivel del mar en el Río de la Plata | ~2–3 mm/año [VERIFICAR con datos del mareógrafo de Montevideo, SOHMA] | SOHMA / Datos globales |
 
----
-
 ## Proyecciones climáticas para Uruguay
 
 Las proyecciones para Uruguay para el siglo XXI (basadas en los escenarios del IPCC AR6, SSP2-4.5 y SSP5-8.5) indican:
@@ -69,8 +61,6 @@ Las proyecciones para Uruguay para el siglo XXI (basadas en los escenarios del I
 | Eventos de precipitación extrema | Mayor intensidad | Mayor intensidad |
 
 *Fuentes: IPCC AR6; Bidegain et al. 2011; reportes del Ministerio de Ambiente de Uruguay.*
-
----
 
 ## Impactos en Uruguay por sector
 
@@ -112,8 +102,6 @@ Las proyecciones para Uruguay para el siglo XXI (basadas en los escenarios del I
 - El cambio en los patrones de viento puede afectar el potencial eólico.
 - El calentamiento reduce la eficiencia de los paneles solares y los aerogeneradores a temperaturas muy altas.
 
----
-
 ## Marco institucional de Uruguay frente al cambio climático
 
 | Institución | Rol |
@@ -130,8 +118,6 @@ Las proyecciones para Uruguay para el siglo XXI (basadas en los escenarios del I
 
 El **SNRCC**, creado en 2009, es el mecanismo de coordinación interinstitucional de Uruguay para la acción climática. Integra a ministerios, organismos públicos, gobiernos departamentales y sociedad civil.
 
----
-
 ## Emisiones de gases de efecto invernadero en Uruguay
 
 Uruguay es un país con emisiones de GEI **relativamente bajas** a escala global (~25 millones de toneladas de CO₂ equivalente anuales [VERIFICAR]), pero con una **alta intensidad de emisiones por habitante** en el sector agropecuario (principalmente metano del ganado vacuno y óxido nitroso de los suelos).
@@ -144,8 +130,6 @@ Uruguay es un país con emisiones de GEI **relativamente bajas** a escala global
 | Residuos | ~5 % |
 
 *Fuente: Inventario Nacional de GEI (Ministerio de Ambiente) [VERIFICAR última edición disponible].*
-
----
 
 ## Palabras clave
 

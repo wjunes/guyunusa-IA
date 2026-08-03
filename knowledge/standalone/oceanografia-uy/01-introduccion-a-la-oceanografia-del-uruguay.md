@@ -1,7 +1,5 @@
 # Introducción a la Oceanografía del Uruguay
 
----
-
 ## Posición marítima del Uruguay
 
 La República Oriental del Uruguay es un país costero ubicado en la costa oriental del Río de la Plata y en el Atlántico Sudoccidental. Sus límites marítimos incluyen el **estuario del Río de la Plata** al sur y suroeste, y el **Océano Atlántico Sur** al sureste y este. Esta posición geográfica le otorga al país una dimensión marítima de gran importancia científica, económica y estratégica.
@@ -17,8 +15,6 @@ El territorio marítimo del Uruguay comprende:
 
 La costa continental uruguaya tiene una extensión aproximada de **660 km**, considerando el litoral rioplatense y el litoral atlántico.
 
----
-
 ## Importancia oceánica del Uruguay
 
 El espacio marítimo uruguayo presenta características oceánicas de singular relevancia:
@@ -27,8 +23,6 @@ El espacio marítimo uruguayo presenta características oceánicas de singular r
 - **Alta productividad biológica:** las aguas uruguayas sostienen pesquerías de importancia económica y una biodiversidad marina significativa.
 - **Profundidades extremas:** más allá de la plataforma continental, el talud y la cuenca oceánica alcanzan profundidades superiores a los 4.000–5.000 metros.
 - **Valor estratégico:** la ZEE y la plataforma continental extendida representan una superficie varias veces mayor que el territorio continental del país.
-
----
 
 ## Historia de la oceanografía uruguaya
 
@@ -48,8 +42,6 @@ La oceanografía en Uruguay se desarrolló institucionalmente a partir del siglo
 | 2008 | Presentación de la solicitud de plataforma continental extendida ante la CLCS (ONU) |
 | 2016–2022 | Misión Uruguay SUB 200: exploración submarina de aguas profundas |
 
----
-
 ## Marco institucional
 
 La oceanografía uruguaya está sostenida por un conjunto de instituciones con competencias diferenciadas:
@@ -63,15 +55,11 @@ La oceanografía uruguaya está sostenida por un conjunto de instituciones con c
 | Ministerio de Ambiente (MA) | Poder Ejecutivo | Conservación marina, Áreas Protegidas, monitoreo ambiental |
 | Prefectura Nacional Naval | Ministerio del Interior | Seguridad marítima, fiscalización |
 
----
-
 ## El espacio oceánico como dimensión territorial
 
 Uruguay ha avanzado en la definición y el reconocimiento de sus derechos soberanos sobre la plataforma continental extendida, más allá de las 200 millas náuticas de la ZEE. La presentación ante la **Comisión de Límites de la Plataforma Continental (CLCS)** de la ONU en 2008 —realizada conjuntamente con Argentina— representa un hito en la política oceánica uruguaya.
 
 El reconocimiento y la gestión del espacio marítimo constituye uno de los ejes de la política exterior y la política ambiental del Uruguay en el siglo XXI.
-
----
 
 ## Palabras clave
 

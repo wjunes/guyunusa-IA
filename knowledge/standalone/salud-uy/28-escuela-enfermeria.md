@@ -1,3 +1,5 @@
+# Escuela de Enfermería y formación de enfermeros en Uruguay
+
 ## Resumen
 
 La **Escuela Universitaria de Enfermería (EUE)** de la **Universidad de la República (Udelar)** es la principal institución formadora de enfermeros/as universitarios en Uruguay. La carrera de **Licenciatura en Enfermería** tiene una duración de 4 años y forma profesionales capaces de brindar cuidados de enfermería en todos los niveles del sistema de salud: atención primaria, hospitalización, cuidados intensivos y atención comunitaria. La enfermería es una profesión fundamental en el SNIS: son quienes brindan el cuidado directo y continuo al paciente. Uruguay también cuenta con formación de **auxiliares de enfermería** de nivel técnico, aunque la OPS y el MSP promueven la profesionalización universitaria de todos los integrantes de los equipos de enfermería.

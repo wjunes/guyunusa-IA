@@ -4,8 +4,6 @@
 
 La **inversión** en Uruguay comprende tanto la inversión pública como la privada nacional y extranjera. El Estado uruguayo dispone de un conjunto de instrumentos de política para atraer y fomentar la inversión privada: regímenes de exoneración impositiva, zonas francas, parques industriales y garantías legales para la inversión extranjera.
 
----
-
 ## Ley de Inversiones — Ley 16.906/1998
 
 La **Ley 16.906** (1998) es el marco legal principal de la política de fomento a la inversión en Uruguay. Declara de interés nacional la radicación de inversiones extranjeras y nacionales en el país.
@@ -33,8 +31,6 @@ Las empresas cuyo proyecto de inversión es aprobado por la **COMAP** obtienen e
 ### COMAP — Comisión de Aplicación de la Ley de Inversiones
 
 La **COMAP** es el organismo interinstitucional (integrado por MEF, OPP, MIEM y MTSS) que evalúa y aprueba los proyectos de inversión presentados al amparo de la Ley 16.906.
-
----
 
 ## Zonas Francas
 
@@ -66,13 +62,9 @@ Los trabajadores empleados en zonas francas que son ciudadanos uruguayos deben t
 | WTC Free Zone | Montevideo | Servicios profesionales |
 | Aguada Park | Montevideo | Tecnología, servicios |
 
----
-
 ## Tratados bilaterales de inversión (TBI)
 
 Uruguay ha firmado **Tratados Bilaterales de Inversión (TBI)** con numerosos países. Estos tratados garantizan a los inversores extranjeros protección contra la expropiación arbitraria, trato justo y equitativo, libre transferencia de utilidades y acceso a mecanismos de arbitraje internacional.
-
----
 
 ## Inversión extranjera directa (IED)
 
@@ -86,8 +78,6 @@ La **IED** en Uruguay ha crecido significativamente en las últimas dos décadas
 
 Los picos de IED coinciden con las grandes inversiones en celulosa (2007, 2013, 2022).
 
----
-
 ## Agencias de promoción
 
 ### Uruguay XXI
@@ -98,15 +88,11 @@ Los picos de IED coinciden con las grandes inversiones en celulosa (2007, 2013, 
 - Promoción de las exportaciones uruguayas en el exterior
 - Información para inversores sobre el clima de negocios, marco regulatorio e incentivos
 
----
-
 ## Desarrollo económico y OPP
 
 La **Oficina de Planeamiento y Presupuesto (OPP)** tiene un rol central en la planificación del desarrollo nacional. Coordina el **Sistema Nacional de Inversión Pública (SNIP)** y elabora estudios de estrategia de desarrollo de mediano y largo plazo.
 
 La OPP también gestiona los programas financiados con créditos de organismos multilaterales (BID, BM, CAF) destinados al desarrollo productivo, la descentralización y la modernización del Estado.
-
----
 
 ## Palabras clave
 

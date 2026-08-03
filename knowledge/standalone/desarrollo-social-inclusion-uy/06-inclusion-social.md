@@ -8,8 +8,6 @@ La inclusión social es lo opuesto a la exclusión social, que implica la privac
 
 En Uruguay, la política de inclusión social es responsabilidad del MIDES y de un conjunto de organismos del Estado que actúan coordinadamente.
 
----
-
 ## Dimensiones de la inclusión social
 
 La inclusión social en Uruguay abarca múltiples dimensiones:
@@ -25,8 +23,6 @@ La inclusión social en Uruguay abarca múltiples dimensiones:
 | **Inclusión cultural** | MEC, SODRE, intendencias | Acceso a la cultura, bibliotecas, medios comunitarios |
 | **Inclusión política y ciudadana** | Presidencia, intendencias, MEC | Participación, voto consular, referéndum |
 
----
-
 ## Inclusión educativa
 
 La inclusión educativa es uno de los ejes fundamentales de la política social uruguaya. Sus componentes principales son:
@@ -37,8 +33,6 @@ La inclusión educativa es uno de los ejes fundamentales de la política social 
 - **Educación de adultos**: centros del MEC que ofrecen formación básica a adultos sin primaria o secundaria completa.
 - **Educación especial**: la ANEP tiene servicios de educación especial para personas con discapacidad.
 - **Becas de inclusión**: el MEC y la UDELAR tienen programas de becas para estudiantes de contextos vulnerables.
-
----
 
 ## Inclusión laboral
 
@@ -51,8 +45,6 @@ La inclusión laboral implica el acceso al mercado de trabajo en condiciones dig
 - **Cooperativas sociales**: la **Ley 17.978/2006** sobre cooperativas sociales crea un marco para emprendimientos asociativos de personas en situación de vulnerabilidad extrema, con apoyo del Estado.
 - **Programa de Economía Social y Solidaria (MIDES)**: apoya microemprendimientos de personas en situación de pobreza.
 
----
-
 ## Inclusión de personas migrantes
 
 Uruguay tiene una larga tradición de acogida de migrantes. A partir de la ola migratoria de la segunda década del siglo XXI (proveniente de Venezuela, Cuba, República Dominicana, Haití y otros países), el Estado desarrolló políticas específicas:
@@ -62,8 +54,6 @@ Uruguay tiene una larga tradición de acogida de migrantes. A partir de la ola m
 - **Ley 18.250/2008 (Ley de Migración)**: establece el derecho a la migración como derecho humano; garantiza derechos iguales a migrantes regulares.
 - **Refugiados**: la MRREE coordina el reconocimiento del estatus de refugiado en Uruguay. Uruguay ha acogido refugiados de distintas procedencias.
 
----
-
 ## Accesibilidad
 
 La accesibilidad es una dimensión transversal de la inclusión:
@@ -72,8 +62,6 @@ La accesibilidad es una dimensión transversal de la inclusión:
 - **Accesibilidad web**: el decreto 155/013 establece estándares de accesibilidad web para los sitios del Estado.
 - **Lenguaje de señas uruguayo (LSU)**: reconocido como idioma oficial de la comunidad sorda en Uruguay.
 - **CNHD (Comisión Nacional Honoraria de Discapacidad)**: coordina las políticas de accesibilidad.
-
----
 
 ## Indicadores de inclusión social
 
@@ -86,8 +74,6 @@ Los indicadores utilizados para medir la inclusión social en Uruguay incluyen:
 - Índice de Desarrollo Humano (PNUD).
 
 Ver archivo `16-indicadores-sociales.md` para metodología y series históricas.
-
----
 
 ## Palabras clave
 

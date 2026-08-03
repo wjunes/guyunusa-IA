@@ -6,8 +6,6 @@ El **hidrógeno verde (H₂ verde)** es hidrógeno molecular (H₂) producido me
 
 Uruguay posee condiciones excepcionalmente favorables para la producción de hidrógeno verde: abundancia de energía eléctrica renovable (eólica, solar, hídrica, biomasa), acceso a agua dulce, y una posición geográfica con potencial exportador hacia Europa y otros mercados.
 
----
-
 ## Estrategia Nacional de Hidrógeno Verde (H2U)
 
 En **2021**, Uruguay lanzó la **Estrategia Nacional de Hidrógeno Verde**, conocida como **H2U**, coordinada por el **Ministerio de Industria, Energía y Minería (MIEM)** con participación de la **Dirección Nacional de Energía (DNE)**, **UTE**, **ANCAP**, **LATU** y **ANII**.
@@ -28,8 +26,6 @@ El hidrógeno es difícil de transportar en estado gaseoso a grandes distancias.
 - **Hidrógeno licuado (LH₂):** requiere −253 °C; tecnología costosa pero en desarrollo
 - **Combustibles sintéticos (e-fuels):** combinación de H₂ verde con CO₂ para producir combustibles líquidos (e-querosene para aviación, e-diesel)
 
----
-
 ## Proyectos estratégicos y empresas
 
 ### HIF Global – Paysandú
@@ -44,8 +40,6 @@ Diversas empresas nacionales e internacionales han explorado proyectos de produc
 
 - **UTE** estudia la incorporación del H₂ verde como vector de almacenamiento estacional (para compensar excedentes de generación eólica y solar en momentos de baja demanda eléctrica) y como combustible industrial.
 - **ANCAP** analiza el rol del H₂ verde en la descarbonización de la refinería, la producción de biocombustibles avanzados y la logística de exportación (infraestructura portuaria).
-
----
 
 ## Proceso de producción
 
@@ -71,8 +65,6 @@ La eficiencia de conversión de electricidad a H₂ es actualmente del orden del
 
 La producción de 1 kg de H₂ requiere aproximadamente **9 litros de agua desionizada** en la reacción de electrólisis. Sin embargo, los procesos reales de enfriamiento y purificación pueden demandar hasta **20–30 litros de agua por kg de H₂** [VERIFICAR]. Uruguay evalúa el impacto sobre los recursos hídricos en zonas áridas y la posibilidad de usar agua de mar desalinizada para plantas costeras.
 
----
-
 ## Contexto internacional y demanda
 
 ### Europa como mercado objetivo
@@ -90,8 +82,6 @@ La **Unión Europea** ha establecido objetivos ambiciosos de importación de H�
 | **Unión Europea** | Alianza Global de Hidrógeno, financiamiento de estudios de viabilidad |
 | **BID (Banco Interamericano de Desarrollo)** | Financiamiento de estudios y pilotos |
 | **IRENA** | Asistencia técnica, publicaciones sobre potencial de H₂ verde en América Latina |
-
----
 
 ## Potencial de Uruguay
 
@@ -116,8 +106,6 @@ La **Unión Europea** ha establecido objetivos ambiciosos de importación de H�
 | **Marco regulatorio** | La regulación específica para H₂ verde (certificación de origen renovable, seguridad, transporte) está en desarrollo |
 | **Certificación de origen renovable** | Los mercados europeos exigen trazabilidad del H₂ verde (certificados de origen, correlación temporal con generación renovable) |
 
----
-
 ## Marco institucional y regulatorio
 
 | Institución | Rol |
@@ -130,8 +118,6 @@ La **Unión Europea** ha establecido objetivos ambiciosos de importación de H�
 | **UdelaR / UTU** | Formación de recursos humanos, investigación científica |
 | **Ministerio de Relaciones Exteriores** | Acuerdos bilaterales de cooperación |
 
----
-
 ## Línea de tiempo del hidrógeno verde en Uruguay
 
 | Año | Hito |
@@ -142,8 +128,6 @@ La **Unión Europea** ha establecido objetivos ambiciosos de importación de H�
 | 2022–2023 | Anuncio de proyectos piloto (HIF Global y otros) |
 | 2023–2024 | Definición de marco regulatorio preliminar; estudios de impacto ambiental |
 | 2025 en adelante | Inicio de construcción de primeras plantas piloto [VERIFICAR] |
-
----
 
 ## Palabras clave
 

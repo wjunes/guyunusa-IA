@@ -1,3 +1,5 @@
+# Ciberseguridad en Uruguay
+
 ## Resumen
 
 Uruguay ha desarrollado una de las políticas de ciberseguridad más avanzadas de América Latina, organizada en torno al CERTuy (Centro de Respuesta a Incidentes de Seguridad Informática) dependiente de AGESIC. El país tiene una Estrategia Nacional de Ciberseguridad, participa en ejercicios internacionales y figura en posiciones favorables en el Índice Global de Ciberseguridad de la UIT (ITU). El marco incluye también la protección de datos personales (Ley 18.331), la firma electrónica, la identidad digital y la regulación sectorial de la seguridad en la banca y el sistema financiero.

@@ -4,8 +4,6 @@
 
 La **energía eólica** es la generación eléctrica a partir de la energía cinética del viento mediante aerogeneradores. Uruguay protagonizó entre **2009 y 2017** una de las transiciones eólicas más rápidas del mundo: en menos de una década pasó de tener prácticamente cero capacidad instalada a contar con más de **1.500 MW** de potencia eólica [VERIFICAR], generando aproximadamente el **30–35%** de su electricidad anual con viento.
 
----
-
 ## El recurso eólico uruguayo
 
 Uruguay posee condiciones eólicas favorables, especialmente en:
@@ -16,8 +14,6 @@ Uruguay posee condiciones eólicas favorables, especialmente en:
 - **Litoral sur** (Colonia, San José): vientos del Río de la Plata
 
 Velocidades medias del viento: entre **6 y 9 m/s** en los principales sitios eólicos [VERIFICAR], suficientes para una generación eólica económicamente rentable con tecnología actual.
-
----
 
 ## Historia de la energía eólica en Uruguay
 
@@ -49,8 +45,6 @@ El ritmo de expansión fue reconocido internacionalmente como uno de los más r�
 
 A partir de 2017, la expansión eólica se desaceleró al haberse cubierto la demanda energética nacional con renovables. El foco pasó a la integración de las instalaciones existentes, la gestión de excedentes y el desarrollo de almacenamiento.
 
----
-
 ## Parques eólicos destacados
 
 ### Parques de UTE (propiedad estatal)
@@ -75,8 +69,6 @@ Uruguay atrajo importantes inversores privados nacionales e internacionales para
 
 *Nota: la lista de operadores privados debe verificarse con el registro de la ADME.*
 
----
-
 ## Aerogeneradores utilizados
 
 Los aerogeneradores instalados en Uruguay son predominantemente de fabricantes europeos:
@@ -87,8 +79,6 @@ Los aerogeneradores instalados en Uruguay son predominantemente de fabricantes e
 
 Potencias unitarias de los aerogeneradores instalados: entre **1,5 MW y 3,3 MW** [VERIFICAR].
 
----
-
 ## Indicadores del sector eólico (referencia 2023)
 
 | Indicador | Valor aproximado | Fuente |
@@ -97,8 +87,6 @@ Potencias unitarias de los aerogeneradores instalados: entre **1,5 MW y 3,3 MW**
 | Participación en la generación eléctrica anual | ~30–35% [VERIFICAR] | ADME |
 | Número de parques eólicos | >40 [VERIFICAR] | ADME |
 | Factor de capacidad medio | ~35–40% [VERIFICAR] | ADME |
-
----
 
 ## Mecanismo de contratación: licitaciones y PPA
 
@@ -109,8 +97,6 @@ El desarrollo eólico privado se estructuró a través de:
 3. **Conexión a la red de UTE:** UTE fue responsable de reforzar la red de transmisión para integrar los parques eólicos distribuidos en el territorio
 
 Los precios obtenidos en las licitaciones decayeron significativamente entre las primeras y últimas rondas, reflejando la caída global del costo de la tecnología eólica.
-
----
 
 ## Ventajas y desafíos
 
@@ -130,8 +116,6 @@ Los precios obtenidos en las licitaciones decayeron significativamente entre las
 - **Fin de ciclo de vida:** los aerogeneradores tienen vida útil de ~20–25 años; el repotenciamiento es un desafío futuro
 - **Ruido y paisaje:** debate local en zonas rurales sobre el impacto visual y sonoro
 
----
-
 ## Impacto ambiental de la eólica en Uruguay
 
 - **Impacto sobre aves y murciélagos:** los aerogeneradores pueden causar mortalidad de fauna voladora; se realizan estudios de impacto ambiental previos a cada parque [VERIFICAR normativa]
@@ -139,8 +123,6 @@ Los precios obtenidos en las licitaciones decayeron significativamente entre las
 - **Impacto sobre el suelo:** mínimo; los cimientos de los aerogeneradores ocupan superficie pequeña
 
 Uruguay exige **Evaluaciones de Impacto Ambiental (EIA)** para la instalación de parques eólicos, controladas por el **Ministerio de Ambiente (MA)**.
-
----
 
 ## Palabras clave
 

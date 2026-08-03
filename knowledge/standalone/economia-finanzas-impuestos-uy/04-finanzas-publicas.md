@@ -6,8 +6,6 @@ Las **finanzas públicas** comprenden la administración de los ingresos, gastos
 
 El MEF es el organismo rector de las finanzas públicas del Gobierno Central, mientras que la **Contaduría General de la Nación (CGN)** elabora los estados financieros del sector público y la **Tesorería General de la Nación (TGN)** gestiona la caja y los pagos.
 
----
-
 ## Presupuesto Nacional Quinquenal
 
 ### Definición
@@ -29,8 +27,6 @@ El **Presupuesto Nacional** es la ley que establece la asignación de recursos d
 
 La **Rendición de Cuentas** es el instrumento anual mediante el cual el Poder Ejecutivo presenta al Parlamento la liquidación de cuentas del ejercicio anterior y solicita modificaciones al Presupuesto quinquenal. Es el mecanismo de ajuste anual del gasto público.
 
----
-
 ## Estructura del sector público en Uruguay
 
 ```
@@ -51,8 +47,6 @@ Sector Público Uruguay
 └── Gobiernos Departamentales (19 intendencias)
 ```
 
----
-
 ## Ingresos públicos
 
 Los ingresos del Gobierno Central provienen principalmente de:
@@ -68,8 +62,6 @@ Los ingresos del Gobierno Central provienen principalmente de:
 
 La mayor parte de los ingresos tributarios son administrados por la **DGI** y en menor medida por la **DNA** (Aduanas).
 
----
-
 ## Gasto público
 
 El gasto del Gobierno Central se organiza en:
@@ -84,15 +76,11 @@ El gasto del Gobierno Central se organiza en:
 
 Las áreas de mayor gasto público en Uruguay son la **educación**, la **salud**, la **seguridad social (pensiones y prestaciones del BPS)** y los intereses de la deuda.
 
----
-
 ## Resultado fiscal
 
 El **resultado fiscal** del sector público global mide el saldo entre ingresos y gastos del conjunto del sector público (Gobierno Central + BPS + empresas públicas). Uruguay ha seguido una trayectoria de reducción gradual del déficit fiscal desde los años 2000.
 
 El resultado fiscal se expresa habitualmente como porcentaje del PIB. El **déficit fiscal estructural** (ajustado por el ciclo económico) es la medida relevante para evaluar la sostenibilidad de largo plazo.
-
----
 
 ## Deuda pública
 
@@ -116,15 +104,11 @@ La **Unidad Indexada (UI)** es una unidad de cuenta creada en 2002, indexada a l
 
 La **Unidad de Gestión de Deuda** del MEF administra el perfil de deuda pública soberana. Uruguay accede regularmente a los mercados de capitales internacionales para refinanciar vencimientos y gestionar el perfil de plazos.
 
----
-
 ## Inversión pública
 
 La **inversión pública** en Uruguay comprende las erogaciones del Estado en infraestructura, equipamiento y capital humano. Es coordinada por la **Oficina de Planeamiento y Presupuesto (OPP)**, que establece el **Plan Nacional de Inversiones**.
 
 Las empresas públicas (UTE, ANCAP, OSE, ANTEL) realizan inversiones propias que no se reflejan directamente en el presupuesto del Gobierno Central pero forman parte del esfuerzo inversor del sector público.
-
----
 
 ## Transparencia y rendición de cuentas
 
@@ -134,8 +118,6 @@ Uruguay cuenta con instrumentos de transparencia fiscal:
 - **CGN**: publica los estados financieros del sector público.
 - **Tribunal de Cuentas**: organismo constitucional de control externo del gasto público.
 - **SIIF (Sistema Integrado de Información Financiera)**: plataforma de gestión financiera del Estado.
-
----
 
 ## Palabras clave
 

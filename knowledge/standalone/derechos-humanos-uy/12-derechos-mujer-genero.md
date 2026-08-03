@@ -1,3 +1,5 @@
+# Derechos de la mujer e igualdad de género en Uruguay
+
 ## Resumen
 
 Uruguay tiene una historia de avances tempranos en derechos de la mujer —fue el primer país latinoamericano en legalizar el divorcio por voluntad de la mujer (1913) y uno de los primeros en reconocer el sufragio femenino (1932-1934)— pero también enfrenta desafíos persistentes. La **violencia basada en género** —en particular la violencia doméstica y el **femicidio**— es el problema de DDHH de mayor gravedad en este campo. La **brecha salarial de género**, la **subrepresentación política** de las mujeres y la **feminización de la pobreza** son otras dimensiones relevantes. En el ámbito legislativo, Uruguay tiene normas avanzadas: la **Ley 17.514 de Violencia Doméstica** (2002), la **Ley 18.987 de IVE** (2012) y la **Ley 19.580 de Violencia basada en Género** (2017). El organismo rector es **Inmujeres** (Instituto Nacional de las Mujeres).

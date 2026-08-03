@@ -1,14 +1,10 @@
 # Clima del Uruguay
 
----
-
 ## Definición y características generales
 
 El **clima** de un lugar es el conjunto de condiciones atmosféricas —temperatura, precipitación, viento, humedad, nubosidad— que caracterizan a ese lugar durante un período prolongado, generalmente definido como una **normal climatológica de 30 años** según los estándares de la Organización Meteorológica Mundial (OMM). La OMM establece actualmente como período de referencia oficial los años **1981–2010**, en proceso de actualización al período **1991–2020**.
 
 El territorio de la República Oriental del Uruguay (~176.215 km²) presenta un clima **relativamente homogéneo**, sin grandes variaciones internas debido a la baja altitud media del relieve, la ausencia de cordilleras significativas y la influencia estabilizadora de los cuerpos de agua circundantes. Sin embargo, existen diferencias regionales perceptibles, especialmente entre el norte y el sur, y entre la costa atlántica y el interior.
-
----
 
 ## Clasificación climática de Köppen
 
@@ -21,8 +17,6 @@ Según la clasificación climática de **Köppen-Geiger**, el clima predominante
 El código **C** indica clima templado (no árido, no polar); la letra **f** (*feuchte*, húmedo en alemán) indica ausencia de estación seca; y la letra **a** indica verano cálido (temperatura media del mes más cálido ≥ 22 °C).
 
 Algunas áreas del extremo norte y noroeste del país, especialmente en los departamentos de Artigas, Salto y Paysandú, pueden clasificarse como **Cwa** (con verano húmedo y estación seca invernal más marcada), aunque la distinción es marginal.
-
----
 
 ## Factores geográficos determinantes
 
@@ -65,8 +59,6 @@ Uruguay está expuesto a la influencia alternada de:
 | Polar marítima (mPa) | Latitudes subpolares, Atlántico Sur | Frío, con lluvias y vientos fuertes |
 | Polar continental (cPa) | Patagonia / Antártida | Frío intenso y seco; heladas; asociada al Pampero |
 
----
-
 ## Estacionalidad
 
 | Estación | Meses (Hemisferio Sur) | Características típicas |
@@ -75,8 +67,6 @@ Uruguay está expuesto a la influencia alternada de:
 | **Otoño** | Marzo, abril, mayo | Descenso gradual de temperaturas; precipitaciones moderadas; inicio de frentes fríos |
 | **Invierno** | Junio, julio, agosto | Temperaturas mínimas 3–10 °C; heladas en el interior; Sudestada; Pampero; menor precipitación en el norte |
 | **Primavera** | Septiembre, octubre, noviembre | Temperaturas en ascenso; aumento de la actividad convectiva; tormentas severas con granizo posibles |
-
----
 
 ## Temperatura
 
@@ -89,8 +79,6 @@ Uruguay está expuesto a la influencia alternada de:
 | Temperatura mínima absoluta (histórica, Uruguay) | ~-9 °C [VERIFICAR lugar y fecha exactos] | INUMET |
 | Amplitud térmica anual media (Montevideo) | ~13 °C | INUMET |
 
----
-
 ## Precipitación
 
 | Parámetro | Valor aproximado | Fuente / Período |
@@ -102,8 +90,6 @@ Uruguay está expuesto a la influencia alternada de:
 | Meses más lluviosos (promedio) | Marzo-abril; octubre | INUMET |
 | Meses menos lluviosos (promedio) | Julio-agosto (norte); distribución más uniforme en el sur | INUMET |
 
----
-
 ## Humedad relativa
 
 | Parámetro | Valor aproximado |
@@ -111,8 +97,6 @@ Uruguay está expuesto a la influencia alternada de:
 | Humedad relativa media anual (Montevideo) | ~75–80 % |
 | Mayor humedad relativa | Costa atlántica; otoño-invierno |
 | Menor humedad relativa | Interior norte; verano con viento norte |
-
----
 
 ## Viento
 
@@ -125,8 +109,6 @@ Los vientos predominantes en Uruguay son del sector **norte (N) y noreste (NE)**
 | **Viento norte** | N–NO | Cálido y húmedo; precede al frente frío |
 | **Minuano** | SO–S | Similar al Pampero; frío; especialmente en la costa sur |
 
----
-
 ## Insolación
 
 | Parámetro | Valor aproximado |
@@ -134,8 +116,6 @@ Los vientos predominantes en Uruguay son del sector **norte (N) y noreste (NE)**
 | Horas de sol anuales (Montevideo) | ~2.500–2.700 h/año |
 | Mayor insolación | Verano (diciembre-enero) |
 | Menor insolación | Invierno (junio-julio) |
-
----
 
 ## Palabras clave
 

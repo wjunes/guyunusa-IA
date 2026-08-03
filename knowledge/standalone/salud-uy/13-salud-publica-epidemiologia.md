@@ -1,3 +1,5 @@
+# Salud pública y epidemiología en Uruguay
+
 ## Resumen
 
 La **salud pública** es la disciplina y función del Estado orientada a proteger y mejorar la salud de la población como colectivo, a diferencia de la medicina clínica que atiende al individuo. La **vigilancia epidemiológica** es el sistema de información que monitorea la ocurrencia de enfermedades, permite detectar brotes y orientar las políticas sanitarias. En Uruguay, el **Sistema Nacional de Vigilancia Epidemiológica (SINAVE)** del MSP es el mecanismo de recolección, análisis y difusión de datos sobre enfermedades de notificación obligatoria. Uruguay tiene una tradición consolidada en salud pública, con organismos técnicos robustos y articulación con la OPS/OMS.

@@ -2,8 +2,6 @@
 
 > Este archivo tiene propósito exclusivamente informativo y educativo. No constituye asesoramiento financiero, bancario ni de inversiones. Para situaciones específicas, debe consultarse un profesional habilitado.
 
----
-
 ## Sobre el Banco Central del Uruguay (BCU)
 
 **¿Qué es el BCU y cuál es su función principal?**
@@ -14,8 +12,6 @@ La TPM es la tasa de interés que el BCU fija como referencia para el mercado in
 
 **¿Qué es el COPOM?**
 El Comité de Política Monetaria del BCU, responsable de fijar la TPM. Se reúne periódicamente y publica sus decisiones con la fundamentación correspondiente. Es análogo a la Fed (Estados Unidos), el BCE (Europa) o el Copom del Banco Central do Brasil.
-
----
 
 ## Sobre los bancos en Uruguay
 
@@ -31,8 +27,6 @@ Sí. El Fondo de Garantía de Depósitos de las Instituciones de Intermediación
 **¿Qué pasó con los bancos que quebraron en 2002?**
 Durante la crisis de 2002 el gobierno decretó un feriado bancario de cuatro días (30 de julio al 2 de agosto) y dictó la Ley 17.613. Se liquidaron el Banco Montevideo, la Caja Obrera y Crédito, y se intervino el Banco Galicia Uruguay (luego absorbido por el BROU). Los depósitos a plazo en dólares de residentes fueron congelados y devueltos en cuotas entre 2002 y 2005 o canjeados por bonos del Estado.
 
----
-
 ## Sobre las AFAPs
 
 **¿Qué son las AFAPs y para qué sirven?**
@@ -44,8 +38,6 @@ Al año 2024 existen cuatro AFAPs: República AFAP (de capital público, del BRO
 **¿Cómo cambió el sistema de AFAPs con la Ley 20.130 de 2023?**
 La Ley 20.130 (reforma de la seguridad social de 2023) elevó progresivamente la edad mínima de jubilación a 65 años para ambos sexos, ajustó los requisitos de años de trabajo, modificó la distribución de aportes entre el BPS y las AFAPs, y amplió las opciones de inversión para los fondos.
 
----
-
 ## Sobre el mercado de valores
 
 **¿Tiene Uruguay bolsa de valores?**
@@ -53,8 +45,6 @@ Sí. La Bolsa de Valores de Montevideo (BVM), fundada en 1867, es la principal b
 
 **¿Puede cualquier persona invertir en valores públicos uruguayos?**
 Sí. Las personas físicas pueden adquirir valores públicos uruguayos a través de los corredores de bolsa habilitados en la BVM o directamente en el BCU (en algunos instrumentos). Los bonos del Tesoro en UI, pesos y dólares son instrumentos accesibles para inversores individuales.
-
----
 
 ## Sobre inclusión financiera
 
@@ -64,8 +54,6 @@ La Ley 19.210/2014 obligó a que todos los trabajadores formales y jubilados rec
 **¿Qué es un instrumento de dinero electrónico (IDE)?**
 Un IDE es un monedero electrónico recargable emitido por una empresa de dinero electrónico (EDE) habilitada por el BCU. Funciona como una cuenta simplificada que no requiere historial crediticio: se carga con efectivo en bocas habilitadas y permite pagar en comercios con POS o hacer transferencias entre usuarios.
 
----
-
 ## Sobre el lavado de activos
 
 **¿Qué es el SENACLAFT?**
@@ -74,21 +62,15 @@ La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiam
 **¿Por qué los bancos piden tanta información cuando uno abre una cuenta?**
 Es una obligación legal derivada de las normas ALD/CFT (Ley 19.574 y normativa del BCU). Los bancos deben identificar y conocer a sus clientes (política KYC — Know Your Customer), verificar el origen de los fondos y detectar posibles operaciones sospechosas que deban reportarse a la UIAF del BCU. Esta exigencia aplica en todo el mundo y es un estándar del GAFI.
 
----
-
 ## Sobre la crisis de 2002
 
 **¿Qué fue el feriado bancario de 2002?**
 El 30 de julio de 2002 el gobierno del presidente Jorge Batlle decretó el cierre de los bancos por cuatro días. Era una corrida bancaria masiva, impulsada por el colapso financiero de Argentina, que amenazaba con agotar las reservas internacionales del BCU. La Ley 17.613 del 2 de agosto legalizó las medidas de emergencia: congeló los depósitos a plazo en dólares de residentes y liquidó tres bancos privados. La intervención del FMI, el BM y el gobierno de EE.UU. con préstamos de emergencia fue clave para estabilizar el sistema.
 
----
-
 ## Sobre la deuda pública y los mercados internacionales
 
 **¿Tiene Uruguay grado de inversión?**
 Sí. Desde 2012 Uruguay mantiene el grado de inversión en las tres principales agencias de calificación crediticia internacionales: Moody's, Standard & Poor's y Fitch. El grado de inversión refleja la solidez institucional del país, la estabilidad macroeconómica y el cumplimiento de las obligaciones de deuda.
-
----
 
 ## Palabras clave
 

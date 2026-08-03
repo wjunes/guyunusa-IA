@@ -6,8 +6,6 @@ El **sistema tributario** de Uruguay comprende el conjunto de normas, principios
 
 La administración de los tributos nacionales corresponde principalmente a la **Dirección General Impositiva (DGI)** y, en materia aduanera, a la **Dirección Nacional de Aduanas (DNA)**.
 
----
-
 ## Principios tributarios
 
 El sistema tributario uruguayo se rige por principios reconocidos constitucionalmente y en el Código Tributario:
@@ -21,8 +19,6 @@ El sistema tributario uruguayo se rige por principios reconocidos constitucional
 | **Capacidad contributiva** | Los tributos deben tener en cuenta la capacidad económica del contribuyente |
 | **Eficiencia** | El sistema debe minimizar distorsiones en la asignación de recursos |
 
----
-
 ## El Código Tributario (Decreto-Ley 14.306/1974)
 
 El **Código Tributario** establece el marco general del derecho tributario en Uruguay. Define:
@@ -33,8 +29,6 @@ El **Código Tributario** establece el marco general del derecho tributario en U
 - Los poderes y deberes de la Administración Tributaria
 - Los procedimientos de liquidación, determinación y cobro de tributos
 - Los medios de impugnación (recursos administrativos y jurisdiccionales)
-
----
 
 ## Clasificación de los tributos
 
@@ -50,8 +44,6 @@ Las **tasas** son tributos vinculados a la prestación de un servicio público a
 
 Las **contribuciones especiales** son tributos que tienen como hecho generador beneficios derivados de actividades del Estado. Ejemplos: contribuciones de seguridad social (BPS), contribuciones de mejoras por obra pública.
 
----
-
 ## Tributos nacionales principales
 
 | Tributo | Hecho generador | Organismo administrador |
@@ -66,8 +58,6 @@ Las **contribuciones especiales** son tributos que tienen como hecho generador b
 | Aranceles de Importación (TEC) | Importación de bienes | DNA |
 | Impuesto de Enseñanza Primaria | Inmuebles urbanos y suburbanos | DGI (recauda para ANEP) |
 
----
-
 ## Tributos departamentales
 
 Los Gobiernos Departamentales (intendencias) tienen potestad tributaria para ciertos impuestos y tasas locales:
@@ -78,8 +68,6 @@ Los Gobiernos Departamentales (intendencias) tienen potestad tributaria para cie
 | Patente de rodados | Impuesto anual sobre vehículos automotores |
 | Tasas municipales | Por servicios de alumbrado, recolección de residuos, etc. |
 | Impuesto de Bromatología | Habilitaciones y controles sanitarios |
-
----
 
 ## Historia del sistema tributario
 
@@ -107,15 +95,11 @@ La **Ley 18.083** (sancionada el 27 de diciembre de 2006, vigente desde el 1 de 
 
 Los objetivos declarados de la reforma fueron mejorar la **equidad vertical** (tributen más quienes más ganan), la **eficiencia** y la **simplicidad** del sistema.
 
----
-
 ## Administración tributaria
 
 La **DGI** es el principal organismo de administración tributaria nacional. Sus funciones incluyen la recaudación, fiscalización, atención al contribuyente y cobranza coactiva de los tributos nacionales. La DNA administra los tributos al comercio exterior.
 
 El **RUT (Registro Único Tributario)** es el identificador universal de las personas físicas y jurídicas ante el sistema tributario uruguayo. Toda persona que realice actividades sujetas a tributos debe inscribirse en el RUT.
-
----
 
 ## Palabras clave
 

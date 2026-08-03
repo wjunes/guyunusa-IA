@@ -2,8 +2,6 @@
 
 Este archivo compila las principales fuentes documentales utilizadas en la elaboración del dominio **agro-uy** de la Base Nacional de Conocimiento Uruguay (BNC-UY). Las referencias se organizan por tipo y por institución.
 
----
-
 ## 1. Fuentes institucionales y estadísticas primarias
 
 ### MGAP — Ministerio de Ganadería, Agricultura y Pesca
@@ -42,8 +40,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 - Uruguay XXI. *Sector agropecuario: oportunidades de inversión*. Informes sectoriales. Montevideo: Uruguay XXI.
 - Uruguay XXI. *Exportaciones uruguayas: informes mensuales y anuales*. Montevideo: Uruguay XXI.
 
----
-
 ## 2. Legislación y normativa
 
 - *Ley 9.526/1936*: Creación de CONAPROLE.
@@ -62,8 +58,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 - *Ley 18.407/2008*: Ley General de Cooperativas y creación del INACOOP.
 - *Decreto 333/004*: Reglamentación del SNIG.
 - *Decreto 405/008*: Plan de Uso y Manejo de Suelos; tolerancias a la erosión.
-
----
 
 ## 3. Publicaciones académicas y científicas
 
@@ -94,8 +88,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 ### Forestación y celulosa
 - BOSCANA, Mauricio; BORAGNO, Ignacio. *El negocio forestal en Uruguay*. Montevideo: CLAES, 2008.
 
----
-
 ## 4. Fuentes de organismos internacionales
 
 - FAO. *FAOSTAT: Base de datos estadísticos de agricultura y alimentación*. Roma: FAO. [www.fao.org/faostat]
@@ -104,8 +96,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 - IICA. *Informes sobre el sector agropecuario uruguayo*. San José: IICA.
 - BID (Banco Interamericano de Desarrollo). *Estrategia de desarrollo agropecuario en Uruguay*. Washington: BID.
 - Banco Mundial. *Informe sobre competitividad del sector agroalimentario en Uruguay*. Washington: Banco Mundial.
-
----
 
 ## 5. Publicaciones periódicas especializadas
 
@@ -117,8 +107,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 - *Hoja de Divulgación*. ARU.
 - *La Semana Agropecuaria*. Semanario de información agropecuaria uruguayo. Montevideo.
 - *El País Agropecuario*. Suplemento agropecuario del diario *El País*. Montevideo.
-
----
 
 ## 6. Fuentes digitales y portales de datos abiertos
 
@@ -134,8 +122,6 @@ Este archivo compila las principales fuentes documentales utilizadas en la elabo
 - **AUF (Asociación Uruguaya de Fútbol):** [no pertinente]
 - **FAO FAOSTAT:** www.fao.org/faostat
 - **Catálogo de datos abiertos del MEC:** www.cultura.gub.uy/datos-abiertos
-
----
 
 ## Palabras clave
 

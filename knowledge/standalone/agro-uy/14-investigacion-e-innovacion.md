@@ -4,8 +4,6 @@
 
 Uruguay ha desarrollado un sistema de investigación e innovación agropecuaria de notable calidad relativa, considerando el tamaño del país. El **Instituto Nacional de Investigación Agropecuaria (INIA)** lidera la investigación pública, con el apoyo de las facultades universitarias de Agronomía y Veterinaria, el LATU, la ANII y una red de estaciones experimentales distribuidas en todo el territorio nacional.
 
----
-
 ## Instituto Nacional de Investigación Agropecuaria (INIA)
 
 ### Historia y creación
@@ -42,8 +40,6 @@ Uruguay ha desarrollado un sistema de investigación e innovación agropecuaria 
 - **Biotecnología:** cultivo in vitro, marcadores moleculares, genómica.
 - **Sostenibilidad y cambio climático:** adaptación de sistemas productivos.
 
----
-
 ## Facultad de Agronomía (UdelaR)
 
 - Fundada en **1906** como **Instituto de Agronomía**, adquirió estatus de Facultad dentro de la Universidad de la República.
@@ -52,16 +48,12 @@ Uruguay ha desarrollado un sistema de investigación e innovación agropecuaria 
 - Departamentos de investigación activos en: producción vegetal, producción animal, suelos y aguas, sistemas de producción, biotecnología, economía rural.
 - Publicaciones en revistas indexadas; trabajos de tesis de grado y posgrado; colaboraciones con INIA, MGAP, organismos internacionales.
 
----
-
 ## Facultad de Veterinaria (UdelaR)
 
 - Sede en **Montevideo**.
 - Carreras: Doctor en Ciencias Veterinarias (grado integrado) y posgrados.
 - Áreas de investigación: sanidad animal, reproducción, producción bovina, ovina y porcina, salud pública veterinaria, bienestar animal.
 - Colaboración con el sector privado (laboratorios veterinarios) y el MGAP.
-
----
 
 ## LATU (Laboratorio Tecnológico del Uruguay)
 
@@ -71,15 +63,11 @@ Uruguay ha desarrollado un sistema de investigación e innovación agropecuaria 
 - Certificación de calidad para exportaciones.
 - Investigación en packaging, procesamiento de alimentos y bioinsumos.
 
----
-
 ## ANII (Agencia Nacional de Investigación e Innovación)
 
 - Creada en **2005**; financia proyectos de investigación e innovación en todos los sectores, incluyendo el agropecuario.
 - Programas relevantes para el agro: Fondo Sectorial Agropecuario (FSSA), proyectos de innovación tecnológica, apoyo a startups agtech.
 - Co-financia proyectos de INIA, Facultades, empresas privadas y cooperativas.
-
----
 
 ## Biotecnología agropecuaria
 
@@ -92,8 +80,6 @@ Uruguay ha avanzado en la aplicación de biotecnología al agro:
 - **Bioinsumos:** desarrollo de inoculantes (rizobios para leguminosas), biofertilizantes, bioestimulantes, biopesticidas.
 - **ADN de trazabilidad:** uso de marcadores de ADN para autenticar el origen de carnes.
 
----
-
 ## Agricultura de precisión e innovación digital
 
 *(Ver también archivo 19-tecnologia-agropecuaria.md)*
@@ -102,14 +88,10 @@ Uruguay ha avanzado en la aplicación de biotecnología al agro:
 - **INIA** y la **Facultad de Agronomía** investigan el uso de sensores remotos, modelos de simulación de cultivos y sistemas de información geográfica.
 - **Startups agtech uruguayas** crecen en nichos de monitoreo, gestión de datos agrícolas y ganaderos.
 
----
-
 ## Premios y reconocimiento internacional
 
 - INIA Uruguay ha obtenido reconocimiento internacional por su programa de arroz (variedades ampliamente adoptadas en otros países de la región).
 - Investigadores uruguayos participan en redes internacionales (CIMMYT, IRRI, CGIAR, INIA regionales).
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Gobierno digital en Uruguay
+
 ## Resumen
 
 Uruguay es uno de los países más avanzados en gobierno digital de América Latina y figura consistentemente entre los primeros puestos de la región en los principales rankings internacionales de e-government (ONU, Banco Mundial, Índice de Gobierno Digital de la OCDE). La política de gobierno digital comenzó a sistematizarse con la creación de AGESIC en 2008 y se ha profundizado con la implementación de la firma electrónica, la cédula de identidad electrónica, el portal único de trámites, la apertura de datos (datos.gub.uy), la interoperabilidad entre organismos del Estado y el plan de identidad digital.

@@ -1,3 +1,5 @@
+# Control del cáncer en Uruguay
+
 ## Resumen
 
 El cáncer es la **segunda causa de muerte** en Uruguay, después de las enfermedades cardiovasculares. Uruguay tiene una de las tasas de incidencia de cáncer más altas de América Latina —en parte por el envejecimiento de su población— y simultáneamente uno de los sistemas de control del cáncer más organizados de la región. La **Comisión Honoraria de Lucha Contra el Cáncer (CHLCC)**, creada en 1936, es una institución pionera en América Latina. El **Registro Nacional de Cáncer** provee datos epidemiológicos esenciales para la planificación. Los programas de tamizaje (mamografía, Papanicolaou, sangre oculta en materia fecal) son los instrumentos principales de detección temprana. El consumo de tabaco es el principal factor de riesgo modificable de cáncer en Uruguay.

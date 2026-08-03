@@ -1,12 +1,8 @@
 # INUMET — Instituto Uruguayo de Meteorología
 
----
-
 ## Descripción general
 
 El **Instituto Uruguayo de Meteorología (INUMET)** es el organismo estatal responsable de la meteorología operativa, la climatología y la hidrología superficial en Uruguay. Es el **Servicio Meteorológico Nacional** de Uruguay ante la Organización Meteorológica Mundial (OMM).
-
----
 
 ## Marco legal y creación
 
@@ -20,8 +16,6 @@ INUMET fue creado por la **Ley 19.007**, promulgada el **22 de noviembre de 2012
 | Naturaleza jurídica | Persona jurídica de derecho público no estatal (ente autónomo) [VERIFICAR naturaleza jurídica exacta según Ley 19.007] |
 | Ministerio relacionado | Ministerio de Defensa Nacional [VERIFICAR tutela actual] |
 | Antecedente directo | Dirección Nacional de Meteorología (DNM) |
-
----
 
 ## Antecedentes históricos
 
@@ -37,8 +31,6 @@ Las primeras observaciones sistemáticas de variables meteorológicas en territo
 
 La **DNM** fue el organismo predecesor de INUMET. Dependía orgánicamente del Ministerio de Defensa Nacional y ejercía las funciones de servicio meteorológico nacional durante gran parte del siglo XX. La Ley 19.007/2012 disolvió la DNM y creó INUMET.
 
----
-
 ## Misión y funciones
 
 Las funciones principales de INUMET, establecidas por la Ley 19.007, incluyen:
@@ -50,8 +42,6 @@ Las funciones principales de INUMET, establecidas por la Ley 19.007, incluyen:
 - **Investigación:** Desarrollar investigación científica en meteorología y climatología.
 - **Cooperación internacional:** Representar a Uruguay ante la OMM y participar en redes y programas internacionales.
 - **Meteorología aeronáutica:** Prestar servicios meteorológicos a la aviación civil conforme a los estándares OACI.
-
----
 
 ## Estructura y organización
 
@@ -65,8 +55,6 @@ INUMET se organiza en áreas operativas y científico-técnicas, entre las que s
 - **Área de Investigación y Desarrollo**
 - **Área de Sistemas y Tecnología**
 - **Área Administrativa**
-
----
 
 ## Red de estaciones
 
@@ -83,8 +71,6 @@ INUMET opera la principal red de observación meteorológica de Uruguay, que inc
 
 Para información detallada sobre la red de estaciones, ver archivo `23-estaciones-meteorologicas.md`.
 
----
-
 ## Servicios de pronóstico y alertas
 
 INUMET brinda pronósticos y alertas:
@@ -96,8 +82,6 @@ INUMET brinda pronósticos y alertas:
 - **Boletín de seguimiento ENSO:** Publicación periódica sobre el estado del Pacífico y sus perspectivas para Uruguay.
 - **Climatología bajo pedido:** Datos históricos y estadísticas para organismos públicos y privados.
 
----
-
 ## Meteorología aeronáutica
 
 INUMET es el proveedor oficial de servicios de meteorología aeronáutica en Uruguay, conforme a los estándares de la OACI. Presta servicio en:
@@ -108,8 +92,6 @@ INUMET es el proveedor oficial de servicios de meteorología aeronáutica en Uru
 - Aeropuerto de Colonia.
 - Otros aeródromos nacionales [VERIFICAR cobertura completa].
 
----
-
 ## Investigación y cooperación
 
 INUMET participa en proyectos de investigación nacionales e internacionales:
@@ -119,8 +101,6 @@ INUMET participa en proyectos de investigación nacionales e internacionales:
 - **Programa Mundial del Clima (PMC) / OMM:** Reporte de datos, normas climatológicas y participación en foros técnicos.
 - **MERCOSUR / SMN vecinos:** Intercambio de datos y pronósticos con el Servicio Meteorológico Nacional de Argentina (SMN) y el CPTEC/INPE de Brasil.
 - **CLIVAR / WCRP:** Investigación en variabilidad climática.
-
----
 
 ## Relación con otras instituciones
 
@@ -135,8 +115,6 @@ INUMET participa en proyectos de investigación nacionales e internacionales:
 | **IMFIA (Fac. Ingeniería)** | Modelos numéricos; aplicaciones ingenieriles |
 | **Ministerio de Ambiente** | Cambio climático; inventario de GEI; NDC |
 
----
-
 ## Datos históricos y climatológicos
 
 INUMET custodia el archivo climatológico histórico de Uruguay, que incluye:
@@ -147,8 +125,6 @@ INUMET custodia el archivo climatológico histórico de Uruguay, que incluye:
 - Normas climatológicas OMM para los períodos 1931–1960, 1961–1990, 1981–2010 y (en proceso) 1991–2020.
 
 Para información sobre récords climáticos, ver archivo `24-records-climaticos.md`.
-
----
 
 ## Palabras clave
 

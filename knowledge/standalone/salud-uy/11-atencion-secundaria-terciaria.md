@@ -1,3 +1,5 @@
+# Atención secundaria y terciaria en Uruguay
+
 ## Resumen
 
 El segundo y tercer nivel de atención del sistema de salud uruguayo concentran la atención especializada, la cirugía, los estudios diagnósticos complejos y la internación. El **segundo nivel** comprende la atención ambulatoria especializada y la hospitalización de mediana complejidad. El **tercer nivel** incluye las unidades de cuidados intensivos (UCI), la oncología de alta complejidad, los trasplantes, la cirugía cardiovascular y otras prestaciones de máxima especialización. Los hospitales de referencia nacional —el **Hospital de Clínicas**, el **Maciel**, el **Pasteur**, los centros de ASSE en el interior y los sanatorios de las grandes IAMC— concentran estas capacidades. Uruguay tiene una capacidad instalada de alta complejidad que, para el tamaño de su población, es notable en el contexto regional.

@@ -4,8 +4,6 @@
 
 El derecho aduanero uruguayo es un derecho de fuentes múltiples: normas internas (código aduanero, decretos, resoluciones de la DNA), normas del MERCOSUR (decisiones del CMC, resoluciones del GMC, directivas de la CCM) y convenios y acuerdos internacionales (Convenio de Kyoto revisado, OMA, OMC).
 
----
-
 ## El Código Aduanero: Decreto-Ley 15.691/1984
 
 El Decreto-Ley 15.691 del 7 de diciembre de 1984 es la norma básica del régimen aduanero uruguayo. Aprobado durante la dictadura cívico-militar, ha sido objeto de numerosas modificaciones pero sigue siendo el texto central.
@@ -19,8 +17,6 @@ El Decreto-Ley 15.691 del 7 de diciembre de 1984 es la norma básica del régime
 - Procedimiento de verificación y aforo.
 
 **Texto consolidado**: disponible en el Inventario Nacional de Normas (IMPO): https://www.impo.com.uy/
-
----
 
 ## Normas complementarias nacionales
 
@@ -36,8 +32,6 @@ El Decreto-Ley 15.691 del 7 de diciembre de 1984 es la norma básica del régime
 
 La DNA emite resoluciones y circulares que complementan la normativa legal y reglamentaria en aspectos técnicos (clasificación arancelaria, valoración, procedimientos de despacho). Estas normas técnicas se publican en el sitio web de la DNA.
 
----
-
 ## El MERCOSUR y la normativa aduanera supranacional
 
 Desde la creación del MERCOSUR (1991), las normas del bloque tienen primacía sobre las normas nacionales en materia aduanera extrazona y de política comercial común. Las principales normas del MERCOSUR con impacto aduanero son:
@@ -52,8 +46,6 @@ Desde la creación del MERCOSUR (1991), las normas del bloque tienen primacía s
 
 **Resoluciones de la Comisión de Comercio del MERCOSUR (CCM)**: normas técnicas sobre clasificación arancelaria, origen de las mercancías, defensa comercial (antidumping, derechos compensatorios) y otras materias.
 
----
-
 ## Convenios internacionales
 
 **Convenio de Kyoto Revisado (Convenio Internacional para la Simplificación y Armonización de los Regímenes Aduaneros)**: instrumento de la Organización Mundial de Aduanas (OMA) que establece estándares internacionales para la simplificación y modernización de los procedimientos aduaneros. Uruguay es signatario y lo aplica como referencia en la modernización de sus procesos.
@@ -63,8 +55,6 @@ Desde la creación del MERCOSUR (1991), las normas del bloque tienen primacía s
 **Acuerdo sobre Facilitación del Comercio de la OMC (AFC)**: adoptado en la Conferencia Ministerial de Bali (2013) y en vigor desde 2017. Establece obligaciones de transparencia, simplificación de procedimientos y cooperación entre aduanas. Uruguay ratificó el AFC.
 
 **Convenio de la OMA sobre Admisión Temporaria (Convenio de Estambul)**: establece un marco armonizado para los regímenes de admisión temporaria. Uruguay es miembro de la OMA y aplica sus normas técnicas.
-
----
 
 ## Valoración aduanera
 
@@ -79,8 +69,6 @@ La valoración aduanera determina el valor sobre el cual se aplican los derechos
 
 El valor en aduana incluye el costo de la mercancía más el flete internacional más el seguro (valor CIF — Cost, Insurance and Freight) hasta la frontera uruguaya.
 
----
-
 ## El sistema LUCIA y el expediente electrónico aduanero
 
 El sistema LUCIA (Lector Universal de Código de Información Aduanero) es el sistema informático de la DNA para el procesamiento electrónico de las operaciones aduaneras. A través de LUCIA:
@@ -91,8 +79,6 @@ El sistema LUCIA (Lector Universal de Código de Información Aduanero) es el si
 - Se generan las estadísticas de comercio exterior.
 
 LUCIA es la columna vertebral tecnológica del despacho aduanero uruguayo y ha sido modernizado progresivamente desde su implementación.
-
----
 
 ## Palabras clave
 

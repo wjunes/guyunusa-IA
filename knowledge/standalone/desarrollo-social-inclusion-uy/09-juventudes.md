@@ -4,8 +4,6 @@
 
 Las **políticas de juventud** en Uruguay reconocen a los jóvenes como sujetos de derechos y como actores clave del desarrollo social. La categoría "juventud" comprende un rango etario que varía según el instrumento normativo: la legislación uruguaya y el INJU trabajan con el rango de **14 a 29 años**, aunque algunos programas tienen rangos distintos (18–24 para empleo joven, 14–24 para Jóvenes en Red, etc.).
 
----
-
 ## Marco normativo
 
 | Norma | Año | Contenido |
@@ -14,8 +12,6 @@ Las **políticas de juventud** en Uruguay reconocen a los jóvenes como sujetos 
 | Código de la Niñez y la Adolescencia | 2004 | Ley 17.823: derechos de personas hasta 18 años |
 | Ley 19.196 | 2014 | Responsabilidad penal del adolescente; INISA |
 | Ley 17.815 | 2004 | Violencia sexual comercial con personas menores de 18 años |
-
----
 
 ## INJU — Instituto Nacional de la Juventud
 
@@ -31,8 +27,6 @@ El **INJU (Instituto Nacional de la Juventud)** es el organismo del MIDES respon
 - Implementar programas de empleo, educación, salud sexual, participación y recreación para jóvenes.
 - Promover la participación juvenil en el diseño de las políticas.
 
----
-
 ## Plan Nacional de Juventudes
 
 El **Plan Nacional de Juventudes** es el instrumento estratégico del INJU que define las prioridades de la política de juventud para cada período de gobierno. Los distintos planes han hecho foco en:
@@ -42,8 +36,6 @@ El **Plan Nacional de Juventudes** es el instrumento estratégico del INJU que d
 - Participación ciudadana.
 - Acceso a la cultura y el deporte.
 - Prevención del consumo problemático de sustancias.
-
----
 
 ## Principales programas de juventud
 
@@ -70,8 +62,6 @@ El MTSS y el MIDES han implementado distintos programas de primer empleo para j�
 
 El INJU y las intendencias departamentales mantienen una red de **Centros Juveniles** donde los jóvenes pueden acceder a actividades culturales, deportivas, formativas y de participación comunitaria. Los centros son espacios de encuentro y desarrollo para adolescentes y jóvenes.
 
----
-
 ## Salud sexual y reproductiva en jóvenes
 
 Uruguay reconoce el derecho a la salud sexual y reproductiva como un derecho humano. Las políticas específicas para jóvenes incluyen:
@@ -80,8 +70,6 @@ Uruguay reconoce el derecho a la salud sexual y reproductiva como un derecho hum
 - **Ley 18.987/2012 (Interrupción Voluntaria del Embarazo)**: legalización del aborto hasta las 12 semanas de gestación (14 en casos de violación). El MIDES e INJU apoyan la información y el acceso.
 - **Embarazo adolescente**: sigue siendo una preocupación en los sectores de mayor vulnerabilidad. El MSP e INJU desarrollan programas de prevención.
 - **ITS/VIH**: programas de información y prevención en centros educativos y espacios juveniles.
-
----
 
 ## Participación juvenil
 
@@ -92,13 +80,9 @@ Uruguay tiene una tradición de participación juvenil activa:
 - **Participación política**: los jóvenes uruguayos mayores de 18 años votan en las elecciones. Los partidos políticos tienen organizaciones juveniles activas.
 - **Organizaciones juveniles**: el INJU registra y apoya a cientos de organizaciones juveniles en todo el país.
 
----
-
 ## Sistema de Responsabilidad Penal Adolescente
 
 El **INISA (Instituto Nacional de Inclusión Social Adolescente)**, creado por la Ley 19.196/2014, gestiona las medidas socioeducativas para adolescentes infractores (entre 13 y 17 años). El INISA reemplazó al SIRPA (Sistema de Responsabilidad Penal Adolescente, que era parte del INAU). El enfoque es de reinserción social, no exclusivamente punitivo.
-
----
 
 ## Palabras clave
 

@@ -1,7 +1,5 @@
 # Instituto Antártico Uruguayo (IAU)
 
----
-
 ## Presentación institucional
 
 El **Instituto Antártico Uruguayo (IAU)** es el organismo del Estado uruguayo responsable de la planificación, coordinación y ejecución de las actividades científicas, técnicas y de soporte en el continente antártico y las aguas australes. Es la institución que gestiona la presencia científica permanente de Uruguay en la Antártida y representa al país ante los foros internacionales del Sistema del Tratado Antártico (STA).
@@ -13,8 +11,6 @@ El **Instituto Antártico Uruguayo (IAU)** es el organismo del Estado uruguayo r
 | Fundación | 1968 |
 | Instalación antártica principal | Base Científica Antártica Artigas (BCAA), Isla Rey Jorge (Shetland del Sur), Antártida |
 | Web | [VERIFICAR URL oficial] |
-
----
 
 ## Historia
 
@@ -30,8 +26,6 @@ Uruguay se adhirió al **Tratado Antártico** en 1980 y fue admitido como **Part
 | Instalación de la BCAA | 1984 |
 | Uruguay, Parte Consultiva del Tratado Antártico | 1985 |
 
----
-
 ## Base Científica Antártica Artigas (BCAA)
 
 | Parámetro | Descripción |
@@ -44,8 +38,6 @@ Uruguay se adhirió al **Tratado Antártico** en 1980 y fue admitido como **Part
 | Acceso | Por vía aérea (vuelos de la Fuerza Aérea Uruguaya) y marítima (buques de la Armada) |
 
 La BCAA es una de las bases permanentes de la Isla Rey Jorge, que es la isla más habitada de las Shetlands del Sur y alberga estaciones de Argentina, Brasil, Chile, China, España, Corea del Sur, Polonia, Rusia y otros países.
-
----
 
 ## Líneas de investigación
 
@@ -76,8 +68,6 @@ El IAU coordina programas de investigación científica multidisciplinar en la A
 - **Ozono estratosférico:** monitoreo del estado de la capa de ozono [VERIFICAR equipamiento].
 - **Cambio climático:** la Antártida como observatorio del cambio climático global.
 
----
-
 ## Sistema del Tratado Antártico (STA)
 
 Uruguay, como Parte Consultiva del STA, participa activamente en:
@@ -86,8 +76,6 @@ Uruguay, como Parte Consultiva del STA, participa activamente en:
 - **CCAMLR** (Comisión para la Conservación de los Recursos Vivos Marinos Antárticos): gestión de los recursos vivos del Océano Austral.
 - **SCAR** (Comité Científico para la Investigación Antártica): coordinación de la investigación científica antártica a nivel global.
 - **ATCM** (Antarctic Treaty Consultative Meeting): gobernanza y normas para las actividades humanas en la Antártida.
-
----
 
 ## Cooperación internacional
 
@@ -98,14 +86,10 @@ La investigación antártica uruguaya se desarrolla en estrecha colaboración co
 - **España, Italia, Alemania:** proyectos de investigación conjuntos.
 - **Chile:** logística compartida en la región de las Shetlands del Sur.
 
----
-
 ## Logística
 
 - **Fuerza Aérea Uruguaya:** vuelos regulares a la BCAA durante la campaña de verano austral (octubre-marzo).
 - **Armada Nacional:** transporte marítimo de personal, carga y combustible; participación con buques en cruceros oceanográficos australes.
-
----
 
 ## Palabras clave
 

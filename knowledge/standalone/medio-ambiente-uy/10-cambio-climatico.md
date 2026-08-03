@@ -1,3 +1,5 @@
+# Cambio climático en Uruguay
+
 ## Resumen
 
 Uruguay es un **país pequeño con emisiones de gases de efecto invernadero (GEI) globalmente bajas** (~0,04% del total mundial), pero es también un país **altamente vulnerable** a los impactos del cambio climático: su economía depende fuertemente del sector agropecuario y del recurso hídrico, ambos muy sensibles a las variaciones climáticas. Los principales impactos ya observados y proyectados incluyen una **mayor frecuencia de sequías**, el **aumento de lluvias torrenciales e inundaciones**, el **aumento de la temperatura media** y la **variabilidad del régimen de precipitaciones**. Uruguay ha asumido compromisos internacionales significativos en el marco del **Acuerdo de París** (2015), con contribuciones determinadas a nivel nacional (NDC) que incluyen metas de reducción de emisiones y adaptación. La **transición energética** ya completada en el sector eléctrico es la principal medida de mitigación.

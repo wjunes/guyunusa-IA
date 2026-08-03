@@ -1,3 +1,5 @@
+# Organización del Sistema Nacional Integrado de Salud (SNIS)
+
 ## Resumen
 
 El **Sistema Nacional Integrado de Salud (SNIS)** es la arquitectura institucional que organiza la salud en Uruguay desde 2007. Articula tres funciones esenciales: **rectoría** (MSP), **financiamiento** (FONASA/JUNASA) y **prestación** (ASSE, IAMC y otros prestadores habilitados). El SNIS no es un sistema único o monopólico: es un marco de integración que permite a prestadores públicos y privados coexistir bajo reglas comunes, con libre elección del usuario y financiamiento solidario. Los contratos de gestión con metas sanitarias son el instrumento que alinea los incentivos de los prestadores con los objetivos de salud pública del Estado.

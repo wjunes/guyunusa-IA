@@ -38,8 +38,6 @@
 ### Ministerio de Economía y Finanzas (MEF)
 - Deuda pública y financiamiento: https://www.gub.uy/ministerio-economia-finanzas/politicas-y-gestion/deuda-publica
 
----
-
 ## Normativa principal
 
 | Norma | Descripción |
@@ -69,8 +67,6 @@
 
 Texto normativo: https://www.impo.com.uy/
 
----
-
 ## Organismos internacionales
 
 ### Fondo Monetario Internacional (FMI)
@@ -99,8 +95,6 @@ Texto normativo: https://www.impo.com.uy/
 ### BIS (Banco de Pagos Internacionales)
 - Comité de Basilea: https://www.bis.org/bcbs/
 
----
-
 ## Fuentes académicas y de referencia
 
 - **Licandro, José Antonio; Licandro, Gerardo** (BCU): trabajos sobre política monetaria y sistema financiero uruguayo.
@@ -109,15 +103,11 @@ Texto normativo: https://www.impo.com.uy/
 - **CINVE (Centro de Investigaciones Económicas)**: publicaciones sobre economía uruguaya, sistema financiero e inclusión financiera.
 - **IECON (Instituto de Economía, UdelaR)**: series y publicaciones sobre economía uruguaya.
 
----
-
 ## Datos abiertos y plataformas
 
 - **Catálogo de Datos Abiertos de Uruguay** (AGESIC): https://catalogodatos.gub.uy/
 - **Portal de Transparencia Presupuestal** (OPP/MEF): https://transparenciapresupuestaria.opp.gub.uy/
 - **BCU — Series estadísticas**: https://www.bcu.gub.uy/Estadisticas-e-Indicadores/
-
----
 
 ## Palabras clave
 

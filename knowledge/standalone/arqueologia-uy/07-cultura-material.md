@@ -1,12 +1,8 @@
 # Cultura Material Prehispánica e Histórica del Uruguay
 
----
-
 ## Introducción
 
 La cultura material comprende el conjunto de objetos, estructuras y restos orgánicos producidos o modificados por los grupos humanos que habitaron el territorio uruguayo. Su estudio permite reconstruir tecnologías, economías, redes de intercambio, organización social y prácticas rituales. Este archivo documenta las principales categorías de cultura material recuperadas en contextos arqueológicos del Uruguay.
-
----
 
 ## 1. Industria lítica
 
@@ -47,8 +43,6 @@ La **industria lítica** es el conjunto de artefactos elaborados en piedra talla
 - Presión con retocador de asta o hueso, para retoques finales.
 - Talla bifacial: trabajo simultáneo de ambas caras.
 
----
-
 ## 2. Cerámica
 
 ### Introducción
@@ -88,8 +82,6 @@ En los sitios de arqueología histórica se recuperan cerámicas de distintos or
 - **Faience y porcelana:** importaciones europeas y asiáticas.
 - **Lozas inglesas** (pearlware, creamware, whiteware): abundantes en contextos del siglo XIX.
 
----
-
 ## 3. Restos óseos de fauna (zooarqueología)
 
 Los restos óseos de animales son una de las fuentes más ricas para la reconstrucción de la economía de subsistencia de las poblaciones prehispánicas.
@@ -108,8 +100,6 @@ Los restos óseos de animales son una de las fuentes más ricas para la reconstr
 | Tortuga (*Chelonidae* terrestres y acuáticas) | Tortugas | Cerritos, concheros |
 | Megafauna (Pleistoceno) | Mastodonte, toxodonte, gliptodonte | Arroyo del Vizcaíno y sitios Pleistoceno |
 
----
-
 ## 4. Restos humanos (bioarqueología)
 
 Los restos humanos recuperados en excavaciones arqueológicas son estudiados desde la **bioarqueología**, que comprende:
@@ -121,8 +111,6 @@ Los restos humanos recuperados en excavaciones arqueológicas son estudiados des
 
 Los enterramientos en cerritos han proporcionado el mayor número de restos humanos para el período prehispánico tardío del Uruguay.
 
----
-
 ## 5. Arte rupestre
 
 El arte rupestre del Uruguay está representado principalmente por **petroglifos** (grabados sobre piedra), con escasa o nula evidencia de pinturas rupestres.
@@ -133,8 +121,6 @@ El sitio **Chamangá** (departamento de Flores) es el principal sitio de arte ru
 
 Otros sitios con arte rupestre han sido reportados en los departamentos de Tacuarembó (Valle Edén [VERIFICAR]) y en la sierra de los departamentos del este.
 
----
-
 ## 6. Ornamentos y objetos de adorno
 
 En los contextos arqueológicos uruguayos se han recuperado distintos tipos de objetos de adorno personal:
@@ -143,8 +129,6 @@ En los contextos arqueológicos uruguayos se han recuperado distintos tipos de o
 - **Pendientes:** en hueso, dientes o piedra.
 - **Pigmentos minerales:** ocre (óxido de hierro rojo), posiblemente asociado a rituales funerarios.
 - **Pintura corporal:** inferable por la presencia de pigmentos en algunos contextos.
-
----
 
 ## 7. Artefactos metálicos (período histórico)
 
@@ -155,8 +139,6 @@ Los artefactos metálicos en contextos prehispánicos son escasos en Uruguay (au
 - Monedas (españolas, portuguesas, republicanas).
 - Armas (puntas de lanza, partes de armas de fuego).
 - Objetos religiosos (cruces, medallas).
-
----
 
 ## 8. Estructuras habitacionales
 
@@ -169,8 +151,6 @@ Las evidencias indirectas incluyen:
 - **Distribución espacial de materiales** que sugiere la organización interior de las viviendas.
 
 En contextos históricos coloniales, los vestigios constructivos incluyen ladrillos, tejas, morteros y cimentaciones de piedra.
-
----
 
 ## Palabras clave
 

@@ -2,8 +2,6 @@
 
 > Este archivo tiene propósito exclusivamente informativo y educativo. No constituye asesoramiento contable, financiero ni tributario. Para situaciones específicas, debe consultarse un profesional habilitado.
 
----
-
 ## Sobre el sistema tributario
 
 **¿Cuáles son los principales impuestos en Uruguay?**
@@ -27,8 +25,6 @@ El Monotributo es un régimen tributario simplificado para pequeños contribuyen
 **¿En qué consistió la reforma tributaria de 2007?**
 La reforma tributaria establecida por la Ley 18.083 (vigente desde el 1/7/2007) transformó profundamente el sistema tributario uruguayo: creó el IRPF, el IRAE y el IASS; eliminó el COFIS y el ICOSA; redujo la tasa básica del IVA de 23% a 22%; e introdujo la tributación sobre rentas de capital de personas físicas. Su objetivo fue hacer el sistema más equitativo y eficiente.
 
----
-
 ## Sobre la administración tributaria
 
 **¿Qué hace la DGI?**
@@ -36,8 +32,6 @@ La DGI (Dirección General Impositiva) es el principal organismo de administraci
 
 **¿Qué hace la DNA?**
 La DNA (Dirección Nacional de Aduanas) controla el ingreso y egreso de mercaderías del territorio uruguayo, recauda los aranceles e impuestos al comercio exterior y combate el contrabando.
-
----
 
 ## Sobre las finanzas públicas
 
@@ -50,8 +44,6 @@ Es el proyecto de ley anual mediante el cual el Poder Ejecutivo presenta al Parl
 **¿Cuál fue el impacto de la crisis de 2002?**
 La crisis financiera de 2002 fue la más grave de la historia moderna de Uruguay: el PIB cayó un 11%, el desempleo superó el 17%, la pobreza alcanzó el 35%, y la deuda pública llegó a más del 100% del PIB. Se decretó un feriado bancario en agosto de 2002 (Ley 17.613) y Uruguay accedió a un acuerdo de contingencia con el FMI. La recuperación fue sostenida desde 2003 en adelante.
 
----
-
 ## Sobre el sistema financiero
 
 **¿Qué es el BCU?**
@@ -62,8 +54,6 @@ Las AFAPs (Administradoras de Fondos de Ahorro Previsional) son empresas privada
 
 **¿Qué es la UI (Unidad Indexada)?**
 La Unidad Indexada es una unidad de cuenta creada en 2002, indexada al IPC (Índice de Precios al Consumo). Se utiliza en contratos de arrendamiento, préstamos hipotecarios, depósitos bancarios y títulos de deuda pública. Permite mantener el valor real de los contratos frente a la inflación.
-
----
 
 ## Sobre el comercio exterior y la integración regional
 
@@ -76,8 +66,6 @@ Un CDI es un tratado bilateral que define cuál de los dos países firmantes tie
 **¿Por qué es importante la adhesión de Uruguay a la OCDE?**
 El proceso de adhesión formal a la OCDE, iniciado en 2022, implica que Uruguay adopte los estándares internacionales de buenas prácticas en política económica, tributaria, medioambiental y de gobernanza. La adhesión otorga mayor credibilidad institucional, acceso a metodologías comparadas y facilita la atracción de inversión.
 
----
-
 ## Sobre indicadores económicos
 
 **¿Cómo se mide la inflación en Uruguay?**
@@ -85,8 +73,6 @@ La inflación se mide a través del IPC (Índice de Precios al Consumo), que cal
 
 **¿Dónde se publican los datos económicos oficiales de Uruguay?**
 Los principales repositorios de datos son: el INE (https://www.ine.gub.uy) para IPC y PIB, el BCU (https://www.bcu.gub.uy) para datos monetarios y financieros, el MEF para datos fiscales, el Catálogo de Datos Abiertos de Uruguay (https://catalogodatos.gub.uy) y Uruguay XXI para datos de comercio exterior e inversión.
-
----
 
 ## Palabras clave
 

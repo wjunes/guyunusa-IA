@@ -6,8 +6,6 @@ Uruguay carece de una regionalización geográfica oficial única. Los geógrafo
 
 Las principales regiones son cinco: **Litoral Oeste, Sur y Área Metropolitana, Norte y Cuchillas, Este y Litoral Atlántico, y Centro**.
 
----
-
 ## 1. Litoral Oeste (Región Litoral)
 
 | Característica | Descripción |
@@ -25,8 +23,6 @@ Las principales regiones son cinco: **Litoral Oeste, Sur y Área Metropolitana, 
 
 La región del Litoral Oeste es la segunda en importancia económica y demográfica del país, con una base productiva diversificada (ganadería, citricultura, celulosa, turismo termal). La ciudad de **Salto** (~125.000 habitantes) es el segundo centro urbano de Uruguay.
 
----
-
 ## 2. Sur y Área Metropolitana
 
 | Característica | Descripción |
@@ -42,8 +38,6 @@ La región del Litoral Oeste es la segunda en importancia económica y demográf
 | **Hitos** | Puerto de Montevideo; Aeropuerto Internacional de Carrasco (MVD); Expo Prado; playas metropolitanas; rambla de Montevideo (~22 km) |
 
 La región metropolitana concentra ~55–60% de la población total del país y ~65–70% del PIB nacional. Es el principal nodo de infraestructura logística (Puerto de Montevideo, Aeropuerto de Carrasco, red vial nacional convergente en Montevideo).
-
----
 
 ## 3. Norte y Cuchillas (Región Norte)
 
@@ -61,8 +55,6 @@ La región metropolitana concentra ~55–60% de la población total del país y 
 
 La Región Norte es la menos densamente poblada del Uruguay pero posee importantes recursos ganaderos (campos de basalto) y forestales. La frontera con Brasil determina dinámicas de integración cultural y económica únicas (Portuñol, zonas francas, comercio fronterizo).
 
----
-
 ## 4. Este y Litoral Atlántico
 
 | Característica | Descripción |
@@ -79,8 +71,6 @@ La Región Norte es la menos densamente poblada del Uruguay pero posee important
 
 La costa atlántica (Rocha, Maldonado) es el principal destino turístico de Uruguay. La planicie de Treinta y Tres y Rocha es la zona arrocera por excelencia, aprovechando los Planosoles y la abundancia de agua de la cuenca de la Laguna Merín.
 
----
-
 ## 5. Centro (Región Central)
 
 | Característica | Descripción |
@@ -96,8 +86,6 @@ La costa atlántica (Rocha, Maldonado) es el principal destino turístico de Uru
 | **Hitos** | Centro geográfico de Uruguay (Durazno); Represa Rincón del Bonete (1945); Festival de Folclore de Durazno; Cerro Catedral (514 m, Lavalleja); Cerro Arequita (330 m, Lavalleja) |
 
 La Región Central es el corazón ganadero de Uruguay. Los embalses del Río Negro (Bonete, Baygorria, El Palmar) son la mayor concentración de infraestructura hidroeléctrica del país.
-
----
 
 ## Tabla comparativa de regiones
 

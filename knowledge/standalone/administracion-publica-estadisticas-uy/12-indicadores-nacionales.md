@@ -4,8 +4,6 @@
 
 Los **indicadores nacionales** son medidas cuantitativas que permiten seguir la evolución de la economía, la sociedad y las condiciones de vida en Uruguay. Son producidos por organismos del **Sistema Estadístico Nacional (SEN)**, principalmente el **INE** y el **BCU**, y son difundidos periódicamente en forma de boletines, comunicados y bases de datos.
 
----
-
 ## Indicadores macroeconómicos
 
 ### Producto Interno Bruto (PIB)
@@ -33,8 +31,6 @@ Los **indicadores nacionales** son medidas cuantitativas que permiten seguir la 
 
 Uruguay tiene uno de los PIB per cápita más altos de América Latina. En 2022, el PIB per cápita en paridad de poder adquisitivo (PPA) superó los USD 25.000 (Banco Mundial).
 
----
-
 ### Índice de Precios al Consumo (IPC)
 
 | Aspecto | Detalle |
@@ -48,13 +44,9 @@ Uruguay tiene uno de los PIB per cápita más altos de América Latina. En 2022,
 
 El IPC es el indicador de inflación de referencia para la política monetaria, los contratos de alquiler indexados en pesos, los ajustes salariales y las escalas tributarias.
 
----
-
 ### Tipo de cambio
 
 El **BCU** publica diariamente la cotización oficial del dólar estadounidense y otras monedas. Uruguay tiene un **régimen de tipo de cambio flotante** desde 2002. El tipo de cambio interbancario es la referencia para contratos y operaciones financieras.
-
----
 
 ## Indicadores del mercado laboral
 
@@ -76,8 +68,6 @@ Los indicadores de empleo son producidos por el **INE** a partir de la **ECH** y
 | 2007–2015 | Descenso sostenido a ~6–7% |
 | 2020 (COVID-19) | Repunte a ~10% |
 | 2022–2023 | Retorno a ~8% |
-
----
 
 ## Indicadores de pobreza y distribución del ingreso
 
@@ -105,8 +95,6 @@ El **Coeficiente de Gini** mide la desigualdad en la distribución del ingreso (
 
 Uruguay tiene una de las distribuciones del ingreso más equitativas de América Latina.
 
----
-
 ## Indicadores demográficos
 
 Ver archivo `13-estadisticas-demograficas.md` para desarrollo completo. Resumen:
@@ -119,8 +107,6 @@ Ver archivo `13-estadisticas-demograficas.md` para desarrollo completo. Resumen:
 | Esperanza de vida al nacer | ~77 años (promedio) |
 | Tasa global de fecundidad | ~1,5 hijos por mujer |
 
----
-
 ## Índice de Desarrollo Humano (IDH)
 
 El **IDH** es un indicador compuesto elaborado por el **PNUD** (Programa de Naciones Unidas para el Desarrollo) que combina:
@@ -130,13 +116,9 @@ El **IDH** es un indicador compuesto elaborado por el **PNUD** (Programa de Naci
 
 Uruguay se ubica consistentemente en la categoría de **desarrollo humano alto**, entre los tres primeros de América Latina, con valores de IDH superiores a 0,81.
 
----
-
 ## Índice Medio de Salarios (IMS)
 
 El **IMS** mide la evolución de los salarios nominales y reales en Uruguay. Lo produce el INE mensualmente. Sirve como base para las negociaciones tripartitas de los Consejos de Salarios.
-
----
 
 ## Indicadores de deuda pública
 
@@ -146,8 +128,6 @@ El **MEF** y el **BCU** publican mensualmente:
 - **Resultado fiscal del Sector Público Global**.
 
 La deuda pública uruguaya se redujo desde más del 100% del PIB en 2002 a rangos del 60–70% del PIB en 2020–2023.
-
----
 
 ## Palabras clave
 

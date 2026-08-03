@@ -11,8 +11,6 @@ Sede central: 18 de Julio 1373, Montevideo. Horario de atención al público: 10
 **¿IMPO es una empresa del Estado?**
 No exactamente. IMPO es una "persona jurídica de derecho público no estatal", categoría que la sitúa fuera de la Administración Central y de los entes autónomos, pero que le otorga una función pública. Su personal está bajo el régimen laboral privado (no el estatuto del funcionario público), aunque está sujeto a la ley anticorrupción (Ley 17.060) y al artículo 175 del Código Penal.
 
----
-
 ## Sobre el Diario Oficial
 
 **¿Qué es el Diario Oficial y para qué sirve?**
@@ -26,8 +24,6 @@ En https://www.impo.com.uy/diariooficial se puede buscar por fecha de publicaci�
 
 **¿Cómo puedo publicar un aviso en el Diario Oficial?**
 Dirigiéndose a la sede de IMPO (18 de Julio 1373) o consultando por WhatsApp (091 786 837). Las tarifas vigentes están en: https://www.impo.com.uy/tarifas-avisos-y-documentos/
-
----
 
 ## Sobre normativa y bases de datos
 
@@ -49,8 +45,6 @@ Es una compilación oficial que integra el texto original de una ley con todas s
 **¿Qué son la UR, la URA y la CRA?**
 Son unidades de valor indexadas utilizadas en contratos (arrendamientos urbanos, rurales y agrarios). Sus valores son publicados y actualizados por IMPO en: https://www.impo.com.uy/valores.
 
----
-
 ## Sobre acceso a la información y transparencia
 
 **¿Tengo derecho a pedir información a cualquier organismo del Estado?**
@@ -61,8 +55,6 @@ IMPO publica en su portal: balances contables auditados (desde 2009), dictámene
 
 **¿Cómo hago una solicitud de acceso a la información a IMPO?**
 Dirigirse por correo a la asesoría jurídica de IMPO: Dra. Elena Marmissolle (emarmissolle@impo.com.uy). El plazo de respuesta es de 20 días hábiles (prorrogable por otros 20 en casos excepcionales).
-
----
 
 ## Sobre el BNC-UY y este dominio
 

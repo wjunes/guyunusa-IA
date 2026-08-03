@@ -6,8 +6,6 @@ Los **charrúas** son el pueblo indígena más documentado históricamente de lo
 
 La historiografía uruguaya asignó a los charrúas un lugar central en la narrativa nacional, construyéndose una identidad de "pueblo charrúa" que sobrepasó los datos históricos y arqueológicos precisos. Esta construcción identitaria es objeto de análisis historiográfico por parte de investigadores como Daniel Vidart, Renzo Pi Ugarte y otros.
 
----
-
 ## Territorio y distribución geográfica
 
 | Parámetro | Descripción |
@@ -17,8 +15,6 @@ La historiografía uruguaya asignó a los charrúas un lugar central en la narra
 | **Zonas de solapamiento** | Con guenoas/minuanes al norte y noreste; con chanás en el litoral inferior del Río Uruguay; con yaros al nordeste |
 
 Los charrúas eran un pueblo de **gran movilidad territorial**: no tenían aldeas fijas y se desplazaban siguiendo los ciclos de caza, pesca y recolección.
-
----
 
 ## Organización social y política
 
@@ -38,8 +34,6 @@ Los charrúas eran un pueblo de **gran movilidad territorial**: no tenían aldea
 - La **poliginia** (un hombre con varias mujeres) estaba documentada, especialmente entre caciques.
 - Los matrimonios podían implicar intercambios entre bandas, reforzando alianzas.
 - Las mujeres cumplían roles fundamentales en la economía doméstica.
-
----
 
 ## Economía y subsistencia
 
@@ -61,16 +55,12 @@ Los charrúas eran **cazadores-recolectores-pescadores** sin agricultura estable
 - Miel silvestre (importante en la alimentación).
 - Moluscos y crustáceos en zonas ribereñas y costeras.
 
----
-
 ## Vivienda y movilidad
 
 - Habitaban **toldos** construidos con ramas, cueros de animales y pieles cosidas.
 - Los toldos eran desmontables, transportables y se adaptaban al clima.
 - No construían aldeas permanentes.
 - En las descripciones de los cronistas, los "toldos" charrúas eran de tamaño pequeño a mediano.
-
----
 
 ## Armas y herramientas
 
@@ -83,8 +73,6 @@ Los charrúas eran **cazadores-recolectores-pescadores** sin agricultura estable
 | **Raspadores** | Para el trabajo del cuero |
 | **Agujas de hueso** | Para coser cueros y pieles |
 
----
-
 ## Vestimenta y adornos
 
 - Los charrúas usaban **pieles y cueros** de animales, especialmente en épocas frías.
@@ -93,13 +81,9 @@ Los charrúas eran **cazadores-recolectores-pescadores** sin agricultura estable
 - **Perforaciones:** de labio inferior (tembetá, según algunos cronistas) y orejas.
 - **Adornos:** plumas, dientes de animales, conchas.
 
----
-
 ## Lengua
 
 La **lengua charrúa** está prácticamente extinta y es muy poco conocida. Los documentos coloniales conservaron algunas palabras y topónimos. Se sabe que era una lengua aislada o de filiación incierta, sin relación demostrada con el guaraní, el araucano u otras lenguas mejor documentadas de la región. → Ver `12-lenguas.md`
-
----
 
 ## Espiritualidad y rituales
 
@@ -117,8 +101,6 @@ Los rituales funerarios charrúas son uno de los aspectos mejor documentados:
 ### Mburucuyá o ceremonias colectivas
 Los charrúas se reunían periódicamente en grandes concentraciones de bandas, que incluían intercambios, celebraciones y deliberaciones colectivas.
 
----
-
 ## Relaciones con otros pueblos
 
 | Pueblo | Tipo de relación predominante |
@@ -128,8 +110,6 @@ Los charrúas se reunían periódicamente en grandes concentraciones de bandas, 
 | **Yaros** | Conflictos documentados |
 | **Guaraníes** | Conflictos y tensiones; los guaraníes los denominaban "tapé" (extranjero) y/o con otros términos |
 | **Europeos (siglo XVI en adelante)** | Inicialmente hostil; luego relaciones complejas de alianza, conflicto y dependencia |
-
----
 
 ## Contacto con los europeos y evolución histórica
 
@@ -156,8 +136,6 @@ Cuatro sobrevivientes de Salsipuedes —**Vaimaca Pirú** (cacique), **Guyunusa*
 
 Los restos de **Vaimaca Pirú** permanecieron durante décadas en el Musée de l'Homme de París y fueron repatriados a Uruguay en 2002, donde fueron sepultados con honores en el Panteón Nacional.
 
----
-
 ## Legado
 
 El legado charrúa en Uruguay es tanto cultural como simbólico:
@@ -165,8 +143,6 @@ El legado charrúa en Uruguay es tanto cultural como simbólico:
 - Numerosos topónimos del Uruguay derivan de la lengua charrúa o de nombres relacionados.
 - Descendientes biológicos de los charrúas persisten en la población uruguaya, detectables mediante estudios genéticos.
 - La memoria charrúa es reivindicada por asociaciones de descendientes. → Ver `18-descendientes-e-identidad.md`
-
----
 
 ## Palabras clave
 

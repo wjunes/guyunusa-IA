@@ -2,8 +2,6 @@
 
 Términos, instituciones y conceptos clave del ámbito deportivo uruguayo.
 
----
-
 **AUF (Asociación Uruguaya de Fútbol)**: Organismo rector del fútbol uruguayo, fundado el 30 de marzo de 1900. Miembro fundador de la CONMEBOL y afiliado a la FIFA desde 1922. Organiza la Liga AUF Uruguaya, el fútbol femenino, el futsal y las selecciones nacionales.
 
 **Celeste (La)**: Apodo de la selección uruguaya de fútbol, por el color celeste (azul claro) de su camiseta. También se usa para referirse a otras selecciones nacionales uruguayas en distintos deportes.

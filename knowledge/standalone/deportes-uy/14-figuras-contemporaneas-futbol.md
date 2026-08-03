@@ -4,8 +4,6 @@
 
 La generación dorada del fútbol uruguayo del siglo XXI produjo tres delanteros de élite mundial que marcaron una época: **Diego Forlán**, **Edinson Cavani** y **Luis Suárez**. Los tres compartieron vestuario en La Celeste durante más de una década y formaron la delantera más prolífica de la historia uruguaya. Sus carreras en los mejores clubes de Europa los convirtieron en referentes mundiales; su actuación colectiva llevó a Uruguay al **cuarto puesto del Mundial 2010** y a la **Copa América 2011**.
 
----
-
 ## Diego Forlán (1979)
 
 **Diego Martín Forlán Corazo** (Montevideo, 19 de mayo de 1979) es el jugador uruguayo más destacado de la primera década del siglo XXI y uno de los pocos futbolistas sudamericanos en ganar el **Balón de Oro** de una Copa del Mundo. Delantero de potencia de disparo extraordinaria —especialmente de larga distancia—, fue figura indiscutida del Uruguay que llegó cuarto en el **Mundial de Sudáfrica 2010**, donde fue elegido **mejor jugador del torneo**.
@@ -28,8 +26,6 @@ En el Mundial 2010, sus disparos de larga distancia —especialmente el doble an
 | 2009 | Segunda Bota de Oro europea |
 | 2010 | Balón de Oro del Mundial de Sudáfrica; Europa League con Atlético; Premio Puskás |
 | 2011 | Fichaje por Inter de Milán |
-
----
 
 ## Edinson Cavani (1987)
 
@@ -56,8 +52,6 @@ En la selección fue parte de la generación del **cuarto puesto en 2010** y la 
 | 2013-2020 | PSG — máximo goleador histórico del club (200+ goles) |
 | 2018 | Mundial Rusia — dos goles ante Portugal en octavos |
 | 2020-2022 | Manchester United |
-
----
 
 ## Luis Suárez (1987)
 

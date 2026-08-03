@@ -4,8 +4,6 @@
 
 Esta cronología registra los hitos principales de la historia de la Administración Pública uruguaya y del Sistema Estadístico Nacional, desde la fundación del Estado hasta las transformaciones recientes del siglo XXI.
 
----
-
 ## Período colonial y fundacional (1724–1830)
 
 | Año | Hito |
@@ -15,8 +13,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1825 | Declaración de independencia; inicio de la construcción del Estado nacional |
 | 1828 | Convención Preliminar de Paz (con Argentina y Brasil); autonomía formal |
 | 1830 | **Promulgación de la primera Constitución**: funda los tres poderes del Estado uruguayo |
-
----
 
 ## Siglo XIX: construcción del Estado (1830–1903)
 
@@ -30,8 +26,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1887 | Creación de la **Oficina de Estadística General** |
 | 1896 | Fundación del **BROU** (Banco de la República Oriental del Uruguay) |
 
----
-
 ## Batllismo y expansión del Estado (1903–1930)
 
 | Año | Hito |
@@ -43,8 +37,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1918 | **Constitución de 1918**: voto universal masculino; separación formal Iglesia-Estado |
 | 1919 | **Ley 7.098**: creación de la **Dirección General de Estadística (DGE)** — primer organismo estadístico formal |
 
----
-
 ## Estado de bienestar y colegiado ejecutivo (1930–1967)
 
 | Año | Hito |
@@ -55,8 +47,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1943 | Ley 10.388: primer **Estatuto del Funcionario Público** |
 | 1952 | Creación de **AFE** y de la **ANP**; Constitución colegiada (Consejo Nacional de Gobierno) |
 | 1963 | **Censo Nacional de Población y Viviendas** — primer censo moderno |
-
----
 
 ## Reforma constitucional y crisis (1967–1985)
 
@@ -72,8 +62,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1985 | Retorno a la democracia; restitución de funcionarios destituidos durante la dictadura |
 | 1985 | Censo Nacional de Población y Viviendas |
 
----
-
 ## Democracia y reforma del Estado (1985–2005)
 
 | Año | Hito |
@@ -88,8 +76,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 1998 | Ley 17.060: uso indebido del poder público; creación de la **JUTEP** |
 | 2000 | Ley 17.250: Defensa del Consumidor |
 | 2002 | Ley 17.556 (TOCAF): marco integrado de administración financiera y función pública |
-
----
 
 ## Modernización, gobierno digital y gobierno abierto (2005–presente)
 
@@ -113,8 +99,6 @@ Esta cronología registra los hitos principales de la historia de la Administrac
 | 2022 | Uruguay inicia proceso formal de adhesión a la **OCDE** |
 | 2023 | **Censo de Población, Hogares y Viviendas 2023** (con captura digital y autocenso en línea) |
 | 2023 | Ley 20.130: Reforma de la Seguridad Social |
-
----
 
 ## Palabras clave
 

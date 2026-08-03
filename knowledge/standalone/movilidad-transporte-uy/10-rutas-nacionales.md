@@ -6,8 +6,6 @@ Las rutas nacionales de Uruguay son las vías de comunicación terrestre de jera
 
 La numeración de las rutas sigue en general el sentido de los punteros del reloj a partir de Montevideo, aunque con algunas excepciones históricas. Las rutas son identificadas por un número precedido de la denominación "Ruta".
 
----
-
 ## Tabla de rutas nacionales principales
 
 | Ruta | Desde | Hasta | Longitud aprox. (km) | Departamentos principales | Observaciones |
@@ -35,8 +33,6 @@ La numeración de las rutas sigue en general el sentido de los punteros del relo
 | Ruta 101 | Canelones (aeropuerto) | Ruta 9 | 45 | Canelones | Acceso Aeropuerto Internacional de Carrasco |
 | Ruta 102 | Ruta 1 | Ruta 8 (circunvalación) | 90 | Canelones, Montevideo | Circunvalación metropolitana de Montevideo |
 
----
-
 ## Rutas de acceso a Montevideo
 
 Las rutas de acceso a Montevideo tienen especial importancia por el volumen de tráfico que concentran. Las más destacadas son:
@@ -58,8 +54,6 @@ Conecta el Aeropuerto Internacional de Carrasco con la red vial principal. Su tr
 
 ### Ruta 102 (Circunvalación)
 Permite el tránsito de vehículos (especialmente camiones de carga) entre las distintas rutas de acceso a Montevideo sin necesidad de ingresar al núcleo urbano de la capital. Tiene un rol logístico importante.
-
----
 
 ## Pasos fronterizos viales
 
@@ -84,13 +78,9 @@ Los principales pasos fronterizos habilitados para vehículos terrestres son:
 | Rio Branco – Jaguarão | Ruta 8 | Rio Branco – Jaguarão (Puente Internacional) |
 | Chuy – Chuí | Ruta 9 | Chuy – Chuí (frontera seca) |
 
----
-
 ## Señalización kilométrica
 
 Las rutas nacionales uruguayas utilizan el sistema de **kilometraje acumulado desde Montevideo**. Los mojones kilométricos son instalados y mantenidos por la DNV. Esta referencia es fundamental para la localización de incidentes, obras y controles en la red nacional.
-
----
 
 ## Palabras clave
 

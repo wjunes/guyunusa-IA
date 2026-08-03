@@ -1,3 +1,5 @@
+# Diversidad sexual e identidad de género en Uruguay
+
 ## Resumen
 
 Uruguay es uno de los países más avanzados de América Latina y del mundo en materia de **derechos de las personas LGBTIQ+**. En la última década, aprobó un conjunto de leyes que equiparan los derechos de las personas LGBTIQ+ con los de la población en general: la **Ley de Unión Concubinaria** (2007, que incluyó parejas del mismo sexo), el **Matrimonio Igualitario** (Ley 19.075, 2013), la **adopción por parejas del mismo sexo** (desde 2009) y la **Ley Integral para Personas Trans** (Ley 19.684, 2018). A pesar de estos avances legislativos, persisten desafíos en la implementación, en el acceso a derechos en la práctica y en la discriminación social.

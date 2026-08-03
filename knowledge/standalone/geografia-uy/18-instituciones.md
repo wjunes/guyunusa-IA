@@ -4,8 +4,6 @@
 
 Este archivo documenta las principales instituciones públicas y académicas del Uruguay con competencias en geografía, cartografía, gestión territorial, recursos naturales, estadística, meteorología y planificación. Estas instituciones son las fuentes primarias de información geográfica oficial del país.
 
----
-
 ## Instituto Geográfico Militar (IGM)
 
 | Parámetro | Descripción |
@@ -27,8 +25,6 @@ Este archivo documenta las principales instituciones públicas y académicas del
 - Venta de cartografía a organismos y público en general.
 - Cooperación con el **IDEUY** (Infraestructura de Datos Espaciales del Uruguay).
 
----
-
 ## Instituto Nacional de Estadística (INE)
 
 | Parámetro | Descripción |
@@ -48,8 +44,6 @@ Este archivo documenta las principales instituciones públicas y académicas del
 - Cartografía censal (segmentos censales, radios).
 - Encuestas periódicas: Encuesta Continua de Hogares (ECH), Encuesta de Hogares Expandida (EHE).
 - Índice de Precios al Consumo (IPC) y otras estadísticas económicas.
-
----
 
 ## Ministerio de Ambiente (MA)
 
@@ -71,8 +65,6 @@ Este archivo documenta las principales instituciones públicas y académicas del
 
 El Ministerio de Ambiente gestiona el **SNAP** (Sistema Nacional de Áreas Protegidas, Ley 17.234/2000), con aproximadamente 45 áreas protegidas que cubren ~4% del territorio.
 
----
-
 ## Ministerio de Vivienda y Ordenamiento Territorial (MVOT)
 
 | Parámetro | Descripción |
@@ -89,8 +81,6 @@ El Ministerio de Ambiente gestiona el **SNAP** (Sistema Nacional de Áreas Prote
 | **DINOT** (Dir. Nac. de Ordenamiento Territorial) | Planificación territorial; LOTDS; DNOT; SIMOT |
 | **DNC** (Dir. Nac. de Catastro) | Catastro nacional; valuación de inmuebles |
 | **DINAVI** (Dir. Nac. de Vivienda) | Política habitacional; asentamientos; MEVIR |
-
----
 
 ## Ministerio de Transporte y Obras Públicas (MTOP)
 
@@ -109,8 +99,6 @@ El Ministerio de Ambiente gestiona el **SNAP** (Sistema Nacional de Áreas Prote
 | **DNH** (Dir. Nac. de Hidrografía) | Regulación de cursos de agua navegables; obras hidráulicas |
 | **DNT** (Dir. Nac. de Topografía) | Relevamientos topográficos para obras públicas |
 
----
-
 ## Servicio de Oceanografía, Hidrografía y Meteorología de la Armada (SOHMA)
 
 | Parámetro | Descripción |
@@ -119,8 +107,6 @@ El Ministerio de Ambiente gestiona el **SNAP** (Sistema Nacional de Áreas Prote
 | **Sigla** | SOHMA |
 | **Dependencia** | Armada Nacional (Ministerio de Defensa Nacional) |
 | **Funciones** | Cartografía náutica; batimetría del Río de la Plata y aguas territoriales; meteorología marina; avisos náuticos |
-
----
 
 ## INUMET (Instituto Uruguayo de Meteorología)
 
@@ -131,8 +117,6 @@ El Ministerio de Ambiente gestiona el **SNAP** (Sistema Nacional de Áreas Prote
 | **Fundación** | 2013 (creado por Ley 19.007 como ente autónomo; antes era el Servicio Meteorológico Nacional, SMN) |
 | **Sitio web** | www.inumet.gub.uy |
 | **Funciones** | Pronósticos meteorológicos; vigilancia del tiempo; datos climáticos históricos; avisos de fenómenos severos; cooperación con la OMM (Organización Meteorológica Mundial) |
-
----
 
 ## Universidad de la República (UdelaR)
 
@@ -161,8 +145,6 @@ El **Departamento de Geografía** de la Facultad de Ciencias es la principal uni
 
 La FADU tiene el **Instituto de Teoría y Urbanismo (ITU)**, que investiga la planificación urbana, el ordenamiento territorial y el desarrollo metropolitano.
 
----
-
 ## Oficina de Planeamiento y Presupuesto (OPP)
 
 | Parámetro | Descripción |
@@ -172,8 +154,6 @@ La FADU tiene el **Instituto de Teoría y Urbanismo (ITU)**, que investiga la pl
 | **Dependencia** | Presidencia de la República |
 | **Sitio web** | www.opp.gub.uy |
 | **Funciones con relevancia geográfica** | Planificación estratégica nacional; IDEUY (Infraestructura de Datos Espaciales); desarrollo regional; OT metropolitano |
-
----
 
 ## IDEUY (Infraestructura de Datos Espaciales del Uruguay)
 
@@ -186,8 +166,6 @@ La FADU tiene el **Instituto de Teoría y Urbanismo (ITU)**, que investiga la pl
 | **Portal** | www.gub.uy/infraestructura-datos-espaciales |
 | **Función** | Plataforma de integración y publicación de datos geoespaciales del Estado uruguayo; estándares OGC |
 
----
-
 ## Administración Nacional de Puertos (ANP)
 
 | Parámetro | Descripción |
@@ -195,8 +173,6 @@ La FADU tiene el **Instituto de Teoría y Urbanismo (ITU)**, que investiga la pl
 | **Sigla** | ANP |
 | **Función geográfica** | Gestión del Puerto de Montevideo y otros puertos fluviales; dragado; balizamiento |
 | **Sitio web** | www.anp.com.uy |
-
----
 
 ## Palabras clave
 

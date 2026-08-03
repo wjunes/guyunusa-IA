@@ -6,8 +6,6 @@ El lavado de activos (LA) es el proceso por el cual fondos de origen ilícito (n
 
 Uruguay, como miembro de la comunidad internacional y país con un sistema financiero abierto e integrado, ha desarrollado un marco normativo e institucional robusto para la prevención del lavado de activos y el financiamiento del terrorismo (ALD/CFT), alineado con los estándares del Grupo de Acción Financiera Internacional (GAFI/FATF).
 
----
-
 ## Evolución del marco normativo
 
 **Ley 17.016 (1998)**: tipificó el lavado de activos como delito en Uruguay, inicialmente vinculado al narcotráfico.
@@ -23,8 +21,6 @@ Uruguay, como miembro de la comunidad internacional y país con un sistema finan
 - Amplió las facultades del SENACLAFT.
 - Incorporó disposiciones sobre personas expuestas políticamente (PEP).
 - Reguló las personas jurídicas y los fideicomisos (transparencia de beneficiarios finales).
-
----
 
 ## Instituciones del sistema ALD/CFT
 
@@ -48,8 +44,6 @@ La Superintendencia de Servicios Financieros (SSF) del BCU es la autoridad ALD/C
 
 La UIAF, ubicada dentro del BCU, es la Unidad de Inteligencia Financiera (UIF) de Uruguay. Recibe y analiza los Reportes de Operaciones Sospechosas (ROS) presentados por los sujetos obligados y los pone a disposición de las autoridades judiciales y fiscales competentes.
 
----
-
 ## Sujetos obligados
 
 Los sujetos obligados son las entidades y personas que deben cumplir con las normas ALD/CFT:
@@ -72,8 +66,6 @@ Los sujetos obligados son las entidades y personas que deben cumplir con las nor
 - Joyerías y comerciantes de metales y piedras preciosas.
 - Zonas francas y zonas de procesamiento de exportaciones.
 - Proveedores de servicios a sociedades (formación de empresas offshore, administración de fideicomisos).
-
----
 
 ## Obligaciones de los sujetos obligados
 
@@ -100,8 +92,6 @@ Los PEP son individuos que desempeñan (o han desempeñado recientemente) funcio
 **Conservación de registros**:
 Mantener documentación de las operaciones y la identidad de los clientes por un mínimo de cinco años.
 
----
-
 ## GAFILAT y GAFI
 
 **GAFI (Groupe d'Action Financière / Financial Action Task Force — FATF)**: organismo intergubernamental creado en 1989 por el G7 para desarrollar políticas de lucha contra el lavado de activos. Emite las 40 Recomendaciones que son el estándar internacional de ALD/CFT.
@@ -109,8 +99,6 @@ Mantener documentación de las operaciones y la identidad de los clientes por un
 **GAFILAT (Grupo de Acción Financiera de Latinoamérica)**: organismo regional afiliado al GAFI que agrupa a los países de América Latina. Uruguay es miembro fundador del GAFILAT (antes GAFISUD). El GAFILAT realiza evaluaciones mutuas del cumplimiento de cada país miembro con los estándares del GAFI.
 
 Uruguay ha sido evaluado por el GAFILAT en varias rondas de evaluación mutua. La última evaluación (Quinta Ronda, iniciada en los años 2020) evaluó tanto el cumplimiento técnico como la efectividad del sistema ALD/CFT.
-
----
 
 ## Transparencia corporativa y beneficiarios finales
 
@@ -120,13 +108,9 @@ La Ley 19.574 y decretos reglamentarios exigen la identificación del beneficiar
 - Las acciones al portador fueron eliminadas (Ley 18.930/2012 y sus modificaciones, Ley 19.288/2014): todas las acciones de las sociedades uruguayas son nominativas.
 - Los fideicomisos deben identificar a los fideicomitentes, fiduciarios, beneficiarios y protectores.
 
----
-
 ## Intercambio de información fiscal
 
 Uruguay adoptó el Estándar para el Intercambio Automático de Información Financiera (CRS — Common Reporting Standard) de la OCDE en 2017. A partir de ese año, Uruguay intercambia automáticamente con más de 100 jurisdicciones información sobre cuentas financieras de sus residentes en el exterior y de no residentes en Uruguay. Esto eliminó efectivamente el secreto bancario con fines de evasión fiscal internacional.
-
----
 
 ## Palabras clave
 

@@ -1,7 +1,5 @@
 # Glosario de Meteorología y Climatología
 
----
-
 ## A
 
 **Adiabática:** Proceso termodinámico en el que no hay intercambio de calor con el entorno. Una parcela de aire que asciende se enfría adiabáticamente (~1 °C/100 m para aire seco; ~0,6 °C/100 m para aire saturado).
@@ -26,8 +24,6 @@
 
 **AWS (Automatic Weather Station):** Ver *Estación meteorológica automática*.
 
----
-
 ## B
 
 **Balance hídrico:** Relación entre la precipitación (entrada de agua) y la evapotranspiración (salida). Cuando la precipitación supera la ETP, hay superávit (agua disponible para recarga de acuíferos y escorrentía). Cuando la ETP supera la precipitación, hay déficit (estrés hídrico).
@@ -39,8 +35,6 @@
 **BM25 / Índice SPI (Standardized Precipitation Index):** El SPI es un índice estadístico que cuantifica la anomalía de precipitación para un período dado. Se usa para monitorear y caracterizar sequías.
 
 **BUFR:** Formato binario universal de datos meteorológicos de la OMM.
-
----
 
 ## C
 
@@ -70,8 +64,6 @@
 
 **Cumulonimbus (Cb):** La nube de mayor desarrollo vertical; base a ~500–2.000 m; tope hasta la tropopausa o más. Produce lluvia intensa, granizo, rayos y vientos fuertes.
 
----
-
 ## D
 
 **DCAO:** Departamento de Ciencias de la Atmósfera y los Océanos (Facultad de Ciencias, Udelar). Principal centro académico de investigación en meteorología y climatología de Uruguay.
@@ -79,8 +71,6 @@
 **Depresión extratropical:** Sinónimo de ciclón extratropical en latitudes medias.
 
 **Downscaling:** Técnica para obtener información climática o meteorológica a mayor resolución espacial a partir de modelos de baja resolución (globales). Puede ser dinámico (modelos regionales) o estadístico.
-
----
 
 ## E
 
@@ -100,8 +90,6 @@
 
 **Exosfera:** Capa más externa de la atmósfera (> 600 km). Las moléculas pueden escapar al espacio.
 
----
-
 ## F
 
 **Frente frío:** Límite entre una masa de aire frío que avanza y una masa de aire cálido que retrocede. En Uruguay, los frentes fríos producen el paso del Pampero: viento del sur, descenso brusco de temperatura, lluvias y tormentas previas.
@@ -109,8 +97,6 @@
 **Frente cálido:** Límite entre una masa de aire cálido que avanza y una masa de aire frío que retrocede. Precipitaciones estratiformes, generalmente más suaves que el frente frío.
 
 **Frente ocluido:** Resultado de la unión entre un frente frío y un frente cálido; común en ciclones maduros.
-
----
 
 ## G
 
@@ -124,8 +110,6 @@
 
 **GTS (Global Telecommunication System):** Sistema de telecomunicaciones de la OMM para el intercambio de datos meteorológicos en tiempo real entre servicios meteorológicos del mundo.
 
----
-
 ## H
 
 **Helada:** Temperatura igual o inferior a 0 °C en la caseta meteorológica (helada meteorológica) o en la superficie del suelo (helada agronómica). Daña o destruye cultivos y pasturas.
@@ -135,8 +119,6 @@
 **Higrómetro:** Instrumento para medir la humedad relativa del aire.
 
 **Humedad relativa (HR):** Relación entre el contenido actual de vapor de agua del aire y el contenido máximo posible a la misma temperatura (punto de saturación). Expresada en %. En Uruguay, promedio anual ~75–80 %.
-
----
 
 ## I
 
@@ -148,27 +130,19 @@
 
 **IFS:** *Integrated Forecasting System*. Modelo global del ECMWF; considerado el más preciso del mundo.
 
----
-
 ## J
 
 **Jet stream (Corriente en chorro):** Fuertes corrientes de viento en la troposfera superior (~200–300 hPa). La corriente en chorro polar (~60° S en el HS) y la subtropical (~30° S) tienen gran influencia en el tiempo de Uruguay.
 
----
-
 ## K
 
 **Köppen, clasificación climática:** Sistema de clasificación del clima basado en temperatura y precipitación. El clima de Uruguay corresponde principalmente al tipo **Cfa** (*Subtropical húmedo sin estación seca, verano cálido*).
-
----
 
 ## L
 
 **La Niña:** Fase fría del ENSO; enfriamiento anómalo del Pacífico ecuatorial. Produce déficit de precipitaciones en Uruguay, aumentando el riesgo de sequía.
 
 **LIDAR:** Instrumento de teledetección que emite pulsos láser y mide el retorno para obtener perfiles de aerosoles, nubes o viento en la atmósfera.
-
----
 
 ## M
 
@@ -182,8 +156,6 @@
 
 **MJO (Madden-Julian Oscillation):** Modo de variabilidad intraestacional tropical (~30–90 días); influye en la actividad convectiva tropical y puede modular la actividad de sistemas de tiempo en el cono sur.
 
----
-
 ## N
 
 **NDC:** *Nationally Determined Contribution*. Contribuciones Determinadas a Nivel Nacional: compromisos de cada país en el marco del Acuerdo de París para reducir emisiones de GEI y adaptarse al cambio climático.
@@ -196,8 +168,6 @@
 
 **NWP (Numerical Weather Prediction):** Ver *Predicción Numérica del Tiempo*.
 
----
-
 ## O
 
 **OMM:** Organización Meteorológica Mundial (WMO en inglés). Organismo especializado de la ONU para la meteorología y la hidrología. Uruguay es miembro desde 1950.
@@ -205,8 +175,6 @@
 **Ola de calor:** Período de días consecutivos con temperaturas anormalmente altas (según la definición operativa de INUMET: ≥ 3 días con Tmáx ≥ 36 °C y Tmín ≥ 22 °C [VERIFICAR]).
 
 **Ola de frío:** Período de días consecutivos con temperaturas anormalmente bajas, generalmente asociado a la entrada de masas de aire polar (Pampero).
-
----
 
 ## P
 
@@ -228,8 +196,6 @@
 
 **Punto de rocío (Td):** Temperatura a la que el aire debe enfriarse (a presión constante) para alcanzar la saturación y comenzar a condensar vapor de agua.
 
----
-
 ## R
 
 **Radar meteorológico:** Instrumento activo que emite pulsos de microondas y detecta la energía retrodispersada por los hidrometeoros. Permite estimar la precipitación y medir el viento (Doppler).
@@ -237,8 +203,6 @@
 **Radiosonde:** Instrumento electrónico lanzado en globo que mide temperatura, humedad y presión en la atmósfera libre, transmitiendo los datos por radio.
 
 **Reanálisis:** Simulación retrospectiva del estado de la atmósfera combinando modelos numéricos con asimilación de observaciones históricas. El más usado es ERA5 (ECMWF).
-
----
 
 ## S
 
@@ -255,8 +219,6 @@
 **Sudestada:** Viento del sureste que sopla con persistencia sobre el Río de la Plata, impidiendo el escurrimiento normal de las aguas hacia el océano y elevando el nivel del río entre 1 y 3 m sobre lo normal. Produce inundaciones costeras en Montevideo y Buenos Aires.
 
 **Estratosfera:** Capa de la atmósfera entre ~12 y ~50 km. Contiene la capa de ozono (~20–25 km); temperatura crece con la altitud.
-
----
 
 ## T
 
@@ -276,13 +238,9 @@
 
 **TSM:** Temperatura Superficial del Mar. Variable fundamental para la interacción océano-atmósfera; influye en la evaporación, la estabilidad y las precipitaciones.
 
----
-
 ## U
 
 **UNCLOS:** *United Nations Convention on the Law of the Sea*. Convención de las Naciones Unidas sobre el Derecho del Mar (1982); Uruguay la ratificó.
-
----
 
 ## V
 
@@ -292,19 +250,13 @@
 
 **Visibilidad:** Distancia máxima horizontal a la que puede percibirse un objeto de contraste definido. La niebla reduce la visibilidad a < 1 km; la neblina, a < 5 km.
 
----
-
 ## W
 
 **WRF (Weather Research and Forecasting Model):** Modelo numérico de mesoescala desarrollado por NCAR/NOAA. Ampliamente utilizado para investigación y pronóstico operativo en Uruguay (INUMET/IMFIA).
 
----
-
 ## Z
 
 **ZEE (Zona Económica Exclusiva):** Franja marítima de 200 millas náuticas desde la línea de base; el Estado ribereño ejerce derechos soberanos sobre los recursos. Uruguay: ~142.166 km² (Ley 17.033/1998).
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Los **cereales** constituyen un grupo de cultivos fundamental en la historia y la economía agropecuaria de Uruguay. El **trigo** es el cereal más tradicional; la **cebada cervecera** ha crecido fuertemente en las últimas décadas; el **maíz** es esencial para la alimentación animal y la agroindustria; y la **avena** y el **sorgo** cumplen roles forrajeros clave. En conjunto, los cereales de invierno y verano contribuyen de manera relevante a la rotación de cultivos y a las exportaciones agropecuarias.
 
----
-
 ## Trigo (*Triticum aestivum*)
 
 ### Historia del trigo en Uruguay
@@ -53,8 +51,6 @@ El trigo fue el primer cereal cultivado sistemáticamente en Uruguay, impulsado 
 | Don Alberto | Semillas Gentos (Argentina) | Muy difundida |
 | Diversas de origen argentino | Varios obtentores | Ampliamente utilizadas |
 
----
-
 ## Cebada cervecera (*Hordeum vulgare*)
 
 La **cebada** ha experimentado el mayor crecimiento relativo entre los cereales uruguayos en los últimos 20 años, impulsada por la demanda de la industria maltera:
@@ -83,8 +79,6 @@ La cebada uruguaya es valorada en los mercados internacionales por su calidad. S
 - Cosecha: noviembre–diciembre (antes que el trigo).
 - Variedad de referencia: **Scarlett** (alemana) y variedades nacionales desarrolladas por INIA.
 
----
-
 ## Maíz (*Zea mays*)
 
 ### Usos y producción
@@ -106,8 +100,6 @@ El maíz en Uruguay se destina principalmente a:
 - Variedades: híbridos comerciales (Pioneer, Dekalb, Syngenta, Don Mario, entre otros).
 - Mayoritariamente transgénicos (Bt + RR).
 
----
-
 ## Avena (*Avena sativa*)
 
 - Uso predominante: **cobertura de suelo** en invierno y forraje para ganadería.
@@ -115,8 +107,6 @@ El maíz en Uruguay se destina principalmente a:
 - Siembra: marzo–mayo; uso a campo sin cosechar (verdeo) o cosechada para grano.
 - Rendimiento grano: 1.500–3.000 kg/ha.
 - También se elabora **avena para consumo humano** (Quaker, Granix y otros).
-
----
 
 ## Sorgo (*Sorghum bicolor*)
 
@@ -126,16 +116,12 @@ El maíz en Uruguay se destina principalmente a:
 - Superficie: 50.000–150.000 ha/año (variable).
 - Rendimiento grano: 4.000–7.000 kg/ha.
 
----
-
 ## Colza/Canola (*Brassica napus*)
 
 - Cultivo de invierno en crecimiento desde los años 2010.
 - Produce aceite (para consumo humano y biocombustible) y harina proteica.
 - Siembra: abril–junio; cosecha: noviembre–diciembre.
 - Superficie: 30.000–80.000 ha [VERIFICAR].
-
----
 
 ## Palabras clave
 

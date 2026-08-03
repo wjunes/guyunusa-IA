@@ -1,3 +1,5 @@
+# Enfermedades no transmisibles en Uruguay
+
 ## Resumen
 
 Las **enfermedades no transmisibles (ENT)** —principalmente las enfermedades cardiovasculares, la diabetes, la hipertensión arterial y el cáncer— son la principal causa de morbimortalidad en Uruguay. Las enfermedades cardiovasculares son la **primera causa de muerte** en el país, respondiendo por aproximadamente el 30% de las muertes totales. Uruguay presenta una alta prevalencia de factores de riesgo: hipertensión arterial (alrededor del 30-35% de los adultos), diabetes (9-10%), obesidad (25-30%) y sedentarismo. El sistema de salud responde con el **Programa Nacional de ENT** del MSP y con el mecanismo de metas sanitarias del FONASA, que incentiva el control de factores de riesgo en los prestadores.

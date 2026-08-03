@@ -4,8 +4,6 @@
 
 La **energía solar** engloba el aprovechamiento de la radiación solar para generar electricidad (**fotovoltaica, FV**) o calor (**solar térmica**). Uruguay tiene condiciones de radiación solar moderadas a buenas, con un recurso solarimétrico que permite el desarrollo económico de ambas tecnologías, especialmente a partir de la caída global de costos de paneles fotovoltaicos ocurrida desde 2010.
 
----
-
 ## Recurso solar en Uruguay
 
 ### Radiación solar
@@ -18,8 +16,6 @@ La **energía solar** engloba el aprovechamiento de la radiación solar para gen
 | Departamentos con mayor recurso | Artigas, Rivera, Salto (norte) [VERIFICAR] |
 
 El recurso solar uruguayo es inferior al de los desiertos del norte de Chile, Perú o África del Norte, pero suficiente para que los proyectos fotovoltaicos sean económicamente rentables con la tecnología actual (módulos silicio cristalino, precio <0,30 USD/W en 2023) [VERIFICAR].
-
----
 
 ## Energía Solar Fotovoltaica (FV)
 
@@ -70,8 +66,6 @@ El costo de instalación de sistemas solares fotovoltaicos cayó drásticamente 
 
 Esta caída hizo viable la generación solar a gran escala y aceleró el crecimiento de las instalaciones residenciales.
 
----
-
 ## Energía Solar Térmica
 
 ### Calentadores solares de agua (CSA)
@@ -85,16 +79,12 @@ El MIEM y UTE han promovido la instalación de CSA a través de:
 - Etiquetado energético
 - Normativa de incorporación en nuevas viviendas [VERIFICAR estado actual]
 
----
-
 ## Energía Solar en el sector agropecuario
 
 En zonas rurales, los paneles solares fotovoltaicos se utilizan para:
 - Bombeo de agua para bebederos de ganado
 - Electrificación de establecimientos rurales aislados
 - Iluminación de instalaciones agropecuarias
-
----
 
 ## Ventajas y desafíos de la energía solar en Uruguay
 
@@ -113,16 +103,12 @@ En zonas rurales, los paneles solares fotovoltaicos se utilizan para:
 - **Almacenamiento:** sin baterías, no hay generación solar nocturna
 - **Impacto sobre el suelo:** las plantas solares de gran escala ocupan superficie significativa de tierra
 
----
-
 ## Marco regulatorio de la energía solar en Uruguay
 
 - **Decreto N.º 173/010 y siguientes:** marco para la generación distribuida (net metering) [VERIFICAR decretos actualizados]
 - **Licitaciones del MIEM:** para plantas de gran escala
 - **Ley de Eficiencia Energética:** incentivos a la instalación de calentadores solares y FV
 - **URSEA:** regula la calidad y conexión de los equipos solares a la red
-
----
 
 ## Palabras clave
 

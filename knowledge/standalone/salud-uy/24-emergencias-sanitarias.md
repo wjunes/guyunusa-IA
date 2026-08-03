@@ -1,3 +1,5 @@
+# Emergencias sanitarias en Uruguay
+
 ## Resumen
 
 Las **emergencias sanitarias** son situaciones de salud pública que superan la capacidad de respuesta ordinaria del sistema y requieren una respuesta coordinada y extraordinaria del Estado. La mayor emergencia sanitaria de la historia reciente de Uruguay fue la **pandemia de COVID-19 (2020–2022)**. Uruguay se distinguió en la primera ola (2020) por una respuesta ágil basada en el aislamiento voluntario y la estrategia de testeo, rastreo y aislamiento (TTA). El **Grupo Asesor Honorario en COVID-19 (GACH)**, integrado por científicos universitarios, fue un referente de la articulación entre ciencia y política sanitaria. En 2021, Uruguay realizó una de las campañas de vacunación más rápidas de América Latina. La pandemia reveló fortalezas y debilidades del sistema de salud uruguayo.

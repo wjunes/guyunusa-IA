@@ -4,8 +4,6 @@
 
 Este glosario define los términos técnicos, siglas e instituciones más frecuentes en el contexto de la educación técnica y la formación profesional de Uruguay. Ordenado alfabéticamente.
 
----
-
 **Alternancia** — Modelo pedagógico de la formación profesional en el que el estudiante alterna períodos en el centro educativo con períodos en una empresa u organización. Base de la formación dual.
 
 **ANEP** — Administración Nacional de Educación Pública. Ente autónomo que gestiona la educación pública inicial, primaria, media (DGES), técnica (DGETP) y la formación docente (CFE).

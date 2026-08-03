@@ -25,8 +25,6 @@
 - Sitio institucional: https://www.anp.com.uy/
 - Puerto de Montevideo: https://www.anp.com.uy/innovaportal/v/1/1/innova.front/puerto-de-montevideo.html
 
----
-
 ## Normativa principal
 
 | Norma | Descripción |
@@ -44,8 +42,6 @@
 
 Texto normativo: https://www.impo.com.uy/
 
----
-
 ## MERCOSUR: instrumentos normativos
 
 | Instrumento | Descripción |
@@ -58,8 +54,6 @@ Texto normativo: https://www.impo.com.uy/
 
 MERCOSUR — Portal oficial: https://www.mercosur.int/
 
----
-
 ## ALADI
 
 | Instrumento | Descripción |
@@ -69,8 +63,6 @@ MERCOSUR — Portal oficial: https://www.mercosur.int/
 | Preferencia Arancelaria Regional (PAR) | Preferencia general entre todos los miembros de la ALADI |
 
 ALADI — Portal: https://www.aladi.org/
-
----
 
 ## Organismos internacionales
 
@@ -86,16 +78,12 @@ ALADI — Portal: https://www.aladi.org/
 ### Uruguay en la OMC
 - Perfil de Uruguay en la OMC: https://www.wto.org/english/thewto_e/countries_e/uruguay_e.htm
 
----
-
 ## Recursos estadísticos
 
 - **Estadísticas de comercio exterior — DNA/Uruguay XXI**: https://www.uruguayxxi.gub.uy/es/estadisticas
 - **BCU — Balanza de pagos y estadísticas de comercio exterior**: https://www.bcu.gub.uy/Estadisticas-e-Indicadores/
 - **ALADI — Estadísticas de comercio**: https://www.aladi.org/nsfaladi/arquitec.nsf/vsitioweb/estadisticas
 - **Catálogo de Datos Abiertos de Uruguay** (AGESIC): https://catalogodatos.gub.uy/
-
----
 
 ## Palabras clave
 

@@ -1,12 +1,8 @@
 # Oceanografía y Clima en Uruguay
 
----
-
 ## Interacción océano-atmósfera
 
 El océano y la atmósfera están fuertemente acoplados: el océano absorbe calor, CO₂ y humedad de la atmósfera, y a su vez influye en los patrones climáticos mediante la evaporación, la modulación de temperaturas y la generación de sistemas de tiempo. Frente a Uruguay, esta interacción es especialmente compleja por la presencia del estuario del Río de la Plata y la confluencia de dos grandes corrientes oceánicas (Brasil y Malvinas).
-
----
 
 ## El océano como regulador del clima de Uruguay
 
@@ -17,8 +13,6 @@ El océano y la atmósfera están fuertemente acoplados: el océano absorbe calo
 | Corriente de Malvinas (fría) | Refresca las temperaturas costeras del sur y este; puede generar nieblas de advección |
 | Evaporación del Río de la Plata | Fuente de humedad para las precipitaciones en el área metropolitana |
 | Temperatura del Río de la Plata | Efecto termorregulador sobre Montevideo y la costa sur |
-
----
 
 ## ENSO (El Niño / La Niña) y Uruguay
 
@@ -51,8 +45,6 @@ El ENSO también influye en la distribución y abundancia de los recursos pesque
 - La distribución de la merluza y el calamar patagónico puede desplazarse según la posición del frente térmico Brasil-Malvinas.
 - La productividad del fitoplancton y, en consecuencia, del zooplancton y los peces, varía con las anomalías de TSM.
 
----
-
 ## Variabilidad decadal y multidecadal
 
 Además del ENSO, otras fuentes de variabilidad climática afectan al océano frente a Uruguay:
@@ -60,8 +52,6 @@ Además del ENSO, otras fuentes de variabilidad climática afectan al océano fr
 - **OAM (Oscilación del Atlántico Multidecadal, AMO):** variabilidad de decenas de años en la TSM del Atlántico Norte; puede influir sobre precipitaciones y temperatura en Uruguay a largo plazo.
 - **SAM (Modo Anular del Sur):** oscilación de los vientos circumpolares del Hemisferio Sur; influye en la posición de los frentes de tiempo y los vientos en Uruguay.
 - **PDO (Oscilación Decadal del Pacífico):** modulación de largo plazo del ENSO; influye sobre la variabilidad climática sudamericana.
-
----
 
 ## Cambio climático y el océano
 
@@ -100,8 +90,6 @@ El cambio climático puede alterar la frecuencia e intensidad de eventos extremo
 - **Precipitaciones extremas:** proyecciones de aumento en eventos de lluvia intensa (vinculadas al ciclo hidrológico).
 - **Sequías:** proyección de mayor frecuencia de eventos de La Niña o análogos bajo cambio climático [VERIFICAR].
 
----
-
 ## Monitoreo océano-clima en Uruguay
 
 | Sistema / programa | Descripción | Institución |
@@ -111,8 +99,6 @@ El cambio climático puede alterar la frecuencia e intensidad de eventos extremo
 | Estaciones meteorológicas costeras | Temperatura del aire, viento, presión, precipitación | INUMET; SOHMA; Armada |
 | Modelado climático regional | Proyecciones de cambio climático para Uruguay | INUMET; Facultad de Ciencias [VERIFICAR proyectos activos] |
 | Participación en GOOS [VERIFICAR] | Sistema Global de Observación del Océano | IOC-UNESCO / participación uruguaya |
-
----
 
 ## Palabras clave
 

@@ -1,7 +1,5 @@
 # Preguntas Frecuentes sobre Arqueología Uruguaya
 
----
-
 ## Poblamiento y prehistoria
 
 **¿Cuándo llegaron los primeros seres humanos al territorio uruguayo?**
@@ -25,8 +23,6 @@ Sí. La cerámica prehispánica aparece asociada a los contextos de los cerritos
 **¿Hubo grupos Guaraní en el Uruguay?**
 Sí. La presencia de grupos de filiación lingüística Guaraní en el actual territorio uruguayo está documentada tanto arqueológicamente (cerámica corrugada y ungulada) como en las fuentes escritas del período de contacto europeo. Los Guaraní habrían llegado al litoral del río Uruguay y posiblemente a la costa atlántica durante el primer milenio de la era cristiana, provenientes del sur del Brasil y el noreste argentino.
 
----
-
 ## Sitios arqueológicos
 
 **¿Cuál es el sitio arqueológico más importante del Uruguay?**
@@ -45,8 +41,6 @@ El principal sitio de arte rupestre del Uruguay es **Chamangá**, en el departam
 **¿Existen naufragios arqueológicos en Uruguay?**
 Sí. El litoral uruguayo y las aguas del Río de la Plata contienen naufragios de distintos períodos. El más conocido es el **Admiral Graf Spee**, acorazado alemán hundido el 17 de diciembre de 1939 frente a Montevideo, durante la Batalla del Río de la Plata. La arqueología subacuática sistemática es aún incipiente en Uruguay.
 
----
-
 ## Investigación y métodos
 
 **¿Cómo se datan los sitios arqueológicos en Uruguay?**
@@ -54,8 +48,6 @@ El método más utilizado es el **radiocarbono (¹⁴C)**, especialmente en su v
 
 **¿Qué métodos modernos se usan en arqueología uruguaya?**
 La arqueología uruguaya ha incorporado progresivamente: datación AMS, isótopos estables, análisis de ADN antiguo (de forma incipiente), zooarqueología, arqueobotánica (fitolitos, palinología), teledetección y SIG para el mapeo de sitios, fotogrametría y drones para la documentación, y traceología lítica.
-
----
 
 ## Instituciones y patrimonio
 
@@ -76,8 +68,6 @@ No existe un censo exhaustivo de todos los cerritos del Uruguay. Las prospeccion
 
 **¿Qué amenazas enfrenta el patrimonio arqueológico uruguayo?**
 Las principales amenazas son: la actividad agropecuaria (laboreo, pastoreo, forestación), las obras de infraestructura (represas, carreteras), la extracción de tierra de los cerritos, el coleccionismo privado ilegal, el vandalismo en sitios de arte rupestre y la falta de recursos para la fiscalización y la conservación.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Investigación e innovación tecnológica en Uruguay
+
 ## Resumen
 
 Uruguay invierte entre el 0,4 % y el 0,5 % de su PIB en investigación y desarrollo (I+D), una cifra modesta en términos absolutos pero relativamente alta para el contexto latinoamericano. El ecosistema de investigación tecnológica se articula en torno a la Udelar (InCo, Facultad de Ingeniería), el Instituto Pasteur de Montevideo, el PEDECIBA, el LATU y la ANII como organismo de financiamiento. Uruguay figura en posiciones intermedias-altas en el Índice Global de Innovación (GII) dentro de América Latina. Los desafíos son la baja inversión privada en I+D, la escasez de investigadores y las dificultades para transferir el conocimiento académico al sector productivo.

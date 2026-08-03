@@ -6,8 +6,6 @@ Este archivo documenta los principales impuestos del sistema tributario nacional
 
 Todos los impuestos descritos son administrados por la **Dirección General Impositiva (DGI)**, con excepción de los aranceles de importación (DNA) y las contribuciones a la seguridad social (BPS).
 
----
-
 ## IVA — Impuesto al Valor Agregado
 
 ### Descripción general
@@ -41,8 +39,6 @@ El **IVA** es el impuesto de mayor recaudación del sistema tributario uruguayo.
 
 El IVA fue creado en Uruguay por la Ley 14.100 (1972). La tasa básica fue del 20% inicialmente y experimentó variaciones. En 2007, con la reforma tributaria (Ley 18.083), se redujo del 23% al 22%. La tasa mínima se mantiene en 10%.
 
----
-
 ## IRPF — Impuesto a la Renta de las Personas Físicas
 
 ### Descripción general
@@ -75,8 +71,6 @@ Las rentas del trabajo están sujetas a una **escala de tasas progresivas** que 
 
 El IRPF aplica el principio de **renta mundial** para las rentas del trabajo y el principio **territorial** para ciertas rentas del capital.
 
----
-
 ## IRAE — Impuesto a las Rentas de las Actividades Económicas
 
 ### Descripción general
@@ -96,8 +90,6 @@ Obtención de rentas netas de fuente uruguaya por parte de empresas, sociedades 
 
 La renta imponible se determina como la diferencia entre los ingresos brutos y los gastos deducibles de fuente uruguaya, con ajustes por deducciones fiscales permitidas. Las empresas deben presentar declaración jurada anual de IRAE.
 
----
-
 ## IASS — Impuesto de Asistencia a la Seguridad Social
 
 ### Descripción general
@@ -111,8 +103,6 @@ Percepción de jubilaciones, pensiones, retiros y otras prestaciones pasivas de 
 ### Tasa
 
 Escala progresiva (similar en estructura al IRPF Categoría II) que grava las pasividades por encima del mínimo no imponible con tasas crecientes.
-
----
 
 ## IMESI — Impuesto Específico Interno
 
@@ -136,8 +126,6 @@ El **IMESI** es un impuesto selectivo al consumo que grava la primera enajenaci�
 
 Las tasas del IMESI son variables según el bien y en algunos casos se aplican por unidad de producto (ej.: por litro o por cajetilla). Son fijadas por el Poder Ejecutivo dentro de los límites establecidos por ley.
 
----
-
 ## Impuesto al Patrimonio
 
 ### Descripción general
@@ -154,8 +142,6 @@ El **Impuesto al Patrimonio (IP)** grava la tenencia de patrimonio neto positivo
 
 Existen mínimos no imponibles y desgravaciones para ciertos activos (vivienda habitual, depósitos en el sistema financiero para personas físicas, etc.).
 
----
-
 ## Impuesto de Primaria (Impuesto de Enseñanza Primaria)
 
 ### Descripción general
@@ -168,27 +154,19 @@ El **Impuesto de Primaria** es uno de los impuestos más antiguos del sistema tr
 
 Este impuesto es liquidado y recaudado por la DGI.
 
----
-
 ## ITP — Impuesto a las Transmisiones Patrimoniales
 
 ### Descripción general
 
 El **ITP** grava las transferencias onerosas y gratuitas de bienes inmuebles y otros activos. En las compraventas de inmuebles, tanto el comprador como el vendedor tributan ITP.
 
----
-
 ## ICOSA — Impuesto de Control de las Sociedades Anónimas (histórico)
 
 El **ICOSA** fue un impuesto que gravaba anualmente la existencia de las sociedades anónimas en Uruguay. Fue **eliminado** por la reforma tributaria de 2007 (Ley 18.083). Su función de registro y control quedó en parte absorbida por el RUT y los registros del BCU.
 
----
-
 ## IRPNF — Impuesto a la Renta de los No Residentes
 
 El **IRPNF** grava las rentas de fuente uruguaya obtenidas por personas físicas no residentes. Aplica el principio de la fuente. Creado por la reforma tributaria de 2007.
-
----
 
 ## Palabras clave
 

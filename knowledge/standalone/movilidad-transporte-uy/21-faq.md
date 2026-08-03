@@ -11,8 +11,6 @@ La tarjeta STM es un instrumento de pago electrónico (tecnología RFID sin cont
 **¿Dónde puedo consultar horarios y recorridos de ómnibus en Montevideo?**
 La aplicación **Montevideo Bus** (disponible para Android e iOS) ofrece recorridos, tiempos de llegada en tiempo real (basados en GPS de los vehículos) y planificación de viajes. Los datos del STM también están disponibles en formato GTFS para aplicaciones de terceros como Google Maps y Moovit.
 
----
-
 ## Transporte interdepartamental
 
 **¿Desde dónde salen los ómnibus interdepartamentales e internacionales en Montevideo?**
@@ -23,8 +21,6 @@ Sí. Los principales servicios terrestres entre Uruguay y Argentina se realizan 
 
 **¿Hay servicios de ómnibus entre Uruguay y Brasil?**
 Sí. Los principales pasos habilitados para el tráfico internacional con Brasil son: Rivera–Santana do Livramento, Artigas–Quaraí, Chuy–Chuí, Rio Branco–Jaguarão y Aceguá–Aceguá (Brasil).
-
----
 
 ## Transporte ferroviario
 
@@ -37,8 +33,6 @@ El **Ferrocarril Central** es un corredor ferroviario de aproximadamente 270 km 
 **¿Qué es AFE?**
 La **Administración de Ferrocarriles del Estado (AFE)** es el ente autónomo del Estado uruguayo que gestiona el sistema ferroviario nacional. Fue creado por la Ley 11.907 de 1952, tras la nacionalización de los ferrocarriles que estaban en manos de empresas británicas. Su sede es la Estación Central General Artigas (La Paz 1095, Montevideo).
 
----
-
 ## Transporte aéreo
 
 **¿Cuál es el aeropuerto principal de Uruguay?**
@@ -50,8 +44,6 @@ Sí. Uruguay cuenta con aeropuertos en las principales ciudades del interior: Sa
 **¿Existe aerolínea de bandera en Uruguay?**
 No. **PLUNA** (Primeras Líneas Uruguayas de Navegación Aérea), fundada en 1936, fue la aerolínea de bandera hasta su liquidación definitiva en 2012. Desde entonces, el mercado aéreo uruguayo es operado exclusivamente por aerolíneas extranjeras.
 
----
-
 ## Transporte marítimo y fluvial
 
 **¿Cómo se viaja en ferri entre Uruguay y Argentina?**
@@ -60,8 +52,6 @@ Los servicios de ferri entre Uruguay y Argentina conectan principalmente **Colon
 **¿Cuál es el puerto más importante de Uruguay?**
 El **Puerto de Montevideo** es el principal puerto de Uruguay en términos de volumen de contenedores y comercio general. La **Terminal Cuenca del Plata (TCP)**, operada por DP World bajo concesión de la ANP, es la principal terminal de contenedores. El Puerto de **Nueva Palmira** es el más importante para la exportación de granos a granel.
 
----
-
 ## Infraestructura vial
 
 **¿Cuántas rutas nacionales tiene Uruguay?**
@@ -69,8 +59,6 @@ Uruguay cuenta con varias decenas de rutas nacionales numeradas, que conectan Mo
 
 **¿Hay autopistas en Uruguay?**
 Uruguay cuenta con tramos de alta capacidad en los accesos a Montevideo y en algunos corredores principales (Ruta 1 desde Montevideo hacia San José, el Acceso Sur, tramos de la Ruta 5 y la Ruta 8, la Autopista Interbalnearia). La red de autopistas es limitada en extensión comparada con países vecinos.
-
----
 
 ## Seguridad vial
 
@@ -83,14 +71,10 @@ El límite general es de **0,3 g/L de alcohol en sangre** (BAC). Para conductore
 **¿Quién es el organismo responsable de la seguridad vial en Uruguay?**
 La **Unidad Nacional de Seguridad Vial (UNASEV)**, creada por la Ley 18.113 de 2007, es el organismo responsable de coordinar la política nacional de seguridad vial, elaborar el Plan Nacional de Seguridad Vial y gestionar las estadísticas de siniestros.
 
----
-
 ## Electromovilidad
 
 **¿Uruguay fomenta el uso de vehículos eléctricos?**
 Sí. Uruguay tiene una política activa de fomento a la electromovilidad basada en: incentivos fiscales a la importación de vehículos eléctricos (Decreto 354/009 y Ley 19.728), desarrollo de una red de cargadores públicos por parte de UTE, y renovación parcial de la flota de transporte colectivo con unidades eléctricas. La alta participación de fuentes renovables en la generación eléctrica uruguaya hace que la carga de vehículos eléctricos tenga una huella de carbono muy reducida.
-
----
 
 ## Palabras clave
 

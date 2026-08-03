@@ -1,3 +1,5 @@
+# Costa y ambiente marino de Uruguay
+
 ## Resumen
 
 Uruguay tiene **660 km de costa** sobre el Río de la Plata y el Océano Atlántico, con ecosistemas costeros y marinos de gran valor ecológico y económico. La **Zona Económica Exclusiva (ZEE)** uruguaya abarca más de 140.000 km² de mar y es uno de los caladeros más productivos del Atlántico sur. Los **lobos marinos** forman grandes colonias en el litoral atlántico (Isla de Lobos, Cabo Polonio), las **tortugas marinas** desovan en las playas del este, y se registran avistamientos de **ballenas** en el Río de la Plata y la costa oceánica. El **Río de la Plata** es el estuario más grande del mundo por volumen de agua, y comparte su gestión con Argentina. Los principales desafíos son la **pesca excesiva** de algunas especies, la **contaminación del agua** (especialmente en la bahía de Montevideo y las playas metropolitanas) y los impactos del **turismo de masa** en las playas del este.

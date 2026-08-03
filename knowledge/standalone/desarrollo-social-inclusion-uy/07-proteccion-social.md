@@ -10,8 +10,6 @@ Uruguay tiene uno de los sistemas de protección social más desarrollados de Am
 2. **Protección social no contributiva** (transferencias del MIDES, pensiones asistenciales).
 3. **Servicios sociales universales** (educación, salud, vivienda).
 
----
-
 ## Pilar contributivo: la seguridad social
 
 El sistema de seguridad social contributivo uruguayo cubre a los trabajadores formales y sus familias. Su eje es el **Banco de Previsión Social (BPS)**, que gestiona:
@@ -24,8 +22,6 @@ El sistema de seguridad social contributivo uruguayo cubre a los trabajadores fo
 - Prestaciones por invalidez.
 
 Ver dominio `sistema-financiero-uy` para el detalle del sistema previsional.
-
----
 
 ## Pilar no contributivo: transferencias sociales
 
@@ -51,8 +47,6 @@ Para personas con discapacidad severa sin ingresos propios.
 
 En 2020, el Estado uruguayo implementó una asignación extraordinaria de emergencia para hogares afectados por la pandemia que no accedían a los programas regulares. Fue una respuesta temporal a la crisis sanitaria.
 
----
-
 ## Pilar de servicios universales
 
 El tercer pilar de la protección social uruguaya son los servicios sociales de acceso universal:
@@ -73,8 +67,6 @@ Acceso a servicios de cuidado para primera infancia, personas con discapacidad y
 
 El Ministerio de Vivienda y Ordenamiento Territorial (MVOT), la Agencia Nacional de Vivienda (ANV) y el Banco Hipotecario del Uruguay (BHU) implementan programas de acceso a la vivienda para sectores de bajos ingresos. El Movimiento para la Erradicación de la Vivienda Rural Insalubre (MEVIR) atiende a la población rural.
 
----
-
 ## Articulación entre pilares: el enfoque de pisos de protección social
 
 La **OIT (Organización Internacional del Trabajo)** promovió el concepto de **Piso de Protección Social**: un conjunto básico de garantías mínimas de seguridad social que todo país debe asegurar a su población. El Piso incluye:
@@ -86,8 +78,6 @@ La **OIT (Organización Internacional del Trabajo)** promovió el concepto de **
 
 Uruguay cumple ampliamente con los criterios del Piso de Protección Social de la OIT, siendo uno de los pocos países de América Latina en que la cobertura de los distintos componentes es casi universal.
 
----
-
 ## Desafíos del sistema de protección social
 
 A pesar de su cobertura amplia, el sistema de protección social uruguayo enfrenta desafíos estructurales:
@@ -97,8 +87,6 @@ A pesar de su cobertura amplia, el sistema de protección social uruguayo enfren
 - **Desafíos del SNIC**: la cobertura de los servicios de cuidado aún no es universal; persisten listas de espera y brechas de cobertura territorial.
 - **Pobreza infantil**: aunque reducida, la pobreza infantil es proporcionalmente mayor que la de adultos mayores en Uruguay (la "paradoja de la pobreza infantil").
 - **Informalidad laboral**: el porcentaje de trabajadores informales (sin aportes a la seguridad social) continúa siendo una fuente de vulnerabilidad.
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Las lenguas habladas por los pueblos originarios del actual Uruguay son, en su gran mayoría, **prácticamente extintas** como sistemas de comunicación vivos. El conocimiento lingüístico que se conserva es fragmentario: unas pocas decenas de palabras, algunos topónimos, descripciones fonológicas imprecisas de cronistas sin formación lingüística, y la toponimia del territorio. Solo el **guaraní** sobrevivió como lengua con hablantes, en Paraguay y en comunidades de Argentina y Brasil.
 
----
-
 ## Panorama lingüístico prehispánico del Uruguay
 
 | Pueblo | Lengua | Filiación lingüística | Estado actual |
@@ -16,8 +14,6 @@ Las lenguas habladas por los pueblos originarios del actual Uruguay son, en su g
 | **Yaros** | No documentada lingüísticamente | Desconocida | Sin datos |
 | **Bohanes** | No documentada lingüísticamente | Desconocida | Sin datos |
 | **Guaraníes** | Guaraní | Familia Tupí-Guaraní | Viva; oficial en Paraguay; hablada en Brasil, Argentina y comunidades del nordeste uruguayo |
-
----
 
 ## La lengua charrúa
 
@@ -53,23 +49,17 @@ La **lengua charrúa** es la más estudiada entre las lenguas extintas del Urugu
 
 > **Nota:** muchos de los términos atribuidos a la lengua charrúa en vocabularios del siglo XIX son en realidad de origen guaraní o araucano, adoptados por préstamo. El vocabulario genuinamente charrúa es más reducido de lo que sugieren algunos listados populares.
 
----
-
 ## La lengua chaná
 
 - Aún menos documentada que el charrúa.
 - Se conservan fragmentos mínimos en documentos coloniales del litoral.
 - No ha podido establecerse su filiación lingüística.
 
----
-
 ## La lengua guenoa-minuán
 
 - Algunas palabras recogidas en documentos jesuíticos.
 - Posiblemente relacionada con el charrúa, aunque no está demostrado.
 - El cuerpo lingüístico disponible es insuficiente para clasificarla.
-
----
 
 ## El guaraní en el Uruguay
 
@@ -82,8 +72,6 @@ El **guaraní** era la lengua de los grupos guaraníes del nordeste del actual U
 - No existen comunidades de hablantes guaraníes nativos en Uruguay con continuidad ininterrumpida.
 - En el departamento de **Artigas** y zonas fronterizas con Brasil, el contacto histórico con comunidades guaraní-hablantes brasileñas y argentinas dejó huellas.
 - El guaraní dejó una impronta extraordinaria en la **toponimia** del Uruguay. → Ver `20-toponimia-indigena.md`
-
----
 
 ## Influencia lingüística indígena en el español del Uruguay
 
@@ -109,13 +97,9 @@ A pesar de la extinción de las lenguas nativas, su influencia en el español ri
 
 El vocabulario de origen charrúa que se ha integrado al español uruguayo es muy limitado y en muchos casos incierto su origen. Algunos topónimos y zoónimos locales podrían ser de origen charrúa, aunque su clasificación es debatida.
 
----
-
 ## Topónimos indígenas en Uruguay
 
 La **toponimia** es la principal herencia lingüística de los pueblos originarios en Uruguay. La gran mayoría de los topónimos indígenas es de origen guaraní, aunque algunos podrían ser de otros orígenes. → Ver `20-toponimia-indigena.md` para un análisis detallado.
-
----
 
 ## Investigadores y fuentes lingüísticas
 
@@ -126,8 +110,6 @@ La **toponimia** es la principal herencia lingüística de los pueblos originari
 | **Branislava Susnik** | Etnógrafa y lingüista; estudios sobre los indígenas del Paraguay y el Río de la Plata, incluyendo grupos relacionados con el Uruguay |
 | **Eduardo Acosta y Lara** | Documentación histórica con referencias lingüísticas |
 | **Academia Nacional de Letras (Uruguay)** | Estudios sobre topónimos indígenas y léxico de origen nativo |
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Cobertura universal de salud en Uruguay
+
 ## Resumen
 
 La **cobertura universal de salud (CUS)** es el objetivo de política sanitaria global promovido por la **OMS/OPS** que plantea que todas las personas puedan acceder a los servicios de salud que necesitan —preventivos, curativos y paliativos— sin sufrir dificultades financieras. Uruguay es reconocido por la OPS como uno de los países latinoamericanos que más se ha aproximado a la cobertura universal de salud, gracias al **Sistema Nacional Integrado de Salud (SNIS)** creado en 2007 y al mecanismo de financiamiento solidario del **FONASA**. El concepto de CUS no equivale a salud gratuita para todos: implica que los costos se distribuyen equitativamente y que nadie queda excluido del sistema por razones económicas.

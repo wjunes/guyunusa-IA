@@ -6,8 +6,6 @@ La regulación prudencial tiene como objetivo garantizar la solidez, solvencia y
 
 En Uruguay, la regulación prudencial del sistema financiero está a cargo de la Superintendencia de Servicios Financieros (SSF) del BCU. El marco normativo está contenido en la Recopilación de Normas de Regulación y Control del Sistema Financiero (RNRCSF) del BCU.
 
----
-
 ## Adecuación de capital: Basilea en Uruguay
 
 ### Basilea I, II y III
@@ -36,8 +34,6 @@ Las normas del BCU asignan ponderadores de riesgo a los activos de los bancos:
 
 El capital regulatorio mínimo debe cubrir el 8% de la suma de los activos ponderados por riesgo.
 
----
-
 ## Normas de liquidez
 
 ### Encaje mínimo obligatorio
@@ -55,8 +51,6 @@ El BCU ha avanzado en la implementación del Liquidity Coverage Ratio (LCR) de B
 
 El BCU exige a las entidades mantener un mínimo de activos líquidos (efectivo, encaje, valores del Estado) en relación a sus pasivos a corto plazo.
 
----
-
 ## Límites de riesgo de crédito
 
 Para evitar la concentración excesiva de riesgos:
@@ -64,8 +58,6 @@ Para evitar la concentración excesiva de riesgos:
 - **Límite de concentración por deudor**: los préstamos a un solo deudor o grupo económico no pueden superar el 10%–20% del capital regulatorio del banco (con variaciones según las normas vigentes).
 - **Límites a vinculadas**: las operaciones de crédito con empresas vinculadas al banco (subsidiarias, accionistas, directores) tienen límites más estrictos.
 - **Calificación de cartera**: las normas del BCU exigen que los bancos califiquen periódicamente la calidad de su cartera de crédito y constituyan provisiones (reservas) en función de la categoría de riesgo de cada deudor.
-
----
 
 ## Provisiones y categorías de riesgo crediticio
 
@@ -81,8 +73,6 @@ La normativa del BCU establece cinco categorías de riesgo para los deudores:
 
 Las provisiones son cargos al resultado del banco que reducen su capital contable pero aseguran que el banco reconozca las pérdidas latentes en su cartera.
 
----
-
 ## Gobierno corporativo bancario
 
 El BCU exige a las entidades financieras normas de gobierno corporativo que incluyen:
@@ -94,8 +84,6 @@ El BCU exige a las entidades financieras normas de gobierno corporativo que incl
 - **Auditoría interna y externa**: auditores internos independientes y auditores externos habilitados por el BCU.
 - **Control interno**: sistemas de control interno documentados y evaluados periódicamente.
 
----
-
 ## Riesgo operacional
 
 El marco de Basilea II introduce el riesgo operacional como una categoría separada de riesgo que requiere cargo de capital. El riesgo operacional incluye pérdidas derivadas de fallas en procesos internos, errores humanos, fallas tecnológicas y eventos externos (fraudes, catástrofes naturales, ciberataques).
@@ -105,8 +93,6 @@ El BCU ha emitido normas sobre gestión de riesgo operacional que exigen a los b
 - Implementar controles para mitigarlos.
 - Contar con planes de continuidad del negocio.
 
----
-
 ## Riesgo de mercado
 
 El riesgo de mercado surge de la exposición de los bancos a variaciones en los precios de los activos financieros: tipos de cambio, tasas de interés y precios de los valores. En Uruguay:
@@ -115,13 +101,9 @@ El riesgo de mercado surge de la exposición de los bancos a variaciones en los 
 - Las normas del BCU exigen que los bancos calculen y controlen su posición neta en moneda extranjera.
 - Los bancos deben mantener capital adicional por riesgo de mercado.
 
----
-
 ## Pruebas de estrés (stress tests)
 
 El BCU realiza periódicamente pruebas de estrés del sistema bancario uruguayo para evaluar la resiliencia ante escenarios macroeconómicos adversos (depreciación cambiaria, caída del PIB, aumento de la morosidad). Los resultados son publicados en el Informe de Estabilidad Financiera del BCU.
-
----
 
 ## Palabras clave
 

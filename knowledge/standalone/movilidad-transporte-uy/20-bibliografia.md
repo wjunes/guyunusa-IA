@@ -6,8 +6,6 @@ Este archivo registra las fuentes de referencia utilizadas en la elaboración de
 
 Las fuentes se organizan por categoría temática.
 
----
-
 ## Legislación y normativa (fuentes primarias)
 
 ### Leyes nacionales
@@ -34,8 +32,6 @@ Las fuentes se organizan por categoría temática.
 - **Decreto 402/015** (2015): Accesibilidad en el transporte.
 - **Reglamento Nacional de Tránsito**: Disposiciones complementarias a la Ley 18.191.
 - **Reglamento Nacional de Señalización Vial**: MTOP.
-
----
 
 ## Organismos nacionales — Documentación oficial
 
@@ -95,8 +91,6 @@ Las fuentes se organizan por categoría temática.
 - [https://www.ute.com.uy](https://www.ute.com.uy)
 - Informes de red de cargadores eléctricos
 
----
-
 ## Tratados y acuerdos internacionales
 
 - **Tratado de Asunción** (1991): Creación del MERCOSUR.
@@ -107,8 +101,6 @@ Las fuentes se organizan por categoría temática.
 - **Convenio MARPOL**: Contaminación marítima (OMI).
 - **Acuerdo de París** (2015): Compromisos climáticos; NDC Uruguay.
 - **Convención de Viena sobre Señalización Vial** (1968): Normas internacionales de señalización.
-
----
 
 ## Publicaciones académicas y técnicas
 
@@ -121,8 +113,6 @@ Las fuentes se organizan por categoría temática.
 - **OMS / OPS (Organización Mundial / Panamericana de la Salud)**: Informes globales y regionales de seguridad vial.
 - **CEPAL**: Estudios sobre logística, transporte y comercio en América Latina y el Caribe.
 
----
-
 ## Fuentes digitales de referencia
 
 - **STM (Sistema de Transporte Metropolitano de Montevideo)**: [https://www.montevideo.gub.uy/aplicacion/montevideo-bus](https://www.montevideo.gub.uy/aplicacion/montevideo-bus)
@@ -130,8 +120,6 @@ Las fuentes se organizan por categoría temática.
 - **Parlamento del Uruguay**: Legislación vigente — [https://www.parlamento.gub.uy](https://www.parlamento.gub.uy)
 - **OACI**: Documentación de aviación civil internacional — [https://www.icao.int](https://www.icao.int)
 - **OMI**: Convenios marítimos — [https://www.imo.org](https://www.imo.org)
-
----
 
 ## Palabras clave
 

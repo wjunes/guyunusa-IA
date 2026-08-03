@@ -6,8 +6,6 @@ La **Oficina Nacional del Servicio Civil (ONSC)** es el organismo rector del sis
 
 La ONSC no es un organismo sancionador ni de supervisión directa de ministerios, sino que ejerce funciones de rectoría, coordinación, asesoría técnica y desarrollo de políticas de gestión humana para el sector público.
 
----
-
 ## Antecedentes históricos
 
 | Año | Hito |
@@ -23,8 +21,6 @@ La ONSC no es un organismo sancionador ni de supervisión directa de ministerios
 | 2005 | Decreto 65/005: ampliación de competencias de la ONSC |
 | 2020 | Decreto 152/020: modernización de la gestión de recursos humanos del Estado |
 
----
-
 ## Marco legal
 
 La ONSC actúa bajo el siguiente marco normativo principal:
@@ -36,8 +32,6 @@ La ONSC actúa bajo el siguiente marco normativo principal:
 - **Ley 17.556/2002**: TOCAF — texto ordenado de la ley de administración financiera y función pública.
 - **Decreto 65/005**: regulación de las competencias de la ONSC.
 - **Ley 19.924/2020** (Presupuesto Nacional 2020–2024): disposiciones actualizadas sobre empleo público.
-
----
 
 ## Competencias
 
@@ -51,8 +45,6 @@ La ONSC tiene las siguientes competencias principales:
 - **Normativa y asesoría**: elaborar proyectos de normas y asesorar a organismos en materia de gestión humana.
 - **Estadísticas de empleo público**: producción de datos sobre la dotación del sector público.
 
----
-
 ## Organización interna
 
 La ONSC depende de la **Presidencia de la República** y está dirigida por un **Director Nacional**, designado por el Poder Ejecutivo.
@@ -65,8 +57,6 @@ Su estructura interna incluye áreas especializadas en:
 - Concursos y selección (Uruguay Concursa)
 - Estadísticas de recursos humanos del Estado
 - Relaciones internacionales e intercambio de buenas prácticas
-
----
 
 ## Instrumentos de gestión de la ONSC
 
@@ -90,8 +80,6 @@ El RVE permite al Estado conocer con precisión la dotación total del sector p�
 
 La ONSC coordina la oferta de capacitación para funcionarios públicos de la Administración Central, en articulación con la **Escuela Nacional de Administración Pública (ENAP)** y otras instituciones.
 
----
-
 ## Empleo público en Uruguay
 
 El sector público uruguayo constituye un empleador de gran peso en el mercado laboral. Características:
@@ -100,8 +88,6 @@ El sector público uruguayo constituye un empleador de gran peso en el mercado l
 - Los entes autónomos y servicios descentralizados tienen sus propios estatutos de personal, aunque con principios comunes.
 - La Constitución (art. 58) prohíbe el despido arbitrario de funcionarios presupuestados; sólo pueden ser destituidos por razones justificadas.
 - El ingreso a cargos presupuestados debe realizarse por concurso (principio de mérito, art. 59 de la Constitución).
-
----
 
 ## Palabras clave
 

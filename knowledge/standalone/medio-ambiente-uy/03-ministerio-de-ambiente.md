@@ -1,3 +1,5 @@
+# Ministerio de Ambiente (MA) de Uruguay
+
 ## Resumen
 
 El **Ministerio de Ambiente de Uruguay** es el organismo rector de la política ambiental del Estado uruguayo. Fue creado en **2020** mediante la **Ley 19.889** (Ley de Urgente Consideración, LUC) del gobierno de **Luis Lacalle Pou**, separando las competencias ambientales del anterior **Ministerio de Vivienda, Ordenamiento Territorial y Medio Ambiente (MVOTMA)**, que las había tenido desde 1990. La creación de una cartera exclusivamente ambiental respondió al objetivo de dar mayor jerarquía y recursos a la gestión del medio ambiente. El Ministerio de Ambiente tiene bajo su órbita a la **DINAMA** (Dirección Nacional de Medio Ambiente), la **DINAGUA** (Dirección Nacional de Aguas), el **SNAP** (Sistema Nacional de Áreas Protegidas) y la coordinación del **SNRCC** (Sistema Nacional de Respuesta al Cambio Climático).

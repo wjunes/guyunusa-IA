@@ -1,12 +1,8 @@
 # Geología Marina del Uruguay
 
----
-
 ## Introducción
 
 La geología marina de Uruguay abarca el estudio de la composición, estructura y evolución del fondo oceánico en el ámbito de la plataforma continental, el talud y la cuenca oceánica del Atlántico Sudoccidental. Esta disciplina integra la geomorfología submarina, la sedimentología, la estratigrafía y la geoquímica de los fondos marinos para reconstruir la historia paleogeográfica y evaluar el potencial de recursos del subsuelo marino.
-
----
 
 ## Contexto geotectónico
 
@@ -19,27 +15,36 @@ El margen continental uruguayo es un **margen pasivo** (no convergente), resulta
 | Paleógeno–Neógeno (~66–2,6 Ma) | Progradación de la plataforma; sedimentación clástica; cambios del nivel del mar |
 | Cuaternario (~2,6 Ma–presente) | Glaciaciones; oscilaciones del nivel del mar de >100 m; depositación de sedimentos terrígenos y biogénicos |
 
----
-
 ## Cuencas sedimentarias offshore
 
-Las principales cuencas sedimentarias offshore frente a Uruguay son:
+El margen continental uruguayo se asienta sobre tres cuencas sedimentarias offshore identificadas en los estudios geofísicos:
 
-### Cuenca Oriental del Plata (Cuenca Uruguaya)
+### Cuenca de Punta del Este
 
-| Parámetro | Descripción |
-|-----------|-------------|
-| Extensión | Desde la costa hasta el talud y cuenca profunda frente a Uruguay |
-| Edad del relleno | Desde el Cretácico al Reciente |
-| Espesor sedimentario | Varios km en las zonas más profundas [VERIFICAR espesor máximo] |
-| Potencial de hidrocarburos | Evaluado como moderado; sin hallazgos comerciales confirmados hasta 2023 |
-| Bloques exploratorios | ANCAP ha otorgado bloques exploratorios offshore en diversas rondas [VERIFICAR estado actual] |
+Se extiende frente a la costa oriental uruguaya, entre el Río de la Plata y la zona de Punta del Este. Es la cuenca más estudiada por su mayor proximidad a la costa y por su inclusión en los bloques exploratorios licitados por ANCAP.
 
-### Cuenca del Colorado (compartida con Argentina)
+### Cuenca de Pelotas
 
-La cuenca del Colorado se extiende desde la provincia argentina de Buenos Aires hacia la plataforma uruguaya. Es relevante por su historial exploratorio argentino.
+Cuenca transfronteriza compartida con Brasil, ubicada en el sector norte de la ZEE uruguaya. Se extiende hacia las cuencas offshore brasileñas del sur.
 
----
+### Cuenca Oriental del Plata
+
+Se extiende al sur y suroeste de la ZEE uruguaya, conectada con el sistema del Río de la Plata. Comprende el área de transición entre el ambiente estuarino y el margen continental profundo.
+
+Las tres cuencas forman parte del margen continental pasivo originado en la fragmentación del supercontinente **Gondwana** y la apertura del Atlántico Sur (~130–140 Ma). Acumulan espesores sedimentarios de varios kilómetros desde el Cretácico al Reciente.
+
+### Bloques exploratorios de hidrocarburos offshore
+
+ANCAP ha licitado bloques exploratorios en sucesivas rondas:
+
+| Ronda | Año | Descripción |
+|-------|-----|-------------|
+| Ronda Uruguay | 2009 | Primera ronda offshore en aguas profundas y ultraprofundas |
+| II Ronda Uruguay | [subsiguiente] | Ampliación de bloques ofrecidos |
+| III Ronda Uruguay | [subsiguiente] | Nuevos bloques en áreas de interés |
+| Ronda Abierta | Permanente | Sistema de ventanilla abierta para solicitudes de bloques |
+
+A enero de 2025, los bloques activos en la ZEE comprenden las áreas **OFF-1, OFF-2, OFF-4, OFF-5, OFF-6 y OFF-7**, ubicadas aproximadamente a partir de 120 km de la costa, con profundidades entre 45 y 4.300 m y una extensión combinada de aproximadamente **51.000 km²**. La **Resolución MIEM N° 198/23 (29/01/2024)** autorizó a ANCAP a contratar directamente con CGG Services (US) Inc. (Viridien) la realización de la prospección sísmica 3D en estos bloques. No se han confirmado hallazgos comerciales de hidrocarburos en Uruguay hasta enero de 2025.
 
 ## Geomorfología del fondo marino
 
@@ -60,29 +65,35 @@ Las **gravas relictas** de la plataforma externa y media son sedimentos deposita
 
 ### Talud continental
 
-El talud continental frente a Uruguay se extiende desde el borde de plataforma (~200 m) hasta aproximadamente 2000–2500 m de profundidad. Presenta:
+El talud continental frente a Uruguay se extiende desde el borde de plataforma (~200 m) hasta aproximadamente 4.000–4.300 m de profundidad. Presenta:
 
-- Pendiente abrupta.
-- **Cañones submarinos** como el Cañón del Plata.
-- Presencia de **corrientes de densidad** (turbiditas) que transportan sedimentos desde la plataforma hacia las profundidades.
-- **Corales de aguas frías** en afloramientos rocosos del talud superior [VERIFICAR documentación específica para Uruguay].
+- Pendiente abrupta con incisiones de cañones y corrientes de densidad.
+- **Siete sistemas de cañones submarinos** bien identificados.
+- **Montículos carbonáticos** con arrecifes de coral de aguas frías.
+- **Pockmarks** (cráteres de emisión de gas) en la plataforma y talud.
+- **Corrientes de densidad** (turbiditas) que transportan sedimentos hacia la cuenca profunda.
 
-### Cañón del Plata
+### Sistemas de cañones submarinos
 
-El **Cañón del Plata** es uno de los cañones submarinos más grandes de América del Sur:
+A enero de 2025, el Informe Ambiental Resumen de prospección sísmica en la ZEE identifica **siete sistemas de cañones submarinos** en el talud y la zona de transición plataforma-talud frente a Uruguay:
 
-| Parámetro | Valor |
-|-----------|-------|
-| Localización | Talud continental frente al estuario del Río de la Plata |
-| Orientación | Aproximadamente SO-NE en la zona de cabecera; SE aguas abajo |
-| Profundidad de inicio | ~200 m (borde de plataforma) |
-| Profundidad máxima explorada | >4000 m [VERIFICAR] |
-| Longitud aproximada | >500 km hasta la cuenca profunda [VERIFICAR] |
-| Ancho | Hasta varias decenas de km |
-| Importancia | Canal principal de transporte de sedimentos del Río de la Plata hacia la Cuenca Argentina |
-| Exploración reciente | Misión Uruguay SUB 200 (ver archivo 14) |
+1. **Cañón del Río de la Plata** — el más extenso; canal principal de exportación de sedimentos del estuario hacia la cuenca profunda; uno de los cañones submarinos más grandes de América del Sur. Profundidad máxima explorada >4.000 m. Explorado por la Misión Uruguay SUB 200 (ver archivo 14).
+2. **Cañón de Montevideo** — al este de la desembocadura del Río de la Plata.
+3. **Cañón de Piriápolis** — frente a la costa de Maldonado occidental.
+4. **Cañón de José Ignacio** — frente a la punta homónima (Maldonado).
+5. **Cañón de La Paloma** — frente a la costa de Rocha.
+6. **Cañón de Cabo Polonio** — frente al promontorio rocoso de Cabo Polonio (Rocha).
+7. **Cañón de Punta del Diablo** — en el extremo norte de la ZEE uruguaya.
 
----
+Los cañones submarinos son corredores de alta biodiversidad y zonas de alimentación de cetáceos, peces de profundidad y fauna bentónica. Fueron incorporados como sitio de conservación en la ZEE por la Resolución Ministerial 1151/2022.
+
+### Montículos carbonáticos y arrecifes de coral de aguas frías
+
+El talud continental uruguayo alberga al menos **17 montículos carbonáticos** con presencia de **corales de aguas frías** (*Lophelia pertusa* y *Madrepora oculata*, entre otros). Estos ecosistemas de alta biodiversidad se desarrollan en las paredes y cabeceras de los cañones y en afloramientos rocosos del talud. Son hábitats frágiles, de crecimiento muy lento, reconocidos como prioritarios para la conservación.
+
+### Pockmarks
+
+Los **pockmarks** son depresiones circulares a subcirculares en el lecho marino, originadas por la emisión de fluidos (gas, agua) desde el subsuelo. En la ZEE uruguaya se han identificado **41 formaciones de pockmarks**, con profundidades de hasta **40 m** y diámetros de hasta **400 m**. Su presencia indica la actividad de fluidos en el subsuelo del margen continental, con potencial interés para la exploración de hidrocarburos.
 
 ## Sedimentos del fondo marino
 
@@ -97,25 +108,17 @@ Los sedimentos del fondo marino frente a Uruguay reflejan las fuentes y los proc
 | Lodos hemipelágicos | Talud y cuenca profunda | Mezcla de terrígenos finos y material biogénico (foraminíferos planctónicos) |
 | Turbiditas | Cuenca profunda (Cuenca Argentina) | Depósitos de corrientes de turbidez canalizados por el Cañón del Plata |
 
----
-
 ## Recursos del subsuelo marino
 
 ### Hidrocarburos
 
-Uruguay ha realizado varias rondas de licitación de bloques exploratorios offshore:
-
-- **Ronda Offshore 2009 [VERIFICAR]:** primera ronda significativa de bloques en aguas profundas y ultraprofundas.
-- La empresa estatal **ANCAP** gestiona las concesiones.
-- No se han anunciado hallazgos comerciales de hidrocarburos en Uruguay al año 2023.
+La exploración de hidrocarburos en la ZEE uruguaya es gestionada por **ANCAP**. Uruguay realizó varias rondas de licitación de bloques exploratorios offshore (Ronda Uruguay 2009, II Ronda, III Ronda, Ronda Abierta), con bloques activos OFF-1, OFF-2 y OFF-4 a OFF-7 (ver sección Cuencas sedimentarias). A enero de 2025, no se han confirmado hallazgos comerciales de hidrocarburos en Uruguay. La prospección sísmica 3D contratada a Viridien (CGG Services) para los bloques activos busca generar la información geofísica necesaria para evaluar el potencial de la cuenca.
 
 ### Recursos minerales
 
 - **Arenas y gravas** de la plataforma: potencial para uso como áridos de construcción [VERIFICAR explotación actual].
 - **Nódulos polimetálicos:** posible presencia en la cuenca profunda (contienen manganeso, níquel, cobre, cobalto) [VERIFICAR documentación para el sector uruguayo].
 - **Fosfatos:** posible presencia en la plataforma externa [VERIFICAR].
-
----
 
 ## Paleogeografía del margen continental uruguayo
 
@@ -126,20 +129,17 @@ Durante el Último Máximo Glacial (~21.000 años AP), el nivel del mar fue apro
 - La plataforma media actual era llanura costera y fluvial.
 - Con el calentamiento postglacial (~18.000–7.000 AP), el nivel del mar subió progresivamente, inundando la plataforma e inmergiéndola bajo el océano.
 
----
-
 ## Investigación de geología marina en Uruguay
 
 La investigación de geología marina en Uruguay es realizada por:
 
-- **SOHMA (Armada):** hidrografía y cartografía del fondo marino.
-- **Facultad de Ciencias (Udelar):** investigación sedimentológica y geoquímica.
-- **ANCAP:** exploración sísmica y geológica de las cuencas offshore en búsqueda de hidrocarburos.
-- **Misión Uruguay SUB 200:** exploración de zonas profundas y cartografía del Cañón del Plata.
+- **SOHMA (Armada):** hidrografía y cartografía del fondo marino; cartas náuticas de la ZEE.
+- **Facultad de Ciencias (UdelaR):** investigación sedimentológica y geoquímica.
+- **ANCAP:** exploración sísmica y geológica de las cuencas offshore. La prospección sísmica 3D de Viridien (enero 2025) cubre ~51.000 km² de la ZEE.
+- **Misión Uruguay SUB 200:** exploración de zonas profundas y cartografía del Cañón del Plata y otros cañones (ver archivo 14).
+- **Estudio Ingeniería Ambiental (EIA, eia.com.uy):** elaboración de estudios de impacto ambiental para proyectos en la ZEE, incluyendo el IAR de la prospección sísmica de Viridien (2025).
 - **Cooperación internacional:** Universidades alemanas (BGR, Alfred Wegener Institut), brasileñas y argentinas.
-
----
 
 ## Palabras clave
 
-geología marina Uruguay margen continental pasivo Atlántico Sur, Cuenca Oriental del Plata cuenca sedimentaria offshore Uruguay, Cañón del Plata cañón submarino América del Sur talud, sedimentos plataforma continental Uruguay gravas relictas cuaternario, hidrocarburos offshore Uruguay ANCAP exploración bloques, paleogeografía Uruguay Último Máximo Glacial nivel del mar, turbiditas Cuenca Argentina Uruguay sedimentos profundos, geomorfología fondo marino Uruguay plataforma talud cuenca, Banco Inglés Banco Chico Uruguay plataforma continental, corales aguas frías Uruguay talud continental
+geología marina Uruguay margen continental pasivo Atlántico Sur, Cuenca Punta del Este Cuenca Pelotas Cuenca Oriental del Plata sedimentaria offshore Uruguay, cañones submarinos Uruguay Río de la Plata Montevideo Piriápolis José Ignacio La Paloma Cabo Polonio Punta del Diablo, Cañón del Plata cañón submarino América del Sur talud, montículos carbonáticos arrecifes coral aguas frías Uruguay talud, pockmarks ZEE Uruguay fluidos subsuelo 41 formaciones, sedimentos plataforma continental Uruguay gravas relictas cuaternario, hidrocarburos offshore Uruguay ANCAP bloques OFF exploración, paleogeografía Uruguay Último Máximo Glacial nivel del mar, turbiditas Cuenca Argentina Uruguay sedimentos profundos, Viridien CGG prospección sísmica 3D ZEE Uruguay 2025 ANCAP, Estudio Ingeniería Ambiental EIA Uruguay ZEE impacto ambiental

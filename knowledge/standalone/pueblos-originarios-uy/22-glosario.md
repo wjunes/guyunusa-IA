@@ -4,8 +4,6 @@
 
 Glosario de términos, conceptos, etnónimos y tecnicismos utilizados en el estudio de los pueblos originarios del actual Uruguay. Incluye vocabulario arqueológico, antropológico, histórico y lingüístico.
 
----
-
 ## Términos generales
 
 **ADN antiguo (ancient DNA / aDNA):** ADN extraído de restos arqueológicos (huesos, dientes) que permite análisis genéticos de poblaciones del pasado. Aplicado a la arqueología uruguaya para estudiar pobladores prehispánicos.
@@ -44,8 +42,6 @@ Glosario de términos, conceptos, etnónimos y tecnicismos utilizados en el estu
 
 **CPCN:** Comisión del Patrimonio Cultural de la Nación; organismo uruguayo dependiente del Ministerio de Educación y Cultura; aplica la Ley 14.040 de protección del patrimonio histórico y arqueológico.
 
----
-
 ## Términos arqueológicos y antropológicos
 
 **Datación por carbono 14 (C14 / radiocarbono):** Método de fechado absoluto basado en la desintegración del isótopo radiactivo C14; permite datar materiales orgánicos de hasta ~50.000 años de antigüedad. Fundamental para establecer la cronología de los cerritos y otros sitios uruguayos.
@@ -82,8 +78,6 @@ Glosario de términos, conceptos, etnónimos y tecnicismos utilizados en el estu
 
 **Nómada / nomadismo:** Modo de vida caracterizado por la movilidad estacional o continua, sin asentamiento permanente; característico de los charrúas y otros grupos cazadores-recolectores del Uruguay.
 
----
-
 ## Pueblos y etnónimos
 
 **Bohan / boanes:** Grupo indígena del centro-norte de Uruguay (cuencas del Río Negro y el Río Yi); uno de los menos documentados; cazadores-recolectores; fusionados con charrúas y mestizos en el siglo XVIII.
@@ -97,8 +91,6 @@ Glosario de términos, conceptos, etnónimos y tecnicismos utilizados en el estu
 **Payé / chamán:** Especialista ritual guaraní con poderes curativos y de mediación con el mundo sobrenatural.
 
 **Yaro:** Grupo indígena del NE del Uruguay (cuencas del Tacuarembó y el Cuareim); uno de los menos documentados; cazadores-recolectores; desaparece tempranamente de las fuentes históricas.
-
----
 
 ## Personajes históricos
 
@@ -123,8 +115,6 @@ Glosario de términos, conceptos, etnónimos y tecnicismos utilizados en el estu
 **Vaimaca Pirú:** Cacique charrúa llevado a París en 1833; falleció el 14 de julio de 1833; sus restos fueron repatriados a Uruguay en 2002.
 
 **Vidart, Daniel:** Antropólogo e historiador uruguayo; contribuyó a la revisión de la historia indígena y gauchesca del Uruguay.
-
----
 
 ## Palabras clave
 

@@ -15,8 +15,6 @@
 | **Límites** | Florida (norte), Cerro Largo (noreste), Treinta y Tres (este), Rocha (sureste), Maldonado (sur), Canelones (oeste) |
 | **Rutas principales** | Ruta 7, Ruta 8, Ruta 9, Ruta 60, Ruta 81 |
 
----
-
 ## Historia
 
 ### Origen y nombre
@@ -32,8 +30,6 @@ La ciudad de **Minas** fue fundada el **21 de octubre de 1783** durante el perí
 ### Siglo XIX–XX
 
 La región de Minas fue históricamente conocida por sus canteras y por la producción de cal y portland. La industria cementera y de minerales no metálicos tuvo importancia en el siglo XX.
-
----
 
 ## Geografía
 
@@ -59,8 +55,6 @@ Lavalleja presenta el relieve más accidentado del sur de Uruguay: sierras, cerr
 
 Clima **templado húmedo** (Cfa). Las sierras generan microclimas más frescos. Temperatura media: ~16–17 °C. Precipitaciones: ~1.100–1.300 mm/año.
 
----
-
 ## Naturaleza
 
 ### Flora
@@ -77,8 +71,6 @@ El monte serrano alberga aves de hábitat boscoso; la fauna de praderas incluye 
 |------|-----------|-------------|
 | **Quebrada de los Cuervos** (Treinta y Tres, pero accesible desde Lavalleja) | Área de Manejo de Hábitats/Especies | Monte de quebrada; cascadas |
 | **Parque Arequita** (o Monumento Natural de Cerro Arequita) [VERIFICAR categoría SNAP] | — | Cerro con cima de difícil acceso; biodiversidad |
-
----
 
 ## Economía
 
@@ -98,8 +90,6 @@ El turismo serrano es una actividad de creciente importancia: senderismo, escala
 
 La empresa **Nativa** embotella agua mineral de manantiales de Lavalleja. La zona de Minas es conocida por la calidad de sus aguas subterráneas.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -109,16 +99,12 @@ La empresa **Nativa** embotella agua mineral de manantiales de Lavalleja. La zon
 | UTU — Minas | Formación técnica |
 | **Instituto de Formación Docente de Minas** | Formación docente |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Minas** | Hospital público departamental (ASSE) |
 | Mutualistas locales | Cobertura privada |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -128,8 +114,6 @@ La empresa **Nativa** embotella agua mineral de manantiales de Lavalleja. La zon
 | **Monumento a la Virgen del Verdún** | Imagen de la Virgen sobre el Cerro Verdún; peregrinos anuales |
 | **Plaza de Minas** | Centro histórico |
 | **Casa de Gobierno de Minas** | Intendencia departamental |
-
----
 
 ## Cultura
 
@@ -149,16 +133,12 @@ La **peregrinación al Cerro Verdún** (Semana de Turismo / Semana Santa) es el 
 
 Turismo gastronómico con quesos artesanales, embutidos del campo y asado criollo.
 
----
-
 ## Deportes
 
 | Club | Descripción |
 |------|-------------|
 | **Club Social y Deportivo Minas** | Fútbol departamental |
 | **Club Atlético Nacional** (Minas) [VERIFICAR] | — |
-
----
 
 ## Turismo
 
@@ -170,8 +150,6 @@ Turismo gastronómico con quesos artesanales, embutidos del campo y asado crioll
 | **Grutas de los Cuervos** [VERIFICAR denominación] | Cuevas y formaciones geológicas |
 | **Turismo rural** | Estancias en paisajes serranos |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -179,8 +157,6 @@ Turismo gastronómico con quesos artesanales, embutidos del campo y asado crioll
 | **Ruta 8** | Principal conexión con Montevideo (~120 km) y Melo |
 | **Ruta 9** | Conexión con la costa atlántica |
 | **Ruta 60** | Hacia el norte del departamento |
-
----
 
 ## Instituciones
 
@@ -191,15 +167,11 @@ Turismo gastronómico con quesos artesanales, embutidos del campo y asado crioll
 | **Municipio de Minas** | Gobierno municipal capital |
 | **Municipio de Solís de Mataojo** | Localidad interior |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Juan Antonio Lavalleja** (Arroyo de la Virgen, 1784–1853) | Historia / Política | Prócer de la independencia; líder de los 33 Orientales (1825); el departamento lleva su nombre |
-
----
 
 ## Estadísticas
 
@@ -210,16 +182,12 @@ Turismo gastronómico con quesos artesanales, embutidos del campo y asado crioll
 | Densidad | 5,9 hab./km² | INE |
 | Ciudad capital | Minas (~38.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - El **Cerro Catedral** (~514 m), en el límite entre Lavalleja y Maldonado, es el **punto más alto de Uruguay**.
 - La **Peregrinación al Cerro Verdún** concentra cada Semana Santa a más de **50.000 personas** en algunos años, constituyendo la mayor concentración religiosa popular del Uruguay [VERIFICAR cifras].
 - Los 33 Orientales que iniciaron la independencia en 1825 desembarcaron en la costa del departamento de Soriano (Agraciada), pero su líder, Juan Antonio Lavalleja, es el patrono del departamento que lleva su nombre.
 - La empresa de agua **Nativa** (Agua Mineral Natural de Minas) embotella en el departamento de Lavalleja.
-
----
 
 ## Cronología
 
@@ -232,8 +200,6 @@ Turismo gastronómico con quesos artesanales, embutidos del campo y asado crioll
 | 1853 | Muerte de Juan Antonio Lavalleja |
 | 1927 | Rebautizado como departamento de Lavalleja |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

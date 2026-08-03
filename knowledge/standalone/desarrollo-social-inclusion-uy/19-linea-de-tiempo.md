@@ -50,8 +50,6 @@
 | 2020 | Ley 19.889 (LUC): modifica aspectos de programas sociales, seguridad y otras áreas. |
 | 2023 | Ley 20.130: reforma del sistema previsional. Impacto en el pilar contributivo de la protección social. |
 
----
-
 ## Palabras clave
 
 línea de tiempo desarrollo social Uruguay, historia políticas sociales Uruguay hitos, batllismo reformas sociales Uruguay, MIDES creación 2005 Uruguay, PANES Plan Emergencia Social Uruguay, SNIC 2015 Uruguay, Ley 18.651 discapacidad Uruguay, matrimonio igualitario Uruguay 2012, Ley Trans Uruguay 2018, reforma previsional Uruguay 2023, COVID-19 Uruguay medidas sociales

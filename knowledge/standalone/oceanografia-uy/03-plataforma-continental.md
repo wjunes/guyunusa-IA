@@ -1,7 +1,5 @@
 # Plataforma Continental del Uruguay
 
----
-
 ## Definición y extensión
 
 La **plataforma continental** es la prolongación submarina del territorio continental bajo el agua, desde la línea de costa hasta el borde externo de la plataforma (isobata de ~200 m), donde comienza el talud continental. La plataforma continental de Uruguay es una de las más extensas de América del Sur en relación con el territorio terrestre del país.
@@ -12,8 +10,6 @@ La **plataforma continental** es la prolongación submarina del territorio conti
 | Profundidad del borde de plataforma | ~150–200 m |
 | Anchura promedio | ~200 km |
 | Anchura máxima | ~350–400 km (frente al Río de la Plata) |
-
----
 
 ## Geomorfología de la plataforma
 
@@ -30,8 +26,6 @@ La plataforma continental uruguaya presenta una morfología suave y uniforme en 
 | Banco Inglés | 20–50 m | Área pesquera histórica |
 | Banco Chico | ~30–80 m | Área pesquera |
 | Banco de la Coronilla | [VERIFICAR] | [VERIFICAR] |
-
----
 
 ## Talud continental
 
@@ -53,8 +47,6 @@ El **talud continental** es la zona de transición entre la plataforma y la cuen
 
 El **Cañón del Plata** es uno de los cañones submarinos más extensos del Atlántico Sur. Se origina en el borde de la plataforma continental frente al estuario del Río de la Plata y desciende hasta la Cuenca Argentina. Actúa como una vía de transporte de sedimentos, materia orgánica y nutrientes desde la plataforma hacia aguas profundas, y puede albergar comunidades bentónicas de alto interés científico.
 
----
-
 ## Plataforma Continental Extendida
 
 En virtud del **Artículo 76 de la Convención de las Naciones Unidas sobre el Derecho del Mar (UNCLOS)**, los Estados costeros pueden reclamar derechos soberanos sobre el fondo marino y el subsuelo más allá de las 200 millas náuticas de la ZEE, si la plataforma continental física se extiende más allá de ese límite.
@@ -74,8 +66,6 @@ En 2008, Uruguay y Argentina presentaron conjuntamente ante la **Comisión de L�
 
 La plataforma continental extendida NO constituye ZEE: no incluye derechos sobre la columna de agua ni los recursos biológicos. Los derechos se limitan al lecho y subsuelo marinos (recursos minerales e hidrocarburos).
 
----
-
 ## Sedimentos y recursos de la plataforma
 
 La plataforma continental uruguaya contiene:
@@ -86,8 +76,6 @@ La plataforma continental uruguaya contiene:
 - **Arenas calcáreas:** en sectores de la plataforma media y externa.
 - **Posibles recursos de hidrocarburos:** estudios sísmicos han evaluado el potencial hidrocarburífero de la plataforma y el talud uruguayos. Las exploraciones realizadas entre 2012 y 2015 no dieron lugar a hallazgos comercialmente explotables [VERIFICAR].
 
----
-
 ## Importancia ecológica
 
 La plataforma continental es el área oceánica más productiva y biodiversa del espacio marítimo uruguayo:
@@ -97,8 +85,6 @@ La plataforma continental es el área oceánica más productiva y biodiversa del
 - Área de alimentación de tortugas marinas (tortuga verde, tortuga cabezona, tortuga de cuero).
 - Zona de alimentación de aves marinas (albatros, pingüinos, petrels).
 - Ecosistemas bentónicos de alta diversidad en fondos arenosos, fangosos y de conchas.
-
----
 
 ## Palabras clave
 

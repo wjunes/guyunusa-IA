@@ -6,15 +6,11 @@ El **Ministerio de Economía y Finanzas (MEF)** es el organismo del Poder Ejecut
 
 **Sitio oficial**: [https://www.gub.uy/ministerio-economia-finanzas](https://www.gub.uy/ministerio-economia-finanzas)
 
----
-
 ## Historia institucional
 
 El Ministerio de Economía y Finanzas tiene antecedentes en el **Ministerio de Hacienda**, uno de los ministerios originales del Estado uruguayo. A lo largo del siglo XIX y XX, la cartera de Hacienda fue el organismo responsable de la administración de los ingresos y gastos del Estado.
 
 La denominación **Ministerio de Economía y Finanzas** consolidó las funciones de planificación económica, política fiscal y administración financiera bajo un único ministerio, reflejando la visión integral que la gestión económica requiere en el Estado moderno.
-
----
 
 ## Competencias
 
@@ -31,8 +27,6 @@ Las competencias del MEF incluyen:
 - Coordinación con el **BCU** en materia de política monetaria y financiera.
 - Relacionamiento con organismos internacionales: **FMI, BM, BID, CAF**.
 - Negociación de acuerdos de inversión y convenios de doble imposición.
-
----
 
 ## Organización interna
 
@@ -61,8 +55,6 @@ Ministerio de Economía y Finanzas
     └── Unidad de Gestión de Deuda
 ```
 
----
-
 ## Políticas públicas principales
 
 ### Política fiscal
@@ -85,15 +77,11 @@ A través de la **Dirección Nacional de Zonas Francas (DNZF)**, el MEF administ
 
 El MEF tiene un rol en la supervisión del desempeño financiero de las empresas públicas uruguayas (ANCAP, UTE, OSE, ANTEL, AFE, entre otras), aunque la tutela directa de cada empresa corresponde a su ministerio sectorial. La **Contaduría General de la Nación** consolida los estados financieros del sector público.
 
----
-
 ## Presupuesto Nacional
 
 El MEF lidera la elaboración del **Presupuesto Nacional Quinquenal**, que define la asignación de recursos del Estado por un período de cinco años. Este documento es la principal herramienta de planificación del gasto público. El Presupuesto es aprobado por el Parlamento al inicio de cada período de gobierno.
 
 Las **Rendiciones de Cuentas** son proyectos de ley anuales que ajustan las asignaciones del Presupuesto quinquenal según la evolución de los ingresos y las prioridades de gobierno.
-
----
 
 ## Coordinación con organismos internacionales
 
@@ -109,13 +97,9 @@ El MEF mantiene relaciones permanentes con:
 
 Uruguay inició su proceso formal de **adhesión a la OCDE** en 2022. Este proceso implica adoptar estándares internacionales en materia de transparencia fiscal, gobierno corporativo y políticas regulatorias.
 
----
-
 ## Sede
 
 El Ministerio de Economía y Finanzas tiene su sede principal en **Colonia 1089, Montevideo**.
-
----
 
 ## Palabras clave
 

@@ -4,8 +4,6 @@
 
 Las políticas sociales en Uruguay tienen una historia que se extiende por más de un siglo. Uruguay fue pionero en América Latina en la construcción de un Estado de bienestar temprano, que combinó protección laboral, educación universal, salud pública y seguridad social con una concepción activa del papel del Estado en la redistribución del ingreso.
 
----
-
 ## Período fundacional: el batllismo (1903–1930)
 
 El período conocido como **batllismo** (en referencia a los gobiernos del Partido Colorado liderados por José Batlle y Ordóñez, presidente en 1903–1907 y 1911–1915) es el momento fundacional del Estado social uruguayo.
@@ -20,8 +18,6 @@ Las reformas sociales impulsadas en este período incluyeron:
 
 Este período estableció un modelo de **Estado protector** que distinguió a Uruguay del resto de América Latina durante la mayor parte del siglo XX.
 
----
-
 ## Consolidación y expansión del Estado de bienestar (1930–1955)
 
 En las décadas de 1930 a 1955, el modelo de industrialización por sustitución de importaciones (ISI) y la expansión del aparato estatal consolidaron el Estado de bienestar uruguayo.
@@ -31,8 +27,6 @@ En las décadas de 1930 a 1955, el modelo de industrialización por sustitución
 - Expansión del sistema de cajas de jubilaciones sectoriales (civil, policial, bancaria, notarial, profesional).
 - Ampliación de la cobertura sanitaria pública (Ministerio de Salud Pública, 1934).
 - Subsidios al desempleo y protección del trabajo.
-
----
 
 ## Crisis y regresión del Estado de bienestar (1955–1985)
 
@@ -48,8 +42,6 @@ El golpe de Estado del 27 de junio de 1973 instaló una dictadura cívico-milita
 
 La dictadura fue acompañada de represión, exilio y violaciones sistemáticas a los derechos humanos. Ver dominio `derechos-humanos-uy` para detalle.
 
----
-
 ## Transición democrática y reforma social (1985–2005)
 
 Con el retorno de la democracia en 1985 (gobierno de Julio María Sanguinetti), Uruguay inició una lenta reconstrucción de sus instituciones sociales. La crisis económica heredada limitó el espacio fiscal para la recuperación del gasto social.
@@ -61,8 +53,6 @@ Con el retorno de la democracia en 1985 (gobierno de Julio María Sanguinetti), 
 - **Código de la Niñez y la Adolescencia (2004)**: Ley 17.823, marco de derechos de niños, niñas y adolescentes.
 
 **Crisis de 2002**: la crisis financiera de 2002 provocó un salto abrupto en los índices de pobreza e indigencia. En 2004, el 32% de la población estaba bajo la línea de pobreza y el 4% en situación de indigencia (según la metodología del INE vigente en ese momento).
-
----
 
 ## La gran reforma social: 2005–2020
 
@@ -109,8 +99,6 @@ El período 2005–2014 fue de reducción sostenida de los indicadores de pobrez
 - La pobreza cayó del 32% (2004) a menos del 10% (2014).
 - El coeficiente GINI mejoró significativamente, aunque Uruguay mantuvo niveles de desigualdad moderados en el contexto regional.
 
----
-
 ## Período de consolidación y desafíos (2020–2025)
 
 A partir de 2020, el gobierno de Luis Lacalle Pou (Partido Nacional, coalición multipartidaria) reorientó algunas políticas sociales, con foco en la eficiencia del gasto y la focalización:
@@ -119,8 +107,6 @@ A partir de 2020, el gobierno de Luis Lacalle Pou (Partido Nacional, coalición 
 - **Reforma de la seguridad social (Ley 20.130/2023)**: reforma del sistema previsional. Ver dominio `sistema-financiero-uy` para detalle.
 - **Ley de Urgente Consideración (LUC, 2020)**: Ley 19.889, modificó aspectos de varios programas sociales y de la seguridad pública.
 - **Continuidad de programas**: las AFAM-PE, la TUS y los servicios del SNIC se mantuvieron como pilares del sistema de protección social.
-
----
 
 ## Palabras clave
 

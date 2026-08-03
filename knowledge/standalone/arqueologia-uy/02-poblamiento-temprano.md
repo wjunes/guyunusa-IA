@@ -1,12 +1,8 @@
 # Poblamiento Temprano del Uruguay
 
----
-
 ## Contexto general
 
 El territorio que hoy comprende la República Oriental del Uruguay formó parte de los procesos de poblamiento del continente americano durante el Pleistoceno final y el Holoceno temprano. Las evidencias arqueológicas disponibles permiten establecer una ocupación humana que se remonta a, al menos, entre 13.000 y 11.000 años antes del presente (AP), aunque algunos hallazgos plantean cronologías anteriores que continúan siendo debatidas en la comunidad científica.
-
----
 
 ## Marco paleoambiental
 
@@ -16,8 +12,6 @@ El poblamiento temprano ocurrió durante un período de transformaciones ambient
 - Existencia de megafauna: mastodontes (*Notiomastodon platensis*), gliptodontes (*Glyptodon clavipes*, *Doedicurus*), toxodontes (*Toxodon platensis*), macrauquenias, milodontes, caballos americanos (*Equus (Amerhippus) sp.*) y paleollamas.
 - Niveles del mar sensiblemente más bajos que los actuales, lo que implicó la existencia de mayor superficie continental en el litoral atlántico y en la plataforma submarina.
 - Formación del estuario del Río de la Plata en su forma actual durante el Holoceno temprano y medio.
-
----
 
 ## Hipótesis sobre el poblamiento
 
@@ -33,8 +27,6 @@ Para Sudamérica y el Cono Sur se han propuesto múltiples modelos:
 - Posible simultaneidad de diferentes grupos con distintas tecnologías.
 
 El Uruguay se ubica en un área de convergencia de influencias culturales del litoral atlántico, del interior pampeano-patagónico y del arco fluvial del Plata-Paraná-Uruguay.
-
----
 
 ## Evidencias en Uruguay
 
@@ -70,8 +62,6 @@ Para el período entre ~10.000 y ~7.000 AP, se han identificado en Uruguay conju
 - **Basalto:** en el litoral y el norte del país.
 - **Ópalo y calcedonia:** de uso más localizado.
 
----
-
 ## Megafauna y extinción
 
 La extinción de la megafauna americana al final del Pleistoceno (~12.000–10.000 AP) constituye uno de los temas más debatidos en la arqueología y la paleontología del continente. Las hipótesis principales son:
@@ -81,8 +71,6 @@ La extinción de la megafauna americana al final del Pleistoceno (~12.000–10.0
 3. **Modelo de impacto combinado:** La extinción fue resultado de la conjunción de presión humana y cambio ambiental.
 
 Para Uruguay, la evidencia disponible no permite establecer de manera concluyente la causalidad de la extinción. El sitio Arroyo del Vizcaíno es central en este debate para la región rioplatense.
-
----
 
 ## Contexto sudamericano
 
@@ -97,8 +85,6 @@ El poblamiento del Uruguay debe entenderse dentro del marco más amplio del pobl
 | Pay Paso 1 | Uruguay | ~10.500 AP | Puntas fishtail |
 | Arroyo del Vizcaíno | Uruguay | ~30.000 AP (debatido) | Megafauna y posible actividad humana |
 
----
-
 ## Estado del conocimiento y perspectivas
 
 El conocimiento sobre el poblamiento temprano de Uruguay es parcial e incompleto. Las principales limitaciones son:
@@ -109,8 +95,6 @@ El conocimiento sobre el poblamiento temprano de Uruguay es parcial e incompleto
 - Superficie sin prospectar sistemáticamente es aún extensa.
 
 Las perspectivas de investigación incluyen la aplicación de análisis de ADN antiguo, isótopos estables, paleoambiente molecular (sedaDNA) y el procesamiento de imágenes de teledetección para la identificación de nuevos sitios.
-
----
 
 ## Palabras clave
 

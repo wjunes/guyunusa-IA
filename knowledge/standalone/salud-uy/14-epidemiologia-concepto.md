@@ -1,3 +1,5 @@
+# Epidemiología: conceptos y aplicación en Uruguay
+
 ## Resumen
 
 La **epidemiología** es la ciencia que estudia la distribución, los determinantes y la frecuencia de los eventos de salud y enfermedad en las poblaciones, con el objetivo de controlar los problemas de salud. Es la disciplina científica que fundamenta la **salud pública**: sin datos epidemiológicos no hay políticas sanitarias basadas en evidencia. En Uruguay, la epidemiología se aplica a través del **SINAVE** (vigilancia de enfermedades), de los registros nacionales (Registro Nacional de Cáncer, estadísticas de mortalidad, Sistema Informático Perinatal), del **GACH** (que usó modelización matemática epidemiológica durante el COVID-19), y de la investigación académica en la Facultad de Medicina de Udelar. Los conceptos de incidencia, prevalencia, mortalidad, letalidad y factores de riesgo son las herramientas básicas del epidemiólogo.

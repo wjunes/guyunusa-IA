@@ -2,8 +2,6 @@
 
 Este glosario reúne términos técnicos, institucionales y productivos del sector agropecuario uruguayo. Las definiciones son concisas y orientadas a la comprensión en contexto.
 
----
-
 ## A
 
 **Aftosa:** Ver *Fiebre aftosa*.
@@ -17,8 +15,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **ARU (Asociación Rural del Uruguay):** Organización gremial de productores agropecuarios, fundada en 1871. Organiza la Expo Prado (Exposición Nacional de Ganadería) anualmente.
 
 **Abigeato:** Robo de ganado; delito tipificado en el Código Penal uruguayo.
-
----
 
 ## B
 
@@ -35,8 +31,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **BPA (Buenas Prácticas Agrícolas):** Normas y recomendaciones para la producción agrícola que contemplan la seguridad alimentaria, la protección ambiental y la salud de los trabajadores.
 
 **Bromatología:** Ciencia que estudia la composición, calidad e inocuidad de los alimentos. El MGAP y el LATU son actores clave en Uruguay.
-
----
 
 ## C
 
@@ -56,8 +50,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **Cultivos de cobertura (cover crops):** Cultivos sembrados entre dos cultivos principales para proteger el suelo de la erosión, aportar materia orgánica y controlar malezas. En Uruguay se usan avena, raigrás y mostaza, entre otros.
 
----
-
 ## D
 
 **Destete:** Separación del ternero de su madre, generalmente entre los 6 y 8 meses. Marca el fin del ciclo de cría.
@@ -70,8 +62,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **DIEA (Dirección de Estadísticas Agropecuarias):** Unidad del MGAP que genera estadísticas del sector; realiza el Censo Agropecuario y las encuestas agrícolas anuales.
 
----
-
 ## E
 
 **Engorde (recría/terminación):** Ciclo productivo que comprende desde el destete hasta el peso de faena (~450–500 kg para novillos). Puede ser a campo (pasturas), en feedlot (confinamiento) o mixto.
@@ -79,8 +69,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **Erosión hídrica:** Pérdida de suelo superficial por acción del agua de lluvia o escorrentía. Principal amenaza para la productividad agrícola en Uruguay. El Decreto 405/008 impone tolerancias máximas de pérdida de suelo (7–10 t/ha/año según tipo de suelo).
 
 **Estancia:** Unidad de producción ganadera extensiva, con superficie variable. Históricamente, el núcleo de la ganadería uruguaya.
-
----
 
 ## F
 
@@ -96,8 +84,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **Forestación:** Plantación artificial de árboles (eucaliptos, pinos) con fines industriales (celulosa, madera aserrada, tableros). En Uruguay, regulada y fomentada por la Ley 15.939/1987.
 
----
-
 ## G
 
 **Ganadería extensiva:** Sistema de producción bovina o ovina basado en el pastoreo sobre campo natural o mejorado, con bajas cargas animales por hectárea. Dominante en Uruguay.
@@ -110,8 +96,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **GPS diferencial (RTK):** Tecnología de posicionamiento global de alta precisión (error <2 cm) usada en agricultura de precisión para guiado automático de tractores y sembradoras.
 
----
-
 ## H
 
 **Halal:** Certificación que garantiza que los animales fueron faenados siguiendo los preceptos del Islam. Uruguay certifica carne y productos lácteos Halal para exportar a países de mayoría musulmana.
@@ -121,8 +105,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **Hereford / Angus / Brahman / Holando:** Razas bovinas. Hereford y Angus dominan la ganadería de carne en Uruguay. Brahman y sus cruzas son más resistentes al calor (norte del país). Holando (Holstein) es la raza lechera por excelencia.
 
 **Horticultura protegida:** Cultivo de hortalizas bajo estructuras (invernáculos, túneles) que modifican el microclima. Permite producción en épocas desfavorables y mayor productividad.
-
----
 
 ## I
 
@@ -146,15 +128,11 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **ISI (Industrialización por Sustitución de Importaciones):** Modelo económico dominante en Uruguay entre 1930 y 1960. Implicó políticas proteccionistas que afectaron la competitividad agropecuaria.
 
----
-
 ## K / L
 
 **Kosher:** Certificación de productos aptos para el consumo según los preceptos del judaísmo. Uruguay certifica carne y otros productos para mercados kosher.
 
 **LATU (Laboratorio Tecnológico del Uruguay):** Fundado en 1965. Provee servicios de ensayo, metrología, certificación y transferencia tecnológica al sector agropecuario e industrial.
-
----
 
 ## M
 
@@ -164,23 +142,17 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **Monocultivo:** Práctica agrícola que consiste en sembrar un solo cultivo en el mismo campo durante años consecutivos. Aumenta el riesgo de erosión, pérdida de materia orgánica y resistencia a herbicidas.
 
----
-
 ## N
 
 **NDC (Nationally Determined Contribution):** Contribución Determinada a Nivel Nacional que Uruguay presentó en el marco del Acuerdo de París (2015). Incluye compromisos de reducción de emisiones en el sector agropecuario.
 
 **Novillo:** Bovino macho castrado, de entre 1 y 3 años, destinado a la producción de carne. Es la categoría más faenada en Uruguay.
 
----
-
 ## O
 
 **OIE (Organización Mundial de Sanidad Animal):** Organismo intergubernamental que fija estándares sanitarios internacionales. Reconoce a Uruguay como país libre de aftosa con vacunación desde 2003.
 
 **Ovino (oveja):** Especie productora de lana (Merino, Corriedale) y carne (Corriedale, Île de France, Romney Marsh). Uruguay alcanzó 26 millones de ovinos en la década de 1990; en 2023, el stock es de 6–8 millones.
-
----
 
 ## P
 
@@ -191,8 +163,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **Praderas artificiales / Pasturas mejoradas:** Siembra de especies forrajeras cultivadas (trébol blanco, lotus, festuca, dactylis) para mejorar la oferta de forraje respecto al campo natural.
 
 **Precio sostén / Intervención de precios:** Mecanismos por los cuales el Estado fija precios mínimos para productos agropecuarios (ej. precio de la leche a productor). En Uruguay se aplica a la leche y algunos productos hortícolas.
-
----
 
 ## R
 
@@ -206,8 +176,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **Rotación de cultivos:** Alternancia de diferentes cultivos en el mismo campo en ciclos sucesivos (ej. soja–trigo–soja–maíz). Mejora la salud del suelo, reduce el riesgo fitosanitario y rompe ciclos de malezas.
 
----
-
 ## S
 
 **SAMAN (Sociedad Anónima Molinos Arroceros Nacionales):** Una de las principales empresas de la cadena arrocera uruguaya. Integra a muchos productores como proveedores y procesa y exporta arroz.
@@ -219,8 +187,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **Siembra directa (no labranza):** Sistema de siembra en el que el suelo no se ara; el cultivo se siembra directamente sobre los rastrojos del cultivo anterior. Reduce la erosión, mejora la materia orgánica del suelo y reduce costos de combustible.
 
 **SNIG (Sistema Nacional de Información Ganadera):** Sistema creado por Decreto 333/004 y Ley 17.997/2006. Registra el movimiento de todos los bovinos en Uruguay mediante la identificación individual (doble caravana). Uruguay fue el primer país en implementar un sistema de trazabilidad bovina individual a escala nacional.
-
----
 
 ## T
 
@@ -234,8 +200,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 
 **Transgénico (OGM):** Organismo cuyo material genético ha sido modificado mediante ingeniería genética. En Uruguay se cultivan soja RR (resistente a glifosato), maíz Bt (resistente a insectos) y algunos cultivos menores.
 
----
-
 ## U / V / Z
 
 **UPM (anteriormente Botnia):** Empresa finlandesa que opera tres plantas de celulosa en Uruguay: UPM Fray Bentos (2007, ~880.000 t/año), Montes del Plata es de Arauco-Stora Enso. UPM 2 en Paso de los Toros (2022, ~2,1 millones t/año).
@@ -245,8 +209,6 @@ Este glosario reúne términos técnicos, institucionales y productivos del sect
 **Vaquillona:** Hembra bovina joven (entre el destete y el primer parto, generalmente 1–3 años). Es la categoría de reposición del rodeo de cría.
 
 **Zoonosis:** Enfermedades transmisibles entre animales y humanos. En el agro uruguayo se vigilan brucelosis, tuberculosis, leptospirosis, hidatidosis y otras.
-
----
 
 ## Palabras clave
 

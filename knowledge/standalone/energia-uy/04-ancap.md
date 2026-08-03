@@ -13,8 +13,6 @@
 | **Sitio web oficial** | https://www.ancap.com.uy |
 | **Dependencia** | Ministerio de Industria, Energía y Minería (MIEM) |
 
----
-
 ## Historia
 
 ### Fundación (1931)
@@ -56,8 +54,6 @@ ANCAP participó en el proyecto del **Terminal de Regasificación GNL Montevideo
 
 ANCAP implementó proyectos de mejora en la Refinería La Teja para aumentar la eficiencia y cumplir estándares ambientales más exigentes, incluyendo la reducción del contenido de azufre en combustibles.
 
----
-
 ## Actividades actuales
 
 ### Refinación de petróleo
@@ -91,8 +87,6 @@ ANCAP participa en la importación y distribución de **gas natural** a través 
 
 ANCAP produce y comercializa lubricantes y asfaltos para el mercado nacional e industrial.
 
----
-
 ## Presencia en el territorio
 
 - **Refinería La Teja** (Montevideo)
@@ -101,8 +95,6 @@ ANCAP produce y comercializa lubricantes y asfaltos para el mercado nacional e i
 - **Terminal portuario** en el Puerto de Montevideo
 - **Red nacional de estaciones de servicio** en todo el país
 - **Participación en GNLM** (bahía de Montevideo)
-
----
 
 ## Relación con el sector energético nacional
 
@@ -113,8 +105,6 @@ ANCAP es el proveedor dominante de:
 - **Asfalto:** infraestructura vial
 - **Biocombustibles mezclados:** reducción de emisiones en el sector transporte
 
----
-
 ## Indicadores (referencia 2022–2023)
 
 | Indicador | Valor aproximado | Fuente |
@@ -123,13 +113,9 @@ ANCAP es el proveedor dominante de:
 | Empleados | ~2.500–3.000 [VERIFICAR] | ANCAP |
 | Participación en el mercado de combustibles | ~100% (monopolio en refinación) | Marco legal |
 
----
-
 ## Marco regulatorio
 
 ANCAP opera bajo el **monopolio estatal** en refinación e importación de combustibles. Las actividades de distribución minorista están abiertas a privados bajo contratos con ANCAP. La fijación de los **precios de los combustibles** es atribución del **Poder Ejecutivo**, con participación del MIEM y URSEA.
-
----
 
 ## Palabras clave
 

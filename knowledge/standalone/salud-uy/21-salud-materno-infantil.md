@@ -1,3 +1,5 @@
+# Salud materno-infantil en Uruguay
+
 ## Resumen
 
 La salud materno-infantil es uno de los campos donde Uruguay exhibe los mejores indicadores de América Latina. La **mortalidad infantil** (menores de un año) es inferior a 7 por cada 1.000 nacidos vivos, y la **mortalidad materna** es de las más bajas de la región. Estos resultados son fruto de décadas de políticas de salud orientadas a la atención del embarazo, el parto y el recién nacido. El **Centro Latinoamericano de Perinatología (CLAP)** de la OPS, fundado en Montevideo en 1969 por iniciativa del Dr. Roberto Caldeyro Barcia, es un referente mundial de la perinatología y ha difundido herramientas como el **Sistema Informático Perinatal (SIP)** en toda América Latina. El **Hospital Pereira Rossell** es el mayor centro de maternidad y pediatría pública del Uruguay.

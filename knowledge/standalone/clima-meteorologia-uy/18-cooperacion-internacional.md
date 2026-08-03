@@ -1,12 +1,8 @@
 # Cooperación Internacional en Meteorología y Climatología
 
----
-
 ## Uruguay en el sistema meteorológico internacional
 
 Uruguay participa en el sistema internacional de meteorología y climatología a través de diversas organizaciones intergubernamentales, redes de observación, programas de investigación y acuerdos bilaterales. INUMET es el punto focal nacional para la mayoría de estas relaciones internacionales.
-
----
 
 ## Organización Meteorológica Mundial (OMM)
 
@@ -37,8 +33,6 @@ Uruguay es miembro de la OMM desde su fundación (1950; la Convención de la OMM
 | **Marco Mundial para los Servicios Climáticos (MMSC / GFCS)** | Servicios climáticos aplicados para sectores productivos |
 | **Programa de Investigación sobre la Atmósfera (PIA)** | Investigación meteorológica básica |
 
----
-
 ## MERCOSUR y cooperación regional
 
 ### Subgrupo de Trabajo N°6 — Medio Ambiente (SGT-6)
@@ -52,8 +46,6 @@ Los servicios meteorológicos del MERCOSUR intercambian:
 - Pronósticos regionales armonizados.
 - Alertas transfronterizas (especialmente para cuencas hidrológicas compartidas como el Río Uruguay y el Río de la Plata).
 - Datos de observación de superficie y radiosondeos.
-
----
 
 ## Cooperación bilateral principal
 
@@ -83,16 +75,12 @@ Uruguay mantiene vínculos de cooperación con la **AEMET** (*Agencia Estatal de
 - Capacitación técnica.
 - Colaboración en proyectos de climatología iberoamericana.
 
----
-
 ## Centro Internacional para la Investigación del Fenómeno de El Niño (CIIFEN)
 
 El **CIIFEN**, con sede en Guayaquil, Ecuador, es un centro internacional especializado en el estudio y la comunicación del impacto del ENSO en América del Sur. Uruguay colabora con el CIIFEN en:
 
 - Producción de perspectivas climáticas estacionales regionales.
 - Capacitación en el uso de información climática para la toma de decisiones.
-
----
 
 ## ECMWF — Centro Europeo de Predicciones Meteorológicas a Plazo Medio
 
@@ -101,8 +89,6 @@ Si bien Uruguay no es Estado miembro del **ECMWF**, INUMET y los investigadores 
 - Datos del modelo IFS (a través de acuerdos de OMM y acceso público para investigación).
 - Datos de ERA5 (*reanálisis climático*) a través del **Copernicus Climate Data Store (CDS)**.
 - Publicaciones técnicas y documentación del ECMWF.
-
----
 
 ## CLIVAR y WCRP
 
@@ -117,13 +103,9 @@ El **WCRP** (*World Climate Research Programme*) coordina la investigación clim
 
 Investigadores del DCAO y el IMFIA participan en actividades del WCRP a nivel individual.
 
----
-
 ## IPCC — Panel Intergubernamental sobre el Cambio Climático
 
 Uruguay participa en el proceso del **IPCC** como Estado miembro. El **Ministerio de Ambiente** coordina la participación nacional. Investigadores uruguayos han contribuido como autores colaboradores en capítulos de informes del IPCC relacionados con América del Sur.
-
----
 
 ## Intercambio de datos — Marco internacional
 
@@ -137,8 +119,6 @@ Uruguay participa en el proceso del **IPCC** como Estado miembro. El **Ministeri
 | **SROCC / AR6** (IPCC) | Datos y proyecciones utilizados por Uruguay |
 | **Copernicus/ERA5** | Reanálisis; acceso a investigadores uruguayos |
 
----
-
 ## Formación internacional de meteorólogos uruguayos
 
 Uruguay ha enviado técnicos y científicos a capacitarse en centros internacionales de meteorología:
@@ -148,8 +128,6 @@ Uruguay ha enviado técnicos y científicos a capacitarse en centros internacion
 - **NCAR (Boulder, EE.UU.):** cursos de modelación con WRF y otros sistemas.
 - **CPTEC/INPE (Cachoeira Paulista, Brasil):** formación en PNT regional y modelación climática.
 - **CIMMET (México) u otros centros OMM:** cursos operativos de meteorología.
-
----
 
 ## Palabras clave
 

@@ -1,3 +1,5 @@
+# Ecosistema de startups tecnológicas en Uruguay
+
 ## Resumen
 
 Uruguay ha desarrollado un ecosistema de startups tecnológicas que, en relación al tamaño de su economía, es de los más activos de América Latina. El caso más notable es dLocal, que en 2021 se convirtió en el primer unicornio tecnológico del país con su OPV en el NASDAQ. El ecosistema cuenta con aceleradoras, organismos públicos de financiamiento (ANDE, ANII), inversores ángel, fondos de capital de riesgo regionales, y referentes internacionales como Endeavor Uruguay. Montevideo figura consistentemente entre los 5-10 ecosistemas de startups más activos de América Latina en rankings internacionales como StartupBlink.

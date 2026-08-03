@@ -1,7 +1,5 @@
 # Océano y Clima en Uruguay
 
----
-
 ## La influencia oceánica sobre el clima uruguayo
 
 Uruguay se ubica en la margen oriental de América del Sur, con acceso directo al **Atlántico Sur** y bañada por el **Río de la Plata** en su costa sur. Esta posición determina que la influencia oceánica sea un factor central en la configuración del clima nacional.
@@ -12,8 +10,6 @@ Los mecanismos principales de influencia oceánica sobre el clima de Uruguay son
 2. **Aporte de humedad:** La evaporación oceánica y rioplatense es la fuente primaria del vapor de agua que alimenta las precipitaciones.
 3. **Corrientes marinas:** Condicionan la temperatura superficial del mar (TSM) y, por ende, el intercambio de calor y humedad con la atmósfera.
 4. **Teleconexiones climáticas:** El ENSO y otras variabilidades de gran escala que se originan en el Pacífico y el Atlántico modulan la variabilidad climática interanual de Uruguay.
-
----
 
 ## Corrientes marinas y su efecto sobre el clima
 
@@ -36,8 +32,6 @@ Los mecanismos principales de influencia oceánica sobre el clima de Uruguay son
 - **Localización:** Aproximadamente a los 38°–40° S, frente a la costa argentina y uruguaya (margen exterior).
 - **Significado climático:** Zona de máxima variabilidad de TSM; ciclogénesis frecuente (desarrollo de ciclones extratropicales); actividad frontal intensa; fuente de teleconexiones climáticas regionales.
 
----
-
 ## El Río de la Plata y el clima
 
 El **Río de la Plata** —estuario de ~320 km de longitud y hasta ~220 km de ancho— actúa como un regulador térmico e higrométrico de primer orden para la costa sur de Uruguay:
@@ -46,8 +40,6 @@ El **Río de la Plata** —estuario de ~320 km de longitud y hasta ~220 km de an
 - **Fuente de humedad:** Elevada evaporación; contribuye a la humedad relativa alta (~78–80 %) de la región metropolitana.
 - **Niebla:** La diferencia de temperatura entre el agua y el aire favorece la niebla de radiación y de advección en otoño e invierno.
 - **Sudestada:** Viento del sureste que puede elevar el nivel del Río de la Plata entre 1 y 3 m sobre el nivel normal, provocando inundaciones costeras (ver archivo 06-fenomenos-meteorologicos.md).
-
----
 
 ## ENSO: El Niño y La Niña en Uruguay
 
@@ -83,8 +75,6 @@ Durante **La Niña** (fase fría), los efectos se invierten: mayor déficit de p
 | 1999–2001 | La Niña prolongada | Sequías; déficit hídrico agropecuario |
 | 2022–2023 | La Niña triple (tres años consecutivos) | Sequía histórica; crisis de agua potable en Montevideo |
 
----
-
 ## Otras variabilidades climáticas de gran escala
 
 ### Oscilación Antártica / SAM (Southern Annular Mode)
@@ -103,8 +93,6 @@ Durante **La Niña** (fase fría), los efectos se invierten: mayor déficit de p
 - Variabilidad de la TSM del Atlántico Norte con períodos de ~60–80 años.
 - Influye en la actividad ciclónica tropical, las precipitaciones en el noreste de Brasil y posiblemente en el cono sur, aunque la señal en Uruguay es menos robusta que la del ENSO.
 
----
-
 ## Temperatura superficial del mar (TSM) y clima regional
 
 | Zona | TSM en invierno (julio) | TSM en verano (enero) | Efecto climático |
@@ -113,8 +101,6 @@ Durante **La Niña** (fase fría), los efectos se invierten: mayor déficit de p
 | Playa del Este / Maldonado | ~12–15 °C | ~19–22 °C | Transición Plata-Atlántico |
 | Bahía de Montevideo | ~10–12 °C | ~20–23 °C | Regulación térmica metropolitana |
 | Costa noroeste (Colonia) | ~10–14 °C | ~20–24 °C | Aguas estuariales más cálidas |
-
----
 
 ## Interacción océano-atmósfera y el ciclo del agua en Uruguay
 
@@ -126,8 +112,6 @@ El ciclo hidrológico de Uruguay está directamente conectado con los aportes oc
 4. **Escorrentía:** Hacia los ríos Uruguay, Negro, Santa Lucía y directamente al Plata.
 5. **Retorno al océano:** A través del Río de la Plata y la costa atlántica.
 
----
-
 ## Cambio climático oceánico y sus efectos en Uruguay
 
 | Proceso | Tendencia global | Impacto potencial en Uruguay |
@@ -137,8 +121,6 @@ El ciclo hidrológico de Uruguay está directamente conectado con los aportes oc
 | Aumento del nivel del mar | ~20 cm globales en el siglo XX; ~3,7 mm/año en 2006–2018 | Erosión costera; mayor impacto de Sudestadas; inundación de zonas bajas |
 | Cambio en la circulación de corrientes | Posible debilitamiento de la Corriente Circumpolar | Efectos sobre la Corriente de Malvinas; modificación de la frontera Brasil-Malvinas |
 | Mayor intensidad de ENSO | Proyectado en escenarios de alto calentamiento | Mayor variabilidad interanual de precipitaciones |
-
----
 
 ## Monitoreo océano-atmósfera en Uruguay
 
@@ -151,8 +133,6 @@ La interacción océano-atmósfera es monitoreada por diversas instituciones:
 | DINARA | Cruceros de evaluación | TSM; salinidad; productividad |
 | Facultad de Ciencias | CTD; perfiles oceanográficos | Temperatura y salinidad en columna de agua |
 | IAU / SCAR | Argo floats [VERIFICAR participación] | Temperatura y salinidad en profundidad |
-
----
 
 ## Palabras clave
 

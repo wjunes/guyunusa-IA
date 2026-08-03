@@ -1,12 +1,8 @@
 # Sitios Arqueológicos del Uruguay
 
----
-
 ## Introducción
 
 El territorio de la República Oriental del Uruguay contiene un número significativo de sitios arqueológicos prehistóricos e históricos. El Registro Nacional de Patrimonio Cultural conserva información sobre centenares de sitios, aunque la prospección sistemática del territorio sigue siendo parcial. Este archivo recoge fichas de los sitios más importantes por su relevancia científica, cronología o estado de investigación.
-
----
 
 ## Ficha de sitio: Arroyo del Vizcaíno
 
@@ -25,8 +21,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Importancia científica | Principal sitio de debate sobre el límite cronológico inferior del poblamiento humano en Uruguay; publicación en *Proceedings of the Royal Society B* (2014) |
 | Controversia | La asociación entre las marcas óseas y la actividad humana a 30.000 AP no tiene consenso en la comunidad arqueológica |
 
----
-
 ## Ficha de sitio: Pay Paso 1
 
 | Campo | Dato |
@@ -42,8 +36,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Materiales | Puntas de proyectil fishtail (cola de pescado), raspadores, lascas en cuarcita y sílex |
 | Estado de conservación | [VERIFICAR] |
 | Importancia científica | Evidencia de presencia humana del Pleistoceno final en Uruguay; puntas fishtail comparables con las del Cono Sur |
-
----
 
 ## Ficha de sitio: Cerrito de la Isla, Los Ajos
 
@@ -61,8 +53,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Estado de conservación | Variable; amenazado por actividades agropecuarias |
 | Importancia científica | Sitio referencial para el estudio de las sociedades constructoras de cerritos del este; dataciones y análisis paleoambientales |
 
----
-
 ## Ficha de sitio: Complejo Los Ajos – Bañado de India Muerta
 
 | Campo | Dato |
@@ -74,8 +64,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Tipo de sitio | Paisaje monticularizado: conjunto de cerritos en contexto de humedales |
 | Investigaciones | López Mazz, Iriarte, Bracco, Gianotti |
 | Importancia | Uno de los complejos de cerritos mejor estudiados del Uruguay; análisis de subsistencia, paleoambiente y organización espacial |
-
----
 
 ## Ficha de sitio: Chamangá
 
@@ -92,8 +80,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Estado de conservación | Fragilidad ante el vandalismo y la acción climática |
 | Importancia científica | Principal sitio de arte rupestre del Uruguay; declarado Monumento Histórico Nacional (Ley 14.040) |
 
----
-
 ## Ficha de sitio: Grutas del Palacio
 
 | Campo | Dato |
@@ -106,8 +92,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Tipo de sitio | Formación geológica (areniscas con cavidades); posibles contextos arqueológicos asociados |
 | Estado de protección | Área Protegida del SNAP (Ley 17.234/2000) |
 | Importancia | Sitio geológico y patrimonial; integrado al SNAP |
-
----
 
 ## Ficha de sitio: Colonia do Sacramento (sector colonial)
 
@@ -124,8 +108,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Materiales | Cerámica colonial (portuguesa, española, indígena), metales, vidrios, restos constructivos, material orgánico |
 | Importancia científica | Sitio de arqueología histórica colonial más importante del Uruguay; refleja la disputa hispano-portuguesa sobre el Río de la Plata |
 
----
-
 ## Ficha de sitio: Real de San Carlos
 
 | Campo | Dato |
@@ -136,8 +118,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Cronología | Período colonial (siglo XVIII) y posthispánico |
 | Tipo de sitio | Reducción colonial y sitios asociados |
 | Estado | [VERIFICAR] investigaciones arqueológicas |
-
----
 
 ## Ficha de sitio: Misión de San Gabriel (Soriano)
 
@@ -151,8 +131,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Estado de investigación | Escasamente excavado; [VERIFICAR] datos precisos de investigaciones |
 | Importancia | Posible primer establecimiento misionero en territorio uruguayo |
 
----
-
 ## Ficha de sitio: Concheros de la Laguna de Rocha y lagunas costeras
 
 | Campo | Dato |
@@ -163,8 +141,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Tipo de sitio | Concheros (acumulaciones de valvas, restos óseos, instrumentos líticos) |
 | Materiales | Valvas de *Diplodon* y otras especies de agua dulce/salobre; restos óseos de fauna; cerámica; lítica |
 | Importancia | Evidencia de grupos cazadores-recolectores-pescadores en el Holoceno medio y tardío |
-
----
 
 ## Otros sitios registrados
 
@@ -179,8 +155,6 @@ El territorio de la República Oriental del Uruguay contiene un número signific
 | Fortaleza del Cerro | Montevideo | Arquitectura militar colonial/republicana (1809) | Monumento Histórico Nacional |
 | Cerro de Montevideo | Montevideo | Posibles ocupaciones prehispánicas [VERIFICAR] | Área arqueológica urbana |
 | Valle Edén (Tacuarembó) | Tacuarembó | Arte rupestre reportado [VERIFICAR] | [VERIFICAR] |
-
----
 
 ## Palabras clave
 

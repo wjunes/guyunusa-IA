@@ -4,8 +4,6 @@
 
 Las **estadísticas económicas** de Uruguay son producidas por organismos públicos especializados, con metodologías estandarizadas internacionalmente. Este archivo describe las principales fuentes de información estadística económica, los indicadores que producen y las plataformas de acceso a los datos.
 
----
-
 ## Instituto Nacional de Estadística (INE)
 
 ### Descripción
@@ -25,8 +23,6 @@ El **INE** es el organismo rector del Sistema Estadístico Nacional (SEN) de Uru
 | **Encuesta de Comercio** | Actividad del sector comercial | Mensual |
 | **Censo de Población y Vivienda** | Datos demográficos y habitacionales | Decenal (último: 2023) |
 | **Encuesta de Gasto e Ingreso de los Hogares** | Estructura del consumo de los hogares | Periódica |
-
----
 
 ## Banco Central del Uruguay (BCU)
 
@@ -51,8 +47,6 @@ El BCU es fuente clave de estadísticas monetarias, financieras y del sector ext
 | **Informe de Política Monetaria (IPM)** | Análisis y proyecciones macroeconómicas del BCU | Trimestral |
 | **Informe de Estabilidad Financiera** | Estado del sistema financiero | Semestral |
 
----
-
 ## MEF — Ministerio de Economía y Finanzas
 
 El MEF publica estadísticas fiscales y de finanzas públicas.
@@ -66,21 +60,15 @@ El MEF publica estadísticas fiscales y de finanzas públicas.
 | **Recaudación tributaria (DGI y DNA)** | Ingresos tributarios del Gobierno Central | Mensual |
 | **Ejecución presupuestal** | Gasto e ingresos del Gobierno Central | Mensual |
 
----
-
 ## Contaduría General de la Nación (CGN)
 
 La CGN publica los **estados financieros del Gobierno Central**: balance, estado de resultados y estado de origen y aplicación de fondos. Los informes de cierre de ejercicio anual son herramientas clave para la rendición de cuentas.
-
----
 
 ## Uruguay XXI
 
 **Uruguay XXI** publica estadísticas de comercio exterior e inversión extranjera directa, con periodicidad mensual y anual. Sus informes sectoriales son referencia para inversores y analistas.
 
 **Sitio oficial**: [https://www.uruguayxxi.gub.uy](https://www.uruguayxxi.gub.uy)
-
----
 
 ## Organismos internacionales con datos sobre Uruguay
 
@@ -93,15 +81,11 @@ La CGN publica los **estados financieros del Gobierno Central**: balance, estado
 | **OIT** | Estadísticas laborales | [https://ilostat.ilo.org](https://ilostat.ilo.org) |
 | **ALADI** | Comercio exterior regional | [https://www.aladi.org](https://www.aladi.org) |
 
----
-
 ## Plataformas de datos abiertos
 
 - **Catálogo de Datos Abiertos de Uruguay** (AGESIC): [https://catalogodatos.gub.uy](https://catalogodatos.gub.uy)
 - **SIIF (CGN)**: datos de ejecución presupuestal
 - **Banco de Datos del INE**: acceso a microdatos de encuestas (ECH, etc.) para investigadores
-
----
 
 ## Palabras clave
 

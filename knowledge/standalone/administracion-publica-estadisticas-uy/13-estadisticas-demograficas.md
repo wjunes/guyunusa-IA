@@ -4,8 +4,6 @@
 
 Las **estadísticas demográficas** estudian el tamaño, la composición y la dinámica de la población uruguaya. Son producidas principalmente por el **INE** a partir de los censos nacionales, la **Encuesta Continua de Hogares (ECH)** y el **Registro de Estado Civil (Ministerio de Educación y Cultura — Dirección General del Registro Civil)**, que lleva los registros vitales (nacimientos, defunciones, matrimonios).
 
----
-
 ## Tamaño y distribución de la población
 
 ### Evolución de la población
@@ -34,8 +32,6 @@ La población uruguaya está **altamente concentrada** en Montevideo y su área 
 - **Área metropolitana** (Montevideo + Canelones + San José): más del 55% de la población.
 - El 95% de la población es **urbana** (vive en localidades de más de 1.000 habitantes), una de las tasas más altas de América Latina.
 
----
-
 ## Estructura etaria
 
 Uruguay presenta una estructura demográfica **envejecida** para los estándares latinoamericanos, resultado de tasas de natalidad declinantes y aumento de la esperanza de vida:
@@ -47,8 +43,6 @@ Uruguay presenta una estructura demográfica **envejecida** para los estándares
 | 65 años y más (adultos mayores) | ~16% |
 
 La **edad mediana** de la población uruguaya supera los 35 años y sigue aumentando. Uruguay transita una **segunda transición demográfica**, con tasas de fecundidad por debajo del nivel de reemplazo.
-
----
 
 ## Natalidad y fecundidad
 
@@ -63,8 +57,6 @@ La **edad mediana** de la población uruguaya supera los 35 años y sigue aument
 **Periodicidad**: anual
 **Fuente primaria**: Registro de nacimientos del Registro Civil
 
----
-
 ## Mortalidad
 
 | Indicador | Valor aproximado |
@@ -78,8 +70,6 @@ La **edad mediana** de la población uruguaya supera los 35 años y sigue aument
 
 **Organismo responsable**: MSP / Registro Civil (MEC)
 **Periodicidad**: anual
-
----
 
 ## Migración
 
@@ -98,8 +88,6 @@ Uruguay ha tenido históricamente **saldos migratorios negativos** (más emigran
 
 **Fuente principal**: Censo 2011 y 2023; ECH (módulo de migración); Ministerio del Interior (permisos de residencia).
 
----
-
 ## Matrimonios y estructura familiar
 
 | Indicador | Observaciones |
@@ -110,8 +98,6 @@ Uruguay ha tenido históricamente **saldos migratorios negativos** (más emigran
 | Hogares unipersonales | Crecimiento sostenido; representan ~22% de los hogares |
 | Jefatura femenina de hogar | ~40% de los hogares |
 
----
-
 ## Proyecciones de población
 
 El INE elabora **proyecciones de población** para el corto, mediano y largo plazo, en coordinación con la CEPAL. Las proyecciones sirven para planificar la provisión de servicios públicos (educación, salud, seguridad social).
@@ -121,8 +107,6 @@ El INE elabora **proyecciones de población** para el corto, mediano y largo pla
 - Envejecimiento progresivo de la población.
 - Crecimiento de la población adulta mayor (65+).
 - La migración como factor moderador del decrecimiento natural.
-
----
 
 ## Palabras clave
 

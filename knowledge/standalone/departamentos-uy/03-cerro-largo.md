@@ -15,8 +15,6 @@
 | **Límites** | Brasil (norte y este), Rivera (norte), Tacuarembó (noroeste), Durazno (oeste), Florida (suroeste), Lavalleja (sur), Treinta y Tres (sureste) |
 | **Rutas principales** | Ruta 7, Ruta 8, Ruta 26, Ruta 44 |
 
----
-
 ## Historia
 
 ### Período colonial
@@ -30,8 +28,6 @@ Cerro Largo fue uno de los departamentos incluidos en la primera división artig
 ### Siglo XIX–XX
 
 La ganadería extensiva fue la base económica del departamento desde la colonia. La zona de frontera con Brasil (ciudades de Melo frente a Aceguá, Brasil) generó un dinámico intercambio comercial y cultural. La construcción de la represa de Palmar sobre el Río Negro en la segunda mitad del siglo XX tuvo impacto en zonas adyacentes del departamento.
-
----
 
 ## Geografía
 
@@ -56,8 +52,6 @@ Clima **templado húmedo** con rasgos subtropicales en el norte. Temperatura med
 
 Suelos del Escudo Cristalino: planosoles y brunosoles en las sierras; vertisoles en zonas deprimidas. Aptitud principalmente ganadera; arrozales en las planicies del este.
 
----
-
 ## Naturaleza
 
 ### Flora y fauna
@@ -69,8 +63,6 @@ La fauna incluye venado de campo (*Ozotoceros bezoarticus*, NT), zorro gris (*Ly
 ### Áreas protegidas
 
 No hay áreas del SNAP formalmente incorporadas en Cerro Largo [VERIFICAR], aunque las sierras del este presentan ecosistemas de alto valor natural.
-
----
 
 ## Economía
 
@@ -90,8 +82,6 @@ Explotación de canteras de granito y cuarcita del Escudo Cristalino para materi
 
 El paso fronterizo **Melo-Aceguá** (Brasil) es uno de los más activos del norte del país. El comercio fronterizo representa una actividad económica significativa para la ciudad de Melo.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -101,16 +91,12 @@ El paso fronterizo **Melo-Aceguá** (Brasil) es uno de los más activos del nort
 | UTU — Melo | Formación técnico-profesional |
 | **Centro Universitario de Melo (CUM)** | Sede de UdelaR en Cerro Largo; carreras de humanidades y tecnología |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital de Melo** | Principal centro hospitalario público (ASSE) |
 | Mutualistas locales | Cobertura privada (FONASA) |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -120,8 +106,6 @@ El paso fronterizo **Melo-Aceguá** (Brasil) es uno de los más activos del nort
 | **Casa de Gobierno de Melo** | Sede de la Intendencia |
 | **Museo Regional de Cerro Largo** | Historia y naturaleza regional |
 | **Teatro Maccio de Melo** | Teatro histórico de la capital departamental [VERIFICAR nombre] |
-
----
 
 ## Cultura
 
@@ -137,16 +121,12 @@ El paso fronterizo **Melo-Aceguá** (Brasil) es uno de los más activos del nort
 
 Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de leche. La proximidad con Brasil introduce elementos de la cocina riograndense.
 
----
-
 ## Deportes
 
 | Institución | Descripción |
 |-------------|-------------|
 | **Club Atlético Cerro Largo FC** | Club de fútbol histórico; participante en torneos nacionales; con sede en Melo |
 | Liga Departamental de Fútbol | Organismo rector local |
-
----
 
 ## Turismo
 
@@ -157,8 +137,6 @@ Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de lech
 | **Paso fronterizo Aceguá** | Ciudad gemela con Aceguá (Brasil); turismo de compras |
 | **Termas de Almirón** [VERIFICAR existencia/localización] | Posibles termas en el departamento |
 
----
-
 ## Infraestructura
 
 | Área | Descripción |
@@ -166,8 +144,6 @@ Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de lech
 | **Rutas** | Ruta 8 (principal; une Melo con Montevideo), Ruta 7, Ruta 26, Ruta 44 (hacia frontera Brasil) |
 | **Aeropuerto de Melo** | Aeropuerto departamental (vuelos de cabotaje) [VERIFICAR operatividad] |
 | **Paso fronterizo** | Melo-Aceguá (Ruta 26) |
-
----
 
 ## Instituciones
 
@@ -178,16 +154,12 @@ Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de lech
 | **Municipio de Melo** | Gobierno municipal de la capital |
 | **Municipio de Río Branco** | Localidad fronteriza importante |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **Leonel Viera** (1913–1976) | Ingeniería y arquitectura | Ingeniero uruguayo; diseñador del Puente de la Barra (Punta del Este) |
 | [VERIFICAR otras personalidades de Cerro Largo] | — | — |
-
----
 
 ## Estadísticas
 
@@ -198,15 +170,11 @@ Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de lech
 | Densidad | 6,7 hab./km² | INE |
 | Ciudad capital | Melo (~51.000 hab.) [VERIFICAR] | INE |
 
----
-
 ## Curiosidades
 
 - La ciudad de Melo es una de las pocas ciudades del Uruguay fundada con nombre diferente a su denominación actual: originalmente se llamó **San Bautista de las Mercedes del Yaguarón** (1795).
 - Cerro Largo tiene una de las **fronteras más largas** de Uruguay con Brasil.
 - El **Club Atlético Cerro Largo FC** es uno de los clubes del interior del Uruguay con mayor presencia en el fútbol profesional nacional.
-
----
 
 ## Cronología
 
@@ -218,8 +186,6 @@ Influencia gaúcha notable: churrasco, mate amargo, tortas fritas, dulce de lech
 | 1884 | Se segrega Treinta y Tres de Cerro Largo |
 | Siglo XX | Desarrollo ganadero y arrocero; crecimiento de Melo como centro regional |
 | 2009 | Ley 18.567; creación de municipios |
-
----
 
 ## Palabras clave
 

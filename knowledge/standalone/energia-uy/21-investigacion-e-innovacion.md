@@ -6,8 +6,6 @@ La investigación científica, el desarrollo tecnológico y la innovación (I+D+
 
 Los actores principales son la **Universidad de la República (UdelaR)**, el **Laboratorio Tecnológico del Uruguay (LATU)**, la **Agencia Nacional de Investigación e Innovación (ANII)**, las empresas estatales **UTE** y **ANCAP**, y una red creciente de empresas privadas y centros tecnológicos.
 
----
-
 ## Instituciones de I+D en energía
 
 ### Universidad de la República (UdelaR)
@@ -53,8 +51,6 @@ ANCAP participa en proyectos de I+D vinculados a:
 - Hidrógeno verde como sustituto del hidrógeno gris en la refinería
 - Desarrollo de lubricantes y especialidades petroquímicas
 
----
-
 ## Proyectos de I+D destacados
 
 ### FING-UdelaR: integración de renovables variables
@@ -78,8 +74,6 @@ ALUR (filial de ANCAP en Bella Unión) ha realizado investigaciones sobre:
 
 El MIEM coordina proyectos piloto de producción de H₂ verde con socios internacionales (Alemania, UE, BID). UdelaR y LATU participan en la evaluación tecnológica, la certificación y la formación de recursos humanos especializados en hidrógeno.
 
----
-
 ## Cooperación internacional en I+D
 
 | Organización / País | Tipo de cooperación |
@@ -91,8 +85,6 @@ El MIEM coordina proyectos piloto de producción de H₂ verde con socios intern
 | **Alemania (GIZ, KfW)** | Cooperación técnica en H₂ verde, eficiencia energética y transición energética |
 | **Unión Europea** | Proyectos Horizon Europe [VERIFICAR participación concreta de instituciones uruguayas]; cooperación en H₂ y renovables |
 | **Brasil (UFRGS, USP, FIOCRUZ)** | Cooperación académica en bioenergía, sistemas eléctricos, eficiencia energética |
-
----
 
 ## Formación de recursos humanos
 
@@ -114,8 +106,6 @@ El MIEM coordina proyectos piloto de producción de H₂ verde con socios intern
 | **Maestría en Ingeniería Química** | UdelaR – Fac. Ingeniería | Bioenergía, procesos industriales |
 | **Diploma en Energías Renovables** | LATU | Formación profesional continua |
 | **Cursos de especialización MIEM/DNE** | DNE | Auditoría energética, eficiencia |
-
----
 
 ## Palabras clave
 

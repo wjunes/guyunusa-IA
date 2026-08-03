@@ -1,7 +1,5 @@
 # DINARA: Dirección Nacional de Recursos Acuáticos
 
----
-
 ## Presentación institucional
 
 La **Dirección Nacional de Recursos Acuáticos (DINARA)** es el organismo del Estado uruguayo responsable de la investigación, evaluación, regulación y gestión de los recursos hidrobiológicos —marinos y continentales— en las aguas bajo soberanía o jurisdicción de Uruguay. Forma parte del **Ministerio de Ganadería, Agricultura y Pesca (MGAP)**.
@@ -16,8 +14,6 @@ La **Dirección Nacional de Recursos Acuáticos (DINARA)** es el organismo del E
 ### Antecedentes históricos
 
 La DINARA tiene como antecedente directo el **Instituto Nacional de Pesca (INAPE)**, creado en la segunda mitad del siglo XX para gestionar los recursos pesqueros de Uruguay. Con la reestructura del MGAP, el INAPE fue transformado en la actual DINARA [VERIFICAR año exacto de la transformación].
-
----
 
 ## Funciones y competencias
 
@@ -54,8 +50,6 @@ La DINARA tiene competencia en la regulación y promoción de la acuicultura en 
 - Fiscalización a bordo de buques pesqueros.
 - Coordinación con la Prefectura Naval para la vigilancia de la ZEE.
 
----
-
 ## Principales recursos bajo gestión de la DINARA
 
 | Especie | Categoría | Principales medidas de gestión |
@@ -70,8 +64,6 @@ La DINARA tiene competencia en la regulación y promoción de la acuicultura en 
 | Tiburones | Industrial | Restricciones de pesca [VERIFICAR] |
 | Recursos continentales (dorado, surubí, boga, etc.) | Pesca deportiva y artesanal | Vedas; tallas mínimas; licencias |
 
----
-
 ## Buques de investigación
 
 La DINARA opera o ha operado buques de investigación pesquera para la realización de sus cruceros científicos:
@@ -81,8 +73,6 @@ La DINARA opera o ha operado buques de investigación pesquera para la realizaci
 | B/I *Aldebaran* | Buque de investigación de DINARA [VERIFICAR estado operativo actual] |
 | Otros buques [VERIFICAR] | [VERIFICAR] |
 
----
-
 ## Laboratorios y capacidades técnicas
 
 La DINARA cuenta con laboratorios de:
@@ -91,8 +81,6 @@ La DINARA cuenta con laboratorios de:
 - **Tecnología pesquera:** evaluación de artes de pesca y su selectividad.
 - **Acuicultura experimental:** instalaciones para investigación de cultivo de especies.
 - **Oceanografía aplicada:** procesamiento de datos de temperatura del mar, producción primaria y distribución de recursos.
-
----
 
 ## Cooperación científica y técnica
 
@@ -105,13 +93,9 @@ La DINARA mantiene vínculos de cooperación con:
 - **Facultad de Ciencias (Udelar):** investigación conjunta sobre recursos pesqueros y oceanografía.
 - **SOHMA (Armada):** coordinación para campañas en el mar.
 
----
-
 ## Estadísticas pesqueras
 
 La DINARA publica anualmente estadísticas sobre capturas, esfuerzo pesquero y desembarques en los puertos uruguayos. Estas estadísticas son la base para la evaluación de los stocks y la toma de decisiones de gestión.
-
----
 
 ## Palabras clave
 

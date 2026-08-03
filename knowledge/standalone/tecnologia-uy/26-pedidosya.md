@@ -1,3 +1,5 @@
+# PedidosYa — plataforma de delivery fundada en Uruguay
+
 ## Resumen
 
 **PedidosYa** fue fundada en Montevideo en 2009, convirtiéndose en la primera plataforma de delivery de comida a domicilio de América Latina. La empresa pionera resolvió el problema de conectar a clientes con restaurantes para pedir comida en línea, en una época en que este servicio no existía en la región. Creció rápidamente en Uruguay y se expandió a otros países de América Latina, hasta que en 2014 fue adquirida por **Delivery Hero**, el gigante alemán de delivery global. La adquisición fue el primer gran "exit" de una startup tecnológica uruguaya y un referente para el ecosistema emprendedor del país.

@@ -4,8 +4,6 @@
 
 La **forestación** es una de las transformaciones más profundas del paisaje agropecuario uruguayo en los últimos 40 años. Uruguay pasó de tener una superficie forestal implantada prácticamente nula a principios de la década de 1980, a superar el **millón de hectáreas** de bosques implantados (principalmente eucaliptos y pinos) en los años 2010. Esta transformación fue impulsada por un marco legal de incentivos fiscales y culminó con la instalación de plantas de celulosa de clase mundial.
 
----
-
 ## Historia de la forestación en Uruguay
 
 | Año/Período | Hito |
@@ -20,15 +18,11 @@ La **forestación** es una de las transformaciones más profundas del paisaje ag
 | **2022** | Inauguración de **UPM 2** en **Paso de los Toros** (Durazno): ~2,1 millones de toneladas/año; mayor inversión privada de la historia uruguaya (~3.000 millones de USD) |
 | 2022–2025 | Celulosa como principal producto de exportación de Uruguay en valor |
 
----
-
 ## Marco legal e institucional
 
 - **Ley 15.939/1987:** establece incentivos fiscales para plantar en "suelos de prioridad forestal" (suelos de menor aptitud agropecuaria).
 - **Dirección General Forestal (DGF)** del MGAP: regula y fiscaliza el sector forestal.
 - **Certificaciones forestales internacionales:** FSC (Forest Stewardship Council) y PEFC; las plantaciones uruguayas tienen altos porcentajes de certificación.
-
----
 
 ## Especies forestales
 
@@ -48,8 +42,6 @@ La **forestación** es una de las transformaciones más profundas del paisaje ag
 
 Estos valores sitúan a Uruguay entre los países con mayor productividad forestal del mundo, por las condiciones de clima y suelo.
 
----
-
 ## Industria de la celulosa
 
 Las tres plantas de celulosa instaladas en Uruguay son:
@@ -68,8 +60,6 @@ Total de capacidad instalada: ~4,4 millones de toneladas/año (aprox.).
 - Exportada mayoritariamente a **Asia** (China), **Europa** y **América del Norte**.
 - Exportaciones de celulosa en 2022–2023: USD 2.500–3.500 millones/año [VERIFICAR], el principal producto de exportación de Uruguay.
 
----
-
 ## Otras industrias forestales
 
 | Industria | Productos | Empresas relevantes |
@@ -78,8 +68,6 @@ Total de capacidad instalada: ~4,4 millones de toneladas/año (aprox.).
 | Tableros | MDF, OSB, aglomerado | [VERIFICAR empresas activas] |
 | Biomasa energética | Chips, pellets, residuos | Consumidos en plantas de celulosa y energéticas |
 | Carbón vegetal | Para parrillas y exportación | Principalmente eucalipto |
-
----
 
 ## Impacto ambiental y social
 
@@ -93,8 +81,6 @@ Total de capacidad instalada: ~4,4 millones de toneladas/año (aprox.).
 - **Pérdida de biodiversidad:** sustitución de pastizales naturales con alto valor ecológico por monocultivos forestales.
 - **Concentración de la tierra:** el sector forestal está dominado por grandes empresas nacionales y extranjeras.
 - **Conflicto con Argentina por UPM/Botnia:** la instalación de la planta de Fray Bentos generó un conflicto diplomático con Argentina (2006–2010), que alegaba contaminación del río Uruguay. El fallo de la **Corte Internacional de Justicia (CIJ)** en **2010** falló en favor de Uruguay en cuanto a los aspectos de fondo.
-
----
 
 ## Palabras clave
 

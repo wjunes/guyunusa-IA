@@ -6,8 +6,6 @@ Los **Métodos Alternativos de Resolución de Conflictos (RAC)** son mecanismos 
 
 Los RAC presentan ventajas frente al proceso judicial clásico: mayor rapidez, menor costo, confidencialidad, preservación de las relaciones entre las partes y protagonismo de estas en la construcción de la solución.
 
----
-
 ## Mediación
 
 ### Definición
@@ -39,8 +37,6 @@ El Poder Judicial gestiona **Centros de Mediación** que ofrecen el servicio de 
 - Ley N° 16.995 (2000): establece un marco general para la mediación en Uruguay.
 - Acordadas de la Suprema Corte de Justicia que reglamentan el funcionamiento de los Centros.
 
----
-
 ## Conciliación
 
 ### Definición
@@ -54,8 +50,6 @@ En algunos procesos, la ley exige intentar la conciliación **antes** de iniciar
 ### Audiencia preliminar (CGP)
 
 En el proceso civil regulado por el CGP, la **audiencia preliminar** tiene como primer objetivo intentar la conciliación. El juez actúa como conciliador e invita a las partes a resolver el conflicto. Si no hay acuerdo, el proceso continúa.
-
----
 
 ## Arbitraje
 
@@ -77,8 +71,6 @@ El **arbitraje** es un método en el cual las partes acuerdan someter su conflic
 - Procedimiento más rápido y confidencial que el proceso judicial
 - El laudo es ejecutable ante los juzgados ordinarios
 
----
-
 ## Mecanismos en el proceso penal
 
 En el sistema acusatorio (CPP 2017), existen mecanismos que evitan el juicio oral completo:
@@ -98,8 +90,6 @@ El imputado reconoce los hechos que se le imputan y acepta la pena solicitada po
 ### Acuerdo reparatorio
 
 En determinados delitos (especialmente los que afectan bienes disponibles de la víctima), el imputado y la víctima pueden llegar a un acuerdo reparatorio que, aprobado por el juez, pone fin al proceso.
-
----
 
 ## Tabla comparativa de métodos RAC
 

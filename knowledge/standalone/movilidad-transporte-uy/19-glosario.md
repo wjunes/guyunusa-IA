@@ -10,8 +10,6 @@
 
 **ATIT (Acuerdo sobre Transporte Internacional Terrestre)**: Acuerdo del MERCOSUR que regula el transporte terrestre de pasajeros y cargas entre los países miembros.
 
----
-
 ## B
 
 **BAC (Blood Alcohol Concentration)**: Concentración de alcohol en sangre. En Uruguay, el límite general para conductores es 0,3 g/L y 0,0 g/L para conductores profesionales.
@@ -19,8 +17,6 @@
 **Bicisenda**: Carril demarcado sobre la calzada reservado para ciclistas, sin separación física del tránsito vehicular.
 
 **Billetaje electrónico**: Sistema de pago y registro de pasajes en el transporte colectivo mediante tarjetas o dispositivos electrónicos. En Montevideo, opera a través de la tarjeta STM.
-
----
 
 ## C
 
@@ -42,8 +38,6 @@
 
 **CUTCSA (Compañía Uruguaya de Transporte Colectivo S.A.)**: Principal empresa operadora del transporte colectivo urbano de Montevideo.
 
----
-
 ## D
 
 **DINACIA (Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica)**: Servicio del Ministerio de Defensa Nacional responsable de regular la aviación civil y administrar la infraestructura aeroportuaria de Uruguay.
@@ -52,29 +46,21 @@
 
 **DNV (Dirección Nacional de Vialidad)**: Dependencia del MTOP responsable del diseño, construcción y mantenimiento de las rutas nacionales.
 
----
-
 ## F
 
 **Ferrocarril Central**: Corredor ferroviario de aproximadamente 270 km entre Montevideo (Palmar Norte) y Paso de los Toros (Durazno), inaugurado en 2023; principal proyecto ferroviario del siglo XXI en Uruguay.
 
 **FPV (Ferrocarril Privado de Vía)**: Término referido a vías férreas de uso industrial privado, que no forman parte de la red pública de AFE.
 
----
-
 ## G
 
 **GTFS (General Transit Feed Specification)**: Formato estándar abierto para la publicación de datos de horarios y recorridos del transporte público, adoptado por el STM de Montevideo para permitir su integración en apps como Google Maps y Moovit.
-
----
 
 ## H
 
 **Hub logístico**: Nodo central de una red de transporte donde se concentran, redistribuyen y transfieren cargas o pasajeros hacia múltiples destinos.
 
 **Hidrovía Paraguay-Paraná**: Sistema de navegación fluvial de más de 3.400 km que conecta Bolivia, Brasil, Paraguay, Argentina y Uruguay.
-
----
 
 ## I
 
@@ -86,13 +72,9 @@
 
 **ITS (Intelligent Transportation Systems)**: Sistemas inteligentes de transporte; integración de tecnologías de información, comunicación y control para mejorar la eficiencia, seguridad y sostenibilidad del sistema de transporte.
 
----
-
 ## L
 
 **Landlord model (modelo puerto propietario)**: Modelo de gestión portuaria donde el Estado es propietario de la infraestructura pero concesiona la operación de terminales a empresas privadas. Uruguay adoptó este modelo con la Ley 16.246/1992.
-
----
 
 ## M
 
@@ -104,21 +86,15 @@
 
 **MTOP (Ministerio de Transporte y Obras Públicas)**: Organismo del Poder Ejecutivo uruguayo rector de la infraestructura vial y la regulación del transporte terrestre y fluvial.
 
----
-
 ## N
 
 **NDC (Contribuciones Nacionales Determinadas)**: Compromisos de reducción de emisiones de gases de efecto invernadero presentados por Uruguay en el marco del Acuerdo de París (2015); incluyen metas para el sector transporte.
-
----
 
 ## O
 
 **OACI (Organización de Aviación Civil Internacional)**: Agencia especializada de la ONU que establece normas y procedimientos para la aviación civil internacional; Uruguay es Estado miembro.
 
 **OMI (Organización Marítima Internacional)**: Organismo de la ONU responsable de la seguridad marítima y la prevención de la contaminación; Uruguay adhiere a sus convenios principales (SOLAS, MARPOL).
-
----
 
 ## P
 
@@ -130,15 +106,11 @@
 
 **Puerta del Sur S.A.**: Empresa concesionaria del Aeropuerto Internacional de Carrasco (terminal inaugurada en 2009), vinculada al grupo Abertis/ADP.
 
----
-
 ## R
 
 **Reforma portuaria de 1992**: Proceso de modernización del sistema portuario uruguayo establecido por la Ley 16.246, que introdujo la competencia entre operadores privados y el modelo landlord en los puertos nacionales.
 
 **Ruta nacional**: Vía de comunicación terrestre de jerarquía nacional, administrada por la DNV-MTOP, identificada por un número (ej. Ruta 5, Ruta 9).
-
----
 
 ## S
 
@@ -149,8 +121,6 @@
 **SOLAS (Safety of Life at Sea)**: Convenio Internacional para la Seguridad de la Vida Humana en el Mar, de la OMI; Uruguay es signatario.
 
 **STM (Sistema de Transporte Metropolitano)**: Sistema de coordinación y regulación del transporte colectivo urbano de Montevideo, creado por el Decreto 102/010 (2010).
-
----
 
 ## T
 
@@ -164,21 +134,15 @@
 
 **Transporte multimodal**: Combinación de dos o más modos de transporte (carretero, ferroviario, marítimo, aéreo) bajo un único contrato de transporte.
 
----
-
 ## U
 
 **UNASEV (Unidad Nacional de Seguridad Vial)**: Organismo desconcentrado del Poder Ejecutivo creado por la Ley 18.113/2007, responsable de coordinar la política nacional de seguridad vial.
-
----
 
 ## V
 
 **Velocidad comercial**: Velocidad media efectiva de un vehículo de transporte colectivo en servicio, considerando las paradas, el tráfico y los transbordos. Es un indicador de la calidad del servicio.
 
 **Vía de alta capacidad**: Carretera diseñada para el tránsito de altos volúmenes de vehículos a velocidades elevadas, con accesos controlados (autopistas, autorutas).
-
----
 
 ## Palabras clave
 

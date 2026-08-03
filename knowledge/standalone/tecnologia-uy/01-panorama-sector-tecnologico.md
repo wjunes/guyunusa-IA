@@ -1,3 +1,5 @@
+# Panorama del sector tecnológico de Uruguay
+
 ## Resumen
 
 Uruguay es el principal exportador de software y servicios tecnológicos per cápita de América Latina. El sector tecnológico —liderado por la industria del software, los servicios globales de exportación y el ecosistema de startups— ha crecido de manera sostenida durante más de dos décadas, convirtiéndose en una de las principales fuentes de divisas del país y en un referente regional de innovación. Con más de 800 millones de dólares anuales en exportaciones de software y servicios TIC, más de 25.000 empleados directos en el sector y un ecosistema que incluye el primer unicornio tecnológico uruguayo (dLocal), Uruguay ha consolidado una identidad como hub tecnológico en el Cono Sur. La combinación de capital humano calificado, marco legal favorable, infraestructura de telecomunicaciones, estabilidad institucional y políticas de promoción activa explica este desarrollo.

@@ -51,12 +51,30 @@ Entre Uruguay y Argentina existen servicios regulares de pasajeros y vehículos 
 
 ## La Dirección Nacional de Hidrografía (MTOP)
 
-La **Dirección Nacional de Hidrografía (DNH)** del Ministerio de Transporte y Obras Públicas (MTOP) es el organismo técnico responsable de:
-- **Estudios hidrológicos e hidrométricos** en ríos y costas uruguayas.
-- **Mantenimiento de señalización** náutica en aguas interiores.
-- **Cartografía náutica** de ríos y costas.
-- **Monitoreo de niveles e inundaciones** en los ríos principales.
+La **Dirección Nacional de Hidrografía (DNH)** del Ministerio de Transporte y Obras Públicas (MTOP) es el organismo técnico responsable del fomento del desarrollo de la actividad portuaria comercial y turística, la administración de las vías navegables y la gestión de las obras públicas hidráulicas.
+
+Sus cometidos sustantivos incluyen:
+
+**Puertos deportivos:** desarrollar, construir y mantener la cadena de **puertos deportivos nacionales**; aprobar proyectos y concesiones de álveos públicos para la construcción y operación de instalaciones portuarias privadas.
+
+**Dragados y balizamiento:** realizar batimetrías de vías navegables; proyectar y ejecutar dragados por administración directa o a través de terceros; autorizar obras de dragado de terceros; señalizar canales y otras obras necesarias para la navegación fluvial y deportiva.
+
+**Apoyo técnico a comisiones binacionales:** dar apoyo técnico especializado a **CARU** (Río Uruguay), **CARP** (Río de la Plata) y **Comisión Mixta Laguna Merín** en temas vinculados al desarrollo de las vías navegables.
+
+**Obras hidráulicas:** realizar obras hidráulicas, fluviales y costeras para el desarrollo (control de inundaciones, protección de riberas, regulación hídrica, aprovechamiento hidráulico).
+
+**Administración de álveos:** administrar los álveos de dominio público que forman parte de la red hidrológica, toda la costa del Río de la Plata, el Océano Atlántico, la Laguna Merín y las lagunas interiores.
+
+**Cartografía náutica:** publicar y actualizar las **Cartas Náuticas** con profundidades y referencias de navegación (disponibles en la web de MTOP).
+
+**Permisos de extracción:** tramitar permisos para la extracción de materiales subacuáticos (áridos del lecho de ríos, etc.), tanto para consumo interno como para exportación.
+
+### Obras hidráulicas en ejecución (a julio de 2026)
+
+A junio de 2026, la obra **"Compuertas y Canal Laguna Negra"** alcanza un **76% de avance**. Esta obra hidráulica costera es un ejemplo de la función de la DNH en obras de regulación hídrica y control de inundaciones en la costa atlántica de Uruguay.
+
+La DNH publica actualizaciones de obras en ejecución y tarifas portuarias en el portal del MTOP (www.gub.uy/ministerio-transporte-obras-publicas/hidrografia).
 
 ## Palabras clave
 
-navegación fluvial Uruguay Río Uruguay Río de la Plata, Puerto Montevideo ANP Uruguay, Nueva Palmira puerto graneles soja celulosa Uruguay, hidrovía Paraná Paraguay Uruguay cono sur, CARU navegación Río Uruguay balizamiento, ferry Montevideo Buenos Aires Colonia Uruguay Argentina, Prefectura Naval Uruguay ríos, Dirección Nacional Hidrografía DNH MTOP Uruguay, Fray Bentos puerto celulosa UPM Uruguay, canal Punta Indio Río de la Plata dragado
+navegación fluvial Uruguay Río Uruguay Río de la Plata, Puerto Montevideo ANP Uruguay, Nueva Palmira puerto graneles soja celulosa Uruguay, hidrovía Paraná Paraguay Uruguay cono sur, CARU navegación Río Uruguay balizamiento, ferry Montevideo Buenos Aires Colonia Uruguay Argentina, Prefectura Naval Uruguay ríos, Dirección Nacional Hidrografía DNH MTOP Uruguay cometidos, puertos deportivos DNH Uruguay cadena nacional, Compuertas Canal Laguna Negra obra hidráulica DNH Uruguay, CARP CARU Comisión Mixta Merín apoyo técnico DNH, cartas náuticas Uruguay MTOP, álveos dominio público Uruguay administración DNH

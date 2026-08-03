@@ -1,14 +1,10 @@
 # Cronología Prehistórica del Uruguay
 
----
-
 ## Introducción
 
 La cronología prehistórica del territorio uruguayo se construye a partir de dataciones radiocarbónicas, análisis estratigráficos, tipología cerámica y lítica, y comparaciones con regiones vecinas. Las secuencias no son uniformes en todo el territorio: existen variaciones regionales significativas relacionadas con los distintos recursos ambientales, tradiciones culturales y dinámicas de ocupación.
 
 Las cronologías que se presentan en este documento son aproximaciones basadas en la literatura científica disponible. Los límites entre períodos son convencionales y no implican rupturas abruptas en los procesos culturales.
-
----
 
 ## Periodización general
 
@@ -19,8 +15,6 @@ Las cronologías que se presentan en este documento son aproximaciones basadas e
 | Formativo / Cerritos (Holoceno medio y tardío) | ~5.000–500 AP | Grupos constructores de montículos (cerritos); introducción y desarrollo de la cerámica; economías mixtas (pesca, caza, recolección, posible horticultura) |
 | Prehispánico tardío | ~1.000–500 AP | Continuación de los cerritos; evidencias de grupos Guaraní en la costa y el litoral; contacto y tensiones interétnicas |
 | Contacto europeo | ~1516–1700 | Llegada de Solís (1516), Hernandarias (1611), misiones jesuíticas; desarticulación de las sociedades indígenas preexistentes |
-
----
 
 ## Período Paleoindio (~30.000(?)–10.000 AP)
 
@@ -41,8 +35,6 @@ El límite superior más aceptado se sitúa en torno a 10.000–9.500 AP, cuando
 - Pay Paso 1, Artigas (~10.500 AP, Suárez).
 - Tigre 1, Salto (~10.000 AP aprox.) [VERIFICAR].
 - Arroyo del Vizcaíno, Canelones (~30.000 AP, debatido).
-
----
 
 ## Período Arcaico (~10.000–4.000 AP)
 
@@ -66,8 +58,6 @@ Los concheros son uno de los tipos de sitios más estudiados para el Arcaico uru
 | Rocha (lagunas costeras) | Concheros, cerritos | ~5.000–3.000 AP |
 | Maldonado (costa atlántica) | Concheros | [VERIFICAR] |
 | Litoral del Río de la Plata | Concheros | [VERIFICAR] |
-
----
 
 ## Período de los Cerritos (~5.000–500 AP)
 
@@ -101,8 +91,6 @@ Los grupos constructores de cerritos desarrollaron economías diversificadas:
 - Recolección de vegetales (posiblemente palmáceas, entre ellas la palma butiá).
 - Posibles prácticas agrícolas a pequeña escala (debatidas; evidencias de fitolitos de maíz en algunos sitios).
 
----
-
 ## Período Prehispánico Tardío (~1.000–500 AP)
 
 Este período se caracteriza por:
@@ -111,8 +99,6 @@ Este período se caracteriza por:
 - La continuación de grupos no ceramistas o con tradiciones cerámicas distintas en el interior y el este del territorio.
 - La presencia de los grupos **Charrúa**, **Guenoa-Minuán** y otros, que en el período de contacto europeo ocupaban el interior del territorio con economías cazadoras-recolectoras.
 - Evidencias de contacto e intercambio interétnico: materiales de distintas tradiciones aparecen en algunos sitios.
-
----
 
 ## Período de Contacto Europeo (~1516 en adelante)
 
@@ -126,8 +112,6 @@ La llegada de los europeos al Río de la Plata en el siglo XVI transformó radic
 
 La arqueología histórica documenta estos procesos a través de los vestigios materiales de los asentamientos coloniales, las reducciones indígenas y los primeros núcleos urbanos.
 
----
-
 ## Métodos de datación utilizados
 
 | Método | Aplicación | Rango temporal |
@@ -139,8 +123,6 @@ La arqueología histórica documenta estos procesos a través de los vestigios m
 | ADN antiguo (aDNA) | Restos óseos y dentales | Aplicación incipiente en Uruguay |
 | Estratigrafía | Secuencia relativa de capas | Cualquier período |
 | Tipología cerámica y lítica | Clasificación relativa | Complementario |
-
----
 
 ## Palabras clave
 

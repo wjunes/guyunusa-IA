@@ -4,8 +4,6 @@
 
 La importación definitiva es el régimen aduanero por el cual las mercancías extranjeras ingresan al territorio aduanero uruguayo para ser utilizadas, consumidas o comercializadas en el país, previo pago de los tributos correspondientes y cumplimiento de los controles y requisitos de la DNA y de otros organismos del Estado (MGAP, MSP, MIEM, URSEC, etc.).
 
----
-
 ## Tributos que gravan la importación
 
 Las importaciones en Uruguay están sujetas a los siguientes tributos y tasas:
@@ -57,8 +55,6 @@ Además de los tributos, la DNA cobra tasas por los servicios prestados:
 
 En algunos supuestos, especialmente para operaciones de importadores no residentes, pueden aplicarse mecanismos de percepción del IRAE o del IRPF.
 
----
-
 ## Base imponible: el valor CIF
 
 El valor en aduana —base sobre la que se calculan el DA y el IVA— es el valor CIF (Cost, Insurance, Freight): el precio de la mercancía en el lugar de origen más los costos de flete internacional y seguro hasta el punto de ingreso a Uruguay.
@@ -67,8 +63,6 @@ Si el precio de la factura es CIF, se toma directamente. Si el precio está en o
 
 La DNA puede cuestionar el valor declarado por el importador si hay razones fundadas para suponer que no refleja el valor real de la transacción (subvaloración), aplicando los métodos alternativos del Acuerdo de Valoración de la OMC.
 
----
-
 ## Bienes de capital y beneficios arancelarios
 
 Uruguay tiene regímenes de beneficio arancelario para la importación de bienes de capital:
@@ -76,8 +70,6 @@ Uruguay tiene regímenes de beneficio arancelario para la importación de bienes
 **Ley 16.906 (Ley de Inversiones)**: declara de interés nacional la promoción de inversiones. Los proyectos aprobados por la COMAP (Comisión de Aplicación) pueden acceder a exoneración total o parcial del DA en la importación de bienes de capital incluidos en el proyecto de inversión.
 
 **Bienes de capital no producidos en el MERCOSUR**: el AEC tiende a ser 0% o bajo para bienes de capital no producidos en el bloque, facilitando la renovación tecnológica.
-
----
 
 ## Importación de vehículos
 
@@ -90,19 +82,13 @@ La importación de vehículos automotores está sujeta a:
 
 Los vehículos provenientes del MERCOSUR (fabricados en Argentina, Brasil o Paraguay) ingresan con arancel cero pero tributan IVA e IMESI como los vehículos locales.
 
----
-
 ## Importaciones de servicios
 
 Los servicios importados (servicios prestados desde el exterior a beneficiarios en Uruguay) no están sujetos al control aduanero de la DNA, sino a normas tributarias del IVA y el IRAE de la DGI. Este es un régimen en evolución dado el crecimiento de los servicios digitales transfronterizos.
 
----
-
 ## Importaciones de muestras sin valor comercial
 
 Las muestras comerciales sin valor o con valor simbólico gozan de regímenes especiales de importación simplificada, sujeta a condiciones y límites cuantitativos definidos por la DNA.
-
----
 
 ## Palabras clave
 

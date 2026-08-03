@@ -6,8 +6,6 @@ Los **cerritos de indios** son montículos de tierra construidos intencionalment
 
 El término **"cerrito"** es la denominación popular y académica en Uruguay. En Brasil se los denomina **"aterros"** o **"cerritos"**; en Argentina, generalmente **"montículos"**.
 
----
-
 ## Distribución geográfica
 
 Los cerritos de indios se concentran en las **tierras bajas** del Uruguay, especialmente:
@@ -21,8 +19,6 @@ Los cerritos de indios se concentran en las **tierras bajas** del Uruguay, espec
 | **Noreste de Argentina** (Corrientes, Entre Ríos) | Tradición relacionada |
 
 Se estima que en el Uruguay existían **varios miles de cerritos**, aunque muchos han sido destruidos por el laboreo agrícola, la urbanización y otras actividades. Los estudios realizados por el equipo de **José López Mazz (UdelaR)** han identificado decenas de complejos de cerritos en el este del país.
-
----
 
 ## Características físicas
 
@@ -49,8 +45,6 @@ Los cerritos están formados por:
 
 La composición interna revela que los cerritos se construyeron a lo largo de **cientos o miles de años**, acumulando materiales en episodios sucesivos.
 
----
-
 ## Cronología
 
 Las dataciones disponibles ubican la construcción de cerritos en un **período muy prolongado**:
@@ -62,8 +56,6 @@ Las dataciones disponibles ubican la construcción de cerritos en un **período 
 | **Abandono** | Siglos XV–XVI d.C. | Los cerritos parecen haber sido abandonados antes o durante el contacto europeo |
 
 La larga duración del período de construcción implica que los cerritos fueron usados y ampliados por **generaciones sucesivas** de poblaciones.
-
----
 
 ## Funciones de los cerritos
 
@@ -81,8 +73,6 @@ La función de los cerritos es uno de los temas más debatidos en la arqueologí
 
 La investigación contemporánea tiende a rechazar las explicaciones **monofuncionales** y a considerar que los cerritos tenían **múltiples funciones** que variaban en el tiempo y según las características de cada sitio. La función habitacional y la función funeraria no son mutuamente excluyentes.
 
----
-
 ## Los constructores de los cerritos
 
 La identidad étnica de los constructores de los cerritos es uno de los debates más importantes de la arqueología uruguaya:
@@ -97,8 +87,6 @@ La identidad étnica de los constructores de los cerritos es uno de los debates 
 
 La **posición predominante** en la arqueología uruguaya contemporánea es que los constructores de cerritos representan una **tradición cultural diferente** (o varias tradiciones) de los grupos nómadas cazadores-recolectores documentados históricamente como charrúas. Sin embargo, el debate no está cerrado.
 
----
-
 ## Organización espacial: los complejos de cerritos
 
 Los cerritos no se distribuyen de manera aleatoria en el paisaje: forman **complejos** de múltiples montículos organizados espacialmente:
@@ -108,8 +96,6 @@ Los cerritos no se distribuyen de manera aleatoria en el paisaje: forman **compl
 - Los complejos se ubican frecuentemente en relación con cursos de agua, lagunas y zonas de bañado.
 - El equipo de **Alicia Gianotti** ha estudiado la organización espacial de los complejos como reflejo de la organización social.
 
----
-
 ## Paleoambiente y los cerritos
 
 Los cerritos se construyeron en el contexto de las **tierras bajas** del este de Uruguay, un paisaje de praderas, bañados y lagunas:
@@ -117,8 +103,6 @@ Los cerritos se construyeron en el contexto de las **tierras bajas** del este de
 - La elevación sobre el nivel de inundación era una ventaja adaptativa significativa.
 - Los análisis de fitolitos y polen en los cerritos permiten reconstruir la vegetación y el clima del pasado.
 - Los recursos del bañado (peces, aves, carpinchos, plantas acuáticas) eran abundantes y diversificados.
-
----
 
 ## Hallazgos arqueológicos en los cerritos
 
@@ -133,8 +117,6 @@ Los cerritos han proporcionado un registro arqueológico muy variado:
 | **Restos botánicos** | Carbón, fitolitos, semillas |
 | **Objetos de adorno** | Cuentas de hueso, dientes perforados |
 
----
-
 ## Investigaciones actuales
 
 La investigación sobre los cerritos ha avanzado significativamente en los últimos años:
@@ -143,15 +125,11 @@ La investigación sobre los cerritos ha avanzado significativamente en los últi
 - **LiDAR** (detección remota por laser) para identificar cerritos bajo la vegetación.
 - **Integración con comunidades de descendientes**.
 
----
-
 ## Legislación y protección
 
 Los cerritos de indios están protegidos por la **Ley 14.040 de Patrimonio Cultural de la Nación** y su reglamentación. La **Comisión del Patrimonio Cultural de la Nación (CPCN)** es el organismo responsable de la protección de estos sitios.
 
 Sin embargo, la destrucción de cerritos por el laboreo agrícola, las plantaciones forestales y la construcción de infraestructura sigue siendo un problema documentado.
-
----
 
 ## Palabras clave
 

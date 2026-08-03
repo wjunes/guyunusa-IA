@@ -1,7 +1,5 @@
 # Bibliografía y Fuentes — Oceanografía del Uruguay
 
----
-
 ## Publicaciones institucionales y técnicas
 
 ### SOHMA (Armada Nacional de Uruguay)
@@ -19,8 +17,6 @@
 
 ### Misión Uruguay SUB 200
 - Armada Nacional / DINARA / IAU / Facultad de Ciencias / MNHN. *Misión Uruguay SUB 200: Resultados y Hallazgos 2016–2022*. [VERIFICAR si existe publicación oficial compilada y título exacto]
-
----
 
 ## Artículos y publicaciones científicas
 
@@ -49,16 +45,12 @@
 ### Geología marina
 - Urien, C.M. y Martins, L.R. (1999). "Plataforma continental: Una Revisión Geológica del Atlántico Sudoccidental entre el Cabo de São Tomé y el Estuario del Río de la Plata." En: *IUGS/UNESCO Geología de América del Sur*.
 
----
-
 ## Fuentes internacionales de referencia
 
 - IPCC. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. 2019. Geneva: IPCC. Disponible: https://www.ipcc.ch/srocc/
 - IOC-UNESCO. *Ocean Science for Sustainable Development*. París: UNESCO, 2021.
 - FAO. *The State of World Fisheries and Aquaculture*. Roma: FAO. [Publicación bienal]
 - CCAMLR. *Statistical Bulletin*. Hobart: CCAMLR. [Publicación anual]
-
----
 
 ## Legislación
 
@@ -70,8 +62,6 @@
 - **Tratado Antártico** (1959). Washington. Uruguay adherido en 1980.
 - **Protocolo al Tratado Antártico sobre Protección del Medio Ambiente (Protocolo de Madrid)** (1991). Ratificado por Uruguay [VERIFICAR año].
 - **MARPOL** (Convenio Internacional para Prevenir la Contaminación por los Buques). Uruguay adherido [VERIFICAR año].
-
----
 
 ## Portales de datos y recursos digitales
 
@@ -86,8 +76,6 @@
 - **CCAMLR** – Datos de pesquerías australes: https://www.ccamlr.org
 - **FAO FishStat** – Estadísticas pesqueras globales: https://www.fao.org/fishery/statistics
 - **IOC-UNESCO** – Oceanografía e información marina: https://ioc.unesco.org
-
----
 
 ## Palabras clave
 

@@ -6,8 +6,6 @@ El **Banco Central del Uruguay (BCU)** es el banco central del país. Es una per
 
 **Sitio oficial**: [https://www.bcu.gub.uy](https://www.bcu.gub.uy)
 
----
-
 ## Historia institucional
 
 ### Antecedentes
@@ -21,8 +19,6 @@ El **Banco Central del Uruguay** fue creado por la **Ley 13.608** del 8 de septi
 ### Carta Orgánica vigente
 
 La **Ley 16.696** del 30 de marzo de **1994** estableció la Carta Orgánica del BCU vigente, que define sus objetivos, potestades, organización y relaciones con el Poder Ejecutivo. Esta ley le otorgó mayor autonomía operativa para la gestión de la política monetaria.
-
----
 
 ## Objetivos y funciones
 
@@ -47,8 +43,6 @@ Los objetivos del BCU, según su Carta Orgánica, son:
 | Estadísticas | Producir y publicar estadísticas monetarias, financieras y de balanza de pagos |
 | Registro de emisores de valores | Regular las emisiones de valores públicos y privados |
 
----
-
 ## Organización
 
 ```
@@ -68,15 +62,11 @@ BCU
 
 El Directorio del BCU es designado por el Poder Ejecutivo y sus miembros tienen mandatos escalonados para garantizar la continuidad institucional.
 
----
-
 ## Comité de Política Monetaria (COPOM)
 
 El **COPOM** es el órgano interno del BCU responsable de las decisiones de política monetaria. Se reúne periódicamente (con frecuencia trimestral o bimensual) para evaluar las condiciones económicas y decidir el nivel de la **Tasa de Política Monetaria (TPM)**.
 
 Las decisiones del COPOM son comunicadas al público mediante comunicados y minutas, contribuyendo a la transparencia y previsibilidad de la política monetaria.
-
----
 
 ## Política monetaria
 
@@ -88,8 +78,6 @@ El BCU aplica el **régimen de metas de inflación** desde 2007. Bajo este esque
 - La **TPM** es el instrumento principal: cuando la inflación proyectada supera el techo de la banda, el BCU sube la TPM para enfriar la economía; cuando está por debajo del piso, la reduce.
 - La comunicación de las decisiones y proyecciones de inflación (Informe de Política Monetaria — IPM, publicado trimestralmente) es parte central del régimen.
 
----
-
 ## Reservas internacionales
 
 El BCU administra las **reservas internacionales** de Uruguay, que son activos externos en monedas convertibles (principalmente dólares), oro y otros instrumentos. Las reservas tienen múltiples funciones:
@@ -99,8 +87,6 @@ El BCU administra las **reservas internacionales** de Uruguay, que son activos e
 - Señal de confianza para los mercados internacionales
 
 Uruguay mantiene reservas internacionales brutas equivalentes a varios meses de importaciones, lo que contribuye a la resiliencia macroeconómica.
-
----
 
 ## Superintendencia de Servicios Financieros (SSF)
 
@@ -112,8 +98,6 @@ La **SSF** es el órgano del BCU especializado en la supervisión del sistema fi
 - **Mercado de valores**: emisores, intermediarios, bolsas.
 - **Casas de cambio**: control cambiario y antilavado.
 
----
-
 ## El peso uruguayo y la dolarización
 
 El **peso uruguayo (UYU)** es la moneda oficial de Uruguay. Sin embargo, la economía uruguaya históricamente ha estado altamente dolarizada:
@@ -122,15 +106,11 @@ El **peso uruguayo (UYU)** es la moneda oficial de Uruguay. Sin embargo, la econ
 - Una proporción importante de los depósitos y créditos del sistema bancario está en dólares.
 - La **desdolarización** es un objetivo de política del BCU, promovido mediante instrumentos en pesos e Unidades Indexadas (UI).
 
----
-
 ## Papel del BCU en la crisis de 2002
 
 Durante la crisis de 2002, el BCU enfrentó el mayor desafío de su historia. La fuga de depósitos en dólares del sistema bancario (más de USD 2.000 millones en meses) obligó a usar las reservas y a recurrir al financiamiento de emergencia del FMI. El BCU liquidó los bancos insolventes, restructuró el BROU e implementó el canje de depósitos.
 
 La crisis llevó a reformas profundas del marco regulatorio: nuevas normas de capital, liquidez, supervisión consolidada y estándares de gobierno corporativo bancario.
-
----
 
 ## Palabras clave
 

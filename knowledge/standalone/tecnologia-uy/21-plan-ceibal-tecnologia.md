@@ -1,3 +1,5 @@
+# Plan Ceibal y tecnología educativa en Uruguay
+
 ## Resumen
 
 El **Plan Ceibal** (Centro Educativo para la Informatización y Conexión para el Aprendizaje en Línea) es el programa de tecnología educativa más importante de Uruguay y uno de los más reconocidos del mundo. Lanzado en 2007 durante la presidencia de Tabaré Vázquez, Ceibal fue el **primer programa del mundo en implementar a escala nacional** el modelo "una laptop por niño" del proyecto OLPC (One Laptop Per Child). Desde entonces, evolucionó hacia una plataforma educativa integral que incorpora análisis de datos, inteligencia artificial, aprendizaje adaptativo y programación como disciplina. Ceibal es un referente mundial de innovación educativa con base tecnológica.

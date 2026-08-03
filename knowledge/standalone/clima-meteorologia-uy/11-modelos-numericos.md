@@ -1,14 +1,10 @@
 # Modelos Numéricos del Tiempo y el Clima
 
----
-
 ## Definición
 
 Un **modelo numérico del tiempo** (MNT; en inglés NWP, *Numerical Weather Prediction*) es un sistema computacional que reproduce el comportamiento de la atmósfera mediante la resolución numérica de las ecuaciones que gobiernan la física y la dinámica atmosférica. A diferencia de los métodos estadísticos o empíricos, los MNT se fundamentan en principios físicos primeros (*first principles*): conservación de masa, momento y energía, ecuación de estado de los gases ideales y termodinámica.
 
 El origen de los modelos numéricos se remonta al trabajo teórico de **Lewis Fry Richardson** (1922), quien formuló las ecuaciones fundamentales y las resolvió manualmente —un proceso que tardó semanas—. El primer pronóstico numérico operativo con computadora fue realizado en 1950 por **Charney, Fjørtoft y Von Neumann** usando el ENIAC.
-
----
 
 ## Ecuaciones fundamentales
 
@@ -24,8 +20,6 @@ Los MNT resuelven numéricamente las **ecuaciones primitivas** de la atmósfera:
    - p = ρ R T
 5. **Ecuación de agua** (conservación del vapor de agua, agua líquida y hielo).
 
----
-
 ## Estructura de un modelo atmosférico
 
 | Componente | Descripción |
@@ -37,8 +31,6 @@ Los MNT resuelven numéricamente las **ecuaciones primitivas** de la atmósfera:
 | **Condiciones iniciales** | Estado observado de la atmósfera en t=0; producto de la asimilación de datos |
 | **Condiciones de contorno** | Topografía; TSM; uso del suelo; hielo marino; concentración de CO₂ |
 | **Parametrizaciones** | Procesos subgrid: convección, microfísica de nubes, capa límite, radiación, turbulencia |
-
----
 
 ## Modelos globales de referencia
 
@@ -54,8 +46,6 @@ Los MNT resuelven numéricamente las **ecuaciones primitivas** de la atmósfera:
 
 *El modelo del ECMWF (IFS) es consistentemente considerado el más preciso globalmente para pronósticos de mediano plazo (3–7 días), especialmente en el hemisferio sur.*
 
----
-
 ## Modelos regionales de área limitada (LAM)
 
 Los modelos de **área limitada** (*Limited Area Models*, LAM) o modelos de **mesoescala** ofrecen mayor resolución espacial sobre una región específica. Reciben sus condiciones de contorno de un modelo global.
@@ -69,8 +59,6 @@ Los modelos de **área limitada** (*Limited Area Models*, LAM) o modelos de **me
 | **ALARO / AROME** | Météo-France / ALADIN | Europa; adaptaciones regionales | 1–3 km |
 
 En Uruguay, INUMET y el grupo de meteorología de IMFIA (Facultad de Ingeniería, Udelar) han trabajado con versiones del modelo **WRF** y del modelo **ETA** para aplicaciones regionales [VERIFICAR configuraciones actuales].
-
----
 
 ## Modelos de ensamble
 
@@ -96,8 +84,6 @@ Los **sistemas de ensamble** (*ensemble prediction systems*, EPS) ejecutan múlt
 
 Los **superensambles** o **ensambles multi-modelo** combinan salidas de distintos centros (ECMWF, NOAA, UKMET, DWD, etc.) para obtener mayor destreza predictiva que cualquier modelo individual. INUMET accede a estas salidas a través de la OMM.
 
----
-
 ## Modelos climáticos
 
 Los **Modelos de Circulación General** (MCG) o **Modelos del Sistema Tierra** (MST) son el equivalente para el clima de los MNT: simulan la evolución del sistema climático durante décadas a siglos. A diferencia de los MNT, no son inicializados con observaciones recientes sino con concentraciones de GEI y otros forzantes externos.
@@ -113,8 +99,6 @@ Los **Modelos de Circulación General** (MCG) o **Modelos del Sistema Tierra** (
 
 El **CMIP** es el marco internacional de comparación de modelos climáticos acoplados, organizado por el WCRP. Su fase más reciente (**CMIP6**) ha sido la base científica del IPCC AR6. Los resultados de CMIP6 son accesibles públicamente y son utilizados por investigadores uruguayos para generar proyecciones climáticas regionales.
 
----
-
 ## Reducción de escala (downscaling)
 
 Las proyecciones climáticas de los MCG globales (resolución ~100–200 km) son demasiado gruesas para muchas aplicaciones prácticas en Uruguay. La **reducción de escala** (*downscaling*) permite obtener proyecciones a mayor resolución:
@@ -127,8 +111,6 @@ Las proyecciones climáticas de los MCG globales (resolución ~100–200 km) son
 
 En Uruguay, proyecciones de downscaling dinámico han sido realizadas por investigadores de la Facultad de Ciencias (Departamento de Ciencias de la Atmósfera y los Océanos, DCAO) y del IMFIA [VERIFICAR proyectos actuales].
 
----
-
 ## Modelos hidrológicos acoplados a modelos meteorológicos
 
 Los modelos hidrológicos (ej. VIC, mHM, GR4J) pueden acoplarse o forzarse con salidas de MNT o MCG para:
@@ -139,8 +121,6 @@ Los modelos hidrológicos (ej. VIC, mHM, GR4J) pueden acoplarse o forzarse con s
 
 DINAGUA y ADME (*Administración del Mercado Eléctrico*) utilizan pronósticos meteorológicos e hidrológicos para la gestión hídrica y la planificación energética.
 
----
-
 ## Acceso a datos de modelos en Uruguay
 
 INUMET y los grupos de investigación acceden a datos de modelos mediante:
@@ -150,8 +130,6 @@ INUMET y los grupos de investigación acceden a datos de modelos mediante:
 - **Copernicus Climate Data Store (CDS)**: ERA5 y otras reanalysis (acceso público tras registro).
 - **CPTEC/INPE Brasil**: datos BAM y modelos regionales latinoamericanos.
 - **OMM TIGGE**: datos de ensambles multi-modelo.
-
----
 
 ## Reanálisis climáticos
 
@@ -165,8 +143,6 @@ Los **reanálisis** son simulaciones retrospectivas de la atmósfera que combina
 | **JRA-55** | JMA | 1958–presente | ~55 km |
 
 El **ERA5** es ampliamente utilizado en Uruguay para estudios de variabilidad climática, extremos y calibración de modelos regionales.
-
----
 
 ## Palabras clave
 

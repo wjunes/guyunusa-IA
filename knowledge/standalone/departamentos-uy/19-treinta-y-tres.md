@@ -15,8 +15,6 @@
 | **Límites** | Cerro Largo (norte), Brasil (noreste: Río Grande do Sul), Rocha (sur), Lavalleja (oeste y suroeste), Durazno (oeste) |
 | **Rutas principales** | Ruta 8, Ruta 17, Ruta 18 |
 
----
-
 ## Historia
 
 ### Nombre y los 33 Orientales
@@ -32,8 +30,6 @@ La ciudad de **Treinta y Tres** fue fundada en **1853** [VERIFICAR fecha exacta]
 ### Historia arrocera
 
 Treinta y Tres fue pionero en el desarrollo de la **aricultura** (cultivo de arroz) en Uruguay. A partir de mediados del siglo XX, la cuenca del Olimar —que drena hacia la Laguna Merín— se convirtió en la principal zona arrocera del Uruguay.
-
----
 
 ## Geografía
 
@@ -54,8 +50,6 @@ El relieve combina la llanura del este (cuenca de la Laguna Merín y del Olimar)
 
 Clima **templado húmedo** (Cfa) con influencia oceánica del Atlántico. Temperatura media anual: ~17–18 °C. Precipitaciones: ~1.200–1.400 mm/año. Las lluvias son bien distribuidas, favoreciendo el cultivo de arroz en las cuencas bajas.
 
----
-
 ## Naturaleza
 
 ### Parque Nacional Quebrada de los Cuervos (SNAP)
@@ -75,8 +69,6 @@ La parte este del departamento, en la cuenca de la Laguna Merín, incluye bañad
 
 El centro y norte del departamento tiene pastizal natural con monte ribereño en los cursos de agua. El **ciervo de los pantanos** (*Blastocerus dichotomus*, VU) tiene población en los bañados del este.
 
----
-
 ## Economía
 
 ### Arroz: el departamento arrocero por excelencia
@@ -95,8 +87,6 @@ El centro y norte del departamento tiene pastizal natural con monte ribereño en
 
 El arroz uruguayo —mayoritariamente producido en Treinta y Tres, Rocha y Cerro Largo— es exportado principalmente a Brasil, México, Irán y otros países de Asia y Medio Oriente.
 
----
-
 ## Educación
 
 | Institución | Descripción |
@@ -105,16 +95,12 @@ El arroz uruguayo —mayoritariamente producido en Treinta y Tres, Rocha y Cerro
 | **CURE (Centro Universitario Regional Este)** | Región Este de UdelaR; algunos cursos en la zona [VERIFICAR] |
 | **Liceos y UTU** | Red ANEP departamental |
 
----
-
 ## Salud
 
 | Centro | Descripción |
 |--------|-------------|
 | **Hospital Departamental de Treinta y Tres** | Principal hospital público (ASSE) |
 | **Policlínicas ASSE** | Red departamental |
-
----
 
 ## Arquitectura y patrimonio
 
@@ -125,8 +111,6 @@ El arroz uruguayo —mayoritariamente producido en Treinta y Tres, Rocha y Cerro
 | **Palacio Municipal** | Sede de la Intendencia |
 | **Quebrada de los Cuervos** | Patrimonio natural; paisaje singular |
 | **Puente histórico sobre el Río Olimar** | Infraestructura antigua de la ciudad |
-
----
 
 ## Cultura
 
@@ -146,16 +130,12 @@ Ganadería, jineteadas, payadas y carnavales del interior.
 
 Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo. Asado ganadero. Pescado de río: bagre, boga.
 
----
-
 ## Deportes
 
 | Club / Evento | Descripción |
 |--------------|-------------|
 | **Clubs locales de fútbol** | Liga departamental de Treinta y Tres |
 | **Pesca deportiva** | Río Olimar, Laguna Merín |
-
----
 
 ## Turismo
 
@@ -165,8 +145,6 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 | **Río Olimar** | Paseos en canoa; pesca; naturaleza |
 | **Bañados del Este** | Avistamiento de aves; naturaleza; Ramsar 1984 |
 | **Turismo rural** | Estancias arroceras; vida del campo |
-
----
 
 ## Infraestructura
 
@@ -178,8 +156,6 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 | **OSE, UTE, ANTEL** | Servicios básicos departamentales |
 | **Aeropuerto local** [VERIFICAR existencia y operatividad] | Pista local |
 
----
-
 ## Instituciones
 
 | Institución | Descripción |
@@ -190,16 +166,12 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 | **Municipio de Vergara** | Segunda ciudad del departamento |
 | **Municipio de Paso Centurión** [VERIFICAR] | Localidad fronteriza con Brasil |
 
----
-
 ## Personalidades destacadas
 
 | Nombre | Área | Aporte |
 |--------|------|--------|
 | **José Luis Guerra ("El Olimareño")** (Treinta y Tres, 1942–) | Música | Cantautor; figura de la música popular uruguaya; el apodo "El Olimareño" proviene del Río Olimar |
 | **Juan Antonio Lavalleja** (Minas, Lavalleja, 1784–1853) | Historia / Milicia | Líder de los 33 Orientales; el departamento lleva su número en honor a su gesta; no nacido aquí |
-
----
 
 ## Estadísticas
 
@@ -210,8 +182,6 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 | Densidad | 5,0 hab./km² | INE |
 | Localidades principales | Treinta y Tres, Vergara, Santa Clara de Olimar, Paso Centurión | INE |
 
----
-
 ## Curiosidades
 
 - El nombre "Treinta y Tres" hace referencia a los **33 Orientales** que desembarcaron en la Agraciada (Soriano) el 19 de abril de 1825; es el único departamento y capital de Uruguay con un nombre numérico.
@@ -219,8 +189,6 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 - La **Quebrada de los Cuervos** es uno de los pocos lugares de Uruguay donde pueden verse tucanes (*Ramphastos toco*) en estado silvestre, empujados desde Brasil por la deforestación del norte.
 - El **Río Olimar** da nombre al gentilicio local (olimareño) y al apodo del cantautor más famoso del departamento.
 - Treinta y Tres tiene una de las densidades de población más bajas de Uruguay (~5 hab./km²), siendo un departamento predominantemente rural.
-
----
 
 ## Cronología
 
@@ -233,8 +201,6 @@ Arroz en todas sus variantes: arroz con leche, guisos de arroz, arroz con pollo.
 | 1942 | Nacimiento de El Olimareño (José Luis Guerra) |
 | 1984 | Bañados del Este (incluye zona de Treinta y Tres) declarados sitio Ramsar |
 | 2000 | Quebrada de los Cuervos incorporada al SNAP |
-
----
 
 ## Palabras clave
 

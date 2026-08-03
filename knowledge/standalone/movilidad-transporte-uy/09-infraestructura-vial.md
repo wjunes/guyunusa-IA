@@ -4,8 +4,6 @@
 
 La infraestructura vial de Uruguay es el soporte físico del transporte terrestre de pasajeros y cargas. La red vial nacional comprende rutas nacionales, caminos departamentales y vías urbanas, con una extensión total estimada en más de 70.000 kilómetros, de los cuales aproximadamente 8.700 kilómetros corresponden a la red de rutas nacionales administradas por el **Ministerio de Transporte y Obras Públicas (MTOP)**.
 
----
-
 ## Marco institucional
 
 ### MTOP — Ministerio de Transporte y Obras Públicas
@@ -25,8 +23,6 @@ La **Dirección Nacional de Vialidad (DNV)** es la dependencia del MTOP responsa
 ### Intendencias Departamentales
 
 Las **intendencias** tienen a su cargo los caminos y vías urbanas dentro de sus respectivos departamentos. La coordinación entre el MTOP y las intendencias es necesaria en los casos donde la red nacional y la departamental se intersectan.
-
----
 
 ## Red vial nacional
 
@@ -51,8 +47,6 @@ Uruguay cuenta con una red limitada de autopistas y vías de alta capacidad, con
 | Ruta 5 (tramo norte Montevideo) | Montevideo – Las Piedras – Canelones | Doble vía |
 | Ruta 102 | Circunvalación metropolitana de Montevideo | Conecta rutas sin ingresar a la ciudad |
 
----
-
 ## Puentes
 
 Los puentes son elementos críticos de la infraestructura vial. Los más importantes de Uruguay incluyen:
@@ -75,8 +69,6 @@ Los puentes son elementos críticos de la infraestructura vial. Los más importa
 | Puentes sobre el Río Santa Lucía | Canelones/Montevideo | Varios puentes en distintas rutas |
 | Viaducto de Ruta 8 (Ciudad de la Costa) | Canelones | Viaducto de acceso este Montevideo |
 
----
-
 ## Sistema de mantenimiento vial
 
 ### Contratos por niveles de servicio (PBC)
@@ -89,21 +81,15 @@ Este modelo fue introducido en Uruguay en los años 1990 y ha sido expandido pro
 
 La DNV realiza relevamientos periódicos del estado de la red vial mediante equipos especializados (vehículos perfilómetros) que miden el **IRI (International Roughness Index)** y otros indicadores de condición superficial del pavimento.
 
----
-
 ## Peajes
 
 Uruguay tiene un sistema de **peajes** en algunas rutas nacionales, tanto en tramos administrados directamente por el MTOP como en concesiones privadas. Los peajes financian parcialmente el mantenimiento y mejora de los corredores donde se aplican.
 
 Las tarifas de peaje son diferenciadas según la categoría del vehículo (automóvil, camión de dos ejes, camión de más ejes, ómnibus). El pago puede realizarse en efectivo o mediante sistemas electrónicos en algunos peajes.
 
----
-
 ## Concesiones viales
 
 El Estado uruguayo ha otorgado concesiones para la construcción y operación de tramos viales a empresas privadas. En el marco de las concesiones, las empresas invierten en la construcción o mejora de la infraestructura y recuperan la inversión mediante la recaudación de peajes durante el período de la concesión.
-
----
 
 ## Infraestructura vial y seguridad
 
@@ -111,15 +97,11 @@ La infraestructura vial tiene impacto directo en la seguridad vial. Elementos co
 
 La **UNASEV** y el **MTOP** coordinan acciones para la mejora de la infraestructura desde la perspectiva de la seguridad vial, incluyendo la identificación de **tramos de concentración de siniestros** que requieren intervenciones prioritarias.
 
----
-
 ## Señalización vial
 
 La señalización horizontal (demarcaciones en el pavimento) y vertical (carteles) está normada por el **Reglamento Nacional de Señalización Vial** del MTOP, armonizado con las convenciones internacionales de señalización (Convención de Viena sobre señalización vial, 1968).
 
 Los colores, formas y tamaños de las señales siguen estándares internacionales: señales de peligro (triángulo blanco con borde rojo), señales de reglamentación (círculo) y señales informativas (rectángulo azul o verde).
-
----
 
 ## Palabras clave
 
