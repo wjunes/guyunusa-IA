@@ -9,6 +9,9 @@ Esta sección reúne fuentes institucionales, normativas, académicas y periodí
 - **URSEC — Unidad Reguladora de Servicios de Comunicaciones**  
   <https://www.gub.uy/ursec>
 
+- **URSEC (portal institucional en gub.uy)**  
+  <https://www.gub.uy/unidad-reguladora-servicios-comunicaciones/>
+
 - **IMPO — Centro de Información Oficial y Normativa**  
   <https://www.impo.com.uy>
 
@@ -67,12 +70,20 @@ Esta sección reúne fuentes institucionales, normativas, académicas y periodí
 - **Búsqueda** — <https://www.busqueda.com.uy>
 - **Brecha** — <https://brecha.com.uy>
 
+## Fuente secundaria de contexto histórico (uso controlado)
+
+- **Wikipedia (es) — Radio en Uruguay**  
+  <https://es.wikipedia.org/wiki/Radio_en_Uruguay>
+
+Uso recomendado: orientación histórica inicial y detección de hitos/categorías. Todo dato sensible (fechas de primera emisión, adjudicaciones, licencias) debe contrastarse con URSEC, IMPO o documentación oficial.
+
 ## Criterios para uso de fuentes en este dominio
 
 - Priorizar documentos oficiales para regulación, licencias y normativa.
 - Contrastar información periodística con al menos dos fuentes cuando el dato sea sensible.
 - Incluir fecha absoluta en datos contemporáneos (por ejemplo: “A agosto de 2026…”).
 - Marcar como `[VERIFICAR]` la información no confirmada documentalmente.
+- Evitar afirmaciones categóricas sobre “primeros” (primera emisora, primer programa, etc.) sin trazabilidad explícita de fuente.
 
 ## Palabras clave
 

@@ -2,13 +2,28 @@
 
 ## Panorama de la FM uruguaya
 
-La radio FM en Uruguay creció significativamente desde la década de 1980 y hoy concentra la mayor audiencia radial del país. La diversidad de la oferta FM es notable: van desde grandes emisoras de grupos mediáticos con programación de entretenimiento y música, hasta radios especializadas, comunitarias y universitarias. La URSEC es el organismo regulador que emite las licencias y supervisa el cumplimiento normativo.
+La radio FM en Uruguay se expandió con fuerza desde la segunda mitad del siglo XX y hoy ocupa un lugar central en el consumo radial. La oferta incluye emisoras comerciales, comunitarias, universitarias y formatos especializados.
+
+En términos históricos, y según la síntesis de `Radio en Uruguay` (Wikipedia en español, edición 28/04/2026), la **primera emisora de FM en iniciar transmisiones fue CXD-238 Emisora Río de la Plata en 1960** (originalmente 106.7 MHz, luego 95.5 MHz).
+
+> Nota editorial de rigor: **CX42 es una emisora de AM**, por lo que no corresponde documentarla como primera FM.
+
+La **URSEC** es el organismo regulador que administra habilitaciones/licencias y publica listados oficiales de operadores de radiodifusión.
+
+## Hitos históricos de la FM en Uruguay
+
+- **1960**: inicio de transmisiones de **CXD-238 Emisora Río de la Plata**, referida como primera FM en la fuente consultada.
+- **1962**: se registra CXD-230 (93.9 MHz) en servicios de música funcional.
+- **1976**: lanzamiento de CXD-270 Azul (101.9 MHz).
+- **1984**: autorización de numerosas emisoras FM en Montevideo e interior.
+
+Estos hitos deben leerse como guía histórica y contrastarse con resoluciones/archivos oficiales cuando se requiera precisión jurídica o registral.
 
 ## Emisoras FM de referencia
 
 ### Del Sol FM (99.5)
 
-**Del Sol FM** es una de las emisoras FM con mayor audiencia en Uruguay. Se especializa en entretenimiento, música y programas de humor y actualidad. Tiene fuerte presencia en redes sociales y plataformas digitales.
+**Del Sol FM** es una emisora FM de referencia en Montevideo, con programación de entretenimiento, música y actualidad, además de presencia activa en plataformas digitales.
 
 Su programa más emblemático es **"No Toquen Nada"**, magazine matutino (de lunes a sábado, 8 a 12 horas) co-dirigido por **Joel Rosenberg** y **Ricardo Leiva** ("Sueco"), con **Carlos Tanco** como columna fija a través del personaje **Darwin Desbocatti**.
 
@@ -16,11 +31,11 @@ Su programa más emblemático es **"No Toquen Nada"**, magazine matutino (de lun
 
 ### Océano FM (98.1)
 
-**Océano FM** es una de las emisoras de mayor audiencia, con programación de entretenimiento, música y programas de actualidad y humor.
+**Océano FM** es una emisora reconocida por su programación de entretenimiento, música y actualidad.
 
 ### M24 (97.9)
 
-**M24** es una emisora FM con fuerte foco en periodismo e información. Su programación combina informativos, entrevistas y análisis de actualidad política, económica y social.
+**M24** es una emisora FM con foco periodístico. Su programación combina informativos, entrevistas y análisis de actualidad.
 
 ### Azul FM (101.9)
 
@@ -71,17 +86,29 @@ La radio FM uruguaya presenta varios formatos habituales:
 ## FM y plataformas digitales
 
 A agosto de 2026, la mayor parte de las emisoras FM uruguayas complementan su señal radial con:
-  Escucha en vivo por sus sitios web y aplicaciones móviles
-  Podcast de programas destacados
-  Contenido exclusivo en Instagram, TikTok y YouTube
-  Interacción con oyentes en redes sociales durante la transmisión
+
+- escucha en vivo por sitios web y aplicaciones móviles;
+- podcast o recortes de programas destacados;
+- contenido en Instagram, TikTok y YouTube;
+- interacción con oyentes por redes durante la transmisión.
 
 ## Regulación de la FM
 
 Las emisoras de FM están reguladas por la **URSEC** y operan bajo las mismas obligaciones de la **Ley 19.307** que la radio AM y la televisión: cuotas de música nacional, Himno Nacional en fechas patrias, franjas de protección de audiencias infantiles.
 
-El listado completo de operadores de radiodifusión FM habilitados está disponible en el portal de la URSEC.
+El listado de operadores y servicios de comunicación audiovisual puede consultarse en:
+
+- <https://www.gub.uy/unidad-reguladora-servicios-comunicaciones/datos-y-estadisticas/datos?field_tematica_gubuy_to_ct_datos=378&field_fecha_by_year_to_ct_datos=All&field_fecha_by_month=All&field_publico_gubuy_to_ct_datos=All>
+- <https://www.gub.uy/unidad-reguladora-servicios-comunicaciones/datos-y-estadisticas/datos/listado-operadores-comerciales-servicio>
+
+## Nota metodológica (control anti-especulación)
+
+Para afirmaciones históricas sensibles (por ejemplo, “primera FM”, fechas de inicio o cambios de indicativo), este dominio prioriza:
+
+1. normativa y resoluciones oficiales (URSEC/IMPO);
+2. listados institucionales vigentes;
+3. fuentes secundarias (como Wikipedia) solo como apoyo, nunca como único respaldo cuando exista conflicto.
 
 ## Palabras clave
 
-radio FM Uruguay emisoras frecuencia modulada audiencia, Del Sol FM 99.5 Uruguay No Toquen Nada, Océano FM 98.1 Uruguay entretenimiento, M24 97.9 Uruguay radio periodismo información, radios comunitarias FM Uruguay AMARC Ley 19307, URSEC Uruguay regulación licencias FM, radio FM Uruguay morning show formatos programación, podcast radio FM Uruguay plataformas digitales, radio universitaria UdelaR Uruguay, grupos mediáticos radios FM Uruguay Monte Carlo Sarandí, Azul FM Las Mejores Uruguay, FM Uruguay humor matutino programas, Carlos Tanco Darwin Desbocatti No Toquen Nada Del Sol FM Uruguay Premio Iris 2013 2016, Joel Rosenberg Ricardo Leiva Sueco conductores No Toquen Nada Uruguay, Valeria Tanco comunicadora Uruguay
+radio FM Uruguay historia frecuencia modulada, primera emisora FM Uruguay CXD-238 Emisora Río de la Plata 1960, CX42 AM Uruguay no es FM, URSEC licencias radiodifusión FM, emisoras FM Uruguay, radio digital y streaming Uruguay, Ley 19307 radio Uruguay

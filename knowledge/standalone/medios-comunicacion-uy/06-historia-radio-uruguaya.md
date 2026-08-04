@@ -30,6 +30,10 @@ Con la expansión de la FM, especialmente desde la segunda mitad del siglo XX, e
 - propuestas juveniles y culturales;
 - mayor desarrollo de contenidos locales departamentales.
 
+Como hito histórico de referencia, la fuente `Radio en Uruguay` (Wikipedia en español, edición 28/04/2026) identifica que la primera emisora de FM en iniciar transmisiones fue **CXD-238 Emisora Río de la Plata (1960)**.
+
+Para evitar errores de atribución en el dominio, se mantiene la distinción entre bandas: por ejemplo, **CX42 corresponde a AM**, no a FM.
+
 ## La radio y el deporte
 
 Uruguay desarrolló una tradición muy fuerte de relato y comentario deportivo en radio. Las transmisiones de fútbol, ciclismo y otros deportes consolidaron un estilo narrativo propio, con alta fidelidad de audiencia y presencia nacional.
@@ -61,4 +65,4 @@ La radio sigue siendo un medio de alta relevancia en Uruguay, sobre todo en info
 
 ## Palabras clave
 
-historia de la radio uruguaya, radio AM Uruguay, radio FM Uruguay, radiodifusión Uruguay, deportes en radio Uruguay, radio digital Uruguay, streaming radial Uruguay, podcast y radio Uruguay
+historia de la radio uruguaya, radio AM Uruguay, radio FM Uruguay, primera FM Uruguay CXD-238 1960, radiodifusión Uruguay, deportes en radio Uruguay, radio digital Uruguay, streaming radial Uruguay, podcast y radio Uruguay
