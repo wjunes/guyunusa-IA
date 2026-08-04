@@ -1,10 +1,20 @@
 # BNC-UY — Inventario de dominios y documentos
 
-**Versión:** 62.0.0
-**Fecha:** 2026-08-01
+**Versión:** 68.0.0
+**Fecha:** 2026-08-04
 **Estado:** activo
 
 ---
+
+| Versión | Fecha | Cambio principal |
+| --- | --- | --- |
+| 68.0.0 | 2026-08-04 | Alta de `medios-comunicacion-uy` (24 archivos: README + 23 contenido). Historia televisión y radio, grupos empresariales, medios públicos/comunitarios, periodismo digital, comunicadores de referencia, carnaval y medios, Ley 19.307, URSEC. Total: 60 dominios, 1322 archivos. |
+| 67.0.0 | 2026-08-04 | Alta de `propiedad-intelectual-uy` (15 archivos: README + 14 contenido). Derechos de autor (Ley 9.739/17.616), gestión colectiva (AGADU/SUDEI/AUDEM), marcas (Ley 17.011), patentes (Ley 17.164), modelos de utilidad, diseños industriales, software, secretos industriales, obtenciones vegetales (Ley 16.580/UPOV), dominios .uy, observancia y delitos, tratados internacionales (OMPI/ADPIC). Total: 59 dominios, 1298 archivos. |
+| 66.0.0 | 2026-08-04 | Alta de `demografia-sociedad-uy` (16 archivos: README + 15 contenido). Censo 2023 (~3,4 M hab.), envejecimiento, TGF <1,5, mortalidad, urbanización, emigración, hogares, bono demográfico, estratificación socioeconómica, segregación residencial, etnicidad. Total: 58 dominios, 1283 archivos. |
+| 65.0.0 | 2026-08-04 | Alta de `migracion-extranjeria-uy` (16 archivos: README + 15 contenido). Ley 18.250, institucionalidad migratoria, residencias legales, MERCOSUR, visas, refugio (Ley 18.076), nuevas corrientes migratorias, inserción laboral, derechos sociales, ciudadanía y naturalización. Total: 57 dominios, 1267 archivos. |
+| 64.0.0 | 2026-08-04 | Alta de `laicidad-religiones-uy` (15 archivos: README + 14 contenido). Art. 5 Const., secularización, Iglesia Católica, protestantismo, umbanda, comunidad judía, islam, educación laica, espacio público, ateísmo, diálogo interreligioso, festividades. Total: 56 dominios, 1251 archivos. |
+| 63.0.0 | 2026-08-04 | Alta de `trabajo-derecho-laboral-uy` (18 archivos: README + 17 contenido). OIT, PIT-CNT, Ley 17.940, Ley 18.566, Consejos de Salarios, contrato de trabajo, despido, seguridad e higiene, fuero sindical, negociación colectiva, huelga, teletrabajo. Total: 55 dominios, 1236 archivos. |
+| 62.0.0 | 2026-08-01 | Enriquecimiento de `oceanografia-uy` con contenido del IAR Viridien 2025 (prospección sísmica 3D ZEE). Actualizados: `07-geologia-marina.md` (3 cuencas offshore con nombres, 7 sistemas de cañones, 17 montículos carbonáticos, 41 pockmarks, bloques OFF-1–OFF-7, Res. MIEM 198/23); `04-zona-economica-exclusiva.md` (exploración sísmica ANCAP/Viridien, 5 cables submarinos activos: SAM-1/SAC/Tannat/Malbec/Firmina); `16-conservacion-marina.md` (8 sitios conservación ZEE: RM 1151/2022 — Banco Inglés, Lobos, Restinga Pez Limón, Pozo de Fango, moluscos, ACPM merluza, talud, cañones); `08-recursos-marinos.md` (categorías flota A/B/C/D, ZCPAU, mínimo merluza 10.576 t/2021, flota: 6/55 barcos operativos a enero 2025). Sin cambio en cantidad de archivos (22 + README = 23). Total: 54 dominios, 1218 archivos. |
 
 ## Descripción
 
@@ -72,8 +82,14 @@ Los dominios standalone siguen el formato normalizado BNC-UY: directorio con nom
 | 52 | `sistema-politico-uy` | 23 | Sistema político uruguayo: Constitución (historia y texto vigente), Poder Ejecutivo, Poder Legislativo (Parlamento bicameral), Poder Judicial (SCJ, Fiscalía), sistema electoral y balotaje, partidos políticos (Colorado, Nacional, Frente Amplio, Cabildo Abierto), democracia directa (referéndums, iniciativa popular), Corte Electoral, gobierno departamental e intendencias, municipios (Ley 18.567), sociedad civil y medios, historia constitucional, reformas electorales, políticas públicas, relación civiles-militares (Ley 18.650), cronología, glosario, fuentes |
 | 53 | `personalidades-uy` | 23 | Personalidades notables de Uruguay: héroes fundacionales (Artigas, Lavalleja, Rivera), escritores y poetas (Rodó, Agustini, Ibarbourou, Quiroga, Benedetti, Onetti, Galeano), pedagogos (Jesualdo Sosa, Reina Reyes, Miguel Soler Roca), figuras políticas contemporáneas (Mujica, Vázquez), música y cultura (Zitarrosa, Viglietti, Rada, Gardel, candombe, murga), deportistas (Tabárez, Ghiggia, Forlán), científicos (Clemente Estable), cronología y fuentes |
 | 54 | `agua-uy` | 25 | Recursos hídricos de Uruguay: marco jurídico (Art. 47 Const., Ley 18.610), DINAGUA, Comisiones de Cuenca, OSE (agua potable), DINASA (saneamiento), calidad del agua (eutrofización, Santa Lucía), crisis hídrica 2022-2023, Acuífero Guaraní, aguas termales, CARU (Río Uruguay), Comisión Mixta Merín, conflicto papeleras/UPM, agua y cambio climático, riego agropecuario, agua y energía (represas), pesca continental, navegación fluvial, hidrodinámica del Río Uruguay (modelo TELEMAC 2D), historia hídrica, datos e indicadores, cronología, glosario y fuentes |
+| 55 | `trabajo-derecho-laboral-uy` | 18 | Derecho laboral: OIT, PIT-CNT, fuero sindical (Ley 17.940), negociación colectiva (Ley 18.566), Consejos de Salarios, contrato de trabajo, modalidades, despido, seguridad e higiene (MTSS/IGTSS), trabajo infantil, trabajo doméstico, teletrabajo, discriminación laboral, huelga y ocupación, jurisprudencia SCJ, cronología normativa |
+| 56 | `laicidad-religiones-uy` | 15 | Laicidad del Estado uruguayo: Art. 5 Constitución, secularización siglos XIX–XX, Iglesia Católica, protestantismo y evangelismo, umbanda y religiosidad afrobrasileña, comunidad judía, islam, educación laica (Ley 18.437), espacio público y simbología religiosa, ateísmo y no religiosidad, diálogo interreligioso, festividades y calendario laico |
+| 57 | `migracion-extranjeria-uy` | 16 | Migración y extranjería: historia migratoria, Ley 18.250, institucionalidad (MRREE/MIDES/OIM), residencias legales, MERCOSUR, visas e ingreso, refugio y asilo (Ley 18.076), nuevas corrientes migratorias, inserción laboral, derechos sociales, reunificación familiar, ciudadanía y naturalización, expulsión e irregularidad, cooperación internacional |
+| 58 | `demografia-sociedad-uy` | 16 | Demografía y sociedad: historia demográfica, Censo 2023 (~3,4 M hab.), envejecimiento poblacional, fecundidad (TGF <1,5), mortalidad y esperanza de vida (~77–78 años), urbanización y distribución territorial, emigración, hogares y familias, bono demográfico, estratificación socioeconómica, segregación residencial, etnicidad y autoascripción racial, institucionalidad y políticas demográficas |
+| 59 | `propiedad-intelectual-uy` | 15 | Propiedad intelectual: marco general, derechos de autor (Ley 9.739 y Ley 17.616), gestión colectiva (AGADU/SUDEI/AUDEM), marcas (Ley 17.011), procedimiento DNPI, patentes (Ley 17.164), modelos de utilidad y diseños industriales, software y bases de datos, secretos industriales y competencia desleal, obtenciones vegetales (Ley 16.580/UPOV), dominios .uy, observancia y delitos, tratados internacionales (OMPI/ADPIC/Berna/París) |
+| 60 | `medios-comunicacion-uy` | 24 | Medios de comunicación: historia de la televisión (canal 4/10/12, TNU) y la radio AM/FM, grupos empresariales de medios, medios públicos y comunitarios, periodismo digital y redes sociales, comunicadores y periodistas de referencia, programas emblemáticos, vínculo carnaval-medios, publicidad y economía de medios, marco regulatorio (Ley 19.307, URSEC), libertad de prensa, transformaciones digitales |
 
-**Total: 54 dominios standalone — 1218 archivos**
+**Total: 60 dominios standalone — 1322 archivos**
 
 ---
 
@@ -108,7 +124,7 @@ A julio de 2026, no hay dominios pendientes de incorporación. Todos los dominio
 ## Historial de versiones
 
 | Versión | Fecha | Cambio principal |
-|---|---|---|
+| --- | --- | --- |
 | 62.0.0 | 2026-08-01 | Enriquecimiento de `oceanografia-uy` con contenido del IAR Viridien 2025 (prospección sísmica 3D ZEE). Actualizados: `07-geologia-marina.md` (3 cuencas offshore con nombres, 7 sistemas de cañones, 17 montículos carbonáticos, 41 pockmarks, bloques OFF-1–OFF-7, Res. MIEM 198/23); `04-zona-economica-exclusiva.md` (exploración sísmica ANCAP/Viridien, 5 cables submarinos activos: SAM-1/SAC/Tannat/Malbec/Firmina); `16-conservacion-marina.md` (8 sitios conservación ZEE: RM 1151/2022 — Banco Inglés, Lobos, Restinga Pez Limón, Pozo de Fango, moluscos, ACPM merluza, talud, cañones); `08-recursos-marinos.md` (categorías flota A/B/C/D, ZCPAU, mínimo merluza 10.576 t/2021, flota: 6/55 barcos operativos a enero 2025). Sin cambio en cantidad de archivos (22 + README = 23). Total: 54 dominios, 1218 archivos. |
 | 61.0.0 | 2026-08-01 | Nuevo archivo `agua-uy/24-hidrodinamica-rio-uruguay.md`: modelo hidrodinámico bidimensional TELEMAC 2D del tramo Salto Grande – Nueva Palmira (Junes, Fossati, Solari; IMFIA/UdelaR; AIDIS 2019; financiado por CARU). Inversiones de flujo hasta La Calera en caudales bajos y medios; dominio del Río de la Plata en el tramo Fray Bentos – Nueva Palmira; velocidades máximas ~2,5 m/s en caudal alto. agua-uy: 25 archivos. Total: 54 dominios, 1218 archivos. |
 | 60.0.0 | 2026-07-31 | Alta de `agua-uy` (24 archivos: README + 23 contenido). Dominio de recursos hídricos: marco jurídico (Art. 47, Ley 18.610), DINAGUA, Comisiones de Cuenca, OSE, DINASA, calidad del agua, crisis 2022-2023, Acuífero Guaraní, aguas termales, CARU, Comisión Mixta Merín, conflicto papeleras, agua y cambio climático, riego agropecuario, agua y energía hidroeléctrica, pesca continental, navegación fluvial, historia hídrica, datos e indicadores, cronología, glosario y fuentes. Total: 54 dominios, 1217 archivos. |
