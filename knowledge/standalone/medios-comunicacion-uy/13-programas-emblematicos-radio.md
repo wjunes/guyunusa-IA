@@ -40,13 +40,13 @@ En **Radio Ariel** se emitió **"Teatralerías"**, programa protagonizado por **
 
 ## Programas infantiles
 
-### Radio Carve (CX 16)
+### Radio Carve (CX 16) — Programación infantil
 
 **Miguel Ángel Manzi** condujo en **Radio Carve** la emblemática **"Revista Infantil"**, uno de los programas para niños más longevos de la radio uruguaya. El programa incluía participación del público infantil en el estudio, canciones, cuentos y secciones educativas.
 
 ## Programas políticos e informativos
 
-### Radio Carve (CX 16)
+### Radio Carve (CX 16) — Política e información
 
 **Omar De Feo** condujo en **Radio Carve** el programa **"Tomándole el pulso a la República"**, considerado durante su época el mejor programa político de la radio uruguaya. De Feo era reconocido por su entrevistas en profundidad a figuras del mundo político y sindical.
 
@@ -66,7 +66,7 @@ En **Radio Nacional** (Radio Uruguay del SODRE) se emitió **"De Mujer a Mujer"*
 
 ## Programas matinales
 
-### Radio Carve (CX 16)
+### Radio Carve (CX 16) — Franja matinal
 
 **Pastor Carrizo** condujo desde 1970 en **Radio Carve** el programa de madrugada y madrugada-mañana **"Despierte Cantando"**, que incluía música, noticias breves y humor. El programa se hizo legendario por el uso de golpes de cacerola y otros elementos sonoros a modo de despertador, creando un vínculo muy particular con la audiencia de las primeras horas del día.
 

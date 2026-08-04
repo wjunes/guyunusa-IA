@@ -53,15 +53,15 @@ La **AMARC Uruguay** agrupa y representa a las radios comunitarias del país.
 ## Radios FM de grupos multimedia
 
 Varios canales de televisión abierta tienen emisoras FM asociadas:
-- **FM Uno** — vinculada al entorno de Canal 10
-- **Emisoras del Grupo Sarandí** — asociadas a Monte Carlo TV (Canal 4)
+ **FM Uno** — vinculada al entorno de Canal 10
+  **Emisoras del Grupo Sarandí** — asociadas a Monte Carlo TV (Canal 4)
 
 ## Características de la programación FM
 
 La radio FM uruguaya presenta varios formatos habituales:
 
 | Formato | Descripción |
-|---------|-------------|
+| --------- | ------------- |
 | **Morning show** | Programa matutino de entretenimiento, humor y actualidad (6–10 hs) |
 | **Drive time** | Programas de mediodía y tarde para audiencia en tránsito |
 | **Radio de música** | Bloques musicales por géneros o épocas |
@@ -71,10 +71,10 @@ La radio FM uruguaya presenta varios formatos habituales:
 ## FM y plataformas digitales
 
 A agosto de 2026, la mayor parte de las emisoras FM uruguayas complementan su señal radial con:
-- Escucha en vivo por sus sitios web y aplicaciones móviles
-- Podcast de programas destacados
-- Contenido exclusivo en Instagram, TikTok y YouTube
-- Interacción con oyentes en redes sociales durante la transmisión
+  Escucha en vivo por sus sitios web y aplicaciones móviles
+  Podcast de programas destacados
+  Contenido exclusivo en Instagram, TikTok y YouTube
+  Interacción con oyentes en redes sociales durante la transmisión
 
 ## Regulación de la FM
 

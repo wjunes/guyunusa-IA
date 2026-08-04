@@ -9,12 +9,12 @@ El periodismo uruguayo opera en un contexto de libertad de prensa reconocida int
 La **Asociación de la Prensa Uruguaya (APU)** es el principal sindicato y gremio de periodistas y trabajadores de la comunicación del Uruguay.
 
 | Dato institucional | Información |
-|-------------------|-------------|
+| ------------------- | ------------- |
 | Nombre | Asociación de la Prensa Uruguaya |
 | Sede | San José 1330, Montevideo |
 | Teléfono | 2901 3695 |
-| Correo | apu@adinet.com.uy |
-| Web | apu.uy |
+| Correo | [apu@adinet.com.uy](mailto:apu@adinet.com.uy) |
+| Web | [apu.uy](https://apu.uy) |
 | Redes | Twitter/X (@apu_uy), Facebook, YouTube |
 
 APU es la organización de referencia sindical de los trabajadores de prensa en Uruguay. Fundada hace décadas, agrupa a periodistas, fotógrafos, camarógrafos, editores y trabajadores del sector de la comunicación.
@@ -29,7 +29,7 @@ APU es la organización de referencia sindical de los trabajadores de prensa en 
 
 ### Portal APU.uy
 
-El portal **APU.uy** funciona como medio de comunicación de la organización, con cobertura informativa en temas de trabajo, educación, salud, economía, política nacional, sociedad, ciencia, agro, derechos humanos, justicia, diversidad, cultura, deportes y política internacional. Publica noticias, entrevistas, análisis y contenido multimedia.
+El portal **[APU.uy](https://apu.uy)** funciona como medio de comunicación de la organización, con cobertura informativa en temas de trabajo, educación, salud, economía, política nacional, sociedad, ciencia, agro, derechos humanos, justicia, diversidad, cultura, deportes y política internacional. Publica noticias, entrevistas, análisis y contenido multimedia.
 
 ### Actividad reciente de APU (a agosto de 2026)
 
@@ -51,12 +51,12 @@ APU produce el programa audiovisual **"Valores"**, serie de entrevistas a figura
 El **Círculo de Periodistas Deportivos del Uruguay (CPDU)** es la organización gremial especializada en periodismo deportivo.
 
 | Dato institucional | Información |
-|-------------------|-------------|
+| ------------------- | ------------- |
 | Nombre | Círculo de Periodistas Deportivos del Uruguay |
 | Fundación | 13 de febrero de 1942 |
 | Sede | Río Negro 1165 entre Canelones y Maldonado, Montevideo CP 11100 |
 | Teléfono | (+598) 095 19 19 41 |
-| Web | cpdu.org.uy |
+| Web | [cpdu.org.uy](https://cpdu.org.uy) |
 | Redes | Facebook (CPDUoficial), Instagram (@cpduoficial), Twitter (@CPDUoficial) |
 
 El CPDU fue fundado el 13 de febrero de **1942** por un grupo de colegas con el objetivo de "protección de sus afiliados" y representación corporativa del periodismo deportivo uruguayo.

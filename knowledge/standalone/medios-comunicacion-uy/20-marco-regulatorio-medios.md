@@ -22,7 +22,7 @@ La **Ley 19.307**, promulgada el 29 de diciembre de **2014**, es la norma centra
 La **URSEC** (Unidad Reguladora de Servicios de Comunicaciones) es el organismo estatal encargado de la regulación y fiscalización de los servicios de telecomunicaciones y comunicación audiovisual en Uruguay.
 
 | Dato institucional | Información |
-|-------------------|-------------|
+| ------------------- | ------------- |
 | Nombre | Unidad Reguladora de Servicios de Comunicaciones |
 | Sede | Avda. Uruguay 988, Montevideo |
 | Teléfono | +598 2902 8082 / 0800-1872 |
@@ -49,10 +49,10 @@ URSEC publica en su portal el listado completo de operadores comerciales de comu
 ### Obligaciones de los operadores
 
 Entre las obligaciones de los operadores de radio y televisión supervisadas por URSEC:
-- Emisión del **Himno Nacional** en fechas patrias (19 de abril, 18 de mayo, 19 de junio, 18 de julio, 25 de agosto): las radios deben irradiarlo a las 12 horas; los canales de TV al inicio de su programación.
-- Cumplimiento de cuotas de producción nacional.
-- Remisión de contenidos y programación (Trámite "Contenido y programación de SCA").
-- Comunicación de interrupciones de servicio.
+  Emisión del **Himno Nacional** en fechas patrias (19 de abril, 18 de mayo, 19 de junio, 18 de julio, 25 de agosto): las radios deben irradiarlo a las 12 horas; los canales de TV al inicio de su programación.
+ Cumplimiento de cuotas de producción nacional.
+ Remisión de contenidos y programación (Trámite "Contenido y programación de SCA").
+ Comunicación de interrupciones de servicio.
 
 ## Medios comunitarios
 

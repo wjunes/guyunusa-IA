@@ -184,33 +184,25 @@ La numeración será secuencial dentro de cada combinación Tipo + Área.
 
 Formato:
 
-```
 0001
-```
 
 El número secuencial deberá usar siempre 4 dígitos, completando con ceros a la izquierda cuando corresponda.
 
 Ejemplos
 
-```
 PER_LIT_0001
 
 PER_LIT_0002
 
 PER_LIT_0003
-```
 
-```
 PER_POL_0001
 
 PER_POL_0002
-```
 
-```
 TEM_CAR_0001
 
 TEM_CAR_0002
-```
 
 Cada combinación mantiene su propia secuencia.
 
@@ -220,80 +212,46 @@ Cada combinación mantiene su propia secuencia.
 
 ## Persona
 
-```
 PER_LIT_0001
 Mario Benedetti
-```
 
-```
 PER_MUS_0001
 Alfredo Zitarrosa
-```
-
----
 
 ## Tema
 
-```
 TEM_HIS_0001
 Independencia del Uruguay
-```
-
----
 
 ## Movimiento
 
-```
 MOV_MUS_0001
 Canto Popular Uruguayo
-```
-
----
 
 ## Obra
 
-```
 OBR_LIT_0001
 La Tregua
-```
-
----
 
 ## Institución
 
-```
 INS_BPS_0001
 Banco de Previsión Social
-```
-
----
 
 ## Lugar
 
-```
 LUG_TUR_0001
 Cabo Polonio
-```
-
----
 
 ## Evento
 
-```
 EVT_HIS_0001
 Batalla de Las Piedras
-```
-
----
 
 ## Organización
 
-```
 ORG_DEP_0001
 Asociación Uruguaya de Fútbol
-```
-
----
 
 ## Reglas
 
@@ -306,29 +264,21 @@ Los IDs:
 - no contienen espacios;
 - utilizan únicamente letras mayúsculas, números y guiones bajos (_).
 
----
-
 ## IDs Reservados
 
 Se recomienda reservar bloques para documentos institucionales.
 
 Ejemplo
 
-```
 0001 - 0099
 
 Documentos fundamentales
-```
 
-```
 0100 - 9999
 
 Documentos generales
-```
 
 Esto facilita futuras reorganizaciones.
-
----
 
 ## Relación con Metadata
 
@@ -336,8 +286,8 @@ Todo documento deberá declarar su identificador en el bloque YAML.
 
 Ejemplo
 
-```yaml
----
+yaml
+
 id: PER_LIT_0001
 
 titulo: Mario Benedetti
@@ -347,10 +297,6 @@ tipo: persona
 categoria: cultura
 
 subcategoria: literatura
----
-```
-
----
 
 ## Compatibilidad
 
@@ -361,8 +307,6 @@ Una vez publicado un documento:
 - el cambio de categoría tampoco modifica el ID.
 
 El ID representa la identidad permanente del documento.
-
----
 
 ## Evolución
 

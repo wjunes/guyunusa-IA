@@ -37,6 +37,7 @@ Las emisoras AM de alcance nacional o de gran audiencia están concentradas en M
 ### Informativos y deportes
 
 La radio AM uruguaya tiene tradición en:
+
 - **Informativos de alta mañana** (informativos de 6:00 a 9:00 hs)
 - **Cobertura deportiva en vivo**, especialmente fútbol (Campeonato Uruguayo, Libertadores, Copa de la Liga, selección)
 - **Programas de debate político y actualidad**
