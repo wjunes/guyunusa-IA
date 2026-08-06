@@ -1,16 +1,19 @@
 /**
  * paymentModal.js — Modal de selección y proceso de pago
  * Opciones: Mercado Pago | PayPal
+ * Planes: Mensual (USD 6/mes) | Anual (USD 49,90/año — ahorrá 30%)
  */
 import { api }     from '../services/api.js';
 import { store }   from '../app.js';
 import { t }       from '../modules/i18n.js';
 
-const PRICE = '6.00';
+const PRICE_MONTHLY = '6.00';
+const PRICE_ANNUAL  = '49.90';
 
 export function openPaymentModal() {
-  // Evitar doble apertura
   if (document.getElementById('payment-modal-overlay')) return;
+
+  let billing = 'monthly';
 
   const overlay = document.createElement('div');
   overlay.className = 'c-modal-overlay';
@@ -24,9 +27,24 @@ export function openPaymentModal() {
       <div class="c-payment-modal__header">
         <div class="c-payment-modal__badge">✦ Pro</div>
         <h2 class="c-payment-modal__title">Guyunusa Pro</h2>
-        <p class="c-payment-modal__subtitle">
-          Mensajes ilimitados · Sin restricciones · USD ${PRICE}/mes
+        <p class="c-payment-modal__subtitle" id="pm-subtitle">
+          Mensajes ilimitados · Sin restricciones · USD ${PRICE_MONTHLY}/mes
         </p>
+      </div>
+
+      <!-- Selector mensual / anual -->
+      <div class="c-payment-modal__billing">
+        <button class="c-payment-modal__billing-opt c-payment-modal__billing-opt--active"
+                id="billing-monthly" data-billing="monthly">
+          <span class="c-payment-modal__billing-label">Mensual</span>
+          <span class="c-payment-modal__billing-price">USD ${PRICE_MONTHLY}/mes</span>
+        </button>
+        <button class="c-payment-modal__billing-opt"
+                id="billing-annual" data-billing="annual">
+          <span class="c-payment-modal__billing-label">Anual</span>
+          <span class="c-payment-modal__billing-price">USD ${PRICE_ANNUAL}/año</span>
+          <span class="c-payment-modal__billing-save">Ahorrá 30% (USD 22,10)</span>
+        </button>
       </div>
 
       <!-- Features -->
@@ -98,18 +116,34 @@ export function openPaymentModal() {
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
 
   document.getElementById('pay-mp')?.addEventListener('click',
-    () => handlePayment('mp', overlay));
+    () => handlePayment('mp', overlay, billing));
 
   document.getElementById('pay-paypal')?.addEventListener('click',
-    () => handlePayment('paypal', overlay));
+    () => handlePayment('paypal', overlay, billing));
+
+  // Selector mensual / anual
+  const btnMonthly = document.getElementById('billing-monthly');
+  const btnAnnual  = document.getElementById('billing-annual');
+  const subtitle   = document.getElementById('pm-subtitle');
+
+  function selectBilling(selected) {
+    billing = selected;
+    btnMonthly.classList.toggle('c-payment-modal__billing-opt--active', selected === 'monthly');
+    btnAnnual.classList.toggle('c-payment-modal__billing-opt--active', selected === 'annual');
+    subtitle.textContent = selected === 'monthly'
+      ? `Mensajes ilimitados · Sin restricciones · USD ${PRICE_MONTHLY}/mes`
+      : `Mensajes ilimitados · Sin restricciones · USD ${PRICE_ANNUAL}/año`;
+  }
+
+  btnMonthly?.addEventListener('click', () => selectBilling('monthly'));
+  btnAnnual?.addEventListener('click', () => selectBilling('annual'));
 }
 
-async function handlePayment(provider, overlay) {
+async function handlePayment(provider, overlay, billing = 'monthly') {
   const statusEl = document.getElementById('payment-status');
   const btnMP    = document.getElementById('pay-mp');
   const btnPP    = document.getElementById('pay-paypal');
 
-  // UI de carga
   statusEl.className = 'c-payment-modal__status c-payment-modal__status--loading';
   statusEl.textContent = provider === 'mp'
     ? 'Conectando con Mercado Pago...'
@@ -120,12 +154,10 @@ async function handlePayment(provider, overlay) {
 
   try {
     if (provider === 'mp') {
-      const data = await api.post('/payment/mp/create', {});
-      // Redirigir al checkout de Mercado Pago
+      const data = await api.post('/payment/mp/create', { billing });
       window.location.href = data.checkout_url;
     } else {
-      const data = await api.post('/payment/paypal/create', {});
-      // Redirigir al checkout de PayPal
+      const data = await api.post('/payment/paypal/create', { billing });
       window.location.href = data.approve_url;
     }
   } catch (err) {
@@ -144,7 +176,6 @@ export async function handlePaymentReturn() {
     const provider = new URLSearchParams(hash.split('?')[1]).get('provider');
     showPaymentResult('success', provider);
 
-    // Actualizar el plan en el store
     try {
       const data = await api.get('/payment/status');
       if (data.plan === 'pro') {
@@ -152,7 +183,6 @@ export async function handlePaymentReturn() {
       }
     } catch { /* silencioso */ }
 
-    // Limpiar el hash y navegar al chat
     setTimeout(() => { window.location.hash = '/'; }, 3500);
 
   } else if (hash.startsWith('#/payment/failure')) {

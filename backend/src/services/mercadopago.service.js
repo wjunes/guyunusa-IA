@@ -10,31 +10,41 @@ import { logger } from '../utils/logger.js';
 
 const BASE_URL = 'https://api.mercadopago.com';
 const TOKEN = () => process.env.MP_ACCESS_TOKEN || '';
-const PRICE = () => parseFloat(process.env.PRO_PRICE_USD || '6.00');
+const PRICE_MONTHLY = () => parseFloat(process.env.PRO_PRICE_USD || '6.00');
+const PRICE_ANNUAL  = () => parseFloat(process.env.PRO_PRICE_ANNUAL_USD || '49.90');
 const LABEL = () => process.env.PRO_PLAN_LABEL || 'Guyunusa Pro';
 const PUBLIC_URL = () => process.env.APP_PUBLIC_URL || 'http://localhost:3000';
 const FRONT_URL = () => process.env.FRONTEND_URL || 'http://localhost:3000';
 
 /**
  * Crea una preferencia de pago en MP.
+ * @param {number} userId
+ * @param {string} userEmail
+ * @param {string} billing — 'monthly' o 'annual'
  * Retorna { id, init_point } — init_point es la URL al checkout de MP.
  */
-export async function createPreference(userId, userEmail) {
+export async function createPreference(userId, userEmail, billing = 'monthly') {
   if (!TOKEN()) throw new Error('MP_ACCESS_TOKEN no configurado en .env');
+
+  const isAnnual = billing === 'annual';
+  const price    = isAnnual ? PRICE_ANNUAL() : PRICE_MONTHLY();
+  const itemId   = isAnnual ? 'guyunusa_pro_annual' : 'guyunusa_pro';
+  const title    = isAnnual ? `${LABEL()} — Plan Anual` : `${LABEL()} — Plan Mensual`;
+  const planDays = isAnnual ? 365 : 30;
 
   const body = {
     items: [{
-      id: 'guyunusa_pro',
-      title: LABEL(),
+      id: itemId,
+      title,
       description: 'Acceso ilimitado a Guyunusa — IA con identidad uruguaya',
       quantity: 1,
-      unit_price: PRICE(),
+      unit_price: price,
       currency_id: 'USD',
     }],
     payer: {
       email: userEmail,
     },
-    external_reference: String(userId),
+    external_reference: `${userId}:${billing}`,
     back_urls: {
       success: `${FRONT_URL()}/#/payment/success`,
       failure: `${FRONT_URL()}/#/payment/failure`,

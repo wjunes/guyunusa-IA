@@ -22,10 +22,15 @@ const FRONT_URL = () => process.env.FRONTEND_URL || 'http://localhost:3000';
    transacción: si el segundo falla, el primero también se revierte,
    evitando un estado inconsistente (usuario con plan 'pro' pero su
    pago sigue figurando como 'pending'). ── */
-async function activatePro(userId, provider, externalId) {
+async function activatePro(userId, provider, externalId, billing = 'monthly') {
+  const days = billing === 'annual' ? 365 : 30;
+  const expiresAt = new Date(Date.now() + days * 24 * 60 * 60 * 1000)
+    .toISOString().slice(0, 19).replace('T', ' ');
+
   await withTransaction(async (db) => {
-    await db.prepare(`UPDATE users SET plan = 'pro', updated_at = ${NOW} WHERE id = ?`)
-      .run(userId);
+    await db.prepare(
+      `UPDATE users SET plan = 'pro', plan_expires_at = ?, updated_at = ${NOW} WHERE id = ?`
+    ).run(expiresAt, userId);
 
     await db.prepare(
       `UPDATE payments SET status = 'approved', external_id = ?, updated_at = ${NOW}
@@ -34,17 +39,16 @@ async function activatePro(userId, provider, externalId) {
     ).run(externalId || '', userId, provider);
   });
 
-  logger.info(`✓ Plan Pro activado: user_id=${userId} via ${provider}`);
+  logger.info(`✓ Plan Pro activado: user_id=${userId} via ${provider} (${billing}, expira ${expiresAt})`);
 }
 
 /* ── Helper: registrar pago pendiente ── */
-async function registerPendingPayment(userId, provider, preferenceOrOrderId) {
+async function registerPendingPayment(userId, provider, preferenceOrOrderId, amount) {
   const db = getDB();
   const result = await db.prepare(
     `INSERT INTO payments (user_id, provider, preference_id, status, amount, currency)
      VALUES (?, ?, ?, 'pending', ?, 'USD')`
-  ).run(userId, provider, preferenceOrOrderId,
-    parseFloat(process.env.PRO_PRICE_USD || '6.00'));
+  ).run(userId, provider, preferenceOrOrderId, amount);
   return result.lastInsertRowid;
 }
 
@@ -65,8 +69,13 @@ export async function mpCreate(req, res) {
       return res.status(400).json({ ok: false, message: 'Ya tenés el plan Pro activado' });
     }
 
-    const pref = await createPreference(userId, user.email);
-    await registerPendingPayment(userId, 'mercadopago', pref.id);
+    const billing = req.body.billing || 'monthly';
+    const price   = billing === 'annual'
+      ? parseFloat(process.env.PRO_PRICE_ANNUAL_USD || '49.90')
+      : parseFloat(process.env.PRO_PRICE_USD || '6.00');
+
+    const pref = await createPreference(userId, user.email, billing);
+    await registerPendingPayment(userId, 'mercadopago', pref.id, price);
 
     const isSandbox = !process.env.MP_ACCESS_TOKEN?.startsWith('APP_USR-');
     return res.json({
@@ -102,13 +111,14 @@ export async function mpWebhook(req, res) {
 
   try {
     const payment = await getMPPayment(paymentId);
-    const userId = Number(payment.external_reference);
+    const [userIdStr, billing] = (payment.external_reference || '').split(':');
+    const userId = Number(userIdStr);
     const status = payment.status; // approved | rejected | pending | ...
 
     logger.info(`MP webhook: payment_id=${paymentId} status=${status} user=${userId}`);
 
     if (status === 'approved' && userId) {
-      await activatePro(userId, 'mercadopago', String(paymentId));
+      await activatePro(userId, 'mercadopago', String(paymentId), billing || 'monthly');
     }
   } catch (err) {
     logger.error('MP webhook error:', err.message);
@@ -122,9 +132,10 @@ export async function mpSuccess(req, res) {
   // Verificación adicional por query param (el webhook es el canal principal)
   if (status === 'approved' && payment_id && external_reference) {
     try {
+      const [userIdStr, billing] = (external_reference || '').split(':');
       const payment = await getMPPayment(payment_id);
       if (payment.status === 'approved') {
-        await activatePro(Number(external_reference), 'mercadopago', payment_id);
+        await activatePro(Number(userIdStr), 'mercadopago', payment_id, billing || 'monthly');
       }
     } catch (err) {
       logger.warn('MP success verify error:', err.message);

@@ -304,6 +304,47 @@
 .c-payment-modal__divider::after  { right: 0; }
 
 /* Métodos de pago */
+/* Selector mensual / anual */
+.c-payment-modal__billing {
+  display: flex; gap: 8px;
+  padding: 0 var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.c-payment-modal__billing-opt {
+  flex: 1;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 2px;
+  padding: 10px 8px;
+  border: 2px solid var(--border, #e0e0e0);
+  border-radius: var(--radius-md, 10px);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.c-payment-modal__billing-opt--active {
+  border-color: var(--accent, #2e7d32);
+  background: var(--accent-bg, rgba(46,125,50,.06));
+}
+.c-payment-modal__billing-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary, #1a1a1a);
+}
+.c-payment-modal__billing-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent, #2e7d32);
+}
+.c-payment-modal__billing-save {
+  font-size: 11px;
+  font-weight: 600;
+  color: #e67e22;
+  background: rgba(230,126,34,.1);
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
 .c-payment-modal__methods {
   display: flex;
   flex-direction: column;
@@ -363,25 +404,6 @@
 .c-payment-modal__method:hover .c-payment-modal__method-arrow {
   transform: translateX(3px);
   color: var(--accent);
-}
-
-/* Mercado Pago — branding actual (fondo amarillo) */
-.c-payment-modal__method[data-provider="mp"] {
-  border-color: #FFE600;
-  background: #FFE600;
-}
-.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-info strong {
-  color: #2D3277;
-}
-.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-info span {
-  color: #333;
-}
-.c-payment-modal__method[data-provider="mp"] .c-payment-modal__method-arrow {
-  color: #2D3277;
-}
-.c-payment-modal__method[data-provider="mp"]:hover:not(:disabled) {
-  border-color: #E6CF00;
-  background: #F5DD00;
 }
 
 /* Status */

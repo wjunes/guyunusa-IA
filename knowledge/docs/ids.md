@@ -24,20 +24,16 @@ Un ID nunca deberá reutilizarse ni modificarse una vez asignado.
 
 Todos los identificadores seguirán la siguiente estructura:
 
-```
 TIPO_AREA_NUMERO
-```
 
 Ejemplo
 
-```
 PER_LIT_0001
-```
 
 Donde:
 
 | Segmento | Significado |
-|----------|-------------|
+| ---------- | ------------- |
 | TIPO | Tipo de documento |
 | AREA | Área temática |
 | NUMERO | Número secuencial |
@@ -47,7 +43,7 @@ Donde:
 ## Tipos de Documento
 
 | Código | Tipo |
-|---------|------|
+-------------|
 | PER | Persona |
 | TEM | Tema |
 | INS | Institución |
@@ -64,117 +60,79 @@ Donde:
 
 ## Identidad
 
-```
 IDN
-```
 
 ## Historia
 
-```
 HIS
-```
 
 ## Política
 
-```
 POL
-```
 
 ## Literatura
 
-```
 LIT
-```
 
 ## Teatro
 
-```
 TEA
-```
 
 ## Artes Plásticas
 
-```
 PLA
-```
 
 ## Música
 
-```
 MUS
-```
 
 ## Carnaval
 
-```
 CAR
-```
 
 ## Candombe
 
-```
 CAN
-```
 
 ## Turismo
 
-```
 TUR
-```
 
 ## Gastronomía
 
-```
 GAS
-```
 
 ## Deportes
 
-```
 DEP
-```
 
 ## Educación
 
-```
 EDU
-```
 
 ## Salud
 
-```
 SAL
-```
 
 ## Economía
 
-```
 ECO
-```
 
 ## Legislación
 
-```
 LEG
-```
 
 ## Software
 
-```
 SOF
-```
 
 ## BPS
 
-```
 BPS
-```
 
 ## DGI
 
-```
 DGI
-```
 
 ---
 
