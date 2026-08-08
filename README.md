@@ -22,14 +22,14 @@
 - **Rate limiting** — protección de endpoints en producción
 - **Pagos** *(integración parcial)* — MercadoPago y PayPal (webhooks pendientes)
 - **App desktop** — Electron (Windows, macOS, Linux)
-- **App móvil** — Capacitor / Android *(en preparación)*
+- **App móvil** — Capacitor / Android *(flujo de build AAB activo)*
 
 ---
 
 ## Stack tecnológico
 
 | Capa | Tecnología |
-|---|---|
+| --- | --- |
 | Frontend | Vanilla JS (ES Modules, sin bundler), CSS ITCSS |
 | Backend | Node.js + Express.js |
 | Base de datos | MySQL (producción) · SQLite/sql.js (desarrollo) |
@@ -45,7 +45,6 @@
 
 ## Estructura del proyecto
 
-```
 guyunusa-IA/
 ├── backend/
 │   ├── src/
@@ -93,7 +92,6 @@ guyunusa-IA/
     ├── DEVELOPMENT.md
     ├── FIX-WINDOWS-INSTALL.md
     └── historia-guyunusa.md
-```
 
 ---
 
@@ -117,11 +115,7 @@ cd guyunusa-IA
 
 ### 2. Configurar variables de entorno
 
-```bash
-cp .env.example backend/.env
-```
-
-Editar `backend/.env` con los valores correspondientes:
+Crear `backend/.env` y completar los valores correspondientes:
 
 ```env
 # Servidor
@@ -174,7 +168,7 @@ npm run db:reset    # crea tablas y datos iniciales
 ### 5. Verificar configuración
 
 ```bash
-npm run check:env
+npm run check
 ```
 
 ---
@@ -218,9 +212,13 @@ npm run build      # generar ejecutable
 ```bash
 cd android
 npm install
-npx cap sync
+npm run sync
 npx cap open android   # abre Android Studio
 ```
+
+> `npm run sync` ejecuta `cap sync` y luego regenera los íconos Android
+> desde `android/icons/guyunusa.png` para evitar que Capacitor restaure
+> los íconos por defecto en builds release.
 
 > iOS requiere Mac con Xcode y cuenta Apple Developer.
 
@@ -232,8 +230,16 @@ npx cap open android   # abre Android Studio
 |---|---|
 | `npm run dev` | Servidor con hot-reload |
 | `npm start` | Servidor producción |
-| `npm run check:env` | Valida variables de entorno |
+| `npm run check` | Valida variables de entorno |
 | `npm run db:reset` | Reinicia la base de datos |
+
+### Scripts disponibles (android)
+
+| Comando | Descripción |
+|---|---|
+| `npm run cap:sync` | Sincroniza Capacitor con Android |
+| `npm run icons` | Regenera íconos Android desde `icons/guyunusa.png` |
+| `npm run sync` | `cap sync` + regeneración de íconos (recomendado) |
 
 ---
 
@@ -269,7 +275,7 @@ npx cap open android   # abre Android Studio
 
 - [ ] Completar integración de pagos — MercadoPago (webhooks + verificación de firma)
 - [ ] Completar integración de pagos — PayPal
-- [ ] App móvil Android — build y publicación en Play Store
+- [ ] App móvil Android — publicación en Play Store
 - [ ] App móvil iOS — build y publicación en App Store
 - [ ] App desktop — builds para Windows, macOS y Linux
 

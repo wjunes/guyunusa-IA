@@ -1,6 +1,6 @@
 # Arquitectura de Guyunusa IA — v2.0
 
-Última actualización: julio 2026
+Última actualización: agosto 2026
 Desarrollado por Willans Junes · Algoritmos.uy · Montevideo, Uruguay
 
 ---
@@ -21,7 +21,7 @@ escritorio (Electron), todas conectadas al mismo backend.
 | IA principal | DeepSeek V4 Pro (API directa) |
 | IA failover | OpenRouter → Gemma 2 9B (gratuito) |
 | Knowledge (RAG) | Sistema propio keyword-based, sin embeddings |
-| Android | Capacitor 6 — Modo A (WebView remoto) |
+| Android | Capacitor 6 — Modo A (WebView remoto) + script de íconos post-sync |
 | Desktop | Electron 1.1.0 — WebView remoto |
 | Hosting | cPanel compartido (guyunusa.uy) |
 | Pagos | MercadoPago Checkout Pro |
@@ -36,6 +36,10 @@ escritorio (Electron), todas conectadas al mismo backend.
 
 Las tres plataformas cargan el frontend desde el servidor. Al actualizar
 archivos en producción, todas las plataformas se actualizan sin rebuild.
+
+Para Android, el repositorio ejecuta regeneración de íconos luego de
+`cap sync` con `android/scripts/generate-icons.js` para evitar que Capacitor
+restaure íconos por defecto en builds de release.
 
 ## Estructura del proyecto
 

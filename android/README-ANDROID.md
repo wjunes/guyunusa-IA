@@ -6,29 +6,23 @@
 - Android SDK 24+ (Android 7.0 mínimo)
 - Java JDK 17
 
-## Instalación inicial (una sola vez)
+## Instalación inicial (proyecto ya creado)
 
 ```bash
-# 1. Instalar dependencias de Capacitor
 cd android
 npm install
-
-# 2. Inicializar Capacitor en la raíz del proyecto
-npx cap init "Guyunusa" "uy.guyunusa.app" --web-dir ../frontend
-
-# 3. Agregar la plataforma Android
-npx cap add android
-
-# 4. Sincronizar el frontend con el proyecto Android
-npx cap sync android
+npm run sync
 ```
+
+> `npm run sync` ejecuta `npx cap sync android` y luego
+> `node scripts/generate-icons.js` para restaurar los íconos propios.
 
 ## Flujo de trabajo diario
 
 ```bash
 # Después de cambiar código del frontend:
 cd android
-npx cap sync android
+npm run sync
 
 # Abrir Android Studio para compilar/testear:
 npx cap open android
@@ -39,7 +33,7 @@ npx cap run android
 
 ## Estructura generada por Capacitor
 
-```
+```text
 android/
 ├── capacitor.config.json   ← configuración principal
 ├── package.json
@@ -58,21 +52,22 @@ android/
 └── node_modules/
 ```
 
-## Recursos gráficos necesarios
+## Íconos de la app (importante para release)
 
-Crear en `android/app/src/main/res/`:
+Capacitor puede sobrescribir íconos en `cap sync`. Para evitar que el AAB
+salga con íconos por defecto, este repo usa:
 
-| Recurso       | Tamaño         | Carpeta              |
-|---------------|----------------|----------------------|
-| Ícono mdpi    | 48×48 px       | `drawable-mdpi/`     |
-| Ícono hdpi    | 72×72 px       | `drawable-hdpi/`     |
-| Ícono xhdpi   | 96×96 px       | `drawable-xhdpi/`    |
-| Ícono xxhdpi  | 144×144 px     | `drawable-xxhdpi/`   |
-| Ícono xxxhdpi | 192×192 px     | `drawable-xxxhdpi/`  |
-| Splash        | 2732×2732 px   | `drawable/`          |
+- Fuente: `android/icons/guyunusa.png`
+- Script: `android/scripts/generate-icons.js`
+- Comando recomendado: `npm run sync`
 
-Herramienta recomendada: **Android Asset Studio**
-https://romannurik.github.io/AndroidAssetStudio/
+Comandos útiles:
+
+```bash
+cd android
+npm run icons   # regenera solo íconos
+npm run sync    # cap sync + íconos
+```
 
 ## Build de release (APK / AAB para Play Store)
 
@@ -94,9 +89,16 @@ cd android/android
 # El .aab queda en: app/build/outputs/bundle/release/
 ```
 
+En Windows, también podés usar:
+
+```bash
+cd android/android
+gradlew.bat bundleRelease
+```
+
 ## Variables de entorno para la API
 
-En producción, el frontend apunta a `https://api.guyunusa.uy`.
+En producción, el frontend apunta a `https://guyunusa.uy`.
 En desarrollo, Capacitor puede usar el servidor local:
 
 ```json
@@ -106,4 +108,5 @@ En desarrollo, Capacitor puede usar el servidor local:
   "cleartext": true
 }
 ```
+
 Revertir antes de hacer build de release.

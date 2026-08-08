@@ -5,12 +5,11 @@
 ### 1. Clonar y configurar
 
 ```bash
-git clone https://github.com/tu-usuario/guyunusa.git
-cd guyunusa
+git clone https://github.com/wjunes/guyunusa-IA.git
+cd guyunusa-IA
 
 cd backend
 npm install
-cp .env.example .env
 # → Editar .env con tus API keys reales
 ```
 
@@ -31,8 +30,8 @@ Este script verifica:
 npm run dev
 ```
 
-En otra terminal, servir el frontend con Live Server de VS Code
-o con `npx serve ../frontend -p 5500`.
+Abrí `http://localhost:3000` en el navegador.
+El frontend se sirve estático desde Express.
 
 ---
 
