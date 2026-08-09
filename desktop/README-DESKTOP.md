@@ -63,3 +63,22 @@ Colocar en `desktop/assets/`:
 - `icon.png`  — Linux (512x512)
 
 Se puede generar desde un PNG con: https://www.electron.build/icons
+
+## Troubleshooting Windows 11 (GPU / ejecutar como administrador)
+
+Si en algunos equipos W11 la app solo abre al ejecutar "como administrador"
+o muestra ventana en blanco, suele ser un problema del proceso GPU de Electron
+(driver gráfico, overlays o aceleración por hardware inestable).
+
+Desde esta versión, Guyunusa guarda estado de crash GPU y en el siguiente
+inicio activa automáticamente modo seguro (sin aceleración por hardware),
+evitando depender de ejecutar como administrador.
+
+### Probar recuperación manual
+
+```bash
+cd desktop
+npm run start -- --force-gpu
+```
+
+Si funciona estable con `--force-gpu`, la app limpia el modo seguro al salir.

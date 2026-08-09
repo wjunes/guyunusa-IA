@@ -14,31 +14,71 @@ import {
 } from 'electron';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const __dirname  = dirname(fileURLToPath(import.meta.url));
-const APP_URL    = 'https://guyunusa.uy';
-const APP_ICON   = join(__dirname, 'assets', 'icons', 'guyunusa.ico');
-const isDev      = process.argv.includes('--dev');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const APP_URL = 'https://guyunusa.uy';
+const APP_ICON = join(__dirname, 'assets', 'icons', 'guyunusa.ico');
+const isDev = process.argv.includes('--dev');
+const forceGpu = process.argv.includes('--force-gpu');
 
 let mainWindow;
+let gpuProcessCrashed = false;
+
+// ── Estado persistente de GPU (Windows fixes) ───────────────────────────────
+
+function getGpuStatePath() {
+  return join(app.getPath('userData'), 'gpu-state.json');
+}
+
+function loadGpuState() {
+  const filePath = getGpuStatePath();
+  if (!existsSync(filePath)) {
+    return { disableHardwareAcceleration: false };
+  }
+
+  try {
+    return JSON.parse(readFileSync(filePath, 'utf8'));
+  } catch {
+    return { disableHardwareAcceleration: false };
+  }
+}
+
+function saveGpuState(state) {
+  const filePath = getGpuStatePath();
+  const dir = dirname(filePath);
+
+  if (!existsSync(dir)) {
+    mkdirSync(dir, { recursive: true });
+  }
+
+  writeFileSync(filePath, JSON.stringify(state, null, 2), 'utf8');
+}
+
+const gpuState = loadGpuState();
+
+if (!forceGpu && gpuState.disableHardwareAcceleration) {
+  app.disableHardwareAcceleration();
+  app.commandLine.appendSwitch('disable-gpu');
+}
 
 // ── Ventana principal ─────────────────────────────────────────────────────────
 
 async function createWindow() {
   mainWindow = new BrowserWindow({
-    width:     1366,
-    height:    820,
-    minWidth:  1024,
+    width: 1366,
+    height: 820,
+    minWidth: 1024,
     minHeight: 640,
-    title:     'Guyunusa',
-    icon:      APP_ICON,
+    title: 'Guyunusa',
+    icon: APP_ICON,
     backgroundColor: nativeTheme.shouldUseDarkColors ? '#1a1814' : '#faf9f6',
     show: false,
     webPreferences: {
-      preload:          join(__dirname, 'preload.js'),
+      preload: join(__dirname, 'preload.js'),
       contextIsolation: true,
-      nodeIntegration:  false,
-      sandbox:          true,
+      nodeIntegration: false,
+      sandbox: true,
     },
     autoHideMenuBar: false,
   });
@@ -80,22 +120,22 @@ async function createWindow() {
 
 function createContextMenu(win, params) {
   const hasSelection = Boolean(params.selectionText?.trim());
-  const isEditable   = Boolean(params.isEditable);
+  const isEditable = Boolean(params.isEditable);
 
   const template = [
     ...(isEditable
       ? [
-        { label: 'Deshacer',         role: 'undo' },
-        { label: 'Rehacer',          role: 'redo' },
+        { label: 'Deshacer', role: 'undo' },
+        { label: 'Rehacer', role: 'redo' },
         { type: 'separator' },
-        { label: 'Cortar',           role: 'cut' },
-        { label: 'Copiar',           role: 'copy', enabled: hasSelection },
-        { label: 'Pegar',            role: 'paste' },
+        { label: 'Cortar', role: 'cut' },
+        { label: 'Copiar', role: 'copy', enabled: hasSelection },
+        { label: 'Pegar', role: 'paste' },
         { type: 'separator' },
         { label: 'Seleccionar todo', role: 'selectAll' },
       ]
       : [
-        { label: 'Copiar',   role: 'copy', enabled: hasSelection },
+        { label: 'Copiar', role: 'copy', enabled: hasSelection },
         { type: 'separator' },
         { label: 'Recargar', role: 'reload' },
       ]),
@@ -103,7 +143,7 @@ function createContextMenu(win, params) {
       ? [
         { type: 'separator' },
         { label: 'Abrir enlace en navegador', click: () => shell.openExternal(params.linkURL) },
-        { label: 'Copiar enlace',             click: () => clipboard.writeText(params.linkURL) },
+        { label: 'Copiar enlace', click: () => clipboard.writeText(params.linkURL) },
       ]
       : []),
     ...(isDev
@@ -129,23 +169,23 @@ function buildMenu() {
     {
       label: 'Editar',
       submenu: [
-        { label: 'Deshacer',         role: 'undo',      accelerator: 'CmdOrCtrl+Z' },
-        { label: 'Rehacer',          role: 'redo',      accelerator: 'CmdOrCtrl+Shift+Z' },
+        { label: 'Deshacer', role: 'undo', accelerator: 'CmdOrCtrl+Z' },
+        { label: 'Rehacer', role: 'redo', accelerator: 'CmdOrCtrl+Shift+Z' },
         { type: 'separator' },
-        { label: 'Cortar',           role: 'cut',       accelerator: 'CmdOrCtrl+X' },
-        { label: 'Copiar',           role: 'copy',      accelerator: 'CmdOrCtrl+C' },
-        { label: 'Pegar',            role: 'paste',     accelerator: 'CmdOrCtrl+V' },
+        { label: 'Cortar', role: 'cut', accelerator: 'CmdOrCtrl+X' },
+        { label: 'Copiar', role: 'copy', accelerator: 'CmdOrCtrl+C' },
+        { label: 'Pegar', role: 'paste', accelerator: 'CmdOrCtrl+V' },
         { label: 'Seleccionar todo', role: 'selectAll', accelerator: 'CmdOrCtrl+A' },
       ],
     },
     {
       label: 'Ver',
       submenu: [
-        { label: 'Recargar',          role: 'reload',           accelerator: 'CmdOrCtrl+R' },
+        { label: 'Recargar', role: 'reload', accelerator: 'CmdOrCtrl+R' },
         { type: 'separator' },
-        { label: 'Acercar',           role: 'zoomIn',           accelerator: 'CmdOrCtrl+=' },
-        { label: 'Alejar',            role: 'zoomOut',          accelerator: 'CmdOrCtrl+-' },
-        { label: 'Tamaño real',       role: 'resetZoom',        accelerator: 'CmdOrCtrl+0' },
+        { label: 'Acercar', role: 'zoomIn', accelerator: 'CmdOrCtrl+=' },
+        { label: 'Alejar', role: 'zoomOut', accelerator: 'CmdOrCtrl+-' },
+        { label: 'Tamaño real', role: 'resetZoom', accelerator: 'CmdOrCtrl+0' },
         { type: 'separator' },
         { label: 'Pantalla completa', role: 'togglefullscreen', accelerator: 'F11' },
         ...(isDev
@@ -177,6 +217,19 @@ app.whenReady().then(async () => {
     app.setAppUserModelId('uy.guyunusa.desktop');
   }
 
+  app.on('child-process-gone', (_event, details) => {
+    if (details?.type === 'GPU') {
+      gpuProcessCrashed = true;
+      saveGpuState({
+        disableHardwareAcceleration: true,
+        reason: details?.reason ?? 'unknown',
+        updatedAt: new Date().toISOString(),
+      });
+
+      console.warn('[GPU] Proceso GPU finalizado. Se activará modo seguro en próximos inicios.', details);
+    }
+  });
+
   buildMenu();
   await createWindow();
 
@@ -190,4 +243,14 @@ app.whenReady().then(async () => {
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
+});
+
+app.on('before-quit', () => {
+  if (forceGpu && !gpuProcessCrashed) {
+    saveGpuState({
+      disableHardwareAcceleration: false,
+      reason: 'manual-force-gpu-success',
+      updatedAt: new Date().toISOString(),
+    });
+  }
 });
