@@ -1,15 +1,16 @@
-import { $ }               from '../utils/dom.js';
-import { EventBus }         from '../modules/eventBus.js';
-import { t }                from '../modules/i18n.js';
-import { uploadChatFile }   from '../services/api.js';
+import { $ } from '../utils/dom.js';
+import { EventBus } from '../modules/eventBus.js';
+import { t } from '../modules/i18n.js';
+import { uploadChatFile } from '../services/api.js';
+import { Platform } from '../modules/native.js';
 
 // Evita instancias STT huérfanas cuando renderInputBar se llama varias veces
-let _sttReset   = () => {};
-let _sttDestroy = () => {};
+let _sttReset = () => { };
+let _sttDestroy = () => { };
 
 /** Archivo adjunto actual: null o { filename, content, size, lines, truncated } */
-let _attachedFile   = null;
-let _uploadAbort    = null; // AbortController para cancelar upload si se quita el archivo
+let _attachedFile = null;
+let _uploadAbort = null; // AbortController para cancelar upload si se quita el archivo
 
 /** Devuelve el archivo actualmente adjunto, o null */
 export function getAttachedFile() { return _attachedFile; }
@@ -19,9 +20,9 @@ export function clearAttachedFile() {
   _attachedFile = null;
   _uploadAbort?.abort();
   _uploadAbort = null;
-  const row     = document.getElementById('file-row');
-  const input   = document.getElementById('file-input');
-  if (row)   row.hidden = true;
+  const row = document.getElementById('file-row');
+  const input = document.getElementById('file-input');
+  if (row) row.hidden = true;
   if (input) input.value = '';
 }
 
@@ -94,11 +95,11 @@ export function renderInputBar(store) {
     <div class="c-input-bar__hint">${tr?.chat?.hint || 'Enter para enviar · Shift+Enter para nueva línea'}</div>
   `;
 
-  const textarea   = $('#chat-input');
-  const sendBtn    = $('#btn-send');
-  const micBtn     = $('#btn-mic');
-  const attachBtn  = $('#btn-attach');
-  const fileInput  = $('#file-input');
+  const textarea = $('#chat-input');
+  const sendBtn = $('#btn-send');
+  const micBtn = $('#btn-mic');
+  const attachBtn = $('#btn-attach');
+  const fileInput = $('#file-input');
 
   // ── Textarea autosize + enable/disable send ──
   textarea.addEventListener('input', () => {
@@ -132,7 +133,7 @@ export function renderInputBar(store) {
 
   // ── STT ──
   const stt = initSTT(textarea, sendBtn, micBtn);
-  _sttReset   = stt.resetBuffer;
+  _sttReset = stt.resetBuffer;
   _sttDestroy = stt.destroy;
 
   function doSend() {
@@ -155,19 +156,19 @@ export function renderInputBar(store) {
 
   /* ── Manejo de archivo seleccionado ── */
   async function handleFileSelected(file) {
-    const row       = document.getElementById('file-row');
-    const chip      = document.getElementById('file-chip');
+    const row = document.getElementById('file-row');
+    const chip = document.getElementById('file-chip');
     const nameLabel = document.getElementById('file-name-label');
-    const metaEl    = document.getElementById('file-meta');
-    const iconEl    = document.getElementById('file-icon');
+    const metaEl = document.getElementById('file-meta');
+    const iconEl = document.getElementById('file-icon');
 
     // Mostrar chip en estado cargando
     _attachedFile = null;
-    row.hidden    = false;
+    row.hidden = false;
     chip.className = 'c-input-bar__file-chip c-input-bar__file-chip--loading';
-    iconEl.innerHTML  = iconSpinner();
+    iconEl.innerHTML = iconSpinner();
     nameLabel.textContent = file.name;
-    metaEl.textContent    = 'procesando…';
+    metaEl.textContent = 'procesando…';
     updateSendBtn();
 
     _uploadAbort = new AbortController();
@@ -176,18 +177,18 @@ export function renderInputBar(store) {
       const result = await uploadChatFile(file, _uploadAbort.signal);
       _attachedFile = result;
 
-      chip.className    = 'c-input-bar__file-chip c-input-bar__file-chip--ready';
-      iconEl.innerHTML  = iconFile();
+      chip.className = 'c-input-bar__file-chip c-input-bar__file-chip--ready';
+      iconEl.innerHTML = iconFile();
       nameLabel.textContent = result.filename;
-      metaEl.textContent    = formatFileInfo(result);
+      metaEl.textContent = formatFileInfo(result);
     } catch (err) {
       if (err.name === 'AbortError') return; // usuario quitó el archivo
 
       _attachedFile = null;
-      chip.className    = 'c-input-bar__file-chip c-input-bar__file-chip--error';
-      iconEl.innerHTML  = iconFileError();
+      chip.className = 'c-input-bar__file-chip c-input-bar__file-chip--error';
+      iconEl.innerHTML = iconFileError();
       nameLabel.textContent = file.name;
-      metaEl.textContent    = 'Error al procesar';
+      metaEl.textContent = 'Error al procesar';
       showFileError(err.message || 'No se pudo procesar el archivo');
     } finally {
       _uploadAbort = null;
@@ -198,7 +199,7 @@ export function renderInputBar(store) {
 
 function formatFileInfo(result) {
   const kb = Math.round(result.size / 1024);
-  const sizeStr = kb > 1024 ? `${(kb/1024).toFixed(1)} MB` : `${kb} KB`;
+  const sizeStr = kb > 1024 ? `${(kb / 1024).toFixed(1)} MB` : `${kb} KB`;
   const lineStr = result.lines > 1 ? ` · ${result.lines} líneas` : '';
   const truncStr = result.truncated ? ' · truncado' : '';
   return `${sizeStr}${lineStr}${truncStr}`;
@@ -225,8 +226,24 @@ function initSTT(textarea, sendBtn, micBtn) {
     window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if (!SpeechRecognition) {
+    // En mobile app/Electron mostramos feedback explícito en vez de ocultar botón.
+    if (Platform.isCapacitor || Platform.isElectron) {
+      const unavailableClick = () => {
+        showFileError('Dictado por voz no disponible en este entorno todavía. Probá escribir el mensaje o usar navegador móvil Chrome.');
+      };
+
+      micBtn.addEventListener('click', unavailableClick);
+      micBtn.title = 'Dictado no disponible en este entorno';
+      micBtn.setAttribute('aria-label', 'Dictado no disponible');
+      micBtn.classList.add('c-input-bar__mic--disabled');
+      return {
+        resetBuffer: () => { },
+        destroy: () => micBtn.removeEventListener('click', unavailableClick),
+      };
+    }
+
     micBtn.style.display = 'none';
-    return { resetBuffer: () => {}, destroy: () => {} };
+    return { resetBuffer: () => { }, destroy: () => { } };
   }
 
   const recognition = new SpeechRecognition();
@@ -234,16 +251,16 @@ function initSTT(textarea, sendBtn, micBtn) {
 
   const ua = navigator.userAgent || '';
   const isAndroidChrome = /Android/i.test(ua) && /Chrome/i.test(ua);
-  recognition.continuous    = !isAndroidChrome;
+  recognition.continuous = !isAndroidChrome;
   recognition.interimResults = true;
   recognition.maxAlternatives = 1;
 
   let isListening = false;
   let userStopped = false;
-  let savedText   = '';
-  let finalText   = '';
+  let savedText = '';
+  let finalText = '';
   let lastFinalNorm = '';
-  let lastFinalAt   = 0;
+  let lastFinalAt = 0;
 
   const normalize = (s) => (s || '').toLowerCase().replace(/\s+/g, ' ').trim();
 
@@ -265,11 +282,30 @@ function initSTT(textarea, sendBtn, micBtn) {
   recognition.addEventListener('end', onEnd);
   recognition.addEventListener('error', onError);
 
-  function onMicClick() {
+  async function ensureMicrophonePermission() {
+    if (!navigator?.mediaDevices?.getUserMedia) return true;
+
+    let stream;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      return true;
+    } finally {
+      stream?.getTracks?.().forEach(t => t.stop());
+    }
+  }
+
+  async function onMicClick() {
     if (isListening) {
       userStopped = true;
       recognition.stop();
     } else {
+      try {
+        await ensureMicrophonePermission();
+      } catch {
+        showFileError('No se pudo acceder al micrófono. Revisá permisos del sistema y de la app.');
+        return;
+      }
+
       savedText = textarea.value.trim();
       finalText = ''; lastFinalNorm = ''; lastFinalAt = 0;
       userStopped = false;
@@ -285,7 +321,7 @@ function initSTT(textarea, sendBtn, micBtn) {
       if (!transcript) continue;
       if (e.results[i].isFinal) {
         const norm = normalize(transcript);
-        const now  = Date.now();
+        const now = Date.now();
         const isDup = norm && norm === lastFinalNorm && (now - lastFinalAt) < 4000;
         if (!isDup) { finalText += transcript + ' '; lastFinalNorm = norm; lastFinalAt = now; }
       } else {
@@ -360,8 +396,8 @@ let _savedOriginalText = '';
 
 export function setInputLoading(loading, onStop = null, originalText = '') {
   const textarea = $('#chat-input');
-  const sendBtn  = $('#btn-send');
-  const micBtn   = $('#btn-mic');
+  const sendBtn = $('#btn-send');
+  const micBtn = $('#btn-mic');
   const attachBtn = $('#btn-attach');
   if (!textarea || !sendBtn) return;
 
@@ -373,14 +409,14 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
     textarea.disabled = true;
     textarea.placeholder = tr?.chat?.placeholderLoad || 'Guyunusa está escribiendo...';
 
-    sendBtn.disabled  = false;
+    sendBtn.disabled = false;
     sendBtn.className = 'c-input-bar__stop';
     sendBtn.title = 'Detener respuesta';
     sendBtn.setAttribute('aria-label', 'Detener');
     sendBtn.innerHTML = iconStop();
     sendBtn.onclick = () => { if (onStop) onStop(); };
 
-    if (micBtn)    micBtn.disabled    = true;
+    if (micBtn) micBtn.disabled = true;
     if (attachBtn) attachBtn.disabled = true;
 
   } else {
@@ -389,20 +425,20 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
     _savedOriginalText = '';
 
     textarea.disabled = false;
-    textarea.value    = origText;
+    textarea.value = origText;
     textarea.placeholder = tr?.chat?.placeholder || 'Escribí tu mensaje...';
     textarea.style.height = 'auto';
     if (origText) textarea.style.height = Math.min(textarea.scrollHeight, 160) + 'px';
     setTimeout(() => textarea.focus(), 50);
 
     sendBtn.className = 'c-input-bar__send';
-    sendBtn.title     = tr?.chat?.hint || 'Enter para enviar';
+    sendBtn.title = tr?.chat?.hint || 'Enter para enviar';
     sendBtn.setAttribute('aria-label', 'Enviar');
     sendBtn.innerHTML = iconSend();
-    sendBtn.disabled  = !origText.trim() && !_attachedFile;
-    sendBtn.onclick   = null;
+    sendBtn.disabled = !origText.trim() && !_attachedFile;
+    sendBtn.onclick = null;
 
-    if (micBtn)    micBtn.disabled    = false;
+    if (micBtn) micBtn.disabled = false;
     if (attachBtn) attachBtn.disabled = false;
   }
 }

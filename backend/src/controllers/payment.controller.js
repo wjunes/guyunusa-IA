@@ -98,24 +98,29 @@ export async function mpWebhook(req, res) {
   // Responder rápido a MP (requiere 200 en < 2s)
   res.status(200).json({ ok: true });
 
-  if (!verifyWebhookSignature(req)) {
-    logger.warn('MP webhook: firma inválida — ignorando notificación');
+  logger.info(`MP webhook recibido: type=${req.body?.type} action=${req.body?.action} data.id=${req.body?.data?.id}`);
+
+  // Verificar firma solo si hay secret configurado
+  if (process.env.MP_WEBHOOK_SECRET && !verifyWebhookSignature(req)) {
+    logger.warn('MP webhook: firma inválida — ignorando');
     return;
   }
 
-  const { type, data } = req.body;
-  if (type !== 'payment') return;
+  const { type, data, action } = req.body;
+
+  // MP envía type='payment' o action='payment.created' / 'payment.updated'
+  if (type !== 'payment' && !action?.startsWith('payment.')) return;
 
   const paymentId = data?.id;
-  if (!paymentId) return;
+  if (!paymentId) { logger.warn('MP webhook: sin payment id'); return; }
 
   try {
     const payment = await getMPPayment(paymentId);
     const [userIdStr, billing] = (payment.external_reference || '').split(':');
     const userId = Number(userIdStr);
-    const status = payment.status; // approved | rejected | pending | ...
+    const status = payment.status;
 
-    logger.info(`MP webhook: payment_id=${paymentId} status=${status} user=${userId}`);
+    logger.info(`MP webhook procesado: payment_id=${paymentId} status=${status} user=${userId} billing=${billing || 'monthly'}`);
 
     if (status === 'approved' && userId) {
       await activatePro(userId, 'mercadopago', String(paymentId), billing || 'monthly');
@@ -223,9 +228,33 @@ export async function paymentStatus(req, res) {
     const db = getDB();
     const user = await db.prepare('SELECT plan FROM users WHERE id = ?').get(req.user.id);
     const last = await db.prepare(
-      `SELECT provider, status, amount, currency, created_at
+      `SELECT provider, status, amount, currency, preference_id, external_id, created_at
        FROM payments WHERE user_id = ? ORDER BY id DESC LIMIT 1`
     ).get(req.user.id);
+
+    // Si hay un pago pendiente de MP, verificar si ya fue aprobado
+    if (last && last.status === 'pending' && last.provider === 'mercadopago' && last.preference_id) {
+      try {
+        // Buscar pagos asociados a esta preferencia en MP
+        const searchRes = await fetch(
+          `https://api.mercadopago.com/v1/payments/search?external_reference=${req.user.id}`,
+          { headers: { 'Authorization': `Bearer ${process.env.MP_ACCESS_TOKEN}` },
+            signal: AbortSignal.timeout(8000) }
+        );
+        if (searchRes.ok) {
+          const searchData = await searchRes.json();
+          const approved = searchData.results?.find(p => p.status === 'approved');
+          if (approved) {
+            const [, billing] = (approved.external_reference || '').split(':');
+            await activatePro(req.user.id, 'mercadopago', String(approved.id), billing || 'monthly');
+            logger.info(`[paymentStatus] Activación tardía: user=${req.user.id} payment=${approved.id}`);
+            return res.json({ ok: true, plan: 'pro', lastPayment: last, activated: true });
+          }
+        }
+      } catch (err) {
+        logger.warn(`[paymentStatus] Error verificando pago pendiente: ${err.message}`);
+      }
+    }
 
     return res.json({ ok: true, plan: user?.plan || 'free', lastPayment: last || null });
   } catch (err) {

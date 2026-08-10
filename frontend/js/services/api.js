@@ -8,7 +8,7 @@ function getBaseURL() {
   if (override) return override + '/api/v1';
 
   if (Platform.isCapacitor) return 'https://guyunusa.uy/api/v1';
-  if (Platform.isElectron)  return 'http://localhost:3000/api/v1';
+  if (Platform.isElectron) return 'http://localhost:3000/api/v1';
 
   // Desarrollo web: cualquier puerto distinto al 3000 apunta al backend
   const port = window.location.port;
@@ -28,7 +28,7 @@ function getBaseURL() {
 export function getAssetURL(path) {
   if (!path) return '';
   if (Platform.isCapacitor) return `https://guyunusa.uy${path}`;
-  if (Platform.isElectron)  return `http://localhost:3000${path}`;
+  if (Platform.isElectron) return `http://localhost:3000${path}`;
 
   const port = window.location.port;
   if (port && port !== '3000') {
@@ -44,7 +44,7 @@ function getToken() {
 
 async function request(method, path, body = null) {
   const headers = { 'Content-Type': 'application/json' };
-  const token   = getToken();
+  const token = getToken();
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
   let res;
@@ -52,7 +52,7 @@ async function request(method, path, body = null) {
     res = await fetch(`${getBaseURL()}${path}`, {
       method,
       headers,
-      body:   body ? JSON.stringify(body) : null,
+      body: body ? JSON.stringify(body) : null,
       signal: AbortSignal.timeout(20_000),
     });
   } catch (err) {
@@ -79,9 +79,9 @@ async function request(method, path, body = null) {
 }
 
 export const api = {
-  get:    (path)       => request('GET',    path),
-  post:   (path, body) => request('POST',   path, body),
-  put:    (path, body) => request('PUT',    path, body),
+  get: (path) => request('GET', path),
+  post: (path, body) => request('POST', path, body),
+  put: (path, body) => request('PUT', path, body),
   delete: (path, body) => request('DELETE', path, body),
 };
 
@@ -93,24 +93,56 @@ export const api = {
  * @returns {{ filename, content, size, lines, truncated, method }}
  */
 export async function uploadChatFile(file, signal = null) {
-  const form  = new FormData();
+  const form = new FormData();
   form.append('file', file);
 
   const token = getToken();
   const headers = {};
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
-  let res;
-  try {
-    res = await fetch(`${getBaseURL()}/chat/file`, {
+  const timeoutMs = Platform.isElectron ? 120_000 : 45_000;
+
+  async function doUpload(requestSignal) {
+    const options = {
       method: 'POST',
       headers,
-      body:   form,
-      signal: signal || AbortSignal.timeout(30_000),
-    });
+      body: form,
+    };
+    if (requestSignal) options.signal = requestSignal;
+    return fetch(`${getBaseURL()}/chat/file`, options);
+  }
+
+  function isRecoverableElectronUploadError(err) {
+    if (!Platform.isElectron) return false;
+    if (!err) return false;
+    const msg = String(err.message || '');
+    return err.name === 'TypeError' || /ERR_FAILED|Failed to fetch|NetworkError/i.test(msg);
+  }
+
+  let res;
+  try {
+    const timeoutSignal = AbortSignal.timeout(timeoutMs);
+    const requestSignal = signal && typeof AbortSignal.any === 'function'
+      ? AbortSignal.any([signal, timeoutSignal])
+      : (signal || timeoutSignal);
+
+    res = await doUpload(requestSignal);
   } catch (err) {
     if (err.name === 'AbortError') throw err;
-    throw new Error('No se pudo conectar con el servidor para subir el archivo.');
+
+    if (!isRecoverableElectronUploadError(err)) {
+      throw new Error('No se pudo conectar con el servidor para subir el archivo.');
+    }
+
+    // Reintento único para fallos intermitentes de stream chunked en Electron/Chromium.
+    await new Promise(resolve => setTimeout(resolve, 250));
+
+    try {
+      res = await doUpload(signal || null);
+    } catch (retryErr) {
+      if (retryErr.name === 'AbortError') throw retryErr;
+      throw new Error('No se pudo subir el archivo. Intentá nuevamente.');
+    }
   }
 
   let data;

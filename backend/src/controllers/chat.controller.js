@@ -5,6 +5,7 @@ import {
 } from '../services/ai.service.js';
 import { extractText } from '../services/fileExtractor.service.js';
 import { buildKnowledgeContext } from '../services/knowledge.service.js';
+import { buildWebContext, isWebSearchQuery } from '../services/websearch.service.js';
 import { recordUsage, checkQuota, getDailyUsage,
          estimateTokens, estimateMessagesTokens } from '../services/usage.service.js';
 import { unlink } from 'fs/promises';
@@ -123,8 +124,28 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       logger.warn(`Knowledge retriever: ${err.message}`);
     }
 
+    // ── Búsqueda web: si el RAG no tiene resultados Y la consulta lo amerita ──
+    let webContext = '';
+    if (!knowledgeContext && isWebSearchQuery(content)) {
+      try {
+        const web = await buildWebContext(content, { count: 5, freshness: true });
+        if (web) {
+          webContext =
+            `\n\n## Información de la web (búsqueda en tiempo real)\n` +
+            `Encontré estos resultados actuales en la web. Usalos para dar una respuesta ` +
+            `informada y actualizada. Podés mencionar las fuentes de forma natural ` +
+            `(por ejemplo: "según [fuente]..."). No copies textualmente — resumí ` +
+            `y respondé con tu estilo.\n` +
+            web.context;
+          logger.info(`Web search inyectado: ${web.sources.length} resultados`);
+        }
+      } catch (err) {
+        logger.warn(`Web search: ${err.message}`);
+      }
+    }
+
     // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
-    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext;
+    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext;
     const systemTokens  = estimateTokens(systemContent);
     const maxCtxTokens  = config.maxContextTokens || 12_000;
     const budgetForHistory = maxCtxTokens - systemTokens;

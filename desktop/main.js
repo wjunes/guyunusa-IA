@@ -23,6 +23,14 @@ const isDev = process.argv.includes('--dev');
 const forceGpu = process.argv.includes('--force-gpu');
 
 let mainWindow;
+
+// ── Flags de Chromium para Web Speech API (STT) ──
+// El SpeechRecognition de Chromium requiere acceso al servicio de
+// reconocimiento de voz de Google. Estos flags aseguran que el
+// stream de audio no se interrumpa en Electron.
+app.commandLine.appendSwitch('enable-features', 'WebSpeechAPI');
+app.commandLine.appendSwitch('enable-speech-input');
+app.commandLine.appendSwitch('disable-features', 'HardwareMediaKeyHandling');
 let gpuProcessCrashed = false;
 
 // ── Estado persistente de GPU (Windows fixes) ───────────────────────────────
@@ -78,21 +86,29 @@ async function createWindow() {
       preload: join(__dirname, 'preload.js'),
       contextIsolation: true,
       nodeIntegration: false,
-      sandbox: true,
+      sandbox: false,
     },
     autoHideMenuBar: false,
   });
 
   // Permisos: micrófono y cámara (necesarios para funciones de voz)
   session.defaultSession.setPermissionRequestHandler((_webContents, permission, callback) => {
-    const allowed = ['media', 'audioCapture', 'microphone'];
+    const allowed = ['media', 'audioCapture', 'microphone', 'mediaKeySystem'];
     callback(allowed.includes(permission));
   });
 
   session.defaultSession.setPermissionCheckHandler((_webContents, permission) => {
-    const allowed = ['media', 'audioCapture', 'microphone'];
+    const allowed = ['media', 'audioCapture', 'microphone', 'mediaKeySystem'];
     return allowed.includes(permission);
   });
+
+  // Permitir conexiones a Google Speech API (necesario para Web Speech Recognition)
+  session.defaultSession.webRequest.onBeforeSendHeaders(
+    { urls: ['https://*.google.com/*', 'https://*.googleapis.com/*'] },
+    (details, callback) => {
+      callback({ requestHeaders: details.requestHeaders });
+    }
+  );
 
   await mainWindow.loadURL(`${APP_URL}?electron=1`);
 
