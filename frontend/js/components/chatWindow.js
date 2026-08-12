@@ -98,15 +98,24 @@ export function createStreamBubble() {
 export function appendStreamChunk(ref, text, buffer) {
   if (!ref?.bubbleEl) return buffer + text;
   const newBuf = buffer + text;
-  ref.bubbleEl.innerHTML = parseMarkdown(newBuf) + '<span class="c-stream-cursor"></span>';
+  try {
+    ref.bubbleEl.innerHTML = parseMarkdown(newBuf) + '<span class="c-stream-cursor"></span>';
+  } catch {
+    ref.bubbleEl.textContent = newBuf;
+  }
   scrollToBottom($('#messages-list'));
   return newBuf;
 }
 
-/** Finaliza el stream — quita cursor, agrega meta (hora + copiar). */
+/** Finaliza el stream — cierra markdown abierto, quita cursor, agrega meta. */
 export function finalizeStream(ref, buffer) {
   if (!ref?.bubbleEl) return;
-  ref.bubbleEl.innerHTML = parseMarkdown(buffer);
+  try {
+    const cleaned = closeOpenMarkdown(buffer);
+    ref.bubbleEl.innerHTML = parseMarkdown(cleaned);
+  } catch {
+    ref.bubbleEl.textContent = buffer;
+  }
   highlightCodeBlocks(ref.bubbleEl);
 
   if (ref.bodyEl) {
@@ -184,4 +193,23 @@ function renderEmpty(tr) {
 }
 function escHTML(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/**
+ * closeOpenMarkdown — Cierra estructuras markdown que quedaron abiertas
+ * cuando el stream se cortó (timeout, stop, error).
+ * Solo se aplica en finalizeStream, no durante el streaming.
+ */
+function closeOpenMarkdown(text) {
+  let result = text;
+
+  // Bloques de código (```) — contar y cerrar si impar
+  const codeBlocks = (result.match(/```/g) || []).length;
+  if (codeBlocks % 2 !== 0) result += '\n```';
+
+  // Negritas (**) — contar y cerrar si impar
+  const bold = (result.match(/\*\*/g) || []).length;
+  if (bold % 2 !== 0) result += '**';
+
+  return result;
 }

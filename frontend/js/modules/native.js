@@ -183,23 +183,22 @@ export async function initAppLifecycle({ onPause, onResume, onBack } = {}) {
     if (onPause)  App.addListener('pause',  onPause);
     if (onResume) App.addListener('resume', onResume);
 
-    // Botón "atrás" de Android — jerarquía de cierre:
-    // 1. Si hay un modal/overlay abierto → cerrarlo
-    // 2. Si el drawer del sidebar está abierto → cerrarlo
-    // 3. Si hay un callback custom que maneja el back → delegarle
-    // 4. Si no hay nada que cerrar → salir de la app
-    App.addListener('backButton', () => {
-      // 1. Modales / overlays abiertos
+    // Botón "atrás" de Android
+    // El listener de Capacitor intercepta ANTES que el WebView.
+    // Nosotros manejamos toda la lógica — el WebView NO navega su historial.
+    App.addListener('backButton', ({ canGoBack }) => {
+      // 1. Modales / overlays abiertos → cerrar
       const overlay = document.querySelector(
         '.c-modal-overlay, .c-share-modal, #download-modal-overlay, ' +
-        '#avatar-crop-overlay, #share-modal-overlay'
+        '#avatar-crop-overlay, #share-modal-overlay, #quota-modal-overlay, ' +
+        '#terms-modal-overlay, #payment-modal-overlay, #pw-toast'
       );
       if (overlay) {
         overlay.remove();
         return;
       }
 
-      // 2. Drawer del sidebar abierto (mobile)
+      // 2. Drawer del sidebar abierto (mobile) → cerrar
       const sidebar = document.getElementById('o-sidebar');
       if (sidebar?.classList.contains('o-sidebar--open')) {
         const toggle = document.getElementById('o-sidebar-toggle');
@@ -207,11 +206,20 @@ export async function initAppLifecycle({ onPause, onResume, onBack } = {}) {
         return;
       }
 
-      // 3. Callback custom (ej: si estás en settings, volver al chat)
-      if (onBack && onBack()) return;
+      // 3. Si estamos en subruta (settings, etc.) → ir al chat
+      const hash = (window.location.hash || '#/').replace('#', '');
+      if (hash !== '/' && hash !== '') {
+        window.location.hash = '/';
+        return;
+      }
 
-      // 4. Nada que cerrar → salir de la app
-      App.exitApp();
+      // 4. Estamos en el chat → minimizar la app (segundo plano)
+      try {
+        App.minimizeApp();
+      } catch {
+        // Si minimizeApp no está disponible, no hacer nada
+        // (no llamar exitApp — no queremos cerrar la app)
+      }
     });
   } catch { /* silencioso */ }
 }

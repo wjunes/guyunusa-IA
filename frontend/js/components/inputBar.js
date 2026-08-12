@@ -70,7 +70,11 @@ export function renderInputBar(store) {
           id="chat-input"
           placeholder="${tr?.chat?.placeholder || 'Escribí tu mensaje...'}"
           rows="1"
-          autocomplete="off"
+          autocomplete="on"
+          autocapitalize="sentences"
+          autocorrect="on"
+          spellcheck="true"
+          inputmode="text"
         ></textarea>
 
         <!-- Botón adjuntar archivo -->

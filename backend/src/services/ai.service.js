@@ -15,17 +15,17 @@ const { AI_PROVIDERS, getPlanConfig } = constants;
 const PROVIDERS = {
   [AI_PROVIDERS.OPENROUTER]: {
     baseURL: process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
-    apiKey:  process.env.OPENROUTER_API_KEY,
-    model:   process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
+    apiKey: process.env.OPENROUTER_API_KEY,
+    model: process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
     headers: {
       'HTTP-Referer': 'https://guyunusa.uy',
-      'X-Title':      'Guyunusa',
+      'X-Title': 'Guyunusa',
     },
   },
   [AI_PROVIDERS.DEEPSEEK]: {
     baseURL: process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
-    apiKey:  process.env.DEEPSEEK_API_KEY,
-    model:   process.env.DEEPSEEK_MODEL   || 'deepseek-v4-pro',
+    apiKey: process.env.DEEPSEEK_API_KEY,
+    model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
     headers: {},
   },
 };
@@ -52,11 +52,11 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
   const connectionTimeout = config.connectionTimeoutMs || 15_000;
 
   const body = {
-    model:      provider.model,
+    model: provider.model,
     messages,
     stream,
-    temperature: config.temperature || 0.8,
-    max_tokens:  config.maxOutputTokens || 2048,
+    temperature: config.temperature ?? 0.6,
+    max_tokens: config.maxOutputTokens ?? 2048,
   };
 
   // DeepSeek soporta stream_options para devolver usage en streaming
@@ -67,7 +67,7 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
   const response = await fetch(`${provider.baseURL}/chat/completions`, {
     method: 'POST',
     headers: {
-      'Content-Type':  'application/json',
+      'Content-Type': 'application/json',
       'Authorization': `Bearer ${provider.apiKey}`,
       ...provider.headers,
     },
@@ -95,18 +95,18 @@ export async function chat(messages, planConfig = null) {
     try {
       logger.info(`Intentando proveedor: ${providerKey}`);
       const response = await callProvider(providerKey, messages, false, planConfig);
-      const data     = await response.json();
-      const content  = data.choices?.[0]?.message?.content ?? '';
-      const usage    = data.usage || {};
+      const data = await response.json();
+      const content = data.choices?.[0]?.message?.content ?? '';
+      const usage = data.usage || {};
 
       logger.info(`Respuesta OK desde ${providerKey} (${usage.total_tokens ?? 0} tokens)`);
       return {
         content,
-        provider:         providerKey,
-        tokens:           usage.total_tokens ?? 0,
-        promptTokens:     usage.prompt_tokens ?? 0,
+        provider: providerKey,
+        tokens: usage.total_tokens ?? 0,
+        promptTokens: usage.prompt_tokens ?? 0,
         completionTokens: usage.completion_tokens ?? 0,
-        finishReason:     data.choices?.[0]?.finish_reason ?? 'stop',
+        finishReason: data.choices?.[0]?.finish_reason ?? 'stop',
       };
     } catch (err) {
       logger.warn(`Proveedor ${providerKey} falló: ${err.message}`);

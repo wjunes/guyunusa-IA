@@ -93,8 +93,15 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       'INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)'
     ).run(convId, 'user', content);
 
+    // ── Detectar tipo de consulta (necesario antes del historial) ──
+    const needsWebSearch = isWebSearchQuery(content);
+    const isShortQuery   = content.trim().split(/\s+/).length <= 8;
+    const isCasualChat   = /^(hola|buenas|chau|gracias|ok|dale|genial|perfecto|sí|no|ta|bien)\b/i
+                           .test(content.trim());
+
     // ── Fase 5: Historial limitado por plan ──
-    const maxHistory = config.maxHistoryMessages || 10;
+    // Consultas cortas/casuales: menos historial = menos latencia
+    const maxHistory = isCasualChat ? 4 : (isShortQuery ? 6 : (config.maxHistoryMessages || 10));
     const historyRows = await db.prepare(
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
@@ -108,27 +115,32 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
 
     // ── RAG: buscar conocimiento uruguayo relevante ──
     let knowledgeContext = '';
-    try {
-      const kb = buildKnowledgeContext(content, { maxDocs: 4, maxChars: 12000 });
-      if (kb) {
-        knowledgeContext =
-          `\n\n## Base de conocimiento uruguayo\n` +
-          `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
-          `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
-          `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
-          `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
-          kb.context;
-        logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
+    if (!needsWebSearch && !isCasualChat) {
+      try {
+        // Consultas cortas: menos docs para reducir latencia
+        const maxDocs  = isShortQuery ? 2 : 4;
+        const maxChars = isShortQuery ? 5000 : 12000;
+        const kb = buildKnowledgeContext(content, { maxDocs, maxChars });
+        if (kb) {
+          knowledgeContext =
+            `\n\n## Base de conocimiento uruguayo\n` +
+            `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
+            `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
+            `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
+            `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
+            kb.context;
+          logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
+        }
+      } catch (err) {
+        logger.warn(`Knowledge retriever: ${err.message}`);
       }
-    } catch (err) {
-      logger.warn(`Knowledge retriever: ${err.message}`);
     }
 
-    // ── Búsqueda web: si el RAG no tiene resultados Y la consulta lo amerita ──
+    // ── Búsqueda web: temas globales, actuales o explícitamente solicitados ──
     let webContext = '';
-    if (!knowledgeContext && isWebSearchQuery(content)) {
+    if (needsWebSearch) {
       try {
-        const web = await buildWebContext(content, { count: 5, freshness: true });
+        const web = await buildWebContext(content, { count: 5 });
         if (web) {
           webContext =
             `\n\n## Información de la web (búsqueda en tiempo real)\n` +
@@ -259,17 +271,24 @@ export async function sendMessage(req, res) {
 async function readStream(response, send) {
   const reader  = response.body.getReader();
   const decoder = new TextDecoder('utf-8');
-  let contentDelta    = '';
-  let finishReason    = 'stop';
-  let promptTokens    = 0;
+  let contentDelta     = '';
+  let finishReason     = 'stop';
+  let promptTokens     = 0;
   let completionTokens = 0;
+  let lineBuffer       = '';  // Buffer para líneas SSE incompletas
 
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
 
-    const chunk = decoder.decode(value, { stream: true });
-    for (const line of chunk.split('\n')) {
+    // Decodificar chunk con stream:true (maneja bytes UTF-8 partidos)
+    lineBuffer += decoder.decode(value, { stream: true });
+
+    // Separar en líneas completas — la última puede estar incompleta
+    const lines = lineBuffer.split('\n');
+    lineBuffer  = lines.pop() || '';  // Guardar línea incompleta para el próximo chunk
+
+    for (const line of lines) {
       if (!line.startsWith('data: ')) continue;
       const raw = line.slice(6).trim();
       if (raw === '[DONE]') continue;
@@ -287,9 +306,34 @@ async function readStream(response, send) {
           promptTokens     = parsed.usage.prompt_tokens     || 0;
           completionTokens = parsed.usage.completion_tokens || 0;
         }
+      } catch { /* línea JSON incompleta — se procesa en el próximo chunk */ }
+    }
+  }
+
+  // Procesar lo que quede en el buffer al cerrar el stream
+  if (lineBuffer.trim()) {
+    const raw = lineBuffer.startsWith('data: ') ? lineBuffer.slice(6).trim() : '';
+    if (raw && raw !== '[DONE]') {
+      try {
+        const parsed = JSON.parse(raw);
+        const delta  = parsed.choices?.[0]?.delta?.content;
+        if (delta) {
+          contentDelta += delta;
+          send('chunk', { text: delta });
+        }
+        const fr = parsed.choices?.[0]?.finish_reason;
+        if (fr) finishReason = fr;
+        if (parsed.usage) {
+          promptTokens     = parsed.usage.prompt_tokens     || 0;
+          completionTokens = parsed.usage.completion_tokens || 0;
+        }
       } catch { /* ignorar */ }
     }
   }
+
+  // Liberar bytes UTF-8 pendientes en el decoder
+  const remaining = decoder.decode();
+  if (remaining) lineBuffer += remaining;
 
   return { finishReason, contentDelta, promptTokens, completionTokens };
 }

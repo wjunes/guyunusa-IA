@@ -17,6 +17,21 @@
     background: transparent;
 }
 
+/* Aislar bloques de código de estilos del texto del chat */
+.c-chat__messages .c-message__bubble pre.c-code-block,
+.c-chat__messages .c-message__bubble pre.c-code-block code,
+.c-chat__messages .c-message__bubble pre.c-code-block .hljs,
+.c-chat__messages .c-message__bubble pre.c-code-block .hljs * {
+    font-family: var(--font-code);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: pre;
+    word-break: normal;
+    overflow-wrap: normal;
+    text-decoration: none;
+}
+
 /* Base HLJS */
 .c-chat__messages .hljs {
     color: #e6edf3;

@@ -40,7 +40,7 @@
       "keystoreAlias": "guyunusa"
     },
     "allowMixedContent":  false,
-    "captureInput":       true,
+  "captureInput":       false,
     "webContentsDebuggingEnabled": false
   }
 }

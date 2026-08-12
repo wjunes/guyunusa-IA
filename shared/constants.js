@@ -11,25 +11,25 @@
  */
 
 export const API_VERSION = 'v1';
-export const API_BASE    = `/api/${API_VERSION}`;
+export const API_BASE = `/api/${API_VERSION}`;
 
 /* ── Proveedores de IA ── */
 export const AI_PROVIDERS = {
   OPENROUTER: 'openrouter',
-  DEEPSEEK:   'deepseek',
+  DEEPSEEK: 'deepseek',
 };
 
 /* ── Roles de mensaje ── */
 export const MESSAGE_ROLES = {
-  USER:      'user',
+  USER: 'user',
   ASSISTANT: 'assistant',
-  SYSTEM:    'system',
+  SYSTEM: 'system',
 };
 
 /* ── Planes de usuario ── */
 export const USER_PLANS = {
   FREE: 'free',
-  PRO:  'pro',
+  PRO: 'pro',
   // INSTITUCIONAL: 'institucional',  // reservado para v3
 };
 
@@ -45,47 +45,47 @@ export const USER_PLANS = {
 export const PLAN_CONFIG = {
   free: {
     // Cuota diaria
-    dailyTokenLimit:       50_000,    // tokens totales (prompt + completion) por día
+    dailyTokenLimit: 50_000,    // tokens totales (prompt + completion) por día
 
     // Generación
-    maxOutputTokens:       2_048,     // tokens máximos de salida por respuesta
-    maxContextTokens:      12_000,    // tokens máximos de contexto (system + history + RAG)
+    maxOutputTokens: 2_048,     // tokens máximos de salida por respuesta
+    maxContextTokens: 12_000,    // tokens máximos de contexto (system + history + RAG)
 
     // Continuación automática
-    maxAutoContinuations:  2,         // máximo de continuaciones automáticas por respuesta
+    maxAutoContinuations: 2,         // máximo de continuaciones automáticas por respuesta
 
     // Historial de contexto
-    maxHistoryMessages:    10,        // mensajes recientes enviados como contexto
+    maxHistoryMessages: 10,        // mensajes recientes enviados como contexto
 
     // Streaming
-    streamTimeoutMs:       60_000,    // timeout máximo para streaming completo (60s)
-    connectionTimeoutMs:   30_000,    // timeout para establecer conexión con proveedor (30s)
+    streamTimeoutMs: 60_000,    // timeout máximo para streaming completo (60s)
+    connectionTimeoutMs: 30_000,    // timeout para establecer conexión con proveedor (30s)
 
     // Temperatura
-    temperature:           0.8,
+    temperature: 0.6,
   },
 
   pro: {
-    dailyTokenLimit:       500_000,
-    maxOutputTokens:       8_192,
-    maxContextTokens:      32_000,
-    maxAutoContinuations:  5,
-    maxHistoryMessages:    20,
-    streamTimeoutMs:       120_000,
-    connectionTimeoutMs:   30_000,
-    temperature:           0.8,
+    dailyTokenLimit: 500_000,
+    maxOutputTokens: 8_192,
+    maxContextTokens: 32_000,
+    maxAutoContinuations: 5,
+    maxHistoryMessages: 20,
+    streamTimeoutMs: 120_000,
+    connectionTimeoutMs: 30_000,
+    temperature: 0.6,
   },
 
   // ── Plan admin (uso ilimitado, sin cuota) ──
   admin: {
-    dailyTokenLimit:       Infinity,
-    maxOutputTokens:       8_192,
-    maxContextTokens:      32_000,
-    maxAutoContinuations:  10,
-    maxHistoryMessages:    30,
-    streamTimeoutMs:       180_000,
-    connectionTimeoutMs:   30_000,
-    temperature:           0.8,
+    dailyTokenLimit: Infinity,
+    maxOutputTokens: 8_192,
+    maxContextTokens: 32_000,
+    maxAutoContinuations: 10,
+    maxHistoryMessages: 30,
+    streamTimeoutMs: 180_000,
+    connectionTimeoutMs: 30_000,
+    temperature: 0.6,
   },
 
   // ── Plan institucional (reservado, no activo) ──
@@ -116,16 +116,16 @@ export const FREE_DAILY_LIMIT = 20;
 
 /* ── Defaults del sistema ── */
 export const SYSTEM_DEFAULTS = {
-  streaming:                  true,
-  retryOnRecoverableTimeout:  true,
-  saveUsage:                  true,
-  savePartialOnError:         true,   // guardar contenido parcial si el stream falla
-  heartbeatIntervalMs:        15_000, // ping cada 15s para mantener SSE viva en Apache/cPanel
+  streaming: true,
+  retryOnRecoverableTimeout: true,
+  saveUsage: true,
+  savePartialOnError: true,   // guardar contenido parcial si el stream falla
+  heartbeatIntervalMs: 15_000, // ping cada 15s para mantener SSE viva en Apache/cPanel
 };
 
 /* ── Estimación de tokens (fallback cuando el proveedor no los devuelve) ── */
 export const TOKEN_ESTIMATION = {
-  charsPerToken:  3.5,   // promedio para español con DeepSeek/Gemma
+  charsPerToken: 3.5,   // promedio para español con DeepSeek/Gemma
   estimate(text) {
     if (!text) return 0;
     return Math.ceil(text.length / this.charsPerToken);
@@ -134,38 +134,38 @@ export const TOKEN_ESTIMATION = {
 
 /* ── Estados del streaming ── */
 export const STREAM_STATES = {
-  IDLE:                'idle',
-  STARTING:            'starting',
-  STREAMING:           'streaming',
-  CONTINUING:          'continuing',
-  COMPLETED:           'completed',
-  QUOTA_REACHED:       'quota_reached',
+  IDLE: 'idle',
+  STARTING: 'starting',
+  STREAMING: 'streaming',
+  CONTINUING: 'continuing',
+  COMPLETED: 'completed',
+  QUOTA_REACHED: 'quota_reached',
   TIMEOUT_RECOVERABLE: 'timeout_recoverable',
-  TIMEOUT_FATAL:       'timeout_fatal',
-  ERROR:               'error',
-  STOPPED:             'stopped',    // usuario detuvo manualmente
+  TIMEOUT_FATAL: 'timeout_fatal',
+  ERROR: 'error',
+  STOPPED: 'stopped',    // usuario detuvo manualmente
 };
 
 /* ── HTTP status codes ── */
 export const HTTP_STATUS = {
-  OK:           200,
-  CREATED:      201,
-  BAD_REQUEST:  400,
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
   UNAUTHORIZED: 401,
-  FORBIDDEN:    403,
-  NOT_FOUND:    404,
-  TOO_MANY:     429,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  TOO_MANY: 429,
   SERVER_ERROR: 500,
 };
 
 /* ── Mensajes de error ── */
 export const ERRORS = {
   INVALID_CREDENTIALS: 'Credenciales inválidas',
-  USER_EXISTS:         'El usuario ya existe',
-  TOKEN_EXPIRED:       'Sesión expirada, volvé a ingresar',
-  AI_UNAVAILABLE:      'Los servicios de IA no están disponibles ahora. Intentá de nuevo en unos minutos.',
-  RATE_LIMITED:        'Llegaste al límite de mensajes por hoy',
-  QUOTA_EXCEEDED:      'Alcanzaste tu límite diario de uso. Vuelve mañana o actualizá a Pro para más capacidad.',
-  RESPONSE_TOO_LONG:   'La respuesta fue muy extensa. Intentá ser más específico en tu consulta.',
-  TIMEOUT_FRIENDLY:    'La respuesta está tardando más de lo esperado. Intentá de nuevo con una consulta más corta.',
+  USER_EXISTS: 'El usuario ya existe',
+  TOKEN_EXPIRED: 'Sesión expirada, volvé a ingresar',
+  AI_UNAVAILABLE: 'Los servicios de IA no están disponibles ahora. Intentá de nuevo en unos minutos.',
+  RATE_LIMITED: 'Llegaste al límite de mensajes por hoy',
+  QUOTA_EXCEEDED: 'Alcanzaste tu límite diario de uso. Vuelve mañana o actualizá a Pro para más capacidad.',
+  RESPONSE_TOO_LONG: 'La respuesta fue muy extensa. Intentá ser más específico en tu consulta.',
+  TIMEOUT_FRIENDLY: 'La respuesta está tardando más de lo esperado. Intentá de nuevo con una consulta más corta.',
 };
