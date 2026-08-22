@@ -27,6 +27,7 @@ import {
 } from '../components/chatWindow.js';
 import { openShareModal } from '../components/shareModal.js';
 import { openPaymentModal } from '../components/paymentModal.js';
+import { speakResponse, isVoiceModeActive } from '../components/voiceMode.js';
 import { deleteConversation } from '../services/chat.js';
 import { maybeShowLangBanner } from '../components/langBanner.js';
 import {
@@ -238,6 +239,60 @@ async function onMessageSend(text) {
       if (streamStopped) return;
       finalizeStream(streamRef, streamBuf);
       await vibrate('light');
+
+      // Modo voz: leer la respuesta en voz alta
+      if (isVoiceModeActive() && streamBuf) {
+        speakResponse(streamBuf, () => {
+          // Al terminar de leer, reabrir micrófono para seguir la conversación
+          const micBtn = document.getElementById('btn-mic');
+          if (micBtn && !micBtn.classList.contains('c-input-bar__mic--active')) {
+            micBtn.click();
+          }
+        });
+      }
+
+      // Videos de YouTube — renderizar thumbnails con link
+      if (evt?.videos?.length && streamRef?.bubbleEl) {
+        const container = document.createElement('div');
+        container.className = 'c-media-videos';
+        evt.videos.forEach(v => {
+          const cleanTitle = (v.title || '').replace(/[<>"]/g, '');
+          const thumb = v.thumbnail || `https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg`;
+          container.innerHTML += `
+            <a href="https://www.youtube.com/watch?v=${v.videoId}"
+               target="_blank" rel="noopener noreferrer"
+               class="c-media-embed" title="${cleanTitle}">
+              <div class="c-media-embed__thumb">
+                <img src="${thumb}" alt="${cleanTitle}" loading="lazy"/>
+                <div class="c-media-embed__play">▶</div>
+              </div>
+              <div class="c-media-embed__caption">${cleanTitle}</div>
+            </a>`;
+        });
+        streamRef.bubbleEl.parentNode?.insertBefore(container, streamRef.bubbleEl.nextSibling);
+      }
+
+      // Imágenes — renderizar como grid de thumbnails
+      if (evt?.images?.length && streamRef?.bubbleEl) {
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'c-media-images';
+        evt.images.forEach(img => {
+          const cleanTitle = (img.title || '').replace(/[<>"]/g, '');
+          const thumbUrl = img.thumbnail || img.url;
+          const fullUrl  = img.url || img.thumbnail;
+          imgContainer.innerHTML += `
+            <a href="${fullUrl}"
+               target="_blank" rel="noopener noreferrer"
+               class="c-media-image" title="${cleanTitle}">
+              <img src="${thumbUrl}" alt="${cleanTitle}" loading="lazy"
+                   onerror="this.parentElement.style.display='none'"/>
+            </a>`;
+        });
+        const insertAfter = streamRef.bubbleEl.nextSibling?.classList?.contains('c-media-videos')
+          ? streamRef.bubbleEl.nextSibling
+          : streamRef.bubbleEl;
+        insertAfter.parentNode?.insertBefore(imgContainer, insertAfter.nextSibling);
+      }
 
       // Si había archivo y la respuesta contiene código → botón de descarga
       if (fileData) {

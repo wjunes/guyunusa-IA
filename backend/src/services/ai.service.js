@@ -3,7 +3,7 @@
  *
  * Fase 2: Separa timeout de CONEXIÓN (corto, para detectar proveedor caído)
  * del timeout de STREAMING (largo, controlado por plan del usuario).
- *
+ *F
  * El timeout de conexión aborta si el proveedor no responde en 15s.
  * Una vez que el streaming empieza, NO hay timeout duro — el controller
  * se encarga de manejar la duración según el plan.

@@ -7,6 +7,7 @@ import {
   createTypingIndicator
 } from './messageItem.js';
 import { createStoryCard } from './storyCard.js';
+import { openTipsModal } from './tipsModal.js';
 import { parseMarkdown } from '../utils/markdown.js';
 import { highlightCodeBlocks } from '../utils/messageFormat.js';
 
@@ -33,6 +34,11 @@ export function renderChatWindow(store) {
     scrollToBottom(list);
   } else {
     list.insertBefore(createStoryCard(getLang()), list.firstChild);
+    // Listener del enlace de tips
+    document.getElementById('usage-tips-link')?.addEventListener('click', (e) => {
+      e.preventDefault();
+      openTipsModal();
+    });
   }
 
 }
@@ -114,7 +120,7 @@ export function finalizeStream(ref, buffer) {
     const cleaned = closeOpenMarkdown(buffer);
     ref.bubbleEl.innerHTML = parseMarkdown(cleaned);
   } catch {
-    ref.bubbleEl.textContent = buffer;
+    ref.bubbleEl.innerHTML = parseMarkdown(buffer);
   }
   highlightCodeBlocks(ref.bubbleEl);
 
@@ -189,6 +195,9 @@ function renderEmpty(tr) {
     </div>
     <div class="c-chat__empty-title">${tr?.chat?.emptyTitle || '¡Hola! Soy Guyunusa'}</div>
     <p class="c-chat__empty-sub">${tr?.chat?.emptySub || ''}</p>
+    <a href="#" id="usage-tips-link" class="c-chat__tips-link">
+      💡 Tips para aprovechar Guyunusa al máximo
+    </a>
   </div>`;
 }
 function escHTML(s) {

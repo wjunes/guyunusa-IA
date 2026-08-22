@@ -1,0 +1,81 @@
+/* ═══════════════════════════════════════
+   MODO VOZ — Guyunusa
+   ═══════════════════════════════════════ */
+
+/* Toggle modo voz */
+.c-input-bar__voice-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px !important;
+  height: 32px !important;
+  margin: 4px 2px !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  align-self: flex-end;
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all .15s;
+  flex-shrink: 0;
+}
+.c-input-bar__voice-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.c-input-bar__voice-toggle--active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+  animation: voicePulse 2s ease infinite;
+}
+
+@keyframes voicePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(46,125,50,0.3); }
+  50%      { box-shadow: 0 0 0 8px rgba(46,125,50,0); }
+}
+
+/* Indicador de estado de voz en el header */
+.c-voice-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  animation: fadeIn .2s ease;
+}
+.c-voice-indicator--listening {
+  background: rgba(46,125,50,0.1);
+  color: var(--accent);
+}
+.c-voice-indicator--speaking {
+  background: rgba(232,184,75,0.1);
+  color: #c98f1a;
+}
+
+/* Onda de audio animada */
+.c-voice-wave {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 16px;
+}
+.c-voice-wave span {
+  width: 3px;
+  border-radius: 2px;
+  background: currentColor;
+  animation: waveBar 0.8s ease infinite;
+}
+.c-voice-wave span:nth-child(1) { height: 6px; animation-delay: 0s; }
+.c-voice-wave span:nth-child(2) { height: 12px; animation-delay: 0.15s; }
+.c-voice-wave span:nth-child(3) { height: 8px; animation-delay: 0.3s; }
+.c-voice-wave span:nth-child(4) { height: 14px; animation-delay: 0.45s; }
+
+@keyframes waveBar {
+  0%, 100% { transform: scaleY(0.5); }
+  50%      { transform: scaleY(1); }
+}

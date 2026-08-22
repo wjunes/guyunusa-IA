@@ -56,6 +56,7 @@ Portal oficial del SINAE: https://www.gub.uy/sistema-nacional-emergencias/
 | 40-glosario.md | Términos y acrónimos |
 | 41-fuentes-referencias.md | Normativa y fuentes oficiales |
 | 42-faq.md | Preguntas frecuentes |
+| 43-inundaciones-historicas-registros.md | Registros históricos de inundaciones por daño y evacuados (1959–2024) |
 
 ## Referencias cruzadas principales
 

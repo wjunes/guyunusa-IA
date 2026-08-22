@@ -31,6 +31,8 @@ Este dominio cubre la dimensión **institucional, jurídica y de gestión** del 
 | 21-cronologia.md | Línea de tiempo del agua en Uruguay |
 | 22-glosario.md | Términos técnicos hídricos e institucionales |
 | 23-fuentes.md | Fuentes oficiales, académicas y portales de datos |
+| 24-hidrodinamica-rio-uruguay.md | Fuente de informacion sobre la hidrodinámica   del rio uruguay, flujo, reflujo, forzantes |
+| 25-inundaciones-historicas-registros |Informaciones sobre registros Hidrométricos en inundaciones históricas en todo el territorio Uruguayo |
 
 ## Relaciones con otros dominios
 
@@ -47,3 +49,4 @@ Este dominio cubre la dimensión **institucional, jurídica y de gestión** del 
 ## Palabras clave
 
 agua Uruguay gestión hídrica, DINAGUA Uruguay recursos hídricos, OSE agua potable saneamiento Uruguay, Acuífero Guaraní Uruguay, Ley 18610 Política Nacional Aguas Uruguay, CARU Comisión Administradora Río Uruguay, calidad agua Uruguay eutrofización, crisis hídrica Uruguay 2023, pesca continental Uruguay, navegación fluvial Uruguay, aguas termales Uruguay recurso, conflicto papeleras Uruguay Argentina
+crecidas inundaciones Hidrometría regístros históricos

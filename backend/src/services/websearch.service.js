@@ -23,7 +23,7 @@ const BASE_URL = 'https://api.search.brave.com/res/v1/web/search';
  * @param {boolean} opts.freshness — priorizar resultados recientes
  * @returns {Array<{title, url, description}>} resultados
  */
-export async function webSearch(query, { count = 5, lang = 'es', freshness = false } = {}) {
+export async function webSearch(query, { count = 5, lang = 'es' } = {}) {
   const key = API_KEY();
   if (!key) {
     logger.warn('[websearch] BRAVE_SEARCH_API_KEY no configurada');
@@ -33,15 +33,9 @@ export async function webSearch(query, { count = 5, lang = 'es', freshness = fal
   const params = new URLSearchParams({
     q: query,
     count: String(Math.min(count, 20)),
-    search_lang: lang,
-    ui_lang: lang,
     text_decorations: 'false',
     safesearch: 'moderate',
   });
-
-  if (freshness) {
-    params.set('freshness', 'pw'); // past week
-  }
 
   try {
     const response = await fetch(`${BASE_URL}?${params}`, {
@@ -55,11 +49,17 @@ export async function webSearch(query, { count = 5, lang = 'es', freshness = fal
 
     if (!response.ok) {
       const errText = await response.text();
-      logger.error(`[websearch] Brave ${response.status}: ${errText.slice(0, 200)}`);
+      logger.error(`[websearch] Brave HTTP ${response.status}: ${errText.slice(0, 200)}`);
       return [];
     }
 
     const data = await response.json();
+
+    // Log de diagnóstico
+    if (!data.web?.results?.length) {
+      logger.warn(`[websearch] Brave OK pero sin resultados para: "${query}" | keys: ${Object.keys(data).join(',')}`);
+    }
+
     const results = (data.web?.results || []).slice(0, count).map(r => ({
       title:       r.title || '',
       url:         r.url || '',
@@ -110,25 +110,34 @@ export async function buildWebContext(query, opts = {}) {
 export function isWebSearchQuery(query) {
   const q = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-  // Patrones que indican necesidad de info actual/global
   const webPatterns = [
     // Cine y series
-    /\b(pelicula|peliculas|serie|series|estreno|estrenos|trailer|temporada)\b/,
-    /\b(netflix|hbo|disney|amazon prime|apple tv|paramount|streaming)\b/,
+    /\b(pelicula|peliculas|serie|series|estreno|estrenos|estrenaron|trailer|temporada)\b/,
+    /\b(netflix|hbo|disney|amazon prime|apple tv|paramount|streaming|plataforma)\b/,
     /\b(actor|actriz|actores|director|directora|oscar|emmy|golden globe)\b/,
     /\b(cartelera|cine|cinema|taquilla|box office)\b/,
-    // Actualidad
+    // Deportes internacionales
+    /\b(champions league|premier league|la liga|serie a|bundesliga|ligue 1)\b/,
+    /\b(nba|nfl|mlb|formula 1|f1|mundial|eurocopa|copa america)\b/,
+    /\b(futbol europeo|futbol internacional|liga europea|ligas europeas)\b/,
+    /\b(resultado|resultados|gano|ganar|perdio|empato|empate|goles|marcador)\b/,
+    /\b(clasificacion|posiciones|tabla|fixture|jornada|partido|partidos)\b/,
+    /\b(transferencia|fichaje|fichajes|traspaso|mercado de pases)\b/,
+    /\b(messi|ronaldo|mbappe|haaland|vinicius|bellingham)\b/,
+    /\b(real madrid|barcelona|manchester|liverpool|psg|bayern|juventus|inter)\b/,
+    // Actualidad y noticias
     /\b(hoy|ayer|esta semana|este mes|este ano|actual|actualmente|ahora)\b/,
     /\b(ultimo|ultima|ultimos|ultimas|reciente|recientes|nuevo|nueva|nuevos)\b/,
-    /\b(noticia|noticias|novedad|novedades)\b/,
-    // Deportes internacionales
-    /\b(champions league|premier league|nba|nfl|formula 1|f1|mundial)\b/,
+    /\b(noticia|noticias|novedad|novedades|paso|sucedio|ocurrio)\b/,
+    /\b(fin de semana|este finde|esta noche|anoche)\b/,
     // Tecnología actual
     /\b(iphone|android|windows|samsung|tesla|spacex|openai|chatgpt|gemini)\b/,
     /\b(lanzamiento|lanzaron|lanzo|version|actualizacion)\b/,
     // Precios, disponibilidad
     /\b(precio|cuesta|vale|donde (ver|comprar|conseguir))\b/,
     /\b(disponible en|plataforma|donde puedo ver)\b/,
+    // Clima y eventos
+    /\b(clima|pronostico|temperatura|lluvia|tormenta)\b/,
     // Explícitamente pide buscar
     /\b(busca|buscar|googlea|search|investiga)\b/,
   ];

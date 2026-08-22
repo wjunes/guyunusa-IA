@@ -51,10 +51,22 @@
 
 .c-chat__empty-sub {
   font-size: var(--text-sm);
-  color: var(--text-secondary);
-  font-weight: var(--weight-medium);
+  color: var(--text-muted);
   max-width: 320px;
   line-height: 1.6;
+}
+
+.c-chat__tips-link {
+  display: inline-block;
+  margin-top: var(--space-md);
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity .15s;
+}
+.c-chat__tips-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 /* ——— Tarjeta de historia de Guyunusa ——— */

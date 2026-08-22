@@ -31,8 +31,8 @@ export function renderHeader(store) {
         ${isDark ? iconSun() : iconMoon()}
       </button>
 
-      <!-- Configuración — solo visible en mobile (el sidebar está oculto) -->
-      ${Platform.isMobileBrowser && !Platform.isCapacitor ? `
+      <!-- Configuración — visible en mobile browser y app Android -->
+      ${(Platform.isMobileBrowser || Platform.isCapacitor) ? `
         <button class="c-header__settings-btn" id="btn-header-settings"
                 title="${tr.sidebar.settings}" aria-label="${tr.sidebar.settings}">
           ${iconSettings()}
