@@ -34,9 +34,13 @@ export function openTipsModal() {
         o cualquier tema de actualidad.</p>
 
         <h3>🧉 Conocimiento uruguayo</h3>
-        <p>Guyunusa tiene una base de más de 1.500 documentos verificados sobre
-        Uruguay: historia, cultura, deportes, instituciones, departamentos,
-        ciencia, energía, educación y mucho más.</p>
+        <p>Guyunusa cuenta con más de <strong>1.600 documentos verificados</strong> en
+        <strong>70 dominios</strong>: historia, cultura, Carnaval, candombe, música,
+        deportes, cine y audiovisual, gastronomía, turismo, educación, salud,
+        ciencia, tecnología, energía, medio ambiente, defensa, seguridad,
+        economía, comercio exterior, arquitectura, patrimonio, transporte,
+        relaciones internacionales, justicia, vivienda, cooperativismo
+        y muchos más. Preguntá sobre cualquier tema uruguayo.</p>
 
         <h3>💻 Código y tareas técnicas</h3>
         <p>Podés pedirle que escriba código, corrija errores, explique conceptos

@@ -1,10 +1,10 @@
-/**
+/*
  * ai.service.js — Servicio de IA con failover y timeout inteligente
  *
  * Fase 2: Separa timeout de CONEXIÓN (corto, para detectar proveedor caído)
  * del timeout de STREAMING (largo, controlado por plan del usuario).
- *F
- * El timeout de conexión aborta si el proveedor no responde en 15s.
+ 
+ * El timeout de conexión aborta si el proveedor no responde en 30s.
  * Una vez que el streaming empieza, NO hay timeout duro — el controller
  * se encarga de manejar la duración según el plan.
  */
@@ -14,18 +14,18 @@ const { AI_PROVIDERS, getPlanConfig } = constants;
 
 const PROVIDERS = {
   [AI_PROVIDERS.OPENROUTER]: {
-    baseURL: process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
-    apiKey: process.env.OPENROUTER_API_KEY,
-    model: process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
+    baseURL: () => process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
+    apiKey: () => process.env.OPENROUTER_API_KEY,
+    model: () => process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
     headers: {
       'HTTP-Referer': 'https://guyunusa.uy',
       'X-Title': 'Guyunusa',
     },
   },
   [AI_PROVIDERS.DEEPSEEK]: {
-    baseURL: process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
-    apiKey: process.env.DEEPSEEK_API_KEY,
-    model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
+    baseURL: () => process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
+    apiKey: () => process.env.DEEPSEEK_API_KEY,
+    model: () => process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
     headers: {},
   },
 };
@@ -40,7 +40,14 @@ const PROVIDERS = {
  * @returns {Response}
  */
 async function callProvider(providerKey, messages, stream = false, planConfig = null) {
-  const provider = PROVIDERS[providerKey];
+  const providerDef = PROVIDERS[providerKey];
+  // Resolver getters (funciones) en runtime
+  const provider = {
+    baseURL: providerDef.baseURL(),
+    apiKey: providerDef.apiKey(),
+    model: providerDef.model(),
+    headers: providerDef.headers,
+  };
   if (!provider.apiKey) throw new Error(`API key no configurada para ${providerKey}`);
 
   const config = planConfig || getPlanConfig('free');
@@ -49,7 +56,6 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
   // CONEXIÓN: timeout corto (15s) — si el proveedor no responde, failover rápido.
   // STREAMING: sin timeout aquí — el controller lo maneja según el plan.
   //            Una vez que fetch() resuelve, el stream está vivo y no debe cortarse.
-  const connectionTimeout = config.connectionTimeoutMs || 15_000;
 
   const body = {
     model: provider.model,
@@ -64,17 +70,33 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
     body.stream_options = { include_usage: true };
   }
 
-  const response = await fetch(`${provider.baseURL}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${provider.apiKey}`,
-      ...provider.headers,
-    },
-    body: JSON.stringify(body),
-    // Solo timeout de CONEXIÓN — no mata el streaming en progreso
-    signal: AbortSignal.timeout(connectionTimeout),
-  });
+  // ── Timeout inteligente ──
+  // Solo timeout de CONEXIÓN: si no responde en 30s, abortar.
+  // Una vez que fetch() resuelve (primer byte), cancelar el timeout
+  // para que el streaming corra sin límite de tiempo.
+  const connectionTimeout = config.connectionTimeoutMs || 30_000;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), connectionTimeout);
+
+  let response;
+  try {
+    response = await fetch(`${provider.baseURL}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${provider.apiKey}`,
+        ...provider.headers,
+      },
+      body: JSON.stringify(body),
+      signal: controller.signal,
+    });
+  } catch (err) {
+    clearTimeout(timer);
+    throw err;
+  }
+
+  // Conexión establecida — cancelar timeout (streaming sin límite)
+  clearTimeout(timer);
 
   if (!response.ok) {
     const err = await response.text();

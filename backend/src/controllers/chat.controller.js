@@ -5,6 +5,7 @@ import {
 } from '../services/ai.service.js';
 import { extractText } from '../services/fileExtractor.service.js';
 import { buildKnowledgeContext } from '../services/knowledge.service.js';
+import { buildWebContext, isWebSearchQuery } from '../services/websearch.service.js';
 import { searchVideos, isVideoQuery } from '../services/youtube.service.js';
 import { searchImages, isImageQuery } from '../services/imagesearch.service.js';
 import { recordUsage, checkQuota, getDailyUsage,
@@ -100,29 +101,56 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
        WHERE m.conversation_id = ? AND c.user_id = ?
-       ORDER BY m.id DESC LIMIT ?`
-    ).all(convId, userId, maxHistory);
+       ORDER BY m.id DESC LIMIT ${Number(maxHistory) || 10}`
+    ).all(convId, userId);
     let history = historyRows.reverse();
 
     // Sistema + contexto del usuario
     const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
 
-    // ── RAG: buscar conocimiento uruguayo relevante ──
+    // ── Detectar si necesita búsqueda web ──
+    const needsWebSearch = isWebSearchQuery(content);
+
+    // ── RAG: buscar conocimiento uruguayo (se salta si hay web search exitoso) ──
     let knowledgeContext = '';
-    try {
-      const kb = buildKnowledgeContext(content, { maxDocs: 4, maxChars: 12000 });
-      if (kb) {
-        knowledgeContext =
-          `\n\n## Base de conocimiento uruguayo\n` +
-          `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
-          `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
-          `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
-          `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
-          kb.context;
-        logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
+    let webContext = '';
+
+    if (needsWebSearch) {
+      // Intentar web search primero
+      try {
+        const web = await buildWebContext(content, { count: 5 });
+        if (web) {
+          webContext =
+            `\n\n## Información de la web (búsqueda en tiempo real)\n` +
+            `Encontré estos resultados actuales en la web. Usalos para dar una respuesta ` +
+            `informada y actualizada. Podés mencionar las fuentes de forma natural ` +
+            `(por ejemplo: "según [fuente]..."). No copies textualmente — resumí ` +
+            `y respondé con tu estilo.\n` +
+            web.context;
+          logger.info(`Web search inyectado: ${web.sources.length} resultados`);
+        }
+      } catch (err) {
+        logger.warn(`Web search: ${err.message}`);
       }
-    } catch (err) {
-      logger.warn(`Knowledge retriever: ${err.message}`);
+    }
+
+    // RAG: si no hay web context O si no es web search, buscar en BNC-UY
+    if (!webContext) {
+      try {
+        const kb = buildKnowledgeContext(content, { maxDocs: 4, maxChars: 12000 });
+        if (kb) {
+          knowledgeContext =
+            `\n\n## Base de conocimiento uruguayo\n` +
+            `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
+            `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
+            `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
+            `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
+            kb.context;
+          logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
+        }
+      } catch (err) {
+        logger.warn(`Knowledge retriever: ${err.message}`);
+      }
     }
 
     // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
@@ -178,7 +206,7 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       }
     }
 
-    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + videoContext + imageContext;
+    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext + videoContext + imageContext;
     const systemTokens  = estimateTokens(systemContent);
     const maxCtxTokens  = config.maxContextTokens || 12_000;
     const budgetForHistory = maxCtxTokens - systemTokens;

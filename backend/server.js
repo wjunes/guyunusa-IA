@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname  = dirname(__filename);
+const __dirname = dirname(__filename);
 dotenvConfig({ path: join(__dirname, '.env'), override: true });
 
 import express from 'express';
@@ -142,12 +142,12 @@ async function main() {
   // Sin auth para acceso rápido; datos de usuario solo si hay sesión.
   app.get('/api/v1/health/diag', async (req, res) => {
     try {
-      const { SYSTEM_PROMPT }       = await import('../shared/systemPrompt.js');
+      const { SYSTEM_PROMPT } = await import('../shared/systemPrompt.js');
       const { getPlanConfig,
-              TOKEN_ESTIMATION }    = await import('../shared/constants.js');
-      const { getDailyUsage }       = await import('./src/services/usage.service.js');
+        TOKEN_ESTIMATION } = await import('../shared/constants.js');
+      const { getDailyUsage } = await import('./src/services/usage.service.js');
       const { isKnowledgeReady,
-              getKnowledgeStats }   = await import('./src/services/knowledge.service.js');
+        getKnowledgeStats } = await import('./src/services/knowledge.service.js');
 
       // Intentar extraer usuario del token (opcional)
       let userInfo = null;
@@ -162,17 +162,17 @@ async function main() {
           userInfo = {
             plan,
             usage: {
-              totalTokens:  usage.totalTokens,
+              totalTokens: usage.totalTokens,
               requestCount: usage.requestCount,
-              remaining:    usage.remaining,
-              percentUsed:  usage.limit > 0 ? Math.round((usage.totalTokens / usage.limit) * 100) : 0,
-              canQuery:     usage.canQuery,
+              remaining: usage.remaining,
+              percentUsed: usage.limit > 0 ? Math.round((usage.totalTokens / usage.limit) * 100) : 0,
+              canQuery: usage.canQuery,
             },
           };
         }
       } catch { /* sin sesión — no pasa nada */ }
 
-      const plan   = userInfo?.plan || 'free';
+      const plan = userInfo?.plan || 'free';
       const config = getPlanConfig(plan);
       const knowledge = getKnowledgeStats();
 
@@ -182,10 +182,10 @@ async function main() {
           fase1_config: {
             status: 'ok',
             plan,
-            dailyTokenLimit:      config.dailyTokenLimit,
-            maxOutputTokens:      config.maxOutputTokens,
-            maxContextTokens:     config.maxContextTokens,
-            maxHistoryMessages:   config.maxHistoryMessages,
+            dailyTokenLimit: config.dailyTokenLimit,
+            maxOutputTokens: config.maxOutputTokens,
+            maxContextTokens: config.maxContextTokens,
+            maxHistoryMessages: config.maxHistoryMessages,
             maxAutoContinuations: config.maxAutoContinuations,
           },
           fase2_timeout: {
@@ -207,13 +207,13 @@ async function main() {
           },
         },
         systemPrompt: {
-          loaded:      typeof SYSTEM_PROMPT === 'string',
-          length:      SYSTEM_PROMPT?.length ?? 0,
-          hasWillans:  SYSTEM_PROMPT?.includes('Willans Junes') ?? false,
+          loaded: typeof SYSTEM_PROMPT === 'string',
+          length: SYSTEM_PROMPT?.length ?? 0,
+          hasWillans: SYSTEM_PROMPT?.includes('Willans Junes') ?? false,
           hasFemenino: SYSTEM_PROMPT?.includes('femenino') ?? false,
         },
         knowledge: {
-          ready:     knowledge.ready,
+          ready: knowledge.ready,
           documents: knowledge.documents,
         },
         tokenEstimation: {
@@ -227,11 +227,13 @@ async function main() {
   });
 
   // ── 404 para rutas API no encontradas ──
-  // Diagnóstico RAG: /api/v1/health/rag?q=tu+consulta
+  // Diagnóstico RAG + Web Search: /api/v1/health/rag?q=tu+consulta
   app.get('/api/v1/health/rag', async (_req, res) => {
     try {
       const { searchKnowledge, getKnowledgeStats, buildKnowledgeContext }
         = await import('./src/services/knowledge.service.js');
+      const { isWebSearchQuery, webSearch, getSearchMetrics }
+        = await import('./src/services/websearch.service.js');
       const stats = getKnowledgeStats();
       const query = _req.query.q || '';
 
@@ -240,26 +242,39 @@ async function main() {
           ok: true,
           usage: 'Agregá ?q=tu+consulta para probar una búsqueda',
           stats,
+          braveKey: process.env.BRAVE_SEARCH_API_KEY ? '✓ cargada' : '✗ FALTA',
+          searchMetrics: getSearchMetrics(),
         });
       }
 
       const results = searchKnowledge(query, 5);
       const context = buildKnowledgeContext(query);
+      const wouldSearchWeb = isWebSearchQuery(query);
+
+      // Si amerita web search, probar
+      let webResults = null;
+      if (wouldSearchWeb) {
+        webResults = await webSearch(query, { count: 3 });
+      }
 
       res.json({
         ok: true,
         query,
         stats,
-        results: results.map(r => ({
-          titulo: r.titulo,
-          categoria: r.categoria,
-          score: r.score,
-          bodyPreview: r.body?.slice(0, 150) + '...',
-        })),
-        contextInjected: context ? {
-          titulos: context.titulos,
-          totalChars: context.context.length,
-        } : null,
+        rag: {
+          results: results.map(r => ({
+            titulo: r.titulo,
+            categoria: r.categoria,
+            score: r.score,
+          })),
+          contextInjected: context ? { titulos: context.titulos } : null,
+        },
+        web: {
+          wouldSearchWeb,
+          braveKey: process.env.BRAVE_SEARCH_API_KEY ? '✓ cargada' : '✗ FALTA',
+          results: webResults?.map(r => ({ title: r.title, url: r.url, score: r._score })) || null,
+        },
+        searchMetrics: getSearchMetrics(),
       });
     } catch (err) {
       res.status(500).json({ ok: false, error: err.message });
