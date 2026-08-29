@@ -1,0 +1,345 @@
+/* =========================================================
+   Guyunusa IA — Política de Privacidad
+   DM Serif Display · DM Sans
+   Tema automático: respeta prefers-color-scheme del sistema
+   ========================================================= */
+
+/* --- Tokens de color: paleta light (base) --------------- */
+:root {
+  --bg:              #f6f8fb;
+  --bg2:             #edf0f7;
+  --text:            #1b2438;
+  --text2:           #445270;
+  --muted:           #7d90ab;
+  --accent:          #1a4fa0;
+  --border:          #dde3ee;
+  --btn-shadow:      rgba(26, 79, 160, 0.18);
+  --btn-shadow-lg:   rgba(26, 79, 160, 0.32);
+  --focus-ring:      rgba(26, 79, 160, 0.40);
+}
+
+/* --- Tokens dark: sistema (sin data-theme explícito) ---- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:            #131720;
+    --bg2:           #1a2030;
+    --text:          #dce6f8;
+    --text2:         #8da3c4;
+    --muted:         #4f6080;
+    --accent:        #5b9aff;
+    --border:        #252e42;
+    --btn-shadow:    rgba(91, 154, 255, 0.20);
+    --btn-shadow-lg: rgba(91, 154, 255, 0.38);
+    --focus-ring:    rgba(91, 154, 255, 0.45);
+  }
+}
+
+/* --- Tokens dark: toggle explícito ---------------------- */
+:root[data-theme="dark"] {
+  --bg:            #131720;
+  --bg2:           #1a2030;
+  --text:          #dce6f8;
+  --text2:         #8da3c4;
+  --muted:         #4f6080;
+  --accent:        #5b9aff;
+  --border:        #252e42;
+  --btn-shadow:    rgba(91, 154, 255, 0.20);
+  --btn-shadow-lg: rgba(91, 154, 255, 0.38);
+  --focus-ring:    rgba(91, 154, 255, 0.45);
+}
+
+/* --- Reset --------------------------------------------- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Base ---------------------------------------------- */
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+/* --- Header -------------------------------------------- */
+.header {
+  padding: 14px 28px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--accent);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.logo img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: block;
+}
+
+.back {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 7px;
+  letter-spacing: 0.01em;
+  transition: background 0.15s, color 0.15s;
+}
+
+.back:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* --- Content ------------------------------------------- */
+.content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 28px 72px;
+}
+
+/* --- Tipografía ---------------------------------------- */
+h1 {
+  font-family: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin-bottom: 8px;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-family: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-wrap: balance;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  color: var(--text);
+  letter-spacing: -0.005em;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+
+.updated {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 28px;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin-bottom: 14px;
+  color: var(--text2);
+  max-width: 68ch;
+}
+
+ul, ol {
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: var(--text2);
+}
+
+strong { color: var(--text); }
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+a:hover { text-decoration: none; }
+
+/* --- Tabla --------------------------------------------- */
+.table-wrap {
+  overflow-x: auto;
+  margin: 12px 0 18px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+th, td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: var(--bg2);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+td { color: var(--text2); }
+
+tr:last-child td { border-bottom: none; }
+
+/* --- Divisor ------------------------------------------- */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: 52px 0 40px;
+}
+
+/* --- Footer -------------------------------------------- */
+.footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+  padding: 28px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.footer-meta {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.footer-meta p {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--muted);
+  max-width: none;
+}
+
+/* --- Checkbox ------------------------------------------ */
+.accept {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.005em;
+}
+
+.accept input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--accent);
+  flex-shrink: 0;
+}
+
+/* --- Botón Continuar ----------------------------------- */
+.btn-continue {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 10px;
+
+  background: var(--accent);
+  color: #fff;
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  cursor: pointer;
+  box-shadow:
+    0 2px 8px var(--btn-shadow),
+    0 0 0 0 var(--focus-ring);
+
+  transition:
+    opacity      0.17s ease,
+    transform    0.14s ease,
+    box-shadow   0.17s ease;
+}
+
+.btn-continue:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.btn-continue:not(:disabled):hover {
+  opacity: 0.93;
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 20px var(--btn-shadow-lg),
+    0 1px 4px var(--btn-shadow);
+}
+
+.btn-continue:not(:disabled):active {
+  opacity: 1;
+  transform: translateY(0px);
+  box-shadow:
+    0 2px 8px var(--btn-shadow),
+    0 0 0 0 var(--focus-ring);
+  transition-duration: 0.07s;
+}
+
+.btn-continue:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-continue {
+    transition: opacity 0.1s;
+  }
+  .btn-continue:not(:disabled):hover {
+    transform: none;
+  }
+}
+
+/* --- Responsive ---------------------------------------- */
+@media (max-width: 640px) {
+  .header  { padding: 12px 18px; }
+  .content { padding: 28px 18px 56px; }
+  .footer  { padding: 22px 18px 28px; }
+  h1       { font-size: 22px; }
+  h2       { font-size: 17px; }
+}

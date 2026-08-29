@@ -190,6 +190,19 @@
   z-index: 50;
 }
 
+.auth-privacy-link {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  transition: color .15s, background .15s;
+}
+.auth-privacy-link:hover {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
+
 /* Botón de tema flotante en pantallas de auth */
 .auth-theme-btn {
   width: 38px;

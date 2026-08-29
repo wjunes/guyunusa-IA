@@ -77,9 +77,10 @@ async function init() {
   router.register('/register', () => import('./pages/registerPage.js').then(m => m.mount()));
   router.register('/',         () => import('./pages/chatPage.js').then(m => m.mount()));
   router.register('/settings', () => import('./pages/settingsPage.js').then(m => m.mount()));
+  router.register('/privacy',  () => import('./pages/privacyPage.js').then(m => m.mount()));
 
   router.setGuard((path) => {
-    const pub = ['/login', '/register'];
+    const pub = ['/login', '/register', '/privacy'];
     if (!pub.includes(path) && !store.get('user')) return '/login';
     return null;
   });

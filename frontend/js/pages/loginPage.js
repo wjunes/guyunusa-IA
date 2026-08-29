@@ -23,6 +23,10 @@ export function mount() {
             <span>Descargar app Windows</span>
           </button>` : ''}
 
+        <a href="/privacidad" class="auth-privacy-link" title="Política de Privacidad" target="_blank">
+          Política de Privacidad
+        </a>
+
         <button class="auth-theme-btn" id="auth-theme-btn"
                 title="Cambiar tema" aria-label="Cambiar tema">
           ${themeIcon()}
