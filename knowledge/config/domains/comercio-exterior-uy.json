@@ -1,0 +1,29 @@
+{
+  "domain": "comercio-exterior-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "exportaciones Uruguay estadísticas Uruguay XXI",
+    "importaciones arancel DNA Uruguay",
+    "MERCOSUR comercio Uruguay acuerdos",
+    "balanza comercial Uruguay MEF BCU",
+    "zonas francas Uruguay inversión extranjera",
+    "acuerdo MERCOSUR Unión Europea cuotas resultados exportación",
+    "Uruguay cuota carne arroz miel lana UE utilización",
+    "sistema REX origen exportadores Uruguay UE DNA aduanas",
+    "Uruguay XXI pymes exportadoras Unión Europea acuerdo MERCOSUR",
+    "acuerdo MERCOSUR UE ratificación Parlamento Europeo novedades"
+  ],
+  "sources": [
+    { "name": "Uruguay-XXI",      "url": "https://www.uruguayxxi.gub.uy",                              "site_operator": "site:uruguayxxi.gub.uy",                              "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEF",              "url": "https://www.mef.gub.uy",                                     "site_operator": "site:mef.gub.uy",                                     "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "MRREE",            "url": "https://www.gub.uy/ministerio-relaciones-exteriores",        "site_operator": "site:gub.uy/ministerio-relaciones-exteriores",        "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "BCU-comercio",     "url": "https://www.bcu.gub.uy",                                     "site_operator": "site:bcu.gub.uy",                                     "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "DNA",              "url": "https://www.aduanas.gub.uy",                                  "site_operator": "site:aduanas.gub.uy",                                  "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "MERCOSUR",         "url": "https://www.mercosur.int",                                   "site_operator": "site:mercosur.int",                                   "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false },
+    { "name": "Comision-Europea", "url": "https://trade.ec.europa.eu",                                 "site_operator": "site:trade.ec.europa.eu",                             "type": "official",  "priority": 6,  "enabled": true, "auto_approve": false }
+  ]
+}

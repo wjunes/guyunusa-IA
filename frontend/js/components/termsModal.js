@@ -19,99 +19,154 @@ export function openTermsModal(onAccept) {
       <div class="c-terms-modal__body" id="terms-body">
 
         <section class="c-terms-modal__section">
-          <h2>Términos y Condiciones de Uso de Guyunusa IA</h2>
-          <p><em>Última actualización: julio de 2026</em></p>
+          <h2>Política de Privacidad y Seguridad de los Datos</h2>
+          <p><em>Última actualización: agosto de 2026</em></p>
 
-          <p>Bienvenido a <strong>Guyunusa IA</strong>, una plataforma de inteligencia artificial desarrollada para brindar información, asistencia y acceso conversacional a contenidos de interés general, con especial atención a la identidad, cultura y conocimiento de Uruguay.</p>
-          <p>El acceso y uso de Guyunusa IA implica la aceptación de los siguientes términos y condiciones.</p>
+          <p>Esta Política de Privacidad y Seguridad de los Datos explica cómo <strong>Guyunusa IA</strong>, desarrollado por <strong>Willans Junes</strong>, recopila, utiliza, almacena y transmite información cuando el usuario utiliza la plataforma y sus funcionalidades.</p>
+          <p><strong>Responsable:</strong> Willans Junes<br/><strong>Correo electrónico de contacto:</strong> wjp@algoritmos.uy<br/><strong>Sitio web:</strong> https://algoritmos.uy</p>
 
-          <h3>1. Uso de la plataforma</h3>
-          <p>Guyunusa IA es una herramienta de asistencia basada en inteligencia artificial. Las respuestas proporcionadas por el sistema tienen carácter <strong>informativo y orientativo</strong> y no sustituyen el criterio, conocimiento o asesoramiento de profesionales especializados.</p>
-          <p>El usuario es responsable del uso que realice de la información, respuestas, contenidos o recomendaciones proporcionadas por Guyunusa IA y de las decisiones que adopte a partir de ellas.</p>
-          <p><strong>Guyunusa IA no se responsabiliza por las consecuencias derivadas del uso que el usuario haga de la información obtenida mediante la plataforma.</strong></p>
+          <h3>1. Marco legal</h3>
+          <p>El tratamiento de los datos personales realizado por Guyunusa IA se efectúa de acuerdo con la legislación aplicable en materia de protección de datos personales, incluyendo la <strong>Ley N.º 18.331 de Protección de Datos Personales y Acción de Habeas Data de la República Oriental del Uruguay</strong>, sus reglamentaciones y demás normas aplicables.</p>
 
-          <h3>2. Límites de contenido</h3>
-          <p>Guyunusa IA cuenta con mecanismos y criterios destinados a limitar determinadas consultas y contenidos que puedan resultar inapropiados, perjudiciales, ilegales o relacionados con temas que la plataforma no está diseñada para abordar.</p>
-          <p>En consecuencia, Guyunusa IA podrá <strong>rechazar, limitar o redirigir determinadas solicitudes</strong>, incluso cuando el usuario las formule de manera directa o indirecta.</p>
+          <h3>2. Información que recopilamos</h3>
+          <p>Dependiendo de las funcionalidades utilizadas, Guyunusa IA puede recopilar y procesar:</p>
+          <p><strong>Datos de cuenta:</strong> correo electrónico, credencial de acceso protegida mediante mecanismos de seguridad adecuados, apodo o nombre de usuario.</p>
+          <p><strong>Mensajes y conversaciones:</strong> Guyunusa IA procesa el contenido de los mensajes enviados por el usuario y, cuando resulta necesario para mantener el contexto conversacional, el historial correspondiente a la conversación.</p>
+          <p><strong>Datos técnicos:</strong> la plataforma puede procesar información técnica necesaria para proporcionar, mantener, proteger y diagnosticar el funcionamiento del servicio.</p>
+          <p>Guyunusa IA no solicita deliberadamente información personal sensible para crear una cuenta.</p>
 
-          <h3>3. Cuenta de usuario</h3>
-          <p>Para utilizar determinadas funcionalidades de Guyunusa IA, el usuario deberá crear una cuenta proporcionando únicamente los datos necesarios para su identificación dentro de la plataforma: correo electrónico, contraseña y apodo o nombre de usuario.</p>
-          <p>El usuario es responsable de mantener la confidencialidad de sus credenciales de acceso y de toda actividad realizada desde su cuenta.</p>
-          <p>Guyunusa IA <strong>no solicita información sensible</strong> para la creación o utilización de la cuenta.</p>
+          <h3>3. Uso de la información</h3>
+          <ul>
+            <li>Crear y administrar la cuenta del usuario.</li>
+            <li>Proporcionar las funcionalidades de Guyunusa IA.</li>
+            <li>Procesar y responder las consultas realizadas.</li>
+            <li>Mantener el contexto de las conversaciones.</li>
+            <li>Proporcionar búsquedas y contenidos solicitados por el usuario.</li>
+            <li>Mantener la seguridad y funcionamiento de la plataforma.</li>
+            <li>Detectar y prevenir usos abusivos o no autorizados.</li>
+            <li>Atender solicitudes relacionadas con la cuenta y los derechos del usuario.</li>
+          </ul>
 
-          <h3>4. Modalidades de uso</h3>
-          <p>Guyunusa IA dispone de una modalidad de <strong>uso gratuito</strong>, que permite acceder a la plataforma con determinados límites diarios establecidos para garantizar un uso equilibrado del servicio.</p>
-          <p>También existe una modalidad <strong>PRO</strong>, mediante una contribución mensual de bajo costo, que proporciona un acceso ampliado y un uso sin el límite diario establecido para la modalidad gratuita.</p>
-          <p>Las características, límites y condiciones de cada modalidad podrán ser modificados cuando resulte necesario para garantizar la evolución, estabilidad y sostenibilidad del servicio.</p>
+          <h3>4. Procesamiento mediante proveedores externos</h3>
+          <div style="overflow-x:auto;margin:8px 0 12px;border-radius:6px;border:1px solid var(--border)">
+            <table style="width:100%;border-collapse:collapse;font-size:13px">
+              <thead>
+                <tr style="background:var(--bg2)">
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--text)">Servicio</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--text)">Información transmitida</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--text)">Finalidad</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-top:1px solid var(--border)">
+                  <td style="padding:8px 12px"><strong>DeepSeek API</strong></td>
+                  <td style="padding:8px 12px">Mensaje del usuario, contexto o historial necesario e instrucciones técnicas</td>
+                  <td style="padding:8px 12px">Procesamiento principal y generación de respuestas mediante IA</td>
+                </tr>
+                <tr style="border-top:1px solid var(--border)">
+                  <td style="padding:8px 12px"><strong>OpenRouter</strong></td>
+                  <td style="padding:8px 12px">Mensaje del usuario, contexto o historial necesario (como respaldo)</td>
+                  <td style="padding:8px 12px">Continuidad del procesamiento mediante IA</td>
+                </tr>
+                <tr style="border-top:1px solid var(--border)">
+                  <td style="padding:8px 12px"><strong>Brave Search API</strong></td>
+                  <td style="padding:8px 12px">Consulta de búsqueda optimizada</td>
+                  <td style="padding:8px 12px">Recuperación de información actualizada de Internet</td>
+                </tr>
+                <tr style="border-top:1px solid var(--border)">
+                  <td style="padding:8px 12px"><strong>YouTube Data API</strong></td>
+                  <td style="padding:8px 12px">Términos de búsqueda</td>
+                  <td style="padding:8px 12px">Localización de videos relacionados con la consulta</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Las consultas enviadas a los servicios de búsqueda no incluyen deliberadamente el historial completo de la conversación.</p>
 
-          <h3>5. Disponibilidad del servicio</h3>
-          <p>Guyunusa IA procura mantener la plataforma disponible y funcionando correctamente. Sin embargo, el servicio puede experimentar interrupciones, mantenimiento, actualizaciones, errores técnicos o indisponibilidad temporal.</p>
-          <p>No se garantiza una disponibilidad permanente e ininterrumpida del servicio.</p>
+          <h3>5. BNC-UY: fuente de conocimiento propia</h3>
+          <p>Guyunusa IA utiliza <strong>BNC-UY (Base de Conocimiento de Uruguay)</strong> como fuente de conocimiento estructurado propia, desarrollada y administrada por Willans Junes, con <strong>79 dominios temáticos y más de 1.600 documentos</strong>. Los datos personales de los usuarios no son enviados a BNC-UY.</p>
 
-          <h3>6. Uso responsable</h3>
-          <p>El usuario se compromete a utilizar Guyunusa IA de manera responsable y conforme a la legislación aplicable.</p>
-          <p>No deberá utilizar la plataforma para actividades ilícitas, para vulnerar derechos de terceros, intentar comprometer la seguridad del sistema, interferir con su funcionamiento o evadir deliberadamente los mecanismos de protección y límites establecidos.</p>
+          <h3>6. Compartición de datos</h3>
+          <p>Guyunusa IA <strong>no vende, alquila ni comercializa los datos personales de sus usuarios con fines publicitarios o comerciales</strong>.</p>
 
-          <h3>7. Propiedad y contenidos</h3>
-          <p>La plataforma, su identidad, diseño, software, funcionalidades, sistemas y contenidos propios pertenecen a sus respectivos titulares y se encuentran protegidos por la normativa aplicable.</p>
-          <p>Las respuestas generadas por inteligencia artificial deben ser consideradas dentro del contexto de una herramienta automatizada y pueden contener errores, omisiones o información que requiera verificación.</p>
+          <h3>7. Almacenamiento y conservación</h3>
+          <p>Los datos de la cuenta y el historial de conversaciones pueden almacenarse en la infraestructura utilizada por Guyunusa IA para proporcionar sus funcionalidades.</p>
 
-          <h3>8. Privacidad</h3>
-          <p>Guyunusa IA solicita únicamente la información necesaria para permitir el registro y funcionamiento básico de la cuenta.</p>
-          <p>El usuario debe evitar introducir en sus consultas información personal sensible, datos confidenciales, contraseñas, información financiera, datos médicos u otra información que no sea necesaria para realizar su consulta.</p>
+          <h3>8. Eliminación de conversaciones y cuenta</h3>
+          <p>El usuario puede solicitar la eliminación de su cuenta comunicándose con: <strong>wjp@algoritmos.uy</strong></p>
 
-          <h3>9. Modificaciones</h3>
-          <p>Guyunusa IA podrá actualizar estos Términos y Condiciones cuando resulte necesario. Las modificaciones serán publicadas en esta misma sección y entrarán en vigencia a partir de su publicación.</p>
+          <h3>9. Seguridad de los datos</h3>
+          <ul>
+            <li>Comunicaciones protegidas mediante HTTPS/TLS.</li>
+            <li>Mecanismos seguros de autenticación.</li>
+            <li>Protección de las credenciales mediante mecanismos de almacenamiento adecuados.</li>
+            <li>Controles de acceso a los sistemas.</li>
+          </ul>
 
-          <h3>10. Aceptación</h3>
-          <p>Al registrarse, acceder o utilizar Guyunusa IA, el usuario declara haber leído, comprendido y aceptado estos Términos y Condiciones de Uso.</p>
+          <h3>10. Información que el usuario no debería proporcionar</h3>
+          <ul>
+            <li>Contraseñas de otros servicios.</li>
+            <li>Números completos de tarjetas bancarias.</li>
+            <li>Códigos de seguridad.</li>
+            <li>Documentos de identidad.</li>
+            <li>Información médica sensible.</li>
+            <li>Información confidencial perteneciente a terceros.</li>
+          </ul>
+
+          <h3>11. Derechos del usuario</h3>
+          <p>El titular de los datos podrá ejercer los derechos de acceso, rectificación, actualización y supresión comunicándose con: <strong>Willans Junes — wjp@algoritmos.uy</strong></p>
+
+          <h3>12. Organismo de control</h3>
+          <p>En Uruguay: <strong>Unidad Reguladora y de Control de Datos Personales (URCDP)</strong>.</p>
+
+          <h3>13. Actualización de esta política</h3>
+          <p>Esta política podrá actualizarse para reflejar cambios en las funcionalidades, servicios tecnológicos o legislación aplicable.</p>
         </section>
 
         <hr class="c-terms-modal__divider"/>
 
         <section class="c-terms-modal__section">
-          <h2>Política de Privacidad de Guyunusa IA</h2>
-          <p><em>Última actualización: julio de 2026</em></p>
+          <h2>Términos y Condiciones de Uso</h2>
+          <p><em>Última actualización: agosto de 2026</em></p>
 
-          <p>En Guyunusa IA consideramos la privacidad y la protección de los datos personales como un aspecto fundamental de nuestro servicio.</p>
+          <p>Bienvenido a <strong>Guyunusa IA</strong>, una plataforma de inteligencia artificial desarrollada para brindar información, asistencia conversacional y acceso a contenidos de interés general, con especial atención a la identidad, cultura, historia, conocimiento y realidad de la República Oriental del Uruguay.</p>
+          <p><strong>Responsable:</strong> Willans Junes — wjp@algoritmos.uy — algoritmos.uy</p>
+          <p>El acceso y uso de Guyunusa IA implica la aceptación de los presentes Términos y Condiciones.</p>
 
-          <h3>1. Marco legal</h3>
-          <p>El tratamiento de los datos personales se efectúa de acuerdo con la legislación vigente de la República Oriental del Uruguay, especialmente con la <strong>Ley N.º 18.331 de Protección de Datos Personales y Acción de Habeas Data</strong>, su normativa reglamentaria y las disposiciones aplicables.</p>
+          <h3>1. Naturaleza y finalidad del servicio</h3>
+          <p>Guyunusa IA es una herramienta de asistencia basada en inteligencia artificial. Las respuestas tienen carácter informativo y orientativo y no sustituyen el asesoramiento de profesionales especializados.</p>
 
-          <h3>2. Información que se solicita</h3>
-          <p>Para crear y utilizar una cuenta solamente se solicita: correo electrónico, contraseña y apodo o nombre de usuario.</p>
-          <p>Guyunusa IA <strong>no solicita información sensible</strong> para crear una cuenta ni para utilizar el servicio.</p>
+          <h3>2. Fuentes de conocimiento</h3>
+          <p>Guyunusa IA utiliza BNC-UY con <strong>79 dominios temáticos y más de 1.600 documentos</strong> de referencia sobre Uruguay.</p>
 
-          <h3>3. Historial de conversaciones</h3>
-          <p>Las conversaciones almacenadas permanecen asociadas a la cuenta del usuario y no son publicadas ni compartidas públicamente.</p>
-          <p>Cuando el usuario elimina una conversación, dicha información es eliminada de la base de datos.</p>
+          <h3>3. Inteligencia artificial y servicios externos</h3>
+          <ul>
+            <li><strong>DeepSeek API:</strong> procesamiento principal.</li>
+            <li><strong>OpenRouter:</strong> servicio de respaldo.</li>
+            <li><strong>Brave Search API:</strong> búsqueda web.</li>
+            <li><strong>YouTube Data API:</strong> búsqueda de videos.</li>
+          </ul>
 
-          <h3>4. Eliminación de la cuenta</h3>
-          <p>Cuando una cuenta es eliminada, <strong>la información asociada también es eliminada de la base de datos</strong>, de acuerdo con los procedimientos técnicos establecidos.</p>
+          <h3>4. Límites y uso responsable</h3>
+          <p>Queda prohibido utilizar Guyunusa IA para actividades ilícitas, vulnerar derechos de terceros, comprometer los sistemas, eludir mecanismos de seguridad o abusar de los recursos del servicio.</p>
 
-          <h3>5. Finalidad del tratamiento</h3>
-          <p>La información proporcionada es utilizada exclusivamente para: crear y administrar la cuenta, permitir el inicio de sesión, mantener el historial personal, proporcionar las funcionalidades de la plataforma y garantizar su seguridad.</p>
+          <h3>5. Cuenta de usuario</h3>
+          <p>El usuario es responsable de mantener la confidencialidad de sus credenciales.</p>
 
-          <h3>6. Confidencialidad y no comercialización</h3>
-          <p>La información personal de los usuarios <strong>no será vendida, cedida, publicada ni comercializada</strong>, ni será utilizada como producto comercial o para fines publicitarios no informados al usuario.</p>
+          <h3>6. Modalidades de uso</h3>
+          <p><strong>Gratuita:</strong> uso dentro de los límites establecidos. <strong>PRO:</strong> capacidades ampliadas mediante suscripción.</p>
 
-          <h3>7. Requerimientos de autoridades</h3>
-          <p>Guyunusa IA podrá proporcionar información cuando exista una obligación legal, requerimiento válido de una autoridad competente o resolución judicial que así lo disponga.</p>
+          <h3>7. Disponibilidad del servicio</h3>
+          <p>Se procura disponibilidad continua sin garantía de funcionamiento ininterrumpido.</p>
 
-          <h3>8. Seguridad de la información</h3>
-          <p>Se adoptan medidas técnicas y organizativas destinadas a proteger la información almacenada frente a accesos no autorizados, alteración, pérdida, divulgación o uso indebido.</p>
+          <h3>8. Propiedad intelectual</h3>
+          <p>El software, marca, identidad gráfica y contenidos originales son propiedad de <strong>Willans Junes / Algoritmos.uy</strong>.</p>
 
-          <h3>9. Responsabilidad del usuario</h3>
-          <p>El usuario es responsable de la información que voluntariamente introduzca en sus conversaciones. Guyunusa IA recomienda no introducir información sensible que no sea necesaria para realizar una consulta.</p>
+          <h3>9. Modificaciones</h3>
+          <p>Estos Términos podrán actualizarse cuando sea necesario.</p>
 
-          <h3>10. Derechos del usuario</h3>
-          <p>Los titulares de datos personales cuentan con derechos de acceso, rectificación, actualización y supresión, en los términos establecidos por la normativa aplicable. La <strong>Unidad Reguladora y de Control de Datos Personales (URCDP)</strong> es el organismo competente en materia de protección de datos personales en Uruguay.</p>
-
-          <h3>11. Modificaciones</h3>
-          <p>Esta Política de Privacidad podrá ser actualizada cuando resulte necesario. La versión vigente estará disponible dentro de la plataforma.</p>
-
-          <h3>12. Aceptación</h3>
-          <p>Al crear una cuenta o utilizar Guyunusa IA, el usuario declara haber leído y comprendido esta Política de Privacidad.</p>
+          <h3>10. Contacto</h3>
+          <p><strong>Willans Junes</strong> — wjp@algoritmos.uy — algoritmos.uy</p>
         </section>
 
       </div>

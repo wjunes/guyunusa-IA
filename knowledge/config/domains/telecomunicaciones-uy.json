@@ -1,0 +1,21 @@
+{
+  "domain": "telecomunicaciones-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "ANTEL fibra óptica cobertura 5G Uruguay",
+    "URSEC regulación telecomunicaciones Uruguay licencias",
+    "televisión digital Uruguay TDT canales",
+    "libertad de prensa Uruguay RSFL medios",
+    "Ley 19307 servicios comunicación audiovisual Uruguay",
+    "brecha digital inclusión Uruguay conectividad"
+  ],
+  "sources": [
+    { "name": "URSEC", "url": "https://www.ursec.gub.uy", "site_operator": "site:ursec.gub.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "ANTEL", "url": "https://www.antel.com.uy", "site_operator": "site:antel.com.uy", "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "CAINFO","url": "https://www.cainfo.org.uy","site_operator": "site:cainfo.org.uy","type": "sectorial", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

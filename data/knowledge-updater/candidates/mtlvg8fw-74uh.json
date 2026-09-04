@@ -1,0 +1,33 @@
+{
+  "id": "mtlvg8fw-74uh",
+  "domain": "_test-domain",
+  "source": "TestFuente",
+  "url": "https://example.gub.uy/doc-reject",
+  "title": "Documento de prueba 1",
+  "content": "Contenido nuevo de prueba para el sistema",
+  "summary": "Contenido nuevo de prueba para el sistema | Temas: prueba",
+  "published_at": null,
+  "detected_at": "2026-09-03T18:41:53.084Z",
+  "content_hash": "hash456",
+  "evaluation": {
+    "relevance": 85,
+    "confidence": 90,
+    "novelty": 80,
+    "validity": 95,
+    "impact": 70,
+    "overall_score": 85,
+    "recommendation": "review",
+    "reason": "Test",
+    "key_topics": [
+      "prueba"
+    ],
+    "dry_run": true,
+    "evaluated_at": "2026-09-03T18:41:53.063Z",
+    "model": "test"
+  },
+  "status": "rejected",
+  "processed_at": "2026-09-03T18:41:53.087Z",
+  "processing_notes": "Rechazado en test",
+  "error": null,
+  "version": 1
+}

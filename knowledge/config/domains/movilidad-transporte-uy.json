@@ -1,0 +1,22 @@
+{
+  "domain": "movilidad-transporte-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "MTOP infraestructura vial Uruguay rutas",
+    "STM transporte metropolitano Montevideo ómnibus",
+    "seguridad vial UNASEV siniestros Uruguay",
+    "ANP puertos Uruguay comercio marítimo",
+    "DINACIA aviación civil Uruguay aeropuertos",
+    "ferrocarril AFE Uruguay carga pasajeros"
+  ],
+  "sources": [
+    { "name": "MTOP",   "url": "https://www.mtop.gub.uy",   "site_operator": "site:mtop.gub.uy",   "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "UNASEV", "url": "https://www.unasev.gub.uy", "site_operator": "site:unasev.gub.uy", "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "ANP",    "url": "https://www.anp.com.uy",    "site_operator": "site:anp.com.uy",    "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "STM",    "url": "https://www.stm.com.uy",    "site_operator": "site:stm.com.uy",    "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

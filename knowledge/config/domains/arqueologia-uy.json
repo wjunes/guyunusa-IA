@@ -1,0 +1,19 @@
+{
+  "domain": "arqueologia-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "arqueología Uruguay nuevos hallazgos sitios",
+    "patrimonio arqueológico Uruguay CNPA MEC",
+    "cerritos de indios Uruguay prehistoria investigación",
+    "pueblos originarios arqueología Uruguay charrúas",
+    "rescate arqueológico Uruguay obras legislación"
+  ],
+  "sources": [
+    { "name": "MEC-Patrimonio","url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "FHCE-Arqueología","url": "https://www.fhce.edu.uy",                      "site_operator": "site:fhce.edu.uy",                         "type": "scientific", "priority": 9,  "enabled": true, "auto_approve": false }
+  ]
+}

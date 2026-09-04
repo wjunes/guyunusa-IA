@@ -1,0 +1,20 @@
+{
+  "domain": "afrodescendientes-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "INAFRO Uruguay afrodescendientes políticas Ley 19122",
+    "candombe Uruguay UNESCO patrimonio llamadas",
+    "comunidad afrodescendiente Uruguay discriminación racial",
+    "Barrio Sur Palermo Montevideo cultura afrouruguaya",
+    "umbanda religiosidad afrobrasileña Uruguay"
+  ],
+  "sources": [
+    { "name": "INAFRO", "url": "https://www.gub.uy/instituto-nacional-afrodescendientes", "site_operator": "site:gub.uy/instituto-nacional-afrodescendientes", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEC",    "url": "https://www.gub.uy/ministerio-educacion-cultura",         "site_operator": "site:gub.uy/ministerio-educacion-cultura",         "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "UNESCO-UY","url": "https://www.unesco.org/es/countries/UY",               "site_operator": "site:unesco.org",                                  "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

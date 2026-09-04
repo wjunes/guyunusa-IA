@@ -1,0 +1,21 @@
+{
+  "domain": "flora-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "flora nativa Uruguay monte nativo pradera palmar",
+    "plantas invasoras Uruguay control manejo",
+    "bosque ribereño Uruguay conservación recursos",
+    "flora amenazada Uruguay SNAP áreas protegidas",
+    "etnobotánica plantas medicinales Uruguay",
+    "butiá palmar Uruguay patrimonio natural Rocha"
+  ],
+  "sources": [
+    { "name": "Ambiente-UY", "url": "https://www.gub.uy/ministerio-ambiente", "site_operator": "site:gub.uy/ministerio-ambiente", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Facultad-Ciencias","url": "https://www.fcien.edu.uy",         "site_operator": "site:fcien.edu.uy",            "type": "scientific", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "SNAP",        "url": "https://www.snap.gub.uy",              "site_operator": "site:snap.gub.uy",             "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

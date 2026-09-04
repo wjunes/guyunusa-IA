@@ -1,0 +1,21 @@
+{
+  "domain": "seguridad-social-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "BPS jubilaciones pensiones Uruguay",
+    "reforma previsional Uruguay 2023 Ley 20130",
+    "AFAPs ahorro previsional rentabilidad Uruguay",
+    "seguro desempleo BPS Uruguay requisitos",
+    "asignaciones familiares AFAM Uruguay MIDES",
+    "FONASA cobertura salud Uruguay BPS"
+  ],
+  "sources": [
+    { "name": "BPS",   "url": "https://www.bps.gub.uy",   "site_operator": "site:bps.gub.uy",   "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "BCU-AFAP","url": "https://www.bcu.gub.uy", "site_operator": "site:bcu.gub.uy",   "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "MEF",   "url": "https://www.mef.gub.uy",   "site_operator": "site:mef.gub.uy",   "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

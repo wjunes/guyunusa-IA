@@ -1,0 +1,21 @@
+{
+  "domain": "medios-comunicacion-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "Ley 19307 servicios comunicación audiovisual URSEC Uruguay",
+    "libertad prensa Uruguay Reporteros Sin Fronteras RSF",
+    "medios digitales periodismo Uruguay nuevas plataformas",
+    "televisión radio Uruguay grupos empresariales medios",
+    "publicidad económica medios Uruguay",
+    "CAINFO acceso información periodismo Uruguay"
+  ],
+  "sources": [
+    { "name": "URSEC",  "url": "https://www.ursec.gub.uy", "site_operator": "site:ursec.gub.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "CAINFO", "url": "https://www.cainfo.org.uy","site_operator": "site:cainfo.org.uy","type": "sectorial", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "APU",    "url": "https://www.apu.com.uy",   "site_operator": "site:apu.com.uy",   "type": "sectorial", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

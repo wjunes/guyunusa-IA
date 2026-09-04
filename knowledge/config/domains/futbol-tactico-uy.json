@@ -1,0 +1,19 @@
+{
+  "domain": "futbol-tactico-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "fútbol táctico metodología entrenamiento Uruguay",
+    "periodización táctica Vítor Frade análisis rendimiento",
+    "sistemas de juego evolución fútbol moderno",
+    "formación jugadores LTAD fútbol juvenil Uruguay",
+    "análisis rendimiento xG PPDA métricas fútbol"
+  ],
+  "sources": [
+    { "name": "AUF",   "url": "https://www.auf.org.uy",  "site_operator": "site:auf.org.uy",  "type": "official",  "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "ISEF",  "url": "https://www.isef.edu.uy", "site_operator": "site:isef.edu.uy", "type": "academic",  "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

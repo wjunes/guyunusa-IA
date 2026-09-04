@@ -1,0 +1,21 @@
+{
+  "domain": "transparencia-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "UAIP acceso información pública Uruguay Ley 18381",
+    "JUTEP ética pública declaraciones juradas Uruguay",
+    "gobierno abierto OGP Uruguay transparencia",
+    "TCR Tribunal de Cuentas control externo Uruguay",
+    "financiamiento político Uruguay Corte Electoral",
+    "lobby transparencia Uruguay Ley 19823"
+  ],
+  "sources": [
+    { "name": "UAIP",  "url": "https://www.gub.uy/unidad-acceso-informacion-publica", "site_operator": "site:gub.uy/unidad-acceso-informacion-publica", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "JUTEP", "url": "https://www.jutep.gub.uy", "site_operator": "site:jutep.gub.uy", "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "TCR",   "url": "https://www.tca.gub.uy",  "site_operator": "site:tca.gub.uy",  "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

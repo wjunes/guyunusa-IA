@@ -9,7 +9,20 @@
     "dev": "node --watch server.js",
     "check": "node scripts/check-env.js",
     "db:reset": "node scripts/db-reset.js",
-    "migrate": "node src/db/migrations.js"
+    "migrate": "node src/db/migrations.js",
+    "update:domain": "node scripts/update-knowledge.js domain",
+    "update:all": "node scripts/update-knowledge.js all",
+    "update:source": "node scripts/update-knowledge.js source",
+    "update:test": "node scripts/update-knowledge.js test",
+    "update:stats": "node scripts/update-knowledge.js stats",
+    "update:domains": "node scripts/update-knowledge.js list-domains",
+    "review": "node scripts/review-candidates.js",
+    "test:knowledge": "node test/knowledge-updater/change-detector.test.js && node test/knowledge-updater/evaluator.test.js && node test/knowledge-updater/candidate-manager.test.js && node test/knowledge-updater/scheduler.test.js",
+    "test:change-detector": "node test/knowledge-updater/change-detector.test.js",
+    "test:evaluator": "node test/knowledge-updater/evaluator.test.js",
+    "test:candidates": "node test/knowledge-updater/candidate-manager.test.js",
+    "test:scheduler": "node test/knowledge-updater/scheduler.test.js",
+    "test:env-guard": "node test/knowledge-updater/env-guard.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

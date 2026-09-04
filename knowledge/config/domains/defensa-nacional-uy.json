@@ -1,0 +1,21 @@
+{
+  "domain": "defensa-nacional-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "MDN Ministerio Defensa Nacional Uruguay política",
+    "misiones de paz Uruguay ONU contingentes",
+    "Ejército Armada FAU Uruguay fuerzas armadas",
+    "Antártida Uruguay BCAA IAU Base Artigas",
+    "CALEN formación militar Uruguay",
+    "ciberdefensa Uruguay seguridad nacional"
+  ],
+  "sources": [
+    { "name": "MDN",     "url": "https://www.gub.uy/ministerio-defensa-nacional", "site_operator": "site:gub.uy/ministerio-defensa-nacional", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Ejército","url": "https://www.ejercito.mil.uy", "site_operator": "site:ejercito.mil.uy", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "Armada",  "url": "https://www.armada.mil.uy",  "site_operator": "site:armada.mil.uy",  "type": "official", "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

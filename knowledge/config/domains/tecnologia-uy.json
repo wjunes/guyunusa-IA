@@ -1,0 +1,22 @@
+{
+  "domain": "tecnologia-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "tecnología innovación Uruguay AGESIC ANNI CUTI",
+    "software exportación Uruguay industria TIC",
+    "startups ecosistema emprendimiento tech Uruguay",
+    "inteligencia artificial Uruguay regulación uso",
+    "gobierno digital Uruguay gub.uy transformación",
+    "ciberseguridad CERTuy Uruguay amenazas"
+  ],
+  "sources": [
+    { "name": "AGESIC",  "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento", "site_operator": "site:gub.uy/agencia-gobierno-electronico", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "CUTI",    "url": "https://www.cuti.org.uy",   "site_operator": "site:cuti.org.uy",   "type": "sectorial", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "ANII",    "url": "https://www.anii.org.uy",   "site_operator": "site:anii.org.uy",   "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "LATU",    "url": "https://www.latu.org.uy",   "site_operator": "site:latu.org.uy",   "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

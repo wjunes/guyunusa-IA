@@ -1,0 +1,21 @@
+{
+  "domain": "educacion-tecnica-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "UTU Uruguay formación técnica profesional CETP",
+    "educación dual Uruguay sector productivo",
+    "cualificaciones profesionales Uruguay INEFOP",
+    "bachilleratos tecnológicos Uruguay UTU",
+    "INEFOP formación profesional fondos Uruguay",
+    "educación técnica mercado laboral Uruguay"
+  ],
+  "sources": [
+    { "name": "UTU",    "url": "https://www.utu.edu.uy",    "site_operator": "site:utu.edu.uy",    "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INEFOP", "url": "https://www.inefop.org.uy", "site_operator": "site:inefop.org.uy", "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "ANEP",   "url": "https://www.anep.edu.uy",   "site_operator": "site:anep.edu.uy",   "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "https://example.gub.uy/cm-test-1": {
+    "url": "https://example.gub.uy/cm-test-1",
+    "contentHash": "hash-test-001",
+    "processedAt": "2026-09-03T18:41:23.644Z"
+  },
+  "https://example.gub.uy/cm-test-2": {
+    "url": "https://example.gub.uy/cm-test-2",
+    "contentHash": "hash-002",
+    "processedAt": "2026-09-03T18:41:23.666Z"
+  }
+}

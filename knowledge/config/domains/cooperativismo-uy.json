@@ -1,0 +1,21 @@
+{
+  "domain": "cooperativismo-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "INACOOP cooperativismo Uruguay Ley 18407",
+    "CUDECOOP cooperativas Uruguay sector",
+    "cooperativas trabajo producción Uruguay",
+    "FUCVAM vivienda cooperativa Uruguay",
+    "economía social solidaria Uruguay",
+    "CONAPROLE cooperativa agraria láctea Uruguay"
+  ],
+  "sources": [
+    { "name": "INACOOP",  "url": "https://www.inacoop.org.uy",  "site_operator": "site:inacoop.org.uy",  "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "CUDECOOP", "url": "https://www.cudecoop.coop",   "site_operator": "site:cudecoop.coop",   "type": "sectorial", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "FUCVAM",   "url": "https://www.fucvam.org.uy",   "site_operator": "site:fucvam.org.uy",   "type": "sectorial", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

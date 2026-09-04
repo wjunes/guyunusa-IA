@@ -1,0 +1,21 @@
+{
+  "domain": "sistema-politico-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 85,
+  "discard_threshold": 60,
+  "topics": [
+    "parlamento Uruguay leyes aprobadas",
+    "poder ejecutivo Uruguay decretos",
+    "poder judicial Uruguay",
+    "Corte Electoral Uruguay",
+    "partidos políticos Uruguay"
+  ],
+  "sources": [
+    { "name": "Parlamento",      "url": "https://www.parlamento.gub.uy",    "site_operator": "site:parlamento.gub.uy",   "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Presidencia",     "url": "https://www.presidencia.gub.uy",   "site_operator": "site:presidencia.gub.uy",  "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "IMPO",            "url": "https://www.impo.com.uy",          "site_operator": "site:impo.com.uy",         "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "Corte Electoral", "url": "https://www.corteelectoral.gub.uy","site_operator": "site:corteelectoral.gub.uy","type": "official",  "priority": 8,  "enabled": true, "auto_approve": false }
+  ]
+}

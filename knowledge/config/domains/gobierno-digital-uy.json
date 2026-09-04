@@ -1,0 +1,22 @@
+{
+  "domain": "gobierno-digital-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "AGESIC gobierno digital Uruguay gub.uy trámites",
+    "identidad digital eDOC TuID firma electrónica Uruguay",
+    "datos abiertos Uruguay catálogo interoperabilidad",
+    "CERTuy ciberseguridad incidentes Uruguay",
+    "Plan Ceibal educación digital Uruguay",
+    "inclusión digital Plan Ibirapitá Uruguay"
+  ],
+  "sources": [
+    { "name": "gub.uy",    "url": "https://www.gub.uy",              "site_operator": "site:gub.uy",              "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "AGESIC",    "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento", "site_operator": "site:agesic.gub.uy", "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "Plan-Ceibal","url": "https://www.ceibal.edu.uy",      "site_operator": "site:ceibal.edu.uy",      "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "datos.gub", "url": "https://catalogodatos.gub.uy",   "site_operator": "site:catalogodatos.gub.uy","type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

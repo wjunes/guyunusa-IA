@@ -1,0 +1,21 @@
+{
+  "domain": "demografia-sociedad-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "Censo 2023 Uruguay INE resultados población",
+    "envejecimiento poblacional Uruguay TGF fecundidad",
+    "esperanza de vida mortalidad Uruguay estadísticas",
+    "emigración diáspora uruguaya demografía",
+    "hogares familias Uruguay composición cambios",
+    "estratificación socioeconómica pobreza Uruguay INE"
+  ],
+  "sources": [
+    { "name": "INE",   "url": "https://www.ine.gub.uy",   "site_operator": "site:ine.gub.uy",   "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MIDES", "url": "https://www.gub.uy/ministerio-desarrollo-social", "site_operator": "site:gub.uy/ministerio-desarrollo-social", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "FCS-UdelaR","url": "https://www.fcs.edu.uy","site_operator": "site:fcs.edu.uy","type": "scientific","priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

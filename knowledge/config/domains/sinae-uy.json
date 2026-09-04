@@ -1,0 +1,22 @@
+{
+  "domain": "sinae-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "SINAE Uruguay emergencias alertas",
+    "inundaciones Uruguay evacuados SINAE",
+    "riesgo hidrometeorológico Uruguay DINAGUA",
+    "incendios forestales Uruguay Bomberos DNB",
+    "gestión integral del riesgo Uruguay GIRD",
+    "Marco de Sendai Uruguay reducción riesgo desastres"
+  ],
+  "sources": [
+    { "name": "SINAE",    "url": "https://www.gub.uy/sistema-nacional-emergencias", "site_operator": "site:gub.uy/sistema-nacional-emergencias", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINAGUA",  "url": "https://www.gub.uy/ministerio-ambiente",          "site_operator": "site:gub.uy/ministerio-ambiente",          "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "INUMET",   "url": "https://www.inumet.gub.uy",                       "site_operator": "site:inumet.gub.uy",                       "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "Bomberos", "url": "https://www.gub.uy/ministerio-interior/bomberos", "site_operator": "site:gub.uy/ministerio-interior",          "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

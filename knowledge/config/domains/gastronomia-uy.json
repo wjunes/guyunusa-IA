@@ -1,0 +1,21 @@
+{
+  "domain": "gastronomia-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "gastronomía uruguaya patrimonio culinario identidad",
+    "INAVI vinos Uruguay Tannat enoturismo premios",
+    "Mercado del Puerto Montevideo gastronomía turismo",
+    "asado chivito mate dulce de leche Uruguay cultura",
+    "ferias mercados gastronómicos Uruguay",
+    "Conaprole lácteos Uruguay gastronomía"
+  ],
+  "sources": [
+    { "name": "INAVI",   "url": "https://www.inavi.com.uy",   "site_operator": "site:inavi.com.uy",   "type": "official",  "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "MINTUR",  "url": "https://www.gub.uy/ministerio-turismo", "site_operator": "site:gub.uy/ministerio-turismo", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "CÁMARA-REST","url": "https://www.camrest.com.uy","site_operator": "site:camrest.com.uy","type": "sectorial","priority": 6, "enabled": true, "auto_approve": false }
+  ]
+}

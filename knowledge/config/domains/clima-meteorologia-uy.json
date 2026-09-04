@@ -1,0 +1,19 @@
+{
+  "domain": "clima-meteorologia-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "INUMET meteorología Uruguay",
+    "clima Uruguay variabilidad estacional",
+    "alertas meteorológicas Uruguay",
+    "cambio climático impacto Uruguay",
+    "sequía inundaciones Uruguay"
+  ],
+  "sources": [
+    { "name": "INUMET", "url": "https://www.inumet.gub.uy", "site_operator": "site:inumet.gub.uy", "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MGAP-Agrometeorología", "url": "https://www.mgap.gub.uy", "site_operator": "site:mgap.gub.uy agrometeorología", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

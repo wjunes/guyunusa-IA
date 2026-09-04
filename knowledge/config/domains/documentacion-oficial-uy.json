@@ -1,0 +1,18 @@
+{
+  "domain": "documentacion-oficial-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "IMPO Uruguay Diario Oficial normativa metodología",
+    "RNLD registro leyes decretos Uruguay IMPO",
+    "bases normativas Uruguay textos ordenados IMPO",
+    "digitalización documental Estado Uruguay",
+    "referencias normativas BNC-UY metodología citación"
+  ],
+  "sources": [
+    { "name": "IMPO", "url": "https://www.impo.com.uy", "site_operator": "site:impo.com.uy", "type": "official", "priority": 10, "enabled": true, "auto_approve": false }
+  ]
+}

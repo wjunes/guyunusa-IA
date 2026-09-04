@@ -1,0 +1,21 @@
+{
+  "domain": "naturaleza-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "SNAP sistema áreas protegidas Uruguay nuevas áreas",
+    "humedales Uruguay Ramsar biodiversidad",
+    "ecosistemas Uruguay pradera costera serranías",
+    "parques nacionales Uruguay ecoturismo naturaleza",
+    "biodiversidad Uruguay convenio CDB indicadores",
+    "cambio climático impacto biodiversidad Uruguay"
+  ],
+  "sources": [
+    { "name": "SNAP",       "url": "https://www.snap.gub.uy",              "site_operator": "site:snap.gub.uy",             "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Ambiente-UY","url": "https://www.gub.uy/ministerio-ambiente","site_operator": "site:gub.uy/ministerio-ambiente","type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "VIDA-SILVESTRE","url": "https://www.vidasilvestre.org.uy",  "site_operator": "site:vidasilvestre.org.uy",    "type": "sectorial", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

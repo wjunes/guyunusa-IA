@@ -1,0 +1,20 @@
+{
+  "domain": "finanzas-personales-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "educación financiera Uruguay BCU inclusión",
+    "crédito consumo tasas usura Uruguay UDECO",
+    "ahorro inversión Uruguay productos financieros",
+    "deudas refinanciación Uruguay BRUC Clearing",
+    "presupuesto familiar Uruguay planificación",
+    "protección consumidor financiero BCU Uruguay"
+  ],
+  "sources": [
+    { "name": "BCU-educación","url": "https://www.bcu.gub.uy","site_operator": "site:bcu.gub.uy","type": "official","priority": 10,"enabled": true,"auto_approve": false },
+    { "name": "UDECO",   "url": "https://www.gub.uy/ministerio-industria-energia-mineria", "site_operator": "site:gub.uy/ministerio-industria-energia-mineria", "type": "official", "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

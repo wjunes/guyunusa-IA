@@ -1,0 +1,21 @@
+{
+  "domain": "departamentos-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "departamentos Uruguay Censo 2023 INE población",
+    "intendencias Uruguay presupuesto gestión departamental",
+    "descentralización Uruguay OPP municipios FIGM",
+    "estadísticas departamentales Uruguay INE indicadores",
+    "geografía económica departamentos Uruguay producción",
+    "servicios públicos departamentales Uruguay infraestructura"
+  ],
+  "sources": [
+    { "name": "INE",  "url": "https://www.ine.gub.uy",  "site_operator": "site:ine.gub.uy",  "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "OPP",  "url": "https://www.opp.gub.uy",  "site_operator": "site:opp.gub.uy",  "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "FIGM", "url": "https://www.gub.uy/congreso-intendentes", "site_operator": "site:gub.uy/congreso-intendentes", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

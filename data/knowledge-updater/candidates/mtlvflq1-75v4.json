@@ -1,0 +1,33 @@
+{
+  "id": "mtlvflq1-75v4",
+  "domain": "_test-cm",
+  "source": "TestFuente",
+  "url": "https://example.gub.uy/cm-test-1",
+  "title": "Título de prueba",
+  "content": "Descripción de prueba",
+  "summary": "Descripción de prueba | Temas: prueba",
+  "published_at": null,
+  "detected_at": "2026-09-03T18:41:23.641Z",
+  "content_hash": "hash-test-001",
+  "evaluation": {
+    "relevance": 85,
+    "confidence": 90,
+    "novelty": 80,
+    "validity": 95,
+    "impact": 70,
+    "overall_score": 85,
+    "recommendation": "review",
+    "reason": "Test",
+    "key_topics": [
+      "prueba"
+    ],
+    "dry_run": true,
+    "evaluated_at": "2026-09-03T18:41:23.638Z",
+    "model": "test"
+  },
+  "status": "approved",
+  "processed_at": "2026-09-03T18:41:23.662Z",
+  "processing_notes": "Test approval",
+  "error": null,
+  "version": 1
+}

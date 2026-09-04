@@ -1,0 +1,20 @@
+{
+  "domain": "derecho-civil-penal-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "Código Civil Uruguay reformas jurisprudencia SCJ",
+    "Código Penal Uruguay Código Proceso Penal CPP",
+    "derecho familia sucesiones Uruguay nuevas normas",
+    "responsabilidad civil Uruguay jurisprudencia",
+    "escribanía derecho notarial Uruguay AEU"
+  ],
+  "sources": [
+    { "name": "IMPO",         "url": "https://www.impo.com.uy",          "site_operator": "site:impo.com.uy",          "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Poder-Judicial","url": "https://www.poderjudicial.gub.uy","site_operator": "site:poderjudicial.gub.uy","type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "AEU",          "url": "https://www.aeu.org.uy",           "site_operator": "site:aeu.org.uy",           "type": "sectorial", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "laicidad-religiones-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "laicidad Estado uruguayo educación pública",
+    "Iglesia Católica Uruguay diócesis actividad",
+    "comunidad judía Uruguay instituciones cultura",
+    "evangelismo protestantismo Uruguay crecimiento",
+    "diálogo interreligioso Uruguay organizaciones"
+  ],
+  "sources": [
+    { "name": "MEC",       "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official",  "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "FHCE-UdelaR","url": "https://www.fhce.edu.uy",                        "site_operator": "site:fhce.edu.uy",                         "type": "scientific","priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

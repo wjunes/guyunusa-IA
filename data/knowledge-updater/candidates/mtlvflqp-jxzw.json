@@ -1,0 +1,33 @@
+{
+  "id": "mtlvflqp-jxzw",
+  "domain": "_test-cm",
+  "source": "TestFuente",
+  "url": "https://example.gub.uy/cm-test-2",
+  "title": "Título de prueba",
+  "content": "Descripción de prueba",
+  "summary": "Descripción de prueba | Temas: prueba",
+  "published_at": null,
+  "detected_at": "2026-09-03T18:41:23.665Z",
+  "content_hash": "hash-002",
+  "evaluation": {
+    "relevance": 85,
+    "confidence": 90,
+    "novelty": 80,
+    "validity": 95,
+    "impact": 70,
+    "overall_score": 85,
+    "recommendation": "review",
+    "reason": "Test",
+    "key_topics": [
+      "prueba"
+    ],
+    "dry_run": true,
+    "evaluated_at": "2026-09-03T18:41:23.638Z",
+    "model": "test"
+  },
+  "status": "pending",
+  "processed_at": null,
+  "processing_notes": "Re-encolado el 2026-09-03T18:41:23.701Z",
+  "error": null,
+  "version": 1
+}

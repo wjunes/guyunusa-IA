@@ -1,87 +1,104 @@
 # Acuerdo MERCOSUR-Unión Europea
 
-## Naturaleza y alcance del acuerdo
+## Naturaleza e importancia del acuerdo
 
-El **Acuerdo de Asociación MERCOSUR–Unión Europea** es el mayor acuerdo de libre comercio birregional en términos de población cubierta. Abarca los cuatro países del MERCOSUR (Argentina, Brasil, Paraguay y Uruguay) y los 27 Estados miembros de la Unión Europea, con un mercado combinado de más de 700 millones de personas.
+El **Acuerdo de Asociación MERCOSUR–Unión Europea** (EMPA, por sus siglas en inglés) es el mayor acuerdo comercial birregional del mundo en términos de población cubierta. Abarca los cuatro países del MERCOSUR (Argentina, Brasil, Paraguay y Uruguay) y los 27 Estados miembros de la Unión Europea, con un mercado combinado de más de 750 millones de personas y un comercio bilateral de aproximadamente USD 90.000 millones anuales.
 
-El acuerdo no se limita al comercio de bienes: incluye compromisos en materia de servicios, inversiones, contratación pública, propiedad intelectual, competencia, desarrollo sostenible y cooperación.
+El acuerdo no se limita al comercio de bienes: incluye compromisos en servicios, inversiones, contratación pública, propiedad intelectual, competencia, desarrollo sostenible y cooperación. Es el primer acuerdo internacional en el que el MERCOSUR, como bloque, asume compromisos vinculantes en materia medioambiental.
 
-## Historia de las negociaciones
+Para Uruguay, el acceso preferencial al mercado europeo representa una oportunidad estructural de largo plazo para sus principales sectores exportadores: celulosa, carne bovina, arroz, lana, lácteos, miel, cítricos y pesca, que en conjunto representaban en 2023 el 83% de las exportaciones uruguayas a la UE.
 
-Las negociaciones entre el MERCOSUR y la Unión Europea comenzaron en 1999. La primera fase concluyó sin resultado debido a diferencias sobre agricultura (el MERCOSUR exigía mayor acceso para sus exportaciones agropecuarias y la UE resistía por la presión de sus agricultores).
+## Historia de las negociaciones (1999–2024)
 
-Las negociaciones se retomaron en 2010 y progresaron lentamente. El **28 de junio de 2019**, ambos bloques anunciaron el cierre político del acuerdo tras 20 años de negociaciones.
+Las negociaciones formales entre el MERCOSUR y la UE comenzaron en **1999**, pero la primera fase quedó suspendida en 2004 por diferencias insalvables en acceso agrícola.
 
-En diciembre de 2023, la UE y el MERCOSUR alcanzaron un acuerdo político final sobre el capítulo comercial, incorporando un protocolo adicional en materia de sostenibilidad medioambiental para responder a las objeciones europeas (en particular de Francia, Austria y otros países que condicionaban el acuerdo a compromisos ambientales más estrictos).
+Las negociaciones se relanzaron en **2010** y progresaron lentamente durante la siguiente década. El **28 de junio de 2019**, ambos bloques anunciaron el cierre político del acuerdo tras veinte años de negociaciones. Sin embargo, ese cierre no fue suficiente para avanzar hacia la ratificación: varios países europeos —en especial Francia— condicionaron su apoyo a compromisos ambientales más exigentes, en el contexto de los incendios en el Amazonas (2019) y del debate en la UE sobre deforestación importada.
 
-El acuerdo está pendiente de ratificación formal por todos los parlamentos de los Estados parte del MERCOSUR y por el Parlamento Europeo y los parlamentos nacionales de la UE (en la parte mixta del acuerdo).
+Entre 2023 y 2024, el MERCOSUR y la UE retomaron las negociaciones sobre los elementos complementarios del acuerdo. El **6 de diciembre de 2024**, se cerró el acuerdo político definitivo sobre el capítulo comercial, que incorporó cuatro elementos nuevos fundamentales (ver sección siguiente). Este cierre fue respaldado por la síntesis oficial publicada por la Presidencia de Uruguay en esa misma fecha.
 
-## Contenido del pilar comercial
+## Estructura del acuerdo
 
-### Acceso al mercado para bienes del MERCOSUR
+El instrumento jurídico completo se compone de tres partes:
 
-El acuerdo elimina o reduce los aranceles europeos para la gran mayoría de los productos del MERCOSUR:
+**Acuerdo de Asociación MERCOSUR–UE (EMPA)**
+El acuerdo marco completo, que incluye el pilar comercial (Parte I), el pilar de diálogo político y el pilar de cooperación (Parte II). Requiere ratificación por todos los parlamentos nacionales de la UE para entrar en plena vigencia (por contener materias mixtas, incluyendo inversión y contratación pública).
 
-**Carnes**:
-- Cuotas de acceso preferencial para carne bovina: el MERCOSUR obtuvo cuotas de importación adicionales con arancel reducido o cero para la carne bovina refrigerada y congelada. Para Uruguay, el volumen habilitado en estas cuotas es relevante en relación con el tamaño de su sector cárnico.
-- La presión del sector agropecuario europeo (en particular Francia e Irlanda) generó resistencias a compromisos amplios en carne.
+**Acuerdo Comercial Interino (iTA — Interim Trade Agreement)**
+El pilar comercial del EMPA fue separado como instrumento autónomo (el iTA), lo que permite su **aplicación provisional** sin necesidad de ratificación por los 27 parlamentos nacionales europeos. Solo requiere la aprobación del Consejo de la UE y el consentimiento del Parlamento Europeo, además de la ratificación por los cuatro países del MERCOSUR.
 
-**Azúcar**: cuotas de acceso para azúcar de caña del MERCOSUR con arancel preferencial.
+**Anexo sobre Desarrollo Sostenible**
+Instrumento nuevo negociado en 2023–2024, sin precedente en los acuerdos previos del MERCOSUR. Establece compromisos vinculantes sobre cambio climático (con el Acuerdo de París como elemento esencial), protección de la biodiversidad, lucha contra la deforestación y estándares laborales (OIT). Uruguay negoció que las obligaciones derivadas del Acuerdo de París se aplicarían de forma individual por cada Estado parte del MERCOSUR, no de forma colectiva, preservando así la diferenciación entre la situación ambiental de Uruguay y la de Brasil y Argentina.
 
-**Otros productos agropecuarios**: acceso mejorado para arroz, soja, maíz, etanol, zumos de fruta, aves de corral, y otros.
+## Compromisos adicionales negociados en 2023–2024
 
-**Bienes industriales**: la UE ofrece eliminar el 91% de los aranceles industriales para los países del MERCOSUR, lo que incluye vehículos, autopartes, calzado y textiles.
+Además del Anexo sobre Desarrollo Sostenible, el cierre definitivo de diciembre de 2024 incorporó tres mecanismos nuevos que no existían en el texto de 2019:
 
-### Acceso al mercado para bienes de la UE
+**Mecanismo de reequilibrio de concesiones**
+Permite al MERCOSUR adoptar medidas compensatorias si la UE aplica, de forma unilateral, regulaciones medioambientales que afecten el acceso de exportaciones del MERCOSUR al mercado europeo (por ejemplo: el Reglamento de Productos sin Deforestación EUDR, el Mecanismo de Ajuste en Frontera por Carbono CBAM, el Reglamento de Diligencia Debida Empresarial). Este fue un punto de negociación prioritario para el MERCOSUR, especialmente para Brasil y Uruguay.
 
-El MERCOSUR eliminará aranceles europeos para bienes industriales (vehículos, maquinaria, productos farmacéuticos, equipos electrónicos). Para Uruguay:
-- Los vehículos europeos accederían con eliminación del 35% del AEC; esto genera presión sobre la industria automotriz brasileña y argentina más que sobre Uruguay (que no tiene producción automotriz).
-- Los productos manufacturados europeos tendrían mayor competitividad en el mercado uruguayo.
+**Cláusula de revisión del acuerdo**
+El MERCOSUR tiene derecho a solicitar revisiones de los términos del acuerdo, incluyendo el nivel de las cuotas de acceso, en función de la evolución del comercio bilateral y de los compromisos asumidos por cada parte.
 
-### Servicios e inversión
+**Protocolo de cooperación**
+Establece mecanismos de apoyo financiero de la UE para programas de desarrollo en el MERCOSUR, incluyendo apoyo a pymes exportadoras, a comunidades indígenas y a grupos de mujeres empresarias. Uruguay fue incluido en estos mecanismos pese a ser clasificado como país de renta alta, lo que fue objeto de negociación específica.
 
-El acuerdo incluye compromisos de liberalización en sectores de servicios (servicios empresariales, tecnológicos, financieros) y en inversión (protección de inversiones, trato nacional).
+Uruguay también negoció la eliminación de una nota a pie de página sobre derechos de propiedad intelectual en el sector audiovisual que hubiera afectado los derechos de actores y otros trabajadores del sector frente al crecimiento de las plataformas de streaming.
 
-### Contratación pública
+## Cronología de la ratificación y entrada en vigor
 
-Los proveedores del MERCOSUR accederían a los procesos de contratación pública de la UE y viceversa.
+| Fecha | Hito |
+|---|---|
+| 28 junio 2019 | Cierre político del texto de 2019 |
+| 6 diciembre 2024 | Acuerdo político definitivo sobre capítulo comercial y nuevos compromisos |
+| 9 enero 2026 | El Consejo de la Unión Europea aprueba la firma del acuerdo |
+| 17 enero 2026 | Firma formal del acuerdo en Asunción |
+| 26 febrero 2026 | Uruguay ratifica el acuerdo (Ley 20.462), primero del MERCOSUR; aprobación unánime en el Senado y 91 a 2 en la Cámara de Representantes; promulgada por el Presidente Yamandú Orsi |
+| 27 febrero 2026 | Argentina ratifica el acuerdo |
+| [Marzo–abril 2026] | Brasil y Paraguay ratifican el acuerdo |
+| **1° mayo 2026** | **Entrada en vigor de la aplicación provisional del iTA (pilar comercial)** |
+| Pendiente | Consentimiento del Parlamento Europeo (para el EMPA completo) |
+| Pendiente | Ratificación por los 27 parlamentos nacionales europeos (para el EMPA completo) |
 
-### Propiedad intelectual e indicaciones geográficas
+La aplicación provisional vigente desde el 1° de mayo de 2026 cubre el pilar comercial (aranceles, cuotas, reglas de origen, obstáculos técnicos, medidas sanitarias y fitosanitarias, servicios, inversión). Los pilares de diálogo político y parte de la cooperación requieren la ratificación plena por parte de la UE para entrar en vigor.
 
-La UE exige protección de sus indicaciones geográficas en los países del MERCOSUR (Champagne, Parmigiano Reggiano, Prosciutto di Parma, etc.). A cambio, el MERCOSUR obtiene reconocimiento de algunas de sus indicaciones geográficas propias.
+## Cobertura de la liberalización arancelaria
 
-## Capítulo de desarrollo sostenible
+**Concesiones de la UE al MERCOSUR:**
+La UE elimina aranceles sobre el **99,7% del valor de sus importaciones** desde el MERCOSUR. El 92% de las líneas arancelarias queda libre de arancel en diez años o menos. Los productos sensibles (algunas carnes, lácteos, azúcar) quedan sujetos a cuotas arancelarias en lugar de liberalización plena.
 
-Uno de los puntos más conflictivos fue el capítulo de sostenibilidad ambiental, dado el contexto de los incendios en el Amazonas (2019) y las presiones europeas sobre deforestación. El protocolo adicional de 2023 reforzó los compromisos en:
-- Implementación del Acuerdo de París sobre cambio climático.
-- Protección de la biodiversidad.
-- Lucha contra la deforestación.
-- Estándares laborales (OIT).
+**Concesiones del MERCOSUR a la UE:**
+El MERCOSUR elimina aranceles sobre el **91% del valor de sus importaciones** desde la UE. El 72% de las líneas queda libre de arancel en diez años o menos. Los productos más sensibles para la industria de la región (vehículos, calzado, textiles) pueden tener períodos de desgravación de hasta quince años.
 
-## Impacto esperado para Uruguay
+Para los detalles de las cuotas, los cronogramas de desgravación por producto y las reglas de origen, ver el archivo `21-concesiones-arancelarias-mercosur-ue.md`.
 
-### Oportunidades
+## Uruguay como parte del acuerdo: contexto comercial
 
-- Mayor acceso para la carne bovina uruguaya al mercado europeo (cuotas adicionales).
-- Acceso para otros productos agropecuarios.
-- Atracción de inversión extranjera directa europea en sectores de calidad.
-- Reconocimiento de Uruguay como proveedor confiable de alimentos con trazabilidad.
+En 2023, Uruguay exportó USD 1.930 millones a la Unión Europea, representando el 17% del total de sus exportaciones y posicionando a la UE como el tercer destino exportador después de China y Brasil. Los principales productos exportados a la UE ese año fueron celulosa y pasta de papel junto con carne bovina, que en conjunto representaron más del 66% de las exportaciones totales hacia ese mercado.
 
-### Desafíos
+Uruguay pagó en 2022 aproximadamente USD 73 millones en aranceles a la Unión Europea, de los cuales cerca del 60% correspondió a exportaciones de carne bovina. El acuerdo elimina o reduce sustancialmente estos costos arancelarios para los principales productos uruguayos.
 
-- Competencia de productos industriales europeos en el mercado uruguayo.
-- Presión sobre los sectores manufactureros que compiten con importaciones europeas.
-- Cumplimiento de exigencias de estándares ambientales y sanitarios europeos.
+## Régimen de origen
 
-## Estado actual del proceso de ratificación
+Las exportaciones hacia la UE que quieran beneficiarse de las preferencias arancelarias deben cumplir las reglas de origen del acuerdo. El sistema adoptado es el **REX (Registered Exporter System)**: los exportadores se registran ante las autoridades nacionales y pueden emitir ellos mismos las declaraciones de origen (autodeclaración), sin necesidad de obtener un certificado de una autoridad pública para cada exportación. Este sistema reduce costos administrativos para los exportadores, especialmente para las pymes.
 
-La ratificación del acuerdo es un proceso complejo que requiere:
-1. Aprobación en los cuatro países del MERCOSUR (Uruguay, Argentina, Brasil, Paraguay).
-2. Aprobación por el Parlamento Europeo.
-3. Ratificación por los 27 parlamentos nacionales europeos (para la parte mixta del acuerdo, que incluye inversión y contratación pública).
+La Dirección Nacional de Aduanas (DNA) emitió el Comunicado 12/2026 con los procedimientos aplicables a partir del 1° de mayo de 2026.
 
-El proceso puede llevar varios años desde el cierre político. Francia ha condicionado su apoyo a los compromisos ambientales del MERCOSUR, en particular sobre deforestación en la Amazonia brasileña.
+## Estructura institucional del acuerdo
+
+El acuerdo crea órganos conjuntos de gestión:
+
+- **Consejo de Asociación**: máximo órgano político; reúne a ministros de ambas partes.
+- **Comité de Asociación**: gestión ordinaria del acuerdo.
+- **Comités especializados**: para cada pilar temático (comercio de bienes, servicios, propiedad intelectual, desarrollo sostenible, etc.).
+- **Mecanismo de solución de diferencias**: procedimiento para resolver controversias sobre incumplimientos del acuerdo.
+- **Panel de expertos**: para el capítulo de desarrollo sostenible.
+
+## Obligaciones medioambientales con efecto en Uruguay
+
+El Acuerdo de París sobre cambio climático fue incorporado como **elemento esencial** del acuerdo. Esto significa que su incumplimiento grave puede, en teoría, habilitar la suspensión de beneficios comerciales. Uruguay negoció que esta obligación opere de forma individual (no colectiva para el MERCOSUR), de modo que el desempeño ambiental de Uruguay se evalúe por sus propios méritos.
+
+El Reglamento de Productos sin Deforestación de la UE (EUDR) puede afectar exportaciones uruguayas de productos como la soja (que históricamente se exporta como materia prima). El mecanismo de reequilibrio negociado en 2024 busca proteger al MERCOSUR frente a este tipo de medidas unilaterales europeas.
 
 ## Palabras clave
 
-acuerdo MERCOSUR Unión Europea Uruguay, TLC MERCOSUR UE negociaciones 1999-2023, acceso carne bovina Uruguay mercado europeo cuota, protocolo sostenibilidad MERCOSUR UE, ratificación acuerdo MERCOSUR UE parlamentos, indicaciones geográficas MERCOSUR UE, comercio bienes MERCOSUR UE aranceles, inversión servicios MERCOSUR UE
+acuerdo MERCOSUR Unión Europea vigente 2026, EMPA acuerdo asociación MERCOSUR UE, iTA interim trade agreement aplicación provisional mayo 2026, Uruguay ratificación ley 20462 acuerdo MERCOSUR UE, firma Asunción enero 2026 MERCOSUR UE, anexo sostenibilidad MERCOSUR UE acuerdo de París, mecanismo reequilibrio concesiones MERCOSUR UE EUDR CBAM, sistema REX origen exportadores MERCOSUR UE, comercio bilateral Uruguay Unión Europea, carne bovina Uruguay cuota europea, celulosa Uruguay exportación UE, pilar comercial MERCOSUR UE entrada en vigor, ratificación parlamento europeo EMPA pendiente

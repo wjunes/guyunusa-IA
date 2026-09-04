@@ -1,0 +1,22 @@
+{
+  "domain": "mipymes-emprendimiento-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "MiPyMEs Uruguay ANDE MIEM-DINAPYME apoyo",
+    "emprendimiento Uruguay startups capital semilla ANII",
+    "Monotributo Uruguay DGI régimen simplificado",
+    "SAS empresa Uruguay constitución Ley 19820",
+    "Empresa en el Día Uruguay trámite",
+    "Parques Industriales Uruguay Ley 19784"
+  ],
+  "sources": [
+    { "name": "ANDE",     "url": "https://www.ande.org.uy",   "site_operator": "site:ande.org.uy",   "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINAPYME", "url": "https://www.gub.uy/ministerio-industria-energia-mineria", "site_operator": "site:gub.uy/ministerio-industria-energia-mineria", "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "DGI",      "url": "https://www.dgi.gub.uy",    "site_operator": "site:dgi.gub.uy",    "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "ANII",     "url": "https://www.anii.org.uy",   "site_operator": "site:anii.org.uy",   "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

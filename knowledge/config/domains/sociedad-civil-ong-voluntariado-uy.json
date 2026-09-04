@@ -1,0 +1,21 @@
+{
+  "domain": "sociedad-civil-ong-voluntariado-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "OSC organizaciones sociedad civil Uruguay MEC personería",
+    "voluntariado social Uruguay Ley 17885",
+    "donaciones especiales DGI IRAE Uruguay fundaciones",
+    "CAIF primera infancia gestión delegada Uruguay",
+    "salud mental prevención suicidio Uruguay Línea Vida",
+    "protección animal Uruguay Ley 18471 organizaciones"
+  ],
+  "sources": [
+    { "name": "MIDES",  "url": "https://www.gub.uy/ministerio-desarrollo-social",  "site_operator": "site:gub.uy/ministerio-desarrollo-social",  "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEC-OSC","url": "https://www.gub.uy/ministerio-educacion-cultura",  "site_operator": "site:gub.uy/ministerio-educacion-cultura",  "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "MSP-SM", "url": "https://www.msp.gub.uy",                           "site_operator": "site:msp.gub.uy",                           "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

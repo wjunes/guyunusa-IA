@@ -1,0 +1,22 @@
+{
+  "domain": "salud-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "MSP Uruguay salud pública",
+    "ASSE prestaciones médicas Uruguay",
+    "Sistema Nacional Integrado Salud Uruguay",
+    "vacunación calendario Uruguay",
+    "medicamentos URSEA Uruguay",
+    "salud mental Uruguay normativa"
+  ],
+  "sources": [
+    { "name": "MSP",       "url": "https://www.msp.gub.uy",       "site_operator": "site:msp.gub.uy",       "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "ASSE",      "url": "https://www.asse.com.uy",      "site_operator": "site:asse.com.uy",      "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "JUNASA",    "url": "https://www.junasa.gub.uy",    "site_operator": "site:junasa.gub.uy",    "type": "official",   "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "FNR",       "url": "https://www.fnr.gub.uy",       "site_operator": "site:fnr.gub.uy",       "type": "official",   "priority": 8,  "enabled": true, "auto_approve": false }
+  ]
+}

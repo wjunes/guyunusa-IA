@@ -1,0 +1,21 @@
+{
+  "domain": "bacteriologia-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "resistencia antimicrobiana Uruguay MSP PNRAA",
+    "bacteriología clínica Uruguay laboratorios diagnóstico",
+    "brotes bacterianos Uruguay epidemiología MSP",
+    "inocuidad alimentaria bacterias Uruguay LATU MGAP",
+    "microbiología ambiental suelos Uruguay biotecnología",
+    "Salmonella Campylobacter zoonosis bacteriana Uruguay"
+  ],
+  "sources": [
+    { "name": "MSP-Epidemiología","url": "https://www.msp.gub.uy", "site_operator": "site:msp.gub.uy", "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "LATU",             "url": "https://www.latu.org.uy","site_operator": "site:latu.org.uy","type": "official",   "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "Facultad-Ciencias","url": "https://www.fcien.edu.uy","site_operator": "site:fcien.edu.uy","type": "scientific","priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

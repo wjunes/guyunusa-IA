@@ -1,0 +1,19 @@
+{
+  "domain": "basquet-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "básquetbol Uruguay LUB liga campeones temporada",
+    "FUBB selección nacional Uruguay básquet",
+    "clubes básquetbol Uruguay historia Nacional Hebraica",
+    "básquet femenino Uruguay competencias",
+    "básquet uruguayo FIBA competencias internacionales"
+  ],
+  "sources": [
+    { "name": "FUBB", "url": "https://www.fubb.org.uy", "site_operator": "site:fubb.org.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "LUB",  "url": "https://www.lub.com.uy",  "site_operator": "site:lub.com.uy",  "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false }
+  ]
+}

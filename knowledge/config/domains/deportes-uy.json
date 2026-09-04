@@ -1,0 +1,20 @@
+{
+  "domain": "deportes-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "fútbol Uruguay AUF selección resultados internacionales",
+    "sistema deportivo Uruguay COU ISEF MIDES",
+    "deporte femenino Uruguay reconocimientos avances",
+    "rugby Los Teros Uruguay rugby competencias",
+    "deporte olímpico Uruguay resultados clasificaciones"
+  ],
+  "sources": [
+    { "name": "AUF",    "url": "https://www.auf.org.uy",    "site_operator": "site:auf.org.uy",    "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "COU",    "url": "https://www.cou.org.uy",    "site_operator": "site:cou.org.uy",    "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "MIDES-deporte","url": "https://www.gub.uy/ministerio-desarrollo-social","site_operator": "site:gub.uy/ministerio-desarrollo-social","type": "official","priority": 6,"enabled": true,"auto_approve": false }
+  ]
+}

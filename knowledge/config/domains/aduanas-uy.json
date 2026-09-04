@@ -1,0 +1,20 @@
+{
+  "domain": "aduanas-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "DNA Dirección Nacional Aduanas Uruguay normativa",
+    "nomenclatura arancelaria AEC MERCOSUR Uruguay",
+    "importaciones exportaciones regímenes aduaneros Uruguay",
+    "zonas francas Uruguay Ley 15921 régimen",
+    "operador económico autorizado OEA Uruguay",
+    "despachantes aduanas Uruguay contrabando fiscalización"
+  ],
+  "sources": [
+    { "name": "DNA",  "url": "https://www.aduanas.gub.uy", "site_operator": "site:aduanas.gub.uy", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MRREE","url": "https://www.gub.uy/ministerio-relaciones-exteriores", "site_operator": "site:gub.uy/ministerio-relaciones-exteriores", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

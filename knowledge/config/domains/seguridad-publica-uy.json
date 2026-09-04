@@ -1,0 +1,22 @@
+{
+  "domain": "seguridad-publica-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "Ministerio Interior Uruguay seguridad pública",
+    "estadísticas criminalidad Uruguay Policía Nacional",
+    "sistema penitenciario INR Uruguay",
+    "violencia basada género Uruguay Ley 19580",
+    "seguridad ciudadana políticas Uruguay",
+    "cibercrimen Uruguay delitos tecnológicos"
+  ],
+  "sources": [
+    { "name": "MI",       "url": "https://www.minterior.gub.uy",  "site_operator": "site:minterior.gub.uy",  "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Policía",  "url": "https://www.policia.gub.uy",    "site_operator": "site:policia.gub.uy",    "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "INR",      "url": "https://www.inr.gub.uy",        "site_operator": "site:inr.gub.uy",        "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "SGSP",     "url": "https://www.gub.uy/secretaria-seguridad-publica", "site_operator": "site:gub.uy/secretaria-seguridad-publica", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

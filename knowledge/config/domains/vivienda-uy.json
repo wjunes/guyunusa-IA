@@ -1,0 +1,22 @@
+{
+  "domain": "vivienda-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "MVOTMA vivienda Uruguay programas ANV",
+    "BHU crédito hipotecario Uruguay unidades indexadas",
+    "MEVIR vivienda rural Uruguay",
+    "FUCVAM cooperativas vivienda Uruguay",
+    "vivienda promovida Uruguay Ley 18795 inversión",
+    "asentamientos irregulares Uruguay regularización"
+  ],
+  "sources": [
+    { "name": "MVOTMA", "url": "https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial", "site_operator": "site:gub.uy/ministerio-vivienda-ordenamiento-territorial", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "ANV",    "url": "https://www.anv.gub.uy",  "site_operator": "site:anv.gub.uy",  "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "BHU",    "url": "https://www.bhu.com.uy",  "site_operator": "site:bhu.com.uy",  "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "MEVIR",  "url": "https://www.mevir.gub.uy","site_operator": "site:mevir.gub.uy","type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

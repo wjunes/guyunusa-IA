@@ -1,0 +1,21 @@
+{
+  "domain": "migracion-extranjeria-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "migración Uruguay Ley 18250 residencia",
+    "refugio asilo Uruguay ACNUR Ley 18076",
+    "visas ingreso extranjeros Uruguay MRREE",
+    "ciudadanía naturalización Uruguay trámites",
+    "OIM migración laboral Uruguay inserción",
+    "nuevas corrientes migratorias Uruguay estadísticas"
+  ],
+  "sources": [
+    { "name": "MRREE",  "url": "https://www.gub.uy/ministerio-relaciones-exteriores", "site_operator": "site:gub.uy/ministerio-relaciones-exteriores", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DNA-MI", "url": "https://www.minterior.gub.uy", "site_operator": "site:minterior.gub.uy", "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "OIM-UY", "url": "https://www.iom.int/es/countries/uruguay", "site_operator": "site:iom.int", "type": "scientific", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

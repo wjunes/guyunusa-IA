@@ -1,0 +1,22 @@
+{
+  "domain": "fauna-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "fauna Uruguay SNAP biodiversidad conservación DINARA",
+    "aves Uruguay Aves Uruguay BirdLife especies",
+    "mamíferos marinos Uruguay lobos marinos carpincho",
+    "tortugas marinas Uruguay Karumbé DINARA",
+    "especies amenazadas Uruguay lista roja",
+    "fauna exótica invasora Uruguay control"
+  ],
+  "sources": [
+    { "name": "SNAP-DINAMA","url": "https://www.gub.uy/ministerio-ambiente", "site_operator": "site:gub.uy/ministerio-ambiente", "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINARA",     "url": "https://www.dinara.gub.uy",             "site_operator": "site:dinara.gub.uy",            "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "AvesuruguAy","url": "https://www.avesuruguay.org.uy",        "site_operator": "site:avesuruguay.org.uy",       "type": "sectorial",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "Karumbé",    "url": "https://www.karumbe.org",               "site_operator": "site:karumbe.org",              "type": "sectorial",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "domain": "arbovirosis-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "dengue Uruguay vigilancia epidemiológica MSP",
+    "Aedes aegypti control vectorial Uruguay",
+    "Zika chikungunya Uruguay casos",
+    "fiebre amarilla vacunación viajeros Uruguay",
+    "arbovirosis emergentes Uruguay Oropouche",
+    "hantavirus Uruguay roedores prevención"
+  ],
+  "sources": [
+    { "name": "MSP-Epidemiología", "url": "https://www.msp.gub.uy",      "site_operator": "site:msp.gub.uy",      "type": "official",    "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "PAHO-Uruguay",      "url": "https://www.paho.org/es/uruguay","site_operator": "site:paho.org",      "type": "scientific",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "MGAP-DILAVE",       "url": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca", "site_operator": "site:gub.uy/ministerio-ganaderia", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

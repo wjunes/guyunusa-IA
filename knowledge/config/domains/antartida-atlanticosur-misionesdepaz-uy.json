@@ -1,0 +1,20 @@
+{
+  "domain": "antartida-atlanticosur-misionesdepaz-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "BCAA Base Artigas Uruguay Antártida expedición científica",
+    "IAU Instituto Antártico Uruguayo investigación",
+    "misiones paz Uruguay ONU MONUSCO contingentes",
+    "CONVEMAR Uruguay ZEE plataforma continental",
+    "operación Antarkos FAU Uruguay logística antártica"
+  ],
+  "sources": [
+    { "name": "MDN",     "url": "https://www.gub.uy/ministerio-defensa-nacional", "site_operator": "site:gub.uy/ministerio-defensa-nacional", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Armada",  "url": "https://www.armada.mil.uy",  "site_operator": "site:armada.mil.uy",  "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "SCAR",    "url": "https://www.scar.org",       "site_operator": "site:scar.org",       "type": "scientific","priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

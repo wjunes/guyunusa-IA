@@ -1,0 +1,22 @@
+{
+  "domain": "desarrollo-social-inclusion-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "MIDES programas sociales Uruguay pobreza",
+    "INAU infancia adolescencia Uruguay protección",
+    "INMUJERES género políticas públicas Uruguay",
+    "INJU juventud programas Uruguay",
+    "discapacidad PRONADIS Uruguay inclusión",
+    "primera infancia CAIF Uruguay desarrollo"
+  ],
+  "sources": [
+    { "name": "MIDES",    "url": "https://www.gub.uy/ministerio-desarrollo-social",   "site_operator": "site:gub.uy/ministerio-desarrollo-social",   "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INAU",     "url": "https://www.inau.gub.uy",                            "site_operator": "site:inau.gub.uy",                            "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "INMUJERES","url": "https://www.gub.uy/instituto-nacional-mujeres",      "site_operator": "site:gub.uy/instituto-nacional-mujeres",      "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "INJU",     "url": "https://www.gub.uy/instituto-nacional-juventud",     "site_operator": "site:gub.uy/instituto-nacional-juventud",     "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

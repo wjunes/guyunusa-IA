@@ -20,6 +20,7 @@ import paymentRoutes from './src/routes/payment.routes.js';
 import chatRoutes from './src/routes/chat.routes.js';
 import userRoutes from './src/routes/user.routes.js';
 import downloadsRoutes from './src/routes/downloads.routes.js';
+import knowledgeReviewRoutes from './src/routes/knowledge-review.routes.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -131,6 +132,12 @@ async function main() {
   app.use('/api/v1/chat', chatRoutes);
   app.use('/api/v1/user', userRoutes);
   app.use('/api/v1/downloads', downloadsRoutes);
+
+  // ── Knowledge Updater — solo LOCAL, deshabilitado en producción ──
+  if (process.env.KNOWLEDGE_ENV === 'local' || process.env.NODE_ENV !== 'production') {
+    app.use('/api/v1/knowledge', knowledgeReviewRoutes);
+    logger.info('Knowledge Review API habilitada (local)');
+  }
 
   // ── Health check ──
   app.get('/api/v1/health', (_req, res) => {

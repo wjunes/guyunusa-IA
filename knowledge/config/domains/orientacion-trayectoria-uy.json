@@ -1,0 +1,20 @@
+{
+  "domain": "orientacion-trayectoria-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "orientación vocacional educativa Uruguay jóvenes",
+    "oferta formativa Uruguay UdelaR UTEC UTU nuevas carreras",
+    "becas estudios Uruguay BCAS MEC convocatorias",
+    "inserción laboral jóvenes Uruguay INJU INEFOP",
+    "proyecto de vida educación Uruguay herramientas"
+  ],
+  "sources": [
+    { "name": "MEC",    "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INJU",   "url": "https://www.gub.uy/instituto-nacional-juventud",  "site_operator": "site:gub.uy/instituto-nacional-juventud",  "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "INEFOP", "url": "https://www.inefop.org.uy",                       "site_operator": "site:inefop.org.uy",                       "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

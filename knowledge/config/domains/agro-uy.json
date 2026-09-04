@@ -1,0 +1,23 @@
+{
+  "domain": "agro-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "agricultura Uruguay normativa",
+    "ganadería Uruguay 2026",
+    "MGAP resoluciones",
+    "INIA investigación agropecuaria Uruguay",
+    "exportaciones agropecuarias Uruguay",
+    "sanidad animal vegetal Uruguay"
+  ],
+  "sources": [
+    { "name": "MGAP",       "url": "https://www.mgap.gub.uy",  "site_operator": "site:mgap.gub.uy",  "type": "official",    "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INIA",       "url": "https://www.inia.uy",       "site_operator": "site:inia.uy",       "type": "scientific",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "INAC",       "url": "https://www.inac.uy",       "site_operator": "site:inac.uy",       "type": "official",    "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "INALE",      "url": "https://www.inale.org.uy",  "site_operator": "site:inale.org.uy",  "type": "official",    "priority": 7,  "enabled": true, "auto_approve": false },
+    { "name": "SUL",        "url": "https://www.sul.org.uy",    "site_operator": "site:sul.org.uy",    "type": "sectorial",   "priority": 6,  "enabled": true, "auto_approve": false }
+  ]
+}

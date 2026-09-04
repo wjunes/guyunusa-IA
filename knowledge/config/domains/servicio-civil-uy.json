@@ -1,0 +1,21 @@
+{
+  "domain": "servicio-civil-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "ONSC servicio civil empleo público Uruguay",
+    "Estatuto Funcionario Público Uruguay Ley 19121",
+    "INAP capacitación funcionarios públicos Uruguay",
+    "concursos ingreso carrera administrativa Uruguay",
+    "negociación colectiva Estado COFE Uruguay Ley 18508",
+    "remuneraciones empleo público Uruguay estadísticas"
+  ],
+  "sources": [
+    { "name": "ONSC", "url": "https://www.onsc.gub.uy", "site_operator": "site:onsc.gub.uy", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INAP", "url": "https://www.inap.gub.uy", "site_operator": "site:inap.gub.uy", "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "OPP",  "url": "https://www.opp.gub.uy",  "site_operator": "site:opp.gub.uy",  "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

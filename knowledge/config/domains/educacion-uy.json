@@ -1,0 +1,22 @@
+{
+  "domain": "educacion-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "ANEP educación Uruguay",
+    "UDELAR universidad Uruguay",
+    "UTU educación técnica Uruguay",
+    "CEIP primaria Uruguay",
+    "CES secundaria Uruguay bachillerato",
+    "becas educación Uruguay"
+  ],
+  "sources": [
+    { "name": "ANEP",      "url": "https://www.anep.edu.uy",   "site_operator": "site:anep.edu.uy",   "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "UDELAR",    "url": "https://www.udelar.edu.uy", "site_operator": "site:udelar.edu.uy", "type": "academic",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "UTU",       "url": "https://www.utec.edu.uy",   "site_operator": "site:utec.edu.uy",   "type": "official",   "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "INEED",     "url": "https://www.ineed.edu.uy",  "site_operator": "site:ineed.edu.uy",  "type": "official",   "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "domain": "sindicalismo-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "PIT-CNT Uruguay central sindical conflictos laborales",
+    "fuero sindical Uruguay Ley 17940 protección",
+    "negociación colectiva Consejos Salarios Uruguay",
+    "huelga ocupación Uruguay derecho laboral",
+    "sindicatos sectoriales Uruguay educación salud industria",
+    "historia sindical Uruguay CNT dictadura democracia"
+  ],
+  "sources": [
+    { "name": "PIT-CNT", "url": "https://www.pitcnt.uy",    "site_operator": "site:pitcnt.uy",    "type": "sectorial", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MTSS",    "url": "https://www.mtss.gub.uy",  "site_operator": "site:mtss.gub.uy",  "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "OIT",     "url": "https://www.ilo.org/americas/paises/uruguay", "site_operator": "site:ilo.org", "type": "scientific", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

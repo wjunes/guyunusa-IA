@@ -1,0 +1,19 @@
+{
+  "domain": "ute-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "UTE Uruguay RBT actualización reglamento eléctrico",
+    "norma enlace baja tensión UTE 2026 cambios",
+    "microgeneración fotovoltaica net metering UTE Uruguay",
+    "carga vehículos eléctricos UTE Uruguay normativa",
+    "tarifas UTE Uruguay actualización precios"
+  ],
+  "sources": [
+    { "name": "UTE",  "url": "https://www.ute.com.uy",  "site_operator": "site:ute.com.uy",  "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "URSEA","url": "https://www.ursea.gub.uy","site_operator": "site:ursea.gub.uy","type": "official", "priority": 8,  "enabled": true, "auto_approve": false }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "cine-series-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "cine uruguayo ICAU nuevas películas festivales",
+    "ICAU fondo fomento cinematográfico convocatorias",
+    "Cinemateca Uruguaya archivo fílmico actividad",
+    "directores uruguayos nuevas producciones coproducciones",
+    "series televisión Uruguay SODRE nuevas producciones"
+  ],
+  "sources": [
+    { "name": "ICAU",       "url": "https://www.icau.mec.gub.uy", "site_operator": "site:icau.mec.gub.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Cinemateca", "url": "https://www.cinemateca.org.uy","site_operator": "site:cinemateca.org.uy","type": "sectorial","priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "ACAU",       "url": "https://www.acau.com.uy",      "site_operator": "site:acau.com.uy",      "type": "sectorial","priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

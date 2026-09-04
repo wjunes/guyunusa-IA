@@ -1,0 +1,20 @@
+{
+  "domain": "agua-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "OSE Uruguay agua potable",
+    "recursos hídricos Uruguay",
+    "saneamiento Uruguay",
+    "Dinagua normativa agua Uruguay",
+    "cuencas hidrográficas Uruguay"
+  ],
+  "sources": [
+    { "name": "OSE",      "url": "https://www.ose.com.uy",    "site_operator": "site:ose.com.uy",   "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Dinagua",  "url": "https://www.dinagua.gub.uy","site_operator": "site:dinagua.gub.uy","type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "MVOT",     "url": "https://www.mvot.gub.uy",   "site_operator": "site:mvot.gub.uy",  "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

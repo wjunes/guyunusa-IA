@@ -1,0 +1,22 @@
+{
+  "domain": "empresas-publicas-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "UTE Uruguay resultados tarifas electricidad",
+    "ANCAP combustibles precios Uruguay",
+    "ANTEL telecomunicaciones Uruguay resultados",
+    "OSE agua saneamiento Uruguay gestión",
+    "BROU banco resultados Uruguay sistema financiero",
+    "empresas públicas Uruguay regulación OPP"
+  ],
+  "sources": [
+    { "name": "UTE",   "url": "https://www.ute.com.uy",  "site_operator": "site:ute.com.uy",  "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "ANCAP", "url": "https://www.ancap.com.uy","site_operator": "site:ancap.com.uy","type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "ANTEL", "url": "https://www.antel.com.uy","site_operator": "site:antel.com.uy","type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "OPP",   "url": "https://www.opp.gub.uy",  "site_operator": "site:opp.gub.uy",  "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

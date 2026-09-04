@@ -1,0 +1,22 @@
+{
+  "domain": "sistema-financiero-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "BCU Uruguay sistema financiero regulación",
+    "SSF superintendencia servicios financieros Uruguay",
+    "bancos Uruguay crédito tasas interés",
+    "AFAPs rentabilidad ahorro previsional Uruguay",
+    "mercado de valores Uruguay BVM",
+    "inclusión financiera Uruguay BCU"
+  ],
+  "sources": [
+    { "name": "BCU",   "url": "https://www.bcu.gub.uy",   "site_operator": "site:bcu.gub.uy",   "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "BROU",  "url": "https://www.brou.com.uy",  "site_operator": "site:brou.com.uy",  "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "BSE",   "url": "https://www.bse.com.uy",   "site_operator": "site:bse.com.uy",   "type": "official", "priority": 7,  "enabled": true, "auto_approve": false },
+    { "name": "AEBU",  "url": "https://www.aebu.org.uy",  "site_operator": "site:aebu.org.uy",  "type": "sectorial","priority": 6,  "enabled": true, "auto_approve": false }
+  ]
+}

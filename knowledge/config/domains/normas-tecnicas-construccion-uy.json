@@ -1,0 +1,20 @@
+{
+  "domain": "normas-tecnicas-construccion-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "UNIT normas técnicas construcción Uruguay nuevas versiones",
+    "RBT reglamento baja tensión UTE actualización",
+    "CIRSOC Uruguay normas estructurales revisión",
+    "eficiencia energética edificios Uruguay Ley 19717",
+    "accesibilidad construcción Uruguay Ley 18651 UNIT 200"
+  ],
+  "sources": [
+    { "name": "UNIT", "url": "https://www.unit.org.uy", "site_operator": "site:unit.org.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "UTE",  "url": "https://www.ute.com.uy",  "site_operator": "site:ute.com.uy",  "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "MVOTMA","url": "https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial","site_operator": "site:gub.uy/ministerio-vivienda-ordenamiento-territorial","type": "official","priority": 7,"enabled": true,"auto_approve": false }
+  ]
+}

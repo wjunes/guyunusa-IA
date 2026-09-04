@@ -1,0 +1,20 @@
+{
+  "domain": "justicia-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "Poder Judicial Uruguay SCJ jurisprudencia sentencias",
+    "Fiscalía General Nación Uruguay IMPO normativa",
+    "Defensoría Pública Uruguay acceso justicia",
+    "mediación penal Uruguay CPP Ley 19293",
+    "estadísticas judiciales Uruguay UFFP"
+  ],
+  "sources": [
+    { "name": "Poder-Judicial","url": "https://www.poderjudicial.gub.uy", "site_operator": "site:poderjudicial.gub.uy", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Fiscalía",     "url": "https://www.fiscalia.gub.uy",      "site_operator": "site:fiscalia.gub.uy",      "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "IMPO",         "url": "https://www.impo.com.uy",          "site_operator": "site:impo.com.uy",          "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

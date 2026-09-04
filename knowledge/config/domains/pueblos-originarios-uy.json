@@ -1,0 +1,19 @@
+{
+  "domain": "pueblos-originarios-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "charrúas Uruguay identidad contemporánea organizaciones",
+    "pueblos originarios Uruguay legislación derechos",
+    "CONACHA Consejo Nación Charrúa Uruguay",
+    "patrimonio indígena Uruguay arqueología investigación",
+    "afrodescendientes indígenas Uruguay historia mestizaje"
+  ],
+  "sources": [
+    { "name": "MEC",         "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "FHCE-UdelaR", "url": "https://www.fhce.edu.uy",                         "site_operator": "site:fhce.edu.uy",                         "type": "scientific", "priority": 8,  "enabled": true, "auto_approve": false }
+  ]
+}

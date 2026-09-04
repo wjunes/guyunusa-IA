@@ -1,0 +1,22 @@
+{
+  "domain": "trabajo-derecho-laboral-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "Consejos de Salarios Uruguay MTSS laudos",
+    "negociación colectiva convenios Uruguay PIT-CNT",
+    "fuero sindical Ley 17940 Uruguay",
+    "teletrabajo Uruguay Ley 20399 normativa",
+    "seguridad higiene laboral Uruguay IGTSS",
+    "empleo desempleo estadísticas INE Uruguay"
+  ],
+  "sources": [
+    { "name": "MTSS",    "url": "https://www.mtss.gub.uy",   "site_operator": "site:mtss.gub.uy",   "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "IGTSS",   "url": "https://www.igtss.gub.uy",  "site_operator": "site:igtss.gub.uy",  "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "PIT-CNT", "url": "https://www.pitcnt.uy",     "site_operator": "site:pitcnt.uy",     "type": "sectorial", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "OIT-UY",  "url": "https://www.ilo.org/americas/paises/uruguay", "site_operator": "site:ilo.org", "type": "scientific", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

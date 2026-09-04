@@ -1,0 +1,20 @@
+{
+  "domain": "medio-ambiente-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "MVOTMA medioambiente Uruguay",
+    "Dinama evaluación impacto ambiental Uruguay",
+    "cambio climático Uruguay",
+    "biodiversidad Uruguay",
+    "residuos gestión ambiental Uruguay"
+  ],
+  "sources": [
+    { "name": "MVOTMA",   "url": "https://www.mvotma.gub.uy",  "site_operator": "site:mvotma.gub.uy",  "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINAMA",   "url": "https://www.dinama.gub.uy",  "site_operator": "site:dinama.gub.uy",  "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "SNAP",     "url": "https://www.snap.gub.uy",    "site_operator": "site:snap.gub.uy",    "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

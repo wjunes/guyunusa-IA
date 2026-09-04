@@ -1,0 +1,20 @@
+{
+  "domain": "ose-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "OSE Uruguay reglamento agua potable saneamiento",
+    "UNIT 8 UNIT 9 instalaciones sanitarias Uruguay",
+    "tarifas OSE Uruguay actualización agua saneamiento",
+    "redes por terceros OSE Uruguay reglamento",
+    "calidad agua potable Uruguay UNIT 833 MSP"
+  ],
+  "sources": [
+    { "name": "OSE",   "url": "https://www.ose.com.uy",  "site_operator": "site:ose.com.uy",  "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "URSEA", "url": "https://www.ursea.gub.uy","site_operator": "site:ursea.gub.uy","type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "UNIT",  "url": "https://www.unit.org.uy", "site_operator": "site:unit.org.uy", "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

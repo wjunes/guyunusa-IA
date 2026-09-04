@@ -1,0 +1,20 @@
+{
+  "domain": "oceanografia-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "oceanografía Uruguay Río de la Plata investigación SOHMA",
+    "ZEE Uruguay CONVEMAR plataforma continental recursos",
+    "exploración offshore Uruguay ANCAP bloques",
+    "biodiversidad marina Uruguay DINARA ZEE conservación",
+    "cables submarinos Uruguay telecomunicaciones atlántico"
+  ],
+  "sources": [
+    { "name": "SOHMA",   "url": "https://www.armada.mil.uy",  "site_operator": "site:armada.mil.uy",   "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINARA",  "url": "https://www.dinara.gub.uy",  "site_operator": "site:dinara.gub.uy",   "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "ANCAP",   "url": "https://www.ancap.com.uy",   "site_operator": "site:ancap.com.uy",    "type": "official",   "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

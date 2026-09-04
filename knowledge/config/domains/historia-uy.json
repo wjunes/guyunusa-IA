@@ -1,0 +1,20 @@
+{
+  "domain": "historia-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "historia Uruguay nueva publicación académica investigación",
+    "Artigas artiguismo historiografía Uruguay revisión",
+    "batllismo Estado bienestar Uruguay historia siglo XX",
+    "dictadura transición democrática Uruguay 1973 1985",
+    "historia económica Uruguay siglo XIX XX"
+  ],
+  "sources": [
+    { "name": "AGN",         "url": "https://www.gub.uy/archivo-general-nacion",  "site_operator": "site:gub.uy/archivo-general-nacion",  "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "FHCE-UdelaR", "url": "https://www.fhce.edu.uy",                   "site_operator": "site:fhce.edu.uy",                   "type": "scientific", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "Banda-Oriental","url": "https://www.edicionesbo.com.uy",           "site_operator": "site:edicionesbo.com.uy",            "type": "academic",   "priority": 6,  "enabled": true, "auto_approve": false }
+  ]
+}

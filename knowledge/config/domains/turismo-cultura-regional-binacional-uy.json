@@ -1,0 +1,19 @@
+{
+  "domain": "turismo-cultura-regional-binacional-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "turismo Argentina Uruguay pasos fronterizos conectividad",
+    "Free Shops frontera Brasil Uruguay Rivera Chuy",
+    "Tango UNESCO Argentina Uruguay patrimonio",
+    "enoturismo Uruguay Colonia Carmelo turismo binacional",
+    "conectividad aérea Uruguay Argentina Brasil LATAM"
+  ],
+  "sources": [
+    { "name": "MINTUR",  "url": "https://www.gub.uy/ministerio-turismo", "site_operator": "site:gub.uy/ministerio-turismo", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MRREE",   "url": "https://www.gub.uy/ministerio-relaciones-exteriores","site_operator": "site:gub.uy/ministerio-relaciones-exteriores","type": "official","priority": 8,"enabled": true,"auto_approve": false }
+  ]
+}

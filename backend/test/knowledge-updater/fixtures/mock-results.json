@@ -1,0 +1,46 @@
+[
+  {
+    "domain": "agro-uy",
+    "source": "MGAP",
+    "source_type": "official",
+    "priority": 10,
+    "url": "https://www.mgap.gub.uy/normativa/decreto-123-2026",
+    "title": "Decreto 123/2026 — Normativa fitosanitaria para exportación de cítricos",
+    "description": "El Ministerio de Ganadería, Agricultura y Pesca publicó el decreto que regula los requisitos fitosanitarios para la exportación de cítricos a mercados de la UE.",
+    "query_used": "site:mgap.gub.uy normativa fitosanitaria 2026",
+    "fetched_at": "2026-09-03T10:00:00Z"
+  },
+  {
+    "domain": "agro-uy",
+    "source": "INIA",
+    "source_type": "scientific",
+    "priority": 9,
+    "url": "https://www.inia.uy/publicaciones/investigacion-soja-resistencia-2026",
+    "title": "Nuevas variedades de soja resistentes a roya — INIA 2026",
+    "description": "El Instituto Nacional de Investigación Agropecuaria presenta resultados de ensayos con variedades de soja con mayor resistencia a roya asiática en condiciones uruguayas.",
+    "query_used": "site:inia.uy investigación soja 2026",
+    "fetched_at": "2026-09-03T10:01:00Z"
+  },
+  {
+    "domain": "agro-uy",
+    "source": "Blog random",
+    "source_type": "generic",
+    "priority": 2,
+    "url": "https://blogfarmero.com/uruguay-clima-2026",
+    "title": "El clima en Uruguay afecta la cosecha",
+    "description": "Un análisis general sobre cómo el clima puede afectar la cosecha en Uruguay. Opinión personal del autor.",
+    "query_used": "agricultura Uruguay",
+    "fetched_at": "2026-09-03T10:02:00Z"
+  },
+  {
+    "domain": "agro-uy",
+    "source": "MGAP",
+    "source_type": "official",
+    "priority": 10,
+    "url": "https://www.mgap.gub.uy/sanidad/fmd-libre-2026",
+    "title": "Uruguay mantiene estatus libre de aftosa sin vacunación — MGAP 2026",
+    "description": "El MGAP confirma que Uruguay mantiene el reconocimiento internacional de país libre de fiebre aftosa sin vacunación, habilitando acceso a mercados premium.",
+    "query_used": "site:mgap.gub.uy sanidad animal 2026",
+    "fetched_at": "2026-09-03T10:03:00Z"
+  }
+]

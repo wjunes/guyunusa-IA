@@ -1,0 +1,21 @@
+{
+  "domain": "propiedad-intelectual-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 75,
+  "discard_threshold": 50,
+  "topics": [
+    "DNPI marcas patentes Uruguay registro",
+    "derechos autor Uruguay AGADU Ley 9739",
+    "propiedad intelectual software Uruguay OMPI",
+    "obtenciones vegetales Uruguay Ley 16580 UPOV",
+    "dominios .uy registro SECIU Uruguay",
+    "observancia delitos propiedad intelectual Uruguay"
+  ],
+  "sources": [
+    { "name": "DNPI",  "url": "https://www.gub.uy/ministerio-industria-energia-mineria/politicas-y-gestion/propiedad-industrial", "site_operator": "site:gub.uy/ministerio-industria-energia-mineria", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "AGADU", "url": "https://www.agadu.org.uy", "site_operator": "site:agadu.org.uy", "type": "sectorial", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "OMPI",  "url": "https://www.wipo.int/portal/es",  "site_operator": "site:wipo.int",  "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

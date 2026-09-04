@@ -1,0 +1,22 @@
+{
+  "domain": "economia-finanzas-impuestos-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "DGI impuestos Uruguay IRPF IRAE",
+    "MEF ministerio economía Uruguay presupuesto",
+    "BCU banco central Uruguay tasas",
+    "BPS seguridad social aportes Uruguay",
+    "BROU banco república Uruguay"
+  ],
+  "sources": [
+    { "name": "DGI",  "url": "https://www.dgi.gub.uy",  "site_operator": "site:dgi.gub.uy",  "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEF",  "url": "https://www.mef.gub.uy",  "site_operator": "site:mef.gub.uy",  "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "BCU",  "url": "https://www.bcu.gub.uy",  "site_operator": "site:bcu.gub.uy",  "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "BPS",  "url": "https://www.bps.gub.uy",  "site_operator": "site:bps.gub.uy",  "type": "official",  "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "BROU", "url": "https://www.brou.com.uy", "site_operator": "site:brou.com.uy", "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

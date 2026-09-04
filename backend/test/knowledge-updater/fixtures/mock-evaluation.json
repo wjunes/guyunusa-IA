@@ -1,0 +1,44 @@
+{
+  "high_relevance": {
+    "relevance": 92,
+    "confidence": 95,
+    "novelty": 85,
+    "validity": 98,
+    "impact": 80,
+    "overall_score": 91,
+    "recommendation": "auto_approve",
+    "reason": "Fuente oficial del MGAP, decreto vigente, alta relevancia para el dominio agro-uy.",
+    "key_topics": ["normativa", "fitosanitario", "exportación", "cítricos"],
+    "evaluated_at": "2026-09-03T10:05:00Z",
+    "model": "test",
+    "dry_run": true
+  },
+  "medium_relevance": {
+    "relevance": 78,
+    "confidence": 82,
+    "novelty": 75,
+    "validity": 85,
+    "impact": 65,
+    "overall_score": 78,
+    "recommendation": "review",
+    "reason": "Información relevante de fuente científica, requiere verificación de vigencia.",
+    "key_topics": ["soja", "resistencia", "roya"],
+    "evaluated_at": "2026-09-03T10:05:01Z",
+    "model": "test",
+    "dry_run": true
+  },
+  "low_relevance": {
+    "relevance": 30,
+    "confidence": 20,
+    "novelty": 40,
+    "validity": 50,
+    "impact": 20,
+    "overall_score": 30,
+    "recommendation": "discard",
+    "reason": "Fuente de baja confiabilidad, contenido demasiado genérico, sin valor específico para BNC-UY.",
+    "key_topics": [],
+    "evaluated_at": "2026-09-03T10:05:02Z",
+    "model": "test",
+    "dry_run": true
+  }
+}

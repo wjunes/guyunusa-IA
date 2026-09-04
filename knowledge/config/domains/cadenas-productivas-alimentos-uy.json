@@ -1,0 +1,22 @@
+{
+  "domain": "cadenas-productivas-alimentos-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "cadena láctea Uruguay Conaprole exportaciones",
+    "cadena cárnica Uruguay INAC trazabilidad Cuota Hilton",
+    "vitivinicultura Uruguay Tannat INAVI exportación",
+    "soja cereales Uruguay exportaciones litoral",
+    "cadena forestal celulosa UPM Uruguay",
+    "certificaciones agroalimentarias Uruguay inocuidad"
+  ],
+  "sources": [
+    { "name": "INAC",     "url": "https://www.inac.uy",         "site_operator": "site:inac.uy",         "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INAVI",    "url": "https://www.inavi.com.uy",    "site_operator": "site:inavi.com.uy",    "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "INIA",     "url": "https://www.inia.uy",         "site_operator": "site:inia.uy",         "type": "scientific","priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "Uruguay-XXI","url": "https://www.uruguayxxi.gub.uy","site_operator": "site:uruguayxxi.gub.uy","type": "official","priority": 7,"enabled": true, "auto_approve": false }
+  ]
+}

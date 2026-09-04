@@ -1,0 +1,35 @@
+{
+  "run_id": "run-mtlvfvv3",
+  "started_at": "2026-09-03T18:41:36.765Z",
+  "finished_at": "2026-09-03T18:41:36.782Z",
+  "duration_sec": 0,
+  "dry_run": true,
+  "domains_processed": [
+    "agro-uy"
+  ],
+  "sourcesQueried": 5,
+  "resultsFound": 0,
+  "newResults": 0,
+  "modifiedResults": 0,
+  "duplicates": 0,
+  "discarded": 0,
+  "candidates": 0,
+  "autoApproved": 0,
+  "pendingReview": 0,
+  "errors": 0,
+  "by_domain": [
+    {
+      "domain": "agro-uy",
+      "sourcesQueried": 5,
+      "resultsFound": 0,
+      "newResults": 0,
+      "modifiedResults": 0,
+      "duplicates": 0,
+      "discarded": 0,
+      "candidates": 0,
+      "autoApproved": 0,
+      "pendingReview": 0,
+      "errors": []
+    }
+  ]
+}

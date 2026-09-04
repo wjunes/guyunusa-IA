@@ -1,0 +1,20 @@
+{
+  "domain": "municipios-fiestas-locales-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "fiestas regionales Uruguay calendario anual departamentos",
+    "municipios Uruguay descentralización nuevas autoridades",
+    "intendencias Uruguay gestión presupuesto anual",
+    "patrimonio local departamental Uruguay turismo cultural",
+    "FIGM fondos municipios Uruguay descentralización"
+  ],
+  "sources": [
+    { "name": "OPP",    "url": "https://www.opp.gub.uy",  "site_operator": "site:opp.gub.uy",  "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "MINTUR", "url": "https://www.gub.uy/ministerio-turismo","site_operator": "site:gub.uy/ministerio-turismo","type": "official","priority": 8,"enabled": true,"auto_approve": false },
+    { "name": "Congreso-Intendentes","url": "https://www.gub.uy/congreso-intendentes","site_operator": "site:gub.uy/congreso-intendentes","type": "official","priority": 7,"enabled": true,"auto_approve": false }
+  ]
+}

@@ -36,7 +36,7 @@ Dominio de conocimiento sobre el comercio exterior de la República Oriental del
 | 08-balanza-comercial.md | Balanza de bienes, servicios, cuenta corriente e indicadores |
 | 09-mercosur-y-politica-comercial.md | MERCOSUR como marco de política comercial: AEC, libre comercio, agenda externa |
 | 10-aladi-y-acuerdos-bilaterales.md | ALADI, ACE, PAR y acuerdos de complementación económica |
-| 11-acuerdo-mercosur-union-europea.md | Negociación, contenido y perspectivas del acuerdo MERCOSUR-UE |
+| 11-acuerdo-mercosur-union-europea.md | Acuerdo MERCOSUR-UE: historia, estructura, ratificación y entrada en vigor (aplicación provisional desde 1° mayo 2026) |
 | 12-relaciones-comerciales-con-china.md | China como principal destino; negociación TLC Uruguay-China |
 | 13-inversion-extranjera-directa.md | IED: flujos, sectores, países de origen, marco legal (Ley 16.906) |
 | 14-zonas-francas-exportacion-servicios.md | Zonas francas como plataforma de exportación de servicios globales |
@@ -46,6 +46,8 @@ Dominio de conocimiento sobre el comercio exterior de la República Oriental del
 | 18-linea-de-tiempo.md | Cronología del comercio exterior uruguayo: 1829–2024 |
 | 19-glosario.md | Glosario de términos de comercio exterior |
 | 20-faq.md | Preguntas frecuentes sobre comercio exterior en Uruguay |
+| 21-concesiones-arancelarias-mercosur-ue.md | Cuotas, cronogramas de desgravación por producto y sistema de origen REX (acuerdo MERCOSUR-UE) |
+| 22-impacto-uruguay-mercosur-ue.md | Impacto del acuerdo en Uruguay: proyecciones, sectores, pymes, resultados iniciales y obligaciones |
 
 ---
 
@@ -58,7 +60,8 @@ Dominio de conocimiento sobre el comercio exterior de la República Oriental del
 | Ley 16.906 (1998) | Ley de Inversiones |
 | Ley 15.921 (1987) | Zonas Francas |
 | Ley 17.292 (2001) | Régimen de Maquila |
-| Acuerdo MERCOSUR-UE (2019) | Acuerdo de asociación (pendiente de ratificación al 2024) |
+| Ley 20.462 (2026) | Ratificación por Uruguay del Acuerdo de Asociación MERCOSUR-UE (promulgada 26/02/2026) |
+| Acuerdo MERCOSUR-UE / iTA (2026) | Acuerdo de Asociación (EMPA); pilar comercial en aplicación provisional desde 1° mayo 2026 |
 
 ---
 

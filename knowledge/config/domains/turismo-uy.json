@@ -1,0 +1,19 @@
+{
+  "domain": "turismo-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "Ministerio Turismo Uruguay",
+    "destinos turísticos Uruguay",
+    "turismo receptivo Uruguay estadísticas",
+    "Carnaval Uruguay declaraciones",
+    "temporada turística Uruguay"
+  ],
+  "sources": [
+    { "name": "MINTUR",  "url": "https://www.turismo.gub.uy",  "site_operator": "site:turismo.gub.uy",  "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "Uruguay Natural", "url": "https://www.uruguaynatural.com", "site_operator": "site:uruguaynatural.com", "type": "official", "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

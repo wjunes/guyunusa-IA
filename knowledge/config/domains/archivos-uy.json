@@ -1,0 +1,19 @@
+{
+  "domain": "archivos-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 68,
+  "discard_threshold": 44,
+  "topics": [
+    "AGN Archivo General Nación Uruguay digitalización",
+    "sistema archivístico nacional Uruguay normas",
+    "archivos departamentales Uruguay gestión documental",
+    "archivos notariales Uruguay AEU",
+    "normas archivísticas Uruguay ISAD ISAAR"
+  ],
+  "sources": [
+    { "name": "AGN", "url": "https://www.gub.uy/archivo-general-nacion", "site_operator": "site:gub.uy/archivo-general-nacion", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEC", "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official", "priority": 7, "enabled": true, "auto_approve": false }
+  ]
+}

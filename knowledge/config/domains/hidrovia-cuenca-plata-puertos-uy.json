@@ -1,0 +1,20 @@
+{
+  "domain": "hidrovia-cuenca-plata-puertos-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 72,
+  "discard_threshold": 48,
+  "topics": [
+    "Puerto Montevideo ANP dragado inversión nueva infraestructura",
+    "hidrovía Paraná Paraguay Uruguay CIH regulación",
+    "Puerto Nueva Palmira graneles celulosa Uruguay",
+    "CARU CARP tratados fluviales Uruguay Argentina",
+    "logística portuaria Uruguay TCP Katoen Natie"
+  ],
+  "sources": [
+    { "name": "ANP",   "url": "https://www.anp.com.uy",  "site_operator": "site:anp.com.uy",  "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MTOP",  "url": "https://www.mtop.gub.uy", "site_operator": "site:mtop.gub.uy", "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "CARU",  "url": "https://www.caru.org.ar",  "site_operator": "site:caru.org.ar",  "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

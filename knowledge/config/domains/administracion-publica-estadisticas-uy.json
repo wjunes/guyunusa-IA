@@ -1,0 +1,22 @@
+{
+  "domain": "administracion-publica-estadisticas-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "INE Uruguay estadísticas nacionales encuestas",
+    "empleo desempleo ECH INE Uruguay",
+    "IPC inflación precios Uruguay INE",
+    "Estado uruguayo administración pública gestión",
+    "presupuesto nacional Uruguay rendición cuentas",
+    "AGEV gestión por resultados Uruguay"
+  ],
+  "sources": [
+    { "name": "INE",    "url": "https://www.ine.gub.uy",    "site_operator": "site:ine.gub.uy",    "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MEF",    "url": "https://www.mef.gub.uy",    "site_operator": "site:mef.gub.uy",    "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "OPP",    "url": "https://www.opp.gub.uy",    "site_operator": "site:opp.gub.uy",    "type": "official", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "ONSC",   "url": "https://www.onsc.gub.uy",   "site_operator": "site:onsc.gub.uy",   "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

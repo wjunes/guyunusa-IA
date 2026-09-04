@@ -1,0 +1,21 @@
+{
+  "domain": "relaciones-internacionales-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "política exterior Uruguay MRREE diplomacia",
+    "MERCOSUR Uruguay integración regional cumbres",
+    "Uruguay ONU OEA misiones paz organismos multilaterales",
+    "relaciones bilaterales Uruguay Argentina Brasil",
+    "cooperación internacional Uruguay acuerdos tratados",
+    "acuerdo MERCOSUR Unión Europea negociaciones"
+  ],
+  "sources": [
+    { "name": "MRREE",    "url": "https://www.gub.uy/ministerio-relaciones-exteriores", "site_operator": "site:gub.uy/ministerio-relaciones-exteriores", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MERCOSUR", "url": "https://www.mercosur.int",  "site_operator": "site:mercosur.int",  "type": "official", "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "OPP-COOP", "url": "https://www.opp.gub.uy",   "site_operator": "site:opp.gub.uy",   "type": "official", "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

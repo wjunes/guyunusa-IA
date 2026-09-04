@@ -1,7 +1,7 @@
 # BNC-UY — Inventario de dominios y documentos
 
-**Versión:** v92.0.0
-**Fecha:** 2026-08-26
+**Versión:** v93.0.0
+**Fecha:** 2026-09-03
 **Estado:** activo
 
 ---
@@ -9,6 +9,142 @@
 ## Descripción
 
 Este archivo es el registro maestro de la Base Nacional de Conocimiento Uruguay (BNC-UY). Lista todos los dominios activos, su estructura, cantidad de archivos y estado. Es utilizado por Guyunusa para descubrir qué dominios indexar.
+
+---
+
+## Clasificación por frecuencia de actualización (Motor BNC-UY)
+
+Esta sección define la política de actualización autónoma de cada dominio para el motor de conocimiento (`knowledge-updater`). La clasificación balancea la relevancia para el usuario, la tasa de cambio real de la información y el presupuesto de Brave Search API (2.000 búsquedas/mes, nivel gratuito).
+
+### Presupuesto estimado
+
+Cada exploración de dominio consume aproximadamente 7 búsquedas (temas × fuentes). El motor corre por defecto con `KNOWLEDGE_DRY_RUN=true`; las búsquedas reales solo se activan con `KNOWLEDGE_DRY_RUN=false`.
+
+| Tier | Frecuencia | Dominios | Búsquedas/ejecución | Ejecuciones/mes | Búsquedas/mes |
+|------|-----------|----------|---------------------|-----------------|---------------|
+| 1 — Críticos | Mensual | 15 | 7 | 1 | 105 |
+| 2 — Relevantes | Trimestral | 20 | 7 | 0,33 | 46 |
+| 3 — Estables | Semestral | 17 | 7 | 0,17 | 20 |
+| 4 — Históricos | Anual | 28 | 7 | 0,08 | 16 |
+| **Total** | | **80** | | | **~187** |
+
+Margen disponible para búsquedas manuales/ad-hoc: **~1.813 búsquedas/mes** (91% del cupo libre).
+
+---
+
+### Tier 1 — Actualización mensual (información dinámica, alta consulta)
+
+Criterios: datos que cambian mensualmente o ante eventos (precios, estadísticas, alertas), consultas frecuentes de usuarios, fuentes oficiales con publicación periódica.
+
+| Dominio | Razón de alta frecuencia |
+|---------|--------------------------|
+| `clima-meteorologia-uy` | INUMET emite boletines semanales/estacionales; anomalías climáticas frecuentes |
+| `economia-finanzas-impuestos-uy` | BCU publica tasas e indicadores mensuales; MEF/DGI actualizan normativa tributaria |
+| `sistema-financiero-uy` | Datos de crédito, tasas de cambio y regulación prudencial (BCU/SSF) cambian mensualmente |
+| `salud-uy` | Boletines epidemiológicos MSP, actualizaciones FONASA/ASSE, datos de mortalidad |
+| `agro-uy` | Precios INAC, estadísticas MGAP, normativas fitosanitarias y resultados de zafra |
+| `energia-uy` | Tarifas UTE/ANCAP, matriz renovable, balances energéticos mensuales MIEM/URSEA |
+| `sinae-uy` | Alertas de emergencias activas, temporada de inundaciones (mayo–agosto), riesgos hidrometeorológicos |
+| `arbovirosis-uy` | Vigilancia epidemiológica dengue/Zika; pico estacional noviembre–abril |
+| `seguridad-publica-uy` | Estadísticas criminalidad MI, cambios operacionales Policía Nacional, políticas de seguridad |
+| `trabajo-derecho-laboral-uy` | Rondas de Consejos de Salarios (semestrales), convenios colectivos, laudos MTSS |
+| `comercio-exterior-uy` | Estadísticas exportaciones/importaciones, regulaciones DNA, acuerdos MERCOSUR/OMC |
+| `tecnologia-uy` | Ecosistema startup en evolución, AGESIC/MIEM actualizaciones, sector software exportador |
+| `medio-ambiente-uy` | Alertas DINAMA, calidad del agua, informes cambio climático, normativa ambiental |
+| `sistema-politico-uy` | Actividad parlamentaria, decretos del Ejecutivo, reformas electorales, agenda política |
+| `gobierno-digital-uy` | AGESIC lanza servicios digitales continuamente; identidad digital, trámites gub.uy |
+
+---
+
+### Tier 2 — Actualización trimestral (información relevante con cambio moderado)
+
+Criterios: publicaciones trimestrales o semestrales de organismos oficiales, datos estructurales que evolucionan pero no diariamente.
+
+| Dominio | Razón de frecuencia trimestral |
+|---------|-------------------------------|
+| `educacion-uy` | MEC/ANEP publican estadísticas anuales/semestrales; reformas curriculares frecuentes |
+| `agua-uy` | DINAGUA/OSE informes calidad del agua, riesgo sequía/inundación, Comisiones de Cuenca |
+| `administracion-publica-estadisticas-uy` | INE publica encuestas trimestrales (ECH, IPC), censos y estadísticas del Estado |
+| `seguridad-social-uy` | BPS ajusta jubilaciones y subsidios periódicamente; AFAPs publican rentabilidades |
+| `desarrollo-social-inclusion-uy` | MIDES lanza programas y publica informes de pobreza/inclusión trimestralmente |
+| `mipymes-emprendimiento-uy` | ANDE convocatorias, datos demografía empresarial, cambios tributarios (Monotributo) |
+| `vivienda-uy` | ANV/MVOT programas de vivienda, estadísticas mercado inmobiliario, créditos BHU |
+| `movilidad-transporte-uy` | MTOP inversiones en infraestructura, STM datos operacionales, seguridad vial UNASEV |
+| `derechos-humanos-uy` | INDDHH informes periódicos, casos judiciales transicionales, normativa internacional |
+| `migracion-extranjeria-uy` | MRREE datos de flujos migratorios, nuevas resoluciones de residencia/visa |
+| `empresas-publicas-uy` | Resultados financieros trimestrales UTE/ANCAP/ANTEL/OSE/BROU; revisiones tarifarias |
+| `telecomunicaciones-uy` | URSEC conectividad, ANTEL cobertura 5G, licencias audiovisuales, Ley 19.307 |
+| `cadenas-productivas-alimentos-uy` | Datos de producción agroindustrial, exportaciones INAC/INAVI/CONAPROLE, certificaciones |
+| `relaciones-internacionales-uy` | Cumbres MERCOSUR/OEA/ONU, tratados bilaterales, actividad MRREE |
+| `educacion-superior-uy` | UdelaR/UTEC matrículas, nuevas carreras, internacionalización |
+| `turismo-uy` | MINTUR estadísticas estacionales, ingresos turísticos, nuevos destinos |
+| `defensa-del-consumidor-uy` | UDECO resoluciones, nuevas regulaciones MIEM, estadísticas reclamos |
+| `cooperativismo-uy` | INACOOP convocatorias, nuevas cooperativas, estadísticas del sector |
+| `finanzas-personales-uy` | BCU tasas de usura, UDECO orientación financiera, nuevos productos bancarios |
+| `medios-comunicacion-uy` | Cambios en el ecosistema mediático, libertad de prensa, URSEC licencias |
+
+---
+
+### Tier 3 — Actualización semestral (contenido estructural con baja frecuencia de cambio)
+
+Criterios: dominios con publicaciones anuales o bianuales, contenido que evoluciona lentamente, disciplinas con ciclos de investigación largos.
+
+| Dominio | Razón de frecuencia semestral |
+|---------|------------------------------|
+| `ciencias-uy` | PEDECIBA/ANII convocatorias bianuales, publicaciones científicas |
+| `educacion-tecnica-uy` | UTU/CETP actualiza planes de estudio anualmente |
+| `defensa-nacional-uy` | MDN política de defensa, misiones de paz (rotaciones semestrales) |
+| `aduanas-uy` | DNA actualizaciones arancelarias, nuevos regímenes aduaneros |
+| `servicio-civil-uy` | ONSC estadísticas anuales de empleo público, modificaciones al Estatuto |
+| `transparencia-uy` | UAIP/JUTEP informes anuales, declaraciones juradas, nuevas regulaciones |
+| `sociedad-civil-ong-voluntariado-uy` | MEC actualizaciones de personerías, MIDES programas anuales |
+| `sindicalismo-uy` | PIT-CNT congresos anuales, conflictos laborales, afiliación sindical |
+| `fauna-uy` | SNAP/DINARA planes de manejo, censos de especies, vedas de pesca |
+| `flora-uy` | Surveys de flora nativa, actualizaciones SNAP, invasoras detectadas |
+| `naturaleza-uy` | Nuevas áreas protegidas SNAP, planes de gestión, biodiversidad |
+| `parasitologia-uy` | MGAP/DILAVE informes de zoonosis, resistencia antiparasitaria, campañas |
+| `bacteriologia-uy` | MSP/MGAP informes de resistencia antimicrobiana, brotes bacterianos |
+| `propiedad-intelectual-uy` | DNPI estadísticas de registros, nuevas resoluciones, tratados OMPI |
+| `departamentos-uy` | INE publicaciones post-censo, nuevas intendencias/municipios, estadísticas |
+| `gastronomia-uy` | INAVI premios, GI reconocimientos, nuevas rutas gastronómicas |
+| `demografia-sociedad-uy` | INE publicaciones derivadas del Censo 2023, nuevas encuestas de hogares |
+
+---
+
+### Tier 4 — Actualización anual (contenido histórico o muy estable)
+
+Criterios: conocimiento histórico consolidado, normativa vigente con baja probabilidad de cambio, contenido cultural/patrimonial estático.
+
+| Dominio | Razón de frecuencia anual |
+|---------|--------------------------|
+| `historia-uy` | Conocimiento histórico consolidado; nuevas publicaciones académicas son esporádicas |
+| `personalidades-uy` | Perfiles biográficos; actualizaciones solo ante nuevos fallecimientos o reconocimientos |
+| `arqueologia-uy` | Investigación arqueológica de largo plazo; hallazgos excepcionales |
+| `arquitectura-uy` | Patrimonio construido; nuevas declaraciones MHN son infrecuentes |
+| `pueblos-originarios-uy` | Historia consolidada; nueva legislación o reconocimientos son esporádicos |
+| `afrodescendientes-uy` | Historia y cultura consolidada; actualizaciones INAFRO/legislación infrecuentes |
+| `laicidad-religiones-uy` | Marco constitucional estable; cambios en el panorama religioso son lentos |
+| `patrimonio-uy` | Declaraciones UNESCO/MEC infrecuentes; corpus patrimonial estable |
+| `geografia-uy` | Geografía física estable; actualizaciones IGM infrecuentes |
+| `oceanografia-uy` | Investigación oceanográfica de largo plazo; datos SOHMA/ANCAP actualizados anualmente |
+| `cultura-uy` | Cultura e identidad; nuevas manifestaciones culturales emergen gradualmente |
+| `deportes-uy` | Historia deportiva consolidada; estadísticas de competencias en curso son ad-hoc |
+| `basquet-uy` | Estructura institucional LUB/FUBB; actualización de campeones y selección |
+| `futbol-tactico-uy` | Conocimiento táctico metodológico; evoluciona en ciclos de años |
+| `cine-series-uy` | Historia audiovisual; novedades del sector en festivales/premios anuales |
+| `archivos-uy` | Sistema archivístico; cambios normativos/institucionales infrecuentes |
+| `bibliotecas-uy` | Red bibliotecaria; nuevos planes nacionales son plurianuales |
+| `documentacion-oficial-uy` | Metodología de referencias BNC-UY; actualizaciones ante cambios de IMPO/RNLD |
+| `justicia-uy` | Sistema de justicia; jurisprudencia SCJ se actualiza gradualmente |
+| `derecho-civil-penal-uy` | Derecho sustantivo y procesal; reformas legislativas son infrecuentes |
+| `normas-tecnicas-construccion-uy` | Reglamentos UNIT/CIRSOC; revisiones de normas cada varios años |
+| `ute-uy` | RBT y normativa eléctrica; actualizaciones cada 2–5 años |
+| `ose-uy` | Normativa OSE/UNIT 8-9; actualizaciones infrecuentes |
+| `antartida-atlanticosur-misionesdepaz-uy` | Tratado Antártico/CONVEMAR; política antártica estable; misiones rotativas |
+| `hidrovia-cuenca-plata-puertos-uy` | Infraestructura portuaria y tratados fluviales; cambios regulatorios lentos |
+| `municipios-fiestas-locales-uy` | Patrimonio local y fiestas regionales; calendario anual conocido |
+| `turismo-cultura-regional-binacional-uy` | Conectividad y turismo transfronterizo; cambios en acuerdos y pasos son anuales |
+| `orientacion-trayectoria-uy` | Orientación educativa; oferta formativa actualizada anualmente (inicio de año lectivo) |
 
 ---
 
@@ -137,6 +273,7 @@ A agosto de 2026, no hay dominios pendientes de incorporación. Todos los domini
 
 | Versión | Fecha | Cambio principal |
 | --- | --- | --- |
+| 93.0.0 | 2026-09-03 | Clasificación de los 80 dominios por frecuencia de actualización para el motor BNC-UY. Tier 1 mensual (15 dominios críticos): clima, economía, sistema financiero, salud, agro, energía, SINAE, arbovirosis, seguridad pública, trabajo/laboral, comercio exterior, tecnología, medio ambiente, sistema político, gobierno digital. Tier 2 trimestral (20 dominios relevantes): educación, agua, estadísticas, seguridad social, desarrollo social, MiPyMEs, vivienda, transporte, DDHH, migración, empresas públicas, telecomunicaciones, cadenas productivas, RRII, educación superior, turismo, consumidor, cooperativismo, finanzas personales, medios. Tier 3 semestral (17 dominios estables): ciencias, educación técnica, defensa, aduanas, servicio civil, transparencia, sociedad civil, sindicalismo, fauna, flora, naturaleza, parasitología, bacteriología, propiedad intelectual, departamentos, gastronomía, demografía. Tier 4 anual (28 dominios históricos): historia, personalidades, arqueología, arquitectura, pueblos originarios, afrodescendientes, laicidad, patrimonio, geografía, oceanografía, cultura, deportes, básquet, fútbol táctico, cine, archivos, bibliotecas, documentación oficial, justicia, derecho civil/penal, normas construcción, UTE, OSE, Antártida, hidrovía, municipios/fiestas, turismo binacional, orientación trayectoria. Presupuesto estimado: ~187 búsquedas/mes de 2.000 disponibles. |
 | 92.0.0 | 2026-08-26 | Alta de `derecho-civil-penal-uy` (22 archivos: README + 21 contenido). Derecho civil (personas, obligaciones, contratos, responsabilidad civil, derechos reales, familia, sucesiones), derecho penal general y especial, procesal civil (CGP Ley 15.982/1988) y penal (CPP Ley 19.293/2014), derecho notarial y ejercicio profesional de la escribanía, legislación complementaria (18+ leyes), prescripción y caducidad, procedimientos y actuaciones, evolución histórica del derecho uruguayo, glosario jurídico (~80 términos) y fuentes (IMPO, Poder Judicial, Fiscalía, AEU, UDELAR). Principio de responsabilidad LegalIA aplicado en todos los archivos. Total: 80 dominios, 1814 archivos. |
 | 91.0.0 | 2026-08-26 | Alta de `futbol-tactico-uy` (22 archivos: README + 21 contenido). Conocimiento táctico y metodológico del fútbol universal con contexto uruguayo: introducción y epistemología táctica, sistemas de juego (4-3-3/4-2-3-1/3-4-3 y variantes), fases y principios del juego, pressing y repliegue, transiciones TAD/TDA, construcción y salida de balón, modelo de juego y periodización táctica (Vítor Frade), análisis de rendimiento (xG/PPDA), preparación física integrada, aspectos psicológicos, toma de decisiones y comportamiento táctico, formación de jugadores (LTAD/RAE), contextos (infantil/amateur/profesional), evolución histórica táctica (WM/catenaccio/fútbol total/gegenpressing), glosario (~60 términos) y bibliografía. Sin dogmatismo táctico; no duplica deportes-uy. Total: 79 dominios, 1792 archivos. |
 | 90.0.0 | 2026-08-26 | Expansión de `normas-tecnicas-construccion-uy` (16 → 21 archivos, +5 nuevos de cálculo estructural). Método LRFD CIRSOC 201/ACI 318 (φ·Rn ≥ Σγi·Qi); diseño a flexión (bloque Whitney, As,min, ρmax), corte (Vc/Vs, estribos, d/2 y d/4), columnas (P-M, emin, cuantía 1-8%), losas (sentido simple, bidireccional, plana, punzonamiento); dosificación hormigón (f'cr, tabla a/c por clase de exposición, ACI 211, corrección humedad, Ec=4700√f'c); ejecución de obra (encofrados, vibración, curado mínimo 7 días, hormigonado en tiempo cálido/frío, condiciones Uruguay); durabilidad y patologías (exposición litoral/urbano/rural, recubrimientos, carbonatación, cloruros, fisuras w≤0.30mm, reparación); control de calidad (muestreo 1/100m³, criterio CIRSOC 201, no conformidades: esclerometría/ultrasonido/testigos). Total: 78 dominios, 1770 archivos. |

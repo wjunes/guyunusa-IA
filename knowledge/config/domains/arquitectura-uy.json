@@ -1,0 +1,20 @@
+{
+  "domain": "arquitectura-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "arquitectura uruguaya patrimonio nuevo MHN declaración",
+    "arquitectos uruguayos obras reconocimientos",
+    "arquitectura moderna racionalismo Uruguay siglo XX",
+    "restauración patrimonio construido Uruguay MEC",
+    "SAU Sociedad Arquitectos Uruguay actividad"
+  ],
+  "sources": [
+    { "name": "MEC-Patrimonio","url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "SAU",          "url": "https://www.sau.org.uy",                           "site_operator": "site:sau.org.uy",                          "type": "sectorial", "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "FADU-UdelaR",  "url": "https://www.fadu.edu.uy",                          "site_operator": "site:fadu.edu.uy",                         "type": "academic",  "priority": 7,  "enabled": true, "auto_approve": false }
+  ]
+}

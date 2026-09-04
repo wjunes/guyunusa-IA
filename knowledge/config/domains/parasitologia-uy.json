@@ -1,0 +1,21 @@
+{
+  "domain": "parasitologia-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "hidatidosis Uruguay MGAP MSP control zoonosis",
+    "garrapatas Uruguay Plan Nacional Ley 18268 DILAVE",
+    "leishmaniasis Uruguay vigilancia epidemiológica",
+    "toxoplasmosis Uruguay diagnóstico prevención",
+    "parasitosis animales producción Uruguay MGAP",
+    "Una Salud zoonosis Uruguay CONAHSA"
+  ],
+  "sources": [
+    { "name": "MGAP-DGSG","url": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca", "site_operator": "site:gub.uy/ministerio-ganaderia-agricultura-pesca", "type": "official",   "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "MSP",      "url": "https://www.msp.gub.uy",  "site_operator": "site:msp.gub.uy",  "type": "official",   "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "DILAVE",   "url": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/institucional/organismos/dilave-miguel-c-rubino", "site_operator": "site:dilave.gub.uy", "type": "scientific", "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

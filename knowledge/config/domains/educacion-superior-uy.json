@@ -1,0 +1,21 @@
+{
+  "domain": "educacion-superior-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "UdelaR Uruguay matrícula carreras ingreso",
+    "UTEC Uruguay nuevas carreras tecnológicas",
+    "universidades privadas Uruguay habilitación MEC",
+    "becas educación superior Uruguay BCAS",
+    "internacionalización educación superior Uruguay",
+    "posgrados investigación Uruguay CSIC PEDECIBA"
+  ],
+  "sources": [
+    { "name": "UdelaR", "url": "https://www.universidad.edu.uy", "site_operator": "site:universidad.edu.uy", "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "UTEC",   "url": "https://utec.edu.uy",            "site_operator": "site:utec.edu.uy",            "type": "official",  "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "MEC",    "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official", "priority": 8, "enabled": true, "auto_approve": false }
+  ]
+}

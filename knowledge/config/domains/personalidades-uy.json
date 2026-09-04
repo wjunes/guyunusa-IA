@@ -1,0 +1,20 @@
+{
+  "domain": "personalidades-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "personalidades notables Uruguay homenaje reconocimiento",
+    "escritores uruguayos nuevas publicaciones legado",
+    "deportistas uruguayos trayectoria reconocimiento",
+    "músicos artistas uruguayos obras legado cultural",
+    "figuras políticas Uruguay historia contemporánea"
+  ],
+  "sources": [
+    { "name": "MEC",         "url": "https://www.gub.uy/ministerio-educacion-cultura", "site_operator": "site:gub.uy/ministerio-educacion-cultura", "type": "official",  "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "FHCE-UdelaR", "url": "https://www.fhce.edu.uy",                         "site_operator": "site:fhce.edu.uy",                        "type": "scientific","priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "Presidencia",  "url": "https://www.gub.uy/presidencia",                 "site_operator": "site:gub.uy/presidencia",                 "type": "official",  "priority": 6, "enabled": true, "auto_approve": false }
+  ]
+}

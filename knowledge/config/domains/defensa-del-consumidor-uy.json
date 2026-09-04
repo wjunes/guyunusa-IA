@@ -1,0 +1,20 @@
+{
+  "domain": "defensa-del-consumidor-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 78,
+  "discard_threshold": 55,
+  "topics": [
+    "UDECO defensa consumidor Uruguay resoluciones MIEM",
+    "garantías productos Uruguay Ley 17250",
+    "reclamos consumidores Uruguay e-commerce",
+    "crédito al consumo usura BCU Uruguay",
+    "metrología legal Uruguay LATU MIEM",
+    "competencia libre COPRODEC Uruguay Ley 18159"
+  ],
+  "sources": [
+    { "name": "UDECO", "url": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/publicaciones/guia-consumidor", "site_operator": "site:gub.uy/ministerio-industria-energia-mineria", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "BCU-consumidor","url": "https://www.bcu.gub.uy","site_operator": "site:bcu.gub.uy","type": "official","priority": 8,"enabled": true,"auto_approve": false }
+  ]
+}

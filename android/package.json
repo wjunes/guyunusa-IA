@@ -1,17 +1,18 @@
 {
   "name": "guyunusa-android",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Guyunusa Android — wrapper Capacitor",
   "private": true,
   "scripts": {
-    "cap:init": "npx cap init",
-    "cap:add": "npx cap add android",
-    "cap:sync": "npx cap sync android",
-    "cap:open": "npx cap open android",
-    "cap:run": "npx cap run android",
-    "cap:build": "npx cap build android",
-    "icons": "node scripts/generate-icons.js",
-    "sync": "npx cap sync android && node scripts/generate-icons.js"
+    "cap:init":  "node node_modules/@capacitor/cli/bin/capacitor init",
+    "cap:add":   "node node_modules/@capacitor/cli/bin/capacitor add android",
+    "cap:sync":  "node node_modules/@capacitor/cli/bin/capacitor sync android",
+    "cap:open":  "node node_modules/@capacitor/cli/bin/capacitor open android",
+    "cap:run":   "node node_modules/@capacitor/cli/bin/capacitor run android",
+    "cap:build": "node node_modules/@capacitor/cli/bin/capacitor build android",
+    "icons":   "node scripts/generate-icons.js",
+    "sync":    "node node_modules/@capacitor/cli/bin/capacitor sync android && node scripts/generate-icons.js",
+    "mapping": "node -e \"const p='android/app/build/outputs/mapping/release/mapping.txt';const fs=require('fs');if(fs.existsSync(p)){console.log('mapping.txt encontrado en:','\\n  '+require('path').resolve(p));}else{console.log('No encontrado. Compilá el release AAB primero: Gradle → app → Tasks → bundle → bundleRelease');}\" "
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^4.1.1",

@@ -1,0 +1,20 @@
+{
+  "domain": "geografia-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 70,
+  "discard_threshold": 45,
+  "topics": [
+    "geografía Uruguay IGM cartografía nuevas publicaciones",
+    "geomorfología relieve suelos Uruguay investigación",
+    "hidrografía cuencas hidrográficas Uruguay DINAGUA",
+    "geografía humana distribución poblacional Uruguay",
+    "ordenamiento territorial Uruguay DINOT Ley 18308"
+  ],
+  "sources": [
+    { "name": "IGM",   "url": "https://www.igm.gub.uy",  "site_operator": "site:igm.gub.uy",  "type": "official",  "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "DINOT", "url": "https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial", "site_operator": "site:gub.uy/ministerio-vivienda-ordenamiento-territorial", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "FHCE-Geografía","url": "https://www.fhce.edu.uy","site_operator": "site:fhce.edu.uy","type": "scientific","priority": 7,"enabled": true,"auto_approve": false }
+  ]
+}
