@@ -1,0 +1,76 @@
+{
+  "domain": "mineria-recursos-geologicos-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "producción minera Uruguay estadísticas DINAMIGE",
+    "exportaciones amatistas ágatas Uruguay Artigas",
+    "Mina San Gregorio oro Rivera producción Orosur",
+    "Proyecto Aratirí hierro Valentines Uruguay novedades",
+    "permisos exploración explotación minera Uruguay",
+    "regalías mineras Uruguay recaudación MIEM",
+    "canteras áridos materiales construcción Uruguay",
+    "minería artesanal formalización Uruguay gemas",
+    "impacto ambiental restauración minas Uruguay",
+    "minerales críticos potencial Uruguay exploración"
+  ],
+  "sources": [
+    {
+      "name": "DINAMIGE - MIEM",
+      "url": "https://www.gub.uy/ministerio-industria-energia-mineria/dinamige",
+      "site_operator": "site:gub.uy dinamige",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "Ministerio de Ambiente",
+      "url": "https://www.gub.uy/ministerio-ambiente",
+      "site_operator": "site:gub.uy ministerio-ambiente minería",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "Uruguay XXI - Minería",
+      "url": "https://www.uruguayxxi.gub.uy",
+      "site_operator": "site:uruguayxxi.gub.uy minería minerales",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "BCU - Cuentas Nacionales",
+      "url": "https://www.bcu.gub.uy",
+      "site_operator": "site:bcu.gub.uy cuentas nacionales minería",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "INE - Empleo por sector",
+      "url": "https://www.ine.gub.uy",
+      "site_operator": "site:ine.gub.uy empleo minería",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "DINAGUA",
+      "url": "https://www.gub.uy/ministerio-ambiente/dinagua",
+      "site_operator": "site:gub.uy dinagua minería agua",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "domain": "biotecnologia-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "biotecnología Uruguay INIA investigación novedades",
+    "OGM aprobaciones Uruguay MGAP transgénicos",
+    "CUDIM Uruguay producción radiofármacos ciclotrón",
+    "ANNI Uruguay fondos ciencias vida biotecnología",
+    "Instituto Pasteur Montevideo investigación resultados",
+    "DILAVE vacunas veterinarias Uruguay producción",
+    "biotecnología agropecuaria Uruguay variedades mejoradas",
+    "biogenéricos biofármacos Uruguay producción",
+    "edición genómica CRISPR Uruguay regulación",
+    "bioeconomía Uruguay estrategia política"
+  ],
+  "sources": [
+    {
+      "name": "INIA",
+      "url": "https://www.inia.uy",
+      "site_operator": "site:inia.uy biotecnología genómica",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "CUDIM",
+      "url": "https://www.cudim.org",
+      "site_operator": "site:cudim.org",
+      "type": "public",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "ANNI",
+      "url": "https://www.anii.org.uy",
+      "site_operator": "site:anii.org.uy biotecnología ciencias vida",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "Instituto Pasteur Montevideo",
+      "url": "https://www.pasteur.edu.uy",
+      "site_operator": "site:pasteur.edu.uy investigación",
+      "type": "public",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "DILAVE / MGAP",
+      "url": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/dilave",
+      "site_operator": "site:gub.uy dilave vacunas sanidad animal",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

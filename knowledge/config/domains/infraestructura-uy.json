@@ -1,0 +1,67 @@
+{
+  "domain": "infraestructura-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "obras publicas MTOP Uruguay",
+    "contratos PPP ley 18786 Uruguay",
+    "represas hidroelectricas Uruguay Salto Grande",
+    "saneamiento agua potable OSE Uruguay",
+    "fibra optica ANTEL Uruguay conectividad",
+    "infraestructura digital Uruguay 5G",
+    "hidrogeno verde Uruguay infraestructura",
+    "financiamiento infraestructura BID CAF Uruguay",
+    "Plan Saneamiento Metropolitano Uruguay",
+    "Puerto aguas profundas Uruguay"
+  ],
+  "sources": [
+    {
+      "name": "MTOP - Ministerio de Transporte y Obras Públicas",
+      "url": "https://www.mtop.gub.uy",
+      "site_operator": "site:mtop.gub.uy",
+      "type": "official",
+      "priority": 1,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "OSE - Obras Sanitarias del Estado",
+      "url": "https://www.ose.com.uy",
+      "site_operator": "site:ose.com.uy",
+      "type": "official",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "ANTEL",
+      "url": "https://www.antel.com.uy",
+      "site_operator": "site:antel.com.uy",
+      "type": "official",
+      "priority": 3,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "OPP - Oficina de Planeamiento y Presupuesto",
+      "url": "https://www.opp.gub.uy",
+      "site_operator": "site:opp.gub.uy",
+      "type": "official",
+      "priority": 4,
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "CAF - Banco de Desarrollo de América Latina",
+      "url": "https://www.caf.com",
+      "site_operator": "site:caf.com Uruguay infraestructura",
+      "type": "international",
+      "priority": 5,
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

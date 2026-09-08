@@ -1,0 +1,58 @@
+{
+  "domain": "urbanismo-ordenamiento-territorial-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "planes ordenamiento territorial Uruguay aprobaciones DINOT",
+    "asentamientos irregulares Uruguay PIAI regularización",
+    "ordenamiento costero Uruguay Rocha costa atlántica",
+    "área metropolitana Montevideo Uruguay crecimiento",
+    "suelo urbano clasificación Uruguay intendencias",
+    "DINOT directrices nacionales Uruguay territorio",
+    "Ciudad de la Costa Canelones urbanización",
+    "Punta del Este ordenamiento territorial Maldonado",
+    "cambio climático territorio Uruguay planificación",
+    "gestión suelo plusvalías Uruguay instrumentos"
+  ],
+  "sources": [
+    {
+      "name": "DINOT / MVOT",
+      "url": "https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/dinot",
+      "site_operator": "site:gub.uy ministerio-vivienda-ordenamiento-territorial dinot",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "Intendencia de Montevideo",
+      "url": "https://montevideo.gub.uy",
+      "site_operator": "site:montevideo.gub.uy ordenamiento territorial planificación",
+      "type": "departmental",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "INE",
+      "url": "https://www.ine.gub.uy",
+      "site_operator": "site:ine.gub.uy territorio urbano censos",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "IDE Uruguay",
+      "url": "https://www.ide.gub.uy",
+      "site_operator": "site:ide.gub.uy datos espaciales",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

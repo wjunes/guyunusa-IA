@@ -1,0 +1,94 @@
+{
+  "domain": "niñez-adolescencia-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "INAU Uruguay programas cobertura estadísticas",
+    "CAIF primera infancia Uruguay centros",
+    "pobreza infantil Uruguay tasas ECH INE",
+    "INISA sistema penal adolescente Uruguay",
+    "trabajo infantil Uruguay CETI erradicación",
+    "adopciones Uruguay INAU proceso datos",
+    "violencia NNA Uruguay SIPIAV casos",
+    "mortalidad infantil Uruguay MSP indicadores",
+    "desvinculación educativa adolescentes Uruguay ANEP",
+    "Uruguay Crece Contigo primera infancia programa"
+  ],
+  "sources": [
+    {
+      "name": "INAU",
+      "url": "https://www.inau.gub.uy",
+      "site_operator": "site:inau.gub.uy",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "MIDES",
+      "url": "https://www.mides.gub.uy",
+      "site_operator": "site:mides.gub.uy niñez infancia",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "MSP - Salud infantil",
+      "url": "https://www.msp.gub.uy",
+      "site_operator": "site:msp.gub.uy niñez mortalidad infantil vacunación",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "ANEP - Estadísticas educativas",
+      "url": "https://www.anep.edu.uy",
+      "site_operator": "site:anep.edu.uy estadísticas matriculación",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "INE - ECH pobreza infancia",
+      "url": "https://www.ine.gub.uy",
+      "site_operator": "site:ine.gub.uy pobreza niñez",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "INISA",
+      "url": "https://www.inisa.gub.uy",
+      "site_operator": "site:inisa.gub.uy",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "SIPIAV",
+      "url": "https://www.sipiav.gub.uy",
+      "site_operator": "site:sipiav.gub.uy",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "UNICEF Uruguay",
+      "url": "https://www.unicef.org/uruguay",
+      "site_operator": "site:unicef.org/uruguay infancia",
+      "type": "international",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

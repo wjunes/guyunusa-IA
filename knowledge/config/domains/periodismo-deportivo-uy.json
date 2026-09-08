@@ -1,0 +1,27 @@
+{
+  "domain": "periodismo-deportivo-uy",
+  "enabled": true,
+  "frequency": "biannual",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "periodismo deportivo Uruguay medios prensa radio televisión",
+    "Sport 890 Uruguay radio deportiva programas",
+    "Ovación semanario deportivo Uruguay",
+    "fútbol uruguayo cobertura periodística medios",
+    "selección uruguaya periodismo prensa cobertura",
+    "periodistas deportivos Uruguay trayectoria",
+    "Tenfield derechos televisivos fútbol Uruguay",
+    "historia radio deportiva Uruguay transmisiones",
+    "periodismo deportivo digital Uruguay portales"
+  ],
+  "sources": [
+    { "name": "Sport-890",       "url": "https://www.sport890.com.uy",          "site_operator": "site:sport890.com.uy",          "type": "media",     "priority": 9,  "enabled": true, "auto_approve": false },
+    { "name": "Ovacion-Digital", "url": "https://www.ovacion.com.uy",           "site_operator": "site:ovacion.com.uy",           "type": "media",     "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "El-Pais-Deporte", "url": "https://www.elpais.com.uy",            "site_operator": "site:elpais.com.uy/deportes",   "type": "media",     "priority": 8,  "enabled": true, "auto_approve": false },
+    { "name": "Biblioteca-Nac",  "url": "https://www.bibna.gub.uy",             "site_operator": "site:bibna.gub.uy",             "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false },
+    { "name": "AUF",             "url": "https://www.auf.org.uy",               "site_operator": "site:auf.org.uy",               "type": "official",  "priority": 7,  "enabled": true, "auto_approve": false },
+    { "name": "SODRE-ANIMP",     "url": "https://www.sodre.gub.uy",             "site_operator": "site:sodre.gub.uy",             "type": "official",  "priority": 6,  "enabled": true, "auto_approve": false }
+  ]
+}

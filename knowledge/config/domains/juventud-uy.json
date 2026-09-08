@@ -1,0 +1,67 @@
+{
+  "domain": "juventud-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "desempleo juvenil Uruguay tasas ECH INE",
+    "NiNi jóvenes Uruguay no estudian no trabajan",
+    "Primer Empleo Joven Uruguay MTSS",
+    "suicidio jóvenes Uruguay tasas MSP",
+    "INJU Uruguay programas cobertura",
+    "Jóvenes en Red Uruguay MIDES cobertura",
+    "consumo problemático drogas jóvenes Uruguay SNAD",
+    "vivienda jóvenes Uruguay emancipación",
+    "participación política juventud Uruguay",
+    "salud mental adolescentes jóvenes Uruguay"
+  ],
+  "sources": [
+    {
+      "name": "INJU / MIDES",
+      "url": "https://www.gub.uy/ministerio-desarrollo-social/inju",
+      "site_operator": "site:gub.uy inju juventud",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "INE - ECH",
+      "url": "https://www.ine.gub.uy",
+      "site_operator": "site:ine.gub.uy juventud empleo desempleo",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "MTSS",
+      "url": "https://www.mtss.gub.uy",
+      "site_operator": "site:mtss.gub.uy empleo joven primer empleo",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "MSP - Salud Mental",
+      "url": "https://www.msp.gub.uy",
+      "site_operator": "site:msp.gub.uy salud mental suicidio jóvenes",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "SNAD",
+      "url": "https://www.gub.uy/secretaria-nacional-drogas",
+      "site_operator": "site:gub.uy secretaria-nacional-drogas",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "domain": "pesca-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "exportaciones pesqueras Uruguay valor destinos",
+    "capturas merluza calamar Uruguay DINARA",
+    "cuotas captura Uruguay CTMFM merluza corvina",
+    "flota pesquera Uruguay industrial artesanal",
+    "acuicultura Uruguay producción concesiones",
+    "pesca artesanal Uruguay cooperativas",
+    "pesca INDNR ilegal Uruguay ZEE",
+    "temporada calamar patagónico Uruguay",
+    "exportaciones pescado Uruguay España Brasil",
+    "stock merluza Uruguay estado evaluación"
+  ],
+  "sources": [
+    {
+      "name": "DINARA / MGAP",
+      "url": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/dinara",
+      "site_operator": "site:gub.uy dinara pesca",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "Uruguay XXI - Pesca",
+      "url": "https://www.uruguayxxi.gub.uy",
+      "site_operator": "site:uruguayxxi.gub.uy pesca pesquero exportaciones",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "CTMFM",
+      "url": "https://www.ctmfm.org",
+      "site_operator": "site:ctmfm.org cuotas merluza corvina",
+      "type": "binational",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "FAO Pesca",
+      "url": "https://www.fao.org/fishery",
+      "site_operator": "site:fao.org Uruguay pesca recursos acuáticos",
+      "type": "international",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

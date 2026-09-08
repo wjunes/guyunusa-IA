@@ -1,0 +1,30 @@
+{
+  "domain": "industria-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "industria manufacturera Uruguay MIEM estadísticas producción",
+    "frigoríficos Uruguay carne exportación INAC faena",
+    "celulosa Uruguay UPM Montes del Plata exportación producción",
+    "industria láctea Conaprole leche en polvo quesos Uruguay",
+    "inversión industrial Uruguay nueva planta parque industrial",
+    "empleo industria Uruguay INEFOP formación profesional técnica",
+    "política industrial Uruguay COMAP promoción inversiones ley 16906",
+    "exportaciones industriales Uruguay celulosa carne lácteos",
+    "industria 4.0 automatización digitalización PYMES Uruguay MIEM",
+    "competitividad industria Uruguay costos energía logística productividad"
+  ],
+  "sources": [
+    { "name": "MIEM", "url": "https://www.miem.gub.uy", "site_operator": "site:miem.gub.uy", "type": "official", "priority": 10, "enabled": true, "auto_approve": false },
+    { "name": "INE", "url": "https://www.ine.gub.uy", "site_operator": "site:ine.gub.uy", "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "Uruguay-XXI", "url": "https://www.uruguayxxi.gub.uy", "site_operator": "site:uruguayxxi.gub.uy", "type": "official", "priority": 9, "enabled": true, "auto_approve": false },
+    { "name": "INAC", "url": "https://www.inac.gub.uy", "site_operator": "site:inac.gub.uy", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "ANDE", "url": "https://www.ande.org.uy", "site_operator": "site:ande.org.uy", "type": "official", "priority": 8, "enabled": true, "auto_approve": false },
+    { "name": "ANNI", "url": "https://www.anii.org.uy", "site_operator": "site:anii.org.uy", "type": "official", "priority": 7, "enabled": true, "auto_approve": false },
+    { "name": "LATU", "url": "https://www.latu.org.uy", "site_operator": "site:latu.org.uy", "type": "official", "priority": 7, "enabled": true, "auto_approve": false },
+    { "name": "CIU", "url": "https://www.ciu.com.uy", "site_operator": "site:ciu.com.uy", "type": "sectorial", "priority": 6, "enabled": true, "auto_approve": false }
+  ]
+}

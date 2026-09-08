@@ -1,0 +1,76 @@
+{
+  "domain": "envejecimiento-adulto-mayor-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "adultos mayores Uruguay estadísticas demografía INE",
+    "SNIC cuidados adultos mayores Uruguay cobertura",
+    "jubilaciones pensiones BPS Uruguay reforma",
+    "hogares ancianos Uruguay habilitación INMAYORES",
+    "salud adultos mayores Uruguay MSP ASSE",
+    "AFAP Uruguay rendimiento jubilación individual",
+    "envejecimiento activo programas INMAYORES Uruguay",
+    "pobreza adultos mayores Uruguay ECH",
+    "edadismo discriminación edad Uruguay",
+    "pensión vejez no contributiva Uruguay BPS"
+  ],
+  "sources": [
+    {
+      "name": "INMAYORES / MIDES",
+      "url": "https://www.gub.uy/ministerio-desarrollo-social/inmayores",
+      "site_operator": "site:gub.uy inmayores adulto mayor",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "BPS",
+      "url": "https://www.bps.gub.uy",
+      "site_operator": "site:bps.gub.uy jubilaciones pensiones vejez",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "INE",
+      "url": "https://www.ine.gub.uy",
+      "site_operator": "site:ine.gub.uy envejecimiento adultos mayores",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "MSP",
+      "url": "https://www.msp.gub.uy",
+      "site_operator": "site:msp.gub.uy adulto mayor salud",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "SNIC / MIDES",
+      "url": "https://www.gub.uy/ministerio-desarrollo-social/snic",
+      "site_operator": "site:gub.uy snic cuidados",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "CEPAL - Envejecimiento",
+      "url": "https://www.cepal.org/es/temas/envejecimiento",
+      "site_operator": "site:cepal.org Uruguay envejecimiento",
+      "type": "international",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

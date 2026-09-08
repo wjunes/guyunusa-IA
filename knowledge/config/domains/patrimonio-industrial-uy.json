@@ -1,0 +1,58 @@
+{
+  "domain": "patrimonio-industrial-uy",
+  "enabled": true,
+  "frequency": "annual",
+  "auto_approve_threshold": null,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "Fray Bentos UNESCO patrimonio industrial novedades",
+    "Museo Revolución Industrial Fray Bentos visitantes",
+    "patrimonio industrial Uruguay declaraciones MEC",
+    "reconversión espacios industriales Uruguay proyectos",
+    "turismo industrial Uruguay Fray Bentos",
+    "estaciones ferroviarias Uruguay patrimonio conservación",
+    "patrimonio industrial Uruguay investigación arqueología",
+    "Frigorífico Nacional Cerro Montevideo patrimonio",
+    "molinos históricos Uruguay conservación",
+    "saladeros Uruguay arqueología industrial"
+  ],
+  "sources": [
+    {
+      "name": "MEC - Patrimonio Cultural",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura/patrimonio",
+      "site_operator": "site:gub.uy ministerio-educacion-cultura patrimonio industrial",
+      "type": "official",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "Museo Revolución Industrial Fray Bentos",
+      "url": "https://www.museoanglo.uy",
+      "site_operator": "site:museoanglo.uy",
+      "type": "cultural",
+      "priority": "high",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "UNESCO - Fray Bentos",
+      "url": "https://whc.unesco.org/en/list/1464",
+      "site_operator": "site:whc.unesco.org fray bentos",
+      "type": "international",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "Ministerio de Turismo",
+      "url": "https://www.mintur.gub.uy",
+      "site_operator": "site:mintur.gub.uy patrimonio industrial turismo",
+      "type": "official",
+      "priority": "medium",
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}
