@@ -27,7 +27,7 @@ export async function runAll() {
   const domains   = getEnabledDomains();
 
   if (domains.length === 0) {
-    logger.warn('[scheduler] No hay dominios habilitados — revisar knowledge/config/domains/');
+    logger.warn('[scheduler] No hay dominios habilitados — revisar knowledge/config/dominios/');
     return;
   }
 
@@ -54,7 +54,7 @@ export async function runAll() {
 /* ─── Ejecutar un dominio específico ─────────────────────────── */
 export async function runDomain(domainName) {
   const conf = getDomainConfig(domainName);
-  if (!conf) throw new Error(`Dominio "${domainName}" no encontrado en knowledge/config/domains/`);
+  if (!conf) throw new Error(`Dominio "${domainName}" no encontrado en knowledge/config/dominios/`);
   if (conf.enabled === false) {
     logger.warn(`[scheduler] Dominio "${domainName}" está deshabilitado. Omitiendo.`);
     return;

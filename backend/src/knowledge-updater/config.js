@@ -1,7 +1,7 @@
 /**
  * config.js — Cargador de configuración de dominios BNC-UY
  *
- * Lee knowledge/config/domains/<domain>.json y expone funciones
+ * Lee knowledge/config/dominios/<domain>.json y expone funciones
  * para consultar qué dominios están activos, sus fuentes y parámetros.
  */
 import { readFileSync, readdirSync, existsSync } from 'fs';
@@ -9,7 +9,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dir     = dirname(fileURLToPath(import.meta.url));
-const CONF_DIR  = join(__dir, '../../../knowledge/config/domains');
+const CONF_DIR  = join(__dir, '../../../knowledge/config/dominios');
 
 let _configs = null;
 
