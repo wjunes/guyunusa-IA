@@ -1,5 +1,5 @@
 {
-  "domain": "niñez-adolescencia-uy",
+  "domain": "ninez-adolescencia-uy",
   "enabled": true,
   "frequency": "monthly",
   "auto_approve_threshold": null,
@@ -30,7 +30,7 @@
     {
       "name": "MIDES",
       "url": "https://www.mides.gub.uy",
-      "site_operator": "site:mides.gub.uy niñez infancia",
+      "site_operator": "site:mides.gub.uy ninez infancia",
       "type": "official",
       "priority": "high",
       "enabled": true,
@@ -39,7 +39,7 @@
     {
       "name": "MSP - Salud infantil",
       "url": "https://www.msp.gub.uy",
-      "site_operator": "site:msp.gub.uy niñez mortalidad infantil vacunación",
+      "site_operator": "site:msp.gub.uy ninez mortalidad infantil vacunacion",
       "type": "official",
       "priority": "high",
       "enabled": true,
@@ -48,7 +48,7 @@
     {
       "name": "ANEP - Estadísticas educativas",
       "url": "https://www.anep.edu.uy",
-      "site_operator": "site:anep.edu.uy estadísticas matriculación",
+      "site_operator": "site:anep.edu.uy estadisticas matriculacion",
       "type": "official",
       "priority": "high",
       "enabled": true,
@@ -57,7 +57,7 @@
     {
       "name": "INE - ECH pobreza infancia",
       "url": "https://www.ine.gub.uy",
-      "site_operator": "site:ine.gub.uy pobreza niñez",
+      "site_operator": "site:ine.gub.uy pobreza ninez",
       "type": "official",
       "priority": "high",
       "enabled": true,
