@@ -7,7 +7,7 @@
  * El timeout de conexión aborta si el proveedor no responde en 30s.
  * Una vez que el streaming empieza, NO hay timeout duro — el controller
  * se encarga de manejar la duración según el plan.
- */
+ */ 
 import { logger } from '../utils/logger.js';
 import * as constants from '../../../shared/constants.js';
 const { AI_PROVIDERS, getPlanConfig } = constants;

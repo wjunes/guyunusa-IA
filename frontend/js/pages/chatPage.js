@@ -230,9 +230,17 @@ async function onMessageSend(text) {
 
     onContinuing: (continuation, max) => {
       if (streamStopped) return;
-      // Indicador discreto: agregar un separador visual en la burbuja
       const indicator = '\n\n*Continuando...*\n\n';
       streamBuf = appendStreamChunk(streamRef, indicator, streamBuf);
+    },
+
+    onGeneratingImage: () => {
+      if (!streamRef?.bubbleEl) return;
+      const ind = document.createElement('div');
+      ind.id = 'imagegen-indicator';
+      ind.className = 'c-imagegen-loading';
+      ind.innerHTML = '<div class="c-imagegen-loading__spinner"></div><span>🎨 Generando imagen, esperá unos segundos...</span>';
+      streamRef.bubbleEl.parentNode?.insertBefore(ind, streamRef.bubbleEl.nextSibling);
     },
 
     onDone: async (convId, _provider, evt) => {
@@ -251,7 +259,7 @@ async function onMessageSend(text) {
         });
       }
 
-      // Videos de YouTube — renderizar thumbnails con link
+      // Videos de YouTube
       if (evt?.videos?.length && streamRef?.bubbleEl) {
         const container = document.createElement('div');
         container.className = 'c-media-videos';
@@ -272,7 +280,7 @@ async function onMessageSend(text) {
         streamRef.bubbleEl.parentNode?.insertBefore(container, streamRef.bubbleEl.nextSibling);
       }
 
-      // Imágenes — renderizar como grid de thumbnails
+      // Imágenes buscadas
       if (evt?.images?.length && streamRef?.bubbleEl) {
         const imgContainer = document.createElement('div');
         imgContainer.className = 'c-media-images';
@@ -281,17 +289,34 @@ async function onMessageSend(text) {
           const thumbUrl = img.thumbnail || img.url;
           const fullUrl  = img.url || img.thumbnail;
           imgContainer.innerHTML += `
-            <a href="${fullUrl}"
-               target="_blank" rel="noopener noreferrer"
+            <a href="${fullUrl}" target="_blank" rel="noopener noreferrer"
                class="c-media-image" title="${cleanTitle}">
               <img src="${thumbUrl}" alt="${cleanTitle}" loading="lazy"
                    onerror="this.parentElement.style.display='none'"/>
             </a>`;
         });
         const insertAfter = streamRef.bubbleEl.nextSibling?.classList?.contains('c-media-videos')
-          ? streamRef.bubbleEl.nextSibling
-          : streamRef.bubbleEl;
+          ? streamRef.bubbleEl.nextSibling : streamRef.bubbleEl;
         insertAfter.parentNode?.insertBefore(imgContainer, insertAfter.nextSibling);
+      }
+
+      // Imagen generada con IA
+      if ((evt?.generatedImage?.dataUrl || evt?.generatedImage?.imageUrl) && streamRef?.bubbleEl) {
+        // Remover indicador de carga
+        document.getElementById('imagegen-indicator')?.remove();
+        const imgSrc = evt.generatedImage.dataUrl || evt.generatedImage.imageUrl;
+        const genContainer = document.createElement('div');
+        genContainer.className = 'c-media-generated';
+        genContainer.innerHTML = `
+          <div class="c-media-generated__wrap">
+            <img src="${imgSrc}" alt="Imagen generada por Guyunusa"
+                 class="c-media-generated__img" loading="lazy"/>
+            <span class="c-media-generated__badge">🎨 Generada por IA</span>
+          </div>`;
+        let insertAfter = streamRef.bubbleEl;
+        if (insertAfter.nextSibling?.classList?.contains('c-media-videos')) insertAfter = insertAfter.nextSibling;
+        if (insertAfter.nextSibling?.classList?.contains('c-media-images')) insertAfter = insertAfter.nextSibling;
+        insertAfter.parentNode?.insertBefore(genContainer, insertAfter.nextSibling);
       }
 
       // Si había archivo y la respuesta contiene código → botón de descarga

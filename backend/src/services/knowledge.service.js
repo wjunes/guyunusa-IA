@@ -112,7 +112,6 @@ function parseFrontmatter(raw, filePath = '') {
   // Generar keywords automáticas desde el título y subtítulos ##
   const autoKeywords = [];
   if (titulo) {
-    // Palabras significativas del título (>3 chars)
     titulo.toLowerCase().split(/\s+/)
       .filter(w => w.length > 3)
       .forEach(w => autoKeywords.push(w));
@@ -125,6 +124,27 @@ function parseFrontmatter(raw, filePath = '') {
         .filter(w => w.length > 4)
         .forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
     }
+  }
+
+  // Extraer sección "Palabras clave" del cuerpo como keywords reales
+  const kwSection = body.match(/(?:^|\n)(?:#{1,3}\s*)?[Pp]alabras?\s+[Cc]lave[s]?\s*\n+([\s\S]+?)(?:\n#{1,3}\s|\n*$)/);
+  if (kwSection) {
+    const kwText = kwSection[1]
+      .replace(/[,;|]/g, ' ')
+      .toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    // Extraer frases de 2+ palabras y palabras largas
+    const kwWords = kwText.split(/\s+/).filter(w => w.length > 3);
+    kwWords.forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
+  }
+
+  // Extraer nombres propios en negrita **Nombre** como keywords
+  const boldNames = body.match(/\*\*([^*]{3,40})\*\*/g) || [];
+  for (const bn of boldNames) {
+    const name = bn.replace(/\*\*/g, '').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    name.split(/\s+/).filter(w => w.length > 3)
+      .forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
   }
 
   return {
@@ -276,9 +296,9 @@ export function searchKnowledge(query, limit = 3) {
       }
     }
 
-    // El cuerpo aporta como máximo 3 puntos (equivalente a UNA keyword).
-    // Así nunca gana un documento largo solo por mencionar palabras sueltas.
-    score += Math.min(bodyHits, 3);
+    // El cuerpo aporta como máximo 5 puntos (antes era 3).
+    // Permite que documentos con contenido muy relevante puntúen más alto.
+    score += Math.min(bodyHits, 5);
 
     // Bonus por frase completa de keyword que aparece en la query
     for (const kw of doc.keywords) {
@@ -286,6 +306,12 @@ export function searchKnowledge(query, limit = 3) {
       if (kwNorm.length > 5 && qNorm.includes(kwNorm)) {
         score += 5;
       }
+    }
+
+    // Bonus por frase de consulta encontrada en el texto del documento
+    // (ej: "punta muniz" como frase completa → bonus alto)
+    if (qWords.length >= 2 && docText.includes(' ' + qNorm + ' ')) {
+      score += 8;
     }
 
     if (score > 0) scored.push({ doc, score });

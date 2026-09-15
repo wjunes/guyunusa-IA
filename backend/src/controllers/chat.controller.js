@@ -8,6 +8,7 @@ import { buildKnowledgeContext } from '../services/knowledge.service.js';
 import { buildWebContext, isWebSearchQuery } from '../services/websearch.service.js';
 import { searchVideos, isVideoQuery } from '../services/youtube.service.js';
 import { searchImages, isImageQuery } from '../services/imagesearch.service.js';
+import { generateImage, isImageGenQuery } from '../services/imagegen.service.js';
 import { recordUsage, checkQuota, getDailyUsage,
          estimateTokens, estimateMessagesTokens } from '../services/usage.service.js';
 import { unlink } from 'fs/promises';
@@ -60,101 +61,107 @@ export async function processFileUpload(req, res) {
  * @param {object|null} fileContext — { fileName, fileContent, truncated }
  */
 async function prepareChat(userId, content, conversation_id, fileContext = null, planConfig = null) {
-  return withTransaction(async (db) => {
-    const user = await db.prepare('SELECT plan, username FROM users WHERE id = ?').get(userId);
+  const t0 = Date.now();
+  const db = getDB();
 
-    if (!user) throw Object.assign(new Error('Usuario no encontrado'), { status: 401 });
+  // ── Paso 1: User ──
+  const user = await db.prepare('SELECT plan, username FROM users WHERE id = ?').get(userId);
+  const t1 = Date.now();
 
-    // ── Fase 3: Verificar cuota diaria por TOKENS ──
-    const planName = user.plan || 'free';
-    const config   = planConfig || getPlanConfig(planName);
+  if (!user) throw Object.assign(new Error('Usuario no encontrado'), { status: 401 });
+
+  const planName = user.plan || 'free';
+  const config   = planConfig || getPlanConfig(planName);
+
+  // Quota: admin ilimitado, el resto verifica
+  if (planName !== 'admin') {
     await checkQuota(userId, planName);
+  }
 
-    // Obtener o crear conversación
-    let convId = conversation_id ? Number(conversation_id) : null;
-    if (!convId) {
-      const result = await db.prepare(
-        'INSERT INTO conversations (user_id, title) VALUES (?, ?)'
-      ).run(userId, content.slice(0, 60));
-      convId = result.lastInsertRowid;
-      logger.info(`Nueva conversación: id=${convId}`);
-    } else {
-      const owns = await db.prepare(
-        'SELECT id FROM conversations WHERE id = ? AND user_id = ?'
-      ).get(convId, userId);
-      if (!owns) {
-        throw Object.assign(
-          new Error('Conversación no encontrada o sin permiso'),
-          { status: 403 }
-        );
-      }
+  // ── Paso 2: Conversación ──
+  let convId = conversation_id ? Number(conversation_id) : null;
+  if (!convId) {
+    const result = await db.prepare(
+      'INSERT INTO conversations (user_id, title) VALUES (?, ?)'
+    ).run(userId, content.slice(0, 60));
+    convId = result.lastInsertRowid;
+  } else {
+    const owns = await db.prepare(
+      'SELECT id FROM conversations WHERE id = ? AND user_id = ?'
+    ).get(convId, userId);
+    if (!owns) {
+      throw Object.assign(new Error('Conversación no encontrada o sin permiso'), { status: 403 });
     }
+  }
+  const t2 = Date.now();
 
-    // Guardar mensaje del usuario en BD
-    await db.prepare(
-      'INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)'
-    ).run(convId, 'user', content);
+  // ── Detectar tipo de consulta (sync, sin costo) ──
+  const needsWebSearch = isWebSearchQuery(content);
+  const isShortQuery   = content.trim().split(/\s+/).length <= 8;
+  const isCasualChat   = /^(hola|buenas|chau|gracias|ok|dale|genial|perfecto|sí|no|ta|bien)\b/i
+                         .test(content.trim());
+  const maxHistory = isCasualChat ? 4 : (isShortQuery ? 6 : (config.maxHistoryMessages || 10));
 
-    // ── Fase 5: Historial limitado por plan ──
-    const maxHistory = config.maxHistoryMessages || 10;
-    const historyRows = await db.prepare(
+  // ── Paso 3: INSERT + historial + web search EN PARALELO ──
+  const contextPromise = needsWebSearch
+    ? buildWebContext(content, { count: 5 }).catch(() => null)
+    : Promise.resolve(null);
+
+  const [, historyRows, externalContext] = await Promise.all([
+    db.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
+      .run(convId, 'user', content),
+    db.prepare(
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
        WHERE m.conversation_id = ? AND c.user_id = ?
        ORDER BY m.id DESC LIMIT ${Number(maxHistory) || 10}`
-    ).all(convId, userId);
-    let history = historyRows.reverse();
+    ).all(convId, userId),
+    contextPromise,
+  ]);
+  const t3 = Date.now();
 
-    // Sistema + contexto del usuario
-    const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
+  let history = historyRows.reverse();
 
-    // ── Detectar si necesita búsqueda web ──
-    const needsWebSearch = isWebSearchQuery(content);
+  const userContext = `\n\n## Usuario actual\nEstás hablando con ${user.username}. Podés llamarle por su nombre o apodo cuando sea natural hacerlo.`;
 
-    // ── RAG: buscar conocimiento uruguayo (se salta si hay web search exitoso) ──
-    let knowledgeContext = '';
-    let webContext = '';
-
-    if (needsWebSearch) {
-      // Intentar web search primero
-      try {
-        const web = await buildWebContext(content, { count: 5 });
-        if (web) {
-          webContext =
-            `\n\n## Información de la web (búsqueda en tiempo real)\n` +
-            `Encontré estos resultados actuales en la web. Usalos para dar una respuesta ` +
-            `informada y actualizada. Podés mencionar las fuentes de forma natural ` +
-            `(por ejemplo: "según [fuente]..."). No copies textualmente — resumí ` +
-            `y respondé con tu estilo.\n` +
-            web.context;
-          logger.info(`Web search inyectado: ${web.sources.length} resultados`);
-        }
-      } catch (err) {
-        logger.warn(`Web search: ${err.message}`);
+  // ── RAG: buscar conocimiento (sync, ~2ms) ──
+  // Se ejecuta siempre EXCEPTO si ya tenemos contexto web O es chat casual
+  let knowledgeContext = '';
+  if (!isCasualChat && !externalContext) {
+    try {
+      const maxDocs  = isShortQuery ? 2 : 4;
+      const maxChars = isShortQuery ? 5000 : 12000;
+      const kb = buildKnowledgeContext(content, { maxDocs, maxChars });
+      if (kb) {
+        knowledgeContext =
+          `\n\n## Base de conocimiento uruguayo\n` +
+          `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
+          `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
+          `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
+          `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
+          kb.context;
       }
+    } catch (err) {
+      logger.warn(`Knowledge retriever: ${err.message}`);
     }
+  }
+  const t4 = Date.now();
 
-    // RAG: si no hay web context O si no es web search, buscar en BNC-UY
-    if (!webContext) {
-      try {
-        const kb = buildKnowledgeContext(content, { maxDocs: 4, maxChars: 12000 });
-        if (kb) {
-          knowledgeContext =
-            `\n\n## Base de conocimiento uruguayo\n` +
-            `Usá la siguiente información verificada de la Biblioteca del Conocimiento ` +
-            `para responder con precisión. Si la consulta se relaciona con estos temas, ` +
-            `basá tu respuesta en estos datos. No inventes información que no esté acá ` +
-            `ni menciones que estás leyendo documentos — respondé con naturalidad.\n` +
-            kb.context;
-          logger.info(`Knowledge inyectado: ${kb.titulos.join(', ')}`);
-        }
-      } catch (err) {
-        logger.warn(`Knowledge retriever: ${err.message}`);
-      }
-    }
+  // ── Web context (ya resuelto del Promise.all) ──
+  let webContext = '';
+  if (externalContext) {
+    webContext =
+      `\n\n## Información de la web (búsqueda en tiempo real)\n` +
+      `Encontré estos resultados actuales en la web. Usalos para dar una respuesta ` +
+      `informada y actualizada. Podés mencionar las fuentes de forma natural ` +
+      `(por ejemplo: "según [fuente]..."). No copies textualmente — resumí ` +
+      `y respondé con tu estilo.\n` +
+      externalContext.context;
+    logger.info(`Web search inyectado: ${externalContext.sources.length} resultados`);
+  }
 
-    // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
-    // ── Video: buscar en YouTube si el usuario pide un video ──
+  // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
+    // ── Video: buscar en YouTube ──
     let videoContext = '';
     let videoResults = null;
     if (isVideoQuery(content)) {
@@ -163,98 +170,87 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
         if (videos.length > 0) {
           videoResults = videos;
           videoContext = '\n\n## Videos encontrados\n' +
-            'Se encontraron videos sobre este tema que se mostrarán automáticamente. ' +
-            'Vos solo comentá brevemente sobre el tema sin incluir links ni marcadores.';
+            'Se encontraron videos que se mostrarán automáticamente. Comentá brevemente.';
           videos.forEach((v, i) => {
-            const cleanTitle = v.title
-              .replace(/&amp;/g, 'y').replace(/&quot;/g, '')
-              .replace(/&#39;/g, "'").replace(/&lt;|&gt;/g, '')
-              .replace(/[()\[\]]/g, '').trim();
-            videoContext += `\n${i + 1}. "${cleanTitle}" (${v.channel})`;
+            const t = v.title.replace(/&amp;/g,'y').replace(/&quot;/g,'').replace(/&#39;/g,"'").replace(/[()\[\]]/g,'').trim();
+            videoContext += `\n${i+1}. "${t}" (${v.channel})`;
           });
-          logger.info(`[youtube] Inyectados ${videos.length} videos`);
         } else {
-          videoContext = '\n\n## Videos\nNo se encontraron videos para esta consulta. ' +
-            'Informá al usuario que no encontraste videos sobre ese tema.';
+          videoContext = '\n\n## Videos\nNo se encontraron videos. Informá al usuario.';
         }
-      } catch (err) {
-        logger.warn(`[youtube] Error: ${err.message}`);
-      }
+      } catch (err) { logger.warn(`[youtube] ${err.message}`); }
     }
 
-    // ── Imágenes: buscar si el usuario pide una imagen ──
+    // ── Imágenes: buscar (no generar) ──
     let imageContext = '';
     let imageResults = null;
-    if (isImageQuery(content)) {
+    if (isImageQuery(content) && !isImageGenQuery(content)) {
       try {
         const images = await searchImages(content, 3);
         if (images.length > 0) {
           imageResults = images;
-          imageContext = '\n\n## Imágenes encontradas\n' +
-            'Se encontraron imágenes sobre este tema que se mostrarán automáticamente. ' +
-            'Vos solo comentá brevemente sobre el tema sin incluir links ni marcadores.';
-          images.forEach((img, i) => {
-            imageContext += `\n${i + 1}. "${img.title}"`;
-          });
-          logger.info(`[imagesearch] Inyectadas ${images.length} imágenes`);
+          imageContext = '\n\n## Imágenes encontradas\nSe mostrarán automáticamente. Comentá brevemente.';
         } else {
-          imageContext = '\n\n## Imágenes\nNo se encontraron imágenes para esta consulta. ' +
-            'Informá al usuario que no encontraste imágenes sobre ese tema.';
+          imageContext = '\n\n## Imágenes\nNo se encontraron imágenes. Informá al usuario.';
         }
-      } catch (err) {
-        logger.warn(`[imagesearch] Error: ${err.message}`);
-      }
+      } catch (err) { logger.warn(`[imagesearch] ${err.message}`); }
     }
 
-    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext + videoContext + imageContext;
-    const systemTokens  = estimateTokens(systemContent);
-    const maxCtxTokens  = config.maxContextTokens || 12_000;
-    const budgetForHistory = maxCtxTokens - systemTokens;
-
-    if (budgetForHistory > 0) {
-      // Recortar mensajes más viejos si el historial excede el presupuesto
-      let historyTokens = 0;
-      const trimmed = [];
-      // Recorrer desde el más reciente al más viejo
-      for (let i = history.length - 1; i >= 0; i--) {
-        const msgTokens = estimateTokens(history[i].content) + 4;
-        if (historyTokens + msgTokens > budgetForHistory) break;
-        historyTokens += msgTokens;
-        trimmed.unshift(history[i]);
-      }
-      if (trimmed.length < history.length) {
-        logger.info(`[context] Historial recortado: ${history.length} → ${trimmed.length} msgs (plan ${planName}, max ${maxCtxTokens} tokens)`);
-      }
-      history = trimmed;
+    // ── Generación de imágenes con IA (se ejecuta después del start) ──
+    let imageGenContext = '';
+    let generatedImage = null;
+    if (isImageGenQuery(content)) {
+      imageGenContext = '\n\n## Imagen generada\nSe está generando una imagen que se mostrará automáticamente. Comentá brevemente.';
     }
 
-    const messages = [
-      { role: 'system', content: systemContent },
-      ...history,
-    ];
+    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext + videoContext + imageContext + imageGenContext;
+  const systemTokens  = estimateTokens(systemContent);
+  const maxCtxTokens  = config.maxContextTokens || 12_000;
+  const budgetForHistory = maxCtxTokens - systemTokens;
 
-    // Si hay archivo adjunto, reemplazar el último mensaje del usuario
-    // (ya guardado en BD como text puro) con una versión enriquecida que incluye el contenido
-    if (fileContext?.fileContent) {
-      const { fileName, fileContent, truncated } = fileContext;
-      const truncNote = truncated
-        ? '\n\n> ⚠ El archivo fue truncado a 30.000 caracteres por ser muy largo.'
-        : '';
-      const lastUserIdx = messages.map(m => m.role).lastIndexOf('user');
-      if (lastUserIdx >= 0) {
-        messages[lastUserIdx] = {
-          role: 'user',
-          content:
-            `El usuario adjuntó el archivo **${fileName}**:\n\n` +
-            `\`\`\`\n${fileContent}\n\`\`\`` +
-            truncNote +
-            `\n\n${content}`,
-        };
-      }
+  if (budgetForHistory > 0) {
+    let historyTokens = 0;
+    const trimmed = [];
+    for (let i = history.length - 1; i >= 0; i--) {
+      const msgTokens = estimateTokens(history[i].content) + 4;
+      if (historyTokens + msgTokens > budgetForHistory) break;
+      historyTokens += msgTokens;
+      trimmed.unshift(history[i]);
     }
+    if (trimmed.length < history.length) {
+      logger.info(`[context] Historial recortado: ${history.length} → ${trimmed.length} msgs (plan ${planName}, max ${maxCtxTokens} tokens)`);
+    }
+    history = trimmed;
+  }
 
-    return { convId, messages, username: user.username, videoResults, imageResults };
-  });
+  const messages = [
+    { role: 'system', content: systemContent },
+    ...history,
+  ];
+
+  // Si hay archivo adjunto, reemplazar el último mensaje del usuario
+  if (fileContext?.fileContent) {
+    const { fileName, fileContent, truncated } = fileContext;
+    const truncNote = truncated
+      ? '\n\n> ⚠ El archivo fue truncado a 30.000 caracteres por ser muy largo.'
+      : '';
+    const lastUserIdx = messages.map(m => m.role).lastIndexOf('user');
+    if (lastUserIdx >= 0) {
+      messages[lastUserIdx] = {
+        role: 'user',
+        content:
+          `El usuario adjuntó el archivo **${fileName}**:\n\n` +
+          `\`\`\`\n${fileContent}\n\`\`\`` +
+          truncNote +
+          `\n\n${content}`,
+      };
+    }
+  }
+
+  const t5 = Date.now();
+  logger.info(`[TIMING] prepareChat: total=${t5-t0}ms | user+quota=${t1-t0}ms | conv=${t2-t1}ms | db+web=${t3-t2}ms | rag=${t4-t3}ms | trim=${t5-t4}ms | tokens≈${estimateTokens(systemContent)}`);
+
+  return { convId, messages, username: user.username, videoResults, imageResults, generatedImage };
 }
 
 /**
@@ -324,16 +320,18 @@ async function readStream(response, send) {
   let finishReason     = 'stop';
   let promptTokens     = 0;
   let completionTokens = 0;
-  let lineBuffer       = '';
+  let lineBuffer       = '';  // Buffer para líneas SSE incompletas
 
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
 
+    // Decodificar chunk con stream:true (maneja bytes UTF-8 partidos)
     lineBuffer += decoder.decode(value, { stream: true });
 
+    // Separar en líneas completas — la última puede estar incompleta
     const lines = lineBuffer.split('\n');
-    lineBuffer  = lines.pop() || '';
+    lineBuffer  = lines.pop() || '';  // Guardar línea incompleta para el próximo chunk
 
     for (const line of lines) {
       if (!line.startsWith('data: ')) continue;
@@ -353,11 +351,11 @@ async function readStream(response, send) {
           promptTokens     = parsed.usage.prompt_tokens     || 0;
           completionTokens = parsed.usage.completion_tokens || 0;
         }
-      } catch { /* línea incompleta — se procesa en el próximo chunk */ }
+      } catch { /* línea JSON incompleta — se procesa en el próximo chunk */ }
     }
   }
 
-  // Procesar lo que quede en el buffer
+  // Procesar lo que quede en el buffer al cerrar el stream
   if (lineBuffer.trim()) {
     const raw = lineBuffer.startsWith('data: ') ? lineBuffer.slice(6).trim() : '';
     if (raw && raw !== '[DONE]') {
@@ -378,7 +376,7 @@ async function readStream(response, send) {
     }
   }
 
-  // Liberar bytes UTF-8 pendientes
+  // Liberar bytes UTF-8 pendientes en el decoder
   const remaining = decoder.decode();
   if (remaining) lineBuffer += remaining;
 
@@ -426,25 +424,42 @@ export async function sendMessageStream(req, res) {
   let totalPromptTokens = 0, totalCompletionTokens = 0;
 
   try {
+    const streamT0 = Date.now();
     const fileContext = (file_name && file_content)
       ? { fileName: file_name, fileContent: file_content, truncated: false }
       : null;
 
     const prepared = await prepareChat(req.user.id, content, conversation_id, fileContext, planConfig);
     convId = prepared.convId;
+    const streamT1 = Date.now();
 
     const promptEstimate = estimateMessagesTokens(prepared.messages);
 
     send('start', { conversation_id: convId });
 
+    // ── Generación de imagen (después del start para que el usuario vea la animación) ──
+    if (isImageGenQuery(content) && !prepared.generatedImage) {
+      send('generating_image', { message: 'Generando imagen, esperá unos segundos...' });
+      try {
+        const result = await generateImage(content);
+        if (result?.dataUrl || result?.imageUrl) {
+          prepared.generatedImage = result;
+        }
+      } catch (err) { logger.warn(`[imagegen] ${err.message}`); }
+    }
+
     // ── Primera generación ──
     const { response, provider: prov } = await chatStream(prepared.messages, planConfig);
     provider = prov;
+    const streamT2 = Date.now();
 
     let result = await readStream(response, send);
+    const streamT3 = Date.now();
     fullContent += result.contentDelta;
     totalPromptTokens     += result.promptTokens || promptEstimate;
     totalCompletionTokens += result.completionTokens || estimateTokens(result.contentDelta);
+
+    logger.info(`[TIMING] stream: prepareChat=${streamT1-streamT0}ms | TTFT(provider)=${streamT2-streamT1}ms | streaming=${streamT3-streamT2}ms | total=${streamT3-streamT0}ms`);
 
     // ── Loop de continuación automática ──
     let continuations = 0;
@@ -506,6 +521,7 @@ export async function sendMessageStream(req, res) {
       continuations,
       videos:          prepared.videoResults || null,
       images:          prepared.imageResults || null,
+      generatedImage:  prepared.generatedImage || null,
       usage: {
         prompt_tokens:     finalPromptTokens,
         completion_tokens: finalCompletionTokens,

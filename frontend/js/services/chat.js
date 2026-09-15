@@ -21,6 +21,7 @@ export async function sendMessageStream(content, conversationId, store, {
   onDone        = () => {},
   onError       = () => {},
   onContinuing  = () => {},   // Fase 4: indicador de continuación automática
+  onGeneratingImage = () => {}, // Indicador de generación de imagen
   signal        = null,
   fileName      = null,
   fileContent   = null,
@@ -83,6 +84,7 @@ export async function sendMessageStream(content, conversationId, store, {
         try {
           const evt = JSON.parse(raw);
           if ('text' in evt)              onChunk(evt.text);
+          else if ('generating_image' in evt) onGeneratingImage(evt.generating_image);
           else if ('continuation' in evt) onContinuing(evt.continuation, evt.max);
           else if ('conversation_id' in evt && !('full_content' in evt))
                                           onStart(evt.conversation_id);

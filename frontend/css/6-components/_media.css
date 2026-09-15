@@ -1,0 +1,75 @@
+
+/* ═══ Imagen generada por IA ═══ */
+
+.c-media-generated {
+  margin: var(--space-sm) 0;
+  max-width: 480px;
+}
+
+.c-media-generated__wrap {
+  position: relative;
+  border-radius: var(--radius-md, 8px);
+  overflow: hidden;
+  border: 2px solid var(--accent);
+}
+
+.c-media-generated__img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-md, 8px);
+}
+
+.c-media-generated__badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0,0,0,.7);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 640px) {
+  .c-media-generated {
+    max-width: 100%;
+  }
+}
+
+/* ═══ Loading de generación de imagen ═══ */
+
+.c-imagegen-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  margin: var(--space-sm) 0;
+  max-width: 420px;
+  border-radius: var(--radius-md, 8px);
+  background: var(--bg-secondary, #f5f5f5);
+  border: 1px dashed var(--accent);
+  font-size: 14px;
+  color: var(--text-secondary);
+  animation: fadeIn .3s ease;
+}
+
+.c-imagegen-loading__spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid var(--border-color, #ddd);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
