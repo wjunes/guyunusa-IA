@@ -1,4 +1,10 @@
-# Fasciola hepática (Distomatosis hepática) en Uruguay
+# Fasciola hepatica — Saguaipé (Distomatosis hepática) en Uruguay
+
+## Nombre popular: saguaipé
+
+En Uruguay y en el Río de la Plata en general, *Fasciola hepatica* es conocida popularmente como **saguaipé** (también escrito *saguaypé* o *sagüaipé*). El término proviene del guaraní y designa al parásito hepático del ganado. En el campo uruguayo, cuando un animal "tiene saguaipé" o "está saguaipado" se está hablando de una infección por *Fasciola hepatica*. El hospedador intermediario indispensable para el ciclo del saguaipé es el **caracol de bañado** (*Lymnaea viatrix*), un caracol pulmonado de agua dulce muy pequeño que habita bañados, cañadas y zonas húmedas.
+
+> El saguaipé **no es un pez** ni tiene ninguna relación con el sábalo u otros peces. Es un trematodo (gusano plano) parásito de los conductos biliares.
 
 ## Agente
 *Fasciola hepatica* — trematodo (platelminto no segmentado) que parasita los conductos biliares de bovinos, ovinos, caprinos, equinos y, accidentalmente, humanos. Mide 2–3 cm y puede vivir varios años en los conductos biliares.
@@ -78,4 +84,4 @@ Las fasciolas pueden migrar a sitios aberrantes: pulmón, tejido subcutáneo, pa
 
 ## Palabras clave
 
-Fasciola hepatica Uruguay bovinos ovinos, distomatosis hepática Uruguay, Lymnaea viatrix Uruguay caracol hospedador, berros crudos fasciolosis humana Uruguay, triclabendazol tratamiento Fasciola Uruguay, fasciolosis aguda eosinofilia Uruguay, inspección frigorífico hígado Fasciola Uruguay, diagnóstico coprologico Fasciola sedimentación Uruguay, zonas fasciolosis Uruguay litoral bañados, pérdidas económicas Fasciola ganadería Uruguay
+saguaipé Uruguay parásito ganado, sagüaipé saguaypé nombre popular Fasciola hepatica Uruguay, caracol de bañado Lymnaea viatrix hospedador intermediario saguaipé, saguaipé no es pez es parásito trematodo, animal saguaipado Uruguay fasciolosis, Fasciola hepatica Uruguay bovinos ovinos, distomatosis hepática Uruguay, berros crudos fasciolosis humana Uruguay, triclabendazol tratamiento Fasciola Uruguay, fasciolosis aguda eosinofilia Uruguay, inspección frigorífico hígado Fasciola Uruguay, zonas fasciolosis Uruguay litoral bañados, pérdidas económicas Fasciola ganadería Uruguay

@@ -44,6 +44,10 @@ El Plan Nacional de Lucha contra la Garrapata (Decreto 9/010) establece tratamie
 
 DILAVE produce la **hemovacuna** contra la Tristeza Parasitaria Bovina (Babesia bovis, B. bigemina y Anaplasma marginale). Se solicita online en el portal de trámites del MGAP: https://www.gub.uy/tramites/solicitud-hemovacuna-contra-tristeza-parasitaria. Es un producto biológico que requiere cadena de frío y debe usarse dentro de las 24 horas de recibido. Su uso está indicado principalmente en bovinos adultos que van a ser trasladados a zonas endémicas sin haber tenido exposición previa.
 
+**¿Qué es el saguaipé?**
+
+El **saguaipé** (también *sagüaipé* o *saguaypé*) es el nombre popular rioplatense y uruguayo para *Fasciola hepatica*, el trematodo que parasita los conductos biliares del ganado bovino y ovino. La palabra proviene del guaraní. En el lenguaje ganadero, "el animal tiene saguaipé" o "está saguaipado" significa que está infectado con *Fasciola hepatica*. El saguaipé **no es un pez** ni tiene relación con el sábalo u otras especies acuáticas: es exclusivamente un parásito hepático. Su ciclo biológico requiere obligatoriamente el **caracol de bañado** (*Lymnaea viatrix*) como hospedador intermediario; sin ese caracol presente en las zonas húmedas, el ciclo no puede completarse.
+
 **¿La fasciola hepatica puede afectar a personas?**
 
 Sí, es una zoonosis. Los humanos se infectan principalmente al consumir berros silvestres contaminados con metacercarias. En Uruguay los casos humanos son esporádicos pero documentados, especialmente en zonas del litoral oeste y de la cuenca del Santa Lucía. No hay transmisión directa entre personas ni desde animales: la infección siempre requiere el paso por el caracol *Lymnaea viatrix*.

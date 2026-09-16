@@ -102,14 +102,16 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
                          .test(content.trim());
   const maxHistory = isCasualChat ? 4 : (isShortQuery ? 6 : (config.maxHistoryMessages || 10));
 
-  // ── Paso 3: INSERT + historial + web search EN PARALELO ──
+  // ── Paso 3: INSERT del mensaje nuevo PRIMERO ──
+  await db.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
+    .run(convId, 'user', content);
+
+  // ── Paso 4: historial + web search EN PARALELO (el mensaje nuevo ya está en la DB) ──
   const contextPromise = needsWebSearch
     ? buildWebContext(content, { count: 5 }).catch(() => null)
     : Promise.resolve(null);
 
-  const [, historyRows, externalContext] = await Promise.all([
-    db.prepare('INSERT INTO messages (conversation_id, role, content) VALUES (?, ?, ?)')
-      .run(convId, 'user', content),
+  const [historyRows, externalContext] = await Promise.all([
     db.prepare(
       `SELECT m.role, m.content FROM messages m
        JOIN conversations c ON c.id = m.conversation_id
@@ -200,7 +202,7 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
     let imageGenContext = '';
     let generatedImage = null;
     if (isImageGenQuery(content)) {
-      imageGenContext = '\n\n## Imagen generada\nSe está generando una imagen que se mostrará automáticamente. Comentá brevemente.';
+      imageGenContext = '\n\n## Imagen generada\nSe generó una imagen que se mostrará automáticamente. NO describas la imagen ni digas qué contiene — vos no la ves. Solo respondé algo como: "Acá tenés la imagen que pediste. Si no es lo que buscabas, pedímela de nuevo con más detalles." Sé breve, máximo 2 oraciones.';
     }
 
     const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext + videoContext + imageContext + imageGenContext;

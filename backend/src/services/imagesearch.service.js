@@ -1,8 +1,8 @@
 /**
  * imagesearch.service.js — Búsqueda de imágenes via Brave
  *
- * Estrategia dual: intenta Brave Image Search, si falla usa Web Search
- * extrayendo thumbnails. Misma BRAVE_SEARCH_API_KEY.
+ * Estrategia dual: Brave Image Search, fallback a Web Search con thumbnails.
+ * Usa la misma BRAVE_SEARCH_API_KEY.
  */
 import { logger } from '../utils/logger.js';
 
@@ -63,7 +63,34 @@ async function tryWebSearchForImages(key, query, count) {
   }
 }
 
+/**
+ * isImageQuery — Detecta si el usuario pide VER/BUSCAR una imagen.
+ *
+ * IMPORTANTE: solo matchea cuando hay INTENCIÓN EXPLÍCITA de ver una imagen.
+ * NO matchea cuando "imagen" se usa en sentido figurado o contextual:
+ *   ✓ "mostrá una imagen del Palacio Salvo"
+ *   ✓ "foto de la Rambla"
+ *   ✗ "la imagen de Uruguay en el exterior"
+ *   ✗ "cómo mejorar mi imagen personal"
+ *   ✗ "hablame de la imagen pública del gobierno"
+ */
 export function isImageQuery(query) {
   const q = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  return /\b(imagen|imagenes|foto|fotos|fotografia|mostra.*imagen|mostra.*foto|como se ve|como luce|como es fisicamente|mostrame|enseñame|quiero ver.*foto)\b/.test(q);
+
+  // Si es generación, NO es búsqueda
+  if (/\b(genera|generar|genere|generame|crea|crear|creame|dibuja|dibujar|dibujame)\b/.test(q)) return false;
+
+  // Verbo de pedido + imagen/foto
+  if (/\b(mostr[ae]|busca|enseña|encontra|quiero)\b.*\b(imagen|imagenes|foto|fotos|fotografia)\b/.test(q)) return true;
+
+  // "foto/imagen de X" al inicio
+  if (/^(foto|fotos|imagen|imagenes|fotografia) de[l]?\b/.test(q.trim())) return true;
+
+  // "imagen del X" precedido de inicio o puntuación
+  if (/(?:^|[.!?¿,])\s*(imagen|foto|fotos|imagenes) de[l]?\s+\w/i.test(q)) return true;
+
+  // Pedir ver algo visualmente
+  if (/\b(como se ve|como luce|quiero ver)\b/.test(q)) return true;
+
+  return false;
 }
