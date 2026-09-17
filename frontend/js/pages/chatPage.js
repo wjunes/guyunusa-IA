@@ -312,7 +312,37 @@ async function onMessageSend(text) {
             <img src="${imgSrc}" alt="Imagen generada por Guyunusa"
                  class="c-media-generated__img" loading="lazy"/>
             <span class="c-media-generated__badge">🎨 Generada por IA</span>
+          </div>
+          <div class="c-media-generated__actions">
+            <button class="c-media-generated__btn" data-action="download" title="Descargar imagen"
+                    style="color:var(--text-secondary, #a89e8e)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span>Descargar</span>
+            </button>
           </div>`;
+
+        // Handler de descarga
+        genContainer.querySelector('[data-action="download"]')?.addEventListener('click', async () => {
+          try {
+            const resp = await fetch(imgSrc);
+            const blob = await resp.blob();
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'guyunusa-imagen-' + Date.now() + '.jpg';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+          } catch {
+            // Fallback: abrir en nueva pestaña
+            window.open(imgSrc, '_blank');
+          }
+        });
         let insertAfter = streamRef.bubbleEl;
         if (insertAfter.nextSibling?.classList?.contains('c-media-videos')) insertAfter = insertAfter.nextSibling;
         if (insertAfter.nextSibling?.classList?.contains('c-media-images')) insertAfter = insertAfter.nextSibling;
