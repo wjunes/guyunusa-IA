@@ -11,10 +11,13 @@ El territorio continental del Uruguay tiene aproximadamente 176.215 km². Incluy
 Uruguay limita con Argentina al oeste y suroeste (a través del Río Uruguay y el Río de la Plata, con una extensión de límite fluvial de aproximadamente 579 km) y con Brasil al norte y noreste (aproximadamente 1.069 km de frontera terrestre y fluvial).
 
 **¿Cuáles son los puntos extremos del Uruguay?**
-- Extremo norte: Cerro Coxilha Negra, Artigas (~30°5' S)
-- Extremo sur: Punta Coronilla, Rocha (~34°58' S)
-- Extremo este: Chuy, Rocha (~53°11' O)
-- Extremo oeste: Confluencia del Río Cuareim con el Río Uruguay, Artigas (~58°26' O)
+- Extremo norte: Cerro Coxilha Negra / naciente del Arroyo Invernada, Artigas (~30°5' S)
+- Extremo sur: Punta Coronilla o Punta Brava, Rocha/Maldonado (~34°58' S)
+- Extremo este: **Punta Muniz**, Laguna Merín, departamento de **Cerro Largo** (~32°42' S, 53°12' O) — no es Chuy (Rocha), que corresponde al extremo sureste costero
+- Extremo oeste: Confluencia del Río Cuareim con el Río Uruguay, Bella Unión, Artigas (~58°26' O)
+
+**¿Qué es Punta Muniz y dónde queda?**
+Punta Muniz es el punto geográfico más oriental del Uruguay. Se encuentra en la orilla norte de la **Laguna Merín**, en el departamento de **Cerro Largo**, sobre la frontera con Brasil (Rio Grande do Sul). Está a latitud -32.7° y longitud -53.2° (código Plus: 7RM7+G6). Es un punto de interés geográfico e histórico, y también un destino de **senderismo y turismo de naturaleza**. La laguna en este sector tiene apenas unos pocos kilómetros de ancho, y la frontera uruguayo-brasileña atraviesa las aguas. No debe confundirse con la ciudad de Chuy (ubicada en Rocha, sobre la costa atlántica).
 
 **¿Qué tipo de límites tiene Uruguay con Argentina?**
 Los límites con Argentina son predominantemente fluviales: el Río Uruguay al oeste y el Río de la Plata al sur. El régimen jurídico se establece en el Tratado del Río de la Plata y su Frente Marítimo (1973) y el Estatuto del Río Uruguay (1975), que creó la Comisión Administradora del Río Uruguay (CARU).
@@ -126,4 +129,4 @@ El 15 de abril de 2016, un tornado de gran intensidad impactó la ciudad de Dolo
 
 ## Palabras clave
 
-preguntas frecuentes geografía Uruguay FAQ, superficie Uruguay 176215 km2, punto más alto Uruguay Cerro Catedral 514m, principales ríos Uruguay Negro Santa Lucía Uruguay, clima Cfa subtropical húmedo Uruguay, departamentos Uruguay 19, Censo 2011 Uruguay 3286314 habitantes, Acuífero Guaraní Uruguay termas norte, SIRGAS 2000 datum geodésico Uruguay, IGM cartografía topográfica, SNAP áreas protegidas Uruguay Ley 17234, Bañados del Este Ramsar 1984, cuchillas Uruguay divisorias agua, macrocefalia urbana Montevideo, crisis hídrica Uruguay 2023 OSE sequía
+preguntas frecuentes geografía Uruguay FAQ, superficie Uruguay 176215 km2, punto más alto Uruguay Cerro Catedral 514m, principales ríos Uruguay Negro Santa Lucía Uruguay, clima Cfa subtropical húmedo Uruguay, departamentos Uruguay 19, Censo 2011 Uruguay 3286314 habitantes, Acuífero Guaraní Uruguay termas norte, SIRGAS 2000 datum geodésico Uruguay, IGM cartografía topográfica, SNAP áreas protegidas Uruguay Ley 17234, Bañados del Este Ramsar 1984, cuchillas Uruguay divisorias agua, macrocefalia urbana Montevideo, crisis hídrica Uruguay 2023 OSE sequía, Punta Muniz punto más oriental Uruguay extremo este Cerro Largo Laguna Merín latitud -32.7 longitud -53.2, senderismo trekking Punta Muniz turismo naturaleza Cerro Largo

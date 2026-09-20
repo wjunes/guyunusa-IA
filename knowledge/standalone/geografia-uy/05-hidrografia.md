@@ -104,7 +104,7 @@ El Río Santa Lucía es estratégico para el suministro de agua potable de la re
 
 | Laguna | Departamentos | Superficie aprox. | Tipo | Importancia |
 |--------|--------------|-------------------|------|-------------|
-| **Laguna Merín** | Rocha, Cerro Largo, Treinta y Tres | ~3.750 km² (total; ~1.500 km² en UY) | Costera, binacional | Arrozales; pesca; biodiversidad; frontera con Brasil |
+| **Laguna Merín** | Rocha, Cerro Largo, Treinta y Tres | ~3.750 km² (total; ~1.500 km² en UY) | Costera, binacional | Arrozales; pesca; biodiversidad; frontera con Brasil. **Punta Muniz** (Cerro Largo) = extremo más oriental de Uruguay (-32.7°, -53.2°); senderismo |
 | **Laguna Negra** | Rocha | ~300 km² | Costera | SNAP; biodiversidad; pesca |
 | **Laguna de Rocha** | Rocha | ~72 km² | Costera | SNAP; albúfera; biodiversidad; RAMSAR [VERIFICAR] |
 | **Laguna del Sauce** | Maldonado | ~50 km² | Interior | Agua potable Punta del Este; turismo |
@@ -128,4 +128,4 @@ El **Acuífero Guaraní** es el sistema de acuífero transfronterizo más import
 
 ## Palabras clave
 
-hidrografía Uruguay ríos lagunas embalses, Río Uruguay frontera Argentina longitud 495 km, Río de la Plata estuario Uruguay 320 km, Río Negro Uruguay represas Bonete Baygorria Palmar, Río Santa Lucía agua potable Montevideo Aguas Corrientes OSE, Río Yaguarón frontera Brasil Cerro Largo, Río Cuareim frontera Artigas Brasil, Laguna Merín Uruguay Brasil binacional arrozales, Embalse Salto Grande 1890 MW binacional Argentina, Acuífero Guaraní Uruguay norte termas, Constitución Art 47 agua derecho humano Uruguay
+hidrografía Uruguay ríos lagunas embalses, Río Uruguay frontera Argentina longitud 495 km, Río de la Plata estuario Uruguay 320 km, Río Negro Uruguay represas Bonete Baygorria Palmar, Río Santa Lucía agua potable Montevideo Aguas Corrientes OSE, Río Yaguarón frontera Brasil Cerro Largo, Río Cuareim frontera Artigas Brasil, Laguna Merín Uruguay Brasil binacional arrozales, Embalse Salto Grande 1890 MW binacional Argentina, Acuífero Guaraní Uruguay norte termas, Constitución Art 47 agua derecho humano Uruguay, Punta Muniz extremo oriental Uruguay Laguna Merín Cerro Largo latitud -32.7 longitud -53.2 senderismo, Punta Muñiz alias

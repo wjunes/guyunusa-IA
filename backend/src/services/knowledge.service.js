@@ -20,143 +20,64 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 // backend/src/services/ → raíz del proyecto → knowledge/
 const KNOWLEDGE_DIR = join(__dir, '../../../knowledge');
 
-// Carpetas que NO contienen documentos de conocimiento
+// Carpetas de contenido (se excluyen docs, templates, assets, config, etc.)
 const EXCLUDED_DIRS = new Set([
-  'docs', 'templates', 'assets', 'config', 'indexes', 'sources',
+  'docs', 'templates', 'assets', 'config', 'indexes', 'sources', 'legislacion',
 ]);
 
 // Índice en memoria — se llena en buildIndex()
 let _index = [];      // [{ id, titulo, categoria, keywords[], tags[], path, contentLower }]
 let _ready = false;
 
-/* ─── Parser de frontmatter YAML + fallback para markdown puro ───────
-   Documentos BNC-UY: tienen frontmatter YAML con ---.
-   Documentos standalone: markdown puro con # Título en la primera línea.
-   El parser detecta automáticamente el formato y extrae los campos.
+/* ─── Parser mínimo de frontmatter YAML ─────────────────────────────
+   El frontmatter es consistente y simple, no necesitamos js-yaml.
+   Extrae: titulo, categoria, keywords[], tags[].
    ────────────────────────────────────────────────────────────────── */
-function parseFrontmatter(raw, filePath = '') {
+function parseFrontmatter(raw) {
   const match = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return { meta: {}, body: raw };
 
-  // ── Modo 1: YAML frontmatter (documentos BNC-UY) ──
-  if (match) {
-    const fmText = match[1];
-    const body   = raw.slice(match[0].length).trim();
+  const fmText = match[1];
+  const body   = raw.slice(match[0].length).trim();
 
-    const meta = {
-      titulo: '', categoria: '', keywords: [], tags: [],
-      nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
-    };
-    let currentList = null;
-
-    for (const line of fmText.split('\n')) {
-      const listItem = line.match(/^\s+-\s+(.+)$/);
-      if (listItem && currentList) {
-        meta[currentList].push(listItem[1].trim().toLowerCase());
-        continue;
-      }
-
-      const field = line.match(/^(\w+):\s*(.*)$/);
-      if (field) {
-        const key = field[1];
-        const val = field[2].trim();
-
-        if (key === 'keywords' || key === 'tags') {
-          currentList = key;
-          meta[key] = [];
-          if (val) meta[key].push(val.toLowerCase());
-        } else if (['titulo','categoria','nombre_conocido','nombre_completo','nombre','rol'].includes(key)) {
-          currentList = null;
-          meta[key] = val;
-        } else {
-          currentList = null;
-        }
-      }
-    }
-
-    meta.titulo = meta.titulo || meta.nombre_conocido || meta.nombre_completo || meta.nombre || '';
-    return { meta, body };
-  }
-
-  // ── Modo 2: Markdown puro (standalone) ──
-  // Título: primera línea con # Título
-  // Categoría: se extrae del nombre del directorio padre (ej: "agro-uy" → "agro")
-  const lines = raw.split('\n');
-  let titulo = '';
-  let bodyStart = 0;
-
-  // Buscar el primer # heading
-  for (let i = 0; i < Math.min(lines.length, 5); i++) {
-    const h1 = lines[i].match(/^#\s+(.+)$/);
-    if (h1) {
-      titulo = h1[1].trim();
-      bodyStart = i + 1;
-      break;
-    }
-  }
-
-  const body = lines.slice(bodyStart).join('\n').trim();
-
-  // Categoría desde la ruta: .../standalone/agro-uy/01-file.md → "agro"
-  // o .../standalone/energia-uy/03-ute.md → "energia"
-  let categoria = '';
-  if (filePath) {
-    const parts = filePath.replace(/\\/g, '/').split('/');
-    const standaloneIdx = parts.lastIndexOf('standalone');
-    if (standaloneIdx >= 0 && standaloneIdx + 1 < parts.length) {
-      categoria = parts[standaloneIdx + 1]
-        .replace(/-uy$/, '')  // quitar sufijo -uy
-        .replace(/-/g, ' ');  // guiones → espacios
-    }
-  }
-
-  // Generar keywords automáticas desde el título y subtítulos ##
-  const autoKeywords = [];
-  if (titulo) {
-    titulo.toLowerCase().split(/\s+/)
-      .filter(w => w.length > 3)
-      .forEach(w => autoKeywords.push(w));
-  }
-  // Subtítulos ## como keywords adicionales
-  for (const line of lines) {
-    const h2 = line.match(/^##\s+(.+)$/);
-    if (h2) {
-      h2[1].toLowerCase().split(/\s+/)
-        .filter(w => w.length > 4)
-        .forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
-    }
-  }
-
-  // Extraer sección "Palabras clave" del cuerpo como keywords reales
-  const kwSection = body.match(/(?:^|\n)(?:#{1,3}\s*)?[Pp]alabras?\s+[Cc]lave[s]?\s*\n+([\s\S]+?)(?:\n#{1,3}\s|\n*$)/);
-  if (kwSection) {
-    const kwText = kwSection[1]
-      .replace(/[,;|]/g, ' ')
-      .toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    // Extraer frases de 2+ palabras y palabras largas
-    const kwWords = kwText.split(/\s+/).filter(w => w.length > 3);
-    kwWords.forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
-  }
-
-  // Extraer nombres propios en negrita **Nombre** como keywords
-  const boldNames = body.match(/\*\*([^*]{3,40})\*\*/g) || [];
-  for (const bn of boldNames) {
-    const name = bn.replace(/\*\*/g, '').toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    name.split(/\s+/).filter(w => w.length > 3)
-      .forEach(w => { if (!autoKeywords.includes(w)) autoKeywords.push(w); });
-  }
-
-  return {
-    meta: {
-      titulo,
-      categoria,
-      keywords: autoKeywords,
-      tags: [categoria].filter(Boolean),
-      nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
-    },
-    body,
+  const meta = {
+    titulo: '', categoria: '', keywords: [], tags: [],
+    // Campos alternativos de nombre según el tipo de documento
+    nombre_conocido: '', nombre_completo: '', nombre: '', rol: '',
   };
+  let currentList = null;
+
+  for (const line of fmText.split('\n')) {
+    // Item de lista: "  - valor"
+    const listItem = line.match(/^\s+-\s+(.+)$/);
+    if (listItem && currentList) {
+      meta[currentList].push(listItem[1].trim().toLowerCase());
+      continue;
+    }
+
+    // Campo: "clave: valor"
+    const field = line.match(/^(\w+):\s*(.*)$/);
+    if (field) {
+      const key = field[1];
+      const val = field[2].trim();
+
+      if (key === 'keywords' || key === 'tags') {
+        currentList = key;
+        meta[key] = [];
+        if (val) meta[key].push(val.toLowerCase());
+      } else if (['titulo','categoria','nombre_conocido','nombre_completo','nombre','rol'].includes(key)) {
+        currentList = null;
+        meta[key] = val;
+      } else {
+        currentList = null;
+      }
+    }
+  }
+
+  // Resolver el título efectivo: titulo > nombre_conocido > nombre_completo > nombre
+  meta.titulo = meta.titulo || meta.nombre_conocido || meta.nombre_completo || meta.nombre || '';
+
+  return { meta, body };
 }
 
 /* ─── Escaneo recursivo de la carpeta knowledge ─── */
@@ -180,6 +101,37 @@ function scanDir(dir, acc = []) {
   return acc;
 }
 
+/* ─── Extraer keywords del cuerpo del documento ─────────────────────
+   1. Sección "Palabras clave" al final del documento → se tokeniza
+   2. Nombres en negrita **Nombre** → se agregan como keywords
+   ────────────────────────────────────────────────────────────────── */
+function extractBodyKeywords(body) {
+  const extra = [];
+
+  // 1. Extraer sección "Palabras clave" (suele estar al final del doc)
+  const kwMatch = body.match(/##?\s*Palabras\s+clave[s]?\s*\n([\s\S]+?)(?:\n##|\n---|$)/i);
+  if (kwMatch) {
+    // Tokenizar la sección: separar por comas, espacios múltiples, saltos de línea
+    const tokens = kwMatch[1]
+      .replace(/[,;\n]+/g, ' ')
+      .split(/\s{2,}/)
+      .map(t => t.trim().toLowerCase())
+      .filter(t => t.length > 2);
+    extra.push(...tokens);
+  }
+
+  // 2. Extraer nombres en negrita **Nombre Compuesto**
+  const boldMatches = body.matchAll(/\*\*([^*]{2,60})\*\*/g);
+  for (const m of boldMatches) {
+    const val = m[1].trim().toLowerCase();
+    if (val.length > 2 && !/^(nota|importante|advertencia|ejemplo|ver|total|tipo)$/i.test(val)) {
+      extra.push(val);
+    }
+  }
+
+  return extra;
+}
+
 /* ─── Construir el índice en memoria ─── */
 export function buildKnowledgeIndex() {
   const start = Date.now();
@@ -190,7 +142,7 @@ export function buildKnowledgeIndex() {
   for (const path of files) {
     try {
       const raw = readFileSync(path, 'utf-8');
-      const { meta, body } = parseFrontmatter(raw, path);
+      const { meta, body } = parseFrontmatter(raw);
 
       // Ignorar archivos sin título ni keywords (docs internos)
       if (!meta.titulo && (!meta.keywords || meta.keywords.length === 0)) continue;
@@ -200,24 +152,24 @@ export function buildKnowledgeIndex() {
         meta.titulo, meta.nombre_conocido, meta.nombre_completo, meta.nombre,
       ].filter(Boolean).join(' ');
 
+      // Extraer keywords adicionales del cuerpo (Palabras clave + **bold**)
+      const bodyKeywords = extractBodyKeywords(body);
+      const allKeywords = [...(meta.keywords || []), ...bodyKeywords];
+
       _index.push({
         titulo:       meta.titulo || '',
         categoria:    meta.categoria || '',
-        keywords:     meta.keywords || [],
+        keywords:     allKeywords,
         tags:         meta.tags || [],
         path,
         body,
-        // Texto en minúsculas para matching rápido — incluye nombres, keywords y tags
+        // Texto en minúsculas para matching rápido — incluye nombres, keywords, tags Y body
         searchText: (
           nombres + ' ' +
-          (meta.keywords || []).join(' ') + ' ' +
-          (meta.tags || []).join(' ')
+          allKeywords.join(' ') + ' ' +
+          (meta.tags || []).join(' ') + ' ' +
+          body
         ).toLowerCase(),
-        // Cuerpo normalizado — se usa como red de seguridad cuando una
-        // palabra de la consulta no está en las keywords pero sí en el texto
-        // (ej: "pintores" no es keyword de artes_plasticas.md pero sí aparece
-        // en el cuerpo). Se pre-calcula acá porque el índice se arma una sola vez.
-        bodyNorm: ' ' + normalize(body) + ' ',
       });
     } catch (err) {
       logger.warn(`knowledge: no se pudo leer ${path}: ${err.message}`);
@@ -246,19 +198,6 @@ const STOPWORDS = new Set([
   'esto','ese','esa','me','te','se','le','lo','mi','tu','su','qué','cómo','cuál','quién',
   'donde','cuando','porque','pero','más','muy','ya','hay','tiene','decime','contame',
   'sabes','sabés','podés','puedes','quiero','necesito','dame','hablame','háblame',
-  // Verbos de consulta frecuentes
-  'conoces','conocés','explicame','explicáme','decirme','contarme','saber','hablar',
-  'existe','existen','cuales','cuáles','cuanto','cuánto','cuantos','cuántos',
-  'mejores','mejor','principales','importantes','famosos','famosas','conocidos',
-
-  // ── Stopwords de DOMINIO ──
-  // Toda la BNC-UY habla de Uruguay: estas palabras aparecen en casi todos los
-  // documentos y por lo tanto no discriminan. Si se dejan, una consulta como
-  // "¿qué pintores uruguayos conocés?" puntúa alto cualquier doc que diga
-  // "uruguayo" (lácteos, vinos…) y entierra al documento realmente relevante.
-  // OJO: no incluir "montevideo", "nacional" ni "oriental" — esas SÍ discriminan
-  // (Museo Nacional, Partido Nacional, Banda Oriental, turismo en Montevideo).
-  'uruguay','uruguayo','uruguaya','uruguayos','uruguayas',
 ]);
 
 /* ─── Buscar documentos relevantes para una consulta ─────────────────
@@ -279,39 +218,35 @@ export function searchKnowledge(query, limit = 3) {
   for (const doc of _index) {
     const docText     = ' ' + normalize(doc.searchText) + ' ';
     const tituloText  = ' ' + normalize(doc.titulo) + ' ';
-    let score    = 0;
-    let bodyHits = 0;
+    let score = 0;
 
     for (const word of qWords) {
       // Coincidencia de palabra COMPLETA (con espacios alrededor)
       // Evita que "mate" matchee "materno" o "sur" matchee "suramérica"
       if (docText.includes(' ' + word + ' ')) {
-        score += 3;
-        if (tituloText.includes(' ' + word + ' ')) score += 2;
-      } else if (doc.bodyNorm && doc.bodyNorm.includes(' ' + word + ' ')) {
-        // La palabra no está en keywords/tags/título pero sí en el cuerpo.
-        // Cuenta como señal débil — red de seguridad para consultas que usan
-        // variantes morfológicas ("pintores" vs keyword "pintura").
-        bodyHits++;
+        score += 5;   // ← subido de 3 a 5 para dar más peso al body
+        if (tituloText.includes(' ' + word + ' ')) score += 3;
       }
     }
-
-    // El cuerpo aporta como máximo 5 puntos (antes era 3).
-    // Permite que documentos con contenido muy relevante puntúen más alto.
-    score += Math.min(bodyHits, 5);
 
     // Bonus por frase completa de keyword que aparece en la query
     for (const kw of doc.keywords) {
       const kwNorm = normalize(kw);
-      if (kwNorm.length > 5 && qNorm.includes(kwNorm)) {
-        score += 5;
+      if (kwNorm.length > 2 && qNorm.includes(kwNorm)) {
+        score += kwNorm.length > 5 ? 5 : 3;
       }
     }
 
-    // Bonus por frase de consulta encontrada en el texto del documento
-    // (ej: "punta muniz" como frase completa → bonus alto)
-    if (qWords.length >= 2 && docText.includes(' ' + qNorm + ' ')) {
+    // Bonus por frase completa de la query encontrada en el documento
+    if (qNorm.length > 5 && docText.includes(' ' + qNorm + ' ')) {
       score += 8;
+    }
+    // Bonus parcial: query multi-palabra como subcadena en el documento
+    if (qWords.length >= 2) {
+      const phrase = qWords.join(' ');
+      if (phrase.length > 5 && docText.includes(phrase)) {
+        score += 6;
+      }
     }
 
     if (score > 0) scored.push({ doc, score });
@@ -328,38 +263,11 @@ export function searchKnowledge(query, limit = 3) {
   }));
 }
 
-/* ─── Preguntas sobre la identidad de la propia Guyunusa ─────────────
-   Cuando el usuario pregunta por su origen, su creador o su historia,
-   la respuesta correcta YA está en el system prompt. Inyectar documentos
-   de la BNC-UY en ese caso solo agrega ruido (Carnaval, Candombe, pueblos
-   originarios…) y diluye el dato identitario, favoreciendo confabulaciones.
-   ────────────────────────────────────────────────────────────────────── */
-const PATRONES_IDENTIDAD = [
-  /\bqui[eé]n\s+(te|la|lo)\s+(cre[oó]|hizo|program[oó]|desarroll[oó]|dise[nñ][oó]|constru[yi])/i,
-  /\bqui[eé]n\s+es\s+(tu|su)\s+(creador|creadora|autor|autora|desarrollador|desarrolladora)/i,
-  /\b(tu|su)\s+(creador|creadora|origen|autor|autora|desarrollador)/i,
-  /\bc[oó]mo\s+(fuiste|fue|te)\s+(cre|desarroll|hic|hech|nac)/i,
-  /\bhistoria\s+de\s+(c[oó]mo\s+)?(fue\s+)?(creada\s+)?guyunusa/i,
-  /\bguyunusa\s+fue\s+creada/i,
-  /\bqui[eé]n\s+(sos|eres|te\s+program)/i,
-  /\bde\s+d[oó]nde\s+(ven[ií]s|vienes|sal[ií]s)/i,
-  /\bqu[eé]\s+(empresa|agencia|estudio|compa[nñ][ií]a)\s+te\s+(cre|hizo|desarroll)/i,
-  /\bqui[eé]n\s+est[aá]\s+(detr[aá]s|atr[aá]s)\s+(tuyo|de\s+(vos|ti|guyunusa))/i,
-];
-
-function esPreguntaDeIdentidad(query) {
-  return PATRONES_IDENTIDAD.some(re => re.test(query));
-}
-
 /* ─── Construir el bloque de contexto para inyectar en el prompt ─────
    Toma los documentos relevantes y arma un texto formateado,
    respetando un límite de caracteres para no inflar el prompt.
    ────────────────────────────────────────────────────────────────── */
-export function buildKnowledgeContext(query, { maxDocs = 4, maxChars = 12000 } = {}) {
-  // Identidad propia: sin RAG. El system prompt ya tiene la respuesta correcta
-  // y cualquier documento extra solo la contamina.
-  if (esPreguntaDeIdentidad(query)) return null;
-
+export function buildKnowledgeContext(query, { maxDocs = 3, maxChars = 6000 } = {}) {
   const docs = searchKnowledge(query, maxDocs);
   if (docs.length === 0) return null;
 
@@ -368,8 +276,8 @@ export function buildKnowledgeContext(query, { maxDocs = 4, maxChars = 12000 } =
 
   for (const doc of docs) {
     // Limitar cada doc para que no domine el contexto
-    const docText = doc.body.length > 5000
-      ? doc.body.slice(0, 5000) + '…'
+    const docText = doc.body.length > 2500
+      ? doc.body.slice(0, 2500) + '…'
       : doc.body;
 
     const bloque = `\n\n### ${doc.titulo} (${doc.categoria})\n${docText}`;

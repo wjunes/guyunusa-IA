@@ -58,3 +58,13 @@ Este dominio se articula con: **vivienda-urbanismo-uy** (políticas habitacional
 ## Palabras clave
 
 normas técnicas construcción Uruguay UNIT RBT UTE OSE URSEA DNB MVOT MTSS, normalización edificación Uruguay UNIT ISO IEC AMN homologación certificación, instalaciones eléctricas baja tensión Uruguay RBT UTE UNIT-IEC conductores protecciones, instalaciones sanitarias desagüe Uruguay OSE Intendencias PVC PP termofusión saneamiento, protección incendios Uruguay DNB Ley 15.896 extintores BIE sprinklers detectores evacuación, accesibilidad edilicia Uruguay Ley 18.651 UNIT 200 rampas anchos sanitarios táctil, materiales construcción Uruguay UNIT cemento áridos bloques perfiles hormigón estructural, seguridad higiene obras Uruguay Decreto 125/014 EPP andamios excavaciones delegado, sistemas constructivos no tradicionales Uruguay MVOT DAT Steel Framing Wood Framing paneles modular, eficiencia energética edificios Uruguay transmitancia térmica etiquetado acústica ventilación, códigos edificación Uruguay FOS FIS retiros alturas permisos departamentos, BIM Uruguay metodología representación técnica normas UNIT dibujo
+
+## Archivos incorporados (expansión del dominio)
+
+| Archivo | Contenido |
+|---|---|
+| 16-calculo-hormigon-armado.md | Metodología CIRSOC 201 / ACI 318: flexión, corte, columnas, losas |
+| 17-dosificacion-y-propiedades-hormigon.md | Diseño de mezcla ACI 211, relación a/c, propiedades fresco/endurecido |
+| 18-ejecucion-de-obra-hormigon.md | Encofrado, colocación, vibrado, curado, condiciones especiales |
+| 19-durabilidad-y-patologias.md | Clases de exposición Uruguay, recubrimientos, corrosión, fisuras, reparación |
+| 20-control-calidad-estructural.md | Muestreo, criterios de aceptación, ensayos no destructivos, inspección |
