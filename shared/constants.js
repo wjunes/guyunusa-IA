@@ -15,7 +15,6 @@ export const API_BASE = `/api/${API_VERSION}`;
 
 /* ── Proveedores de IA ── */
 export const AI_PROVIDERS = {
-  OPENROUTER: 'openrouter',
   DEEPSEEK: 'deepseek',
 };
 
@@ -125,7 +124,7 @@ export const SYSTEM_DEFAULTS = {
 
 /* ── Estimación de tokens (fallback cuando el proveedor no los devuelve) ── */
 export const TOKEN_ESTIMATION = {
-  charsPerToken: 3.5,   // promedio para español con DeepSeek/Gemma
+  charsPerToken: 3.5,   // promedio para español con DeepSeek
   estimate(text) {
     if (!text) return 0;
     return Math.ceil(text.length / this.charsPerToken);
@@ -163,9 +162,9 @@ export const ERRORS = {
   INVALID_CREDENTIALS: 'Credenciales inválidas',
   USER_EXISTS: 'El usuario ya existe',
   TOKEN_EXPIRED: 'Sesión expirada, volvé a ingresar',
-  AI_UNAVAILABLE: 'Los servicios de IA no están disponibles ahora. Intentá de nuevo en unos minutos.',
+  AI_UNAVAILABLE: 'DeepSeek no está disponible ahora. Intentá de nuevo en unos minutos.',
   RATE_LIMITED: 'Llegaste al límite de mensajes por hoy',
-  QUOTA_EXCEEDED: 'Alcanzaste tu límite diario de uso. Vuelve mañana o actualizá a Pro para más capacidad.',
+  QUOTA_EXCEEDED: 'Alcanzaste tu límite diario de uso. Volvé mañana o actualizá a Pro para más capacidad.',
   RESPONSE_TOO_LONG: 'La respuesta fue muy extensa. Intentá ser más específico en tu consulta.',
   TIMEOUT_FRIENDLY: 'La respuesta está tardando más de lo esperado. Intentá de nuevo con una consulta más corta.',
 };

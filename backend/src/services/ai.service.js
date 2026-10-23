@@ -1,72 +1,48 @@
 /*
- * ai.service.js — Servicio de IA con failover y timeout inteligente
+ * ai.service.js — Servicio de IA (DeepSeek único proveedor)
  *
- * Fase 2: Separa timeout de CONEXIÓN (corto, para detectar proveedor caído)
- * del timeout de STREAMING (largo, controlado por plan del usuario).
- 
- * El timeout de conexión aborta si el proveedor no responde en 30s.
- * Una vez que el streaming empieza, NO hay timeout duro — el controller
- * se encarga de manejar la duración según el plan.
- */ 
+ * v3.0 — OpenRouter eliminado. DeepSeek es el único proveedor.
+ *   - Sin failover: si DeepSeek falla, se reporta directamente.
+ *   - Timeout de conexión inteligente (30s) según plan del usuario.
+ *   - Una vez que el streaming empieza, sin timeout duro — el controller
+ *     se encarga de manejar la duración según el plan.
+ */
 import { logger } from '../utils/logger.js';
 import * as constants from '../../../shared/constants.js';
-const { AI_PROVIDERS, getPlanConfig } = constants;
+const { getPlanConfig } = constants;
 
-const PROVIDERS = {
-  [AI_PROVIDERS.OPENROUTER]: {
-    baseURL: () => process.env.OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1',
-    apiKey: () => process.env.OPENROUTER_API_KEY,
-    model: () => process.env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free',
-    headers: {
-      'HTTP-Referer': 'https://guyunusa.uy',
-      'X-Title': 'Guyunusa',
-    },
-  },
-  [AI_PROVIDERS.DEEPSEEK]: {
-    baseURL: () => process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
-    apiKey: () => process.env.DEEPSEEK_API_KEY,
-    model: () => process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
-    headers: {},
-  },
+const DEEPSEEK = {
+  baseURL: () => process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
+  apiKey: () => process.env.DEEPSEEK_API_KEY,
+  model:  () => process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
 };
 
 /**
- * callProvider — Llama a un proveedor de IA.
+ * callDeepSeek — Llama a DeepSeek.
  *
- * @param {string} providerKey
- * @param {Array}  messages
+ * @param {Array}   messages
  * @param {boolean} stream
- * @param {object} planConfig — configuración del plan del usuario
+ * @param {object}  planConfig — configuración del plan del usuario
  * @returns {Response}
  */
-async function callProvider(providerKey, messages, stream = false, planConfig = null) {
-  const providerDef = PROVIDERS[providerKey];
-  // Resolver getters (funciones) en runtime
-  const provider = {
-    baseURL: providerDef.baseURL(),
-    apiKey: providerDef.apiKey(),
-    model: providerDef.model(),
-    headers: providerDef.headers,
-  };
-  if (!provider.apiKey) throw new Error(`API key no configurada para ${providerKey}`);
+async function callDeepSeek(messages, stream = false, planConfig = null) {
+  const apiKey = DEEPSEEK.apiKey();
+  if (!apiKey) throw new Error('DEEPSEEK_API_KEY no configurada');
 
-  const config = planConfig || getPlanConfig('free');
-
-  // ── Timeout inteligente ──
-  // CONEXIÓN: timeout corto (15s) — si el proveedor no responde, failover rápido.
-  // STREAMING: sin timeout aquí — el controller lo maneja según el plan.
-  //            Una vez que fetch() resuelve, el stream está vivo y no debe cortarse.
+  const baseURL = DEEPSEEK.baseURL();
+  const model   = DEEPSEEK.model();
+  const config  = planConfig || getPlanConfig('free');
 
   const body = {
-    model: provider.model,
+    model,
     messages,
     stream,
     temperature: config.temperature ?? 0.6,
-    max_tokens: config.maxOutputTokens ?? 2048,
+    max_tokens:  config.maxOutputTokens ?? 2048,
   };
 
   // DeepSeek soporta stream_options para devolver usage en streaming
-  if (stream && providerKey === AI_PROVIDERS.DEEPSEEK) {
+  if (stream) {
     body.stream_options = { include_usage: true };
   }
 
@@ -80,12 +56,11 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
 
   let response;
   try {
-    response = await fetch(`${provider.baseURL}/chat/completions`, {
+    response = await fetch(`${baseURL}/chat/completions`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${provider.apiKey}`,
-        ...provider.headers,
+        'Authorization': `Bearer ${apiKey}`,
       },
       body: JSON.stringify(body),
       signal: controller.signal,
@@ -100,7 +75,7 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
 
   if (!response.ok) {
     const err = await response.text();
-    throw new Error(`${providerKey} error ${response.status}: ${err}`);
+    throw new Error(`deepseek error ${response.status}: ${err}`);
   }
 
   return response;
@@ -110,53 +85,39 @@ async function callProvider(providerKey, messages, stream = false, planConfig = 
  * chat — Respuesta completa sin streaming (fallback).
  */
 export async function chat(messages, planConfig = null) {
-  const order = [AI_PROVIDERS.DEEPSEEK, AI_PROVIDERS.OPENROUTER];
-  let lastError;
+  try {
+    logger.info('Chat desde: deepseek');
+    const response = await callDeepSeek(messages, false, planConfig);
+    const data = await response.json();
+    const content = data.choices?.[0]?.message?.content ?? '';
+    const usage = data.usage || {};
 
-  for (const providerKey of order) {
-    try {
-      logger.info(`Intentando proveedor: ${providerKey}`);
-      const response = await callProvider(providerKey, messages, false, planConfig);
-      const data = await response.json();
-      const content = data.choices?.[0]?.message?.content ?? '';
-      const usage = data.usage || {};
-
-      logger.info(`Respuesta OK desde ${providerKey} (${usage.total_tokens ?? 0} tokens)`);
-      return {
-        content,
-        provider: providerKey,
-        tokens: usage.total_tokens ?? 0,
-        promptTokens: usage.prompt_tokens ?? 0,
-        completionTokens: usage.completion_tokens ?? 0,
-        finishReason: data.choices?.[0]?.finish_reason ?? 'stop',
-      };
-    } catch (err) {
-      logger.warn(`Proveedor ${providerKey} falló: ${err.message}`);
-      lastError = err;
-    }
+    logger.info(`Respuesta OK desde deepseek (${usage.total_tokens ?? 0} tokens)`);
+    return {
+      content,
+      provider: 'deepseek',
+      tokens: usage.total_tokens ?? 0,
+      promptTokens: usage.prompt_tokens ?? 0,
+      completionTokens: usage.completion_tokens ?? 0,
+      finishReason: data.choices?.[0]?.finish_reason ?? 'stop',
+    };
+  } catch (err) {
+    logger.error(`DeepSeek falló: ${err.message}`);
+    throw new Error(`DeepSeek no disponible: ${err.message}`);
   }
-
-  throw new Error(`Todos los proveedores fallaron. Último error: ${lastError?.message}`);
 }
 
 /**
- * chatStream — Inicia streaming con un proveedor.
+ * chatStream — Inicia streaming con DeepSeek.
  * Devuelve la respuesta fetch para que el controller la lea chunk a chunk.
  */
 export async function chatStream(messages, planConfig = null) {
-  const order = [AI_PROVIDERS.DEEPSEEK, AI_PROVIDERS.OPENROUTER];
-  let lastError;
-
-  for (const providerKey of order) {
-    try {
-      logger.info(`Streaming desde: ${providerKey}`);
-      const response = await callProvider(providerKey, messages, true, planConfig);
-      return { response, provider: providerKey };
-    } catch (err) {
-      logger.warn(`Stream ${providerKey} falló: ${err.message}`);
-      lastError = err;
-    }
+  try {
+    logger.info('Streaming desde: deepseek');
+    const response = await callDeepSeek(messages, true, planConfig);
+    return { response, provider: 'deepseek' };
+  } catch (err) {
+    logger.error(`Stream deepseek falló: ${err.message}`);
+    throw new Error(`Streaming no disponible: ${err.message}`);
   }
-
-  throw new Error(`Streaming no disponible. Último error: ${lastError?.message}`);
 }

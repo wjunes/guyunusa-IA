@@ -1,0 +1,80 @@
+{
+  "domain": "filosofia-pensamiento-uy",
+  "enabled": true,
+  "frequency": "semiannual",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "filosofía uruguaya historia pensamiento",
+    "Carlos Vaz Ferreira Lógica viva filósofo uruguayo",
+    "Arturo Ardao historia ideas Uruguay",
+    "positivismo espiritualismo corrientes filosóficas Uruguay",
+    "filosofía educación laicismo Uruguay Varela",
+    "filosofía política democracia Uruguay batllismo",
+    "ética pensamiento moral Uruguay derechos humanos",
+    "filosofía latinoamericana Uruguay Ardao Acosta Sambarino",
+    "Rebellato ética liberación educación popular Uruguay",
+    "Methol Ferré Uruguay geopolítica integración latinoamericana",
+    "pensamiento exilio dictadura intelectual Uruguay 1973-1985",
+    "Instituto Filosofía FHCE UdelaR academia filosofía Uruguay"
+  ],
+  "sources": [
+    {
+      "name": "gub.uy — MEC Academia Nacional de Letras",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura/academia-letras",
+      "type": "official",
+      "priority": 1,
+      "auto_approve": true
+    },
+    {
+      "name": "FHCE/UdelaR — ojs.fhce.edu.uy",
+      "url": "https://ojs.fhce.edu.uy",
+      "type": "institutional",
+      "priority": 2,
+      "auto_approve": false
+    },
+    {
+      "name": "Biblioteca Nacional Uruguay — bibna.edu.uy",
+      "url": "https://www.bibna.edu.uy",
+      "type": "institutional",
+      "priority": 2,
+      "auto_approve": true
+    },
+    {
+      "name": "Anuario Cuyo / Filosofía Argentina y Americana",
+      "url": "https://revistas.uncu.edu.ar/ojs/index.php/anuariocuyo",
+      "type": "academic",
+      "priority": 2,
+      "auto_approve": false
+    },
+    {
+      "name": "Philarchive / PhilPapers",
+      "url": "https://philarchive.org",
+      "type": "academic",
+      "priority": 2,
+      "auto_approve": false
+    },
+    {
+      "name": "El Observador — cultura e ideas",
+      "url": "https://www.elobservador.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    },
+    {
+      "name": "La Diaria — cultura",
+      "url": "https://ladiaria.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    },
+    {
+      "name": "Brecha — pensamiento",
+      "url": "https://brecha.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    }
+  ]
+}

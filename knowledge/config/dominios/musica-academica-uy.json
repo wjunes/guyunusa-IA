@@ -1,0 +1,84 @@
+{
+  "domain": "musica-academica-uy",
+  "enabled": true,
+  "frequency": "semiannual",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "historia música académica Uruguay",
+    "compositores uruguayos música clásica",
+    "SODRE orquesta sinfónica Uruguay",
+    "OSSODRE OSN historia temporadas",
+    "EUM Escuela Universitaria Música UdelaR",
+    "Eduardo Fabini Campo música uruguaya",
+    "Héctor Tosar compositor Uruguay siglo XX",
+    "CDM Centro Documentación Musical Uruguay",
+    "música contemporánea electroacústica Uruguay",
+    "folklore musical Uruguay Ayestarán",
+    "vanguardia musical latinoamérica Uruguay",
+    "nationalismo musical uruguayo compositores"
+  ],
+  "sources": [
+    {
+      "name": "SODRE oficial",
+      "url": "https://www.sodre.gub.uy",
+      "type": "institutional",
+      "notes": "Programación OSN, Ballet, Coro Nacional, historia institucional"
+    },
+    {
+      "name": "CDM Lauro Ayestarán — MEC",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/programas-y-proyectos/centro-documentacion-musical-lauro-ayestaran",
+      "type": "institutional",
+      "notes": "Archivo musical, partituras, grabaciones patrimoniales"
+    },
+    {
+      "name": "EUM UdelaR",
+      "url": "https://www.eum.edu.uy",
+      "type": "institutional",
+      "notes": "Escuela Universitaria de Música, carreras, investigación"
+    },
+    {
+      "name": "Teatro Solís IMM",
+      "url": "https://www.teatrosolis.org.uy",
+      "type": "institutional",
+      "notes": "Programación OFM y vida cultural montevideana"
+    },
+    {
+      "name": "Biblioteca Nacional Uruguay",
+      "url": "https://www.bibna.gub.uy",
+      "type": "library",
+      "notes": "Fondo bibliográfico musicología y cultura"
+    },
+    {
+      "name": "Tacuabé archivo digital",
+      "url": "https://www.tacuabe.net",
+      "type": "archive",
+      "notes": "Partituras y textos de Aharonián y Paraskevaídis; música contemporánea latinoamericana"
+    },
+    {
+      "name": "La Diaria — Cultura",
+      "url": "https://ladiaria.com.uy/cultura/",
+      "type": "media",
+      "notes": "Cobertura de estrenos, conciertos y vida musical contemporánea"
+    },
+    {
+      "name": "Brecha — Cultural",
+      "url": "https://brecha.com.uy",
+      "type": "media",
+      "notes": "Crítica y análisis cultural incluyendo música"
+    },
+    {
+      "name": "El Observador — Espectáculos",
+      "url": "https://www.elobservador.com.uy/cultura",
+      "type": "media",
+      "notes": "Programación y agenda musical"
+    },
+    {
+      "name": "Intendencia de Montevideo — Cultura",
+      "url": "https://montevideo.gub.uy/areas-tematicas/cultura",
+      "type": "institutional",
+      "notes": "OFM, escuelas municipales de música"
+    }
+  ]
+}

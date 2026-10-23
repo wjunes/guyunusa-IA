@@ -1,0 +1,96 @@
+{
+  "domain": "organizaciones-artisticas-uy",
+  "enabled": true,
+  "frequency": "quarterly",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "organizaciones artísticas profesionales Uruguay",
+    "gremios sindicatos artistas Uruguay",
+    "gestión colectiva derechos autor Uruguay AGADU",
+    "SUDEI derechos conexos ejecutantes Uruguay",
+    "AUDEM músicos gremial Uruguay",
+    "FUDEM Federación Uruguaya Músicos",
+    "SUA Sociedad Uruguaya Actores",
+    "FUTI teatros independientes Uruguay",
+    "DGU directores guionistas audiovisual Uruguay",
+    "cooperativas trabajo artístico Ley 18384 Uruguay",
+    "ASOPROD productores cinematográficos Uruguay",
+    "organizaciones danza circo literatura artes visuales Uruguay"
+  ],
+  "sources": [
+    {
+      "name": "gub.uy — MTSS (Comisión Certificadora)",
+      "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social",
+      "site_operator": "site:gub.uy ministerio-trabajo",
+      "type": "official",
+      "priority": 1,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "gub.uy — MEC / INAE / INAV",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura",
+      "site_operator": "site:gub.uy ministerio-educacion-cultura",
+      "type": "official",
+      "priority": 1,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "IMPO — Normativa sector artístico",
+      "url": "https://www.impo.com.uy",
+      "site_operator": "site:impo.com.uy artistas cooperativas música teatro",
+      "type": "official",
+      "priority": 1,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "AGADU — Sitio oficial",
+      "url": "https://www.agadu.org",
+      "site_operator": "site:agadu.org",
+      "type": "institutional",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "Uruguay Audiovisual — Directorio institucional",
+      "url": "https://uruguayaudiovisual.com",
+      "site_operator": "site:uruguayaudiovisual.com",
+      "type": "institutional",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "FESAAL — Autores audiovisuales latinoamericanos",
+      "url": "https://www.fesaal.org",
+      "site_operator": "site:fesaal.org Uruguay",
+      "type": "institutional",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "CdF — Centro de Fotografía de Montevideo",
+      "url": "https://cdf.montevideo.gub.uy",
+      "site_operator": "site:cdf.montevideo.gub.uy",
+      "type": "institutional",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "Intendencia de Montevideo — Cultura",
+      "url": "https://montevideo.gub.uy/cultura",
+      "site_operator": "site:montevideo.gub.uy cultura",
+      "type": "institutional",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "domain": "literatura-uy",
+  "enabled": true,
+  "frequency": "semiannual",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "literatura uruguaya historia períodos",
+    "autores escritores poetas Uruguay",
+    "poesía uruguaya modernismo Generación del 45",
+    "narrativa novela cuento Uruguay",
+    "teatro dramaturgia Uruguay",
+    "literatura infantil juvenil Uruguay LIJ",
+    "ensayo crítica literaria Uruguay",
+    "editoriales publicaciones Uruguay ecosistema editorial",
+    "Premio Cervantes Uruguay Ida Vitale Onetti",
+    "literatura exilio dictadura Uruguay",
+    "Generación del 900 Generación del 45 Uruguay",
+    "literatura uruguaya educación canon escolar"
+  ],
+  "sources": [
+    {
+      "name": "gub.uy — MEC Academia Nacional de Letras",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura/academia-letras",
+      "type": "official",
+      "priority": 1,
+      "auto_approve": true
+    },
+    {
+      "name": "gub.uy — MEC/ICAU catálogos literarios",
+      "url": "https://icau.mec.gub.uy",
+      "type": "official",
+      "priority": 1,
+      "auto_approve": true
+    },
+    {
+      "name": "Biblioteca Nacional Uruguay — bibna.edu.uy",
+      "url": "https://www.bibna.edu.uy",
+      "type": "institutional",
+      "priority": 2,
+      "auto_approve": true
+    },
+    {
+      "name": "FHCE/UdelaR — ojs.fhce.edu.uy",
+      "url": "https://ojs.fhce.edu.uy",
+      "type": "institutional",
+      "priority": 2,
+      "auto_approve": false
+    },
+    {
+      "name": "Cámara Uruguaya del Libro",
+      "url": "https://camaradellibro.com.uy",
+      "type": "institutional",
+      "priority": 2,
+      "auto_approve": false
+    },
+    {
+      "name": "El Observador — cultura y espectáculos",
+      "url": "https://www.elobservador.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    },
+    {
+      "name": "La Diaria — cultura",
+      "url": "https://ladiaria.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    },
+    {
+      "name": "Semanario Brecha",
+      "url": "https://brecha.com.uy",
+      "type": "secondary",
+      "priority": 3,
+      "auto_approve": false
+    }
+  ]
+}

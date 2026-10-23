@@ -1,0 +1,67 @@
+{
+  "domain": "loterias-quinielas-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "Quiniela Uruguay sorteos reglas",
+    "Tómbola Uruguay DNLQ",
+    "5 de Oro Revancha Uruguay",
+    "Lotería Uruguaya sorteo mensual",
+    "DNLQ Dirección Nacional Loterías Quinielas Uruguay",
+    "La Banca Banca de Quinielas Uruguay labanca.com.uy",
+    "cobro premios quiniela Uruguay",
+    "rifas autorizaciones DNLQ Uruguay",
+    "eRaspadita Supermatch Uruguay",
+    "agencias quiniela Uruguay habilitadas"
+  ],
+  "sources": [
+    {
+      "name": "DNLQ — Sitio oficial (loteria.gub.uy)",
+      "url": "https://www.loteria.gub.uy",
+      "site_operator": "site:loteria.gub.uy",
+      "type": "official",
+      "priority": 1,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "gub.uy — Trámites loterías y premios",
+      "url": "https://www.gub.uy/tramites/cobro-premios",
+      "site_operator": "site:gub.uy loterías quinielas premios",
+      "type": "official",
+      "priority": 2,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "IMPO — Normativa loterías Uruguay",
+      "url": "https://www.impo.com.uy",
+      "site_operator": "site:impo.com.uy loterías quinielas",
+      "type": "official",
+      "priority": 3,
+      "enabled": true,
+      "auto_approve": true
+    },
+    {
+      "name": "La Banca — Plataforma digital",
+      "url": "https://labanca.com.uy",
+      "site_operator": "site:labanca.com.uy",
+      "type": "institutional",
+      "priority": 4,
+      "enabled": true,
+      "auto_approve": false
+    },
+    {
+      "name": "CIBELAE — Corporación Iberoamericana Loterías Estatales",
+      "url": "https://cibelae.net",
+      "site_operator": "site:cibelae.net Uruguay",
+      "type": "international",
+      "priority": 5,
+      "enabled": true,
+      "auto_approve": false
+    }
+  ]
+}

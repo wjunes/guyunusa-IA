@@ -98,7 +98,7 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
   // ── Detectar tipo de consulta (sync, sin costo) ──
   const needsWebSearch = isWebSearchQuery(content);
   const isShortQuery   = content.trim().split(/\s+/).length <= 8;
-  const isCasualChat   = /^(hola|buenas|chau|gracias|ok|dale|genial|perfecto|sí|no|ta|bien)\b/i
+  const isCasualChat   = /^(hola|buenas|chau|gracias|ok|dale|genial|perfecto|sí|no|ta|bien)\b/iu
                          .test(content.trim());
   const maxHistory = isCasualChat ? 4 : (isShortQuery ? 6 : (config.maxHistoryMessages || 10));
 
@@ -129,7 +129,9 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
   // ── RAG: buscar conocimiento (sync, ~2ms) ──
   // Se ejecuta siempre EXCEPTO si ya tenemos contexto web O es chat casual
   let knowledgeContext = '';
-  if (!isCasualChat && !externalContext) {
+  // externalContext con empty=true cuenta como "sin resultados útiles" para RAG
+  const hasUsefulWebResults = externalContext && !externalContext.empty;
+  if (!isCasualChat && !hasUsefulWebResults) {
     try {
       const maxDocs  = isShortQuery ? 2 : 4;
       const maxChars = isShortQuery ? 5000 : 12000;
@@ -147,19 +149,47 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       logger.warn(`Knowledge retriever: ${err.message}`);
     }
   }
+
+  // ── Fallback: si RAG no encontró nada y NO se hizo web search → intentar web ──
+  // Solo si needsWebSearch era false (nunca se buscó). Si ya buscó y vino vacío, no reintentar.
+  let fallbackWebContext = null;
+  if (!isCasualChat && !needsWebSearch && !knowledgeContext) {
+    try {
+      logger.info(`[fallback] RAG vacío y sin web search previo → intentando web search como respaldo`);
+      fallbackWebContext = await buildWebContext(content, { count: 5 });
+    } catch (err) {
+      logger.warn(`[fallback] Web search falló: ${err.message}`);
+    }
+  }
+
   const t4 = Date.now();
 
-  // ── Web context (ya resuelto del Promise.all) ──
+  // ── Web context (del Promise.all inicial O del fallback) ──
+  const effectiveWebContext = externalContext || fallbackWebContext;
   let webContext = '';
-  if (externalContext) {
+  if (effectiveWebContext && !effectiveWebContext.empty) {
+    // Hay resultados reales — inyectar como contexto
     webContext =
       `\n\n## Información de la web (búsqueda en tiempo real)\n` +
       `Encontré estos resultados actuales en la web. Usalos para dar una respuesta ` +
       `informada y actualizada. Podés mencionar las fuentes de forma natural ` +
       `(por ejemplo: "según [fuente]..."). No copies textualmente — resumí ` +
       `y respondé con tu estilo.\n` +
-      externalContext.context;
-    logger.info(`Web search inyectado: ${externalContext.sources.length} resultados`);
+      effectiveWebContext.context;
+    const src = fallbackWebContext ? 'fallback' : 'directo';
+    logger.info(`Web search inyectado (${src}): ${effectiveWebContext.sources.length} resultados`);
+  } else if (effectiveWebContext && effectiveWebContext.empty) {
+    // Se buscó pero no se encontró nada — decirle al LLM para respuesta honesta
+    webContext =
+      `\n\n## Búsqueda web realizada\n` +
+      `Se realizó una búsqueda en la web sobre "${effectiveWebContext.query || content}" ` +
+      `pero no se encontraron resultados relevantes. Informá al usuario que buscaste ` +
+      `en la web pero no encontraste información verificada sobre este tema. ` +
+      `No inventes datos. Si el usuario preguntó por una persona específica, ` +
+      `decile que buscaste pero no encontraste resultados — ` +
+      `puede ser que esa persona no tenga presencia pública en internet.`;
+    const src = fallbackWebContext ? 'fallback' : 'directo';
+    logger.info(`Web search (${src}): búsqueda ejecutada pero 0 resultados para "${effectiveWebContext.query || content}"`);
   }
 
   // ── Fase 5: Recortar historial si excede maxContextTokens del plan ──
@@ -198,14 +228,18 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
       } catch (err) { logger.warn(`[imagesearch] ${err.message}`); }
     }
 
-    // ── Generación de imágenes con IA (se ejecuta después del start) ──
-    let imageGenContext = '';
+    // ── imageGenContext se inyecta DESPUÉS de la generación real (en streamChat) ──
     let generatedImage = null;
-    if (isImageGenQuery(content)) {
-      imageGenContext = '\n\n## Imagen generada\nSe generó una imagen que se mostrará automáticamente. NO describas la imagen ni digas qué contiene — vos no la ves. Solo respondé algo como: "Acá tenés la imagen que pediste. Si no es lo que buscabas, pedímela de nuevo con más detalles." Sé breve, máximo 2 oraciones.';
-    }
 
-    const systemContent = SYSTEM_PROMPT + userContext + knowledgeContext + webContext + videoContext + imageContext + imageGenContext;
+    // ── Contexto temporal dinámico — hora de Uruguay (UTC-3) en cada request ──
+    const nowUY = new Date().toLocaleString('es-UY', {
+      timeZone: 'America/Montevideo',
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+      hour: '2-digit', minute: '2-digit', hour12: false
+    });
+    const temporalContext = `\n\n## Fecha y hora actual\nHoy es ${nowUY} (hora de Uruguay, UTC-3). Usá esta referencia temporal para todas tus respuestas. No aclares que la información puede estar desactualizada cuando la información que recibís del contexto es reciente.`;
+
+    const systemContent = SYSTEM_PROMPT + temporalContext + userContext + knowledgeContext + webContext + videoContext + imageContext;
   const systemTokens  = estimateTokens(systemContent);
   const maxCtxTokens  = config.maxContextTokens || 12_000;
   const budgetForHistory = maxCtxTokens - systemTokens;
@@ -250,7 +284,7 @@ async function prepareChat(userId, content, conversation_id, fileContext = null,
   }
 
   const t5 = Date.now();
-  logger.info(`[TIMING] prepareChat: total=${t5-t0}ms | user+quota=${t1-t0}ms | conv=${t2-t1}ms | db+web=${t3-t2}ms | rag=${t4-t3}ms | trim=${t5-t4}ms | tokens≈${estimateTokens(systemContent)}`);
+  logger.info(`[TIMING] prepareChat: total=${t5-t0}ms | user+quota=${t1-t0}ms | conv=${t2-t1}ms | db+web=${t3-t2}ms | rag+fallback=${t4-t3}ms | trim=${t5-t4}ms | tokens≈${estimateTokens(systemContent)}${fallbackWebContext ? ' | web-fallback=yes' : ''}`);
 
   return { convId, messages, username: user.username, videoResults, imageResults, generatedImage };
 }
@@ -357,6 +391,10 @@ async function readStream(response, send) {
     }
   }
 
+  // Liberar bytes UTF-8 pendientes en el decoder ANTES de procesar el buffer final
+  const remaining = decoder.decode();
+  if (remaining) lineBuffer += remaining;
+
   // Procesar lo que quede en el buffer al cerrar el stream
   if (lineBuffer.trim()) {
     const raw = lineBuffer.startsWith('data: ') ? lineBuffer.slice(6).trim() : '';
@@ -377,10 +415,6 @@ async function readStream(response, send) {
       } catch { /* ignorar */ }
     }
   }
-
-  // Liberar bytes UTF-8 pendientes en el decoder
-  const remaining = decoder.decode();
-  if (remaining) lineBuffer += remaining;
 
   return { finishReason, contentDelta, promptTokens, completionTokens };
 }
@@ -444,8 +478,15 @@ export async function sendMessageStream(req, res) {
       send('generating_image', { message: 'Generando imagen, esperá unos segundos...' });
       try {
         const result = await generateImage(content);
-        if (result?.dataUrl || result?.imageUrl) {
+        if (result?.imageUrl) {
           prepared.generatedImage = result;
+          // Inyectar contexto al system prompt SOLO si la generación tuvo éxito
+          // para que el LLM sepa que la imagen se mostrará automáticamente
+          if (prepared.messages.length > 0 && prepared.messages[0].role === 'system') {
+            prepared.messages[0].content += '\n\n## Imagen generada\nSe generó una imagen que se mostrará automáticamente. NO describas la imagen ni digas qué contiene — vos no la ves. Solo respondé algo como: "Acá tenés la imagen que pediste. Si no es lo que buscabas, pedímela de nuevo con más detalles." Sé breve, máximo 2 oraciones.';
+          }
+        } else {
+          logger.warn('[imagegen] generateImage() retornó null — no se pudo generar');
         }
       } catch (err) { logger.warn(`[imagegen] ${err.message}`); }
     }
