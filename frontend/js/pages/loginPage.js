@@ -52,7 +52,7 @@ export function mount() {
 
       <div class="auth-form-panel">
         <div class="auth-form-wrap">
-          <h2>Bienvenido/a</h2>
+          <h2>Hola, gracias por estar aquí</h2>
           <p class="auth-subtitle">Ingresá o crea tu cuenta para continuar</p>
 
           <div id="auth-alert" class="auth-alert" role="alert"></div>
