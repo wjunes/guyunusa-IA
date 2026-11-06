@@ -13,8 +13,20 @@ let _sttDestroy = () => { };
 let _attachedFile = null;
 let _uploadAbort = null; // AbortController para cancelar upload si se quita el archivo
 
+/** Imagen adjunta actual: null o { filename, base64, size, mimeType } */
+let _attachedImage = null;
+
+/** Acción para la imagen: 'analyze' (DeepSeek visión) o 'edit' (Pollinations kontext) */
+let _imageAction = 'analyze';
+
 /** Devuelve el archivo actualmente adjunto, o null */
 export function getAttachedFile() { return _attachedFile; }
+
+/** Devuelve la imagen actualmente adjunta, o null */
+export function getAttachedImage() { return _attachedImage; }
+
+/** Devuelve la acción seleccionada para la imagen: 'analyze' o 'edit' */
+export function getImageAction() { return _imageAction; }
 
 /** Limpia el archivo adjunto y oculta el chip */
 export function clearAttachedFile() {
@@ -25,6 +37,24 @@ export function clearAttachedFile() {
   const input = document.getElementById('file-input');
   if (row) row.hidden = true;
   if (input) input.value = '';
+}
+
+/** Limpia la imagen adjunta y oculta el preview */
+export function clearAttachedImage() {
+  _attachedImage = null;
+  _imageAction = 'analyze';
+  const row = document.getElementById('image-row');
+  const input = document.getElementById('file-input');
+  if (row) row.hidden = true;
+  if (input) input.value = '';
+}
+
+function setImageAction(action) {
+  _imageAction = action;
+  const btnAnalyze = document.getElementById('btn-action-analyze');
+  const btnEdit = document.getElementById('btn-action-edit');
+  if (btnAnalyze) btnAnalyze.classList.toggle('c-input-bar__action-btn--active', action === 'analyze');
+  if (btnEdit) btnEdit.classList.toggle('c-input-bar__action-btn--active', action === 'edit');
 }
 
 /* ══════════════════════════════════════════════════════════ */
@@ -53,7 +83,29 @@ export function renderInputBar(store) {
         </div>
       </div>
 
-      <!-- Input invisible para selección de archivos -->
+      <!-- Fila del preview de imagen (oculta hasta que se adjunte una imagen) -->
+      <div class="c-input-bar__image-row" id="image-row" hidden>
+        <div class="c-input-bar__image-preview" id="image-preview">
+          <img id="image-thumb" src="" alt="Preview" class="c-input-bar__image-thumb"/>
+          <span class="c-input-bar__image-name" id="image-name-label">…</span>
+          <button class="c-input-bar__file-remove" id="btn-remove-image"
+                  type="button" aria-label="Quitar imagen" title="Quitar imagen">
+            ${iconClose()}
+          </button>
+        </div>
+        <div class="c-input-bar__image-action-toggle" id="image-action-toggle">
+          <button type="button" class="c-input-bar__action-btn c-input-bar__action-btn--active"
+                  data-action="analyze" id="btn-action-analyze" title="Analizar imagen con IA">
+            🔍 Analizar
+          </button>
+          <button type="button" class="c-input-bar__action-btn"
+                  data-action="edit" id="btn-action-edit" title="Editar/transformar imagen con IA">
+            ✨ Editar
+          </button>
+        </div>
+      </div>
+
+      <!-- Input invisible para selección de archivos e imágenes -->
       <input type="file" id="file-input" hidden
         accept=".txt,.md,.markdown,.rst,.log,
                 .js,.mjs,.cjs,.ts,.tsx,.jsx,
@@ -63,7 +115,9 @@ export function renderInputBar(store) {
                 .sh,.bash,.zsh,.fish,.ps1,.bat,.cmd,.env,.gitignore,.dockerignore,
                 .vue,.svelte,.astro,.njk,.pug,.hbs,
                 .pdf,
-                application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                application/vnd.openxmlformats-officedocument.wordprocessingml.document,
+                .png,.jpg,.jpeg,.gif,.webp,
+                image/png,image/jpeg,image/gif,image/webp"/>
 
       <div class="c-input-bar__wrap">
         <textarea
@@ -139,6 +193,15 @@ export function renderInputBar(store) {
     updateSendBtn();
   });
 
+  document.getElementById('btn-remove-image')?.addEventListener('click', () => {
+    clearAttachedImage();
+    updateSendBtn();
+  });
+
+  // ── Toggle Analizar / Editar imagen ──
+  document.getElementById('btn-action-analyze')?.addEventListener('click', () => setImageAction('analyze'));
+  document.getElementById('btn-action-edit')?.addEventListener('click', () => setImageAction('edit'));
+
   // ── STT ──
   const stt = initSTT(textarea, sendBtn, micBtn, () => {
     // sendFn para auto-envío en modo voz
@@ -163,8 +226,8 @@ export function renderInputBar(store) {
 
   function doSend() {
     const text = textarea.value.trim();
-    // Permitir enviar si hay texto O si hay archivo adjunto listo
-    if ((!text && !_attachedFile) || store.get('loading')) return;
+    // Permitir enviar si hay texto O si hay archivo/imagen adjunta listo
+    if ((!text && !_attachedFile && !_attachedImage) || store.get('loading')) return;
     textarea.value = '';
     textarea.style.height = 'auto';
     sendBtn.disabled = true;
@@ -176,11 +239,20 @@ export function renderInputBar(store) {
   function updateSendBtn() {
     const hasText = textarea.value.trim().length > 0;
     const hasFile = !!_attachedFile;
-    sendBtn.disabled = !hasText && !hasFile;
+    const hasImage = !!_attachedImage;
+    sendBtn.disabled = !hasText && !hasFile && !hasImage;
   }
 
   /* ── Manejo de archivo seleccionado ── */
   async function handleFileSelected(file) {
+    // ── Detectar si es imagen ──
+    const imageTypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/gif', 'image/webp'];
+    const isImage = imageTypes.includes(file.type?.toLowerCase());
+
+    if (isImage) {
+      return handleImageSelected(file);
+    }
+
     const row = document.getElementById('file-row');
     const chip = document.getElementById('file-chip');
     const nameLabel = document.getElementById('file-name-label');
@@ -220,6 +292,44 @@ export function renderInputBar(store) {
       updateSendBtn();
     }
   }
+
+  /* ── Manejo de imagen seleccionada (base64 client-side) ── */
+  async function handleImageSelected(file) {
+    const MAX_IMAGE_SIZE = 10 * 1024 * 1024; // 10 MB
+    if (file.size > MAX_IMAGE_SIZE) {
+      showFileError('La imagen es demasiado grande. Máximo 10 MB.');
+      return;
+    }
+
+    const imgRow = document.getElementById('image-row');
+    const thumb = document.getElementById('image-thumb');
+    const nameLabel = document.getElementById('image-name-label');
+
+    // Limpiar archivo de texto si hay uno adjunto
+    clearAttachedFile();
+
+    imgRow.hidden = false;
+    nameLabel.textContent = file.name;
+
+    try {
+      const base64 = await fileToBase64(file);
+      // Mostrar thumbnail
+      thumb.src = base64;
+
+      _attachedImage = {
+        filename: file.name,
+        base64,
+        size: file.size,
+        mimeType: file.type,
+      };
+    } catch (err) {
+      _attachedImage = null;
+      imgRow.hidden = true;
+      showFileError('No se pudo procesar la imagen');
+    } finally {
+      updateSendBtn();
+    }
+  }
 }
 
 function formatFileInfo(result) {
@@ -228,6 +338,16 @@ function formatFileInfo(result) {
   const lineStr = result.lines > 1 ? ` · ${result.lines} líneas` : '';
   const truncStr = result.truncated ? ' · truncado' : '';
   return `${sizeStr}${lineStr}${truncStr}`;
+}
+
+/** Convierte un File a base64 data URI */
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = () => reject(new Error('Error leyendo archivo'));
+    reader.readAsDataURL(file);
+  });
 }
 
 function showFileError(msg) {
@@ -433,7 +553,7 @@ export function setInputLoading(loading, onStop = null, originalText = '') {
     sendBtn.title = tr?.chat?.hint || 'Enter para enviar';
     sendBtn.setAttribute('aria-label', 'Enviar');
     sendBtn.innerHTML = iconSend();
-    sendBtn.disabled = !origText.trim() && !_attachedFile;
+    sendBtn.disabled = !origText.trim() && !_attachedFile && !_attachedImage;
     sendBtn.onclick = null;
 
     if (micBtn) micBtn.disabled = false;

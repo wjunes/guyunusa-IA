@@ -1,13 +1,15 @@
-import { clearApp, $ }      from '../utils/dom.js';
-import { validateLogin }     from '../utils/validators.js';
-import { login }             from '../services/auth.js';
-import { store, router }     from '../app.js';
-import { toggleTheme,
-         getCurrentTheme }   from '../modules/theme.js';
-import { Platform }          from '../modules/native.js';
+import { clearApp, $ } from '../utils/dom.js';
+import { validateLogin } from '../utils/validators.js';
+import { login } from '../services/auth.js';
+import { store, router } from '../app.js';
+import {
+  toggleTheme,
+  getCurrentTheme
+} from '../modules/theme.js';
+import { Platform } from '../modules/native.js';
 import { maybeShowLangBanner } from '../components/langBanner.js';
-import { isElectron }          from '../utils/electron.js';
-import { openTermsModal }      from '../components/termsModal.js';
+import { isElectron } from '../utils/electron.js';
+import { openTermsModal } from '../components/termsModal.js';
 
 export function mount() {
   const app = clearApp();
@@ -36,22 +38,22 @@ export function mount() {
       <div class="auth-brand">
         <div class="auth-brand__logo">
           <img src="assets/icons/guyunusa.ico" alt="Guyunusa"
-               style="width:90px;height:90px;border-radius:50%;object-fit:contain;"/>
+          style="width:90px;height:90px;border-radius:50%;object-fit:contain;"/>
         </div>
         <div class="auth-brand__name">Guyunusa</div>
         <p class="auth-brand__tagline">
           Una voz uruguaya que llegó al mundo sin perder su raíz.
         </p>
         <div class="auth-brand__stripes">
-          ${Array.from({length:9}, () => '<span></span>').join('')}
+          ${Array.from({ length: 9 }, () => '<span></span>').join('')}
         </div>
         <span class="auth-brand__footer">guyunusa.uy</span>
       </div>
 
       <div class="auth-form-panel">
         <div class="auth-form-wrap">
-          <h2>Bienvenido de vuelta</h2>
-          <p class="auth-subtitle">Ingresá a tu cuenta para continuar</p>
+          <h2>Bienvenido/a</h2>
+          <p class="auth-subtitle">Ingresá o crea tu cuenta para continuar</p>
 
           <div id="auth-alert" class="auth-alert" role="alert"></div>
 
@@ -129,7 +131,7 @@ export function mount() {
   // Banner de detección de idioma — en todas las pantallas
   setTimeout(() => maybeShowLangBanner(), 800);
 
-  $('#auth-theme-btn')?.addEventListener('click', function() {
+  $('#auth-theme-btn')?.addEventListener('click', function () {
     toggleTheme();
     this.innerHTML = themeIcon();
   });
@@ -152,17 +154,17 @@ export function mount() {
 
   // Toggle ver/ocultar contraseña
   $('#toggle-password')?.addEventListener('click', () => {
-    const input   = $('#password');
-    const btn     = $('#toggle-password');
+    const input = $('#password');
+    const btn = $('#toggle-password');
     const visible = input.type === 'text';
-    input.type    = visible ? 'password' : 'text';
+    input.type = visible ? 'password' : 'text';
     btn.innerHTML = visible ? iconEye() : iconEyeOff();
     btn.setAttribute('aria-label', visible ? 'Mostrar contraseña' : 'Ocultar contraseña');
   });
 
-  const form      = $('#login-form');
+  const form = $('#login-form');
   const submitBtn = $('#submit-btn');
-  const alertEl   = $('#auth-alert');
+  const alertEl = $('#auth-alert');
 
   function showFieldError(field, msg) {
     $(`#${field}`)?.classList.toggle('error', !!msg);
@@ -170,12 +172,12 @@ export function mount() {
     if (e) e.textContent = msg || '';
   }
   function clearErrors() {
-    ['email','password'].forEach(f => showFieldError(f, ''));
+    ['email', 'password'].forEach(f => showFieldError(f, ''));
     alertEl.className = 'auth-alert';
     alertEl.textContent = '';
   }
   function showAlert(msg, type = 'error') {
-    alertEl.className   = `auth-alert ${type}`;
+    alertEl.className = `auth-alert ${type}`;
     alertEl.textContent = msg;
   }
 
@@ -192,7 +194,7 @@ export function mount() {
         (msg) => showAlert(msg),
         (loading) => {
           if (!btn) return;
-          btn.disabled  = loading;
+          btn.disabled = loading;
           btn.innerHTML = loading
             ? '<span style="font-size:13px;color:var(--text-muted)">Conectando...</span>'
             : `<span class="c-btn-google__icon">${googleIcon()}</span>Continuar con Google`;
@@ -207,7 +209,7 @@ export function mount() {
     e.preventDefault();
     clearErrors();
 
-    const email    = $('#email').value.trim();
+    const email = $('#email').value.trim();
     const password = $('#password').value;
 
     const errors = {};
@@ -221,7 +223,7 @@ export function mount() {
       return;
     }
 
-    submitBtn.disabled    = true;
+    submitBtn.disabled = true;
     submitBtn.textContent = 'Ingresando...';
 
     try {
@@ -230,7 +232,7 @@ export function mount() {
     } catch (err) {
       showAlert(err.message || 'No se pudo ingresar. Revisá tus datos.');
     } finally {
-      submitBtn.disabled    = false;
+      submitBtn.disabled = false;
       submitBtn.textContent = 'Ingresar';
     }
   });

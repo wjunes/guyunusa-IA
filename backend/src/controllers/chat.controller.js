@@ -9,6 +9,8 @@ import { buildWebContext, isWebSearchQuery } from '../services/websearch.service
 import { searchVideos, isVideoQuery } from '../services/youtube.service.js';
 import { searchImages, isImageQuery } from '../services/imagesearch.service.js';
 import { generateImage, isImageGenQuery } from '../services/imagegen.service.js';
+import { transformImage } from '../services/pollinations.service.js';
+import { detectSharpOps, applySharpOps } from '../services/sharp.service.js';
 import { recordUsage, checkQuota, getDailyUsage,
          estimateTokens, estimateMessagesTokens } from '../services/usage.service.js';
 import { unlink } from 'fs/promises';
@@ -431,7 +433,7 @@ async function readStream(response, send) {
    5. La continuación es transparente para el usuario
    ══════════════════════════════════════════════════════════════════ */
 export async function sendMessageStream(req, res) {
-  const { conversation_id, content, file_name, file_content } = req.body;
+  const { conversation_id, content, file_name, file_content, image, imageAction } = req.body;
 
   if (!content?.trim()) {
     return res.status(HTTP_STATUS.BAD_REQUEST).json({ ok: false, message: 'El mensaje no puede estar vacío' });
@@ -469,13 +471,99 @@ export async function sendMessageStream(req, res) {
     convId = prepared.convId;
     const streamT1 = Date.now();
 
+    // ── Imagen adjunta: convertir último mensaje a formato multimodal ──
+    const hasImage = image && typeof image === 'string' && image.startsWith('data:image/');
+    let modelOverride = null;
+
+    if (hasImage) {
+      modelOverride = 'deepseek-flash'; // Solo Flash soporta visión
+      const lastUserIdx = prepared.messages.map(m => m.role).lastIndexOf('user');
+      if (lastUserIdx >= 0) {
+        const textContent = prepared.messages[lastUserIdx].content || content;
+        prepared.messages[lastUserIdx] = {
+          role: 'user',
+          content: [
+            {
+              type: 'image_url',
+              image_url: { url: image },
+            },
+            {
+              type: 'text',
+              text: textContent || 'Analizá esta imagen.',
+            },
+          ],
+        };
+        logger.info(`[image] Imagen adjunta detectada, forzando modelo deepseek-flash`);
+      }
+    }
+
     const promptEstimate = estimateMessagesTokens(prepared.messages);
 
     send('start', { conversation_id: convId });
 
+    // ── Edición programática con Sharp (Fase 3) ──
+    if (hasImage && imageAction === 'edit') {
+      const sharpOps = detectSharpOps(content);
+      if (sharpOps.length > 0) {
+        logger.info(`[sharp] Operaciones detectadas: ${sharpOps.join(', ')} — prompt: "${content.slice(0, 80)}"`);
+        send('generating_image', { generating_image: true, message: 'Ajustando imagen...' });
+
+        try {
+          const result = await applySharpOps(image, content, sharpOps);
+          const responseText = `🔧 Imagen ajustada: ${result.opsApplied.join(', ')}`;
+          await saveResponse(convId, responseText, 'sharp', 0, content);
+
+          send('done', {
+            conversation_id: convId,
+            provider: 'sharp',
+            full_content: responseText,
+            finish_reason: 'stop',
+            editedImage: result.base64,
+            usage: { prompt_tokens: 0, completion_tokens: 0, total_tokens: 0 },
+          });
+        } catch (err) {
+          logger.error(`[sharp] Error: ${err.message}`);
+          send('error', { message: `No se pudo ajustar la imagen: ${err.message}` });
+        } finally {
+          clearInterval(heartbeat);
+          return res.end();
+        }
+      }
+    }
+
+    // ── Edición de imagen con Pollinations kontext (Fase 2) ──
+    if (hasImage && imageAction === 'edit') {
+      logger.info(`[pollinations] Edición de imagen solicitada — prompt: "${content.slice(0, 80)}"`);
+      send('generating_image', { generating_image: true, message: 'Editando imagen con IA, esperá unos segundos...' });
+
+      try {
+        const result = await transformImage(image, content);
+        logger.info(`[pollinations] Imagen editada OK — ${result.contentType}`);
+
+        // Guardar un texto descriptivo como respuesta en la conversación
+        const responseText = `✨ Imagen editada según tu instrucción: "${content.slice(0, 100)}"`;
+        await saveResponse(convId, responseText, 'pollinations-kontext', 0, content);
+
+        send('done', {
+          conversation_id: convId,
+          provider: 'pollinations-kontext',
+          full_content: responseText,
+          finish_reason: 'stop',
+          editedImage: result.base64,
+          usage: { prompt_tokens: 0, completion_tokens: 0, total_tokens: 0 },
+        });
+      } catch (err) {
+        logger.error(`[pollinations] Error: ${err.message}`);
+        send('error', { message: `No se pudo editar la imagen: ${err.message}` });
+      } finally {
+        clearInterval(heartbeat);
+        return res.end();
+      }
+    }
+
     // ── Generación de imagen (después del start para que el usuario vea la animación) ──
     if (isImageGenQuery(content) && !prepared.generatedImage) {
-      send('generating_image', { message: 'Generando imagen, esperá unos segundos...' });
+      send('generating_image', { generating_image: true, message: 'Generando imagen, esperá unos segundos...' });
       try {
         const result = await generateImage(content);
         if (result?.imageUrl) {
@@ -492,7 +580,7 @@ export async function sendMessageStream(req, res) {
     }
 
     // ── Primera generación ──
-    const { response, provider: prov } = await chatStream(prepared.messages, planConfig);
+    const { response, provider: prov } = await chatStream(prepared.messages, planConfig, modelOverride);
     provider = prov;
     const streamT2 = Date.now();
 
@@ -539,7 +627,7 @@ export async function sendMessageStream(req, res) {
       ];
 
       try {
-        const { response: contResp } = await chatStream(contMessages, planConfig);
+        const { response: contResp } = await chatStream(contMessages, planConfig, modelOverride);
         result = await readStream(contResp, send);
         fullContent += result.contentDelta;
         totalCompletionTokens += result.completionTokens || estimateTokens(result.contentDelta);

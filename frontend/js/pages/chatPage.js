@@ -16,6 +16,9 @@ import {
   setInputLoading,
   getAttachedFile,
   clearAttachedFile,
+  getAttachedImage,
+  clearAttachedImage,
+  getImageAction,
 } from '../components/inputBar.js';
 import {
   renderChatWindow,
@@ -35,6 +38,21 @@ import {
   toggleSidebar
 } from '../modules/sidebarResize.js';
 import { renderMessageHtml, highlightCodeBlocks } from '../utils/messageFormat.js';
+
+/**
+ * Auto-detecta si el usuario quiere editar la imagen según su prompt.
+ * Si el toggle ya está en 'edit', respeta eso. Si está en 'analyze' pero
+ * el texto sugiere transformación, devuelve 'edit' automáticamente.
+ */
+const EDIT_PATTERNS = /\b(haz(?:la|lo|me)?|convier(?:te|tí)|cambia(?:le|la)?|ponele?|transforma|modifica|edit[aá]|quit[aá]|agreg[aá]|añad[eí]|remplaz[aá]|blanco\s*y\s*negro|sepia|invertí?|rot[aá]|gir[aá]|recort[aá]|oscurec[eé]|aclar[aá]|blur|desenfoc[aá]|pixe?l[aá]|escala\s*de\s*grises|redimension|resize|escal[aá]|nítid|sharpen|enfoc[aá]|espej[ao]|mirror|flip|voltear?|marca\s*de\s*agua|watermark|negativ|brill[oa]|bright|contrast|satur|crop|trim|reduc[ií]|achic[aá]|agrand[aá]|ampli[aá]|más\s*(?:chica|grande|pequeñ)|make\s*it|turn\s*it|change|convert|add|remove)|\d{1,3}\s*%/i;
+
+function resolveImageAction(promptText) {
+  const manualAction = getImageAction();
+  if (manualAction === 'edit') return 'edit';
+  // Auto-detectar intención de edición
+  if (EDIT_PATTERNS.test(promptText)) return 'edit';
+  return manualAction; // 'analyze' por defecto
+}
 
 window.__guyunusa__ = { EventBus, store };
 
@@ -96,7 +114,7 @@ function mountFooter() {
       <span class="c-footer__sep">·</span>
       <span>Desarrollado por: Willans Junes —
         <a class="c-footer__link" href="https://www.algoritmos.uy"
-           target="_blank" rel="noopener noreferrer">www.algoritmos.uy</a>
+        target="_blank" rel="noopener noreferrer">www.algoritmos.uy</a>
       </span>
     </footer>`;
 }
@@ -185,12 +203,19 @@ async function onMessageSend(text) {
   if (store.get('loading')) return;
   await vibrate('light');
 
-  // Leer archivo adjunto ANTES de limpiar el input
+  // Leer archivo e imagen adjuntos ANTES de limpiar el input
   const fileData = getAttachedFile();
+  const imageData = getAttachedImage();
 
-  // Mostrar mensaje del usuario (solo el texto, sin el contenido del archivo)
-  const userMsgText = text || (fileData ? `[Archivo: ${fileData.filename}]` : '');
+  // Mostrar mensaje del usuario
+  const userMsgText = text || (imageData ? `[Imagen: ${imageData.filename}]` : (fileData ? `[Archivo: ${fileData.filename}]` : ''));
   appendMessage({ role: 'user', content: userMsgText, created_at: new Date().toISOString() }, store);
+
+  // Si hay imagen, mostrar thumbnail en el mensaje del usuario
+  if (imageData) {
+    injectImagePreviewToLastUserMsg(imageData);
+    clearAttachedImage();
+  }
 
   // Si hay archivo, mostrar chip en el mensaje del usuario
   if (fileData) {
@@ -220,6 +245,8 @@ async function onMessageSend(text) {
     signal: abortCtrl.signal,
     fileName: fileData?.filename || null,
     fileContent: fileData?.content || null,
+    imageData: imageData?.base64 || null,
+    imageAction: imageData ? resolveImageAction(text) : null,
 
     onStart: (_convId) => { },
 
@@ -287,7 +314,7 @@ async function onMessageSend(text) {
         evt.images.forEach(img => {
           const cleanTitle = (img.title || '').replace(/[<>"]/g, '');
           const thumbUrl = img.thumbnail || img.url;
-          const fullUrl  = img.url || img.thumbnail;
+          const fullUrl = img.url || img.thumbnail;
           imgContainer.innerHTML += `
             <a href="${fullUrl}" target="_blank" rel="noopener noreferrer"
                class="c-media-image" title="${cleanTitle}">
@@ -349,6 +376,53 @@ async function onMessageSend(text) {
         insertAfter.parentNode?.insertBefore(genContainer, insertAfter.nextSibling);
       }
 
+      // Imagen editada con Pollinations kontext (Fase 2)
+      if (evt?.editedImage && streamRef?.bubbleEl) {
+        // Remover indicador de carga
+        document.getElementById('imagegen-indicator')?.remove();
+        const editContainer = document.createElement('div');
+        editContainer.className = 'c-media-generated';
+        editContainer.innerHTML = `
+          <div class="c-media-generated__wrap">
+            <img src="${evt.editedImage}" alt="Imagen editada por Guyunusa"
+                 class="c-media-generated__img" loading="lazy"/>
+            <span class="c-media-generated__badge">✨ Editada por IA</span>
+          </div>
+          <div class="c-media-generated__actions">
+            <button class="c-media-generated__btn" data-action="download" title="Descargar imagen"
+                    style="color:var(--text-secondary, #a89e8e)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span>Descargar</span>
+            </button>
+          </div>`;
+
+        // Handler de descarga
+        editContainer.querySelector('[data-action="download"]')?.addEventListener('click', async () => {
+          try {
+            const resp = await fetch(evt.editedImage);
+            const blob = await resp.blob();
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'guyunusa-editada-' + Date.now() + '.png';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+          } catch {
+            window.open(evt.editedImage, '_blank');
+          }
+        });
+        let editInsertAfter = streamRef.bubbleEl;
+        if (editInsertAfter.nextSibling?.classList?.contains('c-media-videos')) editInsertAfter = editInsertAfter.nextSibling;
+        if (editInsertAfter.nextSibling?.classList?.contains('c-media-images')) editInsertAfter = editInsertAfter.nextSibling;
+        editInsertAfter.parentNode?.insertBefore(editContainer, editInsertAfter.nextSibling);
+      }
+
       // Si había archivo y la respuesta contiene código → botón de descarga
       if (fileData) {
         addDownloadButtonIfCodePresent(streamRef, fileData.filename);
@@ -402,6 +476,21 @@ function injectFileChipToLastUserMsg(fileData) {
     <span>${escHTML(fileData.filename)}</span>
   `;
   bubble.appendChild(chip);
+}
+
+function injectImagePreviewToLastUserMsg(imageData) {
+  const msgs = document.querySelectorAll('.c-message--user .c-message__bubble');
+  const bubble = msgs[msgs.length - 1];
+  if (!bubble) return;
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'c-message__image-preview';
+  const img = document.createElement('img');
+  img.src = imageData.base64;
+  img.alt = imageData.filename || 'Imagen adjunta';
+  img.className = 'c-message__image-thumb';
+  wrapper.appendChild(img);
+  bubble.appendChild(wrapper);
 }
 
 /**

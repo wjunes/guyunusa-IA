@@ -270,3 +270,99 @@
   color: var(--accent);
   background: var(--accent-bg);
 }
+
+/* ══════════════════════════════════════════════════════════
+   PREVIEW DE IMAGEN ADJUNTA (debajo del wrap, en inputBar)
+   ══════════════════════════════════════════════════════════ */
+.c-input-bar__image-row {
+  padding: 6px 4px 2px;
+}
+
+.c-input-bar__image-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 4px 8px 4px 4px;
+  max-width: 100%;
+}
+
+.c-input-bar__image-thumb {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.c-input-bar__image-name {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--text-secondary);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ══════════════════════════════════════════════════════════
+   PREVIEW DE IMAGEN EN EL MENSAJE DEL USUARIO (burbuja)
+   ══════════════════════════════════════════════════════════ */
+.c-message__image-preview {
+  margin-top: 8px;
+}
+
+.c-message__image-thumb {
+  max-width: 220px;
+  max-height: 180px;
+  border-radius: var(--radius-md);
+  object-fit: contain;
+  cursor: pointer;
+  transition: opacity 150ms;
+}
+.c-message__image-thumb:hover {
+  opacity: 0.85;
+}
+
+/* ══════════════════════════════════════════════════════════
+   TOGGLE ANALIZAR / EDITAR (Fase 2 — kontext)
+   ══════════════════════════════════════════════════════════ */
+.c-input-bar__image-action-toggle {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.c-input-bar__action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 16px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 150ms, color 150ms;
+  white-space: nowrap;
+}
+.c-input-bar__action-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary, rgba(0,0,0,.05));
+}
+.c-input-bar__action-btn--active {
+  background: var(--accent);
+  color: white;
+}
+.c-input-bar__action-btn--active:hover {
+  background: var(--accent-hover);
+  color: white;
+}

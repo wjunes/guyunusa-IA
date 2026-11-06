@@ -1,0 +1,38 @@
+{
+  "domain": "inteligencia-artificial-uy",
+  "enabled": true,
+  "frequency": "monthly",
+  "tier": 1,
+  "auto_approve_threshold": 90,
+  "review_threshold": 80,
+  "discard_threshold": 55,
+  "topics": [
+    "estrategia nacional inteligencia artificial Uruguay",
+    "AGESIC IA Uruguay",
+    "Instituto Vidart Uruguay Innova SENCI",
+    "investigación académica IA UdelaR InCo PEDECIBA",
+    "empresas startups IA Uruguay",
+    "inteligencia artificial sector público uruguayo",
+    "IA agroindustria ganadería energía Uruguay",
+    "salud digital IA Uruguay CUDIM",
+    "EduIA Lab Ceibal educación IA Uruguay",
+    "formación universitaria IA Uruguay UTEC ORT",
+    "inversión financiación ecosistema IA Uruguay",
+    "marco regulatorio IA Uruguay Ley 20212 Decreto 276025",
+    "ética transparencia algorítmica Uruguay",
+    "soberanía tecnológica IA Uruguay ROUBERTa",
+    "gobernanza global IA Uruguay GPAI UNESCO OCDE"
+  ],
+  "sources": [
+    {"name": "AGESIC - Estrategia Nacional IA 2024-2030", "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento", "type": "gobierno"},
+    {"name": "IMPO - Ley 20.212", "url": "https://www.impo.com.uy/bases/leyes/20212-2022", "type": "legislacion"},
+    {"name": "IMPO - Decreto 276/025", "url": "https://www.impo.com.uy/bases/decretos/276-2025", "type": "legislacion"},
+    {"name": "AGESIC - Relevamiento casos IA en el Estado 2024", "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/relevamiento-casos-uso-aplicacion-inteligencia-artificial-estado-2", "type": "informe"},
+    {"name": "Ceibal - EduIA Lab", "url": "https://www.ceibal.edu.uy", "type": "educacion"},
+    {"name": "URCDP - Protección de datos personales", "url": "https://www.urcdp.gub.uy", "type": "gobierno"},
+    {"name": "ANII - Proyectos de innovación", "url": "https://www.anii.org.uy", "type": "innovacion"},
+    {"name": "UTEC - Posgrados IA", "url": "https://www.utec.edu.uy", "type": "educacion"},
+    {"name": "Uruguay XXI - Ecosistema tech", "url": "https://www.uruguayxxi.gub.uy", "type": "gobierno"},
+    {"name": "CUTI - Sector tecnológico uruguayo", "url": "https://www.cuti.org.uy", "type": "sector_privado"}
+  ]
+}

@@ -25,12 +25,12 @@ const DEEPSEEK = {
  * @param {object}  planConfig — configuración del plan del usuario
  * @returns {Response}
  */
-async function callDeepSeek(messages, stream = false, planConfig = null) {
+async function callDeepSeek(messages, stream = false, planConfig = null, modelOverride = null) {
   const apiKey = DEEPSEEK.apiKey();
   if (!apiKey) throw new Error('DEEPSEEK_API_KEY no configurada');
 
   const baseURL = DEEPSEEK.baseURL();
-  const model   = DEEPSEEK.model();
+  const model   = modelOverride || DEEPSEEK.model();
   const config  = planConfig || getPlanConfig('free');
 
   const body = {
@@ -84,10 +84,10 @@ async function callDeepSeek(messages, stream = false, planConfig = null) {
 /**
  * chat — Respuesta completa sin streaming (fallback).
  */
-export async function chat(messages, planConfig = null) {
+export async function chat(messages, planConfig = null, modelOverride = null) {
   try {
-    logger.info('Chat desde: deepseek');
-    const response = await callDeepSeek(messages, false, planConfig);
+    logger.info(`Chat desde: deepseek (modelo: ${modelOverride || 'default'})`);
+    const response = await callDeepSeek(messages, false, planConfig, modelOverride);
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content ?? '';
     const usage = data.usage || {};
@@ -111,10 +111,10 @@ export async function chat(messages, planConfig = null) {
  * chatStream — Inicia streaming con DeepSeek.
  * Devuelve la respuesta fetch para que el controller la lea chunk a chunk.
  */
-export async function chatStream(messages, planConfig = null) {
+export async function chatStream(messages, planConfig = null, modelOverride = null) {
   try {
-    logger.info('Streaming desde: deepseek');
-    const response = await callDeepSeek(messages, true, planConfig);
+    logger.info(`Streaming desde: deepseek (modelo: ${modelOverride || 'default'})`);
+    const response = await callDeepSeek(messages, true, planConfig, modelOverride);
     return { response, provider: 'deepseek' };
   } catch (err) {
     logger.error(`Stream deepseek falló: ${err.message}`);

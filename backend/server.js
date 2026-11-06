@@ -82,7 +82,7 @@ async function main() {
     credentials: true,
   }));
 
-  app.use(express.json({ limit: '1mb' }));
+  app.use(express.json({ limit: '12mb' }));
 
   // ── Garantizar que TODAS las respuestas API sean JSON ──
   app.use('/api', (_req, res, next) => {

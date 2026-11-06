@@ -25,6 +25,8 @@ export async function sendMessageStream(content, conversationId, store, {
   signal        = null,
   fileName      = null,
   fileContent   = null,
+  imageData     = null,       // base64 data URI de imagen adjunta
+  imageAction   = null,       // 'analyze' | 'edit' — acción para imagen adjunta
 } = {}) {
   store.set('loading', true);
 
@@ -48,6 +50,10 @@ export async function sendMessageStream(content, conversationId, store, {
     if (fileName && fileContent) {
       body.file_name    = fileName;
       body.file_content = fileContent;
+    }
+    if (imageData) {
+      body.image = imageData;
+      if (imageAction) body.imageAction = imageAction;
     }
 
     const res = await fetch(`${base}/chat/stream`, {
